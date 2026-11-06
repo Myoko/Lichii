@@ -5,3 +5,7 @@ dist/languages/* linguist-vendored
 dist/qt_themes/* linguist-vendored
 externals/* linguist-vendored
 *.h linguist-language=cpp
+# zh_CN.ts carries this fork's own Chinese UI strings; merge it message by
+# message (i18n-tools/ts_merge_driver.ps1) instead of by hunks so an upstream
+# update never replaces an existing translation, and keep the bytes as-is.
+dist/languages/*.ts merge=lichii-ts -text

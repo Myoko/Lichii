@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="14"/>
-        <source>About Eden</source>
-        <translation>关于 Eden</translation>
+        <source>About Lichii</source>
+        <translation>关于 Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="72"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="85"/>
@@ -42,8 +42,30 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="147"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Eden is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; 是任天堂的注册商标。Eden 与任天堂没有任何关系。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Lichii is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; 是任天堂的注册商标。Lichii 与任天堂没有任何关系。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Lichii is an experimental open-source emulator for the Nintendo Switch 2, based on Eglantine and Eden. &lt;br /&gt;&lt;br /&gt;This software should not be used to play games you have not legally obtained.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Lichii 是一款实验性的开源 Nintendo Switch 2 模拟器，基于 Eglantine 与 Eden 开发。&lt;br /&gt;&lt;br /&gt;请不要用本软件运行你未通过合法途径获得的游戏。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;源代码&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;报告问题&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -736,22 +758,22 @@ Aggressive mode may impact performance of other applications such as recording s
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="198"/>
         <source>GPU Readback Before NCE Invalidation</source>
-        <translation type="unfinished"/>
+        <translation>NCE 失效前回读 GPU 数据</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="199"/>
         <source>Flushes GPU buffer data back to guest memory before NCE invalidates the whole guest page, preserving it while the CPU store proceeds.</source>
-        <translation type="unfinished"/>
+        <translation>在 NCE 使整个 Guest 页面失效之前，把 GPU 缓冲区数据写回 Guest 内存，从而在 CPU 的存储操作继续进行时保留这些数据。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="202"/>
         <source>Patch Runtime NROs for NCE</source>
-        <translation type="unfinished"/>
+        <translation>为 NCE 修补运行时加载的 NRO</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="203"/>
         <source>Applies NCE code patches to runtime-loaded NRO modules.This is required for some games to run correctly.</source>
-        <translation type="unfinished"/>
+        <translation>对运行时加载的 NRO 模块应用 NCE 代码补丁。某些游戏需要此功能才能正常运行。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="205"/>
@@ -854,7 +876,11 @@ Immediate is the fastest option, but can introduce some issues.
 Balanced offers better compatibility and may fix issues in some games.
 Accurate further improves compatibility at the cost of some performance.
 Default follows the GPU Mode setting.</source>
-        <translation type="unfinished"/>
+        <translation>控制 GPU 栅栏同步的行为。
+Immediate 是最快的选项，但可能引入一些问题。
+Balanced 提供更好的兼容性，并可能修复某些游戏中的问题。
+Accurate 以一部分性能为代价进一步提高兼容性。
+Default 跟随 GPU 模式的设置。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/shared_translation.cpp" line="238"/>
@@ -2158,6 +2184,106 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <source>Grid View</source>
         <translation>网格视图</translation>
     </message>
+    <message>
+        <source>Use the game&apos;s own DLSS</source>
+        <translation>使用游戏自带的 DLSS</translation>
+    </message>
+    <message>
+        <source>Runs a Switch 2 game&apos;s own DLSS (its upscaling network, translated for this GPU) instead of AMD FSR 3.1 in its place.
+AMD FSR 3.1 still draws while the network is checked, when it can&apos;t run on this GPU, with resolution scaling, and for the rest of the session if its output fails Lichii&apos;s checks.
+Takes effect when a game starts.</source>
+        <translation>运行 Switch 2 游戏自带的 DLSS（它自己的超分网络，已针对本 GPU 转译），而不是用 AMD FSR 3.1 替代。
+在检查网络期间、网络无法在本 GPU 上运行时、使用分辨率缩放时，以及网络输出未通过 Lichii 校验的剩余会话时间内，仍由 AMD FSR 3.1 负责绘制。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>RCAS Sharpness:</source>
+        <translation>RCAS 锐化度：</translation>
+    </message>
+    <message>
+        <source>Strength of RCAS (AMD&apos;s contrast-adaptive sharpening) on the upscaler used in place of a game&apos;s DLSS (AMD FSR 3.1); 0% turns it off.
+Also sets the sharpening of the AMD FSR 1 and SGSR window adapting filters.</source>
+        <translation>替代游戏 DLSS 的超分器（AMD FSR 3.1）所用的 RCAS（AMD 对比度自适应锐化）强度；0% 表示关闭。
+同时决定 AMD FSR 1 与 SGSR 窗口自适应滤镜的锐化程度。</translation>
+    </message>
+    <message>
+        <source>Use NVIDIA DLSS in place of a game&apos;s DLSS (experimental)</source>
+        <translation>用 NVIDIA DLSS 替代游戏自带的 DLSS（实验性）</translation>
+    </message>
+    <message>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
+Currently requires Fire Emblem: Fortune&apos;s Weave and EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
+目前需要《Fire Emblem: Fortune&apos;s Weave》并设置 EDEN_NX2_DLSS_REPLACEMENT=dlss。没有该覆盖设置时，仍使用其空间超分替代方案。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Enable Frame Generation</source>
+        <translation>启用帧生成</translation>
+    </message>
+    <message>
+        <source>Frame Generation Type</source>
+        <translation>帧生成类型</translation>
+    </message>
+    <message>
+        <source>Frame Generation Multiplier</source>
+        <translation>帧生成倍率</translation>
+    </message>
+    <message>
+        <source>Target Frame Rate</source>
+        <translation>目标帧率</translation>
+    </message>
+    <message>
+        <source>Auto Flow Scale</source>
+        <translation>自动光流缩放</translation>
+    </message>
+    <message>
+        <source>Flow Scale</source>
+        <translation>光流缩放</translation>
+    </message>
+    <message>
+        <source>Queue Target</source>
+        <translation>队列目标</translation>
+    </message>
+    <message>
+        <source>Dump Optical Flow</source>
+        <translation>导出光流</translation>
+    </message>
+    <message>
+        <source>Mario Kart World: 30 FPS mode</source>
+        <translation>马力欧卡丁车世界：30 FPS 模式</translation>
+    </message>
+    <message>
+        <source>Forces the game to use its native 30 FPS mode at normal game speed. Takes effect after restarting the game.</source>
+        <translation>强制游戏以原生 30 FPS 模式运行并保持正常游戏速度。重启游戏后生效。</translation>
+    </message>
+    <message>
+        <source>Mario Kart World: dynamic FPS (experimental)</source>
+        <translation>马力欧卡丁车世界：动态帧率（实验性）</translation>
+    </message>
+    <message>
+        <source>Lets the game adjust between 30 and 60 FPS using whole-frame timing to maintain normal game speed. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
+        <translation>允许游戏在 30 与 60 FPS 之间调整，通过整帧计时保持正常游戏速度。重启游戏后生效，优先于 30 FPS 模式。</translation>
+    </message>
+    <message>
+        <source>Lossless Scaling (LSFG)</source>
+        <translation>无损缩放 (LSFG)</translation>
+    </message>
+    <message>
+        <source>Optical Flow Interpolation (built-in)</source>
+        <translation>光流插帧（内置）</translation>
+    </message>
+    <message>
+        <source>AMD FidelityFX Super Resolution 1 (FSR 1)</source>
+        <translation>AMD FidelityFX 超级分辨率 1 (FSR 1)</translation>
+    </message>
+    <message>
+        <source>AMD FidelityFX Super Resolution 1, softer sharpening</source>
+        <translation>AMD FidelityFX 超级分辨率 1（更柔和的锐化）</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -2805,8 +2931,8 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_debug.ui" line="787"/>
-        <source>**This will be reset automatically when Eden closes.</source>
-        <translation>**这会在 Eden 关闭时自动重置。</translation>
+        <source>**This will be reset automatically when Lichii closes.</source>
+        <translation>**这会在 Lichii 关闭时自动重置。</translation>
     </message>
 </context>
 <context>
@@ -2850,8 +2976,8 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
     <name>ConfigureDialog</name>
     <message>
         <location filename="../../src/yuzu/configuration/configure.ui" line="20"/>
-        <source>Eden Configuration</source>
-        <translation>Eden 设置</translation>
+        <source>Lichii Configuration</source>
+        <translation>Lichii 设置</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure.ui" line="67"/>
@@ -3202,8 +3328,8 @@ Would you like to delete the old save data?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_general.cpp" line="101"/>
-        <source>Eden</source>
-        <translation>Eden</translation>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_general.cpp" line="102"/>
@@ -3763,8 +3889,8 @@ Would you like to delete the old save data?</source>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2659"/>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2701"/>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2717"/>
-        <source>Requires restarting Eden</source>
-        <translation>需要重启 Eden</translation>
+        <source>Requires restarting Lichii</source>
+        <translation>需要重启 Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2668"/>
@@ -4481,8 +4607,8 @@ To invert the axes, first move your joystick vertically, and then horizontally.<
         <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="180"/>
         <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="186"/>
         <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="280"/>
-        <source>Eden</source>
-        <translation>Eden</translation>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="166"/>
@@ -4778,6 +4904,76 @@ Current values are %1% and %2% respectively.</source>
         <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="90"/>
         <source>Properties</source>
         <translation>属性</translation>
+    </message>
+    <message>
+        <source>Detect Icon</source>
+        <translation>检测图标</translation>
+    </message>
+    <message>
+        <source>Enter game name...</source>
+        <translation>输入游戏名称...</translation>
+    </message>
+    <message>
+        <source>Edit the game name stored in the NUP metadata</source>
+        <translation>编辑 NUP 元数据中保存的游戏名称</translation>
+    </message>
+    <message>
+        <source>Select Game Icon</source>
+        <translation>选择游戏图标</translation>
+    </message>
+    <message>
+        <source>Invalid Image</source>
+        <translation>图片无效</translation>
+    </message>
+    <message>
+        <source>Select a PNG, JPEG, BMP or WebP image up to 8 MiB, 8192 pixels per side and 16 megapixels.</source>
+        <translation>请选择 PNG、JPEG、BMP 或 WebP 图片，大小不超过 8 MiB，边长不超过 8192 像素，总像素不超过 1600 万。</translation>
+    </message>
+    <message>
+        <source>Please enter a game name first so the icon can be detected.</source>
+        <translation>请先输入游戏名称，才能检测图标。</translation>
+    </message>
+    <message>
+        <source>The game name is too long to search.</source>
+        <translation>游戏名称太长，无法搜索。</translation>
+    </message>
+    <message>
+        <source>Detecting...</source>
+        <translation>正在检测...</translation>
+    </message>
+    <message>
+        <source>Update NUP Metadata</source>
+        <translation>更新 NUP 元数据</translation>
+    </message>
+    <message>
+        <source>Stop emulation before changing NUP metadata.</source>
+        <translation>修改 NUP 元数据前请先停止模拟。</translation>
+    </message>
+    <message>
+        <source>Failed to update NUP metadata:
+%1</source>
+        <translation>更新 NUP 元数据失败：
+%1</translation>
+    </message>
+    <message>
+        <source>Allow online lookup</source>
+        <translation>允许在线查询</translation>
+    </message>
+    <message>
+        <source>If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.</source>
+        <translation>若找不到本地图标，将游戏名称发送给 GitHub、Wikipedia 和 Bing 以查找图标。默认关闭。</translation>
+    </message>
+    <message>
+        <source>Preview a local icon next to the archive. Online lookup is optional. Apply or OK saves changes.</source>
+        <translation>在归档旁预览本地图标。在线查询是可选项。点击“应用”或“确定”保存更改。</translation>
+    </message>
+    <message>
+        <source>Preview a local image as the game icon. Apply or OK saves changes.</source>
+        <translation>将本地图片预览为游戏图标。点击“应用”或“确定”保存更改。</translation>
+    </message>
+    <message>
+        <source>Upload Icon...</source>
+        <translation>上传图标...</translation>
     </message>
 </context>
 <context>
@@ -5482,8 +5678,8 @@ Drag points to change position, or double-click table cells to edit values.</sou
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="26"/>
-        <source>Warning: The settings in this page affect the inner workings of Eden&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
-        <translation>警告: 此页面中的设置会影响 Eden 模拟触摸屏的内部运行。更改这些设置可能导致不良后果,例如触摸屏部分或完全无法使用。只有在明确知道自己在做什么的情况下才使用此页面。</translation>
+        <source>Warning: The settings in this page affect the inner workings of Lichii&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
+        <translation>警告: 此页面中的设置会影响 Lichii 模拟触摸屏的内部运行。更改这些设置可能导致不良后果,例如触摸屏部分或完全无法使用。只有在明确知道自己在做什么的情况下才使用此页面。</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="52"/>
@@ -5773,8 +5969,8 @@ Drag points to change position, or double-click table cells to edit values.</sou
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_web.ui" line="25"/>
-        <source>Eden Web Service</source>
-        <translation>Eden 网络服务</translation>
+        <source>Lichii Web Service</source>
+        <translation>Lichii 网络服务</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_web.ui" line="33"/>
@@ -5919,18 +6115,18 @@ Drag points to change position, or double-click table cells to edit values.</sou
     <name>DepsDialog</name>
     <message>
         <location filename="../../src/yuzu/deps_dialog.ui" line="14"/>
-        <source>Eden Dependencies</source>
-        <translation>Eden 依赖项</translation>
+        <source>Lichii Dependencies</source>
+        <translation>Lichii 依赖项</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/deps_dialog.ui" line="72"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden 依赖项&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii 依赖项&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/deps_dialog.ui" line="85"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Eden possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;让 Eden 成为可能的项目&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Lichii possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;让 Lichii 成为可能的项目&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/deps_dialog.cpp" line="22"/>
@@ -6125,8 +6321,8 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
     </message>
     <message>
         <location filename="../../src/yuzu/bootmanager.cpp" line="863"/>
-        <source>Eden has not been compiled with OpenGL support.</source>
-        <translation>Eden 尚未编译为支持 OpenGL。</translation>
+        <source>Lichii has not been compiled with OpenGL support.</source>
+        <translation>Lichii 尚未编译为支持 OpenGL。</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/bootmanager.cpp" line="887"/>
@@ -6333,6 +6529,18 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <location filename="../../src/yuzu/game/game_list.cpp" line="643"/>
         <source>Clear</source>
         <translation>清除</translation>
+    </message>
+    <message>
+        <source>Dump NUP...</source>
+        <translation>导出 NUP...</translation>
+    </message>
+    <message>
+        <source>Convert to NUP...</source>
+        <translation>转换为 NUP...</translation>
+    </message>
+    <message>
+        <source>Edit NUP Metadata...</source>
+        <translation>编辑 NUP 元数据...</translation>
     </message>
 </context>
 <context>
@@ -6630,8 +6838,8 @@ Debug Message: </source>
     </message>
     <message>
         <location filename="../../src/qt_common/config/uisettings.cpp" line="45"/>
-        <source>Exit Eden</source>
-        <translation>退出 Eden</translation>
+        <source>Exit Lichii</source>
+        <translation>退出 Lichii</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/uisettings.cpp" line="46"/>
@@ -6737,6 +6945,10 @@ Debug Message: </source>
         <location filename="../../src/qt_common/config/uisettings.cpp" line="66"/>
         <source>Toggle Performance Overlay</source>
         <translation>切换性能覆盖层</translation>
+    </message>
+    <message>
+        <source>Exit Eglantine</source>
+        <translation>退出 Lichii</translation>
     </message>
 </context>
 <context>
@@ -6913,8 +7125,8 @@ Debug Message: </source>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="62"/>
-        <source>Open &amp;Eden Folders</source>
-        <translation>打开 &amp;Eden 文件夹</translation>
+        <source>Open &amp;Lichii Folders</source>
+        <translation>打开 &amp;Lichii 文件夹</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="85"/>
@@ -7054,8 +7266,8 @@ Debug Message: </source>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="295"/>
-        <source>&amp;About Eden</source>
-        <translation>关于 Eden(&amp;A)</translation>
+        <source>&amp;About Lichii</source>
+        <translation>关于 Lichii(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="303"/>
@@ -7266,8 +7478,8 @@ Debug Message: </source>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="558"/>
-        <source>&amp;Eden Dependencies</source>
-        <translation>&amp;Eden 依赖项</translation>
+        <source>&amp;Lichii Dependencies</source>
+        <translation>&amp;Lichii 依赖项</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="563"/>
@@ -8084,8 +8296,8 @@ Would you like to force it for future launches?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4400"/>
-        <source>Restart Eden to apply the X11 backend.</source>
-        <translation>重新启动 Eden 以应用 X11 后端。</translation>
+        <source>Restart Lichii to apply the X11 backend.</source>
+        <translation>重新启动 Lichii 以应用 X11 后端。</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4438"/>
@@ -8114,15 +8326,15 @@ Would you like to force it for future launches?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4519"/>
-        <source>Are you sure you want to close Eden?</source>
-        <translation>您确实要关闭 Eden 吗?</translation>
+        <source>Are you sure you want to close Lichii?</source>
+        <translation>您确实要关闭 Lichii 吗?</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4520"/>
         <location filename="../../src/yuzu/main_window.cpp" line="4608"/>
         <location filename="../../src/yuzu/main_window.cpp" line="4620"/>
-        <source>Eden</source>
-        <translation>Eden</translation>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4609"/>
@@ -8131,10 +8343,10 @@ Would you like to force it for future launches?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4617"/>
-        <source>The currently running application has requested Eden to not exit.
+        <source>The currently running application has requested Lichii to not exit.
 
 Would you like to bypass this and exit anyway?</source>
-        <translation>当前正在运行的应用程序已请求 Eden 不退出。
+        <translation>当前正在运行的应用程序已请求 Lichii 不退出。
 
 您想要绕过并退出吗?</translation>
     </message>
@@ -8267,6 +8479,150 @@ Would you like to bypass this and exit anyway?</source>
         <location filename="../../src/qt_common/config/shared_translation.h" line="78"/>
         <source>Null</source>
         <translation>空</translation>
+    </message>
+    <message>
+        <source>Optical Flow</source>
+        <translation>光流</translation>
+    </message>
+    <message>
+        <source>FSR 1 Soft</source>
+        <translation>FSR 1 柔和</translation>
+    </message>
+    <message>
+        <source>LSFG</source>
+        <translation>LSFG</translation>
+    </message>
+    <message>
+        <source>FSR 1</source>
+        <translation>FSR 1</translation>
+    </message>
+    <message>
+        <source>Conversion in Progress</source>
+        <translation>正在转换</translation>
+    </message>
+    <message>
+        <source>This game cannot be started while its dump is being converted.</source>
+        <translation>该游戏的转储正在转换，无法启动。</translation>
+    </message>
+    <message>
+        <source>Recommended Mario Kart World settings</source>
+        <translation>推荐的《马力欧卡丁车世界》设置</translation>
+    </message>
+    <message>
+        <source>Use the recommended settings for Mario Kart World?
+
+Vulkan, 1x resolution, GPU Fast, asynchronous shaders, BC3, conservative VRAM, reactive flushing off, FIFO Relaxed VSync, handheld mode, ScaleForce, and FXAA.
+
+They apply to Mario Kart World until Lichii is closed. Your saved settings are not changed.</source>
+        <translation>要对《马力欧卡丁车世界》使用推荐设置吗？
+
+Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、关闭 reactive flushing、FIFO Relaxed 垂直同步、掌机模式、ScaleForce 以及 FXAA。
+
+这些设置会对《马力欧卡丁车世界》生效，直到 Lichii 关闭；你已保存的设置不会被修改。</translation>
+    </message>
+    <message>
+        <source>Preparing game files...</source>
+        <translation>正在准备游戏文件...</translation>
+    </message>
+    <message>
+        <source>Unable to prepare game files</source>
+        <translation>无法准备游戏文件</translation>
+    </message>
+    <message>
+        <source>Game preparation failed. See the log for details.</source>
+        <translation>游戏文件准备失败，详情请查看日志。</translation>
+    </message>
+    <message>
+        <source>Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp *.nsz);;NX Cartridge Image (*.xci *.xcz)</source>
+        <translation>可安装的 Switch 文件 (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo 内容归档 (*.nca);;Nintendo 提交包 (*.nsp *.nsz);;NX 卡带镜像 (*.xci *.xcz)</translation>
+    </message>
+    <message>
+        <source>Convert to NUP</source>
+        <translation>转换为 NUP</translation>
+    </message>
+    <message>
+        <source>The target archive already exists:
+%1</source>
+        <translation>目标归档已存在：
+%1</translation>
+    </message>
+    <message>
+        <source>Resume Conversion</source>
+        <translation>继续转换</translation>
+    </message>
+    <message>
+        <source>Resume the interrupted conversion?</source>
+        <translation>要继续上次中断的转换吗？</translation>
+    </message>
+    <message>
+        <source>Converting to NUP</source>
+        <translation>正在转换为 NUP</translation>
+    </message>
+    <message>
+        <source>Conversion Complete</source>
+        <translation>转换完成</translation>
+    </message>
+    <message>
+        <source>The NUP was created and the loose folder was removed.</source>
+        <translation>NUP 已创建，解包文件夹已删除。</translation>
+    </message>
+    <message>
+        <source>The NUP was created. You can delete the loose folder if you no longer need it.</source>
+        <translation>NUP 已创建。如果不再需要解包文件夹，可以将其删除。</translation>
+    </message>
+    <message>
+        <source>Conversion Cancelled</source>
+        <translation>转换已取消</translation>
+    </message>
+    <message>
+        <source>The conversion can be resumed by choosing Convert to NUP again.</source>
+        <translation>再次选择“转换为 NUP”即可继续这次转换。</translation>
+    </message>
+    <message>
+        <source>Conversion Failed</source>
+        <translation>转换失败</translation>
+    </message>
+    <message>
+        <source>Extract NUP</source>
+        <translation>提取 NUP</translation>
+    </message>
+    <message>
+        <source>The target directory already exists:
+%1</source>
+        <translation>目标目录已存在：
+%1</translation>
+    </message>
+    <message>
+        <source>Extracting NUP</source>
+        <translation>正在提取 NUP</translation>
+    </message>
+    <message>
+        <source>Extraction Complete</source>
+        <translation>提取完成</translation>
+    </message>
+    <message>
+        <source>The NUP was extracted. You can delete the NUP file if you no longer need it.</source>
+        <translation>NUP 已提取。如果不再需要 NUP 文件，可以将其删除。</translation>
+    </message>
+    <message>
+        <source>Extraction Failed</source>
+        <translation>提取失败</translation>
+    </message>
+    <message>
+        <source>Editing NUP Metadata</source>
+        <translation>正在编辑 NUP 元数据</translation>
+    </message>
+    <message>
+        <source>Edit Complete</source>
+        <translation>编辑完成</translation>
+    </message>
+    <message>
+        <source>The NUP metadata was updated.</source>
+        <translation>NUP 元数据已更新。</translation>
+    </message>
+    <message>
+        <source>Edit Failed</source>
+        <translation>编辑失败</translation>
     </message>
 </context>
 <context>
@@ -8474,8 +8830,8 @@ Proceed anyway?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="60"/>
-        <source>Eden</source>
-        <translation>Eden</translation>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="70"/>
@@ -9208,6 +9564,26 @@ p, li { white-space: pre-wrap; }
         <location filename="../../src/qt_common/game_list/game_list_p.h" line="376"/>
         <source>Favorites</source>
         <translation>收藏</translation>
+    </message>
+    <message>
+        <source>%1 (update)</source>
+        <translation>%1（更新）</translation>
+    </message>
+    <message>
+        <source>Citron</source>
+        <translation>Citron</translation>
+    </message>
+    <message>
+        <source>Sudachi</source>
+        <translation>Sudachi</translation>
+    </message>
+    <message>
+        <source>Suyu</source>
+        <translation>Suyu</translation>
+    </message>
+    <message>
+        <source>Yuzu</source>
+        <translation>Yuzu</translation>
     </message>
 </context>
 <context>
@@ -10583,17 +10959,17 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../../src/yuzu/ryujinx_dialog.ui" line="26"/>
-        <source>Linking save data to Ryujinx lets both Ryujinx and Eden reference the same save files for your games.
+        <source>Linking save data to Ryujinx lets both Ryujinx and Lichii reference the same save files for your games.
 
-By selecting &quot;From Eden&quot;, previous save data stored in Ryujinx will be deleted, and vice versa for &quot;From Ryujinx&quot;.</source>
-        <translation>将存档数据链接到 Ryujinx 可以使 Ryujinx 和 Eden 都能引用相同的游戏存档文件。
+By selecting &quot;From Lichii&quot;, previous save data stored in Ryujinx will be deleted, and vice versa for &quot;From Ryujinx&quot;.</source>
+        <translation>将存档数据链接到 Ryujinx 可以使 Ryujinx 和 Lichii 都能引用相同的游戏存档文件。
 
-选择 “来自 Eden” 时，Ryujinx 中存储的上一个保存数据将被删除,反之选择“从 Ryujinx 开始”时亦然。</translation>
+选择 “来自 Lichii” 时，Ryujinx 中存储的上一个保存数据将被删除,反之选择“从 Ryujinx 开始”时亦然。</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/ryujinx_dialog.ui" line="40"/>
-        <source>From Eden</source>
-        <translation>来自 Eden</translation>
+        <source>From Lichii</source>
+        <translation>来自 Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/ryujinx_dialog.ui" line="47"/>
@@ -10744,6 +11120,324 @@ Error code: %3</source>
         <location filename="../../src/yuzu/updater/update_dialog.cpp" line="173"/>
         <source>Successfully downloaded %1. Would you like to open it?</source>
         <translation>已成功下载 %1。您要打开它吗?</translation>
+    </message>
+    <message>
+        <source>&lt;a href=&quot;%1&quot;&gt;View on GitHub&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%1&quot;&gt;在 GitHub 上查看&lt;/a&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>GameListWorker</name>
+    <message>
+        <source>Not scanned</source>
+        <translation>未扫描</translation>
+    </message>
+    <message>
+        <source>Folder size is not calculated during game discovery.</source>
+        <translation>扫描游戏时不会计算文件夹大小。</translation>
+    </message>
+</context>
+<context>
+    <name>NupEditDialog</name>
+    <message>
+        <source>English (UK)</source>
+        <translation>英语（英国）</translation>
+    </message>
+    <message>
+        <source>Japanese</source>
+        <translation>日语</translation>
+    </message>
+    <message>
+        <source>French (Canada)</source>
+        <translation>法语（加拿大）</translation>
+    </message>
+    <message>
+        <source>French</source>
+        <translation>法语</translation>
+    </message>
+    <message>
+        <source>German</source>
+        <translation>德语</translation>
+    </message>
+    <message>
+        <source>Spanish (Latin America)</source>
+        <translation>西班牙语（拉丁美洲）</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <translation>西班牙语</translation>
+    </message>
+    <message>
+        <source>Italian</source>
+        <translation>意大利语</translation>
+    </message>
+    <message>
+        <source>Dutch</source>
+        <translation>荷兰语</translation>
+    </message>
+    <message>
+        <source>Portuguese (Brazil)</source>
+        <translation>葡萄牙语（巴西）</translation>
+    </message>
+    <message>
+        <source>Portuguese</source>
+        <translation>葡萄牙语</translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <translation>俄语</translation>
+    </message>
+    <message>
+        <source>Korean</source>
+        <translation>韩语</translation>
+    </message>
+    <message>
+        <source>Chinese (Traditional)</source>
+        <translation>中文（繁体）</translation>
+    </message>
+    <message>
+        <source>Chinese (Simplified)</source>
+        <translation>中文（简体）</translation>
+    </message>
+    <message>
+        <source>Edit NUP Metadata</source>
+        <translation>编辑 NUP 元数据</translation>
+    </message>
+    <message>
+        <source>Find Icon Online...</source>
+        <translation>在线查找图标...</translation>
+    </message>
+    <message>
+        <source>Remove Icon</source>
+        <translation>移除图标</translation>
+    </message>
+    <message>
+        <source>Searching...</source>
+        <translation>正在搜索...</translation>
+    </message>
+    <message>
+        <source>Same as Name</source>
+        <translation>与名称相同</translation>
+    </message>
+    <message>
+        <source>Localized names (%1 set)</source>
+        <translation>本地化名称（已设置 %1 个）</translation>
+    </message>
+    <message>
+        <source>Localized names</source>
+        <translation>本地化名称</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;File&lt;/b&gt;&lt;br&gt;%1</source>
+        <translation>&lt;b&gt;文件&lt;/b&gt;&lt;br&gt;%1</translation>
+    </message>
+    <message>
+        <source>Empty fields remove that metadata. The change is written in place; game data is untouched.</source>
+        <translation>留空即删除该元数据。更改会就地写入，不会改动游戏数据。</translation>
+    </message>
+    <message>
+        <source>The icon that was found could not be read.</source>
+        <translation>找到的图标无法读取。</translation>
+    </message>
+    <message>
+        <source>Icon will be removed.</source>
+        <translation>图标将被移除。</translation>
+    </message>
+    <message>
+        <source>Current icon in the NUP.</source>
+        <translation>NUP 中的当前图标。</translation>
+    </message>
+    <message>
+        <source>No icon in the NUP. Add one, or it will have none.</source>
+        <translation>NUP 中没有图标。请添加一个，否则将没有图标。</translation>
+    </message>
+</context>
+<context>
+    <name>IconDropZone</name>
+    <message>
+        <source>Drop an image here or click to browse</source>
+        <translation>把图片拖到这里，或点击选择</translation>
+    </message>
+    <message>
+        <source>Drop to replace</source>
+        <translation>松开以替换</translation>
+    </message>
+    <message>
+        <source>Release to use this image</source>
+        <translation>松开以使用这张图片</translation>
+    </message>
+    <message>
+        <source>Drop an icon here
+or click to browse</source>
+        <translation>把图标拖到这里
+或点击选择</translation>
+    </message>
+</context>
+<context>
+    <name>NupMetadataDialog</name>
+    <message>
+        <source>Choose Icon...</source>
+        <translation>选择图标...</translation>
+    </message>
+    <message>
+        <source>Use Detected</source>
+        <translation>使用检测到的图标</translation>
+    </message>
+    <message>
+        <source>Name shown in the game list</source>
+        <translation>显示在游戏列表中的名称</translation>
+    </message>
+    <message>
+        <source>Publisher shown in the game list</source>
+        <translation>显示在游戏列表中的发行商</translation>
+    </message>
+    <message>
+        <source>Auto-detect (nothing found in the dump)</source>
+        <translation>自动检测（转储中没有找到可用信息）</translation>
+    </message>
+    <message>
+        <source>Auto-detect: %1 (from %2)</source>
+        <translation>自动检测：%1（来自 %2）</translation>
+    </message>
+    <message>
+        <source>Set manually:</source>
+        <translation>手动设置：</translation>
+    </message>
+    <message>
+        <source>e.g. 1.2.0</source>
+        <translation>例如 1.2.0</translation>
+    </message>
+    <message>
+        <source>Publisher</source>
+        <translation>发行商</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Source&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;&lt;b&gt;Target&lt;/b&gt;&lt;br&gt;%2</source>
+        <translation>&lt;b&gt;源&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;&lt;b&gt;目标&lt;/b&gt;&lt;br&gt;%2</translation>
+    </message>
+    <message>
+        <source>Approximate space needed: %1 MB. Free on the target volume: %2 MB.</source>
+        <translation>预计需要约 %1 MB 空间，目标卷可用空间 %2 MB。</translation>
+    </message>
+    <message>
+        <source>Free space is less than the estimate.</source>
+        <translation>可用空间小于预计所需空间。</translation>
+    </message>
+    <message>
+        <source>Low storage: delete the original files as they are packed (cannot be undone)</source>
+        <translation>存储空间不足：打包过程中删除原始文件（无法撤销）</translation>
+    </message>
+    <message>
+        <source>Convert</source>
+        <translation>转换</translation>
+    </message>
+    <message>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
+    </message>
+    <message>
+        <source>That file could not be read as an image.</source>
+        <translation>无法将该文件作为图片读取。</translation>
+    </message>
+    <message>
+        <source>Custom icon, stored as %1x%1 JPEG.</source>
+        <translation>自定义图标，以 %1x%1 的 JPEG 保存。</translation>
+    </message>
+    <message>
+        <source>Icon found in the dump.</source>
+        <translation>在转储中找到了图标。</translation>
+    </message>
+    <message>
+        <source>No icon found in the dump. Add one, or the NUP will have none.</source>
+        <translation>转储中没有找到图标。请添加一个，否则 NUP 将没有图标。</translation>
+    </message>
+    <message>
+        <source>Choose Icon</source>
+        <translation>选择图标</translation>
+    </message>
+    <message>
+        <source>Icon</source>
+        <translation>图标</translation>
+    </message>
+</context>
+<context>
+    <name>NupProgressDialog</name>
+    <message>
+        <source>Preparing...</source>
+        <translation>正在准备...</translation>
+    </message>
+    <message>
+        <source>Cancelling...</source>
+        <translation>正在取消...</translation>
+    </message>
+    <message>
+        <source>%1 / %2 MB  -  %3 / %4 files</source>
+        <translation>%1 / %2 MB  -  %3 / %4 个文件</translation>
+    </message>
+    <message>
+        <source>
+%1 MB/s  -  about %2:%3 left</source>
+        <translation>
+%1 MB/s  -  约剩 %2:%3</translation>
+    </message>
+    <message>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+</context>
+<context>
+    <name>IconSearch</name>
+    <message>
+        <source>Find Icon</source>
+        <translation>查找图标</translation>
+    </message>
+    <message>
+        <source>Please enter a game name first so the icon can be found.</source>
+        <translation>请先输入游戏名称，才能查找图标。</translation>
+    </message>
+    <message>
+        <source>Choose an Icon</source>
+        <translation>选择图标</translation>
+    </message>
+    <message>
+        <source>SteamGridDB has several icons for this game. Pick one:</source>
+        <translation>SteamGridDB 上这个游戏有多个图标，请选择一个：</translation>
+    </message>
+    <message>
+        <source>No matching icon was found on switchiconshowdown.com. A SteamGridDB API key enables a fallback search.</source>
+        <translation>在 switchiconshowdown.com 上没有找到匹配的图标。提供 SteamGridDB API 密钥可启用备用搜索。</translation>
+    </message>
+    <message>
+        <source>SteamGridDB rejected the saved API key.</source>
+        <translation>SteamGridDB 拒绝了已保存的 API 密钥。</translation>
+    </message>
+    <message>
+        <source>Create a free key on the &lt;a href=&quot;%1&quot;&gt;SteamGridDB API preferences&lt;/a&gt; page.</source>
+        <translation>请到 &lt;a href=&quot;%1&quot;&gt;SteamGridDB API 首选项&lt;/a&gt; 页面创建一个免费密钥。</translation>
+    </message>
+    <message>
+        <source>SteamGridDB API Key</source>
+        <translation>SteamGridDB API 密钥</translation>
+    </message>
+    <message>
+        <source>API key</source>
+        <translation>API 密钥</translation>
+    </message>
+    <message>
+        <source>No matching icon was found on switchiconshowdown.com or SteamGridDB. Try a different game name or choose an icon file.</source>
+        <translation>在 switchiconshowdown.com 和 SteamGridDB 上都没有找到匹配的图标。请换一个游戏名称，或选择图标文件。</translation>
+    </message>
+    <message>
+        <source>Searching for an icon took longer than %1 seconds and was stopped. Check your connection and try again.</source>
+        <translation>查找图标超过 %1 秒，已停止。请检查网络后重试。</translation>
+    </message>
+    <message>
+        <source>Could not reach the icon sources (%1). Check your connection and try again.</source>
+        <translation>无法连接图标源（%1）。请检查网络后重试。</translation>
+    </message>
+    <message>
+        <source>Searching for an icon failed unexpectedly: %1</source>
+        <translation>查找图标时发生意外错误：%1</translation>
     </message>
 </context>
 </TS>

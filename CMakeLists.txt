@@ -72,7 +72,9 @@ endif()
 
 # qt stuff
 option(ENABLE_QT "Enable the Qt frontend" ON)
-option(ENABLE_QT_TRANSLATION "Enable translations for the Qt frontend" OFF)
+# ON so the release builds actually embed the .qm files from dist/languages -
+# with this OFF the Qt UI can only ever be English, whatever the .ts says.
+option(ENABLE_QT_TRANSLATION "Enable translations for the Qt frontend" ON)
 option(ENABLE_UPDATE_CHECKER "Enable update checker (for Qt and Android)" OFF)
 set(LICHII_BUILD_TAG "" CACHE STRING "Published build-N release tag; empty for local builds")
 set(LICHII_BUILD_PLATFORM "" CACHE STRING "Release asset platform and variant, such as linux-x86_64-pgo")

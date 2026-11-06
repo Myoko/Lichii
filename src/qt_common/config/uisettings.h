@@ -170,7 +170,10 @@ struct Values {
     bool game_dir_deprecated_deepscan;
     QVector<GameDir> game_dirs;
     QStringList recent_files;
-    Setting<std::string> language{linkage, {}, "language", Category::Paths};
+    // Default to Simplified Chinese: this fork ships a completed zh_CN
+    // translation. Choosing <System> or another language in Settings still
+    // overrides it per user.
+    Setting<std::string> language{linkage, "zh_CN", "language", Category::Paths};
 
     // Optional key that enables the SteamGridDB icon fallback
     Setting<std::string> steamgriddb_api_key{linkage, {}, "steamgriddb_api_key", Category::Ui};
