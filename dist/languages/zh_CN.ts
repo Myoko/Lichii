@@ -5113,6 +5113,10 @@ Current values are %1% and %2% respectively.</source>
         <source>Upload Icon...</source>
         <translation>上传图标...</translation>
     </message>
+    <message>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurePerGameAddons</name>
@@ -6692,6 +6696,10 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <source>Rebuild Shader Precache</source>
         <translation>重新构建着色器预编译缓存</translation>
     </message>
+    <message>
+        <source>Delete Shader Precache</source>
+        <translation>删除着色器预编译缓存</translation>
+    </message>
 </context>
 <context>
     <name>GameListItemCompat</name>
@@ -7178,6 +7186,10 @@ Debug Message: </source>
     <message>
         <source>Precaching shaders %1 / %2</source>
         <translation>正在预编译着色器 %1 / %2</translation>
+    </message>
+    <message>
+        <source>Skip</source>
+        <translation>跳过</translation>
     </message>
 </context>
 <context>
@@ -11653,6 +11665,42 @@ Restart now?</source>
         <source>No icon in the NUP. Add one, or it will have none.</source>
         <translation>NUP 中没有图标。请添加一个，否则将没有图标。</translation>
     </message>
+    <message>
+        <source>Choose Icon...</source>
+        <translation>选择图标...</translation>
+    </message>
+    <message>
+        <source>Choose Icon</source>
+        <translation>选择图标</translation>
+    </message>
+    <message>
+        <source>Custom icon, stored as %1x%1 JPEG.</source>
+        <translation>自定义图标，以 %1x%1 的 JPEG 保存。</translation>
+    </message>
+    <message>
+        <source>Icon</source>
+        <translation>图标</translation>
+    </message>
+    <message>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
+    </message>
+    <message>
+        <source>Name shown in the game list</source>
+        <translation>显示在游戏列表中的名称</translation>
+    </message>
+    <message>
+        <source>Publisher shown in the game list</source>
+        <translation>显示在游戏列表中的发行商</translation>
+    </message>
+    <message>
+        <source>That file could not be read as an image.</source>
+        <translation>无法将该文件作为图片读取。</translation>
+    </message>
+    <message>
+        <source>e.g. 1.2.0</source>
+        <translation>例如 1.2.0</translation>
+    </message>
 </context>
 <context>
     <name>IconDropZone</name>
@@ -11761,6 +11809,10 @@ or click to browse</source>
         <source>Icon</source>
         <translation>图标</translation>
     </message>
+    <message>
+        <source>Convert to NUP</source>
+        <translation>转换为 NUP</translation>
+    </message>
 </context>
 <context>
     <name>NupProgressDialog</name>
@@ -11785,6 +11837,10 @@ or click to browse</source>
     <message>
         <source>%1%</source>
         <translation>%1%</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
@@ -12127,6 +12183,18 @@ or click to browse</source>
         <source>Listening. Speak into your microphone.</source>
         <translation>正在监听。请对着麦克风说话。</translation>
     </message>
+    <message>
+        <source>Microphone</source>
+        <translation>麦克风</translation>
+    </message>
+    <message>
+        <source>Input device:</source>
+        <translation>输入设备：</translation>
+    </message>
+    <message>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
 </context>
 <context>
     <name>ShaderWarmDialog</name>
@@ -12209,6 +12277,10 @@ or click to browse</source>
     <message>
         <source>Close</source>
         <translation>关闭</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
     </message>
 </context>
 </TS>
