@@ -2284,6 +2284,86 @@ Takes effect when a game starts.</source>
         <source>AMD FidelityFX Super Resolution 1, softer sharpening</source>
         <translation>AMD FidelityFX 超级分辨率 1（更柔和的锐化）</translation>
     </message>
+    <message>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
+Fire Emblem: Fortune&apos;s Weave also needs EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
+In The Legend of Zelda: Ocarina of Time it replaces the game&apos;s upscaler at 1x resolution scale.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
+《Fire Emblem: Fortune&apos;s Weave》还需要设置 EDEN_NX2_DLSS_REPLACEMENT=dlss；没有该覆盖设置时，仍使用其空间超分替代方案。
+在《塞尔达传说：时之笛》中，它会在 1 倍分辨率缩放下替代游戏自带的超分器。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Ocarina of Time anti-aliasing:</source>
+        <translation>《时之笛》抗锯齿：</translation>
+    </message>
+    <message>
+        <source>The Legend of Zelda: Ocarina of Time only.
+Game: the game&apos;s own anti-aliasing network, which sharpens heavily.
+No sharpening: the image as the game renders it, without the network (faster; pairs well with a higher resolution). Has no effect while NVIDIA DLSS is on.
+Takes effect when the game starts.</source>
+        <translation>仅适用于《塞尔达传说：时之笛》。
+游戏：使用游戏自带的抗锯齿网络，会带来较强的锐化。
+无锐化：按游戏渲染的原样输出图像，不使用该网络（更快，适合搭配更高分辨率）。在 NVIDIA DLSS 开启时无效。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>FPS Limit</source>
+        <translation>帧率上限</translation>
+    </message>
+    <message>
+        <source>Caps how often the game presents, so the game itself runs at this rate. 0 leaves the frame rate to the game and the display.</source>
+        <translation>限制游戏呈现的频率，使游戏本身按此速率运行。0 表示交给游戏与显示器决定。</translation>
+    </message>
+    <message>
+        <source>Pin GPU threads to their own cores (experimental)</source>
+        <translation>把 GPU 线程绑定到独立核心（实验性）</translation>
+    </message>
+    <message>
+        <source>Pins the emulator&apos;s GPU threads to dedicated physical CPU cores and keeps the emulated CPU cores off them.
+Can hurt performance on CPUs with few cores. Skipped on CPUs with fewer than 6 physical performance cores.
+Windows and Linux only. Takes effect when a game starts.</source>
+        <translation>把模拟器的 GPU 线程固定到专用的物理 CPU 核心，并让模拟的 CPU 核心避开这些核。
+在核心较少的 CPU 上可能影响性能。物理性能核少于 6 个的 CPU 会跳过此设置。
+仅限 Windows 和 Linux。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Switch 2 draws with unbuilt pipelines:</source>
+        <translation>Switch 2 遇到管线尚未构建完成时的绘制：</translation>
+    </message>
+    <message>
+        <source>Only applies when asynchronous shader building is on. Decides what a Switch 2 draw does when its graphics pipeline is still building.
+Wait stalls the GPU until the pipeline is ready (no missing effects, but long stalls on new content). Skip drops the draw, which can leave an effect missing for a few frames. Bounded waits up to the time below per frame, then skips. The EDEN_NX2_ASYNC_DISCARD=1 environment variable still forces Skip.</source>
+        <translation>仅在异步着色器构建开启时适用。决定某个 Switch 2 绘制在图形管线仍在构建时如何处理。
+等待：让 GPU 等到管线就绪（不会缺少效果，但遇到新内容会长时间停顿）。跳过：丢弃该绘制，可能导致某个效果在几帧内缺失。有界等待：每帧最多等待下方设定的时间，之后跳过。环境变量 EDEN_NX2_ASYNC_DISCARD=1 仍会强制使用“跳过”。</translation>
+    </message>
+    <message>
+        <source>Pipeline wait per frame (ms):</source>
+        <translation>每帧管线等待时间（毫秒）：</translation>
+    </message>
+    <message>
+        <source>Used by the Bounded mode: the most time per frame that Switch 2 draws may wait in total for pipelines that are still building. Once spent, the remaining unbuilt draws of that frame are skipped.</source>
+        <translation>供“有界等待”模式使用：每帧中 Switch 2 绘制为仍在构建的管线等待的总时间上限。用完后，该帧剩余未构建的绘制会被跳过。</translation>
+    </message>
+    <message>
+        <source>No sharpening</source>
+        <translation>无锐化</translation>
+    </message>
+    <message>
+        <source>Bounded wait</source>
+        <translation>有界等待</translation>
+    </message>
+    <message>
+        <source>Wait</source>
+        <translation>等待</translation>
+    </message>
+    <message>
+        <source>Skip</source>
+        <translation>跳过</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -3725,6 +3805,10 @@ Would you like to delete the old save data?</source>
         <location filename="../../src/yuzu/configuration/configure_input.ui" line="537"/>
         <source>Clear</source>
         <translation>清除</translation>
+    </message>
+    <message>
+        <source>Microphone</source>
+        <translation>麦克风</translation>
     </message>
 </context>
 <context>
@@ -6542,6 +6626,10 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <source>Edit NUP Metadata...</source>
         <translation>编辑 NUP 元数据...</translation>
     </message>
+    <message>
+        <source>Submit compatibility report…</source>
+        <translation>提交兼容性报告…</translation>
+    </message>
 </context>
 <context>
     <name>GameListItemCompat</name>
@@ -8623,6 +8711,110 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
     <message>
         <source>Edit Failed</source>
         <translation>编辑失败</translation>
+    </message>
+    <message>
+        <source>Restore Previous Version...</source>
+        <translation>恢复上一版本...</translation>
+    </message>
+    <message>
+        <source>Restore Previous Version</source>
+        <translation>恢复上一版本</translation>
+    </message>
+    <message>
+        <source>Go back to the version this one replaced? Your settings and data are not changed.</source>
+        <translation>要回退到被当前版本替换的旧版本吗？你的设置和数据不会被更改。</translation>
+    </message>
+    <message>
+        <source>Failed to restore</source>
+        <translation>恢复失败</translation>
+    </message>
+    <message>
+        <source>Could not restore the previous version: %1</source>
+        <translation>无法恢复上一版本：%1</translation>
+    </message>
+    <message>
+        <source>Not enough memory to start the game</source>
+        <translation>内存不足，无法启动游戏</translation>
+    </message>
+    <message>
+        <source>Lichii could not allocate the game&apos;s memory. Close other applications and check that your system has enough available memory and paging-file space, then try again.</source>
+        <translation>Lichii 无法分配游戏所需的内存。请关闭其他程序，确认系统有足够的可用内存和页面文件空间后重试。</translation>
+    </message>
+    <message>
+        <source>Could not check for updates: GitHub rate limit reached. Lichii will try again at the next start.</source>
+        <translation>无法检查更新：已达到 GitHub 速率限制。Lichii 会在下次启动时再试。</translation>
+    </message>
+    <message>
+        <source>Could not check for updates: GitHub answered with HTTP %1.</source>
+        <translation>无法检查更新：GitHub 返回 HTTP %1。</translation>
+    </message>
+    <message>
+        <source>NO FG</source>
+        <translation>无帧生成</translation>
+    </message>
+    <message>
+        <source>Frame generation is off.</source>
+        <translation>帧生成已关闭。</translation>
+    </message>
+    <message>
+        <source>FG %1 %2X</source>
+        <translation>帧生成 %1 %2X</translation>
+    </message>
+    <message>
+        <source>FG %1 AUTO</source>
+        <translation>帧生成 %1 自动</translation>
+    </message>
+    <message>
+        <source> It adds up to %1 frames per game frame to reach %2 FPS.</source>
+        <translation> 每个游戏帧最多补出 %1 帧，以达到 %2 FPS。</translation>
+    </message>
+    <message>
+        <source>Frame generation is on.%1 Whether it runs shows here once a game starts.</source>
+        <translation>帧生成已开启。%1 游戏启动后会在此显示它是否运行。</translation>
+    </message>
+    <message>
+        <source>Frame generation needs the Vulkan renderer.</source>
+        <translation>帧生成需要 Vulkan 渲染器。</translation>
+    </message>
+    <message>
+        <source>This build was compiled without frame generation.</source>
+        <translation>此版本在编译时未包含帧生成。</translation>
+    </message>
+    <message>
+        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model, null descriptors and 16-bit floats). The Optical Flow type may still work.</source>
+        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型、空描述符和 16 位浮点）。光流类型可能仍可用。</translation>
+    </message>
+    <message>
+        <source>This GPU can&apos;t write to the window&apos;s swapchain format from a shader, so generated frames can&apos;t be presented.</source>
+        <translation>此 GPU 无法从着色器写入窗口的交换链格式，因此生成的帧无法呈现。</translation>
+    </message>
+    <message>
+        <source>LSFG needs Lossless.dll from Lossless Scaling in the &quot;lossless&quot; folder of the user directory. It is missing or could not be loaded.</source>
+        <translation>LSFG 需要 Lossless Scaling 的 Lossless.dll，放在用户目录的“lossless”文件夹中。该文件缺失或无法加载。</translation>
+    </message>
+    <message>
+        <source>FG UNAVAILABLE</source>
+        <translation>帧生成不可用</translation>
+    </message>
+    <message>
+        <source>Frame generation is on but not running. %1</source>
+        <translation>帧生成已开启但没有运行。%1</translation>
+    </message>
+    <message>
+        <source>Frame generation is running.%1</source>
+        <translation>帧生成正在运行。%1</translation>
+    </message>
+    <message>
+        <source> It also pauses while the game already reaches %1 FPS.</source>
+        <translation> 当游戏本身已达 %1 FPS 时，它也会暂停。</translation>
+    </message>
+    <message>
+        <source>%1 (IDLE)</source>
+        <translation>%1（空闲）</translation>
+    </message>
+    <message>
+        <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1</source>
+        <translation>帧生成已开启，但最近半秒没有生成任何帧。它会在预热期间、某帧耗时超过 100 毫秒后的一秒内，以及帧突发到达时暂停。%1</translation>
     </message>
 </context>
 <context>
@@ -11125,6 +11317,90 @@ Error code: %3</source>
         <source>&lt;a href=&quot;%1&quot;&gt;View on GitHub&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;%1&quot;&gt;在 GitHub 上查看&lt;/a&gt;</translation>
     </message>
+    <message>
+        <source>Remind Me Later</source>
+        <translation>稍后提醒</translation>
+    </message>
+    <message>
+        <source>Skip This Version</source>
+        <translation>跳过此版本</translation>
+    </message>
+    <message>
+        <source> This release has no PGO build, so the standard build will be downloaded.</source>
+        <translation> 此发布没有 PGO 构建，将下载标准构建。</translation>
+    </message>
+    <message>
+        <source>Failed to restart</source>
+        <translation>重启失败</translation>
+    </message>
+    <message>
+        <source>Please start %1 again yourself.</source>
+        <translation>请手动重新启动 %1。</translation>
+    </message>
+    <message>
+        <source>Failed to install the update</source>
+        <translation>安装更新失败</translation>
+    </message>
+    <message>
+        <source>Could not start the update installer.</source>
+        <translation>无法启动更新安装程序。</translation>
+    </message>
+    <message>
+        <source>Another Lichii window is already updating this installation.</source>
+        <translation>另一个 Lichii 窗口正在更新此安装。</translation>
+    </message>
+    <message>
+        <source>Could not replace %1. Your installation was not changed.</source>
+        <translation>无法替换 %1。你的安装未被更改。</translation>
+    </message>
+    <message>
+        <source>Update Installed</source>
+        <translation>更新已安装</translation>
+    </message>
+    <message>
+        <source>The new version is installed. The previous version is kept as %1.
+
+Restart now?</source>
+        <translation>新版本已安装，旧版本已保留为 %1。
+
+现在重启吗？</translation>
+    </message>
+    <message>
+        <source>Could not create a folder for the update.</source>
+        <translation>无法为更新创建文件夹。</translation>
+    </message>
+    <message>
+        <source>Unpacking...</source>
+        <translation>正在解包...</translation>
+    </message>
+    <message>
+        <source>The downloaded update could not be unpacked.</source>
+        <translation>无法解包下载的更新。</translation>
+    </message>
+    <message>
+        <source>Update Ready</source>
+        <translation>更新已就绪</translation>
+    </message>
+    <message>
+        <source>Lichii will close, install the update and start again. The previous version is kept, and your settings and data are not changed.
+
+Restart now?</source>
+        <translation>Lichii 将关闭、安装更新并重新启动。旧版本会被保留，你的设置和数据不会被更改。
+
+现在重启吗？</translation>
+    </message>
+    <message>
+        <source>Download failed verification</source>
+        <translation>下载校验失败</translation>
+    </message>
+    <message>
+        <source>The downloaded file does not match the checksum GitHub published for it, so it was discarded. Try again later.</source>
+        <translation>下载的文件与 GitHub 公布的校验和不符，已丢弃。请稍后重试。</translation>
+    </message>
+    <message>
+        <source>Would you like to download this update?</source>
+        <translation>要下载此更新吗？</translation>
+    </message>
 </context>
 <context>
     <name>GameListWorker</name>
@@ -11438,6 +11714,292 @@ or click to browse</source>
     <message>
         <source>Searching for an icon failed unexpectedly: %1</source>
         <translation>查找图标时发生意外错误：%1</translation>
+    </message>
+</context>
+<context>
+    <name>Dialog</name>
+    <message>
+        <source>Share your experience with the latest completed session. Nothing is sent until you choose Search or Submit. Logs are not uploaded. No account is required.</source>
+        <translation>分享你在最近一次已完成会话中的体验。在你选择“搜索”或“提交”之前不会发送任何内容。不会上传日志。无需账号。</translation>
+    </message>
+    <message>
+        <source>Game title to search</source>
+        <translation>要搜索的游戏名称</translation>
+    </message>
+    <message>
+        <source>Search catalog</source>
+        <translation>搜索目录</translation>
+    </message>
+    <message>
+        <source>Search sends only the text above to lichii.zortos.me. The service sees your IP address.</source>
+        <translation>搜索只会把上面的文字发送到 lichii.zortos.me。该服务会看到你的 IP 地址。</translation>
+    </message>
+    <message>
+        <source>Previous</source>
+        <translation>上一步</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>下一步</translation>
+    </message>
+    <message>
+        <source>Confirm game</source>
+        <translation>确认游戏</translation>
+    </message>
+    <message>
+        <source>No catalog game confirmed.</source>
+        <translation>尚未确认任何目录中的游戏。</translation>
+    </message>
+    <message>
+        <source>Experience</source>
+        <translation>体验</translation>
+    </message>
+    <message>
+        <source>Public nickname</source>
+        <translation>公开昵称</translation>
+    </message>
+    <message>
+        <source>X handle (optional)</source>
+        <translation>X 账号（可选）</translation>
+    </message>
+    <message>
+        <source>Choose your assessment</source>
+        <translation>选择你的评价</translation>
+    </message>
+    <message>
+        <source>Compatibility</source>
+        <translation>兼容性</translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation>概述</translation>
+    </message>
+    <message>
+        <source>How far did you play?</source>
+        <translation>你玩到了哪里？</translation>
+    </message>
+    <message>
+        <source>What worked or failed?</source>
+        <translation>哪些正常、哪些异常？</translation>
+    </message>
+    <message>
+        <source>Steps to reproduce (optional)</source>
+        <translation>复现步骤（可选）</translation>
+    </message>
+    <message>
+        <source>System and settings</source>
+        <translation>系统与设置</translation>
+    </message>
+    <message>
+        <source>Prefilled values describe launch settings, not measured performance. Review changes made during play. Unknown means not collected. Do not paste logs, paths, keys or private details.</source>
+        <translation>预填的值描述的是启动时的设置，而非实测性能。请核对游戏过程中做过的更改。“未知”表示未收集。请勿粘贴日志、路径、密钥或隐私信息。</translation>
+    </message>
+    <message>
+        <source>Lichii build</source>
+        <translation>Lichii 版本</translation>
+    </message>
+    <message>
+        <source>Game version</source>
+        <translation>游戏版本</translation>
+    </message>
+    <message>
+        <source>GPU driver / OpenGL version</source>
+        <translation>GPU 驱动 / OpenGL 版本</translation>
+    </message>
+    <message>
+        <source>Operating system</source>
+        <translation>操作系统</translation>
+    </message>
+    <message>
+        <source>RAM (optional)</source>
+        <translation>内存（可选）</translation>
+    </message>
+    <message>
+        <source>Graphics API</source>
+        <translation>图形 API</translation>
+    </message>
+    <message>
+        <source>Launch settings</source>
+        <translation>启动设置</translation>
+    </message>
+    <message>
+        <source>Updates (optional)</source>
+        <translation>更新（可选）</translation>
+    </message>
+    <message>
+        <source>Mods (optional)</source>
+        <translation>Mod（可选）</translation>
+    </message>
+    <message>
+        <source>Public preview</source>
+        <translation>公开预览</translation>
+    </message>
+    <message>
+        <source>All report fields in the preview will be public. Logs, files, local title IDs and play history are not sent. The server uses your IP address for rate limiting. Review and clear anything you do not want to share.</source>
+        <translation>预览中的所有报告字段都会公开。日志、文件、本地标题 ID 和游玩记录不会发送。服务器会用你的 IP 地址进行限流。请检查并清空你不想公开的内容。</translation>
+    </message>
+    <message>
+        <source>I understand my name, optional X handle, report text, hardware and settings will be public.</source>
+        <translation>我明白我的昵称、可选的 X 账号、报告内容、硬件与设置将会公开。</translation>
+    </message>
+    <message>
+        <source>My report contains no game files, keys, firmware, saves or private account details.</source>
+        <translation>我的报告不包含游戏文件、密钥、固件、存档或私人账号信息。</translation>
+    </message>
+    <message>
+        <source>Clear draft</source>
+        <translation>清空草稿</translation>
+    </message>
+    <message>
+        <source>Submit report</source>
+        <translation>提交报告</translation>
+    </message>
+    <message>
+        <source>Open public report</source>
+        <translation>打开公开报告</translation>
+    </message>
+    <message>
+        <source>Draft cleared. Nothing was sent by clearing it.</source>
+        <translation>草稿已清空。清空操作没有发送任何内容。</translation>
+    </message>
+    <message>
+        <source>Search for and confirm the catalog game first.</source>
+        <translation>请先搜索并确认目录中的游戏。</translation>
+    </message>
+    <message>
+        <source>Check %1: required fields must be filled, within their length limit, and contain no control characters.</source>
+        <translation>请检查 %1：必填字段必须填写、不超过长度限制，且不含控制字符。</translation>
+    </message>
+    <message>
+        <source>An X handle must contain 1–15 letters, digits or underscores, with an optional @.</source>
+        <translation>X 账号必须由 1–15 个字母、数字或下划线组成，可带一个 @。</translation>
+    </message>
+    <message>
+        <source>Choose your own compatibility assessment.</source>
+        <translation>请选择你自己的兼容性评价。</translation>
+    </message>
+    <message>
+        <source>The report is too large.</source>
+        <translation>报告内容过大。</translation>
+    </message>
+    <message>
+        <source>Check the search text.</source>
+        <translation>请检查搜索文字。</translation>
+    </message>
+    <message>
+        <source>Searching catalog… Cancel closes the dialog and stops this request.</source>
+        <translation>正在搜索目录… 点击“取消”会关闭对话框并停止本次请求。</translation>
+    </message>
+    <message>
+        <source>Confirmed: %1 (catalog ID %2)</source>
+        <translation>已确认：%1（目录 ID %2）</translation>
+    </message>
+    <message>
+        <source>Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.</source>
+        <translation>正在提交… 关闭窗口只会停止等待，但无法撤回服务器已经收到的报告。不会自动重试。</translation>
+    </message>
+    <message>
+        <source>Rate limit reached. Wait %1 seconds, then retry explicitly. Nothing will be retried automatically.</source>
+        <translation>已触发限流。请等待 %1 秒后手动重试。不会自动重试。</translation>
+    </message>
+    <message>
+        <source>The server rejected the report. Review the fields and length limits before submitting again.</source>
+        <translation>服务器拒绝了该报告。请检查各字段和长度限制后重新提交。</translation>
+    </message>
+    <message>
+        <source>The server rejected these fields: %1. Review them before submitting again.</source>
+        <translation>服务器拒绝了以下字段：%1。请检查后重新提交。</translation>
+    </message>
+    <message>
+        <source>The server rejected this submission identity. Edit the draft to start a new submission; first check whether your report was already accepted.</source>
+        <translation>服务器拒绝了本次提交标识。请修改草稿以开始新的提交；先确认你的报告是否已被接受。</translation>
+    </message>
+    <message>
+        <source>The server rejected the request (HTTP %1). No automatic retry was made.</source>
+        <translation>服务器拒绝了该请求（HTTP %1）。未进行自动重试。</translation>
+    </message>
+    <message>
+        <source>No valid receipt was received. Delivery may have succeeded. An explicit retry of this unchanged draft uses the same submission identity. Closing loses that identity; do not create a duplicate.</source>
+        <translation>没有收到有效的回执，但提交可能已经成功。对这份未改动草稿的手动重试会使用相同的提交标识。关闭窗口会丢失该标识；请不要重复创建。</translation>
+    </message>
+    <message>
+        <source>Catalog search failed. Check your connection and retry explicitly.</source>
+        <translation>目录搜索失败。请检查网络后手动重试。</translation>
+    </message>
+    <message>
+        <source>Report submitted. It is public. Thank you.</source>
+        <translation>报告已提交，并且已公开。谢谢！</translation>
+    </message>
+    <message>
+        <source>The server returned an invalid receipt. The report may have been accepted. Only retry this unchanged draft explicitly.</source>
+        <translation>服务器返回了无效回执。报告可能已被接受。仅请对这份未改动的草稿手动重试。</translation>
+    </message>
+    <message>
+        <source>Page %1 of %2. Select the exact game and press Confirm game.</source>
+        <translation>第 %1 页，共 %2 页。请选择对应的游戏并点击“确认游戏”。</translation>
+    </message>
+    <message>
+        <source>The catalog returned an invalid response. No game was confirmed.</source>
+        <translation>目录返回了无效响应，未确认任何游戏。</translation>
+    </message>
+    <message>
+        <source>Submit compatibility report</source>
+        <translation>提交兼容性报告</translation>
+    </message>
+</context>
+<context>
+    <name>ConfigureMicrophone</name>
+    <message>
+        <source>Choose the microphone used by games. Start a test and speak to check the input level.</source>
+        <translation>选择游戏使用的麦克风。开始测试并说话，即可查看输入电平。</translation>
+    </message>
+    <message>
+        <source>Refresh devices</source>
+        <translation>刷新设备</translation>
+    </message>
+    <message>
+        <source>Microphone volume:</source>
+        <translation>麦克风音量：</translation>
+    </message>
+    <message>
+        <source>Input level:</source>
+        <translation>输入电平：</translation>
+    </message>
+    <message>
+        <source>Start microphone test</source>
+        <translation>开始麦克风测试</translation>
+    </message>
+    <message>
+        <source>Microphone disconnected or capture failed.</source>
+        <translation>麦克风已断开或采集失败。</translation>
+    </message>
+    <message>
+        <source>Stop emulation to change the microphone input device or volume.</source>
+        <translation>请停止模拟后再更改麦克风输入设备或音量。</translation>
+    </message>
+    <message>
+        <source>System default</source>
+        <translation>系统默认</translation>
+    </message>
+    <message>
+        <source>%1 (unavailable)</source>
+        <translation>%1（不可用）</translation>
+    </message>
+    <message>
+        <source>Microphone input is unavailable. Choose an available input device.</source>
+        <translation>麦克风输入不可用。请选择一个可用的输入设备。</translation>
+    </message>
+    <message>
+        <source>Unable to open the microphone. Check the device and microphone permissions in your operating system.</source>
+        <translation>无法打开麦克风。请检查设备以及操作系统中的麦克风权限。</translation>
+    </message>
+    <message>
+        <source>Stop microphone test</source>
+        <translation>停止麦克风测试</translation>
+    </message>
+    <message>
+        <source>Listening. Speak into your microphone.</source>
+        <translation>正在监听。请对着麦克风说话。</translation>
     </message>
 </context>
 </TS>
