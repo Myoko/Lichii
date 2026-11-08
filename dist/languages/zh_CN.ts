@@ -2394,6 +2394,26 @@ Ask asks at launch while the game has never been precached.</source>
         <source>Ask</source>
         <translation>询问</translation>
     </message>
+    <message>
+        <source>Native compute write mark:</source>
+        <translation>原生计算写入标记：</translation>
+    </message>
+    <message>
+        <source>How much of a Switch 2 compute shader&apos;s storage buffer is treated as written by the GPU after each dispatch.
+Auto marks what the shader&apos;s stores can reach and falls back to Full when that cannot be proven.
+Full marks the whole binding (up to 8 MiB), the original behaviour: it can delay the game&apos;s own writes to nearby memory (flickering effects) and copy far more data back from the GPU.</source>
+        <translation>每次 dispatch 后，Switch 2 计算着色器的存储缓冲区有多少被视为已被 GPU 写入。
+自动：按着色器存储能触及的范围标记，无法证明时退回“完整绑定”。
+完整绑定：标记整个绑定（最多 8 MiB），这是原来的行为：它可能推迟游戏对邻近内存的写入（导致效果闪烁），并从 GPU 拷回更多数据。</translation>
+    </message>
+    <message>
+        <source>Auto (shader extent)</source>
+        <translation>自动（按着色器范围）</translation>
+    </message>
+    <message>
+        <source>Full binding</source>
+        <translation>完整绑定</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
