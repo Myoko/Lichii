@@ -2364,6 +2364,36 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
         <source>Skip</source>
         <translation>跳过</translation>
     </message>
+    <message>
+        <source>Frame rate limit (Switch 2):</source>
+        <translation>帧率上限（Switch 2）：</translation>
+    </message>
+    <message>
+        <source>Rate of the Switch 2 VSync event that games start their frames on (default 60 Hz).
+Above 60 Hz most games run too fast; use it with a game patch that follows real time, such as &quot;FPS Unlock (built-in)&quot; for Ocarina of Time.
+Takes effect when a game starts.</source>
+        <translation>游戏开始每帧的 Switch 2 VSync 事件频率（默认 60 Hz）。
+高于 60 Hz 时多数游戏会跑得过快；请配合能跟随真实时间的游戏补丁使用，例如《时之笛》的“FPS 解锁（内置）”。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Pin GPU threads to their own cores</source>
+        <translation>把 GPU 线程绑定到独立核心</translation>
+    </message>
+    <message>
+        <source>Precache shaders before game start:</source>
+        <translation>游戏启动前预编译着色器：</translation>
+    </message>
+    <message>
+        <source>Builds shaders on the loading screen, on every CPU thread, so they don&apos;t stutter the first time the game uses them: the compute shaders found in the game files, and the shaders saved by earlier play sessions that the normal shader loading leaves for later. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+Ask asks at launch while the game has never been precached.</source>
+        <translation>在加载画面用所有 CPU 线程构建着色器，避免游戏第一次用到它们时卡顿：包括游戏文件中的计算着色器，以及以往游戏会话保存下来、通常留到之后再加载的着色器。首次启动会读取游戏文件，需要几分钟；之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面提供“跳过”按钮。
+“询问”会在游戏从未预编译过时于启动时询问。</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>询问</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -3494,6 +3524,10 @@ Would you like to delete the old save data?</source>
         <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="397"/>
         <source>VSync On</source>
         <translation>垂直同步开</translation>
+    </message>
+    <message>
+        <source> Hz</source>
+        <translation> Hz</translation>
     </message>
 </context>
 <context>
@@ -6630,6 +6664,14 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <source>Submit compatibility report…</source>
         <translation>提交兼容性报告…</translation>
     </message>
+    <message>
+        <source>Build Shader Precache</source>
+        <translation>构建着色器预编译缓存</translation>
+    </message>
+    <message>
+        <source>Rebuild Shader Precache</source>
+        <translation>重新构建着色器预编译缓存</translation>
+    </message>
 </context>
 <context>
     <name>GameListItemCompat</name>
@@ -7108,6 +7150,14 @@ Debug Message: </source>
         <location filename="../../src/yuzu/loading_screen.cpp" line="173"/>
         <source>Estimated Time %1</source>
         <translation>所需时间: %1</translation>
+    </message>
+    <message>
+        <source>Start the game now. The shaders not precached yet are precached on a later launch.</source>
+        <translation>立即开始游戏。尚未预编译的着色器会在下次启动时再编译。</translation>
+    </message>
+    <message>
+        <source>Precaching shaders %1 / %2</source>
+        <translation>正在预编译着色器 %1 / %2</translation>
     </message>
 </context>
 <context>
@@ -8815,6 +8865,62 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
     <message>
         <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1</source>
         <translation>帧生成已开启，但最近半秒没有生成任何帧。它会在预热期间、某帧耗时超过 100 毫秒后的一秒内，以及帧突发到达时暂停。%1</translation>
+    </message>
+    <message>
+        <source>Shader Precache in Progress</source>
+        <translation>正在构建着色器预编译缓存</translation>
+    </message>
+    <message>
+        <source>Games cannot be started while the shader precache is being built. Wait for it to finish or cancel it.</source>
+        <translation>构建着色器预编译缓存期间无法启动游戏。请等待它完成或取消。</translation>
+    </message>
+    <message>
+        <source>Precache Shaders</source>
+        <translation>预编译着色器</translation>
+    </message>
+    <message>
+        <source>Close the running game first.</source>
+        <translation>请先关闭正在运行的游戏。</translation>
+    </message>
+    <message>
+        <source>This game is being converted. Try again when it is done.</source>
+        <translation>该游戏正在转换中，请等转换完成后再试。</translation>
+    </message>
+    <message>
+        <source>The shaders of this game are not precached yet. Precache them now?
+
+The game starts when they are done. The first time, the game files are read and their shaders are built on every CPU thread, with the shaders earlier play sessions saved, which takes a few minutes. Later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+
+You can change this in Configure, Graphics, Advanced.</source>
+        <translation>该游戏的着色器尚未预编译。要现在预编译吗？
+
+完成后游戏才会启动。首次会读取游戏文件，并在所有 CPU 线程上构建着色器，同时使用以往游戏会话保存的着色器，需要几分钟。之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面提供“跳过”按钮。
+
+可在 设置 → 图形 → 高级 里修改。</translation>
+    </message>
+    <message>
+        <source>Precache now</source>
+        <translation>现在预编译</translation>
+    </message>
+    <message>
+        <source>Start without</source>
+        <translation>不预编译直接启动</translation>
+    </message>
+    <message>
+        <source>Delete Shader Precache</source>
+        <translation>删除着色器预编译缓存</translation>
+    </message>
+    <message>
+        <source>Shaders are being precached. Try again when it is done.</source>
+        <translation>正在预编译着色器，请等它完成后再试。</translation>
+    </message>
+    <message>
+        <source>Delete the shader precache files of this game? They are built again the next time the game is precached.</source>
+        <translation>要删除该游戏的着色器预编译缓存文件吗？下次预编译时会重新构建。</translation>
+    </message>
+    <message>
+        <source>The files could not be deleted: %1</source>
+        <translation>无法删除这些文件：%1</translation>
     </message>
 </context>
 <context>
@@ -12000,6 +12106,89 @@ or click to browse</source>
     <message>
         <source>Listening. Speak into your microphone.</source>
         <translation>正在监听。请对着麦克风说话。</translation>
+    </message>
+</context>
+<context>
+    <name>ShaderWarmDialog</name>
+    <message>
+        <source>Reading game files</source>
+        <translation>正在读取游戏文件</translation>
+    </message>
+    <message>
+        <source>Extracting shaders</source>
+        <translation>正在提取着色器</translation>
+    </message>
+    <message>
+        <source>Converting shaders</source>
+        <translation>正在转换着色器</translation>
+    </message>
+    <message>
+        <source>Writing the precache file</source>
+        <translation>正在写入预编译缓存文件</translation>
+    </message>
+    <message>
+        <source>Precache shaders: %1</source>
+        <translation>预编译着色器：%1</translation>
+    </message>
+    <message>
+        <source>Starting</source>
+        <translation>正在开始</translation>
+    </message>
+    <message>
+        <source>Stopping</source>
+        <translation>正在停止</translation>
+    </message>
+    <message>
+        <source>%1: %L2 / %L3</source>
+        <translation>%1：%L2 / %L3</translation>
+    </message>
+    <message>
+        <source>%1: %L2</source>
+        <translation>%1：%L2</translation>
+    </message>
+    <message>
+        <source>Shader precache is ready.</source>
+        <translation>着色器预编译缓存已就绪。</translation>
+    </message>
+    <message>
+        <source>This game keeps its shaders in a format Lichii can&apos;t read, so none are prepared from the game files.</source>
+        <translation>该游戏的着色器使用了 Lichii 无法读取的格式，因此没有从游戏文件中准备任何内容。</translation>
+    </message>
+    <message>
+        <source>The game files have no compute shaders to prepare.</source>
+        <translation>游戏文件中没有可准备的计算着色器。</translation>
+    </message>
+    <message>
+        <source>The shaders your earlier play sessions saved are still precached.</source>
+        <translation>以往游戏会话保存的着色器仍会被预编译。</translation>
+    </message>
+    <message>
+        <source>Compute programs: %L1</source>
+        <translation>计算程序：%L1</translation>
+    </message>
+    <message>
+        <source>Skipped (could not be read or converted): %L1</source>
+        <translation>已跳过（无法读取或转换）：%L1</translation>
+    </message>
+    <message>
+        <source>It is built on the loading screen when Precache shaders before game start is on.</source>
+        <translation>开启“游戏启动前预编译着色器”后，会在加载画面中构建。</translation>
+    </message>
+    <message>
+        <source>Shader precache stopped.</source>
+        <translation>着色器预编译已停止。</translation>
+    </message>
+    <message>
+        <source>Shader precache could not be built.</source>
+        <translation>无法构建着色器预编译缓存。</translation>
+    </message>
+    <message>
+        <source>No details were given.</source>
+        <translation>没有提供详细信息。</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
     </message>
 </context>
 </TS>
