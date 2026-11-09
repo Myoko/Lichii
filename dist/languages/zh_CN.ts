@@ -6700,6 +6700,26 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <source>Delete Shader Precache</source>
         <translation>删除着色器预编译缓存</translation>
     </message>
+    <message>
+        <source>Convert to NX...</source>
+        <translation>转换为 NX...</translation>
+    </message>
+    <message>
+        <source>Manage NX Archive</source>
+        <translation>管理 NX 归档</translation>
+    </message>
+    <message>
+        <source>Add Update or DLC...</source>
+        <translation>添加更新或 DLC...</translation>
+    </message>
+    <message>
+        <source>Remove Update or DLC...</source>
+        <translation>移除更新或 DLC...</translation>
+    </message>
+    <message>
+        <source>Edit Title and Icon...</source>
+        <translation>编辑标题和图标...</translation>
+    </message>
 </context>
 <context>
     <name>GameListItemCompat</name>
@@ -8953,6 +8973,14 @@ You can change this in Configure, Graphics, Advanced.</source>
     <message>
         <source>The files could not be deleted: %1</source>
         <translation>无法删除这些文件：%1</translation>
+    </message>
+    <message>
+        <source>Stop the game before changing its NX archive.</source>
+        <translation>修改 NX 归档前请先停止游戏。</translation>
+    </message>
+    <message>
+        <source>NX Archive</source>
+        <translation>NX 归档</translation>
     </message>
 </context>
 <context>
@@ -12281,6 +12309,247 @@ or click to browse</source>
     <message>
         <source>Cancel</source>
         <translation>取消</translation>
+    </message>
+</context>
+<context>
+    <name>NxTools</name>
+    <message>
+        <source>Convert to NX</source>
+        <translation>转换为 NX</translation>
+    </message>
+    <message>
+        <source>Converting to NX</source>
+        <translation>正在转换为 NX</translation>
+    </message>
+    <message>
+        <source>NX archive (*.nx)</source>
+        <translation>NX 归档 (*.nx)</translation>
+    </message>
+    <message>
+        <source>The archive already exists:
+%1</source>
+        <translation>归档已存在：
+%1</translation>
+    </message>
+    <message>
+        <source>Updates and DLC of this game were found in the same folder.
+The checked ones are added to the NX archive:</source>
+        <translation>在同一文件夹中找到了该游戏的更新和 DLC。
+勾选的会加入 NX 归档：</translation>
+    </message>
+    <message>
+        <source>The NX archive was created:
+%1</source>
+        <translation>NX 归档已创建：
+%1</translation>
+    </message>
+    <message>
+        <source>Add to NX</source>
+        <translation>添加到 NX</translation>
+    </message>
+    <message>
+        <source>This NX archive cannot be read.</source>
+        <translation>无法读取此 NX 归档。</translation>
+    </message>
+    <message>
+        <source>Add an update or DLC to this NX archive. The archive is changed in place; the content it already holds is kept.</source>
+        <translation>向此 NX 归档添加更新或 DLC。归档会就地修改，已有内容会保留。</translation>
+    </message>
+    <message>
+        <source>Update Folder...</source>
+        <translation>更新文件夹...</translation>
+    </message>
+    <message>
+        <source>NSP or XCI Files...</source>
+        <translation>NSP 或 XCI 文件...</translation>
+    </message>
+    <message>
+        <source>Adding to NX</source>
+        <translation>正在添加到 NX</translation>
+    </message>
+    <message>
+        <source>Select the Update Folder</source>
+        <translation>选择更新文件夹</translation>
+    </message>
+    <message>
+        <source>Version number of this update (for example 196608 for v196608):</source>
+        <translation>此更新的版本号（例如 v196608 对应 196608）：</translation>
+    </message>
+    <message>
+        <source>Select Updates or DLC</source>
+        <translation>选择更新或 DLC</translation>
+    </message>
+    <message>
+        <source>Switch packages (*.nsp *.xci)</source>
+        <translation>Switch 包 (*.nsp *.xci)</translation>
+    </message>
+    <message>
+        <source>The NX archive was updated.</source>
+        <translation>NX 归档已更新。</translation>
+    </message>
+    <message>
+        <source>Remove from NX</source>
+        <translation>从 NX 中移除</translation>
+    </message>
+    <message>
+        <source>This NX archive cannot be read: %1</source>
+        <translation>无法读取此 NX 归档：%1</translation>
+    </message>
+    <message>
+        <source>This NX archive holds no update or DLC to remove.</source>
+        <translation>此 NX 归档中没有可移除的更新或 DLC。</translation>
+    </message>
+    <message>
+        <source>Select the content to remove from the archive:</source>
+        <translation>选择要从归档中移除的内容：</translation>
+    </message>
+    <message>
+        <source>DLC %1 (v%2)</source>
+        <translation>DLC %1（v%2）</translation>
+    </message>
+    <message>
+        <source>Update %1 (v%2)</source>
+        <translation>更新 %1（v%2）</translation>
+    </message>
+    <message>
+        <source>Removing from NX</source>
+        <translation>正在从 NX 中移除</translation>
+    </message>
+    <message>
+        <source>The selected content was removed from the NX archive.</source>
+        <translation>所选内容已从 NX 归档中移除。</translation>
+    </message>
+    <message>
+        <source>Edit NX Metadata</source>
+        <translation>编辑 NX 元数据</translation>
+    </message>
+    <message>
+        <source>Title:</source>
+        <translation>标题：</translation>
+    </message>
+    <message>
+        <source>Publisher:</source>
+        <translation>发行商：</translation>
+    </message>
+    <message>
+        <source>No icon</source>
+        <translation>无图标</translation>
+    </message>
+    <message>
+        <source>Choose Image...</source>
+        <translation>选择图片...</translation>
+    </message>
+    <message>
+        <source>Icon:</source>
+        <translation>图标：</translation>
+    </message>
+    <message>
+        <source>The new title and icon are shown in every language. The game itself is not changed.</source>
+        <translation>新标题和图标会以所有语言显示。游戏本身不会被修改。</translation>
+    </message>
+    <message>
+        <source>Choose Image</source>
+        <translation>选择图片</translation>
+    </message>
+    <message>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</translation>
+    </message>
+    <message>
+        <source>This image cannot be read.</source>
+        <translation>无法读取此图片。</translation>
+    </message>
+    <message>
+        <source>This image cannot be converted.</source>
+        <translation>无法转换此图片。</translation>
+    </message>
+    <message>
+        <source>Editing NX metadata</source>
+        <translation>正在编辑 NX 元数据</translation>
+    </message>
+    <message>
+        <source>The icon cannot be saved.</source>
+        <translation>无法保存图标。</translation>
+    </message>
+    <message>
+        <source>The NX archive metadata was updated.</source>
+        <translation>NX 归档元数据已更新。</translation>
+    </message>
+    <message>
+        <source>Finishing...</source>
+        <translation>正在完成...</translation>
+    </message>
+    <message>
+        <source>%1 left</source>
+        <translation>剩余 %1</translation>
+    </message>
+    <message>
+        <source>%1
+Elapsed: %2</source>
+        <translation>%1
+已用时间：%2</translation>
+    </message>
+    <message>
+        <source>Move the %1 original packages to the Recycle Bin</source>
+        <translation>把 %1 个原始包移到回收站</translation>
+    </message>
+    <message>
+        <source>Move the original folder to the Recycle Bin:
+%1</source>
+        <translation>把原始文件夹移到回收站：
+%1</translation>
+    </message>
+    <message>
+        <source>Move the original game to the Recycle Bin:
+%1</source>
+        <translation>把原始游戏移到回收站：
+%1</translation>
+    </message>
+    <message>
+        <source>%1 of the %2 original packages could not be moved to the Recycle Bin. They may be in use.</source>
+        <translation>%2 个原始包中有 %1 个无法移到回收站，可能正在被占用。</translation>
+    </message>
+    <message>
+        <source>The original could not be moved to the Recycle Bin:
+%1
+
+It may be in use. You can delete it yourself.</source>
+        <translation>无法把原始文件移到回收站：
+%1
+
+它可能正在被使用，你可以手动删除。</translation>
+    </message>
+    <message>
+        <source>less than a minute</source>
+        <translation>不到一分钟</translation>
+    </message>
+    <message>
+        <source>about %1 h %2 min</source>
+        <translation>约 %1 小时 %2 分钟</translation>
+    </message>
+    <message>
+        <source>Added: %1</source>
+        <translation>已添加：%1</translation>
+    </message>
+    <message>
+        <source>Already in the archive: %1</source>
+        <translation>已在归档中：%1</translation>
+    </message>
+    <message>
+        <source>Cancelled. Nothing was changed on disk.</source>
+        <translation>已取消，磁盘上的内容没有变化。</translation>
+    </message>
+    <message>
+        <source>The operation failed:
+%1</source>
+        <translation>操作失败：
+%1</translation>
+    </message>
+    <message numerus="yes">
+        <source>about %n minute(s)</source>
+        <translation>
+            <numerusform>约 %n 分钟</numerusform>
+        </translation>
     </message>
 </context>
 </TS>
