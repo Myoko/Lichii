@@ -13013,7 +13013,7 @@ The checked ones are added to the NX archive:</source>
         <source>Editing NX metadata</source>
         <translation>正在编辑 NX 元数据</translation>
     </message>
-    <message>
+    <message numerus="yes">
         <source>about %n minute(s)</source>
         <translation>
             <numerusform>约 %n 分钟</numerusform>
