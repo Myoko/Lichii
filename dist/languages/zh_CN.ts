@@ -3,13 +3,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="14"/>
-        <source>About Eden</source>
-        <translation>关于 Eden</translation>
+        <source>About Lichii</source>
+        <translation>关于 Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="72"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="85"/>
@@ -42,20 +42,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="147"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Eden is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; 是任天堂的注册商标。Eden 与任天堂没有任何关系。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About Lichii</source>
-        <translation>关于 Lichii</translation>
-    </message>
-    <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Lichii is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; 是任天堂的注册商标。Lichii 与任天堂没有任何关系。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;源代码&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;报告问题&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -76,8 +64,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Lichii 是一款实验性的开源 Nintendo Switch 2 模拟器，基于 Eglantine 与 Eden 开发。&lt;br /&gt;&lt;br /&gt;请不要用本软件运行你未通过合法途径获得的游戏。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;源代码&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;报告问题&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -2197,24 +2185,104 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <translation>网格视图</translation>
     </message>
     <message>
-        <source>Wait</source>
-        <translation>等待</translation>
+        <source>Use the game&apos;s own DLSS</source>
+        <translation>使用游戏自带的 DLSS</translation>
     </message>
     <message>
-        <source>Switch 2 draws with unbuilt pipelines:</source>
-        <translation>Switch 2 遇到管线尚未构建完成时的绘制：</translation>
+        <source>Runs a Switch 2 game&apos;s own DLSS (its upscaling network, translated for this GPU) instead of AMD FSR 3.1 in its place.
+AMD FSR 3.1 still draws while the network is checked, when it can&apos;t run on this GPU, with resolution scaling, and for the rest of the session if its output fails Lichii&apos;s checks.
+Takes effect when a game starts.</source>
+        <translation>运行 Switch 2 游戏自带的 DLSS（它自己的超分网络，已针对本 GPU 转译），而不是用 AMD FSR 3.1 替代。
+在检查网络期间、网络无法在本 GPU 上运行时、使用分辨率缩放时，以及网络输出未通过 Lichii 校验的剩余会话时间内，仍由 AMD FSR 3.1 负责绘制。
+游戏启动时生效。</translation>
     </message>
     <message>
-        <source>AMD FidelityFX Super Resolution 1, softer sharpening</source>
-        <translation>AMD FidelityFX 超级分辨率 1（更柔和的锐化）</translation>
+        <source>RCAS Sharpness:</source>
+        <translation>RCAS 锐化度：</translation>
     </message>
     <message>
-        <source>Caps how often the game presents, so the game itself runs at this rate. 0 leaves the frame rate to the game and the display.</source>
-        <translation>限制游戏呈现的频率，使游戏本身按此速率运行。0 表示交给游戏与显示器决定。</translation>
+        <source>Strength of RCAS (AMD&apos;s contrast-adaptive sharpening) on the upscaler used in place of a game&apos;s DLSS (AMD FSR 3.1); 0% turns it off.
+Also sets the sharpening of the AMD FSR 1 and SGSR window adapting filters.</source>
+        <translation>替代游戏 DLSS 的超分器（AMD FSR 3.1）所用的 RCAS（AMD 对比度自适应锐化）强度；0% 表示关闭。
+同时决定 AMD FSR 1 与 SGSR 窗口自适应滤镜的锐化程度。</translation>
+    </message>
+    <message>
+        <source>Use NVIDIA DLSS in place of a game&apos;s DLSS (experimental)</source>
+        <translation>用 NVIDIA DLSS 替代游戏自带的 DLSS（实验性）</translation>
+    </message>
+    <message>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
+Currently requires Fire Emblem: Fortune&apos;s Weave and EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
+目前需要《Fire Emblem: Fortune&apos;s Weave》并设置 EDEN_NX2_DLSS_REPLACEMENT=dlss。没有该覆盖设置时，仍使用其空间超分替代方案。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Enable Frame Generation</source>
+        <translation>启用帧生成</translation>
+    </message>
+    <message>
+        <source>Frame Generation Type</source>
+        <translation>帧生成类型</translation>
+    </message>
+    <message>
+        <source>Frame Generation Multiplier</source>
+        <translation>帧生成倍率</translation>
+    </message>
+    <message>
+        <source>Target Frame Rate</source>
+        <translation>目标帧率</translation>
+    </message>
+    <message>
+        <source>Auto Flow Scale</source>
+        <translation>自动光流缩放</translation>
+    </message>
+    <message>
+        <source>Flow Scale</source>
+        <translation>光流缩放</translation>
     </message>
     <message>
         <source>Queue Target</source>
         <translation>队列目标</translation>
+    </message>
+    <message>
+        <source>Dump Optical Flow</source>
+        <translation>导出光流</translation>
+    </message>
+    <message>
+        <source>Mario Kart World: 30 FPS mode</source>
+        <translation>马力欧卡丁车世界：30 FPS 模式</translation>
+    </message>
+    <message>
+        <source>Forces the game to use its native 30 FPS mode at normal game speed. Takes effect after restarting the game.</source>
+        <translation>强制游戏以原生 30 FPS 模式运行并保持正常游戏速度。重启游戏后生效。</translation>
+    </message>
+    <message>
+        <source>Mario Kart World: dynamic FPS (experimental)</source>
+        <translation>马力欧卡丁车世界：动态帧率（实验性）</translation>
+    </message>
+    <message>
+        <source>Lets the game adjust between 30 and 60 FPS using whole-frame timing to maintain normal game speed. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
+        <translation>允许游戏在 30 与 60 FPS 之间调整，通过整帧计时保持正常游戏速度。重启游戏后生效，优先于 30 FPS 模式。</translation>
+    </message>
+    <message>
+        <source>Lossless Scaling (LSFG)</source>
+        <translation>无损缩放 (LSFG)</translation>
+    </message>
+    <message>
+        <source>Optical Flow Interpolation (built-in)</source>
+        <translation>光流插帧（内置）</translation>
+    </message>
+    <message>
+        <source>AMD FidelityFX Super Resolution 1 (FSR 1)</source>
+        <translation>AMD FidelityFX 超级分辨率 1 (FSR 1)</translation>
+    </message>
+    <message>
+        <source>AMD FidelityFX Super Resolution 1, softer sharpening</source>
+        <translation>AMD FidelityFX 超级分辨率 1（更柔和的锐化）</translation>
     </message>
     <message>
         <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
@@ -2229,56 +2297,8 @@ Takes effect when a game starts.</source>
 游戏启动时生效。</translation>
     </message>
     <message>
-        <source>Auto Flow Scale</source>
-        <translation>自动光流缩放</translation>
-    </message>
-    <message>
-        <source>Frame rate limit (Switch 2):</source>
-        <translation>帧率上限（Switch 2）：</translation>
-    </message>
-    <message>
-        <source>Pin GPU threads to their own cores</source>
-        <translation>把 GPU 线程绑定到独立核心</translation>
-    </message>
-    <message>
-        <source>Lets the game adjust between 30 and 60 FPS using whole-frame timing to maintain normal game speed. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
-        <translation>允许游戏在 30 与 60 FPS 之间调整，通过整帧计时保持正常游戏速度。重启游戏后生效，优先于 30 FPS 模式。</translation>
-    </message>
-    <message>
-        <source>Mario Kart World: dynamic FPS (experimental)</source>
-        <translation>马力欧卡丁车世界：动态帧率（实验性）</translation>
-    </message>
-    <message>
-        <source>Target Frame Rate</source>
-        <translation>目标帧率</translation>
-    </message>
-    <message>
-        <source>Flow Scale</source>
-        <translation>光流缩放</translation>
-    </message>
-    <message>
-        <source>Forces the game to use its native 30 FPS mode at normal game speed. Takes effect after restarting the game.</source>
-        <translation>强制游戏以原生 30 FPS 模式运行并保持正常游戏速度。重启游戏后生效。</translation>
-    </message>
-    <message>
-        <source>Used by the Bounded mode: the most time per frame that Switch 2 draws may wait in total for pipelines that are still building. Once spent, the remaining unbuilt draws of that frame are skipped.</source>
-        <translation>供“有界等待”模式使用：每帧中 Switch 2 绘制为仍在构建的管线等待的总时间上限。用完后，该帧剩余未构建的绘制会被跳过。</translation>
-    </message>
-    <message>
-        <source>No sharpening</source>
-        <translation>无锐化</translation>
-    </message>
-    <message>
-        <source>Precache shaders before game start:</source>
-        <translation>游戏启动前预编译着色器：</translation>
-    </message>
-    <message>
-        <source>Pins the emulator&apos;s GPU threads to dedicated physical CPU cores and keeps the emulated CPU cores off them.
-Can hurt performance on CPUs with few cores. Skipped on CPUs with fewer than 6 physical performance cores.
-Windows and Linux only. Takes effect when a game starts.</source>
-        <translation>把模拟器的 GPU 线程固定到专用的物理 CPU 核心，并让模拟的 CPU 核心避开这些核。
-在核心较少的 CPU 上可能影响性能。物理性能核少于 6 个的 CPU 会跳过此设置。
-仅限 Windows 和 Linux。游戏启动时生效。</translation>
+        <source>Ocarina of Time anti-aliasing:</source>
+        <translation>《时之笛》抗锯齿：</translation>
     </message>
     <message>
         <source>The Legend of Zelda: Ocarina of Time only.
@@ -2291,46 +2311,28 @@ Takes effect when the game starts.</source>
 游戏启动时生效。</translation>
     </message>
     <message>
-        <source>How much of a Switch 2 compute shader&apos;s storage buffer is treated as written by the GPU after each dispatch.
-Auto marks what the shader&apos;s stores can reach and falls back to Full when that cannot be proven.
-Full marks the whole binding (up to 8 MiB), the original behaviour: it can delay the game&apos;s own writes to nearby memory (flickering effects) and copy far more data back from the GPU.</source>
-        <translation>每次 dispatch 后，Switch 2 计算着色器的存储缓冲区有多少被视为已被 GPU 写入。
-自动：按着色器存储能触及的范围标记，无法证明时退回“完整绑定”。
-完整绑定：标记整个绑定（最多 8 MiB），这是原来的行为：它可能推迟游戏对邻近内存的写入（导致效果闪烁），并从 GPU 拷回更多数据。</translation>
+        <source>FPS Limit</source>
+        <translation>帧率上限</translation>
     </message>
     <message>
-        <source>Dump Optical Flow</source>
-        <translation>导出光流</translation>
+        <source>Caps how often the game presents, so the game itself runs at this rate. 0 leaves the frame rate to the game and the display.</source>
+        <translation>限制游戏呈现的频率，使游戏本身按此速率运行。0 表示交给游戏与显示器决定。</translation>
     </message>
     <message>
-        <source>Builds shaders on the loading screen, on every CPU thread, so they don&apos;t stutter the first time the game uses them: the compute shaders found in the game files, and the shaders saved by earlier play sessions that the normal shader loading leaves for later. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
-Ask asks at launch while the game has never been precached.</source>
-        <translation>在加载画面用所有 CPU 线程构建着色器，避免游戏第一次用到它们时卡顿：包括游戏文件中的计算着色器，以及以往游戏会话保存下来、通常留到之后再加载的着色器。首次启动会读取游戏文件，需要几分钟；之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面提供“跳过”按钮。
-“询问”会在游戏从未预编译过时于启动时询问。</translation>
+        <source>Pin GPU threads to their own cores (experimental)</source>
+        <translation>把 GPU 线程绑定到独立核心（实验性）</translation>
     </message>
     <message>
-        <source>Skip</source>
-        <translation>跳过</translation>
+        <source>Pins the emulator&apos;s GPU threads to dedicated physical CPU cores and keeps the emulated CPU cores off them.
+Can hurt performance on CPUs with few cores. Skipped on CPUs with fewer than 6 physical performance cores.
+Windows and Linux only. Takes effect when a game starts.</source>
+        <translation>把模拟器的 GPU 线程固定到专用的物理 CPU 核心，并让模拟的 CPU 核心避开这些核。
+在核心较少的 CPU 上可能影响性能。物理性能核少于 6 个的 CPU 会跳过此设置。
+仅限 Windows 和 Linux。游戏启动时生效。</translation>
     </message>
     <message>
-        <source>Optical Flow Interpolation (built-in)</source>
-        <translation>光流插帧（内置）</translation>
-    </message>
-    <message>
-        <source>Frame Generation Type</source>
-        <translation>帧生成类型</translation>
-    </message>
-    <message>
-        <source>Lossless Scaling (LSFG)</source>
-        <translation>无损缩放 (LSFG)</translation>
-    </message>
-    <message>
-        <source>Auto (shader extent)</source>
-        <translation>自动（按着色器范围）</translation>
-    </message>
-    <message>
-        <source>AMD FidelityFX Super Resolution 1 (FSR 1)</source>
-        <translation>AMD FidelityFX 超级分辨率 1 (FSR 1)</translation>
+        <source>Switch 2 draws with unbuilt pipelines:</source>
+        <translation>Switch 2 遇到管线尚未构建完成时的绘制：</translation>
     </message>
     <message>
         <source>Only applies when asynchronous shader building is on. Decides what a Switch 2 draw does when its graphics pipeline is still building.
@@ -2339,16 +2341,32 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
 等待：让 GPU 等到管线就绪（不会缺少效果，但遇到新内容会长时间停顿）。跳过：丢弃该绘制，可能导致某个效果在几帧内缺失。有界等待：每帧最多等待下方设定的时间，之后跳过。环境变量 EDEN_NX2_ASYNC_DISCARD=1 仍会强制使用“跳过”。</translation>
     </message>
     <message>
-        <source>RCAS Sharpness:</source>
-        <translation>RCAS 锐化度：</translation>
+        <source>Pipeline wait per frame (ms):</source>
+        <translation>每帧管线等待时间（毫秒）：</translation>
     </message>
     <message>
-        <source>Runs a Switch 2 game&apos;s own DLSS (its upscaling network, translated for this GPU) instead of AMD FSR 3.1 in its place.
-AMD FSR 3.1 still draws while the network is checked, when it can&apos;t run on this GPU, with resolution scaling, and for the rest of the session if its output fails Lichii&apos;s checks.
-Takes effect when a game starts.</source>
-        <translation>运行 Switch 2 游戏自带的 DLSS（它自己的超分网络，已针对本 GPU 转译），而不是用 AMD FSR 3.1 替代。
-在检查网络期间、网络无法在本 GPU 上运行时、使用分辨率缩放时，以及网络输出未通过 Lichii 校验的剩余会话时间内，仍由 AMD FSR 3.1 负责绘制。
-游戏启动时生效。</translation>
+        <source>Used by the Bounded mode: the most time per frame that Switch 2 draws may wait in total for pipelines that are still building. Once spent, the remaining unbuilt draws of that frame are skipped.</source>
+        <translation>供“有界等待”模式使用：每帧中 Switch 2 绘制为仍在构建的管线等待的总时间上限。用完后，该帧剩余未构建的绘制会被跳过。</translation>
+    </message>
+    <message>
+        <source>No sharpening</source>
+        <translation>无锐化</translation>
+    </message>
+    <message>
+        <source>Bounded wait</source>
+        <translation>有界等待</translation>
+    </message>
+    <message>
+        <source>Wait</source>
+        <translation>等待</translation>
+    </message>
+    <message>
+        <source>Skip</source>
+        <translation>跳过</translation>
+    </message>
+    <message>
+        <source>Frame rate limit (Switch 2):</source>
+        <translation>帧率上限（Switch 2）：</translation>
     </message>
     <message>
         <source>Rate of the Switch 2 VSync event that games start their frames on (default 60 Hz).
@@ -2359,72 +2377,42 @@ Takes effect when a game starts.</source>
 游戏启动时生效。</translation>
     </message>
     <message>
-        <source>Mario Kart World: 30 FPS mode</source>
-        <translation>马力欧卡丁车世界：30 FPS 模式</translation>
+        <source>Pin GPU threads to their own cores</source>
+        <translation>把 GPU 线程绑定到独立核心</translation>
     </message>
     <message>
-        <source>Frame Generation Multiplier</source>
-        <translation>帧生成倍率</translation>
+        <source>Precache shaders before game start:</source>
+        <translation>游戏启动前预编译着色器：</translation>
     </message>
     <message>
-        <source>Use NVIDIA DLSS in place of a game&apos;s DLSS (experimental)</source>
-        <translation>用 NVIDIA DLSS 替代游戏自带的 DLSS（实验性）</translation>
+        <source>Builds shaders on the loading screen, on every CPU thread, so they don&apos;t stutter the first time the game uses them: the compute shaders found in the game files, and the shaders saved by earlier play sessions that the normal shader loading leaves for later. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+Ask asks at launch while the game has never been precached.</source>
+        <translation>在加载画面用所有 CPU 线程构建着色器，避免游戏第一次用到它们时卡顿：包括游戏文件中的计算着色器，以及以往游戏会话保存下来、通常留到之后再加载的着色器。首次启动会读取游戏文件，需要几分钟；之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面提供“跳过”按钮。
+“询问”会在游戏从未预编译过时于启动时询问。</translation>
     </message>
     <message>
-        <source>Strength of RCAS (AMD&apos;s contrast-adaptive sharpening) on the upscaler used in place of a game&apos;s DLSS (AMD FSR 3.1); 0% turns it off.
-Also sets the sharpening of the AMD FSR 1 and SGSR window adapting filters.</source>
-        <translation>替代游戏 DLSS 的超分器（AMD FSR 3.1）所用的 RCAS（AMD 对比度自适应锐化）强度；0% 表示关闭。
-同时决定 AMD FSR 1 与 SGSR 窗口自适应滤镜的锐化程度。</translation>
-    </message>
-    <message>
-        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
-Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
-Currently requires Fire Emblem: Fortune&apos;s Weave and EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
-Takes effect when a game starts.</source>
-        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
-需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
-目前需要《Fire Emblem: Fortune&apos;s Weave》并设置 EDEN_NX2_DLSS_REPLACEMENT=dlss。没有该覆盖设置时，仍使用其空间超分替代方案。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Full binding</source>
-        <translation>完整绑定</translation>
-    </message>
-    <message>
-        <source>Pipeline wait per frame (ms):</source>
-        <translation>每帧管线等待时间（毫秒）：</translation>
-    </message>
-    <message>
-        <source>Enable Frame Generation</source>
-        <translation>启用帧生成</translation>
-    </message>
-    <message>
-        <source>Use the game&apos;s own DLSS</source>
-        <translation>使用游戏自带的 DLSS</translation>
-    </message>
-    <message>
-        <source>Ocarina of Time anti-aliasing:</source>
-        <translation>《时之笛》抗锯齿：</translation>
+        <source>Ask</source>
+        <translation>询问</translation>
     </message>
     <message>
         <source>Native compute write mark:</source>
         <translation>原生计算写入标记：</translation>
     </message>
     <message>
-        <source>Pin GPU threads to their own cores (experimental)</source>
-        <translation>把 GPU 线程绑定到独立核心（实验性）</translation>
+        <source>How much of a Switch 2 compute shader&apos;s storage buffer is treated as written by the GPU after each dispatch.
+Auto marks what the shader&apos;s stores can reach and falls back to Full when that cannot be proven.
+Full marks the whole binding (up to 8 MiB), the original behaviour: it can delay the game&apos;s own writes to nearby memory (flickering effects) and copy far more data back from the GPU.</source>
+        <translation>每次 dispatch 后，Switch 2 计算着色器的存储缓冲区有多少被视为已被 GPU 写入。
+自动：按着色器存储能触及的范围标记，无法证明时退回“完整绑定”。
+完整绑定：标记整个绑定（最多 8 MiB），这是原来的行为：它可能推迟游戏对邻近内存的写入（导致效果闪烁），并从 GPU 拷回更多数据。</translation>
     </message>
     <message>
-        <source>Bounded wait</source>
-        <translation>有界等待</translation>
+        <source>Auto (shader extent)</source>
+        <translation>自动（按着色器范围）</translation>
     </message>
     <message>
-        <source>FPS Limit</source>
-        <translation>帧率上限</translation>
-    </message>
-    <message>
-        <source>Ask</source>
-        <translation>询问</translation>
+        <source>Full binding</source>
+        <translation>完整绑定</translation>
     </message>
 </context>
 <context>
@@ -3073,10 +3061,6 @@ Takes effect when a game starts.</source>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_debug.ui" line="787"/>
-        <source>**This will be reset automatically when Eden closes.</source>
-        <translation>**这会在 Eden 关闭时自动重置。</translation>
-    </message>
-    <message>
         <source>**This will be reset automatically when Lichii closes.</source>
         <translation>**这会在 Lichii 关闭时自动重置。</translation>
     </message>
@@ -3122,8 +3106,8 @@ Takes effect when a game starts.</source>
     <name>ConfigureDialog</name>
     <message>
         <location filename="../../src/yuzu/configuration/configure.ui" line="20"/>
-        <source>Eden Configuration</source>
-        <translation>Eden 设置</translation>
+        <source>Lichii Configuration</source>
+        <translation>Lichii 设置</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure.ui" line="67"/>
@@ -3215,10 +3199,6 @@ Takes effect when a game starts.</source>
         <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="84"/>
         <source>Web</source>
         <translation>网络</translation>
-    </message>
-    <message>
-        <source>Lichii Configuration</source>
-        <translation>Lichii 设置</translation>
     </message>
 </context>
 <context>
@@ -3478,8 +3458,8 @@ Would you like to delete the old save data?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_general.cpp" line="101"/>
-        <source>Eden</source>
-        <translation>Eden</translation>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_general.cpp" line="102"/>
@@ -3500,10 +3480,6 @@ Would you like to delete the old save data?</source>
         <location filename="../../src/yuzu/configuration/configure_general.cpp" line="154"/>
         <source>This directory is already in the list.</source>
         <translation>这个目录已经在列表中了。</translation>
-    </message>
-    <message>
-        <source>Lichii</source>
-        <translation>Lichii</translation>
     </message>
 </context>
 <context>
@@ -4051,8 +4027,8 @@ Would you like to delete the old save data?</source>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2659"/>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2701"/>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2717"/>
-        <source>Requires restarting Eden</source>
-        <translation>需要重启 Eden</translation>
+        <source>Requires restarting Lichii</source>
+        <translation>需要重启 Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2668"/>
@@ -4103,10 +4079,6 @@ Would you like to delete the old save data?</source>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2772"/>
         <source>Disable SDL WGI/XInput (Requires restart)</source>
         <translation>禁用 SDL WGI/XInput (需要重启)</translation>
-    </message>
-    <message>
-        <source>Requires restarting Lichii</source>
-        <translation>需要重启 Lichii</translation>
     </message>
 </context>
 <context>
@@ -4773,8 +4745,8 @@ To invert the axes, first move your joystick vertically, and then horizontally.<
         <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="180"/>
         <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="186"/>
         <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="280"/>
-        <source>Eden</source>
-        <translation>Eden</translation>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="166"/>
@@ -4835,10 +4807,6 @@ To invert the axes, first move your joystick vertically, and then horizontally.<
         <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="281"/>
         <source>UDP Test or calibration configuration is in progress.&lt;br&gt;Please wait for them to finish.</source>
         <translation>UDP 测试或触摸校准正在进行中。&lt;br&gt;请耐心等待。</translation>
-    </message>
-    <message>
-        <source>Lichii</source>
-        <translation>Lichii</translation>
     </message>
 </context>
 <context>
@@ -5076,68 +5044,48 @@ Current values are %1% and %2% respectively.</source>
         <translation>属性</translation>
     </message>
     <message>
-        <source>Detecting...</source>
-        <translation>正在检测...</translation>
-    </message>
-    <message>
-        <source>Allow online lookup</source>
-        <translation>允许在线查询</translation>
-    </message>
-    <message>
-        <source>Invalid Image</source>
-        <translation>图片无效</translation>
-    </message>
-    <message>
-        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
-        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
-    </message>
-    <message>
-        <source>Please enter a game name first so the icon can be detected.</source>
-        <translation>请先输入游戏名称，才能检测图标。</translation>
-    </message>
-    <message>
         <source>Detect Icon</source>
         <translation>检测图标</translation>
-    </message>
-    <message>
-        <source>Select Game Icon</source>
-        <translation>选择游戏图标</translation>
-    </message>
-    <message>
-        <source>Edit the game name stored in the NUP metadata</source>
-        <translation>编辑 NUP 元数据中保存的游戏名称</translation>
-    </message>
-    <message>
-        <source>The game name is too long to search.</source>
-        <translation>游戏名称太长，无法搜索。</translation>
-    </message>
-    <message>
-        <source>Select a PNG, JPEG, BMP or WebP image up to 8 MiB, 8192 pixels per side and 16 megapixels.</source>
-        <translation>请选择 PNG、JPEG、BMP 或 WebP 图片，大小不超过 8 MiB，边长不超过 8192 像素，总像素不超过 1600 万。</translation>
-    </message>
-    <message>
-        <source>If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.</source>
-        <translation>若找不到本地图标，将游戏名称发送给 GitHub、Wikipedia 和 Bing 以查找图标。默认关闭。</translation>
-    </message>
-    <message>
-        <source>Upload Icon...</source>
-        <translation>上传图标...</translation>
-    </message>
-    <message>
-        <source>Preview a local icon next to the archive. Online lookup is optional. Apply or OK saves changes.</source>
-        <translation>在归档旁预览本地图标。在线查询是可选项。点击“应用”或“确定”保存更改。</translation>
-    </message>
-    <message>
-        <source>Stop emulation before changing NUP metadata.</source>
-        <translation>修改 NUP 元数据前请先停止模拟。</translation>
     </message>
     <message>
         <source>Enter game name...</source>
         <translation>输入游戏名称...</translation>
     </message>
     <message>
-        <source>Preview a local image as the game icon. Apply or OK saves changes.</source>
-        <translation>将本地图片预览为游戏图标。点击“应用”或“确定”保存更改。</translation>
+        <source>Edit the game name stored in the NUP metadata</source>
+        <translation>编辑 NUP 元数据中保存的游戏名称</translation>
+    </message>
+    <message>
+        <source>Select Game Icon</source>
+        <translation>选择游戏图标</translation>
+    </message>
+    <message>
+        <source>Invalid Image</source>
+        <translation>图片无效</translation>
+    </message>
+    <message>
+        <source>Select a PNG, JPEG, BMP or WebP image up to 8 MiB, 8192 pixels per side and 16 megapixels.</source>
+        <translation>请选择 PNG、JPEG、BMP 或 WebP 图片，大小不超过 8 MiB，边长不超过 8192 像素，总像素不超过 1600 万。</translation>
+    </message>
+    <message>
+        <source>Please enter a game name first so the icon can be detected.</source>
+        <translation>请先输入游戏名称，才能检测图标。</translation>
+    </message>
+    <message>
+        <source>The game name is too long to search.</source>
+        <translation>游戏名称太长，无法搜索。</translation>
+    </message>
+    <message>
+        <source>Detecting...</source>
+        <translation>正在检测...</translation>
+    </message>
+    <message>
+        <source>Update NUP Metadata</source>
+        <translation>更新 NUP 元数据</translation>
+    </message>
+    <message>
+        <source>Stop emulation before changing NUP metadata.</source>
+        <translation>修改 NUP 元数据前请先停止模拟。</translation>
     </message>
     <message>
         <source>Failed to update NUP metadata:
@@ -5146,8 +5094,28 @@ Current values are %1% and %2% respectively.</source>
 %1</translation>
     </message>
     <message>
-        <source>Update NUP Metadata</source>
-        <translation>更新 NUP 元数据</translation>
+        <source>Allow online lookup</source>
+        <translation>允许在线查询</translation>
+    </message>
+    <message>
+        <source>If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.</source>
+        <translation>若找不到本地图标，将游戏名称发送给 GitHub、Wikipedia 和 Bing 以查找图标。默认关闭。</translation>
+    </message>
+    <message>
+        <source>Preview a local icon next to the archive. Online lookup is optional. Apply or OK saves changes.</source>
+        <translation>在归档旁预览本地图标。在线查询是可选项。点击“应用”或“确定”保存更改。</translation>
+    </message>
+    <message>
+        <source>Preview a local image as the game icon. Apply or OK saves changes.</source>
+        <translation>将本地图片预览为游戏图标。点击“应用”或“确定”保存更改。</translation>
+    </message>
+    <message>
+        <source>Upload Icon...</source>
+        <translation>上传图标...</translation>
+    </message>
+    <message>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
     </message>
 </context>
 <context>
@@ -5852,8 +5820,8 @@ Drag points to change position, or double-click table cells to edit values.</sou
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="26"/>
-        <source>Warning: The settings in this page affect the inner workings of Eden&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
-        <translation>警告: 此页面中的设置会影响 Eden 模拟触摸屏的内部运行。更改这些设置可能导致不良后果,例如触摸屏部分或完全无法使用。只有在明确知道自己在做什么的情况下才使用此页面。</translation>
+        <source>Warning: The settings in this page affect the inner workings of Lichii&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
+        <translation>警告: 此页面中的设置会影响 Lichii 模拟触摸屏的内部运行。更改这些设置可能导致不良后果,例如触摸屏部分或完全无法使用。只有在明确知道自己在做什么的情况下才使用此页面。</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="52"/>
@@ -5879,10 +5847,6 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="132"/>
         <source>Restore Defaults</source>
         <translation>恢复默认</translation>
-    </message>
-    <message>
-        <source>Warning: The settings in this page affect the inner workings of Lichii&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
-        <translation>警告: 此页面中的设置会影响 Lichii 模拟触摸屏的内部运行。更改这些设置可能导致不良后果,例如触摸屏部分或完全无法使用。只有在明确知道自己在做什么的情况下才使用此页面。</translation>
     </message>
 </context>
 <context>
@@ -6147,8 +6111,8 @@ Drag points to change position, or double-click table cells to edit values.</sou
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_web.ui" line="25"/>
-        <source>Eden Web Service</source>
-        <translation>Eden 网络服务</translation>
+        <source>Lichii Web Service</source>
+        <translation>Lichii 网络服务</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_web.ui" line="33"/>
@@ -6198,10 +6162,6 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <source>Must be 48 characters, and lowercase a-z</source>
         <comment>Tooltip</comment>
         <translation>必须为48个字符，且a-z为小写</translation>
-    </message>
-    <message>
-        <source>Lichii Web Service</source>
-        <translation>Lichii 网络服务</translation>
     </message>
 </context>
 <context>
@@ -6297,18 +6257,18 @@ Drag points to change position, or double-click table cells to edit values.</sou
     <name>DepsDialog</name>
     <message>
         <location filename="../../src/yuzu/deps_dialog.ui" line="14"/>
-        <source>Eden Dependencies</source>
-        <translation>Eden 依赖项</translation>
+        <source>Lichii Dependencies</source>
+        <translation>Lichii 依赖项</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/deps_dialog.ui" line="72"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden 依赖项&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii 依赖项&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/deps_dialog.ui" line="85"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Eden possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;让 Eden 成为可能的项目&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Lichii possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;让 Lichii 成为可能的项目&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/deps_dialog.cpp" line="22"/>
@@ -6319,18 +6279,6 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <location filename="../../src/yuzu/deps_dialog.cpp" line="22"/>
         <source>Version</source>
         <translation>版本</translation>
-    </message>
-    <message>
-        <source>Lichii Dependencies</source>
-        <translation>Lichii 依赖项</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii 依赖项&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Lichii possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;让 Lichii 成为可能的项目&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
@@ -6515,8 +6463,8 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
     </message>
     <message>
         <location filename="../../src/yuzu/bootmanager.cpp" line="863"/>
-        <source>Eden has not been compiled with OpenGL support.</source>
-        <translation>Eden 尚未编译为支持 OpenGL。</translation>
+        <source>Lichii has not been compiled with OpenGL support.</source>
+        <translation>Lichii 尚未编译为支持 OpenGL。</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/bootmanager.cpp" line="887"/>
@@ -6549,10 +6497,6 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <location filename="../../src/yuzu/bootmanager.cpp" line="916"/>
         <source>This build doesn&apos;t have OpenGL support.</source>
         <translation>此版本不支持 OpenGL。</translation>
-    </message>
-    <message>
-        <source>Lichii has not been compiled with OpenGL support.</source>
-        <translation>Lichii 尚未编译为支持 OpenGL。</translation>
     </message>
 </context>
 <context>
@@ -6729,20 +6673,12 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <translation>清除</translation>
     </message>
     <message>
-        <source>Add Update or DLC...</source>
-        <translation>添加更新或 DLC...</translation>
+        <source>Dump NUP...</source>
+        <translation>导出 NUP...</translation>
     </message>
     <message>
-        <source>Remove Update or DLC...</source>
-        <translation>移除更新或 DLC...</translation>
-    </message>
-    <message>
-        <source>Rebuild Shader Precache</source>
-        <translation>重新构建着色器预编译缓存</translation>
-    </message>
-    <message>
-        <source>Edit Title and Icon...</source>
-        <translation>编辑标题和图标...</translation>
+        <source>Convert to NUP...</source>
+        <translation>转换为 NUP...</translation>
     </message>
     <message>
         <source>Edit NUP Metadata...</source>
@@ -6753,28 +6689,36 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <translation>提交兼容性报告…</translation>
     </message>
     <message>
-        <source>Convert to NX...</source>
-        <translation>转换为 NX...</translation>
+        <source>Build Shader Precache</source>
+        <translation>构建着色器预编译缓存</translation>
     </message>
     <message>
-        <source>Dump NUP...</source>
-        <translation>导出 NUP...</translation>
+        <source>Rebuild Shader Precache</source>
+        <translation>重新构建着色器预编译缓存</translation>
+    </message>
+    <message>
+        <source>Delete Shader Precache</source>
+        <translation>删除着色器预编译缓存</translation>
+    </message>
+    <message>
+        <source>Convert to NX...</source>
+        <translation>转换为 NX...</translation>
     </message>
     <message>
         <source>Manage NX Archive</source>
         <translation>管理 NX 归档</translation>
     </message>
     <message>
-        <source>Build Shader Precache</source>
-        <translation>构建着色器预编译缓存</translation>
+        <source>Add Update or DLC...</source>
+        <translation>添加更新或 DLC...</translation>
     </message>
     <message>
-        <source>Convert to NUP...</source>
-        <translation>转换为 NUP...</translation>
+        <source>Remove Update or DLC...</source>
+        <translation>移除更新或 DLC...</translation>
     </message>
     <message>
-        <source>Delete Shader Precache</source>
-        <translation>删除着色器预编译缓存</translation>
+        <source>Edit Title and Icon...</source>
+        <translation>编辑标题和图标...</translation>
     </message>
 </context>
 <context>
@@ -7072,8 +7016,8 @@ Debug Message: </source>
     </message>
     <message>
         <location filename="../../src/qt_common/config/uisettings.cpp" line="45"/>
-        <source>Exit Eden</source>
-        <translation>退出 Eden</translation>
+        <source>Exit Lichii</source>
+        <translation>退出 Lichii</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/config/uisettings.cpp" line="46"/>
@@ -7182,10 +7126,6 @@ Debug Message: </source>
     </message>
     <message>
         <source>Exit Eglantine</source>
-        <translation>退出 Lichii</translation>
-    </message>
-    <message>
-        <source>Exit Lichii</source>
         <translation>退出 Lichii</translation>
     </message>
 </context>
@@ -7375,8 +7315,8 @@ Debug Message: </source>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="62"/>
-        <source>Open &amp;Eden Folders</source>
-        <translation>打开 &amp;Eden 文件夹</translation>
+        <source>Open &amp;Lichii Folders</source>
+        <translation>打开 &amp;Lichii 文件夹</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="85"/>
@@ -7516,8 +7456,8 @@ Debug Message: </source>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="295"/>
-        <source>&amp;About Eden</source>
-        <translation>关于 Eden(&amp;A)</translation>
+        <source>&amp;About Lichii</source>
+        <translation>关于 Lichii(&amp;A)</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="303"/>
@@ -7728,8 +7668,8 @@ Debug Message: </source>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="558"/>
-        <source>&amp;Eden Dependencies</source>
-        <translation>&amp;Eden 依赖项</translation>
+        <source>&amp;Lichii Dependencies</source>
+        <translation>&amp;Lichii 依赖项</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main.ui" line="563"/>
@@ -8546,8 +8486,8 @@ Would you like to force it for future launches?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4400"/>
-        <source>Restart Eden to apply the X11 backend.</source>
-        <translation>重新启动 Eden 以应用 X11 后端。</translation>
+        <source>Restart Lichii to apply the X11 backend.</source>
+        <translation>重新启动 Lichii 以应用 X11 后端。</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4438"/>
@@ -8576,15 +8516,15 @@ Would you like to force it for future launches?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4519"/>
-        <source>Are you sure you want to close Eden?</source>
-        <translation>您确实要关闭 Eden 吗?</translation>
+        <source>Are you sure you want to close Lichii?</source>
+        <translation>您确实要关闭 Lichii 吗?</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4520"/>
         <location filename="../../src/yuzu/main_window.cpp" line="4608"/>
         <location filename="../../src/yuzu/main_window.cpp" line="4620"/>
-        <source>Eden</source>
-        <translation>Eden</translation>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4609"/>
@@ -8593,10 +8533,10 @@ Would you like to force it for future launches?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/main_window.cpp" line="4617"/>
-        <source>The currently running application has requested Eden to not exit.
+        <source>The currently running application has requested Lichii to not exit.
 
 Would you like to bypass this and exit anyway?</source>
-        <translation>当前正在运行的应用程序已请求 Eden 不退出。
+        <translation>当前正在运行的应用程序已请求 Lichii 不退出。
 
 您想要绕过并退出吗?</translation>
     </message>
@@ -8731,270 +8671,32 @@ Would you like to bypass this and exit anyway?</source>
         <translation>空</translation>
     </message>
     <message>
-        <source>Converting to NUP</source>
-        <translation>正在转换为 NUP</translation>
-    </message>
-    <message>
-        <source>Frame generation is off.</source>
-        <translation>帧生成已关闭。</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to close Lichii?</source>
-        <translation>您确实要关闭 Lichii 吗?</translation>
-    </message>
-    <message>
-        <source>Not enough memory to start the game</source>
-        <translation>内存不足，无法启动游戏</translation>
-    </message>
-    <message>
-        <source>Restart Lichii to apply the X11 backend.</source>
-        <translation>重新启动 Lichii 以应用 X11 后端。</translation>
-    </message>
-    <message>
-        <source>Convert to NUP</source>
-        <translation>转换为 NUP</translation>
-    </message>
-    <message>
-        <source>Extraction Failed</source>
-        <translation>提取失败</translation>
-    </message>
-    <message>
-        <source>Editing NUP Metadata</source>
-        <translation>正在编辑 NUP 元数据</translation>
-    </message>
-    <message>
         <source>Optical Flow</source>
         <translation>光流</translation>
     </message>
     <message>
-        <source>Extraction Complete</source>
-        <translation>提取完成</translation>
+        <source>FSR 1 Soft</source>
+        <translation>FSR 1 柔和</translation>
     </message>
     <message>
-        <source> It also pauses while the game already reaches %1 FPS.</source>
-        <translation> 当游戏本身已达 %1 FPS 时，它也会暂停。</translation>
+        <source>LSFG</source>
+        <translation>LSFG</translation>
     </message>
     <message>
-        <source>Restore Previous Version...</source>
-        <translation>恢复上一版本...</translation>
-    </message>
-    <message>
-        <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1</source>
-        <translation>帧生成已开启，但最近半秒没有生成任何帧。它会在预热期间、某帧耗时超过 100 毫秒后的一秒内，以及帧突发到达时暂停。%1</translation>
-    </message>
-    <message>
-        <source>%1 (IDLE)</source>
-        <translation>%1（空闲）</translation>
-    </message>
-    <message>
-        <source>The files could not be deleted: %1</source>
-        <translation>无法删除这些文件：%1</translation>
-    </message>
-    <message>
-        <source>The NUP metadata was updated.</source>
-        <translation>NUP 元数据已更新。</translation>
-    </message>
-    <message>
-        <source>Shaders are being precached. Try again when it is done.</source>
-        <translation>正在预编译着色器，请等它完成后再试。</translation>
-    </message>
-    <message>
-        <source>Shader Precache in Progress</source>
-        <translation>正在构建着色器预编译缓存</translation>
-    </message>
-    <message>
-        <source>Conversion Failed</source>
-        <translation>转换失败</translation>
-    </message>
-    <message>
-        <source>Go back to the version this one replaced? Your settings and data are not changed.</source>
-        <translation>要回退到被当前版本替换的旧版本吗？你的设置和数据不会被更改。</translation>
-    </message>
-    <message>
-        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model, null descriptors and 16-bit floats). The Optical Flow type may still work.</source>
-        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型、空描述符和 16 位浮点）。光流类型可能仍可用。</translation>
-    </message>
-    <message>
-        <source>NX Archive</source>
-        <translation>NX 归档</translation>
-    </message>
-    <message>
-        <source>Open &amp;Lichii Folders</source>
-        <translation>打开 &amp;Lichii 文件夹</translation>
-    </message>
-    <message>
-        <source>Edit Complete</source>
-        <translation>编辑完成</translation>
-    </message>
-    <message>
-        <source>The shaders of this game are not precached yet. Precache them now?
-
-The game starts when they are done. The first time, the game files are read and their shaders are built on every CPU thread, with the shaders earlier play sessions saved, which takes a few minutes. Later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
-
-You can change this in Configure, Graphics, Advanced.</source>
-        <translation>该游戏的着色器尚未预编译。要现在预编译吗？
-
-完成后游戏才会启动。首次会读取游戏文件，并在所有 CPU 线程上构建着色器，同时使用以往游戏会话保存的着色器，需要几分钟。之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面提供“跳过”按钮。
-
-可在 设置 → 图形 → 高级 里修改。</translation>
-    </message>
-    <message>
-        <source>Could not restore the previous version: %1</source>
-        <translation>无法恢复上一版本：%1</translation>
-    </message>
-    <message>
-        <source>Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp *.nsz);;NX Cartridge Image (*.xci *.xcz)</source>
-        <translation>可安装的 Switch 文件 (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo 内容归档 (*.nca);;Nintendo 提交包 (*.nsp *.nsz);;NX 卡带镜像 (*.xci *.xcz)</translation>
-    </message>
-    <message>
-        <source>&amp;About Lichii</source>
-        <translation>关于 Lichii(&amp;A)</translation>
-    </message>
-    <message>
-        <source>Unable to prepare game files</source>
-        <translation>无法准备游戏文件</translation>
-    </message>
-    <message>
-        <source>The conversion can be resumed by choosing Convert to NUP again.</source>
-        <translation>再次选择“转换为 NUP”即可继续这次转换。</translation>
-    </message>
-    <message>
-        <source>Delete Shader Precache</source>
-        <translation>删除着色器预编译缓存</translation>
-    </message>
-    <message>
-        <source>The target directory already exists:
-%1</source>
-        <translation>目标目录已存在：
-%1</translation>
-    </message>
-    <message>
-        <source>&amp;Lichii Dependencies</source>
-        <translation>&amp;Lichii 依赖项</translation>
-    </message>
-    <message>
-        <source>Frame generation is running.%1</source>
-        <translation>帧生成正在运行。%1</translation>
-    </message>
-    <message>
-        <source>Resume Conversion</source>
-        <translation>继续转换</translation>
-    </message>
-    <message>
-        <source>Extracting NUP</source>
-        <translation>正在提取 NUP</translation>
-    </message>
-    <message>
-        <source>The NUP was created and the loose folder was removed.</source>
-        <translation>NUP 已创建，解包文件夹已删除。</translation>
-    </message>
-    <message>
-        <source>Frame generation is on but not running. %1</source>
-        <translation>帧生成已开启但没有运行。%1</translation>
-    </message>
-    <message>
-        <source>Edit Failed</source>
-        <translation>编辑失败</translation>
-    </message>
-    <message>
-        <source>FG %1 AUTO</source>
-        <translation>帧生成 %1 自动</translation>
-    </message>
-    <message>
-        <source>Precache Shaders</source>
-        <translation>预编译着色器</translation>
-    </message>
-    <message>
-        <source>Preparing game files...</source>
-        <translation>正在准备游戏文件...</translation>
-    </message>
-    <message>
-        <source>Restore Previous Version</source>
-        <translation>恢复上一版本</translation>
-    </message>
-    <message>
-        <source>Close the running game first.</source>
-        <translation>请先关闭正在运行的游戏。</translation>
-    </message>
-    <message>
-        <source>Games cannot be started while the shader precache is being built. Wait for it to finish or cancel it.</source>
-        <translation>构建着色器预编译缓存期间无法启动游戏。请等待它完成或取消。</translation>
-    </message>
-    <message>
-        <source>Game preparation failed. See the log for details.</source>
-        <translation>游戏文件准备失败，详情请查看日志。</translation>
-    </message>
-    <message>
-        <source>FG UNAVAILABLE</source>
-        <translation>帧生成不可用</translation>
-    </message>
-    <message>
-        <source>This game cannot be started while its dump is being converted.</source>
-        <translation>该游戏的转储正在转换，无法启动。</translation>
-    </message>
-    <message>
-        <source>Could not check for updates: GitHub answered with HTTP %1.</source>
-        <translation>无法检查更新：GitHub 返回 HTTP %1。</translation>
-    </message>
-    <message>
-        <source>Recommended Mario Kart World settings</source>
-        <translation>推荐的《马力欧卡丁车世界》设置</translation>
-    </message>
-    <message>
-        <source>The NUP was created. You can delete the loose folder if you no longer need it.</source>
-        <translation>NUP 已创建。如果不再需要解包文件夹，可以将其删除。</translation>
-    </message>
-    <message>
-        <source>Precache now</source>
-        <translation>现在预编译</translation>
+        <source>FSR 1</source>
+        <translation>FSR 1</translation>
     </message>
     <message>
         <source>Conversion in Progress</source>
         <translation>正在转换</translation>
     </message>
     <message>
-        <source>This game is being converted. Try again when it is done.</source>
-        <translation>该游戏正在转换中，请等转换完成后再试。</translation>
+        <source>This game cannot be started while its dump is being converted.</source>
+        <translation>该游戏的转储正在转换，无法启动。</translation>
     </message>
     <message>
-        <source>Stop the game before changing its NX archive.</source>
-        <translation>修改 NX 归档前请先停止游戏。</translation>
-    </message>
-    <message>
-        <source>Lichii</source>
-        <translation>Lichii</translation>
-    </message>
-    <message>
-        <source>The NUP was extracted. You can delete the NUP file if you no longer need it.</source>
-        <translation>NUP 已提取。如果不再需要 NUP 文件，可以将其删除。</translation>
-    </message>
-    <message>
-        <source>Start without</source>
-        <translation>不预编译直接启动</translation>
-    </message>
-    <message>
-        <source>This build was compiled without frame generation.</source>
-        <translation>此版本在编译时未包含帧生成。</translation>
-    </message>
-    <message>
-        <source>Conversion Cancelled</source>
-        <translation>转换已取消</translation>
-    </message>
-    <message>
-        <source>Could not check for updates: GitHub rate limit reached. Lichii will try again at the next start.</source>
-        <translation>无法检查更新：已达到 GitHub 速率限制。Lichii 会在下次启动时再试。</translation>
-    </message>
-    <message>
-        <source>FG %1 %2X</source>
-        <translation>帧生成 %1 %2X</translation>
-    </message>
-    <message>
-        <source>The currently running application has requested Lichii to not exit.
-
-Would you like to bypass this and exit anyway?</source>
-        <translation>当前正在运行的应用程序已请求 Lichii 不退出。
-
-您想要绕过并退出吗?</translation>
+        <source>Recommended Mario Kart World settings</source>
+        <translation>推荐的《马力欧卡丁车世界》设置</translation>
     </message>
     <message>
         <source>Use the recommended settings for Mario Kart World?
@@ -9009,8 +8711,24 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
 这些设置会对《马力欧卡丁车世界》生效，直到 Lichii 关闭；你已保存的设置不会被修改。</translation>
     </message>
     <message>
-        <source>Extract NUP</source>
-        <translation>提取 NUP</translation>
+        <source>Preparing game files...</source>
+        <translation>正在准备游戏文件...</translation>
+    </message>
+    <message>
+        <source>Unable to prepare game files</source>
+        <translation>无法准备游戏文件</translation>
+    </message>
+    <message>
+        <source>Game preparation failed. See the log for details.</source>
+        <translation>游戏文件准备失败，详情请查看日志。</translation>
+    </message>
+    <message>
+        <source>Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp *.nsz);;NX Cartridge Image (*.xci *.xcz)</source>
+        <translation>可安装的 Switch 文件 (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo 内容归档 (*.nca);;Nintendo 提交包 (*.nsp *.nsz);;NX 卡带镜像 (*.xci *.xcz)</translation>
+    </message>
+    <message>
+        <source>Convert to NUP</source>
+        <translation>转换为 NUP</translation>
     </message>
     <message>
         <source>The target archive already exists:
@@ -9019,60 +8737,250 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
 %1</translation>
     </message>
     <message>
-        <source>NO FG</source>
-        <translation>无帧生成</translation>
-    </message>
-    <message>
-        <source>LSFG</source>
-        <translation>LSFG</translation>
-    </message>
-    <message>
-        <source>LSFG needs Lossless.dll from Lossless Scaling in the &quot;lossless&quot; folder of the user directory. It is missing or could not be loaded.</source>
-        <translation>LSFG 需要 Lossless Scaling 的 Lossless.dll，放在用户目录的“lossless”文件夹中。该文件缺失或无法加载。</translation>
-    </message>
-    <message>
-        <source>Frame generation needs the Vulkan renderer.</source>
-        <translation>帧生成需要 Vulkan 渲染器。</translation>
-    </message>
-    <message>
-        <source>Frame generation is on.%1 Whether it runs shows here once a game starts.</source>
-        <translation>帧生成已开启。%1 游戏启动后会在此显示它是否运行。</translation>
-    </message>
-    <message>
-        <source>Conversion Complete</source>
-        <translation>转换完成</translation>
-    </message>
-    <message>
-        <source>This GPU can&apos;t write to the window&apos;s swapchain format from a shader, so generated frames can&apos;t be presented.</source>
-        <translation>此 GPU 无法从着色器写入窗口的交换链格式，因此生成的帧无法呈现。</translation>
+        <source>Resume Conversion</source>
+        <translation>继续转换</translation>
     </message>
     <message>
         <source>Resume the interrupted conversion?</source>
         <translation>要继续上次中断的转换吗？</translation>
     </message>
     <message>
-        <source>FSR 1 Soft</source>
-        <translation>FSR 1 柔和</translation>
+        <source>Converting to NUP</source>
+        <translation>正在转换为 NUP</translation>
     </message>
     <message>
-        <source>Delete the shader precache files of this game? They are built again the next time the game is precached.</source>
-        <translation>要删除该游戏的着色器预编译缓存文件吗？下次预编译时会重新构建。</translation>
+        <source>Conversion Complete</source>
+        <translation>转换完成</translation>
+    </message>
+    <message>
+        <source>The NUP was created and the loose folder was removed.</source>
+        <translation>NUP 已创建，解包文件夹已删除。</translation>
+    </message>
+    <message>
+        <source>The NUP was created. You can delete the loose folder if you no longer need it.</source>
+        <translation>NUP 已创建。如果不再需要解包文件夹，可以将其删除。</translation>
+    </message>
+    <message>
+        <source>Conversion Cancelled</source>
+        <translation>转换已取消</translation>
+    </message>
+    <message>
+        <source>The conversion can be resumed by choosing Convert to NUP again.</source>
+        <translation>再次选择“转换为 NUP”即可继续这次转换。</translation>
+    </message>
+    <message>
+        <source>Conversion Failed</source>
+        <translation>转换失败</translation>
+    </message>
+    <message>
+        <source>Extract NUP</source>
+        <translation>提取 NUP</translation>
+    </message>
+    <message>
+        <source>The target directory already exists:
+%1</source>
+        <translation>目标目录已存在：
+%1</translation>
+    </message>
+    <message>
+        <source>Extracting NUP</source>
+        <translation>正在提取 NUP</translation>
+    </message>
+    <message>
+        <source>Extraction Complete</source>
+        <translation>提取完成</translation>
+    </message>
+    <message>
+        <source>The NUP was extracted. You can delete the NUP file if you no longer need it.</source>
+        <translation>NUP 已提取。如果不再需要 NUP 文件，可以将其删除。</translation>
+    </message>
+    <message>
+        <source>Extraction Failed</source>
+        <translation>提取失败</translation>
+    </message>
+    <message>
+        <source>Editing NUP Metadata</source>
+        <translation>正在编辑 NUP 元数据</translation>
+    </message>
+    <message>
+        <source>Edit Complete</source>
+        <translation>编辑完成</translation>
+    </message>
+    <message>
+        <source>The NUP metadata was updated.</source>
+        <translation>NUP 元数据已更新。</translation>
+    </message>
+    <message>
+        <source>Edit Failed</source>
+        <translation>编辑失败</translation>
+    </message>
+    <message>
+        <source>Restore Previous Version...</source>
+        <translation>恢复上一版本...</translation>
+    </message>
+    <message>
+        <source>Restore Previous Version</source>
+        <translation>恢复上一版本</translation>
+    </message>
+    <message>
+        <source>Go back to the version this one replaced? Your settings and data are not changed.</source>
+        <translation>要回退到被当前版本替换的旧版本吗？你的设置和数据不会被更改。</translation>
     </message>
     <message>
         <source>Failed to restore</source>
         <translation>恢复失败</translation>
     </message>
     <message>
-        <source>FSR 1</source>
-        <translation>FSR 1</translation>
+        <source>Could not restore the previous version: %1</source>
+        <translation>无法恢复上一版本：%1</translation>
+    </message>
+    <message>
+        <source>Not enough memory to start the game</source>
+        <translation>内存不足，无法启动游戏</translation>
     </message>
     <message>
         <source>Lichii could not allocate the game&apos;s memory. Close other applications and check that your system has enough available memory and paging-file space, then try again.</source>
         <translation>Lichii 无法分配游戏所需的内存。请关闭其他程序，确认系统有足够的可用内存和页面文件空间后重试。</translation>
     </message>
     <message>
+        <source>Could not check for updates: GitHub rate limit reached. Lichii will try again at the next start.</source>
+        <translation>无法检查更新：已达到 GitHub 速率限制。Lichii 会在下次启动时再试。</translation>
+    </message>
+    <message>
+        <source>Could not check for updates: GitHub answered with HTTP %1.</source>
+        <translation>无法检查更新：GitHub 返回 HTTP %1。</translation>
+    </message>
+    <message>
+        <source>NO FG</source>
+        <translation>无帧生成</translation>
+    </message>
+    <message>
+        <source>Frame generation is off.</source>
+        <translation>帧生成已关闭。</translation>
+    </message>
+    <message>
+        <source>FG %1 %2X</source>
+        <translation>帧生成 %1 %2X</translation>
+    </message>
+    <message>
+        <source>FG %1 AUTO</source>
+        <translation>帧生成 %1 自动</translation>
+    </message>
+    <message>
         <source> It adds up to %1 frames per game frame to reach %2 FPS.</source>
         <translation> 每个游戏帧最多补出 %1 帧，以达到 %2 FPS。</translation>
+    </message>
+    <message>
+        <source>Frame generation is on.%1 Whether it runs shows here once a game starts.</source>
+        <translation>帧生成已开启。%1 游戏启动后会在此显示它是否运行。</translation>
+    </message>
+    <message>
+        <source>Frame generation needs the Vulkan renderer.</source>
+        <translation>帧生成需要 Vulkan 渲染器。</translation>
+    </message>
+    <message>
+        <source>This build was compiled without frame generation.</source>
+        <translation>此版本在编译时未包含帧生成。</translation>
+    </message>
+    <message>
+        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model, null descriptors and 16-bit floats). The Optical Flow type may still work.</source>
+        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型、空描述符和 16 位浮点）。光流类型可能仍可用。</translation>
+    </message>
+    <message>
+        <source>This GPU can&apos;t write to the window&apos;s swapchain format from a shader, so generated frames can&apos;t be presented.</source>
+        <translation>此 GPU 无法从着色器写入窗口的交换链格式，因此生成的帧无法呈现。</translation>
+    </message>
+    <message>
+        <source>LSFG needs Lossless.dll from Lossless Scaling in the &quot;lossless&quot; folder of the user directory. It is missing or could not be loaded.</source>
+        <translation>LSFG 需要 Lossless Scaling 的 Lossless.dll，放在用户目录的“lossless”文件夹中。该文件缺失或无法加载。</translation>
+    </message>
+    <message>
+        <source>FG UNAVAILABLE</source>
+        <translation>帧生成不可用</translation>
+    </message>
+    <message>
+        <source>Frame generation is on but not running. %1</source>
+        <translation>帧生成已开启但没有运行。%1</translation>
+    </message>
+    <message>
+        <source>Frame generation is running.%1</source>
+        <translation>帧生成正在运行。%1</translation>
+    </message>
+    <message>
+        <source> It also pauses while the game already reaches %1 FPS.</source>
+        <translation> 当游戏本身已达 %1 FPS 时，它也会暂停。</translation>
+    </message>
+    <message>
+        <source>%1 (IDLE)</source>
+        <translation>%1（空闲）</translation>
+    </message>
+    <message>
+        <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1</source>
+        <translation>帧生成已开启，但最近半秒没有生成任何帧。它会在预热期间、某帧耗时超过 100 毫秒后的一秒内，以及帧突发到达时暂停。%1</translation>
+    </message>
+    <message>
+        <source>Shader Precache in Progress</source>
+        <translation>正在构建着色器预编译缓存</translation>
+    </message>
+    <message>
+        <source>Games cannot be started while the shader precache is being built. Wait for it to finish or cancel it.</source>
+        <translation>构建着色器预编译缓存期间无法启动游戏。请等待它完成或取消。</translation>
+    </message>
+    <message>
+        <source>Precache Shaders</source>
+        <translation>预编译着色器</translation>
+    </message>
+    <message>
+        <source>Close the running game first.</source>
+        <translation>请先关闭正在运行的游戏。</translation>
+    </message>
+    <message>
+        <source>This game is being converted. Try again when it is done.</source>
+        <translation>该游戏正在转换中，请等转换完成后再试。</translation>
+    </message>
+    <message>
+        <source>The shaders of this game are not precached yet. Precache them now?
+
+The game starts when they are done. The first time, the game files are read and their shaders are built on every CPU thread, with the shaders earlier play sessions saved, which takes a few minutes. Later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+
+You can change this in Configure, Graphics, Advanced.</source>
+        <translation>该游戏的着色器尚未预编译。要现在预编译吗？
+
+完成后游戏才会启动。首次会读取游戏文件，并在所有 CPU 线程上构建着色器，同时使用以往游戏会话保存的着色器，需要几分钟。之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面提供“跳过”按钮。
+
+可在 设置 → 图形 → 高级 里修改。</translation>
+    </message>
+    <message>
+        <source>Precache now</source>
+        <translation>现在预编译</translation>
+    </message>
+    <message>
+        <source>Start without</source>
+        <translation>不预编译直接启动</translation>
+    </message>
+    <message>
+        <source>Delete Shader Precache</source>
+        <translation>删除着色器预编译缓存</translation>
+    </message>
+    <message>
+        <source>Shaders are being precached. Try again when it is done.</source>
+        <translation>正在预编译着色器，请等它完成后再试。</translation>
+    </message>
+    <message>
+        <source>Delete the shader precache files of this game? They are built again the next time the game is precached.</source>
+        <translation>要删除该游戏的着色器预编译缓存文件吗？下次预编译时会重新构建。</translation>
+    </message>
+    <message>
+        <source>The files could not be deleted: %1</source>
+        <translation>无法删除这些文件：%1</translation>
+    </message>
+    <message>
+        <source>Stop the game before changing its NX archive.</source>
+        <translation>修改 NX 归档前请先停止游戏。</translation>
+    </message>
+    <message>
+        <source>NX Archive</source>
+        <translation>NX 归档</translation>
     </message>
 </context>
 <context>
@@ -9280,8 +9188,8 @@ Proceed anyway?</source>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="60"/>
-        <source>Eden</source>
-        <translation>Eden</translation>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="70"/>
@@ -9382,10 +9290,6 @@ Proceed anyway?</source>
         <source>Must be between 1 and 32 characters</source>
         <comment>Tooltip</comment>
         <translation>长度需为 1-32 个字符</translation>
-    </message>
-    <message>
-        <source>Lichii</source>
-        <translation>Lichii</translation>
     </message>
 </context>
 <context>
@@ -10020,16 +9924,12 @@ p, li { white-space: pre-wrap; }
         <translation>收藏</translation>
     </message>
     <message>
-        <source>Citron</source>
-        <translation>Citron</translation>
-    </message>
-    <message>
-        <source>Yuzu</source>
-        <translation>Yuzu</translation>
-    </message>
-    <message>
         <source>%1 (update)</source>
         <translation>%1（更新）</translation>
+    </message>
+    <message>
+        <source>Citron</source>
+        <translation>Citron</translation>
     </message>
     <message>
         <source>Sudachi</source>
@@ -10038,6 +9938,10 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Suyu</source>
         <translation>Suyu</translation>
+    </message>
+    <message>
+        <source>Yuzu</source>
+        <translation>Yuzu</translation>
     </message>
 </context>
 <context>
@@ -11413,17 +11317,17 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <location filename="../../src/yuzu/ryujinx_dialog.ui" line="26"/>
-        <source>Linking save data to Ryujinx lets both Ryujinx and Eden reference the same save files for your games.
+        <source>Linking save data to Ryujinx lets both Ryujinx and Lichii reference the same save files for your games.
 
-By selecting &quot;From Eden&quot;, previous save data stored in Ryujinx will be deleted, and vice versa for &quot;From Ryujinx&quot;.</source>
-        <translation>将存档数据链接到 Ryujinx 可以使 Ryujinx 和 Eden 都能引用相同的游戏存档文件。
+By selecting &quot;From Lichii&quot;, previous save data stored in Ryujinx will be deleted, and vice versa for &quot;From Ryujinx&quot;.</source>
+        <translation>将存档数据链接到 Ryujinx 可以使 Ryujinx 和 Lichii 都能引用相同的游戏存档文件。
 
-选择 “来自 Eden” 时，Ryujinx 中存储的上一个保存数据将被删除,反之选择“从 Ryujinx 开始”时亦然。</translation>
+选择 “来自 Lichii” 时，Ryujinx 中存储的上一个保存数据将被删除,反之选择“从 Ryujinx 开始”时亦然。</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/ryujinx_dialog.ui" line="40"/>
-        <source>From Eden</source>
-        <translation>来自 Eden</translation>
+        <source>From Lichii</source>
+        <translation>来自 Lichii</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/ryujinx_dialog.ui" line="47"/>
@@ -11444,18 +11348,6 @@ By selecting &quot;From Eden&quot;, previous save data stored in Ryujinx will be
         <location filename="../../src/yuzu/ryujinx_dialog.cpp" line="38"/>
         <source>OS returned error: %1</source>
         <translation>OS 返回错误: %1</translation>
-    </message>
-    <message>
-        <source>From Lichii</source>
-        <translation>来自 Lichii</translation>
-    </message>
-    <message>
-        <source>Linking save data to Ryujinx lets both Ryujinx and Lichii reference the same save files for your games.
-
-By selecting &quot;From Lichii&quot;, previous save data stored in Ryujinx will be deleted, and vice versa for &quot;From Ryujinx&quot;.</source>
-        <translation>将存档数据链接到 Ryujinx 可以使 Ryujinx 和 Lichii 都能引用相同的游戏存档文件。
-
-选择 “来自 Lichii” 时，Ryujinx 中存储的上一个保存数据将被删除,反之选择“从 Ryujinx 开始”时亦然。</translation>
     </message>
 </context>
 <context>
@@ -11588,40 +11480,48 @@ Error code: %3</source>
         <translation>已成功下载 %1。您要打开它吗?</translation>
     </message>
     <message>
+        <source>&lt;a href=&quot;%1&quot;&gt;View on GitHub&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%1&quot;&gt;在 GitHub 上查看&lt;/a&gt;</translation>
+    </message>
+    <message>
         <source>Remind Me Later</source>
         <translation>稍后提醒</translation>
+    </message>
+    <message>
+        <source>Skip This Version</source>
+        <translation>跳过此版本</translation>
     </message>
     <message>
         <source> This release has no PGO build, so the standard build will be downloaded.</source>
         <translation> 此发布没有 PGO 构建，将下载标准构建。</translation>
     </message>
     <message>
-        <source>The downloaded file does not match the checksum GitHub published for it, so it was discarded. Try again later.</source>
-        <translation>下载的文件与 GitHub 公布的校验和不符，已丢弃。请稍后重试。</translation>
+        <source>Failed to restart</source>
+        <translation>重启失败</translation>
     </message>
     <message>
-        <source>Lichii will close, install the update and start again. The previous version is kept, and your settings and data are not changed.
-
-Restart now?</source>
-        <translation>Lichii 将关闭、安装更新并重新启动。旧版本会被保留，你的设置和数据不会被更改。
-
-现在重启吗？</translation>
+        <source>Please start %1 again yourself.</source>
+        <translation>请手动重新启动 %1。</translation>
     </message>
     <message>
         <source>Failed to install the update</source>
         <translation>安装更新失败</translation>
     </message>
     <message>
-        <source>Download failed verification</source>
-        <translation>下载校验失败</translation>
+        <source>Could not start the update installer.</source>
+        <translation>无法启动更新安装程序。</translation>
     </message>
     <message>
-        <source>Could not create a folder for the update.</source>
-        <translation>无法为更新创建文件夹。</translation>
+        <source>Another Lichii window is already updating this installation.</source>
+        <translation>另一个 Lichii 窗口正在更新此安装。</translation>
     </message>
     <message>
-        <source>Would you like to download this update?</source>
-        <translation>要下载此更新吗？</translation>
+        <source>Could not replace %1. Your installation was not changed.</source>
+        <translation>无法替换 %1。你的安装未被更改。</translation>
+    </message>
+    <message>
+        <source>Update Installed</source>
+        <translation>更新已安装</translation>
     </message>
     <message>
         <source>The new version is installed. The previous version is kept as %1.
@@ -11632,346 +11532,40 @@ Restart now?</source>
 现在重启吗？</translation>
     </message>
     <message>
-        <source>Failed to restart</source>
-        <translation>重启失败</translation>
-    </message>
-    <message>
-        <source>Update Ready</source>
-        <translation>更新已就绪</translation>
-    </message>
-    <message>
-        <source>Another Lichii window is already updating this installation.</source>
-        <translation>另一个 Lichii 窗口正在更新此安装。</translation>
+        <source>Could not create a folder for the update.</source>
+        <translation>无法为更新创建文件夹。</translation>
     </message>
     <message>
         <source>Unpacking...</source>
         <translation>正在解包...</translation>
     </message>
     <message>
-        <source>Could not start the update installer.</source>
-        <translation>无法启动更新安装程序。</translation>
-    </message>
-    <message>
         <source>The downloaded update could not be unpacked.</source>
         <translation>无法解包下载的更新。</translation>
     </message>
     <message>
-        <source>Could not replace %1. Your installation was not changed.</source>
-        <translation>无法替换 %1。你的安装未被更改。</translation>
+        <source>Update Ready</source>
+        <translation>更新已就绪</translation>
     </message>
     <message>
-        <source>Please start %1 again yourself.</source>
-        <translation>请手动重新启动 %1。</translation>
+        <source>Lichii will close, install the update and start again. The previous version is kept, and your settings and data are not changed.
+
+Restart now?</source>
+        <translation>Lichii 将关闭、安装更新并重新启动。旧版本会被保留，你的设置和数据不会被更改。
+
+现在重启吗？</translation>
     </message>
     <message>
-        <source>&lt;a href=&quot;%1&quot;&gt;View on GitHub&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;%1&quot;&gt;在 GitHub 上查看&lt;/a&gt;</translation>
+        <source>Download failed verification</source>
+        <translation>下载校验失败</translation>
     </message>
     <message>
-        <source>Skip This Version</source>
-        <translation>跳过此版本</translation>
+        <source>The downloaded file does not match the checksum GitHub published for it, so it was discarded. Try again later.</source>
+        <translation>下载的文件与 GitHub 公布的校验和不符，已丢弃。请稍后重试。</translation>
     </message>
     <message>
-        <source>Update Installed</source>
-        <translation>更新已安装</translation>
-    </message>
-</context>
-<context>
-    <name>CompatibilityReporting::Dialog</name>
-    <message>
-        <source>Submit compatibility report</source>
-        <translation>提交兼容性报告</translation>
-    </message>
-    <message>
-        <source>Share your experience with the latest completed session. Nothing is sent until you choose Search or Submit. Logs are not uploaded. No account is required.</source>
-        <translation>分享您最近一次已完成会话的体验。在您选择“搜索”或“提交”之前不会发送任何内容。不会上传日志。无需账号。</translation>
-    </message>
-    <message>
-        <source>Game title to search</source>
-        <translation>要搜索的游戏名称</translation>
-    </message>
-    <message>
-        <source>Search catalog</source>
-        <translation>搜索目录</translation>
-    </message>
-    <message>
-        <source>Search sends only the text above to lichii.zortos.me. The service sees your IP address.</source>
-        <translation>搜索只会把上方文本发送到 lichii.zortos.me。该服务会看到您的 IP 地址。</translation>
-    </message>
-    <message>
-        <source>Previous</source>
-        <translation>上一步</translation>
-    </message>
-    <message>
-        <source>Next</source>
-        <translation>下一步</translation>
-    </message>
-    <message>
-        <source>Confirm game</source>
-        <translation>确认游戏</translation>
-    </message>
-    <message>
-        <source>No catalog game confirmed.</source>
-        <translation>尚未确认任何目录中的游戏。</translation>
-    </message>
-    <message>
-        <source>Experience</source>
-        <translation>体验</translation>
-    </message>
-    <message>
-        <source>Public nickname</source>
-        <translation>公开昵称</translation>
-    </message>
-    <message>
-        <source>X handle (optional)</source>
-        <translation>X 账号（可选）</translation>
-    </message>
-    <message>
-        <source>Choose your assessment</source>
-        <translation>选择您的评价</translation>
-    </message>
-    <message>
-        <source>Compatibility</source>
-        <translation>兼容性</translation>
-    </message>
-    <message>
-        <source>Summary</source>
-        <translation>摘要</translation>
-    </message>
-    <message>
-        <source>How far did you play?</source>
-        <translation>您游玩到哪个进度？</translation>
-    </message>
-    <message>
-        <source>What worked or failed?</source>
-        <translation>哪些正常、哪些失败？</translation>
-    </message>
-    <message>
-        <source>Steps to reproduce (optional)</source>
-        <translation>复现步骤（可选）</translation>
-    </message>
-    <message>
-        <source>System and settings</source>
-        <translation>系统与设置</translation>
-    </message>
-    <message>
-        <source>Prefilled values describe launch settings, not measured performance. Review changes made during play. Unknown means not collected. Do not paste logs, paths, keys or private details.</source>
-        <translation>预填值描述的是启动设置，而不是实测性能。请检查游玩过程中做过的改动。“未知”表示未采集。请勿粘贴日志、路径、密钥或私人信息。</translation>
-    </message>
-    <message>
-        <source>Lichii build</source>
-        <translation>Lichii 版本</translation>
-    </message>
-    <message>
-        <source>Game version</source>
-        <translation>游戏版本</translation>
-    </message>
-    <message>
-        <source>GPU driver / OpenGL version</source>
-        <translation>GPU 驱动 / OpenGL 版本</translation>
-    </message>
-    <message>
-        <source>Operating system</source>
-        <translation>操作系统</translation>
-    </message>
-    <message>
-        <source>RAM (optional)</source>
-        <translation>内存（可选）</translation>
-    </message>
-    <message>
-        <source>Graphics API</source>
-        <translation>图形 API</translation>
-    </message>
-    <message>
-        <source>Launch settings</source>
-        <translation>启动设置</translation>
-    </message>
-    <message>
-        <source>Updates (optional)</source>
-        <translation>更新（可选）</translation>
-    </message>
-    <message>
-        <source>Mods (optional)</source>
-        <translation>模组（可选）</translation>
-    </message>
-    <message>
-        <source>Public preview</source>
-        <translation>公开预览</translation>
-    </message>
-    <message>
-        <source>All report fields in the preview will be public. Logs, files, local title IDs and play history are not sent. The server uses your IP address for rate limiting. Review and clear anything you do not want to share.</source>
-        <translation>预览中的所有报告字段都会公开。日志、文件、本地标题 ID 与游玩记录不会发送。服务器会使用您的 IP 地址进行限流。请检查并清除任何您不愿分享的内容。</translation>
-    </message>
-    <message>
-        <source>I understand my name, optional X handle, report text, hardware and settings will be public.</source>
-        <translation>我了解我的名字、可选的 X 账号、报告正文、硬件与设置将会公开。</translation>
-    </message>
-    <message>
-        <source>My report contains no game files, keys, firmware, saves or private account details.</source>
-        <translation>我的报告不包含任何游戏文件、密钥、固件、存档或私人账号信息。</translation>
-    </message>
-    <message>
-        <source>Clear draft</source>
-        <translation>清除草稿</translation>
-    </message>
-    <message>
-        <source>Submit report</source>
-        <translation>提交报告</translation>
-    </message>
-    <message>
-        <source>Open public report</source>
-        <translation>打开公开报告</translation>
-    </message>
-    <message>
-        <source>Draft cleared. Nothing was sent by clearing it.</source>
-        <translation>草稿已清除。清除操作本身不会发送任何内容。</translation>
-    </message>
-    <message>
-        <source>Search for and confirm the catalog game first.</source>
-        <translation>请先搜索并确认目录中的游戏。</translation>
-    </message>
-    <message>
-        <source>Check %1: required fields must be filled, within their length limit, and contain no control characters.</source>
-        <translation>请检查 %1：必填项必须填写、不超过长度限制，且不能包含控制字符。</translation>
-    </message>
-    <message>
-        <source>An X handle must contain 1–15 letters, digits or underscores, with an optional @.</source>
-        <translation>X 账号只能包含 1–15 个字母、数字或下划线，可带一个可选的 @。</translation>
-    </message>
-    <message>
-        <source>Choose your own compatibility assessment.</source>
-        <translation>请选择您自己的兼容性评价。</translation>
-    </message>
-    <message>
-        <source>The report is too large.</source>
-        <translation>报告内容过大。</translation>
-    </message>
-    <message>
-        <source>Check the search text.</source>
-        <translation>请检查搜索文本。</translation>
-    </message>
-    <message>
-        <source>Searching catalog… Cancel closes the dialog and stops this request.</source>
-        <translation>正在搜索目录…“取消”会关闭对话框并中止本次请求。</translation>
-    </message>
-    <message>
-        <source>Confirmed: %1 (catalog ID %2)</source>
-        <translation>已确认：%1（目录 ID %2）</translation>
-    </message>
-    <message>
-        <source>Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.</source>
-        <translation>正在提交…关闭会停止等待，但无法撤回服务器已收到的报告。不会自动重试。</translation>
-    </message>
-    <message>
-        <source>Rate limit reached. Wait %1 seconds, then retry explicitly. Nothing will be retried automatically.</source>
-        <translation>已达到速率限制。请等待 %1 秒后手动重试。不会自动重试任何内容。</translation>
-    </message>
-    <message>
-        <source>The server rejected the report. Review the fields and length limits before submitting again.</source>
-        <translation>服务器拒绝了该报告。请检查各字段与长度限制后再提交。</translation>
-    </message>
-    <message>
-        <source>The server rejected these fields: %1. Review them before submitting again.</source>
-        <translation>服务器拒绝了以下字段：%1。请检查后再提交。</translation>
-    </message>
-    <message>
-        <source>The server rejected this submission identity. Edit the draft to start a new submission; first check whether your report was already accepted.</source>
-        <translation>服务器拒绝了该提交标识。请编辑草稿以开始新的提交；请先确认您的报告是否已被接受。</translation>
-    </message>
-    <message>
-        <source>The server rejected the request (HTTP %1). No automatic retry was made.</source>
-        <translation>服务器拒绝了该请求（HTTP %1）。未进行自动重试。</translation>
-    </message>
-    <message>
-        <source>No valid receipt was received. Delivery may have succeeded. An explicit retry of this unchanged draft uses the same submission identity. Closing loses that identity; do not create a duplicate.</source>
-        <translation>未收到有效回执。投递可能已经成功。对这份未改动的草稿显式重试会使用相同的提交标识。关闭将丢失该标识；请勿创建重复报告。</translation>
-    </message>
-    <message>
-        <source>Catalog search failed. Check your connection and retry explicitly.</source>
-        <translation>目录搜索失败。请检查网络连接后手动重试。</translation>
-    </message>
-    <message>
-        <source>Report submitted. It is public. Thank you.</source>
-        <translation>报告已提交，内容公开。谢谢！</translation>
-    </message>
-    <message>
-        <source>The server returned an invalid receipt. The report may have been accepted. Only retry this unchanged draft explicitly.</source>
-        <translation>服务器返回了无效回执。报告可能已被接受。仅可对这份未改动的草稿显式重试。</translation>
-    </message>
-    <message>
-        <source>Page %1 of %2. Select the exact game and press Confirm game.</source>
-        <translation>第 %1 页，共 %2 页。请选择确切的游戏并点击“确认游戏”。</translation>
-    </message>
-    <message>
-        <source>The catalog returned an invalid response. No game was confirmed.</source>
-        <translation>目录返回了无效响应。未确认任何游戏。</translation>
-    </message>
-</context>
-<context>
-    <name>ConfigureMicrophone</name>
-    <message>
-        <source>Microphone</source>
-        <translation>麦克风</translation>
-    </message>
-    <message>
-        <source>Choose the microphone used by games. Start a test and speak to check the input level.</source>
-        <translation>选择游戏使用的麦克风。开始测试并说话，即可查看输入电平。</translation>
-    </message>
-    <message>
-        <source>Input device:</source>
-        <translation>输入设备：</translation>
-    </message>
-    <message>
-        <source>Refresh devices</source>
-        <translation>刷新设备</translation>
-    </message>
-    <message>
-        <source>Microphone volume:</source>
-        <translation>麦克风音量：</translation>
-    </message>
-    <message>
-        <source>Input level:</source>
-        <translation>输入电平：</translation>
-    </message>
-    <message>
-        <source>Start microphone test</source>
-        <translation>开始麦克风测试</translation>
-    </message>
-    <message>
-        <source>Microphone disconnected or capture failed.</source>
-        <translation>麦克风已断开或采集失败。</translation>
-    </message>
-    <message>
-        <source>Stop emulation to change the microphone input device or volume.</source>
-        <translation>请停止模拟后再更改麦克风输入设备或音量。</translation>
-    </message>
-    <message>
-        <source>System default</source>
-        <translation>系统默认</translation>
-    </message>
-    <message>
-        <source>%1 (unavailable)</source>
-        <translation>%1（不可用）</translation>
-    </message>
-    <message>
-        <source>Microphone input is unavailable. Choose an available input device.</source>
-        <translation>麦克风输入不可用。请选择一个可用的输入设备。</translation>
-    </message>
-    <message>
-        <source>Unable to open the microphone. Check the device and microphone permissions in your operating system.</source>
-        <translation>无法打开麦克风。请检查设备以及操作系统中的麦克风权限。</translation>
-    </message>
-    <message>
-        <source>Stop microphone test</source>
-        <translation>停止麦克风测试</translation>
-    </message>
-    <message>
-        <source>Listening. Speak into your microphone.</source>
-        <translation>正在监听。请对着麦克风说话。</translation>
-    </message>
-    <message>
-        <source>%1%</source>
-        <translation>%1%</translation>
+        <source>Would you like to download this update?</source>
+        <translation>要下载此更新吗？</translation>
     </message>
 </context>
 <context>
@@ -11983,6 +11577,157 @@ Restart now?</source>
     <message>
         <source>Folder size is not calculated during game discovery.</source>
         <translation>扫描游戏时不会计算文件夹大小。</translation>
+    </message>
+</context>
+<context>
+    <name>NupEditDialog</name>
+    <message>
+        <source>English (UK)</source>
+        <translation>英语（英国）</translation>
+    </message>
+    <message>
+        <source>Japanese</source>
+        <translation>日语</translation>
+    </message>
+    <message>
+        <source>French (Canada)</source>
+        <translation>法语（加拿大）</translation>
+    </message>
+    <message>
+        <source>French</source>
+        <translation>法语</translation>
+    </message>
+    <message>
+        <source>German</source>
+        <translation>德语</translation>
+    </message>
+    <message>
+        <source>Spanish (Latin America)</source>
+        <translation>西班牙语（拉丁美洲）</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <translation>西班牙语</translation>
+    </message>
+    <message>
+        <source>Italian</source>
+        <translation>意大利语</translation>
+    </message>
+    <message>
+        <source>Dutch</source>
+        <translation>荷兰语</translation>
+    </message>
+    <message>
+        <source>Portuguese (Brazil)</source>
+        <translation>葡萄牙语（巴西）</translation>
+    </message>
+    <message>
+        <source>Portuguese</source>
+        <translation>葡萄牙语</translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <translation>俄语</translation>
+    </message>
+    <message>
+        <source>Korean</source>
+        <translation>韩语</translation>
+    </message>
+    <message>
+        <source>Chinese (Traditional)</source>
+        <translation>中文（繁体）</translation>
+    </message>
+    <message>
+        <source>Chinese (Simplified)</source>
+        <translation>中文（简体）</translation>
+    </message>
+    <message>
+        <source>Edit NUP Metadata</source>
+        <translation>编辑 NUP 元数据</translation>
+    </message>
+    <message>
+        <source>Find Icon Online...</source>
+        <translation>在线查找图标...</translation>
+    </message>
+    <message>
+        <source>Remove Icon</source>
+        <translation>移除图标</translation>
+    </message>
+    <message>
+        <source>Searching...</source>
+        <translation>正在搜索...</translation>
+    </message>
+    <message>
+        <source>Same as Name</source>
+        <translation>与名称相同</translation>
+    </message>
+    <message>
+        <source>Localized names (%1 set)</source>
+        <translation>本地化名称（已设置 %1 个）</translation>
+    </message>
+    <message>
+        <source>Localized names</source>
+        <translation>本地化名称</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;File&lt;/b&gt;&lt;br&gt;%1</source>
+        <translation>&lt;b&gt;文件&lt;/b&gt;&lt;br&gt;%1</translation>
+    </message>
+    <message>
+        <source>Empty fields remove that metadata. The change is written in place; game data is untouched.</source>
+        <translation>留空即删除该元数据。更改会就地写入，不会改动游戏数据。</translation>
+    </message>
+    <message>
+        <source>The icon that was found could not be read.</source>
+        <translation>找到的图标无法读取。</translation>
+    </message>
+    <message>
+        <source>Icon will be removed.</source>
+        <translation>图标将被移除。</translation>
+    </message>
+    <message>
+        <source>Current icon in the NUP.</source>
+        <translation>NUP 中的当前图标。</translation>
+    </message>
+    <message>
+        <source>No icon in the NUP. Add one, or it will have none.</source>
+        <translation>NUP 中没有图标。请添加一个，否则将没有图标。</translation>
+    </message>
+    <message>
+        <source>Choose Icon...</source>
+        <translation>选择图标...</translation>
+    </message>
+    <message>
+        <source>Choose Icon</source>
+        <translation>选择图标</translation>
+    </message>
+    <message>
+        <source>Custom icon, stored as %1x%1 JPEG.</source>
+        <translation>自定义图标，以 %1x%1 的 JPEG 保存。</translation>
+    </message>
+    <message>
+        <source>Icon</source>
+        <translation>图标</translation>
+    </message>
+    <message>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
+    </message>
+    <message>
+        <source>Name shown in the game list</source>
+        <translation>显示在游戏列表中的名称</translation>
+    </message>
+    <message>
+        <source>Publisher shown in the game list</source>
+        <translation>显示在游戏列表中的发行商</translation>
+    </message>
+    <message>
+        <source>That file could not be read as an image.</source>
+        <translation>无法将该文件作为图片读取。</translation>
+    </message>
+    <message>
+        <source>e.g. 1.2.0</source>
+        <translation>例如 1.2.0</translation>
     </message>
 </context>
 <context>
@@ -12004,6 +11749,126 @@ Restart now?</source>
 or click to browse</source>
         <translation>把图标拖到这里
 或点击选择</translation>
+    </message>
+</context>
+<context>
+    <name>NupMetadataDialog</name>
+    <message>
+        <source>Choose Icon...</source>
+        <translation>选择图标...</translation>
+    </message>
+    <message>
+        <source>Use Detected</source>
+        <translation>使用检测到的图标</translation>
+    </message>
+    <message>
+        <source>Name shown in the game list</source>
+        <translation>显示在游戏列表中的名称</translation>
+    </message>
+    <message>
+        <source>Publisher shown in the game list</source>
+        <translation>显示在游戏列表中的发行商</translation>
+    </message>
+    <message>
+        <source>Auto-detect (nothing found in the dump)</source>
+        <translation>自动检测（转储中没有找到可用信息）</translation>
+    </message>
+    <message>
+        <source>Auto-detect: %1 (from %2)</source>
+        <translation>自动检测：%1（来自 %2）</translation>
+    </message>
+    <message>
+        <source>Set manually:</source>
+        <translation>手动设置：</translation>
+    </message>
+    <message>
+        <source>e.g. 1.2.0</source>
+        <translation>例如 1.2.0</translation>
+    </message>
+    <message>
+        <source>Publisher</source>
+        <translation>发行商</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Source&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;&lt;b&gt;Target&lt;/b&gt;&lt;br&gt;%2</source>
+        <translation>&lt;b&gt;源&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;&lt;b&gt;目标&lt;/b&gt;&lt;br&gt;%2</translation>
+    </message>
+    <message>
+        <source>Approximate space needed: %1 MB. Free on the target volume: %2 MB.</source>
+        <translation>预计需要约 %1 MB 空间，目标卷可用空间 %2 MB。</translation>
+    </message>
+    <message>
+        <source>Free space is less than the estimate.</source>
+        <translation>可用空间小于预计所需空间。</translation>
+    </message>
+    <message>
+        <source>Low storage: delete the original files as they are packed (cannot be undone)</source>
+        <translation>存储空间不足：打包过程中删除原始文件（无法撤销）</translation>
+    </message>
+    <message>
+        <source>Convert</source>
+        <translation>转换</translation>
+    </message>
+    <message>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
+    </message>
+    <message>
+        <source>That file could not be read as an image.</source>
+        <translation>无法将该文件作为图片读取。</translation>
+    </message>
+    <message>
+        <source>Custom icon, stored as %1x%1 JPEG.</source>
+        <translation>自定义图标，以 %1x%1 的 JPEG 保存。</translation>
+    </message>
+    <message>
+        <source>Icon found in the dump.</source>
+        <translation>在转储中找到了图标。</translation>
+    </message>
+    <message>
+        <source>No icon found in the dump. Add one, or the NUP will have none.</source>
+        <translation>转储中没有找到图标。请添加一个，否则 NUP 将没有图标。</translation>
+    </message>
+    <message>
+        <source>Choose Icon</source>
+        <translation>选择图标</translation>
+    </message>
+    <message>
+        <source>Icon</source>
+        <translation>图标</translation>
+    </message>
+    <message>
+        <source>Convert to NUP</source>
+        <translation>转换为 NUP</translation>
+    </message>
+</context>
+<context>
+    <name>NupProgressDialog</name>
+    <message>
+        <source>Preparing...</source>
+        <translation>正在准备...</translation>
+    </message>
+    <message>
+        <source>Cancelling...</source>
+        <translation>正在取消...</translation>
+    </message>
+    <message>
+        <source>%1 / %2 MB  -  %3 / %4 files</source>
+        <translation>%1 / %2 MB  -  %3 / %4 个文件</translation>
+    </message>
+    <message>
+        <source>
+%1 MB/s  -  about %2:%3 left</source>
+        <translation>
+%1 MB/s  -  约剩 %2:%3</translation>
+    </message>
+    <message>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
@@ -12062,446 +11927,26 @@ or click to browse</source>
     </message>
 </context>
 <context>
-    <name>NupEditDialog</name>
-    <message>
-        <source>English (UK)</source>
-        <translation>英语（英国）</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation>日语</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation>法语</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation>德语</translation>
-    </message>
-    <message>
-        <source>Spanish (Latin America)</source>
-        <translation>西班牙语（拉丁美洲）</translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation>西班牙语</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation>意大利语</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation>荷兰语</translation>
-    </message>
-    <message>
-        <source>French (Canada)</source>
-        <translation>法语（加拿大）</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation>葡萄牙语</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation>俄语</translation>
-    </message>
-    <message>
-        <source>Korean</source>
-        <translation>韩语</translation>
-    </message>
-    <message>
-        <source>Chinese (Traditional)</source>
-        <translation>中文（繁体）</translation>
-    </message>
-    <message>
-        <source>Chinese (Simplified)</source>
-        <translation>中文（简体）</translation>
-    </message>
-    <message>
-        <source>Portuguese (Brazil)</source>
-        <translation>葡萄牙语（巴西）</translation>
-    </message>
-    <message>
-        <source>Edit NUP Metadata</source>
-        <translation>编辑 NUP 元数据</translation>
-    </message>
-    <message>
-        <source>Choose Icon...</source>
-        <translation>选择图标...</translation>
-    </message>
-    <message>
-        <source>Find Icon Online...</source>
-        <translation>在线查找图标...</translation>
-    </message>
-    <message>
-        <source>Remove Icon</source>
-        <translation>移除图标</translation>
-    </message>
-    <message>
-        <source>Searching...</source>
-        <translation>正在搜索...</translation>
-    </message>
-    <message>
-        <source>Name shown in the game list</source>
-        <translation>显示在游戏列表中的名称</translation>
-    </message>
-    <message>
-        <source>Publisher shown in the game list</source>
-        <translation>显示在游戏列表中的发行商</translation>
-    </message>
-    <message>
-        <source>e.g. 1.2.0</source>
-        <translation>例如 1.2.0</translation>
-    </message>
-    <message>
-        <source>Icon</source>
-        <translation>图标</translation>
-    </message>
-    <message>
-        <source>Same as Name</source>
-        <translation>与名称相同</translation>
-    </message>
-    <message>
-        <source>Localized names (%1 set)</source>
-        <translation>本地化名称（已设置 %1 个）</translation>
-    </message>
-    <message>
-        <source>Localized names</source>
-        <translation>本地化名称</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>名称</translation>
-    </message>
-    <message>
-        <source>Publisher</source>
-        <translation>发行商</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>版本</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;File&lt;/b&gt;&lt;br&gt;%1</source>
-        <translation>&lt;b&gt;文件&lt;/b&gt;&lt;br&gt;%1</translation>
-    </message>
-    <message>
-        <source>Empty fields remove that metadata. The change is written in place; game data is untouched.</source>
-        <translation>留空即删除该元数据。更改会就地写入，不会改动游戏数据。</translation>
-    </message>
-    <message>
-        <source>Choose Icon</source>
-        <translation>选择图标</translation>
-    </message>
-    <message>
-        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
-        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
-    </message>
-    <message>
-        <source>That file could not be read as an image.</source>
-        <translation>无法将该文件作为图片读取。</translation>
-    </message>
-    <message>
-        <source>The icon that was found could not be read.</source>
-        <translation>找到的图标无法读取。</translation>
-    </message>
-    <message>
-        <source>Icon will be removed.</source>
-        <translation>图标将被移除。</translation>
-    </message>
-    <message>
-        <source>Custom icon, stored as %1x%1 JPEG.</source>
-        <translation>自定义图标，以 %1x%1 的 JPEG 保存。</translation>
-    </message>
-    <message>
-        <source>Current icon in the NUP.</source>
-        <translation>NUP 中的当前图标。</translation>
-    </message>
-    <message>
-        <source>No icon in the NUP. Add one, or it will have none.</source>
-        <translation>NUP 中没有图标。请添加一个，否则将没有图标。</translation>
-    </message>
-</context>
-<context>
-    <name>NupMetadataDialog</name>
-    <message>
-        <source>Convert to NUP</source>
-        <translation>转换为 NUP</translation>
-    </message>
-    <message>
-        <source>Choose Icon...</source>
-        <translation>选择图标...</translation>
-    </message>
-    <message>
-        <source>Use Detected</source>
-        <translation>使用检测到的图标</translation>
-    </message>
-    <message>
-        <source>Name shown in the game list</source>
-        <translation>显示在游戏列表中的名称</translation>
-    </message>
-    <message>
-        <source>Publisher shown in the game list</source>
-        <translation>显示在游戏列表中的发行商</translation>
-    </message>
-    <message>
-        <source>Auto-detect (nothing found in the dump)</source>
-        <translation>自动检测（转储中没有找到可用信息）</translation>
-    </message>
-    <message>
-        <source>Auto-detect: %1 (from %2)</source>
-        <translation>自动检测：%1（来自 %2）</translation>
-    </message>
-    <message>
-        <source>Set manually:</source>
-        <translation>手动设置：</translation>
-    </message>
-    <message>
-        <source>e.g. 1.2.0</source>
-        <translation>例如 1.2.0</translation>
-    </message>
-    <message>
-        <source>Icon</source>
-        <translation>图标</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>名称</translation>
-    </message>
-    <message>
-        <source>Publisher</source>
-        <translation>发行商</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>版本</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Source&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;&lt;b&gt;Target&lt;/b&gt;&lt;br&gt;%2</source>
-        <translation>&lt;b&gt;源&lt;/b&gt;&lt;br&gt;%1&lt;br&gt;&lt;b&gt;目标&lt;/b&gt;&lt;br&gt;%2</translation>
-    </message>
-    <message>
-        <source>Approximate space needed: %1 MB. Free on the target volume: %2 MB.</source>
-        <translation>预计需要约 %1 MB 空间，目标卷可用空间 %2 MB。</translation>
-    </message>
-    <message>
-        <source>Free space is less than the estimate.</source>
-        <translation>可用空间小于预计所需空间。</translation>
-    </message>
-    <message>
-        <source>Low storage: delete the original files as they are packed (cannot be undone)</source>
-        <translation>存储空间不足：打包过程中删除原始文件（无法撤销）</translation>
-    </message>
-    <message>
-        <source>Convert</source>
-        <translation>转换</translation>
-    </message>
-    <message>
-        <source>Choose Icon</source>
-        <translation>选择图标</translation>
-    </message>
-    <message>
-        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
-        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
-    </message>
-    <message>
-        <source>That file could not be read as an image.</source>
-        <translation>无法将该文件作为图片读取。</translation>
-    </message>
-    <message>
-        <source>Custom icon, stored as %1x%1 JPEG.</source>
-        <translation>自定义图标，以 %1x%1 的 JPEG 保存。</translation>
-    </message>
-    <message>
-        <source>Icon found in the dump.</source>
-        <translation>在转储中找到了图标。</translation>
-    </message>
-    <message>
-        <source>No icon found in the dump. Add one, or the NUP will have none.</source>
-        <translation>转储中没有找到图标。请添加一个，否则 NUP 将没有图标。</translation>
-    </message>
-</context>
-<context>
-    <name>NupProgressDialog</name>
-    <message>
-        <source>Preparing...</source>
-        <translation>正在准备...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>%1 / %2 MB  -  %3 / %4 files</source>
-        <translation>%1 / %2 MB  -  %3 / %4 个文件</translation>
-    </message>
-    <message>
-        <source>
-%1 MB/s  -  about %2:%3 left</source>
-        <translation>
-%1 MB/s  -  约剩 %2:%3</translation>
-    </message>
-    <message>
-        <source>Cancelling...</source>
-        <translation>正在取消...</translation>
-    </message>
-    <message>
-        <source>%1%</source>
-        <translation>%1%</translation>
-    </message>
-</context>
-<context>
-    <name>NvidiaDlssPanel</name>
-    <message>
-        <source>Open Folder</source>
-        <translation>打开文件夹</translation>
-    </message>
-    <message>
-        <source>Where do these files come from?</source>
-        <translation>这些文件来自哪里？</translation>
-    </message>
-    <message>
-        <source>NVIDIA's Streamline releases on GitHub. The files are in bin\x64 of the release zip.</source>
-        <translation>NVIDIA 的 Streamline 发布在 GitHub 上。文件位于发布压缩包的 bin\x64 目录中。</translation>
-    </message>
-    <message>
-        <source>%1 from the NVIDIA app</source>
-        <translation>来自 NVIDIA app 的 %1</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Ready.&lt;/b&gt; Found %1 and %2.</source>
-        <translation>&lt;b&gt;就绪。&lt;/b&gt;找到了 %1 和 %2。</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;One file needed:&lt;/b&gt; NVIDIA's Streamline loader (sl.interposer.dll). %1 will be used. Until then, games use AMD FSR 3.1.</source>
-        <translation>&lt;b&gt;需要一个文件：&lt;/b&gt;NVIDIA 的 Streamline 加载器（sl.interposer.dll）。将使用 %1。在此之前，游戏使用 AMD FSR 3.1。</translation>
-    </message>
-    <message>
-        <source>Download from NVIDIA (1 MB)</source>
-        <translation>从 NVIDIA 下载（1 MB）</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;One file needed:&lt;/b&gt; NVIDIA DLSS (nvngx_dlss.dll). Until then, games use AMD FSR 3.1.</source>
-        <translation>&lt;b&gt;需要一个文件：&lt;/b&gt;NVIDIA DLSS（nvngx_dlss.dll）。在此之前，游戏使用 AMD FSR 3.1。</translation>
-    </message>
-    <message>
-        <source>Download from NVIDIA (31 MB)</source>
-        <translation>从 NVIDIA 下载（31 MB）</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;NVIDIA's files needed:&lt;/b&gt; the Streamline loader and DLSS (sl.interposer.dll and nvngx_dlss.dll). Until then, games use AMD FSR 3.1.</source>
-        <translation>&lt;b&gt;需要 NVIDIA 的文件：&lt;/b&gt;Streamline 加载器与 DLSS（sl.interposer.dll 和 nvngx_dlss.dll）。在此之前，游戏使用 AMD FSR 3.1。</translation>
-    </message>
-    <message>
-        <source>Download from NVIDIA (32 MB)</source>
-        <translation>从 NVIDIA 下载（32 MB）</translation>
-    </message>
-    <message>
-        <source>Folder: %1</source>
-        <translation>文件夹：%1</translation>
-    </message>
-    <message>
-        <source>Could not download NVIDIA's files: %1</source>
-        <translation>无法下载 NVIDIA 的文件：%1</translation>
-    </message>
-    <message>
-        <source>Contacting NVIDIA's download...</source>
-        <translation>正在连接 NVIDIA 的下载服务器...</translation>
-    </message>
-    <message>
-        <source>Download NVIDIA DLSS</source>
-        <translation>下载 NVIDIA DLSS</translation>
-    </message>
-    <message>
-        <source>Lichii will download %1 from NVIDIA's Streamline %2 release on GitHub into %3.&lt;br&gt;These files are NVIDIA's, under NVIDIA's licence terms below.</source>
-        <translation>Lichii 会把 %1 从 GitHub 上 NVIDIA 的 Streamline %2 发布包下载到 %3。&lt;br&gt;这些文件属于 NVIDIA，适用下方 NVIDIA 的许可条款。</translation>
-    </message>
-    <message>
-        <source>Accept and Download</source>
-        <translation>接受并下载</translation>
-    </message>
-    <message>
-        <source>Downloading NVIDIA's DLSS files...</source>
-        <translation>正在下载 NVIDIA 的 DLSS 文件...</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>NVIDIA DLSS is ready. It is used the next time a game starts.</source>
-        <translation>NVIDIA DLSS 已就绪。下次启动游戏时生效。</translation>
-    </message>
-</context>
-<context>
-    <name>fs</name>
-    <message>
-        <source>Could not find Ryujinx installation</source>
-        <translation>无法找到 Ryujinx 安装数据</translation>
-    </message>
-    <message>
-        <source>Could not find a valid Ryujinx installation. This may typically occur if you are using Ryujinx in portable mode.
-
-Would you like to manually select a portable folder to use?</source>
-        <translation>未找到有效的 Ryujinx 安装。这通常可能发生在您以便携模式使用 Ryujinx 时。您想手动选择一个便携模式文件夹来使用吗?</translation>
-    </message>
-    <message>
-        <source>Ryujinx Portable Location</source>
-        <translation>便携 Ryujinx 安装位置</translation>
-    </message>
-    <message>
-        <source>Not a valid Ryujinx directory</source>
-        <translation>不是有效的 Ryujinx 安装目录</translation>
-    </message>
-    <message>
-        <source>The specified directory does not contain valid Ryujinx data.</source>
-        <translation>指定的目录不包含有效的 Ryujinx 数据。</translation>
-    </message>
-    <message>
-        <source>Could not find Ryujinx save data</source>
-        <translation>找不到 Ryujinx 的存档数据</translation>
-    </message>
-</context>
-</TS>
-<context>
     <name>Dialog</name>
     <message>
-        <source>Experience</source>
-        <translation>体验</translation>
+        <source>Share your experience with the latest completed session. Nothing is sent until you choose Search or Submit. Logs are not uploaded. No account is required.</source>
+        <translation>分享你在最近一次已完成会话中的体验。在你选择“搜索”或“提交”之前不会发送任何内容。不会上传日志。无需账号。</translation>
     </message>
     <message>
-        <source>The server returned an invalid receipt. The report may have been accepted. Only retry this unchanged draft explicitly.</source>
-        <translation>服务器返回了无效回执。报告可能已被接受。仅请对这份未改动的草稿手动重试。</translation>
+        <source>Game title to search</source>
+        <translation>要搜索的游戏名称</translation>
     </message>
     <message>
-        <source>Choose your assessment</source>
-        <translation>选择你的评价</translation>
-    </message>
-    <message>
-        <source>Submit report</source>
-        <translation>提交报告</translation>
-    </message>
-    <message>
-        <source>Compatibility</source>
-        <translation>兼容性</translation>
-    </message>
-    <message>
-        <source>No catalog game confirmed.</source>
-        <translation>尚未确认任何目录中的游戏。</translation>
+        <source>Search catalog</source>
+        <translation>搜索目录</translation>
     </message>
     <message>
         <source>Search sends only the text above to lichii.zortos.me. The service sees your IP address.</source>
         <translation>搜索只会把上面的文字发送到 lichii.zortos.me。该服务会看到你的 IP 地址。</translation>
     </message>
     <message>
-        <source>Prefilled values describe launch settings, not measured performance. Review changes made during play. Unknown means not collected. Do not paste logs, paths, keys or private details.</source>
-        <translation>预填的值描述的是启动时的设置，而非实测性能。请核对游戏过程中做过的更改。“未知”表示未收集。请勿粘贴日志、路径、密钥或隐私信息。</translation>
-    </message>
-    <message>
-        <source>What worked or failed?</source>
-        <translation>哪些正常、哪些异常？</translation>
+        <source>Previous</source>
+        <translation>上一步</translation>
     </message>
     <message>
         <source>Next</source>
@@ -12512,80 +11957,72 @@ Would you like to manually select a portable folder to use?</source>
         <translation>确认游戏</translation>
     </message>
     <message>
-        <source>Report submitted. It is public. Thank you.</source>
-        <translation>报告已提交，并且已公开。谢谢！</translation>
+        <source>No catalog game confirmed.</source>
+        <translation>尚未确认任何目录中的游戏。</translation>
     </message>
     <message>
-        <source>Game title to search</source>
-        <translation>要搜索的游戏名称</translation>
+        <source>Experience</source>
+        <translation>体验</translation>
     </message>
     <message>
-        <source>Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.</source>
-        <translation>正在提交… 关闭窗口只会停止等待，但无法撤回服务器已经收到的报告。不会自动重试。</translation>
+        <source>Public nickname</source>
+        <translation>公开昵称</translation>
     </message>
     <message>
-        <source>Clear draft</source>
-        <translation>清空草稿</translation>
+        <source>X handle (optional)</source>
+        <translation>X 账号（可选）</translation>
     </message>
     <message>
-        <source>An X handle must contain 1–15 letters, digits or underscores, with an optional @.</source>
-        <translation>X 账号必须由 1–15 个字母、数字或下划线组成，可带一个 @。</translation>
+        <source>Choose your assessment</source>
+        <translation>选择你的评价</translation>
+    </message>
+    <message>
+        <source>Compatibility</source>
+        <translation>兼容性</translation>
     </message>
     <message>
         <source>Summary</source>
         <translation>概述</translation>
     </message>
     <message>
-        <source>Rate limit reached. Wait %1 seconds, then retry explicitly. Nothing will be retried automatically.</source>
-        <translation>已触发限流。请等待 %1 秒后手动重试。不会自动重试。</translation>
-    </message>
-    <message>
-        <source>Share your experience with the latest completed session. Nothing is sent until you choose Search or Submit. Logs are not uploaded. No account is required.</source>
-        <translation>分享你在最近一次已完成会话中的体验。在你选择“搜索”或“提交”之前不会发送任何内容。不会上传日志。无需账号。</translation>
-    </message>
-    <message>
-        <source>The server rejected these fields: %1. Review them before submitting again.</source>
-        <translation>服务器拒绝了以下字段：%1。请检查后重新提交。</translation>
-    </message>
-    <message>
-        <source>Open public report</source>
-        <translation>打开公开报告</translation>
-    </message>
-    <message>
-        <source>Previous</source>
-        <translation>上一步</translation>
-    </message>
-    <message>
         <source>How far did you play?</source>
         <translation>你玩到了哪里？</translation>
     </message>
     <message>
-        <source>Updates (optional)</source>
-        <translation>更新（可选）</translation>
+        <source>What worked or failed?</source>
+        <translation>哪些正常、哪些异常？</translation>
     </message>
     <message>
-        <source>Searching catalog… Cancel closes the dialog and stops this request.</source>
-        <translation>正在搜索目录… 点击“取消”会关闭对话框并停止本次请求。</translation>
+        <source>Steps to reproduce (optional)</source>
+        <translation>复现步骤（可选）</translation>
     </message>
     <message>
-        <source>Check %1: required fields must be filled, within their length limit, and contain no control characters.</source>
-        <translation>请检查 %1：必填字段必须填写、不超过长度限制，且不含控制字符。</translation>
+        <source>System and settings</source>
+        <translation>系统与设置</translation>
+    </message>
+    <message>
+        <source>Prefilled values describe launch settings, not measured performance. Review changes made during play. Unknown means not collected. Do not paste logs, paths, keys or private details.</source>
+        <translation>预填的值描述的是启动时的设置，而非实测性能。请核对游戏过程中做过的更改。“未知”表示未收集。请勿粘贴日志、路径、密钥或隐私信息。</translation>
+    </message>
+    <message>
+        <source>Lichii build</source>
+        <translation>Lichii 版本</translation>
     </message>
     <message>
         <source>Game version</source>
         <translation>游戏版本</translation>
     </message>
     <message>
+        <source>GPU driver / OpenGL version</source>
+        <translation>GPU 驱动 / OpenGL 版本</translation>
+    </message>
+    <message>
+        <source>Operating system</source>
+        <translation>操作系统</translation>
+    </message>
+    <message>
         <source>RAM (optional)</source>
         <translation>内存（可选）</translation>
-    </message>
-    <message>
-        <source>Mods (optional)</source>
-        <translation>Mod（可选）</translation>
-    </message>
-    <message>
-        <source>The server rejected the report. Review the fields and length limits before submitting again.</source>
-        <translation>服务器拒绝了该报告。请检查各字段和长度限制后重新提交。</translation>
     </message>
     <message>
         <source>Graphics API</source>
@@ -12596,198 +12033,363 @@ Would you like to manually select a portable folder to use?</source>
         <translation>启动设置</translation>
     </message>
     <message>
-        <source>No valid receipt was received. Delivery may have succeeded. An explicit retry of this unchanged draft uses the same submission identity. Closing loses that identity; do not create a duplicate.</source>
-        <translation>没有收到有效的回执，但提交可能已经成功。对这份未改动草稿的手动重试会使用相同的提交标识。关闭窗口会丢失该标识；请不要重复创建。</translation>
+        <source>Updates (optional)</source>
+        <translation>更新（可选）</translation>
     </message>
     <message>
-        <source>X handle (optional)</source>
-        <translation>X 账号（可选）</translation>
-    </message>
-    <message>
-        <source>The server rejected this submission identity. Edit the draft to start a new submission; first check whether your report was already accepted.</source>
-        <translation>服务器拒绝了本次提交标识。请修改草稿以开始新的提交；先确认你的报告是否已被接受。</translation>
-    </message>
-    <message>
-        <source>Confirmed: %1 (catalog ID %2)</source>
-        <translation>已确认：%1（目录 ID %2）</translation>
-    </message>
-    <message>
-        <source>The server rejected the request (HTTP %1). No automatic retry was made.</source>
-        <translation>服务器拒绝了该请求（HTTP %1）。未进行自动重试。</translation>
-    </message>
-    <message>
-        <source>Submit compatibility report</source>
-        <translation>提交兼容性报告</translation>
-    </message>
-    <message>
-        <source>Check the search text.</source>
-        <translation>请检查搜索文字。</translation>
-    </message>
-    <message>
-        <source>Page %1 of %2. Select the exact game and press Confirm game.</source>
-        <translation>第 %1 页，共 %2 页。请选择对应的游戏并点击“确认游戏”。</translation>
-    </message>
-    <message>
-        <source>Lichii build</source>
-        <translation>Lichii 版本</translation>
-    </message>
-    <message>
-        <source>Public nickname</source>
-        <translation>公开昵称</translation>
-    </message>
-    <message>
-        <source>My report contains no game files, keys, firmware, saves or private account details.</source>
-        <translation>我的报告不包含游戏文件、密钥、固件、存档或私人账号信息。</translation>
-    </message>
-    <message>
-        <source>The report is too large.</source>
-        <translation>报告内容过大。</translation>
-    </message>
-    <message>
-        <source>Steps to reproduce (optional)</source>
-        <translation>复现步骤（可选）</translation>
-    </message>
-    <message>
-        <source>I understand my name, optional X handle, report text, hardware and settings will be public.</source>
-        <translation>我明白我的昵称、可选的 X 账号、报告内容、硬件与设置将会公开。</translation>
-    </message>
-    <message>
-        <source>Draft cleared. Nothing was sent by clearing it.</source>
-        <translation>草稿已清空。清空操作没有发送任何内容。</translation>
-    </message>
-    <message>
-        <source>GPU driver / OpenGL version</source>
-        <translation>GPU 驱动 / OpenGL 版本</translation>
-    </message>
-    <message>
-        <source>Choose your own compatibility assessment.</source>
-        <translation>请选择你自己的兼容性评价。</translation>
-    </message>
-    <message>
-        <source>Catalog search failed. Check your connection and retry explicitly.</source>
-        <translation>目录搜索失败。请检查网络后手动重试。</translation>
-    </message>
-    <message>
-        <source>Search catalog</source>
-        <translation>搜索目录</translation>
-    </message>
-    <message>
-        <source>All report fields in the preview will be public. Logs, files, local title IDs and play history are not sent. The server uses your IP address for rate limiting. Review and clear anything you do not want to share.</source>
-        <translation>预览中的所有报告字段都会公开。日志、文件、本地标题 ID 和游玩记录不会发送。服务器会用你的 IP 地址进行限流。请检查并清空你不想公开的内容。</translation>
-    </message>
-    <message>
-        <source>Operating system</source>
-        <translation>操作系统</translation>
-    </message>
-    <message>
-        <source>The catalog returned an invalid response. No game was confirmed.</source>
-        <translation>目录返回了无效响应，未确认任何游戏。</translation>
-    </message>
-    <message>
-        <source>Search for and confirm the catalog game first.</source>
-        <translation>请先搜索并确认目录中的游戏。</translation>
+        <source>Mods (optional)</source>
+        <translation>Mod（可选）</translation>
     </message>
     <message>
         <source>Public preview</source>
         <translation>公开预览</translation>
     </message>
     <message>
-        <source>System and settings</source>
-        <translation>系统与设置</translation>
+        <source>All report fields in the preview will be public. Logs, files, local title IDs and play history are not sent. The server uses your IP address for rate limiting. Review and clear anything you do not want to share.</source>
+        <translation>预览中的所有报告字段都会公开。日志、文件、本地标题 ID 和游玩记录不会发送。服务器会用你的 IP 地址进行限流。请检查并清空你不想公开的内容。</translation>
+    </message>
+    <message>
+        <source>I understand my name, optional X handle, report text, hardware and settings will be public.</source>
+        <translation>我明白我的昵称、可选的 X 账号、报告内容、硬件与设置将会公开。</translation>
+    </message>
+    <message>
+        <source>My report contains no game files, keys, firmware, saves or private account details.</source>
+        <translation>我的报告不包含游戏文件、密钥、固件、存档或私人账号信息。</translation>
+    </message>
+    <message>
+        <source>Clear draft</source>
+        <translation>清空草稿</translation>
+    </message>
+    <message>
+        <source>Submit report</source>
+        <translation>提交报告</translation>
+    </message>
+    <message>
+        <source>Open public report</source>
+        <translation>打开公开报告</translation>
+    </message>
+    <message>
+        <source>Draft cleared. Nothing was sent by clearing it.</source>
+        <translation>草稿已清空。清空操作没有发送任何内容。</translation>
+    </message>
+    <message>
+        <source>Search for and confirm the catalog game first.</source>
+        <translation>请先搜索并确认目录中的游戏。</translation>
+    </message>
+    <message>
+        <source>Check %1: required fields must be filled, within their length limit, and contain no control characters.</source>
+        <translation>请检查 %1：必填字段必须填写、不超过长度限制，且不含控制字符。</translation>
+    </message>
+    <message>
+        <source>An X handle must contain 1–15 letters, digits or underscores, with an optional @.</source>
+        <translation>X 账号必须由 1–15 个字母、数字或下划线组成，可带一个 @。</translation>
+    </message>
+    <message>
+        <source>Choose your own compatibility assessment.</source>
+        <translation>请选择你自己的兼容性评价。</translation>
+    </message>
+    <message>
+        <source>The report is too large.</source>
+        <translation>报告内容过大。</translation>
+    </message>
+    <message>
+        <source>Check the search text.</source>
+        <translation>请检查搜索文字。</translation>
+    </message>
+    <message>
+        <source>Searching catalog… Cancel closes the dialog and stops this request.</source>
+        <translation>正在搜索目录… 点击“取消”会关闭对话框并停止本次请求。</translation>
+    </message>
+    <message>
+        <source>Confirmed: %1 (catalog ID %2)</source>
+        <translation>已确认：%1（目录 ID %2）</translation>
+    </message>
+    <message>
+        <source>Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.</source>
+        <translation>正在提交… 关闭窗口只会停止等待，但无法撤回服务器已经收到的报告。不会自动重试。</translation>
+    </message>
+    <message>
+        <source>Rate limit reached. Wait %1 seconds, then retry explicitly. Nothing will be retried automatically.</source>
+        <translation>已触发限流。请等待 %1 秒后手动重试。不会自动重试。</translation>
+    </message>
+    <message>
+        <source>The server rejected the report. Review the fields and length limits before submitting again.</source>
+        <translation>服务器拒绝了该报告。请检查各字段和长度限制后重新提交。</translation>
+    </message>
+    <message>
+        <source>The server rejected these fields: %1. Review them before submitting again.</source>
+        <translation>服务器拒绝了以下字段：%1。请检查后重新提交。</translation>
+    </message>
+    <message>
+        <source>The server rejected this submission identity. Edit the draft to start a new submission; first check whether your report was already accepted.</source>
+        <translation>服务器拒绝了本次提交标识。请修改草稿以开始新的提交；先确认你的报告是否已被接受。</translation>
+    </message>
+    <message>
+        <source>The server rejected the request (HTTP %1). No automatic retry was made.</source>
+        <translation>服务器拒绝了该请求（HTTP %1）。未进行自动重试。</translation>
+    </message>
+    <message>
+        <source>No valid receipt was received. Delivery may have succeeded. An explicit retry of this unchanged draft uses the same submission identity. Closing loses that identity; do not create a duplicate.</source>
+        <translation>没有收到有效的回执，但提交可能已经成功。对这份未改动草稿的手动重试会使用相同的提交标识。关闭窗口会丢失该标识；请不要重复创建。</translation>
+    </message>
+    <message>
+        <source>Catalog search failed. Check your connection and retry explicitly.</source>
+        <translation>目录搜索失败。请检查网络后手动重试。</translation>
+    </message>
+    <message>
+        <source>Report submitted. It is public. Thank you.</source>
+        <translation>报告已提交，并且已公开。谢谢！</translation>
+    </message>
+    <message>
+        <source>The server returned an invalid receipt. The report may have been accepted. Only retry this unchanged draft explicitly.</source>
+        <translation>服务器返回了无效回执。报告可能已被接受。仅请对这份未改动的草稿手动重试。</translation>
+    </message>
+    <message>
+        <source>Page %1 of %2. Select the exact game and press Confirm game.</source>
+        <translation>第 %1 页，共 %2 页。请选择对应的游戏并点击“确认游戏”。</translation>
+    </message>
+    <message>
+        <source>The catalog returned an invalid response. No game was confirmed.</source>
+        <translation>目录返回了无效响应，未确认任何游戏。</translation>
+    </message>
+    <message>
+        <source>Submit compatibility report</source>
+        <translation>提交兼容性报告</translation>
+    </message>
+</context>
+<context>
+    <name>ConfigureMicrophone</name>
+    <message>
+        <source>Choose the microphone used by games. Start a test and speak to check the input level.</source>
+        <translation>选择游戏使用的麦克风。开始测试并说话，即可查看输入电平。</translation>
+    </message>
+    <message>
+        <source>Refresh devices</source>
+        <translation>刷新设备</translation>
+    </message>
+    <message>
+        <source>Microphone volume:</source>
+        <translation>麦克风音量：</translation>
+    </message>
+    <message>
+        <source>Input level:</source>
+        <translation>输入电平：</translation>
+    </message>
+    <message>
+        <source>Start microphone test</source>
+        <translation>开始麦克风测试</translation>
+    </message>
+    <message>
+        <source>Microphone disconnected or capture failed.</source>
+        <translation>麦克风已断开或采集失败。</translation>
+    </message>
+    <message>
+        <source>Stop emulation to change the microphone input device or volume.</source>
+        <translation>请停止模拟后再更改麦克风输入设备或音量。</translation>
+    </message>
+    <message>
+        <source>System default</source>
+        <translation>系统默认</translation>
+    </message>
+    <message>
+        <source>%1 (unavailable)</source>
+        <translation>%1（不可用）</translation>
+    </message>
+    <message>
+        <source>Microphone input is unavailable. Choose an available input device.</source>
+        <translation>麦克风输入不可用。请选择一个可用的输入设备。</translation>
+    </message>
+    <message>
+        <source>Unable to open the microphone. Check the device and microphone permissions in your operating system.</source>
+        <translation>无法打开麦克风。请检查设备以及操作系统中的麦克风权限。</translation>
+    </message>
+    <message>
+        <source>Stop microphone test</source>
+        <translation>停止麦克风测试</translation>
+    </message>
+    <message>
+        <source>Listening. Speak into your microphone.</source>
+        <translation>正在监听。请对着麦克风说话。</translation>
+    </message>
+    <message>
+        <source>Microphone</source>
+        <translation>麦克风</translation>
+    </message>
+    <message>
+        <source>Input device:</source>
+        <translation>输入设备：</translation>
+    </message>
+    <message>
+        <source>%1%</source>
+        <translation>%1%</translation>
     </message>
 </context>
 <context>
     <name>ShaderWarmDialog</name>
     <message>
-        <source>Stopping</source>
-        <translation>正在停止</translation>
-    </message>
-    <message>
-        <source>The shaders your earlier play sessions saved are still precached.</source>
-        <translation>以往游戏会话保存的着色器仍会被预编译。</translation>
-    </message>
-    <message>
-        <source>This game keeps its shaders in a format Lichii can&apos;t read, so none are prepared from the game files.</source>
-        <translation>该游戏的着色器使用了 Lichii 无法读取的格式，因此没有从游戏文件中准备任何内容。</translation>
-    </message>
-    <message>
-        <source>%1: %L2 / %L3</source>
-        <translation>%1：%L2 / %L3</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
-    </message>
-    <message>
-        <source>Converting shaders</source>
-        <translation>正在转换着色器</translation>
+        <source>Reading game files</source>
+        <translation>正在读取游戏文件</translation>
     </message>
     <message>
         <source>Extracting shaders</source>
         <translation>正在提取着色器</translation>
     </message>
     <message>
-        <source>The game files have no compute shaders to prepare.</source>
-        <translation>游戏文件中没有可准备的计算着色器。</translation>
-    </message>
-    <message>
-        <source>Starting</source>
-        <translation>正在开始</translation>
-    </message>
-    <message>
-        <source>Shader precache could not be built.</source>
-        <translation>无法构建着色器预编译缓存。</translation>
+        <source>Converting shaders</source>
+        <translation>正在转换着色器</translation>
     </message>
     <message>
         <source>Writing the precache file</source>
         <translation>正在写入预编译缓存文件</translation>
     </message>
     <message>
-        <source>Reading game files</source>
-        <translation>正在读取游戏文件</translation>
-    </message>
-    <message>
-        <source>It is built on the loading screen when Precache shaders before game start is on.</source>
-        <translation>开启“游戏启动前预编译着色器”后，会在加载画面中构建。</translation>
-    </message>
-    <message>
-        <source>Skipped (could not be read or converted): %L1</source>
-        <translation>已跳过（无法读取或转换）：%L1</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>关闭</translation>
-    </message>
-    <message>
-        <source>Shader precache stopped.</source>
-        <translation>着色器预编译已停止。</translation>
-    </message>
-    <message>
         <source>Precache shaders: %1</source>
         <translation>预编译着色器：%1</translation>
     </message>
     <message>
-        <source>Shader precache is ready.</source>
-        <translation>着色器预编译缓存已就绪。</translation>
+        <source>Starting</source>
+        <translation>正在开始</translation>
     </message>
     <message>
-        <source>No details were given.</source>
-        <translation>没有提供详细信息。</translation>
+        <source>Stopping</source>
+        <translation>正在停止</translation>
+    </message>
+    <message>
+        <source>%1: %L2 / %L3</source>
+        <translation>%1：%L2 / %L3</translation>
     </message>
     <message>
         <source>%1: %L2</source>
         <translation>%1：%L2</translation>
     </message>
     <message>
+        <source>Shader precache is ready.</source>
+        <translation>着色器预编译缓存已就绪。</translation>
+    </message>
+    <message>
+        <source>This game keeps its shaders in a format Lichii can&apos;t read, so none are prepared from the game files.</source>
+        <translation>该游戏的着色器使用了 Lichii 无法读取的格式，因此没有从游戏文件中准备任何内容。</translation>
+    </message>
+    <message>
+        <source>The game files have no compute shaders to prepare.</source>
+        <translation>游戏文件中没有可准备的计算着色器。</translation>
+    </message>
+    <message>
+        <source>The shaders your earlier play sessions saved are still precached.</source>
+        <translation>以往游戏会话保存的着色器仍会被预编译。</translation>
+    </message>
+    <message>
         <source>Compute programs: %L1</source>
         <translation>计算程序：%L1</translation>
+    </message>
+    <message>
+        <source>Skipped (could not be read or converted): %L1</source>
+        <translation>已跳过（无法读取或转换）：%L1</translation>
+    </message>
+    <message>
+        <source>It is built on the loading screen when Precache shaders before game start is on.</source>
+        <translation>开启“游戏启动前预编译着色器”后，会在加载画面中构建。</translation>
+    </message>
+    <message>
+        <source>Shader precache stopped.</source>
+        <translation>着色器预编译已停止。</translation>
+    </message>
+    <message>
+        <source>Shader precache could not be built.</source>
+        <translation>无法构建着色器预编译缓存。</translation>
+    </message>
+    <message>
+        <source>No details were given.</source>
+        <translation>没有提供详细信息。</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
     <name>NxTools</name>
     <message>
+        <source>Convert to NX</source>
+        <translation>转换为 NX</translation>
+    </message>
+    <message>
+        <source>Converting to NX</source>
+        <translation>正在转换为 NX</translation>
+    </message>
+    <message>
+        <source>NX archive (*.nx)</source>
+        <translation>NX 归档 (*.nx)</translation>
+    </message>
+    <message>
+        <source>The archive already exists:
+%1</source>
+        <translation>归档已存在：
+%1</translation>
+    </message>
+    <message>
+        <source>Updates and DLC of this game were found in the same folder.
+The checked ones are added to the NX archive:</source>
+        <translation>在同一文件夹中找到了该游戏的更新和 DLC。
+勾选的会加入 NX 归档：</translation>
+    </message>
+    <message>
+        <source>The NX archive was created:
+%1</source>
+        <translation>NX 归档已创建：
+%1</translation>
+    </message>
+    <message>
         <source>Add to NX</source>
         <translation>添加到 NX</translation>
+    </message>
+    <message>
+        <source>This NX archive cannot be read.</source>
+        <translation>无法读取此 NX 归档。</translation>
+    </message>
+    <message>
+        <source>Add an update or DLC to this NX archive. The archive is changed in place; the content it already holds is kept.</source>
+        <translation>向此 NX 归档添加更新或 DLC。归档会就地修改，已有内容会保留。</translation>
+    </message>
+    <message>
+        <source>Update Folder...</source>
+        <translation>更新文件夹...</translation>
+    </message>
+    <message>
+        <source>NSP or XCI Files...</source>
+        <translation>NSP 或 XCI 文件...</translation>
+    </message>
+    <message>
+        <source>Adding to NX</source>
+        <translation>正在添加到 NX</translation>
+    </message>
+    <message>
+        <source>Select the Update Folder</source>
+        <translation>选择更新文件夹</translation>
+    </message>
+    <message>
+        <source>Version number of this update (for example 196608 for v196608):</source>
+        <translation>此更新的版本号（例如 v196608 对应 196608）：</translation>
+    </message>
+    <message>
+        <source>Select Updates or DLC</source>
+        <translation>选择更新或 DLC</translation>
+    </message>
+    <message>
+        <source>Switch packages (*.nsp *.xci)</source>
+        <translation>Switch 包 (*.nsp *.xci)</translation>
+    </message>
+    <message>
+        <source>The NX archive was updated.</source>
+        <translation>NX 归档已更新。</translation>
+    </message>
+    <message>
+        <source>Remove from NX</source>
+        <translation>从 NX 中移除</translation>
     </message>
     <message>
         <source>This NX archive cannot be read: %1</source>
@@ -12798,138 +12400,88 @@ Would you like to manually select a portable folder to use?</source>
         <translation>此 NX 归档中没有可移除的更新或 DLC。</translation>
     </message>
     <message>
-        <source>The NX archive was created:
-%1</source>
-        <translation>NX 归档已创建：
-%1</translation>
+        <source>Select the content to remove from the archive:</source>
+        <translation>选择要从归档中移除的内容：</translation>
     </message>
     <message>
-        <source>Title:</source>
-        <translation>标题：</translation>
-    </message>
-    <message>
-        <source>No icon</source>
-        <translation>无图标</translation>
-    </message>
-    <message>
-        <source>Choose Image</source>
-        <translation>选择图片</translation>
-    </message>
-    <message>
-        <source>Choose Image...</source>
-        <translation>选择图片...</translation>
-    </message>
-    <message>
-        <source>%1 left</source>
-        <translation>剩余 %1</translation>
-    </message>
-    <message>
-        <source>Update Folder...</source>
-        <translation>更新文件夹...</translation>
-    </message>
-    <message>
-        <source>Select Updates or DLC</source>
-        <translation>选择更新或 DLC</translation>
-    </message>
-    <message>
-        <source>Icon:</source>
-        <translation>图标：</translation>
-    </message>
-    <message>
-        <source>less than a minute</source>
-        <translation>不到一分钟</translation>
-    </message>
-    <message>
-        <source>NSP or XCI Files...</source>
-        <translation>NSP 或 XCI 文件...</translation>
-    </message>
-    <message>
-        <source>This NX archive cannot be read.</source>
-        <translation>无法读取此 NX 归档。</translation>
-    </message>
-    <message>
-        <source>Version number of this update (for example 196608 for v196608):</source>
-        <translation>此更新的版本号（例如 v196608 对应 196608）：</translation>
+        <source>DLC %1 (v%2)</source>
+        <translation>DLC %1（v%2）</translation>
     </message>
     <message>
         <source>Update %1 (v%2)</source>
         <translation>更新 %1（v%2）</translation>
     </message>
     <message>
-        <source>This image cannot be read.</source>
-        <translation>无法读取此图片。</translation>
-    </message>
-    <message>
-        <source>Move the original game to the Recycle Bin:
-%1</source>
-        <translation>把原始游戏移到回收站：
-%1</translation>
+        <source>Removing from NX</source>
+        <translation>正在从 NX 中移除</translation>
     </message>
     <message>
         <source>The selected content was removed from the NX archive.</source>
         <translation>所选内容已从 NX 归档中移除。</translation>
     </message>
     <message>
-        <source>The NX archive was updated.</source>
-        <translation>NX 归档已更新。</translation>
+        <source>Edit NX Metadata</source>
+        <translation>编辑 NX 元数据</translation>
+    </message>
+    <message>
+        <source>Title:</source>
+        <translation>标题：</translation>
+    </message>
+    <message>
+        <source>Publisher:</source>
+        <translation>发行商：</translation>
+    </message>
+    <message>
+        <source>No icon</source>
+        <translation>无图标</translation>
+    </message>
+    <message>
+        <source>Choose Image...</source>
+        <translation>选择图片...</translation>
+    </message>
+    <message>
+        <source>Icon:</source>
+        <translation>图标：</translation>
     </message>
     <message>
         <source>The new title and icon are shown in every language. The game itself is not changed.</source>
         <translation>新标题和图标会以所有语言显示。游戏本身不会被修改。</translation>
     </message>
     <message>
-        <source>Switch packages (*.nsp *.xci)</source>
-        <translation>Switch 包 (*.nsp *.xci)</translation>
+        <source>Choose Image</source>
+        <translation>选择图片</translation>
     </message>
     <message>
-        <source>Move the %1 original packages to the Recycle Bin</source>
-        <translation>把 %1 个原始包移到回收站</translation>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</translation>
     </message>
     <message>
-        <source>Updates and DLC of this game were found in the same folder.
-The checked ones are added to the NX archive:</source>
-        <translation>在同一文件夹中找到了该游戏的更新和 DLC。
-勾选的会加入 NX 归档：</translation>
+        <source>This image cannot be read.</source>
+        <translation>无法读取此图片。</translation>
+    </message>
+    <message>
+        <source>This image cannot be converted.</source>
+        <translation>无法转换此图片。</translation>
+    </message>
+    <message>
+        <source>Editing NX metadata</source>
+        <translation>正在编辑 NX 元数据</translation>
+    </message>
+    <message>
+        <source>The icon cannot be saved.</source>
+        <translation>无法保存图标。</translation>
     </message>
     <message>
         <source>The NX archive metadata was updated.</source>
         <translation>NX 归档元数据已更新。</translation>
     </message>
     <message>
-        <source>Convert to NX</source>
-        <translation>转换为 NX</translation>
-    </message>
-    <message>
-        <source>Adding to NX</source>
-        <translation>正在添加到 NX</translation>
-    </message>
-    <message>
-        <source>Add an update or DLC to this NX archive. The archive is changed in place; the content it already holds is kept.</source>
-        <translation>向此 NX 归档添加更新或 DLC。归档会就地修改，已有内容会保留。</translation>
-    </message>
-    <message>
         <source>Finishing...</source>
         <translation>正在完成...</translation>
     </message>
     <message>
-        <source>Removing from NX</source>
-        <translation>正在从 NX 中移除</translation>
-    </message>
-    <message>
-        <source>Edit NX Metadata</source>
-        <translation>编辑 NX 元数据</translation>
-    </message>
-    <message>
-        <source>The archive already exists:
-%1</source>
-        <translation>归档已存在：
-%1</translation>
-    </message>
-    <message>
-        <source>The operation failed:
-%1</source>
-        <translation>操作失败：
-%1</translation>
+        <source>%1 left</source>
+        <translation>剩余 %1</translation>
     </message>
     <message>
         <source>%1
@@ -12938,22 +12490,24 @@ Elapsed: %2</source>
 已用时间：%2</translation>
     </message>
     <message>
-        <source>NX archive (*.nx)</source>
-        <translation>NX 归档 (*.nx)</translation>
-    </message>
-    <message>
-        <source>DLC %1 (v%2)</source>
-        <translation>DLC %1（v%2）</translation>
-    </message>
-    <message>
-        <source>Remove from NX</source>
-        <translation>从 NX 中移除</translation>
+        <source>Move the %1 original packages to the Recycle Bin</source>
+        <translation>把 %1 个原始包移到回收站</translation>
     </message>
     <message>
         <source>Move the original folder to the Recycle Bin:
 %1</source>
         <translation>把原始文件夹移到回收站：
 %1</translation>
+    </message>
+    <message>
+        <source>Move the original game to the Recycle Bin:
+%1</source>
+        <translation>把原始游戏移到回收站：
+%1</translation>
+    </message>
+    <message>
+        <source>%1 of the %2 original packages could not be moved to the Recycle Bin. They may be in use.</source>
+        <translation>%2 个原始包中有 %1 个无法移到回收站，可能正在被占用。</translation>
     </message>
     <message>
         <source>The original could not be moved to the Recycle Bin:
@@ -12966,61 +12520,36 @@ It may be in use. You can delete it yourself.</source>
 它可能正在被使用，你可以手动删除。</translation>
     </message>
     <message>
-        <source>The icon cannot be saved.</source>
-        <translation>无法保存图标。</translation>
-    </message>
-    <message>
-        <source>Select the content to remove from the archive:</source>
-        <translation>选择要从归档中移除的内容：</translation>
-    </message>
-    <message>
-        <source>This image cannot be converted.</source>
-        <translation>无法转换此图片。</translation>
-    </message>
-    <message>
-        <source>Editing NX metadata</source>
-        <translation>正在编辑 NX 元数据</translation>
-    </message>
-    <message>
-        <source>about %n minute(s)</source>
-        <translation>
-            <numerusform>约 %n 分钟</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Added: %1</source>
-        <translation>已添加：%1</translation>
-    </message>
-    <message>
-        <source>Converting to NX</source>
-        <translation>正在转换为 NX</translation>
-    </message>
-    <message>
-        <source>Select the Update Folder</source>
-        <translation>选择更新文件夹</translation>
-    </message>
-    <message>
-        <source>Publisher:</source>
-        <translation>发行商：</translation>
+        <source>less than a minute</source>
+        <translation>不到一分钟</translation>
     </message>
     <message>
         <source>about %1 h %2 min</source>
         <translation>约 %1 小时 %2 分钟</translation>
     </message>
     <message>
-        <source>%1 of the %2 original packages could not be moved to the Recycle Bin. They may be in use.</source>
-        <translation>%2 个原始包中有 %1 个无法移到回收站，可能正在被占用。</translation>
+        <source>Added: %1</source>
+        <translation>已添加：%1</translation>
     </message>
     <message>
-        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</source>
-        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</translation>
+        <source>Already in the archive: %1</source>
+        <translation>已在归档中：%1</translation>
     </message>
     <message>
         <source>Cancelled. Nothing was changed on disk.</source>
         <translation>已取消，磁盘上的内容没有变化。</translation>
     </message>
     <message>
-        <source>Already in the archive: %1</source>
-        <translation>已在归档中：%1</translation>
+        <source>The operation failed:
+%1</source>
+        <translation>操作失败：
+%1</translation>
+    </message>
+    <message numerus="yes">
+        <source>about %n minute(s)</source>
+        <translation>
+            <numerusform>约 %n 分钟</numerusform>
+        </translation>
     </message>
 </context>
+</TS>
