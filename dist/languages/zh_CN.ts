@@ -9097,6 +9097,14 @@ Would you like to bypass this and exit anyway?</source>
         <source> It adds up to %1 frames per game frame to reach %2 FPS.</source>
         <translation> 每个游戏帧最多补出 %1 帧，以达到 %2 FPS。</translation>
     </message>
+    <message>
+        <source>Apply Recommended &amp;Settings...</source>
+        <translation>应用推荐设置(&amp;S)...</translation>
+    </message>
+    <message>
+        <source>Restore My &amp;Previous Settings</source>
+        <translation>恢复我之前的设置(&amp;P)</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
@@ -13078,6 +13086,65 @@ Try again without the recipe? The game still runs from the NX archive, but the o
 %1
 
 是否不带配方重试？游戏仍可从 NX 归档运行，但无法再从中精确重建原始包。</translation>
+    </message>
+</context>
+<context>
+    <name>RecommendedSettingsDialog</name>
+    <message>
+        <source>Recommended settings</source>
+        <translation>推荐设置</translation>
+    </message>
+    <message>
+        <source>Do you want to use the recommended settings from the Lichii developer?</source>
+        <translation>要使用 Lichii 开发者提供的推荐设置吗？</translation>
+    </message>
+    <message>
+        <source>They improve performance for most games. Lichii keeps your own settings, so you can go back at any time with Help &gt; Restore My Previous Settings. Per-game settings do not change.</source>
+        <translation>它们能提升大多数游戏的性能。Lichii 会保留你自己的设置，你可以随时通过 帮助 &gt; 恢复我之前的设置 回到原来的配置。每个游戏的单独设置不会改变。</translation>
+    </message>
+    <message>
+        <source>Use recommended settings</source>
+        <translation>使用推荐设置</translation>
+    </message>
+    <message>
+        <source>Not now</source>
+        <translation>暂不</translation>
+    </message>
+    <message>
+        <source>Your settings already match the recommended settings. Nothing changed.</source>
+        <translation>你的设置已经与推荐设置一致，未做任何更改。</translation>
+    </message>
+    <message>
+        <source>Lichii now uses the recommended settings.</source>
+        <translation>Lichii 现在使用推荐设置。</translation>
+    </message>
+    <message>
+        <source>To go back, use Help &gt; Restore My Previous Settings.</source>
+        <translation>要回到原来的设置，请使用 帮助 &gt; 恢复我之前的设置。</translation>
+    </message>
+    <message>
+        <source>Previous settings</source>
+        <translation>之前的设置</translation>
+    </message>
+    <message>
+        <source>Your settings already match your previous settings. Nothing changed.</source>
+        <translation>你的设置已经与之前的设置一致，未做任何更改。</translation>
+    </message>
+    <message>
+        <source>Lichii uses your previous settings again.</source>
+        <translation>Lichii 已重新使用你之前的设置。</translation>
+    </message>
+    <message>
+        <source>To use the recommended settings again, use Help &gt; Apply Recommended Settings.</source>
+        <translation>要再次使用推荐设置，请使用 帮助 &gt; 应用推荐设置。</translation>
+    </message>
+    <message>
+        <source>On</source>
+        <translation>开启</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>关闭</translation>
     </message>
 </context>
 </TS>
