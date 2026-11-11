@@ -2444,6 +2444,94 @@ Needs AMD&apos;s FidelityFX runtime, which Lichii downloads from AMD when you as
         <translation>在 FSR 替代游戏超分器的地方（配合上面的设置用于《时之笛》）使用 AMD 基于机器学习的 FSR 4。需要 Radeon RX 6000 或更新型号，或 Ryzen AI 处理器，以及较新的 AMD 驱动。
 需要 AMD 的 FidelityFX 运行时，Lichii 会在你确认后从 AMD 下载。文件属于 AMD，遵循 AMD 的许可。如果没有这些文件，或 FSR 4 无法运行，则使用 FSR 3.1。游戏启动时生效。</translation>
     </message>
+    <message>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
+Fire Emblem: Fortune&apos;s Weave also needs EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
+In The Legend of Zelda: Ocarina of Time it replaces the game&apos;s upscaler at 1x resolution scale.
+The window adapting filter (the FSR 1, Bilinear and similar button in the status bar) is separate and runs after DLSS. While DLSS runs, the status bar shows DLSS, its mode and its preset. If DLSS fails, it stays off until the game restarts and the log says why.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
+《Fire Emblem: Fortune&apos;s Weave》还需要设置 EDEN_NX2_DLSS_REPLACEMENT=dlss；没有该覆盖设置时，仍使用其空间超分替代方案。
+在《塞尔达传说：时之笛》中，它会在 1 倍分辨率缩放下替代游戏自带的超分器。
+窗口适配滤镜（状态栏里的 FSR 1、双线性等按钮）是独立的一层，在 DLSS 之后运行。DLSS 运行时，状态栏显示 DLSS、它的模式和预设。若 DLSS 失败，它会保持关闭直到游戏重启，原因会写入日志。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>NVIDIA DLSS quality:</source>
+        <translation>NVIDIA DLSS 质量：</translation>
+    </message>
+    <message>
+        <source>Applies only when a game uses its own DLSS.
+Automatic selects a mode for the game&apos;s render/output sizes. Native (DLAA) applies anti-aliasing at the game&apos;s render resolution, then scales to its output; Ocarina&apos;s 1440p mode stays at 1440p instead of reconstructing to 4K.
+Explicit modes only apply when the game&apos;s render size is within NVIDIA&apos;s supported range; otherwise Automatic is used and the fallback is logged. This does not change the game&apos;s render resolution. Apply/OK updates it while playing.</source>
+        <translation>仅在游戏使用自带 DLSS 时适用。
+自动：根据游戏的渲染/输出尺寸选择模式。原生（DLAA）：在游戏的渲染分辨率上做抗锯齿，再缩放到输出；时之笛的 1440p 模式保持 1440p，而不会重建到 4K。
+指定模式只在游戏的渲染尺寸处于 NVIDIA 支持范围时生效，否则会退回自动，并在日志里记录。此设置不改变游戏的渲染分辨率。游戏中点击“应用/确定”即时生效。</translation>
+    </message>
+    <message>
+        <source>NVIDIA DLSS model preset:</source>
+        <translation>NVIDIA DLSS 模型预设：</translation>
+    </message>
+    <message>
+        <source>Applies only when a game uses its own DLSS.
+M (DLSS 4.5) is Lichii&apos;s default for every quality mode. NVIDIA recommends K for DLAA/Quality/Balanced, M for Performance, and L for Ultra Performance.
+L/M cost more on RTX 20/30 GPUs; consider K. J may reduce ghosting but flicker more. E/F are deprecated CNN models. NVIDIA default lets the runtime choose.
+L/M require DLSS 310.5 or newer; the download button provides 310.9.16. If Fire Emblem shows horizontal lines with L/M at 2x, try K. NVIDIA app overrides may supersede this choice. Apply/OK updates it while playing.</source>
+        <translation>仅在游戏使用自带 DLSS 时适用。
+M（DLSS 4.5）是 Lichii 在每种质量模式下的默认值。NVIDIA 推荐 DLAA/质量/均衡用 K，性能用 M，超高性能用 L。
+在 RTX 20/30 显卡上 L/M 开销更大，可考虑 K。J 可能减少拖影但闪烁更多。E/F 是已弃用的 CNN 模型。“NVIDIA 默认”交由运行时决定。
+L/M 需要 DLSS 310.5 或更新版本；下载按钮提供 310.9.16。若《火焰纹章》在 2 倍下用 L/M 出现横线，试试 K。NVIDIA app 的覆盖设置可能优于此选择。游戏中点击“应用/确定”即时生效。</translation>
+    </message>
+    <message>
+        <source>Automatic (game resolution)</source>
+        <translation>自动（跟随游戏分辨率）</translation>
+    </message>
+    <message>
+        <source>Native (DLAA)</source>
+        <translation>原生 (DLAA)</translation>
+    </message>
+    <message>
+        <source>Quality</source>
+        <translation>质量</translation>
+    </message>
+    <message>
+        <source>Performance</source>
+        <translation>性能</translation>
+    </message>
+    <message>
+        <source>Ultra Performance</source>
+        <translation>超高性能</translation>
+    </message>
+    <message>
+        <source>M (DLSS 4.5, default)</source>
+        <translation>M（DLSS 4.5，默认）</translation>
+    </message>
+    <message>
+        <source>NVIDIA default</source>
+        <translation>NVIDIA 默认</translation>
+    </message>
+    <message>
+        <source>E (legacy CNN)</source>
+        <translation>E（旧版 CNN）</translation>
+    </message>
+    <message>
+        <source>F (legacy CNN)</source>
+        <translation>F（旧版 CNN）</translation>
+    </message>
+    <message>
+        <source>J (DLSS 4)</source>
+        <translation>J（DLSS 4）</translation>
+    </message>
+    <message>
+        <source>K (DLSS 4)</source>
+        <translation>K（DLSS 4）</translation>
+    </message>
+    <message>
+        <source>L (DLSS 4.5)</source>
+        <translation>L（DLSS 4.5）</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -9105,6 +9193,46 @@ Would you like to bypass this and exit anyway?</source>
         <source>Restore My &amp;Previous Settings</source>
         <translation>恢复我之前的设置(&amp;P)</translation>
     </message>
+    <message>
+        <source>DLAA</source>
+        <translation>DLAA</translation>
+    </message>
+    <message>
+        <source>M</source>
+        <translation>M</translation>
+    </message>
+    <message>
+        <source>E</source>
+        <translation>E</translation>
+    </message>
+    <message>
+        <source>F</source>
+        <translation>F</translation>
+    </message>
+    <message>
+        <source>J</source>
+        <translation>J</translation>
+    </message>
+    <message>
+        <source>K</source>
+        <translation>K</translation>
+    </message>
+    <message>
+        <source>NVIDIA DLSS is upscaling the game, in the mode shown. The window adapting filter runs after it.</source>
+        <translation>NVIDIA DLSS 正在以所示模式对游戏进行超分。窗口适配滤镜在它之后运行。</translation>
+    </message>
+    <message>
+        <source>DLSS %1 %2</source>
+        <translation>DLSS %1 %2</translation>
+    </message>
+    <message>
+        <source> (%1 DOESN&apos;T FIT)</source>
+        <translation>（%1 不适用）</translation>
+    </message>
+    <message>
+        <source> + %1 generated</source>
+        <translation> + 生成 %1</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
@@ -9147,6 +9275,42 @@ If you wish to clean up the files which were left in the old data location, you 
         <location filename="../../src/yuzu/migration_worker.h" line="73"/>
         <source>Data was migrated successfully.</source>
         <translation>数据已成功迁移。</translation>
+    </message>
+    <message>
+        <source>Data was imported successfully. Existing Lichii data, if any, was kept in backup directories beside the new profile.</source>
+        <translation>数据导入成功。原有的 Lichii 数据（如果有）已保留在新配置旁的备份目录中。</translation>
+    </message>
+    <message>
+        <source>
+
+Data and settings are shared with %1. The source shader cache was not cleared.</source>
+        <translation>
+
+数据与设置已与 %1 共享。源着色器缓存未被清除。</translation>
+    </message>
+    <message>
+        <source>
+
+The old profile was retained in backup directories at its old location. Keep these backups until you have checked your saves.</source>
+        <translation>
+
+旧配置已保留在原位置的备份目录中。确认存档无误之前请保留这些备份。</translation>
+    </message>
+    <message>
+        <source>
+
+The original %1 profile is unchanged. Keep it until you have checked your saves.</source>
+        <translation>
+
+原始的 %1 配置未改动。确认存档无误之前请保留它。</translation>
+    </message>
+    <message>
+        <source>Import did not complete. Your source and previous destination data have been kept. Close Lichii and launch it again to retry or recover.
+
+%1</source>
+        <translation>导入未完成。源数据与之前的目标数据都已保留。请关闭 Lichii 后重新启动以重试或恢复。
+
+%1</translation>
     </message>
 </context>
 <context>
@@ -9524,6 +9688,10 @@ p, li { white-space: pre-wrap; }
         <location filename="../../src/yuzu/render/performance_overlay.cpp" line="151"/>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
+    </message>
+    <message>
+        <source> (+%1)</source>
+        <translation>（+%1）</translation>
     </message>
 </context>
 <context>
@@ -10069,6 +10237,82 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Suyu</source>
         <translation>Suyu</translation>
+    </message>
+    <message>
+        <source>Lichii has detected user data for the following emulators:</source>
+        <translation>Lichii 检测到以下模拟器的用户数据：</translation>
+    </message>
+    <message>
+        <source>Would you like to migrate your data for use in Lichii?
+Select the corresponding button to migrate data from that emulator.
+This may take a while.</source>
+        <translation>要把数据迁移到 Lichii 使用吗？
+点击对应按钮即可从该模拟器迁移数据。
+这可能需要一些时间。</translation>
+    </message>
+    <message>
+        <source>Clearing shader cache is recommended when migrating from another emulator.
+Earlier Lichii builds kept their own cache in Eden&apos;s directory.</source>
+        <translation>从其他模拟器迁移时建议清除着色器缓存。
+早期的 Lichii 构建把缓存放在 Eden 目录里。</translation>
+    </message>
+    <message>
+        <source>Copies and verifies the full profile before moving the source aside as a recovery backup.
+Requires enough free space for a full copy. Keep the backup until you have checked your saves.</source>
+        <translation>先完整复制并校验配置，再把源目录移到一边作为恢复备份。
+需要足够的可用空间做完整复制。确认存档无误之前请保留备份。</translation>
+    </message>
+    <message>
+        <source>Creates a filesystem link between the old directory and Lichii directory.
+This is recommended if you want to share data between emulators.</source>
+        <translation>在旧目录与 Lichii 目录之间创建文件系统链接。
+如果希望两个模拟器共享数据，推荐这种方式。</translation>
+    </message>
+    <message>
+        <source>Lichii startup stopped</source>
+        <translation>Lichii 启动中止</translation>
+    </message>
+    <message>
+        <source>Recover unfinished import</source>
+        <translation>恢复未完成的导入</translation>
+    </message>
+    <message>
+        <source>An earlier import did not finish. Recover the previous profile and retry? No source or backup data will be deleted.</source>
+        <translation>上一次导入未完成。要恢复之前的配置并重试吗？不会删除任何源数据或备份。</translation>
+    </message>
+    <message>
+        <source>Move Old Data (retain backup)</source>
+        <translation>移动旧数据（保留备份）</translation>
+    </message>
+    <message>
+        <source>Import an existing emulator profile into Lichii?
+Copy keeps the original profile unchanged and is recommended.
+Move retains a recovery backup and requires space for a full copy.
+Link shares settings and saves with the source emulator.
+Existing Lichii data is kept in backup directories, not merged or deleted.
+
+Close the source emulator, then choose its profile below.
+Close this window to decide on the next launch.</source>
+        <translation>要把现有模拟器的配置导入 Lichii 吗？
+复制：保持原配置不变，推荐。
+移动：保留一份恢复备份，需要完整复制的空间。
+链接：与源模拟器共享设置和存档。
+已有 Lichii 数据会保留在备份目录中，不会被合并或删除。
+
+请先关闭源模拟器，然后在下面选择它的配置目录。
+关闭此窗口可在下次启动时再决定。</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>导入</translation>
+    </message>
+    <message>
+        <source>Start fresh</source>
+        <translation>全新开始</translation>
+    </message>
+    <message>
+        <source>Lichii will use its own profile. Your old emulator data has not been changed.</source>
+        <translation>Lichii 将使用自己的配置。旧模拟器的数据未被改动。</translation>
     </message>
 </context>
 <context>
