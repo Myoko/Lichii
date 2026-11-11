@@ -2532,6 +2532,92 @@ L/M 需要 DLSS 310.5 或更新版本；下载按钮提供 310.9.16。若《火�
         <source>L (DLSS 4.5)</source>
         <translation>L（DLSS 4.5）</translation>
     </message>
+    <message>
+        <source>HDR output:</source>
+        <translation>HDR 输出：</translation>
+    </message>
+    <message>
+        <source>HDR output for games with an HDR mode. Requires Vulkan.
+Off (default): always SDR.
+Auto: HDR while Windows HDR (&quot;Use HDR&quot;) is on for the monitor that shows the game, SDR otherwise and on hosts that cannot tell.
+On: HDR whenever the display driver offers an HDR format.
+The game is told the display is HDR only while Lichii really presents HDR. SDR games and menus are shown at the reference white.
+While HDR is active, anti-aliasing, post-processing, FSR/SGSR upscaling and frame generation are off and the window is scaled bilinearly.
+Screenshots are tone mapped to SDR.</source>
+        <translation>供带 HDR 模式的游戏使用。需要 Vulkan。
+关（默认）：始终输出 SDR。
+自动：当 Windows 为显示该游戏的显示器开启 HDR（“使用 HDR”）时输出 HDR，否则为 SDR；无法判断的宿主也按 SDR。
+开：只要显示驱动提供 HDR 格式就输出 HDR。
+只有在 Lichii 真正输出 HDR 时才会告知游戏显示器支持 HDR。SDR 游戏和菜单按参考白显示。
+HDR 生效期间，抗锯齿、后期处理、FSR/SGSR 超分和帧生成都会关闭，窗口使用双线性缩放。
+截图会做色调映射到 SDR。</translation>
+    </message>
+    <message>
+        <source>HDR format:</source>
+        <translation>HDR 格式：</translation>
+    </message>
+    <message>
+        <source>HDR10: 10-bit PQ, what HDR displays take.
+scRGB: 16-bit float. Try it if HDR shows banding, which some NVIDIA drivers do with 10-bit in fullscreen.</source>
+        <translation>HDR10：10 位 PQ，HDR 显示器常用的格式。
+scRGB：16 位浮点。如果 HDR 出现色带（某些 NVIDIA 驱动在全屏 10 位下会这样），可以试试它。</translation>
+    </message>
+    <message>
+        <source>HDR Reference White</source>
+        <translation>HDR 参考白</translation>
+    </message>
+    <message>
+        <source>Reference white in nits reported to the game, the brightness of its HUD and menus. 0 (default): Windows&apos; SDR content brightness for the monitor, so the game matches the desktop; elsewhere the Switch 2 calibration, HDR Peak Luminance divided by 1.5, rounded up and clamped to 50-300 nits.
+SDR games and menus are shown at this brightness while HDR is active, and HDR screenshots map it to SDR white.</source>
+        <translation>向游戏报告的参考白（单位 nits），即其 HUD 和菜单的亮度。0（默认）：使用 Windows 为该显示器设置的 SDR 内容亮度，使游戏与桌面一致；其他平台使用 Switch 2 校准值：HDR 峰值亮度除以 1.5，向上取整并限制在 50–300 nits。
+HDR 生效期间，SDR 游戏和菜单按此亮度显示；HDR 截图也会把它映射为 SDR 白色。</translation>
+    </message>
+    <message>
+        <source>HDR Peak Luminance</source>
+        <translation>HDR 峰值亮度</translation>
+    </message>
+    <message>
+        <source>Peak luminance in nits reported to the game, which tone maps to it. 0 (default): the monitor&apos;s peak from its EDID as Windows reports it; elsewhere 300 nits, the Switch 2 HDR calibration&apos;s starting value.
+Also the HDR10 metadata peak, and what an HDR image rolls off to on an SDR screen.</source>
+        <translation>向游戏报告的峰值亮度（单位 nits），游戏会据此做色调映射。0（默认）：使用 Windows 报告的显示器 EDID 峰值；其他平台为 300 nits，即 Switch 2 HDR 校准的起始值。
+它同时也是 HDR10 元数据中的峰值，以及在 SDR 屏幕上 HDR 图像的滚降点。</translation>
+    </message>
+    <message>
+        <source>Bilinear while HDR output is active.</source>
+        <translation>HDR 输出生效期间使用双线性。</translation>
+    </message>
+    <message>
+        <source>The anti-aliasing method to use.
+SMAA offers the best quality.
+FXAA can produce a more stable picture in lower resolutions.
+Off while HDR output is active.</source>
+        <translation>要使用的抗锯齿方式。
+SMAA 画质最好。
+FXAA 在较低分辨率下画面更稳定。
+HDR 输出生效期间关闭。</translation>
+    </message>
+    <message>
+        <source>Paused while HDR output is active.</source>
+        <translation>HDR 输出生效期间暂停。</translation>
+    </message>
+    <message>
+        <source>HDR10 (10-bit)</source>
+        <translation>HDR10（10 位）</translation>
+    </message>
+    <message>
+        <source>scRGB (16-bit float)</source>
+        <translation>scRGB（16 位浮点）</translation>
+    </message>
+    <message>
+        <source>Build all cached shaders before game start</source>
+        <translation>游戏启动前构建全部已缓存着色器</translation>
+    </message>
+    <message>
+        <source>Builds every shader saved by earlier play sessions on the loading screen and keeps them built, so places you visited long ago don&apos;t stutter. Without it, only the shaders of recent sessions are built there and the rest in the background or when the game first needs them.
+Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quarter of the RAM. Takes effect when a game starts.</source>
+        <translation>在加载画面构建以往游戏会话保存的每个着色器并保持已构建状态，这样很久以前去过的地方不会卡顿。不开启时，只会在加载画面构建最近会话的着色器，其余的在后台或游戏首次需要时才构建。
+加载时间更长、占用更多内存，约每个着色器 0.3 MB，最多可占内存的四分之一。游戏启动时生效。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -3678,6 +3764,10 @@ Would you like to delete the old save data?</source>
     <message>
         <source> Hz</source>
         <translation> Hz</translation>
+    </message>
+    <message>
+        <source>nits</source>
+        <translation>nits</translation>
     </message>
 </context>
 <context>
