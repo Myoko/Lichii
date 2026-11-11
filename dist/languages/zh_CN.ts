@@ -9783,6 +9783,10 @@ p, li { white-space: pre-wrap; }
         <source> (+%1)</source>
         <translation>（+%1）</translation>
     </message>
+    <message>
+        <source>FG +%1</source>
+        <translation>帧生成 +%1</translation>
+    </message>
 </context>
 <context>
     <name>PlayerControlPreview</name>
