@@ -79,6 +79,18 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
+    <message>
+        <source>Lichii is an experimental open-source emulator for the Nintendo Switch 2, based on Eglantine and Eden.
+
+This software should not be used to play games you have not legally obtained.</source>
+        <translation>Lichii 是一款实验性的开源 Nintendo Switch 2 模拟器，基于 Eglantine 与 Eden 开发。
+
+请不要用本软件运行你未通过合法途径获得的游戏。</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/lichii/icons/menu_code.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_bug.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_info.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/lichii/icons/menu_code.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;源代码&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_bug.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;报告问题&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_info.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
 </context>
 <context>
     <name>CalibrationConfigurationDialog</name>
@@ -2617,6 +2629,14 @@ HDR 输出生效期间关闭。</translation>
 Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quarter of the RAM. Takes effect when a game starts.</source>
         <translation>在加载画面构建以往游戏会话保存的每个着色器并保持已构建状态，这样很久以前去过的地方不会卡顿。不开启时，只会在加载画面构建最近会话的着色器，其余的在后台或游戏首次需要时才构建。
 加载时间更长、占用更多内存，约每个着色器 0.3 MB，最多可占内存的四分之一。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Use global (%1)</source>
+        <translation>使用全局（%1）</translation>
+    </message>
+    <message>
+        <source>Use the global value</source>
+        <translation>使用全局值</translation>
     </message>
 </context>
 <context>
@@ -5163,6 +5183,14 @@ Current values are %1% and %2% respectively.</source>
         <source>Enable Airplane Mode</source>
         <translation>启用飞行模式</translation>
     </message>
+    <message>
+        <source>LAN play</source>
+        <translation>局域网联机</translation>
+    </message>
+    <message>
+        <source>Plays local wireless games with other Lichii instances or ldn_mitm consoles on the same network, without a room. If you are in a room when a game starts local play, the room is used instead.</source>
+        <translation>与其他 Lichii 实例或同一网络上的 ldn_mitm 主机进行本地无线联机，无需房间。如果游戏开始本地联机时你已在房间中，则改用房间。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurePerGame</name>
@@ -6975,6 +7003,14 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
     <message>
         <source>Delete Shader Precache</source>
         <translation>删除着色器预编译缓存</translation>
+    </message>
+    <message>
+        <source>1 game</source>
+        <translation>1 个游戏</translation>
+    </message>
+    <message>
+        <source>%1 games</source>
+        <translation>%1 个游戏</translation>
     </message>
 </context>
 <context>
@@ -9323,6 +9359,26 @@ Would you like to bypass this and exit anyway?</source>
         <source> + %1 generated</source>
         <translation> + 生成 %1</translation>
     </message>
+    <message>
+        <source>&amp;What&apos;s New in Lichii</source>
+        <translation>Lichii 新功能(&amp;W)</translation>
+    </message>
+    <message>
+        <source>Medium (44x44)</source>
+        <translation>中（44x44）</translation>
+    </message>
+    <message>
+        <source>Cover (160x160)</source>
+        <translation>封面（160x160）</translation>
+    </message>
+    <message>
+        <source>Wait for the NX metadata edit to finish before starting a game.</source>
+        <translation>请等 NX 元数据编辑完成后再启动游戏。</translation>
+    </message>
+    <message>
+        <source>Stop emulation before editing NX metadata.</source>
+        <translation>编辑 NX 元数据前请先停止模拟。</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
@@ -10407,6 +10463,18 @@ Close this window to decide on the next launch.</source>
     <message>
         <source>Lichii will use its own profile. Your old emulator data has not been changed.</source>
         <translation>Lichii 将使用自己的配置。旧模拟器的数据未被改动。</translation>
+    </message>
+    <message>
+        <source>Crop Icon</source>
+        <translation>裁剪图标</translation>
+    </message>
+    <message>
+        <source>Click or drag to move the square. Zoom to keep a smaller part.</source>
+        <translation>点击或拖拽移动方框。放大可保留更小的部分。</translation>
+    </message>
+    <message>
+        <source>Zoom:</source>
+        <translation>缩放：</translation>
     </message>
 </context>
 <context>
@@ -13425,6 +13493,26 @@ Try again without the recipe? The game still runs from the NX archive, but the o
 
 是否不带配方重试？游戏仍可从 NX 归档运行，但无法再从中精确重建原始包。</translation>
     </message>
+    <message>
+        <source>256 x 256 (default)</source>
+        <translation>256 x 256（默认）</translation>
+    </message>
+    <message>
+        <source>512 x 512</source>
+        <translation>512 x 512</translation>
+    </message>
+    <message>
+        <source>1024 x 1024</source>
+        <translation>1024 x 1024</translation>
+    </message>
+    <message>
+        <source>Size of the icon stored in the archive</source>
+        <translation>归档中保存的图标尺寸</translation>
+    </message>
+    <message>
+        <source>Restore Original Image</source>
+        <translation>恢复原始图片</translation>
+    </message>
 </context>
 <context>
     <name>RecommendedSettingsDialog</name>
@@ -13483,6 +13571,61 @@ Try again without the recipe? The game still runs from the NX archive, but the o
     <message>
         <source>Off</source>
         <translation>关闭</translation>
+    </message>
+</context>
+<context>
+    <name>WhatsNewDialog</name>
+    <message>
+        <source>What&apos;s New in Lichii</source>
+        <translation>Lichii 新功能</translation>
+    </message>
+    <message>
+        <source>Lichii has a new look</source>
+        <translation>Lichii 全新外观</translation>
+    </message>
+    <message>
+        <source>Here is what changed. Menus and shortcuts are where they were.</source>
+        <translation>以下是变化内容。菜单和快捷键的位置不变。</translation>
+    </message>
+    <message>
+        <source>Lichii Dark theme</source>
+        <translation>Lichii 深色主题</translation>
+    </message>
+    <message>
+        <source>A darker theme with the Lichii pink accent. The old themes are still in Configure &gt; General &gt; UI.</source>
+        <translation>带 Lichii 粉色点缀的更深色主题。旧主题仍在 设置 &gt; 通用 &gt; 界面 中。</translation>
+    </message>
+    <message>
+        <source>Settings that fit your screen</source>
+        <translation>适配屏幕的设置窗口</translation>
+    </message>
+    <message>
+        <source>Configure and game Properties open at a size that fits your screen, can be resized, and every tab scrolls, so nothing is cut off at 150% or 200% scaling.</source>
+        <translation>设置与游戏属性窗口会以适配屏幕的尺寸打开，可调整大小，每个标签页都能滚动，因此在 150% 或 200% 缩放时内容不会被截断。</translation>
+    </message>
+    <message>
+        <source>Per-game changes are marked</source>
+        <translation>单独修改的设置会被标记</translation>
+    </message>
+    <message>
+        <source>In a game&apos;s Properties, a setting you changed for that game has a pink outline and a reset button. Settings that follow the global value say &quot;Use global&quot;.</source>
+        <translation>在游戏属性中，为你修改过的设置会显示粉色边框和重置按钮。跟随全局值的设置会显示“使用全局”。</translation>
+    </message>
+    <message>
+        <source>Same places as before</source>
+        <translation>位置与以前相同</translation>
+    </message>
+    <message>
+        <source>Configure is in Emulation &gt; Configure (Ctrl+,). Right-click a game and choose Properties for its own settings. Help &gt; What&apos;s New in Lichii shows this again.</source>
+        <translation>设置在 模拟 &gt; 设置（Ctrl+,）中。右键游戏并选择“属性”可打开该游戏的单独设置。帮助 &gt; Lichii 新功能 可再次打开本页。</translation>
+    </message>
+    <message>
+        <source>Open Configure</source>
+        <translation>打开设置</translation>
+    </message>
+    <message>
+        <source>Got it</source>
+        <translation>知道了</translation>
     </message>
 </context>
 </TS>
