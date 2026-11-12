@@ -9455,6 +9455,10 @@ Would you like to bypass this and exit anyway?</source>
         <source>Your session was ended on nextendo.network, so Lichii signed you out. Sign in again in Configure &gt; Network.</source>
         <translation>你的会话已在 nextendo.network 上结束，Lichii 已将你退出登录。请在 设置 &gt; 网络 中重新登录。</translation>
     </message>
+    <message>
+        <source>%1&lt;br&gt;Install your decryption keys with Tools &gt; Install Decryption Keys, then start the game again.</source>
+        <translation>%1&lt;br&gt;请先在 工具 &gt; 安装解密密钥 中安装解密密钥，然后重新启动游戏。</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
