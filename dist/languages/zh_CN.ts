@@ -9459,6 +9459,30 @@ Would you like to bypass this and exit anyway?</source>
         <source>%1&lt;br&gt;Install your decryption keys with Tools &gt; Install Decryption Keys, then start the game again.</source>
         <translation>%1&lt;br&gt;请先在 工具 &gt; 安装解密密钥 中安装解密密钥，然后重新启动游戏。</translation>
     </message>
+    <message>
+        <source>Not enough RAM</source>
+        <translation>内存不足</translation>
+    </message>
+    <message>
+        <source>This PC has %1 GB of RAM. Switch 2 games need at least 16 GB, and 32 GB is recommended.
+
+Games can crash, and can even freeze or crash the whole PC.
+
+This setup isn&apos;t supported, so please don&apos;t open issues or ask for help about crashes on it.</source>
+        <translation>本机内存为 %1 GB。Switch 2 游戏至少需要 16 GB，建议 32 GB。
+
+游戏可能会崩溃，甚至导致整台电脑卡死或崩溃。
+
+此配置不受支持，请不要就崩溃问题提交 issue 或寻求帮助。</translation>
+    </message>
+    <message>
+        <source>Continue anyway</source>
+        <translation>仍然继续</translation>
+    </message>
+    <message>
+        <source>Don&apos;t show this again</source>
+        <translation>不再显示此提示</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
