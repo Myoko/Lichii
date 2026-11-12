@@ -5191,6 +5191,74 @@ Current values are %1% and %2% respectively.</source>
         <source>Plays local wireless games with other Lichii instances or ldn_mitm consoles on the same network, without a room. If you are in a room when a game starts local play, the room is used instead.</source>
         <translation>与其他 Lichii 实例或同一网络上的 ldn_mitm 主机进行本地无线联机，无需房间。如果游戏开始本地联机时你已在房间中，则改用房间。</translation>
     </message>
+    <message>
+        <source>Sign in with your Nextendo Network account. Online play through Nextendo isn&apos;t available in this build yet.</source>
+        <translation>使用你的 Nextendo Network 账号登录。此版本还不支持通过 Nextendo 进行在线游戏。</translation>
+    </message>
+    <message>
+        <source>Cancel sign-in</source>
+        <translation>取消登录</translation>
+    </message>
+    <message>
+        <source>Finish signing in to Nextendo in your browser.</source>
+        <translation>请在浏览器中完成 Nextendo 登录。</translation>
+    </message>
+    <message>
+        <source>Sign in to Nextendo</source>
+        <translation>登录 Nextendo</translation>
+    </message>
+    <message>
+        <source>Open this address in your browser to sign in: %1</source>
+        <translation>在浏览器中打开此地址以登录：%1</translation>
+    </message>
+    <message>
+        <source>Sign-in failed: %1</source>
+        <translation>登录失败：%1</translation>
+    </message>
+    <message>
+        <source>Your Nextendo session expired. Sign in again.</source>
+        <translation>你的 Nextendo 会话已过期，请重新登录。</translation>
+    </message>
+    <message>
+        <source>Your session was ended on nextendo.network. Sign in again.</source>
+        <translation>你的会话已在 nextendo.network 上结束，请重新登录。</translation>
+    </message>
+    <message>
+        <source>Not signed in.</source>
+        <translation>未登录。</translation>
+    </message>
+    <message>
+        <source>Signed in.</source>
+        <translation>已登录。</translation>
+    </message>
+    <message>
+        <source>Signed in as %1.</source>
+        <translation>已登录为 %1。</translation>
+    </message>
+    <message>
+        <source>Nextendo did not issue an online play token, so games can&apos;t log in to Nextendo yet.</source>
+        <translation>Nextendo 没有发放在线游戏令牌，因此游戏暂时无法登录 Nextendo。</translation>
+    </message>
+    <message>
+        <source>Client ID</source>
+        <translation>客户端 ID</translation>
+    </message>
+    <message>
+        <source>Nextendo Network</source>
+        <translation>Nextendo Network</translation>
+    </message>
+    <message>
+        <source>Nextendo Network is a community service that replaces Nintendo&apos;s online servers for Switch 1 games. When this is on, those games connect to Nextendo instead of Nintendo and send your Nextendo account token to it. Airplane mode is turned off.</source>
+        <translation>Nextendo Network 是一个社区服务，用于替代任天堂为 Switch 1 游戏提供的在线服务器。开启后，这些游戏会连接 Nextendo 而不是任天堂，并把你的 Nextendo 账号令牌发送给它。飞行模式会被关闭。</translation>
+    </message>
+    <message>
+        <source>Play online through Nextendo Network</source>
+        <translation>通过 Nextendo Network 在线游戏</translation>
+    </message>
+    <message>
+        <source>Sign out</source>
+        <translation>退出登录</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurePerGame</name>
@@ -9378,6 +9446,14 @@ Would you like to bypass this and exit anyway?</source>
     <message>
         <source>Stop emulation before editing NX metadata.</source>
         <translation>编辑 NX 元数据前请先停止模拟。</translation>
+    </message>
+    <message>
+        <source>Signed out of Nextendo</source>
+        <translation>已退出 Nextendo</translation>
+    </message>
+    <message>
+        <source>Your session was ended on nextendo.network, so Lichii signed you out. Sign in again in Configure &gt; Network.</source>
+        <translation>你的会话已在 nextendo.network 上结束，Lichii 已将你退出登录。请在 设置 &gt; 网络 中重新登录。</translation>
     </message>
 </context>
 <context>
