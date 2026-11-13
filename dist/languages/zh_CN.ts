@@ -2,22 +2,22 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <location filename="../../src/yuzu/aboutdialog.ui" line="14"/>
+        <location filename="../../src/lichii/aboutdialog.ui" line="14"/>
         <source>About Eden</source>
         <translation>关于 Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/aboutdialog.ui" line="72"/>
+        <location filename="../../src/lichii/aboutdialog.ui" line="72"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/aboutdialog.ui" line="85"/>
+        <location filename="../../src/lichii/aboutdialog.ui" line="85"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;%1 (%2)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;%1 (%2)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/aboutdialog.ui" line="98"/>
+        <location filename="../../src/lichii/aboutdialog.ui" line="98"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -36,26 +36,26 @@ li.checked::marker { content: &quot;\2612&quot;; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Eden 是一个实验性的开源任天堂 Switch 模拟器，以 GPLv3.0+ 许可证授权。本项目基于 yuzu 模拟器开发（后者已于 2024 年 3 月终止）。&lt;br /&gt;&lt;br /&gt;请勿使用此软件运行非法获得的游戏。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/aboutdialog.ui" line="131"/>
+        <location filename="../../src/lichii/aboutdialog.ui" line="131"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://eden-emulator.github.io/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Website&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Source Code&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/activity/contributors&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Contributors&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://discord.gg/HstXbPch7X&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Discord&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://stt.gg/qKgFEAbH&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Stoat&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://nitter.poast.org/edenemuofficial&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Twitter&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSE.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;License&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://eden-emulator.github.io/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;主页&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;源码&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/activity/contributors&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;贡献者&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://discord.gg/HstXbPch7X&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Discord&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://stt.gg/qKgFEAbH&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Stoat&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://nitter.poast.org/edenemuofficial&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Twitter&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSE.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;许可证&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/aboutdialog.ui" line="147"/>
+        <location filename="../../src/lichii/aboutdialog.ui" line="147"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Eden is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; 是任天堂的注册商标。Eden 与任天堂没有任何关系。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>About Lichii</source>
-        <translation>关于 Lichii</translation>
+        <source>Lichii is an experimental open-source emulator for the Nintendo Switch 2, based on Eglantine and Eden.
+
+This software should not be used to play games you have not legally obtained.</source>
+        <translation>Lichii 是一款实验性的开源 Nintendo Switch 2 模拟器，基于 Eglantine 与 Eden 开发。
+
+请不要用本软件运行你未通过合法途径获得的游戏。</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Lichii is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; 是任天堂的注册商标。Lichii 与任天堂没有任何关系。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;源代码&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;报告问题&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/lichii/icons/menu_code.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_bug.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_info.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/lichii/icons/menu_code.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;源代码&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_bug.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;报告问题&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_info.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -76,51 +76,51 @@ li.checked::marker { content: &quot;\2612&quot;; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Lichii 是一款实验性的开源 Nintendo Switch 2 模拟器，基于 Eglantine 与 Eden 开发。&lt;br /&gt;&lt;br /&gt;请不要用本软件运行你未通过合法途径获得的游戏。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <source>About Lichii</source>
+        <translation>关于 Lichii</translation>
+    </message>
+    <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>Lichii is an experimental open-source emulator for the Nintendo Switch 2, based on Eglantine and Eden.
-
-This software should not be used to play games you have not legally obtained.</source>
-        <translation>Lichii 是一款实验性的开源 Nintendo Switch 2 模拟器，基于 Eglantine 与 Eden 开发。
-
-请不要用本软件运行你未通过合法途径获得的游戏。</translation>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;源代码&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;报告问题&lt;/a&gt; | &lt;a href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/lichii/icons/menu_code.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_bug.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_info.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/lichii/icons/menu_code.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;源代码&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_bug.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;报告问题&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_info.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Lichii is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; 是任天堂的注册商标。Lichii 与任天堂没有任何关系。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>CalibrationConfigurationDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="26"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="26"/>
         <source>Communicating with the server...</source>
         <translation>正在连接服务器…</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="27"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="27"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="45"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="45"/>
         <source>Touch the top left corner &lt;br&gt;of your touchpad.</source>
         <translation>触摸你的触摸板&lt;br&gt;的左上角。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="48"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="48"/>
         <source>Now touch the bottom right corner &lt;br&gt;of your touchpad.</source>
         <translation>触摸你的触摸板&lt;br&gt;的右下角。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="51"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="51"/>
         <source>Configuration completed!</source>
         <translation>配置完成！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="59"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="59"/>
         <source>OK</source>
         <translation>确定</translation>
     </message>
@@ -128,93 +128,93 @@ This software should not be used to play games you have not legally obtained.</s
 <context>
     <name>ChatRoom</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.ui" line="14"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.ui" line="14"/>
         <source>Room Window</source>
         <translation>聊天室窗口</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.ui" line="40"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.ui" line="40"/>
         <source>Send Chat Message</source>
         <translation>发送聊天消息</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.ui" line="47"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.ui" line="47"/>
         <source>Send Message</source>
         <translation>发送消息</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="182"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="182"/>
         <source>Members</source>
         <translation>成员</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="318"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="318"/>
         <source>%1 has joined</source>
         <translation>%1 已加入</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="321"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="321"/>
         <source>%1 has left</source>
         <translation>%1 已离开</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="324"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="324"/>
         <source>%1 has been kicked</source>
         <translation>%1 已被踢出房间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="327"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="327"/>
         <source>%1 has been banned</source>
         <translation>%1 已被封禁</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="330"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="330"/>
         <source>%1 has been unbanned</source>
         <translation>%1 已被解封</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="446"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="446"/>
         <source>View Profile</source>
         <translation>查看个人资料</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="459"/>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="469"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="459"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="469"/>
         <source>Block Player</source>
         <translation>屏蔽玩家</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="470"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="470"/>
         <source>When you block a player, you will no longer receive chat messages from them.&lt;br&gt;&lt;br&gt;Are you sure you would like to block %1?</source>
         <translation>屏蔽玩家后，你将无法收到他们的聊天消息。&lt;br&gt;&lt;br&gt;您确定要屏蔽 %1 吗？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="483"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="483"/>
         <source>Kick</source>
         <translation>踢出房间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="484"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="484"/>
         <source>Ban</source>
         <translation>封禁</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="488"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="488"/>
         <source>Kick Player</source>
         <translation>踢出玩家</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="489"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="489"/>
         <source>Are you sure you would like to &lt;b&gt;kick&lt;/b&gt; %1?</source>
         <translation>您确定要将 %1 &lt;b&gt;踢出房间&lt;/b&gt;吗？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="497"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="497"/>
         <source>Ban Player</source>
         <translation>封禁玩家</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="498"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="498"/>
         <source>Are you sure you would like to &lt;b&gt;kick and ban&lt;/b&gt; %1?
 
 This would ban both their forum username and their IP address.</source>
@@ -226,22 +226,22 @@ This would ban both their forum username and their IP address.</source>
 <context>
     <name>ClientRoom</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.ui" line="14"/>
+        <location filename="../../src/lichii/multiplayer/client_room.ui" line="14"/>
         <source>Room Window</source>
         <translation>房间窗口</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.ui" line="27"/>
+        <location filename="../../src/lichii/multiplayer/client_room.ui" line="27"/>
         <source>Room Description</source>
         <translation>房间描述</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.ui" line="47"/>
+        <location filename="../../src/lichii/multiplayer/client_room.ui" line="47"/>
         <source>Moderation...</source>
         <translation>内容审核...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.ui" line="57"/>
+        <location filename="../../src/lichii/multiplayer/client_room.ui" line="57"/>
         <source>Leave Room</source>
         <translation>离开房间</translation>
     </message>
@@ -249,17 +249,17 @@ This would ban both their forum username and their IP address.</source>
 <context>
     <name>ClientRoomWindow</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.cpp" line="80"/>
+        <location filename="../../src/lichii/multiplayer/client_room.cpp" line="80"/>
         <source>Connected</source>
         <translation>已连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.cpp" line="89"/>
+        <location filename="../../src/lichii/multiplayer/client_room.cpp" line="89"/>
         <source>Disconnected</source>
         <translation>已断开连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.cpp" line="102"/>
+        <location filename="../../src/lichii/multiplayer/client_room.cpp" line="102"/>
         <source>%1 - %2 (%3/%4 members) - connected</source>
         <translation>%1 - %2 (%3/%4 个成员) - 已连接</translation>
     </message>
@@ -267,7 +267,7 @@ This would ban both their forum username and their IP address.</source>
 <context>
     <name>ConfigurationShared</name>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_widget.cpp" line="67"/>
+        <location filename="../../src/lichii/configuration/shared_widget.cpp" line="67"/>
         <source>%</source>
         <translation>%</translation>
     </message>
@@ -2209,240 +2209,6 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <translation>网格视图</translation>
     </message>
     <message>
-        <source>Wait</source>
-        <translation>等待</translation>
-    </message>
-    <message>
-        <source>Switch 2 draws with unbuilt pipelines:</source>
-        <translation>Switch 2 遇到管线尚未构建完成时的绘制：</translation>
-    </message>
-    <message>
-        <source>AMD FidelityFX Super Resolution 1, softer sharpening</source>
-        <translation>AMD FidelityFX 超级分辨率 1（更柔和的锐化）</translation>
-    </message>
-    <message>
-        <source>Caps how often the game presents, so the game itself runs at this rate. 0 leaves the frame rate to the game and the display.</source>
-        <translation>限制游戏呈现的频率，使游戏本身按此速率运行。0 表示交给游戏与显示器决定。</translation>
-    </message>
-    <message>
-        <source>Queue Target</source>
-        <translation>队列目标</translation>
-    </message>
-    <message>
-        <source>Auto Flow Scale</source>
-        <translation>自动光流缩放</translation>
-    </message>
-    <message>
-        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
-Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
-Currently requires Fire Emblem: Fortune&apos;s Weave and EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
-Takes effect when a game starts.</source>
-        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
-需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
-目前需要《Fire Emblem: Fortune&apos;s Weave》并设置 EDEN_NX2_DLSS_REPLACEMENT=dlss。没有该覆盖设置时，仍使用其空间超分替代方案。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Frame rate limit (Switch 2):</source>
-        <translation>帧率上限（Switch 2）：</translation>
-    </message>
-    <message>
-        <source>Pin GPU threads to their own cores</source>
-        <translation>把 GPU 线程绑定到独立核心</translation>
-    </message>
-    <message>
-        <source>Lets the game adjust between 30 and 60 FPS using whole-frame timing to maintain normal game speed. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
-        <translation>允许游戏在 30 与 60 FPS 之间调整，通过整帧计时保持正常游戏速度。重启游戏后生效，优先于 30 FPS 模式。</translation>
-    </message>
-    <message>
-        <source>Mario Kart World: dynamic FPS (experimental)</source>
-        <translation>马力欧卡丁车世界：动态帧率（实验性）</translation>
-    </message>
-    <message>
-        <source>Target Frame Rate</source>
-        <translation>目标帧率</translation>
-    </message>
-    <message>
-        <source>Pins the emulator&apos;s GPU threads to dedicated physical CPU cores and keeps the emulated CPU cores off them.
-Can hurt performance on CPUs with few cores. Skipped on CPUs with fewer than 6 physical performance cores.
-Windows and Linux only. Takes effect when a game starts.</source>
-        <translation>把模拟器的 GPU 线程固定到专用的物理 CPU 核心，并让模拟的 CPU 核心避开这些核。
-在核心较少的 CPU 上可能影响性能。物理性能核少于 6 个的 CPU 会跳过此设置。
-仅限 Windows 和 Linux。游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Forces the game to use its native 30 FPS mode at normal game speed. Takes effect after restarting the game.</source>
-        <translation>强制游戏以原生 30 FPS 模式运行并保持正常游戏速度。重启游戏后生效。</translation>
-    </message>
-    <message>
-        <source>Used by the Bounded mode: the most time per frame that Switch 2 draws may wait in total for pipelines that are still building. Once spent, the remaining unbuilt draws of that frame are skipped.</source>
-        <translation>供“有界等待”模式使用：每帧中 Switch 2 绘制为仍在构建的管线等待的总时间上限。用完后，该帧剩余未构建的绘制会被跳过。</translation>
-    </message>
-    <message>
-        <source>No sharpening</source>
-        <translation>无锐化</translation>
-    </message>
-    <message>
-        <source>Precache shaders before game start:</source>
-        <translation>游戏启动前预编译着色器：</translation>
-    </message>
-    <message>
-        <source>Dump Optical Flow</source>
-        <translation>导出光流</translation>
-    </message>
-    <message>
-        <source>Skip</source>
-        <translation>跳过</translation>
-    </message>
-    <message>
-        <source>RCAS Sharpness:</source>
-        <translation>RCAS 锐化度：</translation>
-    </message>
-    <message>
-        <source>The Legend of Zelda: Ocarina of Time only.
-Game: the game&apos;s own anti-aliasing network, which sharpens heavily.
-No sharpening: the image as the game renders it, without the network (faster; pairs well with a higher resolution). Has no effect while NVIDIA DLSS is on.
-Takes effect when the game starts.</source>
-        <translation>仅适用于《塞尔达传说：时之笛》。
-游戏：使用游戏自带的抗锯齿网络，会带来较强的锐化。
-无锐化：按游戏渲染的原样输出图像，不使用该网络（更快，适合搭配更高分辨率）。在 NVIDIA DLSS 开启时无效。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Optical Flow Interpolation (built-in)</source>
-        <translation>光流插帧（内置）</translation>
-    </message>
-    <message>
-        <source>Frame Generation Type</source>
-        <translation>帧生成类型</translation>
-    </message>
-    <message>
-        <source>Lossless Scaling (LSFG)</source>
-        <translation>无损缩放 (LSFG)</translation>
-    </message>
-    <message>
-        <source>Auto (shader extent)</source>
-        <translation>自动（按着色器范围）</translation>
-    </message>
-    <message>
-        <source>AMD FidelityFX Super Resolution 1 (FSR 1)</source>
-        <translation>AMD FidelityFX 超级分辨率 1 (FSR 1)</translation>
-    </message>
-    <message>
-        <source>Builds shaders on the loading screen, on every CPU thread, so they don&apos;t stutter the first time the game uses them: the compute shaders found in the game files, and the shaders saved by earlier play sessions that the normal shader loading leaves for later. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
-Ask asks at launch while the game has never been precached.</source>
-        <translation>在加载画面用所有 CPU 线程构建着色器，避免游戏第一次用到它们时卡顿：包括游戏文件中的计算着色器，以及以往游戏会话保存下来、通常留到之后再加载的着色器。首次启动会读取游戏文件，需要几分钟；之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面提供“跳过”按钮。
-“询问”会在游戏从未预编译过时于启动时询问。</translation>
-    </message>
-    <message>
-        <source>Native compute write mark:</source>
-        <translation>原生计算写入标记：</translation>
-    </message>
-    <message>
-        <source>Runs a Switch 2 game&apos;s own DLSS (its upscaling network, translated for this GPU) instead of AMD FSR 3.1 in its place.
-AMD FSR 3.1 still draws while the network is checked, when it can&apos;t run on this GPU, with resolution scaling, and for the rest of the session if its output fails Lichii&apos;s checks.
-Takes effect when a game starts.</source>
-        <translation>运行 Switch 2 游戏自带的 DLSS（它自己的超分网络，已针对本 GPU 转译），而不是用 AMD FSR 3.1 替代。
-在检查网络期间、网络无法在本 GPU 上运行时、使用分辨率缩放时，以及网络输出未通过 Lichii 校验的剩余会话时间内，仍由 AMD FSR 3.1 负责绘制。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Mario Kart World: 30 FPS mode</source>
-        <translation>马力欧卡丁车世界：30 FPS 模式</translation>
-    </message>
-    <message>
-        <source>Strength of RCAS (AMD&apos;s contrast-adaptive sharpening) on the upscaler used in place of a game&apos;s DLSS (AMD FSR 3.1); 0% turns it off.
-Also sets the sharpening of the AMD FSR 1 and SGSR window adapting filters.</source>
-        <translation>替代游戏 DLSS 的超分器（AMD FSR 3.1）所用的 RCAS（AMD 对比度自适应锐化）强度；0% 表示关闭。
-同时决定 AMD FSR 1 与 SGSR 窗口自适应滤镜的锐化程度。</translation>
-    </message>
-    <message>
-        <source>FPS Limit</source>
-        <translation>帧率上限</translation>
-    </message>
-    <message>
-        <source>Frame Generation Multiplier</source>
-        <translation>帧生成倍率</translation>
-    </message>
-    <message>
-        <source>Use NVIDIA DLSS in place of a game&apos;s DLSS (experimental)</source>
-        <translation>用 NVIDIA DLSS 替代游戏自带的 DLSS（实验性）</translation>
-    </message>
-    <message>
-        <source>Flow Scale</source>
-        <translation>光流缩放</translation>
-    </message>
-    <message>
-        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
-Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
-Fire Emblem: Fortune&apos;s Weave also needs EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
-In The Legend of Zelda: Ocarina of Time it replaces the game&apos;s upscaler at 1x resolution scale.
-Takes effect when a game starts.</source>
-        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
-需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
-《Fire Emblem: Fortune&apos;s Weave》还需要设置 EDEN_NX2_DLSS_REPLACEMENT=dlss；没有该覆盖设置时，仍使用其空间超分替代方案。
-在《塞尔达传说：时之笛》中，它会在 1 倍分辨率缩放下替代游戏自带的超分器。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Full binding</source>
-        <translation>完整绑定</translation>
-    </message>
-    <message>
-        <source>Pipeline wait per frame (ms):</source>
-        <translation>每帧管线等待时间（毫秒）：</translation>
-    </message>
-    <message>
-        <source>Only applies when asynchronous shader building is on. Decides what a Switch 2 draw does when its graphics pipeline is still building.
-Wait stalls the GPU until the pipeline is ready (no missing effects, but long stalls on new content). Skip drops the draw, which can leave an effect missing for a few frames. Bounded waits up to the time below per frame, then skips. The EDEN_NX2_ASYNC_DISCARD=1 environment variable still forces Skip.</source>
-        <translation>仅在异步着色器构建开启时适用。决定某个 Switch 2 绘制在图形管线仍在构建时如何处理。
-等待：让 GPU 等到管线就绪（不会缺少效果，但遇到新内容会长时间停顿）。跳过：丢弃该绘制，可能导致某个效果在几帧内缺失。有界等待：每帧最多等待下方设定的时间，之后跳过。环境变量 EDEN_NX2_ASYNC_DISCARD=1 仍会强制使用“跳过”。</translation>
-    </message>
-    <message>
-        <source>Enable Frame Generation</source>
-        <translation>启用帧生成</translation>
-    </message>
-    <message>
-        <source>Use the game&apos;s own DLSS</source>
-        <translation>使用游戏自带的 DLSS</translation>
-    </message>
-    <message>
-        <source>Ocarina of Time anti-aliasing:</source>
-        <translation>《时之笛》抗锯齿：</translation>
-    </message>
-    <message>
-        <source>Rate of the Switch 2 VSync event that games start their frames on (default 60 Hz).
-Above 60 Hz most games run too fast; use it with a game patch that follows real time, such as &quot;FPS Unlock (built-in)&quot; for Ocarina of Time.
-Takes effect when a game starts.</source>
-        <translation>游戏开始每帧的 Switch 2 VSync 事件频率（默认 60 Hz）。
-高于 60 Hz 时多数游戏会跑得过快；请配合能跟随真实时间的游戏补丁使用，例如《时之笛》的“FPS 解锁（内置）”。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Pin GPU threads to their own cores (experimental)</source>
-        <translation>把 GPU 线程绑定到独立核心（实验性）</translation>
-    </message>
-    <message>
-        <source>Bounded wait</source>
-        <translation>有界等待</translation>
-    </message>
-    <message>
-        <source>Ask</source>
-        <translation>询问</translation>
-    </message>
-    <message>
-        <source>How much of a Switch 2 compute shader&apos;s storage buffer is treated as written by the GPU after each dispatch.
-Auto marks what the shader&apos;s stores can reach and falls back to Full when that cannot be proven.
-Full marks the whole binding (up to 8 MiB), the original behaviour: it can delay the game&apos;s own writes to nearby memory (flickering effects) and copy far more data back from the GPU.</source>
-        <translation>每次 dispatch 后，Switch 2 计算着色器的存储缓冲区有多少被视为已被 GPU 写入。
-自动：按着色器存储能触及的范围标记，无法证明时退回“完整绑定”。
-完整绑定：标记整个绑定（最多 8 MiB），这是原来的行为：它可能推迟游戏对邻近内存的写入（导致效果闪烁），并从 GPU 拷回更多数据。</translation>
-    </message>
-    <message>
-        <source>Use AMD FSR 3.1 upscaling in Ocarina of Time</source>
-        <translation>在《时之笛》中使用 AMD FSR 3.1 超分</translation>
-    </message>
-    <message>
         <source>Replaces Ocarina of Time&apos;s native upscaler using scene depth and camera motion. Works on any supported Vulkan GPU. NVIDIA DLSS takes precedence when enabled and available. RCAS Sharpness controls sharpening. Takes effect when a game starts.</source>
         <translation>使用场景深度和相机运动替代《时之笛》原生的超分器，适用于任何受支持的 Vulkan GPU。启用且可用时 NVIDIA DLSS 优先。RCAS 锐化度控制锐化强度。游戏启动时生效。</translation>
     </message>
@@ -2451,102 +2217,18 @@ Full marks the whole binding (up to 8 MiB), the original behaviour: it can delay
         <translation>用 AMD FSR 4 替代 FSR 3.1</translation>
     </message>
     <message>
-        <source>Uses AMD&apos;s ML-based FSR 4 where FSR replaces a game&apos;s upscaler (Ocarina of Time with the setting above). Radeon RX 6000 or newer, or a Ryzen AI processor, with a current AMD driver.
-Needs AMD&apos;s FidelityFX runtime, which Lichii downloads from AMD when you ask. The files are AMD&apos;s, under AMD&apos;s licence. Without them, or if FSR 4 can&apos;t run, FSR 3.1 is used. Takes effect when a game starts.</source>
-        <translation>在 FSR 替代游戏超分器的地方（配合上面的设置用于《时之笛》）使用 AMD 基于机器学习的 FSR 4。需要 Radeon RX 6000 或更新型号，或 Ryzen AI 处理器，以及较新的 AMD 驱动。
-需要 AMD 的 FidelityFX 运行时，Lichii 会在你确认后从 AMD 下载。文件属于 AMD，遵循 AMD 的许可。如果没有这些文件，或 FSR 4 无法运行，则使用 FSR 3.1。游戏启动时生效。</translation>
+        <source>Wait</source>
+        <translation>等待</translation>
     </message>
     <message>
-        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
-Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
-Fire Emblem: Fortune&apos;s Weave also needs EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
-In The Legend of Zelda: Ocarina of Time it replaces the game&apos;s upscaler at 1x resolution scale.
-The window adapting filter (the FSR 1, Bilinear and similar button in the status bar) is separate and runs after DLSS. While DLSS runs, the status bar shows DLSS, its mode and its preset. If DLSS fails, it stays off until the game restarts and the log says why.
-Takes effect when a game starts.</source>
-        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
-需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
-《Fire Emblem: Fortune&apos;s Weave》还需要设置 EDEN_NX2_DLSS_REPLACEMENT=dlss；没有该覆盖设置时，仍使用其空间超分替代方案。
-在《塞尔达传说：时之笛》中，它会在 1 倍分辨率缩放下替代游戏自带的超分器。
-窗口适配滤镜（状态栏里的 FSR 1、双线性等按钮）是独立的一层，在 DLSS 之后运行。DLSS 运行时，状态栏显示 DLSS、它的模式和预设。若 DLSS 失败，它会保持关闭直到游戏重启，原因会写入日志。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>NVIDIA DLSS quality:</source>
-        <translation>NVIDIA DLSS 质量：</translation>
-    </message>
-    <message>
-        <source>Applies only when a game uses its own DLSS.
-Automatic selects a mode for the game&apos;s render/output sizes. Native (DLAA) applies anti-aliasing at the game&apos;s render resolution, then scales to its output; Ocarina&apos;s 1440p mode stays at 1440p instead of reconstructing to 4K.
-Explicit modes only apply when the game&apos;s render size is within NVIDIA&apos;s supported range; otherwise Automatic is used and the fallback is logged. This does not change the game&apos;s render resolution. Apply/OK updates it while playing.</source>
-        <translation>仅在游戏使用自带 DLSS 时适用。
-自动：根据游戏的渲染/输出尺寸选择模式。原生（DLAA）：在游戏的渲染分辨率上做抗锯齿，再缩放到输出；时之笛的 1440p 模式保持 1440p，而不会重建到 4K。
-指定模式只在游戏的渲染尺寸处于 NVIDIA 支持范围时生效，否则会退回自动，并在日志里记录。此设置不改变游戏的渲染分辨率。游戏中点击“应用/确定”即时生效。</translation>
-    </message>
-    <message>
-        <source>NVIDIA DLSS model preset:</source>
-        <translation>NVIDIA DLSS 模型预设：</translation>
-    </message>
-    <message>
-        <source>Applies only when a game uses its own DLSS.
-M (DLSS 4.5) is Lichii&apos;s default for every quality mode. NVIDIA recommends K for DLAA/Quality/Balanced, M for Performance, and L for Ultra Performance.
-L/M cost more on RTX 20/30 GPUs; consider K. J may reduce ghosting but flicker more. E/F are deprecated CNN models. NVIDIA default lets the runtime choose.
-L/M require DLSS 310.5 or newer; the download button provides 310.9.16. If Fire Emblem shows horizontal lines with L/M at 2x, try K. NVIDIA app overrides may supersede this choice. Apply/OK updates it while playing.</source>
-        <translation>仅在游戏使用自带 DLSS 时适用。
-M（DLSS 4.5）是 Lichii 在每种质量模式下的默认值。NVIDIA 推荐 DLAA/质量/均衡用 K，性能用 M，超高性能用 L。
-在 RTX 20/30 显卡上 L/M 开销更大，可考虑 K。J 可能减少拖影但闪烁更多。E/F 是已弃用的 CNN 模型。“NVIDIA 默认”交由运行时决定。
-L/M 需要 DLSS 310.5 或更新版本；下载按钮提供 310.9.16。若《火焰纹章》在 2 倍下用 L/M 出现横线，试试 K。NVIDIA app 的覆盖设置可能优于此选择。游戏中点击“应用/确定”即时生效。</translation>
-    </message>
-    <message>
-        <source>Automatic (game resolution)</source>
-        <translation>自动（跟随游戏分辨率）</translation>
-    </message>
-    <message>
-        <source>Native (DLAA)</source>
-        <translation>原生 (DLAA)</translation>
-    </message>
-    <message>
-        <source>Quality</source>
-        <translation>质量</translation>
-    </message>
-    <message>
-        <source>Performance</source>
-        <translation>性能</translation>
-    </message>
-    <message>
-        <source>Ultra Performance</source>
-        <translation>超高性能</translation>
-    </message>
-    <message>
-        <source>M (DLSS 4.5, default)</source>
-        <translation>M（DLSS 4.5，默认）</translation>
-    </message>
-    <message>
-        <source>NVIDIA default</source>
-        <translation>NVIDIA 默认</translation>
-    </message>
-    <message>
-        <source>E (legacy CNN)</source>
-        <translation>E（旧版 CNN）</translation>
-    </message>
-    <message>
-        <source>F (legacy CNN)</source>
-        <translation>F（旧版 CNN）</translation>
-    </message>
-    <message>
-        <source>J (DLSS 4)</source>
-        <translation>J（DLSS 4）</translation>
-    </message>
-    <message>
-        <source>K (DLSS 4)</source>
-        <translation>K（DLSS 4）</translation>
-    </message>
-    <message>
-        <source>L (DLSS 4.5)</source>
-        <translation>L（DLSS 4.5）</translation>
-    </message>
-    <message>
-        <source>HDR output:</source>
-        <translation>HDR 输出：</translation>
+        <source>The anti-aliasing method to use.
+SMAA offers the best quality.
+FXAA can produce a more stable picture in lower resolutions.
+Off while HDR output is active.</source>
+        <translation>要使用的抗锯齿方式。
+SMAA 画质最好。
+FXAA 在较低分辨率下画面更稳定。
+HDR 输出生效期间关闭。</translation>
     </message>
     <message>
         <source>HDR output for games with an HDR mode. Requires Vulkan.
@@ -2565,18 +2247,42 @@ HDR 生效期间，抗锯齿、后期处理、FSR/SGSR 超分和帧生成都会�
 截图会做色调映射到 SDR。</translation>
     </message>
     <message>
-        <source>HDR format:</source>
-        <translation>HDR 格式：</translation>
+        <source>Switch 2 draws with unbuilt pipelines:</source>
+        <translation>Switch 2 遇到管线尚未构建完成时的绘制：</translation>
     </message>
     <message>
-        <source>HDR10: 10-bit PQ, what HDR displays take.
-scRGB: 16-bit float. Try it if HDR shows banding, which some NVIDIA drivers do with 10-bit in fullscreen.</source>
-        <translation>HDR10：10 位 PQ，HDR 显示器常用的格式。
-scRGB：16 位浮点。如果 HDR 出现色带（某些 NVIDIA 驱动在全屏 10 位下会这样），可以试试它。</translation>
+        <source>Ultra Performance</source>
+        <translation>超高性能</translation>
     </message>
     <message>
-        <source>HDR Reference White</source>
-        <translation>HDR 参考白</translation>
+        <source>AMD FidelityFX Super Resolution 1, softer sharpening</source>
+        <translation>AMD FidelityFX 超级分辨率 1（更柔和的锐化）</translation>
+    </message>
+    <message>
+        <source>Caps how often the game presents, so the game itself runs at this rate. 0 leaves the frame rate to the game and the display.</source>
+        <translation>限制游戏呈现的频率，使游戏本身按此速率运行。0 表示交给游戏与显示器决定。</translation>
+    </message>
+    <message>
+        <source>Queue Target</source>
+        <translation>队列目标</translation>
+    </message>
+    <message>
+        <source>HDR output:</source>
+        <translation>HDR 输出：</translation>
+    </message>
+    <message>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
+Fire Emblem: Fortune&apos;s Weave also needs EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
+In The Legend of Zelda: Ocarina of Time it replaces the game&apos;s upscaler at 1x resolution scale.
+The window adapting filter (the FSR 1, Bilinear and similar button in the status bar) is separate and runs after DLSS. While DLSS runs, the status bar shows DLSS, its mode and its preset. If DLSS fails, it stays off until the game restarts and the log says why.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
+《Fire Emblem: Fortune&apos;s Weave》还需要设置 EDEN_NX2_DLSS_REPLACEMENT=dlss；没有该覆盖设置时，仍使用其空间超分替代方案。
+在《塞尔达传说：时之笛》中，它会在 1 倍分辨率缩放下替代游戏自带的超分器。
+窗口适配滤镜（状态栏里的 FSR 1、双线性等按钮）是独立的一层，在 DLSS 之后运行。DLSS 运行时，状态栏显示 DLSS、它的模式和预设。若 DLSS 失败，它会保持关闭直到游戏重启，原因会写入日志。
+游戏启动时生效。</translation>
     </message>
     <message>
         <source>Reference white in nits reported to the game, the brightness of its HUD and menus. 0 (default): Windows&apos; SDR content brightness for the monitor, so the game matches the desktop; elsewhere the Switch 2 calibration, HDR Peak Luminance divided by 1.5, rounded up and clamped to 50-300 nits.
@@ -2585,44 +2291,186 @@ SDR games and menus are shown at this brightness while HDR is active, and HDR sc
 HDR 生效期间，SDR 游戏和菜单按此亮度显示；HDR 截图也会把它映射为 SDR 白色。</translation>
     </message>
     <message>
-        <source>HDR Peak Luminance</source>
-        <translation>HDR 峰值亮度</translation>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
+Fire Emblem: Fortune&apos;s Weave also needs EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
+In The Legend of Zelda: Ocarina of Time it replaces the game&apos;s upscaler at 1x resolution scale.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
+《Fire Emblem: Fortune&apos;s Weave》还需要设置 EDEN_NX2_DLSS_REPLACEMENT=dlss；没有该覆盖设置时，仍使用其空间超分替代方案。
+在《塞尔达传说：时之笛》中，它会在 1 倍分辨率缩放下替代游戏自带的超分器。
+游戏启动时生效。</translation>
     </message>
     <message>
-        <source>Peak luminance in nits reported to the game, which tone maps to it. 0 (default): the monitor&apos;s peak from its EDID as Windows reports it; elsewhere 300 nits, the Switch 2 HDR calibration&apos;s starting value.
-Also the HDR10 metadata peak, and what an HDR image rolls off to on an SDR screen.</source>
-        <translation>向游戏报告的峰值亮度（单位 nits），游戏会据此做色调映射。0（默认）：使用 Windows 报告的显示器 EDID 峰值；其他平台为 300 nits，即 Switch 2 HDR 校准的起始值。
-它同时也是 HDR10 元数据中的峰值，以及在 SDR 屏幕上 HDR 图像的滚降点。</translation>
+        <source>Auto Flow Scale</source>
+        <translation>自动光流缩放</translation>
     </message>
     <message>
-        <source>Bilinear while HDR output is active.</source>
-        <translation>HDR 输出生效期间使用双线性。</translation>
+        <source>Frame rate limit (Switch 2):</source>
+        <translation>帧率上限（Switch 2）：</translation>
     </message>
     <message>
-        <source>The anti-aliasing method to use.
-SMAA offers the best quality.
-FXAA can produce a more stable picture in lower resolutions.
-Off while HDR output is active.</source>
-        <translation>要使用的抗锯齿方式。
-SMAA 画质最好。
-FXAA 在较低分辨率下画面更稳定。
-HDR 输出生效期间关闭。</translation>
+        <source>HDR Reference White</source>
+        <translation>HDR 参考白</translation>
     </message>
     <message>
-        <source>Paused while HDR output is active.</source>
-        <translation>HDR 输出生效期间暂停。</translation>
-    </message>
-    <message>
-        <source>HDR10 (10-bit)</source>
-        <translation>HDR10（10 位）</translation>
+        <source>Pin GPU threads to their own cores</source>
+        <translation>把 GPU 线程绑定到独立核心</translation>
     </message>
     <message>
         <source>scRGB (16-bit float)</source>
         <translation>scRGB（16 位浮点）</translation>
     </message>
     <message>
-        <source>Build all cached shaders before game start</source>
-        <translation>游戏启动前构建全部已缓存着色器</translation>
+        <source>HDR10: 10-bit PQ, what HDR displays take.
+scRGB: 16-bit float. Try it if HDR shows banding, which some NVIDIA drivers do with 10-bit in fullscreen.</source>
+        <translation>HDR10：10 位 PQ，HDR 显示器常用的格式。
+scRGB：16 位浮点。如果 HDR 出现色带（某些 NVIDIA 驱动在全屏 10 位下会这样），可以试试它。</translation>
+    </message>
+    <message>
+        <source>Lets the game adjust between 30 and 60 FPS using whole-frame timing to maintain normal game speed. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
+        <translation>允许游戏在 30 与 60 FPS 之间调整，通过整帧计时保持正常游戏速度。重启游戏后生效，优先于 30 FPS 模式。</translation>
+    </message>
+    <message>
+        <source>Mario Kart World: dynamic FPS (experimental)</source>
+        <translation>马力欧卡丁车世界：动态帧率（实验性）</translation>
+    </message>
+    <message>
+        <source>M (DLSS 4.5, default)</source>
+        <translation>M（DLSS 4.5，默认）</translation>
+    </message>
+    <message>
+        <source>Target Frame Rate</source>
+        <translation>目标帧率</translation>
+    </message>
+    <message>
+        <source>Native (DLAA)</source>
+        <translation>原生 (DLAA)</translation>
+    </message>
+    <message>
+        <source>Applies only when a game uses its own DLSS.
+M (DLSS 4.5) is Lichii&apos;s default for every quality mode. NVIDIA recommends K for DLAA/Quality/Balanced, M for Performance, and L for Ultra Performance.
+L/M cost more on RTX 20/30 GPUs; consider K. J may reduce ghosting but flicker more. E/F are deprecated CNN models. NVIDIA default lets the runtime choose.
+L/M require DLSS 310.5 or newer; the download button provides 310.9.16. If Fire Emblem shows horizontal lines with L/M at 2x, try K. NVIDIA app overrides may supersede this choice. Apply/OK updates it while playing.</source>
+        <translation>仅在游戏使用自带 DLSS 时适用。
+M（DLSS 4.5）是 Lichii 在每种质量模式下的默认值。NVIDIA 推荐 DLAA/质量/均衡用 K，性能用 M，超高性能用 L。
+在 RTX 20/30 显卡上 L/M 开销更大，可考虑 K。J 可能减少拖影但闪烁更多。E/F 是已弃用的 CNN 模型。“NVIDIA 默认”交由运行时决定。
+L/M 需要 DLSS 310.5 或更新版本；下载按钮提供 310.9.16。若《火焰纹章》在 2 倍下用 L/M 出现横线，试试 K。NVIDIA app 的覆盖设置可能优于此选择。游戏中点击“应用/确定”即时生效。</translation>
+    </message>
+    <message>
+        <source>NVIDIA DLSS quality:</source>
+        <translation>NVIDIA DLSS 质量：</translation>
+    </message>
+    <message>
+        <source>E (legacy CNN)</source>
+        <translation>E（旧版 CNN）</translation>
+    </message>
+    <message>
+        <source>Flow Scale</source>
+        <translation>光流缩放</translation>
+    </message>
+    <message>
+        <source>Uses AMD&apos;s ML-based FSR 4 where FSR replaces a game&apos;s upscaler (Ocarina of Time with the setting above). Radeon RX 6000 or newer, or a Ryzen AI processor, with a current AMD driver.
+Needs AMD&apos;s FidelityFX runtime, which Lichii downloads from AMD when you ask. The files are AMD&apos;s, under AMD&apos;s licence. Without them, or if FSR 4 can&apos;t run, FSR 3.1 is used. Takes effect when a game starts.</source>
+        <translation>在 FSR 替代游戏超分器的地方（配合上面的设置用于《时之笛》）使用 AMD 基于机器学习的 FSR 4。需要 Radeon RX 6000 或更新型号，或 Ryzen AI 处理器，以及较新的 AMD 驱动。
+需要 AMD 的 FidelityFX 运行时，Lichii 会在你确认后从 AMD 下载。文件属于 AMD，遵循 AMD 的许可。如果没有这些文件，或 FSR 4 无法运行，则使用 FSR 3.1。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>J (DLSS 4)</source>
+        <translation>J（DLSS 4）</translation>
+    </message>
+    <message>
+        <source>Forces the game to use its native 30 FPS mode at normal game speed. Takes effect after restarting the game.</source>
+        <translation>强制游戏以原生 30 FPS 模式运行并保持正常游戏速度。重启游戏后生效。</translation>
+    </message>
+    <message>
+        <source>Used by the Bounded mode: the most time per frame that Switch 2 draws may wait in total for pipelines that are still building. Once spent, the remaining unbuilt draws of that frame are skipped.</source>
+        <translation>供“有界等待”模式使用：每帧中 Switch 2 绘制为仍在构建的管线等待的总时间上限。用完后，该帧剩余未构建的绘制会被跳过。</translation>
+    </message>
+    <message>
+        <source>No sharpening</source>
+        <translation>无锐化</translation>
+    </message>
+    <message>
+        <source>Precache shaders before game start:</source>
+        <translation>游戏启动前预编译着色器：</translation>
+    </message>
+    <message>
+        <source>K (DLSS 4)</source>
+        <translation>K（DLSS 4）</translation>
+    </message>
+    <message>
+        <source>Pins the emulator&apos;s GPU threads to dedicated physical CPU cores and keeps the emulated CPU cores off them.
+Can hurt performance on CPUs with few cores. Skipped on CPUs with fewer than 6 physical performance cores.
+Windows and Linux only. Takes effect when a game starts.</source>
+        <translation>把模拟器的 GPU 线程固定到专用的物理 CPU 核心，并让模拟的 CPU 核心避开这些核。
+在核心较少的 CPU 上可能影响性能。物理性能核少于 6 个的 CPU 会跳过此设置。
+仅限 Windows 和 Linux。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>The Legend of Zelda: Ocarina of Time only.
+Game: the game&apos;s own anti-aliasing network, which sharpens heavily.
+No sharpening: the image as the game renders it, without the network (faster; pairs well with a higher resolution). Has no effect while NVIDIA DLSS is on.
+Takes effect when the game starts.</source>
+        <translation>仅适用于《塞尔达传说：时之笛》。
+游戏：使用游戏自带的抗锯齿网络，会带来较强的锐化。
+无锐化：按游戏渲染的原样输出图像，不使用该网络（更快，适合搭配更高分辨率）。在 NVIDIA DLSS 开启时无效。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>How much of a Switch 2 compute shader&apos;s storage buffer is treated as written by the GPU after each dispatch.
+Auto marks what the shader&apos;s stores can reach and falls back to Full when that cannot be proven.
+Full marks the whole binding (up to 8 MiB), the original behaviour: it can delay the game&apos;s own writes to nearby memory (flickering effects) and copy far more data back from the GPU.</source>
+        <translation>每次 dispatch 后，Switch 2 计算着色器的存储缓冲区有多少被视为已被 GPU 写入。
+自动：按着色器存储能触及的范围标记，无法证明时退回“完整绑定”。
+完整绑定：标记整个绑定（最多 8 MiB），这是原来的行为：它可能推迟游戏对邻近内存的写入（导致效果闪烁），并从 GPU 拷回更多数据。</translation>
+    </message>
+    <message>
+        <source>Use AMD FSR 3.1 upscaling in Ocarina of Time</source>
+        <translation>在《时之笛》中使用 AMD FSR 3.1 超分</translation>
+    </message>
+    <message>
+        <source>Dump Optical Flow</source>
+        <translation>导出光流</translation>
+    </message>
+    <message>
+        <source>Builds shaders on the loading screen, on every CPU thread, so they don&apos;t stutter the first time the game uses them: the compute shaders found in the game files, and the shaders saved by earlier play sessions that the normal shader loading leaves for later. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+Ask asks at launch while the game has never been precached.</source>
+        <translation>在加载画面用所有 CPU 线程构建着色器，避免游戏第一次用到它们时卡顿：包括游戏文件中的计算着色器，以及以往游戏会话保存下来、通常留到之后再加载的着色器。首次启动会读取游戏文件，需要几分钟；之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面提供“跳过”按钮。
+“询问”会在游戏从未预编译过时于启动时询问。</translation>
+    </message>
+    <message>
+        <source>Skip</source>
+        <translation>跳过</translation>
+    </message>
+    <message>
+        <source>Optical Flow Interpolation (built-in)</source>
+        <translation>光流插帧（内置）</translation>
+    </message>
+    <message>
+        <source>NVIDIA DLSS model preset:</source>
+        <translation>NVIDIA DLSS 模型预设：</translation>
+    </message>
+    <message>
+        <source>Frame Generation Type</source>
+        <translation>帧生成类型</translation>
+    </message>
+    <message>
+        <source>Lossless Scaling (LSFG)</source>
+        <translation>无损缩放 (LSFG)</translation>
+    </message>
+    <message>
+        <source>Auto (shader extent)</source>
+        <translation>自动（按着色器范围）</translation>
+    </message>
+    <message>
+        <source>AMD FidelityFX Super Resolution 1 (FSR 1)</source>
+        <translation>AMD FidelityFX 超级分辨率 1 (FSR 1)</translation>
+    </message>
+    <message>
+        <source>F (legacy CNN)</source>
+        <translation>F（旧版 CNN）</translation>
     </message>
     <message>
         <source>Builds every shader saved by earlier play sessions on the loading screen and keeps them built, so places you visited long ago don&apos;t stutter. Without it, only the shaders of recent sessions are built there and the rest in the background or when the game first needs them.
@@ -2631,28 +2479,180 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 加载时间更长、占用更多内存，约每个着色器 0.3 MB，最多可占内存的四分之一。游戏启动时生效。</translation>
     </message>
     <message>
+        <source>Only applies when asynchronous shader building is on. Decides what a Switch 2 draw does when its graphics pipeline is still building.
+Wait stalls the GPU until the pipeline is ready (no missing effects, but long stalls on new content). Skip drops the draw, which can leave an effect missing for a few frames. Bounded waits up to the time below per frame, then skips. The EDEN_NX2_ASYNC_DISCARD=1 environment variable still forces Skip.</source>
+        <translation>仅在异步着色器构建开启时适用。决定某个 Switch 2 绘制在图形管线仍在构建时如何处理。
+等待：让 GPU 等到管线就绪（不会缺少效果，但遇到新内容会长时间停顿）。跳过：丢弃该绘制，可能导致某个效果在几帧内缺失。有界等待：每帧最多等待下方设定的时间，之后跳过。环境变量 EDEN_NX2_ASYNC_DISCARD=1 仍会强制使用“跳过”。</translation>
+    </message>
+    <message>
+        <source>Automatic (game resolution)</source>
+        <translation>自动（跟随游戏分辨率）</translation>
+    </message>
+    <message>
+        <source>Peak luminance in nits reported to the game, which tone maps to it. 0 (default): the monitor&apos;s peak from its EDID as Windows reports it; elsewhere 300 nits, the Switch 2 HDR calibration&apos;s starting value.
+Also the HDR10 metadata peak, and what an HDR image rolls off to on an SDR screen.</source>
+        <translation>向游戏报告的峰值亮度（单位 nits），游戏会据此做色调映射。0（默认）：使用 Windows 报告的显示器 EDID 峰值；其他平台为 300 nits，即 Switch 2 HDR 校准的起始值。
+它同时也是 HDR10 元数据中的峰值，以及在 SDR 屏幕上 HDR 图像的滚降点。</translation>
+    </message>
+    <message>
+        <source>Build all cached shaders before game start</source>
+        <translation>游戏启动前构建全部已缓存着色器</translation>
+    </message>
+    <message>
+        <source>RCAS Sharpness:</source>
+        <translation>RCAS 锐化度：</translation>
+    </message>
+    <message>
+        <source>Runs a Switch 2 game&apos;s own DLSS (its upscaling network, translated for this GPU) instead of AMD FSR 3.1 in its place.
+AMD FSR 3.1 still draws while the network is checked, when it can&apos;t run on this GPU, with resolution scaling, and for the rest of the session if its output fails Lichii&apos;s checks.
+Takes effect when a game starts.</source>
+        <translation>运行 Switch 2 游戏自带的 DLSS（它自己的超分网络，已针对本 GPU 转译），而不是用 AMD FSR 3.1 替代。
+在检查网络期间、网络无法在本 GPU 上运行时、使用分辨率缩放时，以及网络输出未通过 Lichii 校验的剩余会话时间内，仍由 AMD FSR 3.1 负责绘制。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>HDR Peak Luminance</source>
+        <translation>HDR 峰值亮度</translation>
+    </message>
+    <message>
         <source>Use global (%1)</source>
         <translation>使用全局（%1）</translation>
+    </message>
+    <message>
+        <source>Applies only when a game uses its own DLSS.
+Automatic selects a mode for the game&apos;s render/output sizes. Native (DLAA) applies anti-aliasing at the game&apos;s render resolution, then scales to its output; Ocarina&apos;s 1440p mode stays at 1440p instead of reconstructing to 4K.
+Explicit modes only apply when the game&apos;s render size is within NVIDIA&apos;s supported range; otherwise Automatic is used and the fallback is logged. This does not change the game&apos;s render resolution. Apply/OK updates it while playing.</source>
+        <translation>仅在游戏使用自带 DLSS 时适用。
+自动：根据游戏的渲染/输出尺寸选择模式。原生（DLAA）：在游戏的渲染分辨率上做抗锯齿，再缩放到输出；时之笛的 1440p 模式保持 1440p，而不会重建到 4K。
+指定模式只在游戏的渲染尺寸处于 NVIDIA 支持范围时生效，否则会退回自动，并在日志里记录。此设置不改变游戏的渲染分辨率。游戏中点击“应用/确定”即时生效。</translation>
+    </message>
+    <message>
+        <source>Rate of the Switch 2 VSync event that games start their frames on (default 60 Hz).
+Above 60 Hz most games run too fast; use it with a game patch that follows real time, such as &quot;FPS Unlock (built-in)&quot; for Ocarina of Time.
+Takes effect when a game starts.</source>
+        <translation>游戏开始每帧的 Switch 2 VSync 事件频率（默认 60 Hz）。
+高于 60 Hz 时多数游戏会跑得过快；请配合能跟随真实时间的游戏补丁使用，例如《时之笛》的“FPS 解锁（内置）”。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Quality</source>
+        <translation>质量</translation>
+    </message>
+    <message>
+        <source>Mario Kart World: 30 FPS mode</source>
+        <translation>马力欧卡丁车世界：30 FPS 模式</translation>
+    </message>
+    <message>
+        <source>HDR10 (10-bit)</source>
+        <translation>HDR10（10 位）</translation>
+    </message>
+    <message>
+        <source>Frame Generation Multiplier</source>
+        <translation>帧生成倍率</translation>
+    </message>
+    <message>
+        <source>Use NVIDIA DLSS in place of a game&apos;s DLSS (experimental)</source>
+        <translation>用 NVIDIA DLSS 替代游戏自带的 DLSS（实验性）</translation>
+    </message>
+    <message>
+        <source>HDR format:</source>
+        <translation>HDR 格式：</translation>
+    </message>
+    <message>
+        <source>Strength of RCAS (AMD&apos;s contrast-adaptive sharpening) on the upscaler used in place of a game&apos;s DLSS (AMD FSR 3.1); 0% turns it off.
+Also sets the sharpening of the AMD FSR 1 and SGSR window adapting filters.</source>
+        <translation>替代游戏 DLSS 的超分器（AMD FSR 3.1）所用的 RCAS（AMD 对比度自适应锐化）强度；0% 表示关闭。
+同时决定 AMD FSR 1 与 SGSR 窗口自适应滤镜的锐化程度。</translation>
+    </message>
+    <message>
+        <source>Paused while HDR output is active.</source>
+        <translation>HDR 输出生效期间暂停。</translation>
+    </message>
+    <message>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
+Currently requires Fire Emblem: Fortune&apos;s Weave and EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（如果 NVIDIA app 尚未下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
+目前需要《Fire Emblem: Fortune&apos;s Weave》并设置 EDEN_NX2_DLSS_REPLACEMENT=dlss。没有该覆盖设置时，仍使用其空间超分替代方案。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Full binding</source>
+        <translation>完整绑定</translation>
+    </message>
+    <message>
+        <source>Pipeline wait per frame (ms):</source>
+        <translation>每帧管线等待时间（毫秒）：</translation>
+    </message>
+    <message>
+        <source>Enable Frame Generation</source>
+        <translation>启用帧生成</translation>
+    </message>
+    <message>
+        <source>Use the game&apos;s own DLSS</source>
+        <translation>使用游戏自带的 DLSS</translation>
+    </message>
+    <message>
+        <source>L (DLSS 4.5)</source>
+        <translation>L（DLSS 4.5）</translation>
+    </message>
+    <message>
+        <source>Ocarina of Time anti-aliasing:</source>
+        <translation>《时之笛》抗锯齿：</translation>
+    </message>
+    <message>
+        <source>NVIDIA default</source>
+        <translation>NVIDIA 默认</translation>
+    </message>
+    <message>
+        <source>Native compute write mark:</source>
+        <translation>原生计算写入标记：</translation>
+    </message>
+    <message>
+        <source>Performance</source>
+        <translation>性能</translation>
+    </message>
+    <message>
+        <source>Pin GPU threads to their own cores (experimental)</source>
+        <translation>把 GPU 线程绑定到独立核心（实验性）</translation>
+    </message>
+    <message>
+        <source>Bounded wait</source>
+        <translation>有界等待</translation>
     </message>
     <message>
         <source>Use the global value</source>
         <translation>使用全局值</translation>
     </message>
+    <message>
+        <source>FPS Limit</source>
+        <translation>帧率上限</translation>
+    </message>
+    <message>
+        <source>Bilinear while HDR output is active.</source>
+        <translation>HDR 输出生效期间使用双线性。</translation>
+    </message>
+    <message>
+        <source>Ask</source>
+        <translation>询问</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_applets.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_applets.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_applets.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_applets.ui" line="17"/>
         <source>Applets</source>
         <translation>小程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_applets.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_applets.ui" line="25"/>
         <source>Applet mode preference</source>
         <translation>小程序模式首选项</translation>
     </message>
@@ -2660,8 +2660,8 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 <context>
     <name>ConfigureAudio</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_audio.ui" line="14"/>
-        <location filename="../../src/yuzu/configuration/configure_audio.ui" line="20"/>
+        <location filename="../../src/lichii/configuration/configure_audio.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_audio.ui" line="20"/>
         <source>Audio</source>
         <translation>声音</translation>
     </message>
@@ -2669,47 +2669,47 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 <context>
     <name>ConfigureCamera</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_camera.ui" line="14"/>
         <source>Configure Infrared Camera</source>
         <translation>配置红外摄像头</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.ui" line="26"/>
+        <location filename="../../src/lichii/configuration/configure_camera.ui" line="26"/>
         <source>Select where the image of the emulated camera comes from. It may be a virtual camera or a real camera.</source>
         <translation>选择模拟摄像头的图像来源。它可以是虚拟摄像头或一个真实的摄像头。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.ui" line="52"/>
+        <location filename="../../src/lichii/configuration/configure_camera.ui" line="52"/>
         <source>Camera Image Source:</source>
         <translation>摄像头图像来源：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.ui" line="71"/>
+        <location filename="../../src/lichii/configuration/configure_camera.ui" line="71"/>
         <source>Input device:</source>
         <translation>输入设备：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.ui" line="96"/>
+        <location filename="../../src/lichii/configuration/configure_camera.ui" line="96"/>
         <source>Preview</source>
         <translation>预览</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.ui" line="108"/>
+        <location filename="../../src/lichii/configuration/configure_camera.ui" line="108"/>
         <source>Resolution: 320*240</source>
         <translation>分辨率: 320*240</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.ui" line="115"/>
+        <location filename="../../src/lichii/configuration/configure_camera.ui" line="115"/>
         <source>Click to preview</source>
         <translation>点击进行预览</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.ui" line="140"/>
+        <location filename="../../src/lichii/configuration/configure_camera.ui" line="140"/>
         <source>Restore Defaults</source>
         <translation>恢复默认</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.cpp" line="135"/>
+        <location filename="../../src/lichii/configuration/configure_camera.cpp" line="135"/>
         <source>Auto</source>
         <translation>自动</translation>
     </message>
@@ -2717,37 +2717,37 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 <context>
     <name>ConfigureCpu</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_cpu.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_cpu.ui" line="17"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu.ui" line="28"/>
+        <location filename="../../src/lichii/configuration/configure_cpu.ui" line="28"/>
         <source>General</source>
         <translation>通用</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu.ui" line="52"/>
+        <location filename="../../src/lichii/configuration/configure_cpu.ui" line="52"/>
         <source>We recommend setting accuracy to &quot;Auto&quot;.</source>
         <translation>我们建议将精度设置为“自动”。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu.ui" line="68"/>
+        <location filename="../../src/lichii/configuration/configure_cpu.ui" line="68"/>
         <source>CPU Backend</source>
         <translation>CPU 后端</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu.ui" line="95"/>
+        <location filename="../../src/lichii/configuration/configure_cpu.ui" line="95"/>
         <source>Unsafe CPU Optimization Settings</source>
         <translation>低精度 CPU 优化选项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu.ui" line="101"/>
+        <location filename="../../src/lichii/configuration/configure_cpu.ui" line="101"/>
         <source>These settings reduce accuracy for speed.</source>
         <translation>这些设置项提高了运行速度，但精度有所降低。</translation>
     </message>
@@ -2755,27 +2755,27 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 <context>
     <name>ConfigureCpuDebug</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="17"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="25"/>
         <source>Toggle CPU Optimizations</source>
         <translation>更改 CPU 优化</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="31"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="31"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;For debugging only.&lt;/span&gt;&lt;br/&gt;If you&apos;re not sure what these do, keep all of these enabled. &lt;br/&gt;These settings, when disabled, only take effect when CPU Debugging is enabled. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;仅供调试。&lt;/span&gt;&lt;br/&gt;如果您不确定这些选项的功能，请保持它们的启用状态。&lt;br/&gt;这些选项仅在启用 CPU 调试模式时生效。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="41"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="41"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up memory accesses by the guest program.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it inlines accesses to PageTable::pointers into emitted code.&lt;/div&gt;
@@ -2788,12 +2788,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="48"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="48"/>
         <source>Enable inline page tables</source>
         <translation>启用内嵌页表</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="55"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="55"/>
         <source>
             &lt;div&gt;This optimization avoids dispatcher lookups by allowing emitted basic blocks to jump directly to other basic blocks if the destination PC is static.&lt;/div&gt;
            </source>
@@ -2802,12 +2802,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="60"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="60"/>
         <source>Enable block linking</source>
         <translation>启用块链接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="67"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="67"/>
         <source>
             &lt;div&gt;This optimization avoids dispatcher lookups by keeping track potential return addresses of BL instructions. This approximates what happens with a return stack buffer on a real CPU.&lt;/div&gt;
            </source>
@@ -2816,12 +2816,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="72"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="72"/>
         <source>Enable return stack buffer</source>
         <translation>启用返回堆栈缓冲区</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="79"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="79"/>
         <source>
             &lt;div&gt;Enable a two-tiered dispatch system. A faster dispatcher written in assembly has a small MRU cache of jump destinations is used first. If that fails, dispatch falls back to the slower C++ dispatcher.&lt;/div&gt;
            </source>
@@ -2830,12 +2830,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="84"/>
         <source>Enable fast dispatcher</source>
         <translation>启用快速调度</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="91"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="91"/>
         <source>
             &lt;div&gt;Enables an IR optimization that reduces unnecessary accesses to the CPU context structure.&lt;/div&gt;
            </source>
@@ -2844,12 +2844,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="96"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="96"/>
         <source>Enable context elimination</source>
         <translation>启用上下文消除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="103"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="103"/>
         <source>
             &lt;div&gt;Enables IR optimizations that involve constant propagation.&lt;/div&gt;
            </source>
@@ -2858,12 +2858,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="108"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="108"/>
         <source>Enable constant propagation</source>
         <translation>启用恒定传播</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="115"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="115"/>
         <source>
             &lt;div&gt;Enables miscellaneous IR optimizations.&lt;/div&gt;
            </source>
@@ -2872,12 +2872,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="120"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="120"/>
         <source>Enable miscellaneous optimizations</source>
         <translation>启用其他优化</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="127"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="127"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;When enabled, a misalignment is only triggered when an access crosses a page boundary.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;When disabled, a misalignment is triggered on all misaligned accesses.&lt;/div&gt;
@@ -2888,12 +2888,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="133"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="133"/>
         <source>Enable misalignment check reduction</source>
         <translation>减少偏差检查</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="140"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="140"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up memory accesses by the guest program.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest memory reads/writes to be done directly into memory and make use of Host's MMU.&lt;/div&gt;
@@ -2906,12 +2906,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="147"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="147"/>
         <source>Enable Host MMU Emulation (general memory instructions)</source>
         <translation>启用主机 MMU 仿真 (通用内存指令)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="154"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="154"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up exclusive memory accesses by the guest program.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest exclusive memory reads/writes to be done directly into memory and make use of Host's MMU.&lt;/div&gt;
@@ -2924,12 +2924,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="161"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="161"/>
         <source>Enable Host MMU Emulation (exclusive memory instructions)</source>
         <translation>启用主机 MMU 仿真 (独占内存指令)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="168"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="168"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up exclusive memory accesses by the guest program.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it reduces the overhead of fastmem failure of exclusive memory accesses.&lt;/div&gt;
@@ -2940,12 +2940,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="174"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="174"/>
         <source>Enable recompilation of exclusive memory instructions</source>
         <translation>启用独占内存指令的重新编译</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="181"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="181"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up memory accesses by allowing invalid memory accesses to succeed.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it reduces the overhead of all memory accesses and has no impact on programs that don't access invalid memory.&lt;/div&gt;
@@ -2956,12 +2956,12 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
            </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="187"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="187"/>
         <source>Enable fallbacks for invalid memory accesses</source>
         <translation>启用无效内存的访问回退</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="212"/>
+        <location filename="../../src/lichii/configuration/configure_cpu_debug.ui" line="212"/>
         <source>CPU settings are available only when game is not running.</source>
         <translation>只有当游戏不在运行时，CPU 设置才可用。</translation>
     </message>
@@ -2969,324 +2969,334 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 <context>
     <name>ConfigureDebug</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="40"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="40"/>
         <source>Debugger</source>
         <translation>调试器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="85"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="85"/>
         <source>Enable GDB Stub</source>
         <translation>开启 GDB 调试</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="119"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="119"/>
         <source>Port:</source>
         <translation>端口：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="157"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="157"/>
         <source>Logging</source>
         <translation>日志</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="190"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="190"/>
         <source>Global Log Filter</source>
         <translation>全局日志过滤器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="224"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="224"/>
         <source>GPU Logging/Level</source>
         <translation>GPU 日志/级别</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="231"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="231"/>
         <source>Detail level for GPU logs. Off disables logging entirely.</source>
         <translation>GPU 日志的详细级别。关闭会完全禁用日志记录。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="235"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="235"/>
         <source>Off</source>
         <translation>关</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="240"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="240"/>
         <source>Errors</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="245"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="245"/>
         <source>Standard</source>
         <translation>标准</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="250"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="250"/>
         <source>Verbose</source>
         <translation>详细</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="255"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="255"/>
         <source>All</source>
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="266"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="266"/>
         <source>Show Log in Console</source>
         <translation>显示日志窗口</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="276"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="276"/>
         <source>When checked, the max size of the log increases from 100 MB to 1 GB</source>
         <translation>选中此项后，日志文件的最大大小从 100MB 增加到 1GB</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="279"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="279"/>
         <source>Enable Extended Logging**</source>
         <translation>启用扩展的日志记录**</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="298"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="298"/>
         <source>Open Log Location</source>
         <translation>打开日志位置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="310"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="310"/>
         <source>Homebrew</source>
         <translation>自制游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="318"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="318"/>
         <source>Arguments String</source>
         <translation>参数字符串</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="335"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="335"/>
         <source>Graphics</source>
         <translation>图形</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="341"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="341"/>
         <source>When checked, it executes shaders without loop logic changes</source>
         <translation>启用后，yuzu 在执行着色器时，不会修改循环结构的条件判断</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="344"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="344"/>
         <source>Disable Loop safety checks</source>
         <translation>禁用循环体安全检查</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="354"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="354"/>
         <source>When checked, it will dump all the macro programs of the GPU</source>
         <translation>选中后，将转储 GPU 的所有宏程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="357"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="357"/>
         <source>Dump Maxwell Macros</source>
         <translation>转储 Maxwell 宏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="364"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="364"/>
         <source>When checked, it enables Nsight Aftermath crash dumps</source>
         <translation>启用后，yuzu 将会保存 Nsight Aftermath 格式的崩溃转储文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="367"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="367"/>
         <source>Enable Nsight Aftermath</source>
         <translation>启用 Nsight Aftermath</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="377"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="377"/>
         <source>When checked, it will dump original Maxwell guest shader bytecode (the input to the recompiler) as .ash files under DumpDir/shaders/. Useful for inspection with nvdisasm.</source>
         <translation>选中后,它会将原始的 Maxwell 客户端着色器字节码 (重编译器的输入) 以 .ash 文件形式转储到 DumpDir/shaders/ 下。对于使用 nvdisasm 检查很有用。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="380"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="380"/>
         <source>Dump Guest (Maxwell) Shaders</source>
         <translation>转储客户 (Maxwell) 的着色器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="387"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="387"/>
         <source>Enable Renderdoc Hotkey</source>
         <translation>启用 Renderdoc 热键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="397"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="397"/>
         <source>When checked, it disables the macro Just In Time compiler. Enabling this makes games run slower</source>
         <translation>启用时，将禁用宏即时编译器。这会降低游戏运行速度。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="400"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="400"/>
         <source>Disable Macro JIT</source>
         <translation>禁用宏即时编译</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="410"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="410"/>
         <source>When checked, it disables the macro HLE functions. Enabling this makes games run slower</source>
         <translation>启用时，将禁用宏高阶模拟。这会降低游戏运行速度。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="413"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="413"/>
         <source>Disable Macro HLE</source>
         <translation>禁用宏高阶模拟</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="423"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="423"/>
         <source>When checked, the graphics API enters a slower debugging mode</source>
         <translation>启用时，图形 API 将进入较慢的调试模式。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="426"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="426"/>
         <source>Enable Graphics Debugging</source>
         <translation>启用图形调试</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="449"/>
-        <source>When checked, yuzu will log statistics about the compiled pipeline cache</source>
-        <translation>选中时，yuzu 将记录有关已编译着色器缓存的统计信息。</translation>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="449"/>
+        <source>When checked, Lichii will log statistics about the compiled pipeline cache</source>
+        <translation>选中时，Lichii 将记录有关已编译着色器缓存的统计信息。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="452"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="452"/>
         <source>Enable Shader Feedback</source>
         <translation>启用着色器反馈</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="459"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="459"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When checked, disables reordering of mapped memory uploads which allows to associate uploads with specific draws. May reduce performance in some cases.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;选中时，禁用映射内存上载的重新排序，从而允许将上载与特定绘图关联起来。某些情况下可能会降低性能。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="462"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="462"/>
         <source>Disable Buffer Reorder</source>
         <translation>禁用缓存重排序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="469"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="469"/>
         <source>When checked, it will dump the recompiler&apos;s output SPIR-V binaries (.spv) under LogDir/shaders/. Inspect via SPIRV-Tools (spirv-dis / spirv-cross / spirv-val) or RenderDoc.</source>
         <translation>选中后,它会把重编译器生成的 SPIR-V 二进制文件 (.spv) 放到 LogDir/shaders/ 下。可以用 SPIRV-Tools（spirv-dis / spirv-cross / spirv-val）或者 RenderDoc 查看。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="472"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="472"/>
         <source>Dump SPIR-V Shaders</source>
         <translation>转储 SPIR-V 着色器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="482"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="482"/>
         <source>Advanced</source>
         <translation>高级选项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="488"/>
-        <source>Enables yuzu to check for a working Vulkan environment when the program starts up. Disable this if this is causing issues with external programs seeing yuzu.</source>
-        <translation>允许 yuzu 在启动时检查 Vulkan 环境是否正常工作。如果是其他程序导致 yuzu 出现相关问题，请禁用此选项。</translation>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="488"/>
+        <source>Enables Lichii to check for a working Vulkan environment when the program starts up. Disable this if this is causing issues with external programs seeing Lichii.</source>
+        <translation>允许 Lichii 在启动时检查 Vulkan 环境是否正常工作。如果是其他程序导致 Lichii 出现相关问题，请禁用此选项。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="491"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="491"/>
         <source>Perform Startup Vulkan Check</source>
         <translation>启动时进行 Vulkan 检测</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="498"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="498"/>
         <source>Disable Web Applet</source>
         <translation>禁用 Web 小程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="505"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="505"/>
         <source>Enable All Controller Types</source>
         <translation>启用其他类型的控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="512"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="512"/>
         <source>Enable Auto-Stub</source>
         <translation>开启自动存根</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="519"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="519"/>
         <source>Kiosk (Quest) Mode</source>
         <translation>Kiosk (Quest) 模式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="526"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="526"/>
         <source>Use dev.keys</source>
         <translation>使用 dev.keys</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="533"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="533"/>
         <source>Enable Debug Asserts</source>
         <translation>启用调试断言</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="559"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="559"/>
         <source>Debugging</source>
         <translation>调试选项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="592"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="592"/>
         <source>Battery Serial:</source>
         <translation>电池序列号:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="632"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="632"/>
         <source>Debug Knobs:</source>
         <translation>调试参数:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="645"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="645"/>
         <source>Bitmask for quick development toggles</source>
         <translation>用于快速开发切换的位掩码</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="648"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="648"/>
         <source>Set debug knobs (bitmask)</source>
         <translation>设置调试开关 (位掩码)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="651"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="651"/>
         <source>16-bit debug knob set for quick development toggles</source>
         <translation>用于快速开发切换的 16 位调试开关组</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="654"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="654"/>
         <source> (bitmask)</source>
         <translation>(位掩码)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="691"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="691"/>
         <source>Unit Serial:</source>
         <translation>单元序列号:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="720"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="720"/>
         <source>Enable this to output the latest generated audio command list to the console. Only affects games using the audio renderer.</source>
         <translation>启用此选项会将最新的音频命令列表输出到控制台。只影响使用音频渲染器的游戏。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="723"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="723"/>
         <source>Dump Audio Commands To Console**</source>
         <translation>将音频命令转储至控制台**</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="730"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="730"/>
         <source>Flush log output on each line</source>
         <translation>每行刷新日志输出</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="737"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="737"/>
         <source>Enable FS Access Log</source>
         <translation>启用文件系统访问记录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="744"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="744"/>
         <source>Enable Verbose Reporting Services**</source>
         <translation>启用详细报告服务**</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="751"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="751"/>
         <source>Censor username in logs</source>
         <translation>审查日志中的用户名</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="787"/>
+        <location filename="../../src/lichii/configuration/configure_debug.ui" line="787"/>
         <source>**This will be reset automatically when Eden closes.</source>
         <translation>**这会在 Eden 关闭时自动重置。</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="488"/>
+        <source>Enables yuzu to check for a working Vulkan environment when the program starts up. Disable this if this is causing issues with external programs seeing yuzu.</source>
+        <translation type="vanished">允许 yuzu 在启动时检查 Vulkan 环境是否正常工作。如果是其他程序导致 yuzu 出现相关问题，请禁用此选项。</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="449"/>
+        <source>When checked, yuzu will log statistics about the compiled pipeline cache</source>
+        <translation type="vanished">选中时，yuzu 将记录有关已编译着色器缓存的统计信息。</translation>
     </message>
     <message>
         <source>**This will be reset automatically when Lichii closes.</source>
@@ -3296,17 +3306,17 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 <context>
     <name>ConfigureDebugController</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug_controller.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_debug_controller.ui" line="14"/>
         <source>Configure Debug Controller</source>
         <translation>控制器调试设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug_controller.ui" line="40"/>
+        <location filename="../../src/lichii/configuration/configure_debug_controller.ui" line="40"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug_controller.ui" line="47"/>
+        <location filename="../../src/lichii/configuration/configure_debug_controller.ui" line="47"/>
         <source>Defaults</source>
         <translation>系统默认</translation>
     </message>
@@ -3314,18 +3324,18 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 <context>
     <name>ConfigureDebugTab</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug_tab.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_debug_tab.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug_tab.ui" line="17"/>
-        <location filename="../../src/yuzu/configuration/configure_debug_tab.cpp" line="16"/>
+        <location filename="../../src/lichii/configuration/configure_debug_tab.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_debug_tab.cpp" line="16"/>
         <source>Debug</source>
         <translation>调试</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug_tab.cpp" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_debug_tab.cpp" line="17"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -3333,98 +3343,98 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 <context>
     <name>ConfigureDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure.ui" line="20"/>
+        <location filename="../../src/lichii/configuration/configure.ui" line="20"/>
         <source>Eden Configuration</source>
         <translation>Eden 设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure.ui" line="67"/>
+        <location filename="../../src/lichii/configuration/configure.ui" line="67"/>
         <source>Some settings are only available when a game is not running.</source>
         <translation>只有当游戏不在运行时，某些设置项才可用。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="69"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="69"/>
         <source>Applets</source>
         <translation>小程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="70"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="183"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="70"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="183"/>
         <source>Audio</source>
         <translation>声音</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="71"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="180"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="71"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="180"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="72"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="72"/>
         <source>Debug</source>
         <translation>调试</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="73"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="73"/>
         <source>Filesystem</source>
         <translation>文件系统</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="74"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="175"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="74"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="175"/>
         <source>General</source>
         <translation>通用</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="75"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="181"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="75"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="181"/>
         <source>Graphics</source>
         <translation>图形</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="76"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="76"/>
         <source>GraphicsAdvanced</source>
         <translation>高级图形选项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="77"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="77"/>
         <source>GraphicsExtra</source>
         <translation>图形增强</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="78"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="78"/>
         <source>Hotkeys</source>
         <translation>热键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="79"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="184"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="79"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="184"/>
         <source>Controls</source>
         <translation>控制</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="80"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="80"/>
         <source>Profiles</source>
         <translation>用户配置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="81"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="81"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="82"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="177"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="82"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="177"/>
         <source>System</source>
         <translation>系统</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="83"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="83"/>
         <source>Game List</source>
         <translation>游戏列表</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_dialog.cpp" line="84"/>
         <source>Web</source>
         <translation>网络</translation>
     </message>
@@ -3436,158 +3446,158 @@ Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quar
 <context>
     <name>ConfigureFilesystem</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="17"/>
         <source>Filesystem</source>
         <translation>文件系统</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="25"/>
         <source>Storage Directories</source>
         <translation>存储目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="31"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="31"/>
         <source>NAND</source>
         <translation>NAND</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="38"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="58"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="75"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="131"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="153"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="160"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="38"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="58"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="75"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="131"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="153"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="160"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="51"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="51"/>
         <source>SD Card</source>
         <translation>SD 卡</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="65"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="65"/>
         <source>Save Data</source>
         <translation>存档</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="101"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="101"/>
         <source>Gamecard</source>
         <translation>游戏卡带</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="107"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="107"/>
         <source>Path</source>
         <translation>路径</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="117"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="117"/>
         <source>Inserted</source>
         <translation>已插入</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="124"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="124"/>
         <source>Current Game</source>
         <translation>当前游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="141"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="141"/>
         <source>Patch Manager</source>
         <translation>补丁管理</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="169"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="169"/>
         <source>Dump Decompressed NSOs</source>
         <translation>转储已解压的 NSO 文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="176"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="176"/>
         <source>Dump ExeFS</source>
         <translation>转储 ExeFS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="185"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="185"/>
         <source>Mod Load Root</source>
         <translation>Mod 加载根目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="192"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="192"/>
         <source>Dump Root</source>
         <translation>转储根目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="218"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="218"/>
         <source>Caching</source>
         <translation>缓存</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="226"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="226"/>
         <source>Cache Game List Metadata</source>
         <translation>缓存游戏列表数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="233"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.ui" line="233"/>
         <source>Reset Metadata Cache</source>
         <translation>重置缓存数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="105"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="105"/>
         <source>Select Emulated NAND Directory...</source>
         <translation>选择模拟 NAND 目录...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="108"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="108"/>
         <source>Select Emulated SD Directory...</source>
         <translation>选择模拟 SD 卡目录...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="111"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="159"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="111"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="159"/>
         <source>Select Save Data Directory...</source>
         <translation>选择存档目录...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="114"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="114"/>
         <source>Select Gamecard Path...</source>
         <translation>选择游戏卡带路径...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="117"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="117"/>
         <source>Select Dump Directory...</source>
         <translation>选择转储目录...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="120"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="120"/>
         <source>Select Mod Load Directory...</source>
         <translation>选择 Mod 载入目录...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="148"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="148"/>
         <source>Save Data Directory</source>
         <translation>选择存档目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="149"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="149"/>
         <source>Choose an action for the save data directory:</source>
         <translation>为存档目录选择一个操作：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="151"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="151"/>
         <source>Set Custom Path</source>
         <translation>设置自定义路径</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="152"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="152"/>
         <source>Reset to NAND</source>
         <translation>重置 NAND</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="208"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="208"/>
         <source>Save data exists in both the old and new locations.
 
 Old: %1
@@ -3598,7 +3608,7 @@ WARNING: This will overwrite any conflicting saves in the new location!</source>
         <translation>保存存档同时在旧位置和新位置。旧: %1新: %2是否要将存档从旧位置迁移到新位置？警告：此操作将会覆盖新位置中任何冲突的存档！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="216"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="216"/>
         <source>Would you like to migrate your save data to the new location?
 
 From: %1
@@ -3606,44 +3616,44 @@ To: %2</source>
         <translation>你是否要迁移存档位置？来自: %1将到: %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="224"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="224"/>
         <source>Migrate Save Data</source>
         <translation>迁移存档</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="231"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="231"/>
         <source>Migrating save data...</source>
         <translation>迁移存档...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="231"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="231"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="239"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="252"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="239"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="252"/>
         <source>Migration Failed</source>
         <translation>迁移失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="240"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="240"/>
         <source>Failed to create destination directory.</source>
         <translation>创建目标目录失败。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="253"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="253"/>
         <source>Failed to migrate save data:
 %1</source>
         <translation>迁移存档数据失败：%1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="258"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="258"/>
         <source>Migration Complete</source>
         <translation>迁移完成</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="259"/>
+        <location filename="../../src/lichii/configuration/configure_filesystem.cpp" line="259"/>
         <source>Save data has been migrated successfully.
 
 Would you like to delete the old save data?</source>
@@ -3653,63 +3663,63 @@ Would you like to delete the old save data?</source>
 <context>
     <name>ConfigureGeneral</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_general.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.ui" line="17"/>
-        <location filename="../../src/yuzu/configuration/configure_general.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_general.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_general.ui" line="25"/>
         <source>General</source>
         <translation>通用</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.ui" line="52"/>
+        <location filename="../../src/lichii/configuration/configure_general.ui" line="52"/>
         <source>External Content</source>
         <translation>外部内容</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.ui" line="58"/>
+        <location filename="../../src/lichii/configuration/configure_general.ui" line="58"/>
         <source>Add directories to scan for DLCs and Updates without installing to NAND</source>
         <translation>添加目录以扫描 DLC 和更新，无需安装到 NAND 系统</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.ui" line="77"/>
+        <location filename="../../src/lichii/configuration/configure_general.ui" line="77"/>
         <source>Add Directory</source>
         <translation>添加目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.ui" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_general.ui" line="84"/>
         <source>Remove Selected</source>
         <translation>移除选择</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.ui" line="142"/>
+        <location filename="../../src/lichii/configuration/configure_general.ui" line="142"/>
         <source>Reset All Settings</source>
         <translation>重置所有设置项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="101"/>
+        <location filename="../../src/lichii/configuration/configure_general.cpp" line="101"/>
         <source>Eden</source>
         <translation>Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="102"/>
+        <location filename="../../src/lichii/configuration/configure_general.cpp" line="102"/>
         <source>This reset all settings and remove all per-game configurations. This will not delete game directories, profiles, or input profiles. Proceed?</source>
         <translation>将重置模拟器所有设置并删除所有游戏的单独设置。这不会删除游戏目录、个人文件及输入配置文件。是否继续？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="140"/>
+        <location filename="../../src/lichii/configuration/configure_general.cpp" line="140"/>
         <source>Select External Content Directory...</source>
         <translation>选择外部内容目录...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="153"/>
+        <location filename="../../src/lichii/configuration/configure_general.cpp" line="153"/>
         <source>Directory Already Added</source>
         <translation>目录已添加</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="154"/>
+        <location filename="../../src/lichii/configuration/configure_general.cpp" line="154"/>
         <source>This directory is already in the list.</source>
         <translation>这个目录已经在列表中了。</translation>
     </message>
@@ -3721,89 +3731,89 @@ Would you like to delete the old save data?</source>
 <context>
     <name>ConfigureGraphics</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.ui" line="17"/>
         <source>Graphics</source>
         <translation>图形</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.ui" line="25"/>
         <source>API Settings</source>
         <translation>API 设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.ui" line="58"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.ui" line="58"/>
         <source>Graphics Settings</source>
         <translation>图形设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.ui" line="103"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.ui" line="103"/>
         <source>Background Color:</source>
         <translation>背景颜色:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="234"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.cpp" line="234"/>
         <source>%</source>
         <comment>FSR/SGSR sharpening percentage (e.g. 50%)</comment>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="310"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.cpp" line="310"/>
         <source>Configure Effects...</source>
         <translation>配置效果...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="388"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.cpp" line="388"/>
         <source>Off</source>
         <translation>关闭</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="389"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.cpp" line="389"/>
         <source>VSync Off</source>
         <translation>垂直同步关</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="391"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.cpp" line="391"/>
         <source>Recommended</source>
         <translation>推荐</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="396"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.cpp" line="396"/>
         <source>On</source>
         <translation>开启</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="397"/>
+        <location filename="../../src/lichii/configuration/configure_graphics.cpp" line="397"/>
         <source>VSync On</source>
         <translation>垂直同步开</translation>
-    </message>
-    <message>
-        <source> Hz</source>
-        <translation> Hz</translation>
     </message>
     <message>
         <source>nits</source>
         <translation>nits</translation>
     </message>
+    <message>
+        <source> Hz</source>
+        <translation> Hz</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureGraphicsAdvanced</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_advanced.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_advanced.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_advanced.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_advanced.ui" line="17"/>
         <source>Advanced</source>
         <translation>高级</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_advanced.ui" line="23"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_advanced.ui" line="23"/>
         <source>Advanced Graphics Settings</source>
         <translation>高级图形选项</translation>
     </message>
@@ -3811,38 +3821,38 @@ Would you like to delete the old save data?</source>
 <context>
     <name>ConfigureGraphicsExtensions</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_extensions.ui" line="14"/>
         <source>Form</source>
         <translation>来自</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_extensions.ui" line="17"/>
         <source>Extras</source>
         <translation>额外</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="23"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_extensions.ui" line="23"/>
         <source>Hacks</source>
         <translation>Hacks</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="29"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_extensions.ui" line="29"/>
         <source>Changing these options from their default may cause issues. Novitii cavete!</source>
         <translation>更改这些选项可能会导致问题。新手小心！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="62"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_extensions.ui" line="62"/>
         <source>Vulkan Extensions</source>
         <translation>Vulkan 扩展</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.cpp" line="49"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_extensions.cpp" line="49"/>
         <source>%</source>
         <comment>Sample Shading percentage (e.g. 50%)</comment>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.cpp" line="68"/>
+        <location filename="../../src/lichii/configuration/configure_graphics_extensions.cpp" line="68"/>
         <source>Extended Dynamic State is disabled on macOS due to MoltenVK compatibility issues that cause black screens.</source>
         <translation>由于 MoltenVK 兼容性问题会导致黑屏,macOS 上已禁用扩展动态状态。</translation>
     </message>
@@ -3850,100 +3860,100 @@ Would you like to delete the old save data?</source>
 <context>
     <name>ConfigureHotkeys</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.ui" line="14"/>
         <source>Hotkey Settings</source>
         <translation>热键设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.ui" line="17"/>
         <source>Hotkeys</source>
         <translation>热键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.ui" line="25"/>
         <source>Double-click on a binding to change it.</source>
         <translation>双击已绑定的项目以改变设定。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.ui" line="45"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.ui" line="45"/>
         <source>Clear All</source>
         <translation>全部清除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.ui" line="52"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.ui" line="52"/>
         <source>Restore Defaults</source>
         <translation>恢复默认</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="115"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="115"/>
         <source>Action</source>
         <translation>作用</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="115"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="115"/>
         <source>Hotkey</source>
         <translation>热键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="115"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="115"/>
         <source>Controller Hotkey</source>
         <translation>控制器热键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="155"/>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="181"/>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="421"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="155"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="181"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="421"/>
         <source>Conflicting Key Sequence</source>
         <translation>按键冲突</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="156"/>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="182"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="156"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="182"/>
         <source>The entered key sequence is already assigned to: %1</source>
         <translation>输入的按键序列已分配给: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="194"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="194"/>
         <source>[waiting]</source>
         <translation>[请按键]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="271"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="271"/>
         <source>Invalid</source>
         <translation>无效</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="343"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="343"/>
         <source>Invalid hotkey settings</source>
         <translation>无效的热键设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="344"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="344"/>
         <source>An error occurred. Please report this issue on github.</source>
         <translation>发生错误。请在 GitHub 提交 Issue。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="384"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="384"/>
         <source>Restore Default</source>
         <translation>恢复默认</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="385"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="385"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="406"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="406"/>
         <source>Conflicting Button Sequence</source>
         <translation>键位冲突</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="407"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="407"/>
         <source>The default button sequence is already assigned to: %1</source>
         <translation>默认的按键序列已分配给: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="422"/>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="422"/>
         <source>The default key sequence is already assigned to: %1</source>
         <translation>默认的按键序列已分配给: %1</translation>
     </message>
@@ -3951,152 +3961,152 @@ Would you like to delete the old save data?</source>
 <context>
     <name>ConfigureInput</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="14"/>
         <source>ConfigureInput</source>
         <translation>输入设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="39"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="42"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="39"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="42"/>
         <source>Player 1</source>
         <translation>玩家 1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="47"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="50"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="47"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="50"/>
         <source>Player 2</source>
         <translation>玩家 2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="55"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="58"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="55"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="58"/>
         <source>Player 3</source>
         <translation>玩家 3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="63"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="66"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="63"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="66"/>
         <source>Player 4</source>
         <translation>玩家 4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="71"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="74"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="71"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="74"/>
         <source>Player 5</source>
         <translation>玩家 5</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="79"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="82"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="79"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="82"/>
         <source>Player 6</source>
         <translation>玩家 6</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="87"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="90"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="87"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="90"/>
         <source>Player 7</source>
         <translation>玩家 7</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="95"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="98"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="95"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="98"/>
         <source>Player 8</source>
         <translation>玩家 8</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="103"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="106"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="103"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="106"/>
         <source>Advanced</source>
         <translation>高级</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="138"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="138"/>
         <source>Console Mode</source>
         <translation>控制台模式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="159"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="159"/>
         <source>Docked</source>
         <translation>主机模式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="169"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="169"/>
         <source>Handheld</source>
         <translation>掌机模式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="179"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="179"/>
         <source>Vibration</source>
         <translation>震动</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="215"/>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="261"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="215"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="261"/>
         <source>Configure</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="225"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="225"/>
         <source>Motion</source>
         <translation>体感</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="296"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="296"/>
         <source>Controllers</source>
         <translation>控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="324"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="324"/>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="365"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="365"/>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="375"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="375"/>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="385"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="385"/>
         <source>4</source>
         <translation>4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="395"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="395"/>
         <source>5</source>
         <translation>5</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="405"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="405"/>
         <source>6</source>
         <translation>6</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="415"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="415"/>
         <source>7</source>
         <translation>7</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="425"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="425"/>
         <source>8</source>
         <translation>8</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="435"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="435"/>
         <source>Connected</source>
         <translation>已连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="494"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="494"/>
         <source>Defaults</source>
         <translation>系统默认</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input.ui" line="537"/>
+        <location filename="../../src/lichii/configuration/configure_input.ui" line="537"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
@@ -4108,215 +4118,215 @@ Would you like to delete the old save data?</source>
 <context>
     <name>ConfigureInputAdvanced</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="14"/>
         <source>Configure Input</source>
         <translation>输入设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="74"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="74"/>
         <source>Joycon Colors</source>
         <translation>Joycon 颜色</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="125"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="125"/>
         <source>Player 1</source>
         <translation>玩家 1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="164"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="450"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="754"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1040"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1365"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1651"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1955"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2241"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="164"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="450"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="754"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1040"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1365"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1651"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1955"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2241"/>
         <source>L Body</source>
         <translation>左侧主体</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="219"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="505"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="809"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1095"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1420"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1706"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2010"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2296"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="219"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="505"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="809"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1095"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1420"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1706"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2010"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2296"/>
         <source>L Button</source>
         <translation>左侧按键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="295"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="581"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="885"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1171"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1496"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1782"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2086"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2372"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="295"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="581"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="885"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1171"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1496"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1782"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2086"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2372"/>
         <source>R Body</source>
         <translation>右侧主体</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="350"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="636"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="940"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1226"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1551"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1837"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2141"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2427"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="350"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="636"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="940"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1226"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1551"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1837"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2141"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2427"/>
         <source>R Button</source>
         <translation>右侧按键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="411"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="411"/>
         <source>Player 2</source>
         <translation>玩家 2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="715"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="715"/>
         <source>Player 3</source>
         <translation>玩家 3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1001"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1001"/>
         <source>Player 4</source>
         <translation>玩家 4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1326"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1326"/>
         <source>Player 5</source>
         <translation>玩家 5</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1612"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1612"/>
         <source>Player 6</source>
         <translation>玩家 6</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="1916"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="1916"/>
         <source>Player 7</source>
         <translation>玩家 7</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2202"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2202"/>
         <source>Player 8</source>
         <translation>玩家 8</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2533"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2533"/>
         <source>Emulated Devices</source>
         <translation>模拟设备</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2545"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2545"/>
         <source>Keyboard</source>
         <translation>键盘</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2558"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2558"/>
         <source>Mouse</source>
         <translation>鼠标</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2565"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2565"/>
         <source>Touchscreen</source>
         <translation>触摸屏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2588"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2588"/>
         <source>Advanced</source>
         <translation>高级选项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2595"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2595"/>
         <source>Debug Controller</source>
         <translation>控制器调试</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2602"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2616"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2630"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2756"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2602"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2616"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2630"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2756"/>
         <source>Configure</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2609"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2609"/>
         <source>Ring Controller</source>
         <translation>健身环控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2623"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2623"/>
         <source>Infrared Camera</source>
         <translation>红外摄像头</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2640"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2640"/>
         <source>Other</source>
         <translation>其他</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2652"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2652"/>
         <source>Emulate Analog with Keyboard Input</source>
         <translation>使用键盘输入映射模拟摇杆</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2659"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2701"/>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2717"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2659"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2701"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2717"/>
         <source>Requires restarting Eden</source>
         <translation>需要重启 Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2668"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2668"/>
         <source>Enable XInput 8 player support (disables web applet)</source>
         <translation>启用 XInput 8 输入支持 (禁用 web 小程序)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2681"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2681"/>
         <source>Enable UDP controllers (not needed for motion)</source>
         <translation>启用 UDP 控制器 (无需体感)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2694"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2694"/>
         <source>Controller navigation</source>
         <translation>控制器导航</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2710"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2710"/>
         <source>Enable direct JoyCon driver</source>
         <translation>启用 JoyCon 直接驱动</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2726"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2726"/>
         <source>Enable direct Pro Controller driver [EXPERIMENTAL]</source>
         <translation>启用 Pro Controller 直接驱动 [实验性]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2733"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2733"/>
         <source>Allows unlimited uses of the same Amiibo in games that would otherwise limit you to one use.</source>
         <translation>此选项允许您在游戏中无限使用相同的 Amiibo。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2742"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2742"/>
         <source>Use random Amiibo ID</source>
         <translation>使用 Amiibo 随机 ID</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2749"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2749"/>
         <source>Motion / Touch</source>
         <translation>体感/触摸</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2763"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2763"/>
         <source>Aimed to disable SDL GUIDE button hack: synthetic GUIDE(HOME) event when SELECT(MINUS) + START(PLUS) pressed. May impact Win related trigger/rumble/etc stuff</source>
         <translation>旨在禁用 SDL GUIDE 按钮作弊：当按下 SELECT(减号) + START(加号) 时，会触发合成的 GUIDE(HOME) 事件。可能影响 Windows 相关的触发/震动等功能</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2772"/>
+        <location filename="../../src/lichii/configuration/configure_input_advanced.ui" line="2772"/>
         <source>Disable SDL WGI/XInput (Requires restart)</source>
         <translation>禁用 SDL WGI/XInput (需要重启)</translation>
     </message>
@@ -4328,67 +4338,67 @@ Would you like to delete the old save data?</source>
 <context>
     <name>ConfigureInputPerGame</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="17"/>
         <source>Graphics</source>
         <translation>图形</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="28"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="28"/>
         <source>Input Profiles</source>
         <translation>输入配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="49"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="49"/>
         <source>Player 1 Profile</source>
         <translation>玩家 1 配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="84"/>
         <source>Player 2 Profile</source>
         <translation>玩家 2 配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="119"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="119"/>
         <source>Player 3 Profile</source>
         <translation>玩家 3 配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="154"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="154"/>
         <source>Player 4 Profile</source>
         <translation>玩家 4 配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="189"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="189"/>
         <source>Player 5 Profile</source>
         <translation>玩家 5 配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="224"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="224"/>
         <source>Player 6 Profile</source>
         <translation>玩家 6 配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="259"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="259"/>
         <source>Player 7 Profile</source>
         <translation>玩家 7 配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.ui" line="294"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.ui" line="294"/>
         <source>Player 8 Profile</source>
         <translation>玩家 8 配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.cpp" line="35"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.cpp" line="35"/>
         <source>Use global input configuration</source>
         <translation>使用全局输入设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_per_game.cpp" line="47"/>
+        <location filename="../../src/lichii/configuration/configure_input_per_game.cpp" line="47"/>
         <source>Player %1 profile</source>
         <translation>玩家 %1 配置文件</translation>
     </message>
@@ -4396,495 +4406,495 @@ Would you like to delete the old save data?</source>
 <context>
     <name>ConfigureInputPlayer</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="14"/>
         <source>Configure Input</source>
         <translation>输入设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="63"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="63"/>
         <source>Connect Controller</source>
         <translation>连接控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="100"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="100"/>
         <source>Input Device</source>
         <translation>输入设备</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="137"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="137"/>
         <source>Profile</source>
         <translation>用户配置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="177"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="177"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="193"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="193"/>
         <source>New</source>
         <translation>新建</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="209"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="209"/>
         <source>Delete</source>
         <translation>删除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="272"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1369"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="272"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1369"/>
         <source>Left Stick</source>
         <translation>左摇杆</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="317"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="356"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="800"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="839"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2425"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2464"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="317"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="356"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="800"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="839"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2425"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2464"/>
         <source>Down</source>
         <translation>下</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="366"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="405"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="898"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="937"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1938"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2376"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2415"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="366"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="405"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="898"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="937"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1938"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2376"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2415"/>
         <source>Right</source>
         <translation>右</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="415"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="454"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="849"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="888"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1889"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2474"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2513"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="415"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="454"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="849"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="888"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1889"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2474"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2513"/>
         <source>Left</source>
         <translation>左</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="464"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="506"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="947"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="986"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2523"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2562"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="464"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="506"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="947"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="986"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2523"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2562"/>
         <source>Up</source>
         <translation>上</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="524"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="563"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2601"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2640"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="524"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="563"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2601"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2640"/>
         <source>Pressed</source>
         <translation>按下</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="573"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="612"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2650"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2689"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="573"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="612"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2650"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2689"/>
         <source>Modifier</source>
         <translation>轻推</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="622"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2699"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="622"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2699"/>
         <source>Range</source>
         <translation>灵敏度</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="655"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2732"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="655"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2732"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="698"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2772"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="698"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2772"/>
         <source>Deadzone: 0%</source>
         <translation>摇杆死区：0%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="722"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2796"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="722"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2796"/>
         <source>Modifier Range: 0%</source>
         <translation>摇杆灵敏度：0%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="755"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="755"/>
         <source>D-Pad</source>
         <translation>十字方向键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1059"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1098"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1694"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1733"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1059"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1098"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1694"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1733"/>
         <source>SR</source>
         <translation>SR</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1108"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1147"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1743"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1782"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1108"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1147"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1743"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1782"/>
         <source>SL</source>
         <translation>SL</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1218"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1257"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1366"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1218"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1257"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1366"/>
         <source>ZL</source>
         <translation>ZL</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1283"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1322"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1374"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1283"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1322"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1374"/>
         <source>L</source>
         <translation>L</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1369"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1408"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1369"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1408"/>
         <source>Minus</source>
         <translation>－</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1418"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1457"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1365"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1418"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1457"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1365"/>
         <source>Plus</source>
         <translation>＋</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1525"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1564"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1367"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1525"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1564"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1367"/>
         <source>ZR</source>
         <translation>ZR</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1590"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1629"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1368"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1375"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1590"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1629"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1368"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1375"/>
         <source>R</source>
         <translation>R</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1850"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1850"/>
         <source>Motion 1</source>
         <translation>体感 1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1899"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1899"/>
         <source>Motion 2</source>
         <translation>体感 2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1948"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1987"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1948"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1987"/>
         <source>Capture</source>
         <translation>截图</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1997"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2036"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="1997"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2036"/>
         <source>Home</source>
         <translation>Home</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2075"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2075"/>
         <source>Face Buttons</source>
         <translation>主要按键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2120"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2159"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2120"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2159"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2169"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2208"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2169"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2208"/>
         <source>B</source>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2218"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2257"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2218"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2257"/>
         <source>A</source>
         <translation>A</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2267"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2306"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2267"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2306"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2328"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1370"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2328"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1370"/>
         <source>Right Stick</source>
         <translation>右摇杆</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2851"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2851"/>
         <source>Mouse panning</source>
         <translation>鼠标平移</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2875"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.ui" line="2875"/>
         <source>Configure</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="387"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="472"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="570"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="665"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="387"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="472"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="570"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="665"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="389"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="474"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="574"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="593"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="667"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="389"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="474"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="574"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="593"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="667"/>
         <source>[not set]</source>
         <translation>[未设置]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="392"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="418"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="679"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="392"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="418"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="679"/>
         <source>Invert button</source>
         <translation>反转按键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="398"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="670"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="398"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="670"/>
         <source>Toggle button</source>
         <translation>切换按键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="404"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="404"/>
         <source>Turbo button</source>
         <translation>连发键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="412"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="621"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="412"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="621"/>
         <source>Invert axis</source>
         <translation>轴方向倒置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="424"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="428"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="481"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="424"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="428"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="481"/>
         <source>Set threshold</source>
         <translation>阈值设定</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="428"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="481"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="428"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="481"/>
         <source>Choose a value between 0% and 100%</source>
         <translation>选择一个介于 0% 和 100% 之间的值</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="440"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="440"/>
         <source>Toggle axis</source>
         <translation>切换轴</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="477"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="477"/>
         <source>Set gyro threshold</source>
         <translation>陀螺仪阈值设定</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="486"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="486"/>
         <source>Calibrate sensor</source>
         <translation>校准传感器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="526"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="526"/>
         <source>Map Analog Stick</source>
         <translation>映射摇杆</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="527"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="527"/>
         <source>After pressing OK, first move your joystick horizontally, and then vertically.
 To invert the axes, first move your joystick vertically, and then horizontally.</source>
         <translation>在按下确定后，首先水平移动你的手柄，然后垂直移动它。
 如果要使体感方向倒置，首先垂直移动你的手柄，然后水平移动它。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="595"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="595"/>
         <source>Center axis</source>
         <translation>中心轴</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="703"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1068"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="703"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1068"/>
         <source>Deadzone: %1%</source>
         <translation>摇杆死区：%1%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="712"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1073"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="712"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1073"/>
         <source>Modifier Range: %1%</source>
         <translation>摇杆灵敏度：%1%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="753"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1098"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="753"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1098"/>
         <source>Pro Controller</source>
         <translation>Pro 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1102"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1102"/>
         <source>Dual Joycons</source>
         <translation>双 Joycons 手柄</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1106"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1106"/>
         <source>Left Joycon</source>
         <translation>左 Joycon 手柄</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1110"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1110"/>
         <source>Right Joycon</source>
         <translation>右 Joycon 手柄</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1114"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1114"/>
         <source>Handheld</source>
         <translation>掌机模式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1118"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1118"/>
         <source>GameCube Controller</source>
         <translation>GameCube 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1127"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1127"/>
         <source>Poke Ball Plus</source>
         <translation>精灵球 PLUS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1131"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1131"/>
         <source>NES Controller</source>
         <translation>NES 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1135"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1135"/>
         <source>SNES Controller</source>
         <translation>SNES 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1139"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1139"/>
         <source>N64 Controller</source>
         <translation>N64 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1143"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1143"/>
         <source>Sega Genesis</source>
         <translation>世嘉创世纪</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1373"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1373"/>
         <source>Start / Pause</source>
         <translation>开始 / 暂停</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1376"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1376"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1377"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1377"/>
         <source>Control Stick</source>
         <translation>控制摇杆</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1378"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1378"/>
         <source>C-Stick</source>
         <translation>C 摇杆</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1479"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1479"/>
         <source>Shake!</source>
         <translation>摇动！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1481"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1481"/>
         <source>[waiting]</source>
         <translation>[等待中]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1578"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1578"/>
         <source>New Profile</source>
         <translation>新建自定义设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1578"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1578"/>
         <source>Enter a profile name:</source>
         <translation>输入配置文件名称：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1586"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1594"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1586"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1594"/>
         <source>Create Input Profile</source>
         <translation>新建输入配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1587"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1587"/>
         <source>The given profile name is not valid!</source>
         <translation>输入的配置文件名称无效！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1595"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1595"/>
         <source>Failed to create the input profile &quot;%1&quot;</source>
         <translation>新建输入配置文件 &quot;%1&quot; 失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1615"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1615"/>
         <source>Delete Input Profile</source>
         <translation>删除输入配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1616"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1616"/>
         <source>Failed to delete the input profile &quot;%1&quot;</source>
         <translation>删除输入配置文件 &quot;%1&quot; 失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1638"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1638"/>
         <source>Load Input Profile</source>
         <translation>加载输入配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1639"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1639"/>
         <source>Failed to load the input profile &quot;%1&quot;</source>
         <translation>加载输入配置文件 &quot;%1&quot; 失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1664"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1664"/>
         <source>Save Input Profile</source>
         <translation>保存输入配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1665"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="1665"/>
         <source>Failed to save the input profile &quot;%1&quot;</source>
         <translation>保存输入配置文件 &quot;%1&quot; 失败</translation>
     </message>
@@ -4892,17 +4902,17 @@ To invert the axes, first move your joystick vertically, and then horizontally.<
 <context>
     <name>ConfigureInputProfileDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_profile_dialog.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_input_profile_dialog.ui" line="14"/>
         <source>Create Input Profile</source>
         <translation>新建输入配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_profile_dialog.ui" line="40"/>
+        <location filename="../../src/lichii/configuration/configure_input_profile_dialog.ui" line="40"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_profile_dialog.ui" line="47"/>
+        <location filename="../../src/lichii/configuration/configure_input_profile_dialog.ui" line="47"/>
         <source>Defaults</source>
         <translation>系统默认</translation>
     </message>
@@ -4910,145 +4920,145 @@ To invert the axes, first move your joystick vertically, and then horizontally.<
 <context>
     <name>ConfigureMotionTouch</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="6"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="6"/>
         <source>Configure Motion / Touch</source>
         <translation>体感/触摸设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="15"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="15"/>
         <source>Touch</source>
         <translation>触摸</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="23"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="23"/>
         <source>UDP Calibration:</source>
         <translation>UDP 校准：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="30"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="30"/>
         <source>(100, 50) - (1800, 850)</source>
         <translation>(100, 50) - (1800, 850)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="46"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="73"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="235"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="46"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="73"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="235"/>
         <source>Configure</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="57"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="57"/>
         <source>Touch from button profile:</source>
         <translation>触摸屏映射配置文件：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="85"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="85"/>
         <source>CemuhookUDP Config</source>
         <translation>CemuhookUDP 设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="91"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="91"/>
         <source>You may use any Cemuhook compatible UDP input source to provide motion and touch input.</source>
         <translation>您可以使用任何与 Cemuhook 兼容的 UDP 输入源来提供体感和触摸输入。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="134"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="134"/>
         <source>Server:</source>
         <translation>服务器：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="161"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="161"/>
         <source>Port:</source>
         <translation>端口：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="194"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="258"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="194"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="258"/>
         <source>Test</source>
         <translation>测试</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="207"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="207"/>
         <source>Add Server</source>
         <translation>添加服务器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="240"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.ui" line="240"/>
         <source>Remove Server</source>
         <translation>移除服务器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="161"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="161"/>
         <source>%1:%2</source>
         <translation>%1:%2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="166"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="170"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="174"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="180"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="186"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="280"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="166"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="170"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="174"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="180"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="186"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="280"/>
         <source>Eden</source>
         <translation>Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="166"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="166"/>
         <source>Port number has invalid characters</source>
         <translation>端口号中包含无效字符</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="170"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="170"/>
         <source>Port has to be in range 0 and 65353</source>
         <translation>端口必须为 0 到 65353 之间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="174"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="174"/>
         <source>IP address is not valid</source>
         <translation>无效的 IP 地址</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="180"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="180"/>
         <source>This UDP server already exists</source>
         <translation>此 UDP 服务器已存在</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="186"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="186"/>
         <source>Unable to add more than 8 servers</source>
         <translation>最多只能添加 8 个服务器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="202"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="202"/>
         <source>Testing</source>
         <translation>测试中</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="218"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="218"/>
         <source>Configuring</source>
         <translation>配置中</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="249"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="249"/>
         <source>Test Successful</source>
         <translation>测试成功</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="250"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="250"/>
         <source>Successfully received data from the server.</source>
         <translation>已成功地从服务器获取数据。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="252"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="252"/>
         <source>Test Failed</source>
         <translation>测试失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="253"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="253"/>
         <source>Could not receive valid data from the server.&lt;br&gt;Please verify that the server is set up correctly and the address and port are correct.</source>
         <translation>无法从服务器获取数据。&lt;br&gt;请验证服务器是否正在运行，以及地址和端口是否配置正确。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="281"/>
+        <location filename="../../src/lichii/configuration/configure_motion_touch.cpp" line="281"/>
         <source>UDP Test or calibration configuration is in progress.&lt;br&gt;Please wait for them to finish.</source>
         <translation>UDP 测试或触摸校准正在进行中。&lt;br&gt;请耐心等待。</translation>
     </message>
@@ -5060,98 +5070,98 @@ To invert the axes, first move your joystick vertically, and then horizontally.<
 <context>
     <name>ConfigureMousePanning</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="6"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="6"/>
         <source>Configure mouse panning</source>
         <translation>设置鼠标平移</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="12"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="12"/>
         <source>Enable mouse panning</source>
         <translation>启用鼠标平移</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="15"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="15"/>
         <source>Can be toggled via a hotkey. Default hotkey is Ctrl + F9</source>
         <translation>可通过热键来切换。默认的热键为 Ctrl + F9</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="24"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="24"/>
         <source>Sensitivity</source>
         <translation>灵敏度</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="30"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="30"/>
         <source>Horizontal</source>
         <translation>水平方向</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="40"/>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="66"/>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="104"/>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="139"/>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="165"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="40"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="66"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="104"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="139"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="165"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="56"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="56"/>
         <source>Vertical</source>
         <translation>垂直方向</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="85"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="85"/>
         <source>Deadzone counterweight</source>
         <translation>调整死区</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="88"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="88"/>
         <source>Counteracts a game&apos;s built-in deadzone</source>
         <translation>抵消游戏内置的死区</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="94"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="94"/>
         <source>Deadzone</source>
         <translation>死区</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="123"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="123"/>
         <source>Stick decay</source>
         <translation>摇杆漂移</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="129"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="129"/>
         <source>Strength</source>
         <translation>强烈程度</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="155"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="155"/>
         <source>Minimum</source>
         <translation>最小值</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.ui" line="195"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.ui" line="195"/>
         <source>Default</source>
         <translation>系统默认</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.cpp" line="43"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.cpp" line="43"/>
         <source>Mouse panning works better with a deadzone of 0% and a range of 100%.
 Current values are %1% and %2% respectively.</source>
         <translation>鼠标平移在死区设置为 0% 和灵敏度设置为 100% 时效果更好。
 当前值分别为 %1% 和 %2% 。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.cpp" line="50"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.cpp" line="50"/>
         <source>Emulated mouse is enabled. This is incompatible with mouse panning.</source>
         <translation>已启用模拟鼠标。模拟鼠标与鼠标平移不兼容。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.cpp" line="83"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.cpp" line="83"/>
         <source>Emulated mouse is enabled</source>
         <translation>已启用模拟鼠标</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_mouse_panning.cpp" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_mouse_panning.cpp" line="84"/>
         <source>Real mouse input and mouse panning are incompatible. Please disable the emulated mouse in input advanced settings to allow mouse panning.</source>
         <translation>实体鼠标输入与鼠标平移不兼容。请在高级输入设置中禁用模拟鼠标以使用鼠标平移。</translation>
     </message>
@@ -5159,41 +5169,61 @@ Current values are %1% and %2% respectively.</source>
 <context>
     <name>ConfigureNetwork</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_network.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_network.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_network.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_network.ui" line="17"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_network.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_network.ui" line="25"/>
         <source>General</source>
         <translation>通用</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_network.ui" line="34"/>
+        <location filename="../../src/lichii/configuration/configure_network.ui" line="34"/>
         <source>Network Interface</source>
         <translation>网络接口</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_network.ui" line="41"/>
+        <location filename="../../src/lichii/configuration/configure_network.ui" line="41"/>
         <source>Enable Airplane Mode</source>
         <translation>启用飞行模式</translation>
     </message>
     <message>
-        <source>LAN play</source>
-        <translation>局域网联机</translation>
+        <source>Client ID</source>
+        <translation>客户端 ID</translation>
     </message>
     <message>
-        <source>Plays local wireless games with other Lichii instances or ldn_mitm consoles on the same network, without a room. If you are in a room when a game starts local play, the room is used instead.</source>
-        <translation>与其他 Lichii 实例或同一网络上的 ldn_mitm 主机进行本地无线联机，无需房间。如果游戏开始本地联机时你已在房间中，则改用房间。</translation>
+        <source>Sign out</source>
+        <translation>退出登录</translation>
     </message>
     <message>
-        <source>Sign in with your Nextendo Network account. Online play through Nextendo isn&apos;t available in this build yet.</source>
-        <translation>使用你的 Nextendo Network 账号登录。此版本还不支持通过 Nextendo 进行在线游戏。</translation>
+        <source>Open this address in your browser to sign in: %1</source>
+        <translation>在浏览器中打开此地址以登录：%1</translation>
+    </message>
+    <message>
+        <source>Play online through Nextendo Network</source>
+        <translation>通过 Nextendo Network 在线游戏</translation>
+    </message>
+    <message>
+        <source>Signed in as %1.</source>
+        <translation>已登录为 %1。</translation>
+    </message>
+    <message>
+        <source>Not signed in.</source>
+        <translation>未登录。</translation>
+    </message>
+    <message>
+        <source>Nextendo did not issue an online play token, so games can&apos;t log in to Nextendo yet.</source>
+        <translation>Nextendo 没有发放在线游戏令牌，因此游戏暂时无法登录 Nextendo。</translation>
+    </message>
+    <message>
+        <source>Sign-in failed: %1</source>
+        <translation>登录失败：%1</translation>
     </message>
     <message>
         <source>Cancel sign-in</source>
@@ -5208,208 +5238,180 @@ Current values are %1% and %2% respectively.</source>
         <translation>登录 Nextendo</translation>
     </message>
     <message>
-        <source>Open this address in your browser to sign in: %1</source>
-        <translation>在浏览器中打开此地址以登录：%1</translation>
-    </message>
-    <message>
-        <source>Sign-in failed: %1</source>
-        <translation>登录失败：%1</translation>
+        <source>Signed in.</source>
+        <translation>已登录。</translation>
     </message>
     <message>
         <source>Your Nextendo session expired. Sign in again.</source>
         <translation>你的 Nextendo 会话已过期，请重新登录。</translation>
     </message>
     <message>
-        <source>Your session was ended on nextendo.network. Sign in again.</source>
-        <translation>你的会话已在 nextendo.network 上结束，请重新登录。</translation>
-    </message>
-    <message>
-        <source>Not signed in.</source>
-        <translation>未登录。</translation>
-    </message>
-    <message>
-        <source>Signed in.</source>
-        <translation>已登录。</translation>
-    </message>
-    <message>
-        <source>Signed in as %1.</source>
-        <translation>已登录为 %1。</translation>
-    </message>
-    <message>
-        <source>Nextendo did not issue an online play token, so games can&apos;t log in to Nextendo yet.</source>
-        <translation>Nextendo 没有发放在线游戏令牌，因此游戏暂时无法登录 Nextendo。</translation>
-    </message>
-    <message>
-        <source>Client ID</source>
-        <translation>客户端 ID</translation>
-    </message>
-    <message>
         <source>Nextendo Network</source>
         <translation>Nextendo Network</translation>
+    </message>
+    <message>
+        <source>Sign in with your Nextendo Network account. Online play through Nextendo isn&apos;t available in this build yet.</source>
+        <translation>使用你的 Nextendo Network 账号登录。此版本还不支持通过 Nextendo 进行在线游戏。</translation>
+    </message>
+    <message>
+        <source>LAN play</source>
+        <translation>局域网联机</translation>
+    </message>
+    <message>
+        <source>Plays local wireless games with other Lichii instances or ldn_mitm consoles on the same network, without a room. If you are in a room when a game starts local play, the room is used instead.</source>
+        <translation>与其他 Lichii 实例或同一网络上的 ldn_mitm 主机进行本地无线联机，无需房间。如果游戏开始本地联机时你已在房间中，则改用房间。</translation>
+    </message>
+    <message>
+        <source>Your session was ended on nextendo.network. Sign in again.</source>
+        <translation>你的会话已在 nextendo.network 上结束，请重新登录。</translation>
     </message>
     <message>
         <source>Nextendo Network is a community service that replaces Nintendo&apos;s online servers for Switch 1 games. When this is on, those games connect to Nextendo instead of Nintendo and send your Nextendo account token to it. Airplane mode is turned off.</source>
         <translation>Nextendo Network 是一个社区服务，用于替代任天堂为 Switch 1 游戏提供的在线服务器。开启后，这些游戏会连接 Nextendo 而不是任天堂，并把你的 Nextendo 账号令牌发送给它。飞行模式会被关闭。</translation>
     </message>
-    <message>
-        <source>Play online through Nextendo Network</source>
-        <translation>通过 Nextendo Network 在线游戏</translation>
-    </message>
-    <message>
-        <source>Sign out</source>
-        <translation>退出登录</translation>
-    </message>
 </context>
 <context>
     <name>ConfigurePerGame</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="20"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="20"/>
         <source>Dialog</source>
         <translation>对话框</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="34"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="34"/>
         <source>Info</source>
         <translation>信息</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="93"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="93"/>
         <source>Name</source>
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="100"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="100"/>
         <source>Title ID</source>
         <translation>游戏 ID</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="137"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="137"/>
         <source>Filename</source>
         <translation>文件名</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="164"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="164"/>
         <source>Format</source>
         <translation>格式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="171"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="171"/>
         <source>Version</source>
         <translation>版本</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="178"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="178"/>
         <source>Size</source>
         <translation>大小</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="185"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="185"/>
         <source>Developer</source>
         <translation>开发商</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.ui" line="240"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.ui" line="240"/>
         <source>Some settings are only available when a game is not running.</source>
         <translation>只有当游戏不在运行时，某些设置项才可用。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="78"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="78"/>
         <source>Add-Ons</source>
         <translation>附加项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="79"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="79"/>
         <source>System</source>
         <translation>系统</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="80"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="80"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="81"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="81"/>
         <source>Graphics</source>
         <translation>图形</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="82"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="82"/>
         <source>Adv. Graphics</source>
         <translation>高级图形</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="83"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="83"/>
         <source>Ext. Graphics</source>
         <translation>扩展图形</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="84"/>
         <source>Audio</source>
         <translation>声音</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="85"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="85"/>
         <source>Input Profiles</source>
         <translation>输入配置文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="86"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="86"/>
         <source>Network</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="87"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="87"/>
         <source>Applets</source>
         <translation>小程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="90"/>
+        <location filename="../../src/lichii/configuration/configure_per_game.cpp" line="90"/>
         <source>Properties</source>
         <translation>属性</translation>
-    </message>
-    <message>
-        <source>Detecting...</source>
-        <translation>正在检测...</translation>
-    </message>
-    <message>
-        <source>Allow online lookup</source>
-        <translation>允许在线查询</translation>
     </message>
     <message>
         <source>Invalid Image</source>
         <translation>图片无效</translation>
     </message>
     <message>
-        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
-        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
+        <source>Detect Icon</source>
+        <translation>检测图标</translation>
     </message>
     <message>
         <source>Please enter a game name first so the icon can be detected.</source>
         <translation>请先输入游戏名称，才能检测图标。</translation>
     </message>
     <message>
-        <source>Detect Icon</source>
-        <translation>检测图标</translation>
+        <source>Select a PNG, JPEG, BMP or WebP image up to 8 MiB, 8192 pixels per side and 16 megapixels.</source>
+        <translation>请选择 PNG、JPEG、BMP 或 WebP 图片，大小不超过 8 MiB，边长不超过 8192 像素，总像素不超过 1600 万。</translation>
     </message>
     <message>
         <source>Select Game Icon</source>
         <translation>选择游戏图标</translation>
     </message>
     <message>
-        <source>Edit the game name stored in the NUP metadata</source>
-        <translation>编辑 NUP 元数据中保存的游戏名称</translation>
-    </message>
-    <message>
         <source>The game name is too long to search.</source>
         <translation>游戏名称太长，无法搜索。</translation>
     </message>
     <message>
-        <source>Select a PNG, JPEG, BMP or WebP image up to 8 MiB, 8192 pixels per side and 16 megapixels.</source>
-        <translation>请选择 PNG、JPEG、BMP 或 WebP 图片，大小不超过 8 MiB，边长不超过 8192 像素，总像素不超过 1600 万。</translation>
+        <source>Detecting...</source>
+        <translation>正在检测...</translation>
     </message>
     <message>
         <source>If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.</source>
         <translation>若找不到本地图标，将游戏名称发送给 GitHub、Wikipedia 和 Bing 以查找图标。默认关闭。</translation>
+    </message>
+    <message>
+        <source>Allow online lookup</source>
+        <translation>允许在线查询</translation>
     </message>
     <message>
         <source>Upload Icon...</source>
@@ -5438,59 +5440,67 @@ Current values are %1% and %2% respectively.</source>
 %1</translation>
     </message>
     <message>
+        <source>Edit the game name stored in the NUP metadata</source>
+        <translation>编辑 NUP 元数据中保存的游戏名称</translation>
+    </message>
+    <message>
         <source>Update NUP Metadata</source>
         <translation>更新 NUP 元数据</translation>
+    </message>
+    <message>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
     </message>
 </context>
 <context>
     <name>ConfigurePerGameAddons</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.ui" line="17"/>
         <source>Add-Ons</source>
         <translation>附加项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.ui" line="23"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.ui" line="23"/>
         <source>Import Mod from ZIP</source>
         <translation>导入 ZIP 档的模组</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.ui" line="30"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.ui" line="30"/>
         <source>Import Mod from Folder</source>
         <translation>导入目录下的模组</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="56"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="56"/>
         <source>Patch Name</source>
         <translation>补丁名称</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="57"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="57"/>
         <source>Version</source>
         <translation>版本</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="153"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="153"/>
         <source>Mod Install Succeeded</source>
         <translation>模组安装成功</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="154"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="154"/>
         <source>Successfully installed all mods.</source>
         <translation>成功安装了所有模组。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="163"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="163"/>
         <source>Mod Install Failed</source>
         <translation>模组安装失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="164"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="164"/>
         <source>Failed to install the following mods:
 	%1
 Check the log for details.</source>
@@ -5499,67 +5509,67 @@ Check the log for details.</source>
 查看日志以获取详细信息。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="183"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="183"/>
         <source>Mod Folder</source>
         <translation>模组文件夹</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="194"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="194"/>
         <source>Zipped Mod Location</source>
         <translation>压缩模组位置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="196"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="196"/>
         <source>Zipped Archives (*.zip)</source>
         <translation>压缩文件 (*.zip)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="214"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="214"/>
         <source>Invalid Selection</source>
         <translation>无效选择</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="215"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="215"/>
         <source>Only mods, cheats, and patches can be deleted.
 To delete NAND-installed updates, right-click the game in the game list and click Remove -&gt; Remove Installed Update.</source>
         <translation>只有模组、作弊码和补丁可以被删除。
 要删除 NAND 安装的更新，请在游戏列表中右键点击游戏，然后点击“移除-&gt;移除已安装的更新”。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="221"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="221"/>
         <source>You are about to delete the following installed mods:
 </source>
         <translation>你即将删除以下已安装的模组：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="227"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="227"/>
         <source>
 Once deleted, these can NOT be recovered. Are you 100% sure you want to delete them?</source>
         <translation>
 一旦删除，这些数据就无法恢复。你百分之百确定要删除它们吗？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="232"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="232"/>
         <source>Delete add-on(s)?</source>
         <translation>删除模组？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="243"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="243"/>
         <source>Successfully deleted</source>
         <translation>删除成功</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="244"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="244"/>
         <source>Successfully deleted all selected mods.</source>
         <translation>成功删除了所有选择的模组。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="267"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="267"/>
         <source>&amp;Delete</source>
         <translation>删除 (&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="274"/>
+        <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="274"/>
         <source>&amp;Open in File Manager</source>
         <translation>在文件管理器中打开(&amp;O)</translation>
     </message>
@@ -5567,124 +5577,124 @@ Once deleted, these can NOT be recovered. Are you 100% sure you want to delete t
 <context>
     <name>ConfigurePostProcessing</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="67"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="67"/>
         <source>Post-Processing Effects</source>
         <translation>后处理效果</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="74"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="74"/>
         <source>Changes apply immediately while a game is running.</source>
         <translation>更改会在游戏运行时立即生效。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="78"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="78"/>
         <source>Enable post-processing</source>
         <translation>开启后处理</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="86"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="86"/>
         <source>Preset:</source>
         <translation>预设:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="91"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="91"/>
         <source>Apply</source>
         <translation>应用</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="102"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="102"/>
         <source>Reset Values</source>
         <translation>重置值</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="103"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="103"/>
         <source>Return every effect to the values the preset ships with.</source>
         <translation>把每个效果恢复到预设的默认值</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="114"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="114"/>
         <source>Save As...</source>
         <translation>另存为...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="118"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="118"/>
         <source>Save Preset</source>
         <translation>保存预设</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="118"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="118"/>
         <source>Preset name:</source>
         <translation>预设名称:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="129"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="129"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="130"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="130"/>
         <source>Remove every effect in use and deselect the preset.</source>
         <translation>移除所有使用中的效果并取消选择预设。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="155"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="155"/>
         <source>Add Effect</source>
         <translation>添加效果</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="202"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="202"/>
         <source>None</source>
         <translation>无</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="231"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="231"/>
         <source>No effects in use. Pick a preset and press Apply, or add effects one by one.</source>
         <translation>没有使用中的效果。请选择一个预设并点击应用，或一个一个地添加效果。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="235"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="235"/>
         <source>Custom chain. Pick a preset above and press Apply to replace it.</source>
         <translation>自定义链。选择上面的预设并点击应用替换它。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="241"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="241"/>
         <source>Active preset: %1 (modified). Press Reset Values to go back to how it ships.</source>
         <translation>活动的预设: %1 (已修改)。按重置值可以恢复出厂设置。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="246"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="246"/>
         <source>Active preset: %1</source>
         <translation>活动的预设: %1 </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="307"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="307"/>
         <source>Enabled</source>
         <translation>开启</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="308"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="308"/>
         <source>Disabled</source>
         <translation>关闭</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="420"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="420"/>
         <source>Reset to defaults</source>
         <translation>重置为默认值</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="455"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="455"/>
         <source>Effect &apos;%1&apos; was not found.</source>
         <translation>找不到效果 &apos;%1&apos;。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="464"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="464"/>
         <source>Effect failed to compile:
 %1</source>
         <translation>编译效果失败:
 %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="505"/>
+        <location filename="../../src/lichii/configuration/configure_post_processing.cpp" line="505"/>
         <source>No usable ReShade FX effects were found. Place .fx files in the post_shaders folder.</source>
         <translation>找不到可用的 ReShade FX 效果。请将 .fx 文件放到 post_shaders 文件夹中。</translation>
     </message>
@@ -5692,42 +5702,42 @@ Once deleted, these can NOT be recovered. Are you 100% sure you want to delete t
 <context>
     <name>ConfigureProfileManager</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.ui" line="17"/>
         <source>Profiles</source>
         <translation>配置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.ui" line="25"/>
         <source>Profile Manager</source>
         <translation>用户配置管理</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="42"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.ui" line="42"/>
         <source>Current User</source>
         <translation>当前用户</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="86"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.ui" line="86"/>
         <source>Username</source>
         <translation>用户名</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="126"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.ui" line="126"/>
         <source>Add</source>
         <translation>添加</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="138"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.ui" line="138"/>
         <source>Profile management is available only when game is not running.</source>
         <translation>只有当游戏不在运行时，才能进行用户配置的管理。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="58"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="58"/>
         <source>%1
 %2</source>
         <comment>%1 is the profile username, %2 is the formatted UUID (e.g. 00112233-4455-6677-8899-AABBCCDDEEFF))</comment>
@@ -5735,62 +5745,62 @@ Once deleted, these can NOT be recovered. Are you 100% sure you want to delete t
 %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="139"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="139"/>
         <source>Users</source>
         <translation>用户</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="194"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="194"/>
         <source>Error deleting image</source>
         <translation>删除图像时出错</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="195"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="195"/>
         <source>Error occurred attempting to overwrite previous image at: %1.</source>
         <translation>尝试覆盖该用户的现有图像时出错: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="203"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="203"/>
         <source>Error deleting file</source>
         <translation>删除文件时出错</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="204"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="204"/>
         <source>Unable to delete existing file: %1.</source>
         <translation>无法删除文件: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="211"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="211"/>
         <source>Error creating user image directory</source>
         <translation>创建用户图像目录时出错</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="212"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="212"/>
         <source>Unable to create directory %1 for storing user images.</source>
         <translation>无法创建存储用户图像的目录 %1 。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="217"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="217"/>
         <source>Error saving user image</source>
         <translation>保存用户图像错误</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="218"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="218"/>
         <source>Unable to save image to file</source>
         <translation>无法保存图像到文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="230"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="230"/>
         <source>&amp;Edit</source>
         <translation>编辑 (&amp;E)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="231"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="231"/>
         <source>&amp;Delete</source>
         <translation>删除 (&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="291"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="291"/>
         <source>Edit User</source>
         <translation>编辑用户</translation>
     </message>
@@ -5798,17 +5808,17 @@ Once deleted, these can NOT be recovered. Are you 100% sure you want to delete t
 <context>
     <name>ConfigureProfileManagerDeleteDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="359"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="359"/>
         <source>Delete this user? All of the user&apos;s save data will be deleted.</source>
         <translation>删除此用户？此用户保存的所有数据都将被删除。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="374"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="374"/>
         <source>Confirm Delete</source>
         <translation>确认删除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="397"/>
+        <location filename="../../src/lichii/configuration/configure_profile_manager.cpp" line="397"/>
         <source>Name: %1
 UUID: %2</source>
         <translation>名称: %1
@@ -5818,127 +5828,127 @@ UUID: %2</translation>
 <context>
     <name>ConfigureRingController</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="14"/>
         <source>Configure Ring Controller</source>
         <translation>健身环控制器设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="26"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="26"/>
         <source>To use Ring-Con, configure player 1 as right Joy-Con (both physical and emulated), and player 2 as left Joy-Con (left physical and dual emulated) before starting the game.</source>
         <translation>要使用健身环控制器，请在游戏开始前将玩家 1 设置使用右 Joy-Con 控制器(包括物理和模拟层面)，玩家 2 使用左 Joy-Con 控制器(物理和模拟层面)。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="52"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="52"/>
         <source>Virtual Ring Sensor Parameters</source>
         <translation>虚拟健身环传感器参数</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="84"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="123"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="123"/>
         <source>Pull</source>
         <translation>拉</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="133"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="172"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="133"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="172"/>
         <source>Push</source>
         <translation>推</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="206"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="206"/>
         <source>Deadzone: 0%</source>
         <translation>摇杆死区：0%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="233"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="233"/>
         <source>Direct Joycon Driver</source>
         <translation>Joycon 直接驱动</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="293"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="293"/>
         <source>Enable Ring Input</source>
         <translation>启用健身环输入</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="300"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="320"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="300"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="320"/>
         <source>Enable</source>
         <translation>启用</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="307"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="307"/>
         <source>Ring Sensor Value</source>
         <translation>健身环传感器参数</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="314"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="285"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="314"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="285"/>
         <source>Not connected</source>
         <translation>未连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="344"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.ui" line="344"/>
         <source>Restore Defaults</source>
         <translation>恢复默认</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="171"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="171"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="173"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="173"/>
         <source>[not set]</source>
         <translation>[未设置]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="175"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="175"/>
         <source>Invert axis</source>
         <translation>轴方向倒置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="194"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="260"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="194"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="260"/>
         <source>Deadzone: %1%</source>
         <translation>摇杆死区：%1%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="282"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="282"/>
         <source>Error enabling ring input</source>
         <translation>启用健身环输入时出错</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="288"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="288"/>
         <source>Direct Joycon driver is not enabled</source>
         <translation>未启用 Joycon 直接驱动</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="293"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="293"/>
         <source>Configuring</source>
         <translation>配置中</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="305"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="305"/>
         <source>The current mapped device doesn&apos;t support the ring controller</source>
         <translation>当前映射的设备不支持健身环控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="309"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="309"/>
         <source>The current mapped device doesn&apos;t have a ring attached</source>
         <translation>当前映射的设备未连接健身环控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="312"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="312"/>
         <source>The current mapped device is not connected</source>
         <translation>当前映射的设备未连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="316"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="316"/>
         <source>Unexpected driver result %1</source>
         <translation>意外的驱动结果： %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="339"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="339"/>
         <source>[waiting]</source>
         <translation>[请按键]</translation>
     </message>
@@ -5946,23 +5956,23 @@ UUID: %2</translation>
 <context>
     <name>ConfigureSystem</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_system.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_system.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_system.ui" line="17"/>
-        <location filename="../../src/yuzu/configuration/configure_system.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_system.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_system.ui" line="25"/>
         <source>System</source>
         <translation>系统</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_system.ui" line="62"/>
+        <location filename="../../src/lichii/configuration/configure_system.ui" line="62"/>
         <source>Core</source>
         <translation>核心</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_system.cpp" line="71"/>
+        <location filename="../../src/lichii/configuration/configure_system.cpp" line="71"/>
         <source>Warning: &quot;%1&quot; is not a valid language for region &quot;%2&quot;</source>
         <translation>警告：“ %1 ”并不是“ %2 ”地区的有效语言</translation>
     </message>
@@ -5970,62 +5980,62 @@ UUID: %2</translation>
 <context>
     <name>ConfigureTas</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="11"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="11"/>
         <source>TAS</source>
         <translation>TAS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="17"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Reads controller input from scripts in the same format as TAS-nx scripts.&lt;br/&gt;For a more detailed explanation, please consult the user handbook.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;使用与 TAS-nx 脚本相同的格式从脚本中读取控制器输入。&lt;br/&gt;如需更详细的说明,请参阅用户手册。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="27"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="27"/>
         <source>To check which hotkeys control the playback/recording, please refer to the Hotkey settings (Configure -&gt; General -&gt; Hotkeys).</source>
         <translation>要确认是哪些热键控制播放/录制，请参阅热键设置。(设置—&gt;通用—&gt;热键)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="37"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="37"/>
         <source>WARNING: This is an experimental feature.&lt;br/&gt;It will not play back scripts frame perfectly with the current, imperfect syncing method.</source>
         <translation>警告：这是一个实验性功能。&lt;br/&gt;由于暂不完善的同步方式，可能无法完整地进行回放。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="54"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="54"/>
         <source>Settings</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="60"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="60"/>
         <source>Enable TAS features</source>
         <translation>启用 TAS 功能</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="67"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="67"/>
         <source>Loop script</source>
         <translation>循环脚本</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="77"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="77"/>
         <source>Pause execution during loads</source>
         <translation>遇到载入画面时暂停执行</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="84"/>
         <source>Show recording dialog</source>
         <translation>显示录制对话框</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="98"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="98"/>
         <source>Script Directory</source>
         <translation>脚本目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="104"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="104"/>
         <source>Path</source>
         <translation>路径</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="111"/>
+        <location filename="../../src/lichii/configuration/configure_tas.ui" line="111"/>
         <source>...</source>
         <translation>...</translation>
     </message>
@@ -6033,12 +6043,12 @@ UUID: %2</translation>
 <context>
     <name>ConfigureTasDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.cpp" line="22"/>
+        <location filename="../../src/lichii/configuration/configure_tas.cpp" line="22"/>
         <source>TAS Configuration</source>
         <translation>TAS 设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.cpp" line="55"/>
+        <location filename="../../src/lichii/configuration/configure_tas.cpp" line="55"/>
         <source>Select TAS Load Directory...</source>
         <translation>选择 TAS 载入目录...</translation>
     </message>
@@ -6046,91 +6056,91 @@ UUID: %2</translation>
 <context>
     <name>ConfigureTouchFromButton</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.ui" line="14"/>
         <source>Configure Touchscreen Mappings</source>
         <translation>配置触摸屏映射</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.ui" line="22"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.ui" line="22"/>
         <source>Mapping:</source>
         <translation>映射：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.ui" line="48"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.ui" line="48"/>
         <source>New</source>
         <translation>新建</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.ui" line="61"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.ui" line="61"/>
         <source>Delete</source>
         <translation>删除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.ui" line="74"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.ui" line="74"/>
         <source>Rename</source>
         <translation>重命名</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.ui" line="92"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.ui" line="92"/>
         <source>Click the bottom area to add a point, then press a button to bind.
 Drag points to change position, or double-click table cells to edit values.</source>
         <translation>单击屏幕底部区域添加点位，然后按下按键进行绑定。
 拖动点位以改变位置，或双击列表项更改绑定。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.ui" line="116"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.ui" line="116"/>
         <source>Delete Point</source>
         <translation>删除点位</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="78"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="78"/>
         <source>Button</source>
         <translation>按键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="78"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="78"/>
         <source>X</source>
         <comment>X axis</comment>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="78"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="78"/>
         <source>Y</source>
         <comment>Y axis</comment>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="195"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="195"/>
         <source>New Profile</source>
         <translation>新建自定义设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="195"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="195"/>
         <source>Enter the name for the new profile.</source>
         <translation>为新的自定义设置命名。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="206"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="206"/>
         <source>Delete Profile</source>
         <translation>删除自定义设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="206"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="206"/>
         <source>Delete profile %1?</source>
         <translation>真的要删除自定义设置 %1 吗？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="219"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="219"/>
         <source>Rename Profile</source>
         <translation>重命名自定义设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="219"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="219"/>
         <source>New name:</source>
         <translation>新名称：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="231"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="231"/>
         <source>[press key]</source>
         <translation>[请按一个键]</translation>
     </message>
@@ -6138,37 +6148,37 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>ConfigureTouchscreenAdvanced</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_touchscreen_advanced.ui" line="14"/>
         <source>Configure Touchscreen</source>
         <translation>触摸屏设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="26"/>
+        <location filename="../../src/lichii/configuration/configure_touchscreen_advanced.ui" line="26"/>
         <source>Warning: The settings in this page affect the inner workings of Eden&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
         <translation>警告: 此页面中的设置会影响 Eden 模拟触摸屏的内部运行。更改这些设置可能导致不良后果,例如触摸屏部分或完全无法使用。只有在明确知道自己在做什么的情况下才使用此页面。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="52"/>
+        <location filename="../../src/lichii/configuration/configure_touchscreen_advanced.ui" line="52"/>
         <source>Touch Parameters</source>
         <translation>触摸参数</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="71"/>
+        <location filename="../../src/lichii/configuration/configure_touchscreen_advanced.ui" line="71"/>
         <source>Touch Diameter Y</source>
         <translation>触摸直径 Y</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="91"/>
+        <location filename="../../src/lichii/configuration/configure_touchscreen_advanced.ui" line="91"/>
         <source>Touch Diameter X</source>
         <translation>触摸直径 X</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="98"/>
+        <location filename="../../src/lichii/configuration/configure_touchscreen_advanced.ui" line="98"/>
         <source>Rotational Angle</source>
         <translation>旋转角度</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="132"/>
+        <location filename="../../src/lichii/configuration/configure_touchscreen_advanced.ui" line="132"/>
         <source>Restore Defaults</source>
         <translation>恢复默认</translation>
     </message>
@@ -6180,43 +6190,43 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>ConfigureUI</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="35"/>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="47"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="35"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="47"/>
         <source>None</source>
         <translation>无</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="36"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="36"/>
         <source>Small (24x24)</source>
         <translation>小 (24x24)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="37"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="37"/>
         <source>Standard (48x48)</source>
         <translation>标准 (48x48)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="38"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="38"/>
         <source>Large (72x72)</source>
         <translation>大 (72x72)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="43"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="43"/>
         <source>Filename</source>
         <translation>文件名</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="44"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="44"/>
         <source>Filetype</source>
         <translation>文件类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="45"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="45"/>
         <source>Title ID</source>
         <translation>游戏 ID</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="46"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="46"/>
         <source>Title Name</source>
         <translation>游戏名称</translation>
     </message>
@@ -6224,122 +6234,122 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>ConfigureUi</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="17"/>
         <source>UI</source>
         <translation>界面</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="23"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="23"/>
         <source>General</source>
         <translation>通用</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="31"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="31"/>
         <source>Note: Changing language will apply your configuration.</source>
         <translation>注意: 切换语言将直接应用您当前的配置。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="43"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="43"/>
         <source>Interface language:</source>
         <translation>界面语言:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="57"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="57"/>
         <source>Theme:</source>
         <translation>主题:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="74"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="74"/>
         <source>Game List</source>
         <translation>游戏列表</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="82"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="82"/>
         <source>Show Add-Ons Column</source>
         <translation>显示“附加项”列</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="89"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="89"/>
         <source>Show Size Column</source>
         <translation>显示“文件大小”列</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="96"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="96"/>
         <source>Show File Types Column</source>
         <translation>显示“文件类型”列</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="103"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="103"/>
         <source>Show Play Time Column</source>
         <translation>显示“游玩时间”列</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="112"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="112"/>
         <source>Folder Icon Size:</source>
         <translation>文件夹图标大小:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="126"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="126"/>
         <source>Row 1 Text:</source>
         <translation>第一行:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="140"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="140"/>
         <source>Row 2 Text:</source>
         <translation>第二行:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="157"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="157"/>
         <source>Screenshots</source>
         <translation>捕获截图</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="165"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="165"/>
         <source>Ask Where To Save Screenshots (Windows Only)</source>
         <translation>询问保存截图的位置 (仅限 Windows )</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="174"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="174"/>
         <source>Screenshots Path: </source>
         <translation>截图保存位置： </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="184"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="184"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="200"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="200"/>
         <source>TextLabel</source>
         <translation>文本水印</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="219"/>
+        <location filename="../../src/lichii/configuration/configure_ui.ui" line="219"/>
         <source>Resolution:</source>
         <translation>分辨率：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="132"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="132"/>
         <source>Select Screenshots Path...</source>
         <translation>选择截图保存位置...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="227"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="227"/>
         <source>&lt;System&gt;</source>
         <translation>&lt;System&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="228"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="228"/>
         <source>English</source>
         <translation>英语</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="311"/>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="311"/>
         <source>Auto (%1 x %2, %3 x %4)</source>
         <comment>Screenshot width value</comment>
         <translation>自动 (%1 x %2, %3 x %4)</translation>
@@ -6352,79 +6362,79 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>ConfigureVibration</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="14"/>
         <source>Configure Vibration</source>
         <translation>震动设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="23"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="23"/>
         <source>Press any controller button to vibrate the controller.</source>
         <translation>按下控制器的任意按键以使控制器震动。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="30"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="30"/>
         <source>Vibration</source>
         <translation>震动</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="63"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="63"/>
         <source>Player 1</source>
         <translation>玩家 1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="96"/>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="148"/>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="200"/>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="252"/>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="322"/>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="374"/>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="426"/>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="478"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="96"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="148"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="200"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="252"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="322"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="374"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="426"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="478"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="115"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="115"/>
         <source>Player 2</source>
         <translation>玩家 2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="167"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="167"/>
         <source>Player 3</source>
         <translation>玩家 3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="219"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="219"/>
         <source>Player 4</source>
         <translation>玩家 4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="289"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="289"/>
         <source>Player 5</source>
         <translation>玩家 5</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="341"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="341"/>
         <source>Player 6</source>
         <translation>玩家 6</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="393"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="393"/>
         <source>Player 7</source>
         <translation>玩家 7</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="445"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="445"/>
         <source>Player 8</source>
         <translation>玩家 8</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="503"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="503"/>
         <source>Settings</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_vibration.ui" line="509"/>
+        <location filename="../../src/lichii/configuration/configure_vibration.ui" line="509"/>
         <source>Enable Accurate Vibration</source>
         <translation>启用精确震动</translation>
     </message>
@@ -6432,65 +6442,65 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>ConfigureWeb</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/configure_web.ui" line="14"/>
         <source>Form</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="17"/>
+        <location filename="../../src/lichii/configuration/configure_web.ui" line="17"/>
         <source>Web</source>
         <translation>网络</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_web.ui" line="25"/>
         <source>Eden Web Service</source>
         <translation>Eden 网络服务</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="33"/>
+        <location filename="../../src/lichii/configuration/configure_web.ui" line="33"/>
         <source>Token: </source>
         <translation>令牌: </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="46"/>
+        <location filename="../../src/lichii/configuration/configure_web.ui" line="46"/>
         <source>Username: </source>
         <translation>用户名: </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="105"/>
+        <location filename="../../src/lichii/configuration/configure_web.ui" line="105"/>
         <source>Generate</source>
         <translation>生成</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="130"/>
+        <location filename="../../src/lichii/configuration/configure_web.ui" line="130"/>
         <source>Web Service configuration can only be changed when a public room isn&apos;t being hosted.</source>
         <translation>公共房间未被创建时，才能更改网络服务设置。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="142"/>
+        <location filename="../../src/lichii/configuration/configure_web.ui" line="142"/>
         <source>Discord Presence</source>
         <translation>Discord 状态</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="148"/>
+        <location filename="../../src/lichii/configuration/configure_web.ui" line="148"/>
         <source>Show Current Game in your Discord Status</source>
         <translation>在您的 Discord 状态中显示当前游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="110"/>
-        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="118"/>
+        <location filename="../../src/lichii/configuration/configure_web.cpp" line="110"/>
+        <location filename="../../src/lichii/configuration/configure_web.cpp" line="118"/>
         <source>All Good</source>
         <comment>Tooltip</comment>
         <translation>全部正常</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="113"/>
+        <location filename="../../src/lichii/configuration/configure_web.cpp" line="113"/>
         <source>Must be between 4-20 characters</source>
         <comment>Tooltip</comment>
         <translation>必须在4-20个字符之间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="122"/>
+        <location filename="../../src/lichii/configuration/configure_web.cpp" line="122"/>
         <source>Must be 48 characters, and lowercase a-z</source>
         <comment>Tooltip</comment>
         <translation>必须为48个字符，且a-z为小写</translation>
@@ -6503,12 +6513,12 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>ControllerDialog</name>
     <message>
-        <location filename="../../src/yuzu/debugger/controller.cpp" line="23"/>
+        <location filename="../../src/lichii/debugger/controller.cpp" line="23"/>
         <source>Controller P1</source>
         <translation>控制器 P1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/controller.cpp" line="60"/>
+        <location filename="../../src/lichii/debugger/controller.cpp" line="60"/>
         <source>&amp;Controller P1</source>
         <translation>控制器 P1 (&amp;C)</translation>
     </message>
@@ -6516,37 +6526,37 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>DataDialog</name>
     <message>
-        <location filename="../../src/yuzu/data_dialog.ui" line="26"/>
+        <location filename="../../src/lichii/data_dialog.ui" line="26"/>
         <source>Data Manager</source>
         <translation>数据管理器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_dialog.ui" line="48"/>
+        <location filename="../../src/lichii/data_dialog.ui" line="48"/>
         <source>Deleting ANY data is IRREVERSABLE!</source>
         <translation>删除任何数据都是不可逆的!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_dialog.cpp" line="31"/>
+        <location filename="../../src/lichii/data_dialog.cpp" line="31"/>
         <source>Shaders</source>
         <translation>着色器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_dialog.cpp" line="32"/>
+        <location filename="../../src/lichii/data_dialog.cpp" line="32"/>
         <source>User NAND</source>
         <translation>用户 NAND</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_dialog.cpp" line="33"/>
+        <location filename="../../src/lichii/data_dialog.cpp" line="33"/>
         <source>System NAND</source>
         <translation>系统 NAND</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_dialog.cpp" line="34"/>
+        <location filename="../../src/lichii/data_dialog.cpp" line="34"/>
         <source>Mods</source>
         <translation>Mod</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_dialog.cpp" line="35"/>
+        <location filename="../../src/lichii/data_dialog.cpp" line="35"/>
         <source>Saves</source>
         <translation>存档</translation>
     </message>
@@ -6554,37 +6564,37 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>DataWidget</name>
     <message>
-        <location filename="../../src/yuzu/data_widget.ui" line="14"/>
+        <location filename="../../src/lichii/data_widget.ui" line="14"/>
         <source>Form</source>
         <translation>来自</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_widget.ui" line="22"/>
+        <location filename="../../src/lichii/data_widget.ui" line="22"/>
         <source>Tooltip</source>
         <translation>工具提示</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_widget.ui" line="70"/>
+        <location filename="../../src/lichii/data_widget.ui" line="70"/>
         <source>Open with your system file manager</source>
         <translation>使用您系统的文件管理器打开</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_widget.ui" line="106"/>
+        <location filename="../../src/lichii/data_widget.ui" line="106"/>
         <source>Delete all data in this directory. THIS IS 100% IRREVERSABLE!</source>
         <translation>删除此目录中的所有数据。这是 100% 不可逆的！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_widget.ui" line="142"/>
+        <location filename="../../src/lichii/data_widget.ui" line="142"/>
         <source>Export all data in this directory. This may take a while!</source>
         <translation>导出此目录中的所有数据。此过程可能需要一些时间!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_widget.ui" line="178"/>
+        <location filename="../../src/lichii/data_widget.ui" line="178"/>
         <source>Import data for this directory. This may take a while, and will delete ALL EXISTING DATA!</source>
         <translation>导入此目录的数据。这可能需要一些时间,并且会删除所有现有数据！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/data_dialog.cpp" line="95"/>
+        <location filename="../../src/lichii/data_dialog.cpp" line="95"/>
         <source>Calculating...</source>
         <translation>正在计算...</translation>
     </message>
@@ -6592,82 +6602,82 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>DepsDialog</name>
     <message>
-        <location filename="../../src/yuzu/deps_dialog.ui" line="14"/>
+        <location filename="../../src/lichii/deps_dialog.ui" line="14"/>
         <source>Eden Dependencies</source>
         <translation>Eden 依赖项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/deps_dialog.ui" line="72"/>
+        <location filename="../../src/lichii/deps_dialog.ui" line="72"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden 依赖项&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/deps_dialog.ui" line="85"/>
+        <location filename="../../src/lichii/deps_dialog.ui" line="85"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Eden possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;让 Eden 成为可能的项目&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/deps_dialog.cpp" line="22"/>
+        <location filename="../../src/lichii/deps_dialog.cpp" line="22"/>
         <source>Dependency</source>
         <translation>依赖项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/deps_dialog.cpp" line="22"/>
+        <location filename="../../src/lichii/deps_dialog.cpp" line="22"/>
         <source>Version</source>
         <translation>版本</translation>
     </message>
     <message>
-        <source>Lichii Dependencies</source>
-        <translation>Lichii 依赖项</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Lichii possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;让 Lichii 成为可能的项目&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii 依赖项&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Lichii possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;让 Lichii 成为可能的项目&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>Lichii Dependencies</source>
+        <translation>Lichii 依赖项</translation>
     </message>
 </context>
 <context>
     <name>DirectConnect</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.ui" line="14"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.ui" line="14"/>
         <source>Direct Connect</source>
         <translation>直接连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.ui" line="47"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.ui" line="47"/>
         <source>Server Address</source>
         <translation>服务器地址</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.ui" line="54"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.ui" line="54"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Server address of the host&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;服务器地址&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.ui" line="64"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.ui" line="64"/>
         <source>Port</source>
         <translation>端口</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.ui" line="71"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.ui" line="71"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Port number the host is listening on&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;服务器端口&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.ui" line="97"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.ui" line="97"/>
         <source>Nickname</source>
         <translation>昵称</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.ui" line="111"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.ui" line="111"/>
         <source>Password</source>
         <translation>密码</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.ui" line="153"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.ui" line="153"/>
         <source>Connect</source>
         <translation>连接</translation>
     </message>
@@ -6675,12 +6685,12 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>DirectConnectWindow</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.cpp" line="123"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.cpp" line="123"/>
         <source>Connecting</source>
         <translation>连接中</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/direct_connect.cpp" line="128"/>
+        <location filename="../../src/lichii/multiplayer/direct_connect.cpp" line="128"/>
         <source>Connect</source>
         <translation>连接</translation>
     </message>
@@ -6688,110 +6698,110 @@ Drag points to change position, or double-click table cells to edit values.</sou
 <context>
     <name>ErrorManager</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="11"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="11"/>
         <source>Username is not valid. Must be 4 to 20 alphanumeric characters.</source>
         <translation>用户名无效。必须是4到20个字母、数字字符。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="13"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="13"/>
         <source>Room name is not valid. Must be 4 to 20 alphanumeric characters.</source>
         <translation>房间名称无效。必须是4到20个字母数字字符。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="15"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="15"/>
         <source>Username is already in use or not valid. Please choose another.</source>
         <translation>用户名已被使用或无效。请选择其他用户名。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="17"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="17"/>
         <source>IP is not a valid IPv4 address.</source>
         <translation>IP 不是一个有效的 IPv4 地址。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="19"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="19"/>
         <source>Port must be a number between 0 to 65535.</source>
         <translation>请输入 0 到 65535 之间的数字。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="20"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="20"/>
         <source>You must choose a Preferred Game to host a room. If you do not have any games in your game list yet, add a game folder by clicking on the plus icon in the game list.</source>
         <translation>您必须选择一个首选游戏来创建房间。如果您的游戏列表中还没有任何游戏,请点击游戏列表中的加号图标添加一个游戏文件夹。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="24"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="24"/>
         <source>Unable to find an internet connection. Check your internet settings.</source>
         <translation>找不到网络连接。请检查您的网络设置。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="26"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="26"/>
         <source>Unable to connect to the host. Verify that the connection settings are correct. If you still cannot connect, contact the room host and verify that the host is properly configured with the external port forwarded.</source>
         <translation>无法连接到服务器。请检查连接设置是否正确。如果您仍然无法连接，请联系房主,并验证服务器是否正确配置了外部端口。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="30"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="30"/>
         <source>Unable to connect to the room because it is already full.</source>
         <translation>无法连接到该房间,因为该房间已满。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="32"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="32"/>
         <source>Creating a room failed. Please retry. Restarting Eden might be necessary.</source>
         <translation>创建房间失败。请重试。重启 Eden 可能会有助于解决问题。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="34"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="34"/>
         <source>The host of the room has banned you. Speak with the host to unban you or try a different room.</source>
         <translation>此房间的主人已将您封禁。请联系房主进行解封或选择其他房间。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="37"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="37"/>
         <source>Version mismatch! Please update to the latest version of Eden. If the problem persists, contact the room host and ask them to update the server.</source>
         <translation>版本不匹配!请升级到最新版本的 Eden。如果问题依然存在,请联系房间主机拥有者并建议他们升级服务器。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="39"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="39"/>
         <source>Incorrect password.</source>
         <translation>密码错误。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="40"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="40"/>
         <source>An unknown error occurred. If this error continues to occur, please open an issue</source>
         <translation>发生了未知错误。如果此错误继续发生，请打开一个Issue。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="43"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="43"/>
         <source>Connection to room lost. Try to reconnect.</source>
         <translation>与房间的连接丢失。尝试重新连接。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="45"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="45"/>
         <source>You have been kicked by the room host.</source>
         <translation>你被房间主人踢了。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="47"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="47"/>
         <source>IP address is already in use. Please choose another.</source>
         <translation>IP地址已在使用中。请选择另一个。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="49"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="49"/>
         <source>You do not have enough permission to perform this action.</source>
         <translation>您没有足够的权限执行此操作。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="50"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="50"/>
         <source>The user you are trying to kick/ban could not be found.
 They may have left the room.</source>
         <translation>找不到您试图踢/禁止的用户。他们可能已经离开房间了。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="52"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="52"/>
         <source>No valid network interface is selected.
 Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <translation>未选择有效的网络接口。
 请转到设置 -&gt; 系统 -&gt; 网络中进行相关设置。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="63"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="63"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
@@ -6799,50 +6809,50 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
 <context>
     <name>GRenderWindow</name>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="845"/>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="862"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="845"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="862"/>
         <source>OpenGL not available!</source>
         <translation>OpenGL 模式不可用！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="846"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="846"/>
         <source>OpenGL shared contexts are not supported.</source>
         <translation>不支持 OpenGL 共享上下文。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="863"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="863"/>
         <source>Eden has not been compiled with OpenGL support.</source>
         <translation>Eden 尚未编译为支持 OpenGL。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="887"/>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="905"/>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="915"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="887"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="905"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="915"/>
         <source>Error while initializing OpenGL!</source>
         <translation>初始化 OpenGL 时出错！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="888"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="888"/>
         <source>Your GPU may not support OpenGL, or you do not have the latest graphics driver.</source>
         <translation>您的 GPU 可能不支持 OpenGL ，或者您没有安装最新的显卡驱动。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="897"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="897"/>
         <source>Error while initializing OpenGL 4.6!</source>
         <translation>初始化 OpenGL 4.6 时出错！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="898"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="898"/>
         <source>Your GPU may not support OpenGL 4.6, or you do not have the latest graphics driver.&lt;br&gt;&lt;br&gt;GL Renderer:&lt;br&gt;%1</source>
         <translation>您的 GPU 可能不支持 OpenGL 4.6 ，或者您没有安装最新的显卡驱动。&lt;br&gt;&lt;br&gt;GL 渲染器：&lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="906"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="906"/>
         <source>Your GPU may not support one or more required OpenGL extensions. Please ensure you have the latest graphics driver.&lt;br&gt;&lt;br&gt;GL Renderer:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Unsupported extensions:&lt;br&gt;%2</source>
         <translation>您的 GPU 可能不支持某些必需的 OpenGL 扩展。请确保您已经安装最新的显卡驱动。&lt;br&gt;&lt;br&gt;GL 渲染器：&lt;br&gt;%1&lt;br&gt;&lt;br&gt;不支持的扩展：&lt;br&gt;%2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="916"/>
+        <location filename="../../src/lichii/bootmanager.cpp" line="916"/>
         <source>This build doesn&apos;t have OpenGL support.</source>
         <translation>此版本不支持 OpenGL。</translation>
     </message>
@@ -6854,173 +6864,173 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
 <context>
     <name>GameList</name>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="417"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="417"/>
         <source>&amp;Add New Game Directory</source>
         <translation>添加新游戏目录 (&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="451"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="451"/>
         <source>Favorite</source>
         <translation>收藏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="453"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="453"/>
         <source>Start Game</source>
         <translation>开始游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="455"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="455"/>
         <source>Start Game without Custom Configuration</source>
         <translation>使用公共设置项进行游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="457"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="457"/>
         <source>Open Save Data Location</source>
         <translation>打开存档位置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="458"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="458"/>
         <source>Open Mod Data Location</source>
         <translation>打开 MOD 数据位置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="460"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="460"/>
         <source>Open Transferable Pipeline Cache</source>
         <translation>打开可转移着色器缓存</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="461"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="461"/>
         <source>Link to Ryujinx</source>
         <translation>链接到 Ryujinx</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="463"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="463"/>
         <source>Remove</source>
         <translation>删除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="464"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="464"/>
         <source>Remove Installed Update</source>
         <translation>删除已安装的游戏更新</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="465"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="465"/>
         <source>Remove All Installed DLC</source>
         <translation>删除所有已安装 DLC</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="466"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="466"/>
         <source>Remove Custom Configuration</source>
         <translation>删除自定义设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="467"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="467"/>
         <source>Remove Cache Storage</source>
         <translation>移除缓存</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="468"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="468"/>
         <source>Remove OpenGL Pipeline Cache</source>
         <translation>删除 OpenGL 着色器缓存</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="469"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="469"/>
         <source>Remove Vulkan Pipeline Cache</source>
         <translation>删除 Vulkan 着色器缓存</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="471"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="471"/>
         <source>Remove All Pipeline Caches</source>
         <translation>删除所有着色器缓存</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="472"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="472"/>
         <source>Remove All Installed Contents</source>
         <translation>删除所有安装的项目</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="473"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="473"/>
         <source>Manage Play Time</source>
         <translation>管理游戏时间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="474"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="474"/>
         <source>Edit Play Time Data</source>
         <translation>编辑游戏时间数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="475"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="475"/>
         <source>Remove Play Time Data</source>
         <translation>清除游玩时间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="476"/>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="477"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="476"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="477"/>
         <source>Dump RomFS</source>
         <translation>转储 RomFS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="478"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="478"/>
         <source>Dump RomFS to SDMC</source>
         <translation>转储 RomFS 到 SDMC</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="479"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="479"/>
         <source>Verify Integrity</source>
         <translation>完整性验证</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="480"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="480"/>
         <source>Copy Title ID to Clipboard</source>
         <translation>复制游戏 ID 到剪贴板</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="482"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="482"/>
         <source>Create Shortcut</source>
         <translation>创建快捷方式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="483"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="483"/>
         <source>Add to Desktop</source>
         <translation>添加到桌面</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="485"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="485"/>
         <source>Add to Applications Menu</source>
         <translation>添加到应用程序菜单</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="488"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="488"/>
         <source>Configure Game</source>
         <translation>配置游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="581"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="581"/>
         <source>Scan Subfolders</source>
         <translation>扫描子文件夹</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="582"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="582"/>
         <source>Remove Game Directory</source>
         <translation>移除游戏目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="601"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="601"/>
         <source>▲ Move Up</source>
         <translation>▲ 向上移动</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="602"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="602"/>
         <source>▼ Move Down</source>
         <translation>▼ 向下移动</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="603"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="603"/>
         <source>Open Directory Location</source>
         <translation>打开目录位置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="643"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="643"/>
         <source>Clear</source>
         <translation>清除</translation>
     </message>
@@ -7031,6 +7041,14 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
     <message>
         <source>Remove Update or DLC...</source>
         <translation>移除更新或 DLC...</translation>
+    </message>
+    <message>
+        <source>%1 games</source>
+        <translation>%1 个游戏</translation>
+    </message>
+    <message>
+        <source>1 game</source>
+        <translation>1 个游戏</translation>
     </message>
     <message>
         <source>Rebuild Shader Precache</source>
@@ -7071,14 +7089,6 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
     <message>
         <source>Delete Shader Precache</source>
         <translation>删除着色器预编译缓存</translation>
-    </message>
-    <message>
-        <source>1 game</source>
-        <translation>1 个游戏</translation>
-    </message>
-    <message>
-        <source>%1 games</source>
-        <translation>%1 个游戏</translation>
     </message>
 </context>
 <context>
@@ -7175,7 +7185,7 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
 <context>
     <name>GameListPlaceholder</name>
     <message>
-        <location filename="../../src/yuzu/game/game_list.cpp" line="785"/>
+        <location filename="../../src/lichii/game/game_list.cpp" line="785"/>
         <source>Double-click to add a new folder to the game list</source>
         <translation>双击添加新的游戏文件夹</translation>
     </message>
@@ -7183,17 +7193,17 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
 <context>
     <name>GameListSearchField</name>
     <message numerus="yes">
-        <location filename="../../src/yuzu/game/search_field.cpp" line="67"/>
+        <location filename="../../src/lichii/game/search_field.cpp" line="67"/>
         <source>%1 of %n result(s)</source>
         <translation><numerusform>%n个结果中的第%1个</numerusform></translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/search_field.cpp" line="122"/>
+        <location filename="../../src/lichii/game/search_field.cpp" line="122"/>
         <source>Filter:</source>
         <translation>搜索:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game/search_field.cpp" line="123"/>
+        <location filename="../../src/lichii/game/search_field.cpp" line="123"/>
         <source>Enter pattern to filter</source>
         <translation>搜索游戏</translation>
     </message>
@@ -7201,67 +7211,67 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
 <context>
     <name>HostRoom</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="14"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="14"/>
         <source>Create Room</source>
         <translation>创建房间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="37"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="37"/>
         <source>Room Name</source>
         <translation>房间名称</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="51"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="51"/>
         <source>Preferred Game</source>
         <translation>首选游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="61"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="61"/>
         <source>Max Players</source>
         <translation>最大玩家数</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="91"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="91"/>
         <source>Username</source>
         <translation>用户名</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="101"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="101"/>
         <source>(Leave blank for open game)</source>
         <translation>(留空表示不限定游戏)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="118"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="118"/>
         <source>Password</source>
         <translation>密码</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="125"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="125"/>
         <source>Port</source>
         <translation>端口</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="139"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="139"/>
         <source>Room Description</source>
         <translation>房间描述</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="153"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="153"/>
         <source>Load Previous Ban List</source>
         <translation>加载先前的封禁列表</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="184"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="184"/>
         <source>Public</source>
         <translation>公共</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="189"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="189"/>
         <source>Unlisted</source>
         <translation>私有</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.ui" line="197"/>
+        <location filename="../../src/lichii/multiplayer/host_room.ui" line="197"/>
         <source>Host Room</source>
         <translation>创建房间</translation>
     </message>
@@ -7269,12 +7279,12 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
 <context>
     <name>HostRoomWindow</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.cpp" line="186"/>
+        <location filename="../../src/lichii/multiplayer/host_room.cpp" line="186"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.cpp" line="187"/>
+        <location filename="../../src/lichii/multiplayer/host_room.cpp" line="187"/>
         <source>Failed to announce the room to the public lobby. In order to host a room publicly, you must have a valid Eden account configured in Emulation -&gt; Configure -&gt; Web. If you do not want to publish a room in the public lobby, then select Unlisted instead.
 Debug Message: </source>
         <translation>无法在公开大厅发布房间。要公开创建房间，必须在“模拟 → 设置 → 网络”中配置有效的 Eden 账号。如果不想在公开大厅发布房间，请改为选择“不公开”。
@@ -7497,22 +7507,22 @@ Debug Message: </source>
 <context>
     <name>InstallDialog</name>
     <message>
-        <location filename="../../src/yuzu/install_dialog.cpp" line="32"/>
+        <location filename="../../src/lichii/install_dialog.cpp" line="32"/>
         <source>Please confirm these are the files you wish to install.</source>
         <translation>请确认这些您想要安装的文件。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/install_dialog.cpp" line="35"/>
+        <location filename="../../src/lichii/install_dialog.cpp" line="35"/>
         <source>Installing an Update or DLC will overwrite the previously installed one.</source>
         <translation>安装游戏更新或 DLC 时，会覆盖以前安装的内容。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/install_dialog.cpp" line="39"/>
+        <location filename="../../src/lichii/install_dialog.cpp" line="39"/>
         <source>Install</source>
         <translation>安装</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/install_dialog.cpp" line="52"/>
+        <location filename="../../src/lichii/install_dialog.cpp" line="52"/>
         <source>Install Files to NAND</source>
         <translation>安装文件到 NAND</translation>
     </message>
@@ -7520,7 +7530,7 @@ Debug Message: </source>
 <context>
     <name>LimitableInputDialog</name>
     <message>
-        <location filename="../../src/yuzu/util/limitable_input_dialog.cpp" line="60"/>
+        <location filename="../../src/lichii/util/limitable_input_dialog.cpp" line="60"/>
         <source>The text can't contain any of the following characters:
 %1</source>
         <translation>文本中不能包含以下字符：
@@ -7530,37 +7540,37 @@ Debug Message: </source>
 <context>
     <name>LoadingScreen</name>
     <message>
-        <location filename="../../src/yuzu/loading_screen.ui" line="84"/>
+        <location filename="../../src/lichii/loading_screen.ui" line="84"/>
         <source>Loading Shaders 387 / 1628</source>
         <translation>正在加载着色器: 387 / 1628</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.ui" line="121"/>
+        <location filename="../../src/lichii/loading_screen.ui" line="121"/>
         <source>Loading Shaders %v out of %m</source>
         <translation>正在加载着色器: %v / %m</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.ui" line="135"/>
+        <location filename="../../src/lichii/loading_screen.ui" line="135"/>
         <source>Estimated Time 5m 4s</source>
         <translation>所需时间: 5 分 4 秒</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.cpp" line="86"/>
+        <location filename="../../src/lichii/loading_screen.cpp" line="86"/>
         <source>Loading...</source>
         <translation>加载中...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.cpp" line="87"/>
+        <location filename="../../src/lichii/loading_screen.cpp" line="87"/>
         <source>Loading Shaders %1 / %2</source>
         <translation>正在加载着色器: %1 / %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.cpp" line="88"/>
+        <location filename="../../src/lichii/loading_screen.cpp" line="88"/>
         <source>Launching...</source>
         <translation>启动中...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.cpp" line="173"/>
+        <location filename="../../src/lichii/loading_screen.cpp" line="173"/>
         <source>Estimated Time %1</source>
         <translation>所需时间: %1</translation>
     </message>
@@ -7580,83 +7590,83 @@ Debug Message: </source>
 <context>
     <name>Lobby</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.ui" line="14"/>
+        <location filename="../../src/lichii/multiplayer/lobby.ui" line="14"/>
         <source>Public Room Browser</source>
         <translation>公共房间浏览器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.ui" line="32"/>
-        <location filename="../../src/yuzu/multiplayer/lobby.ui" line="39"/>
+        <location filename="../../src/lichii/multiplayer/lobby.ui" line="32"/>
+        <location filename="../../src/lichii/multiplayer/lobby.ui" line="39"/>
         <source>Nickname</source>
         <translation>昵称</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.ui" line="59"/>
+        <location filename="../../src/lichii/multiplayer/lobby.ui" line="59"/>
         <source>Filters</source>
         <translation>过滤器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.ui" line="66"/>
+        <location filename="../../src/lichii/multiplayer/lobby.ui" line="66"/>
         <source>Search</source>
         <translation>搜索</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.ui" line="76"/>
+        <location filename="../../src/lichii/multiplayer/lobby.ui" line="76"/>
         <source>Games I Own</source>
         <translation>我拥有的游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.ui" line="83"/>
+        <location filename="../../src/lichii/multiplayer/lobby.ui" line="83"/>
         <source>Hide Empty Rooms</source>
         <translation>隐藏空房间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.ui" line="90"/>
+        <location filename="../../src/lichii/multiplayer/lobby.ui" line="90"/>
         <source>Hide Full Rooms</source>
         <translation>隐藏满员的房间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.ui" line="110"/>
+        <location filename="../../src/lichii/multiplayer/lobby.ui" line="110"/>
         <source>Refresh Lobby</source>
         <translation>刷新游戏大厅</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="122"/>
+        <location filename="../../src/lichii/multiplayer/lobby.cpp" line="122"/>
         <source>Password Required to Join</source>
         <translation>需要密码</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="122"/>
+        <location filename="../../src/lichii/multiplayer/lobby.cpp" line="122"/>
         <source>Password:</source>
         <translation>密码:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="229"/>
+        <location filename="../../src/lichii/multiplayer/lobby.cpp" line="229"/>
         <source>Players</source>
         <translation>玩家数</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="230"/>
+        <location filename="../../src/lichii/multiplayer/lobby.cpp" line="230"/>
         <source>Room Name</source>
         <translation>房间名称</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="231"/>
+        <location filename="../../src/lichii/multiplayer/lobby.cpp" line="231"/>
         <source>Preferred Game</source>
         <translation>首选游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="232"/>
+        <location filename="../../src/lichii/multiplayer/lobby.cpp" line="232"/>
         <source>Host</source>
         <translation>房主</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="239"/>
+        <location filename="../../src/lichii/multiplayer/lobby.cpp" line="239"/>
         <source>Refreshing</source>
         <translation>刷新中</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="296"/>
+        <location filename="../../src/lichii/multiplayer/lobby.cpp" line="296"/>
         <source>Refresh List</source>
         <translation>刷新列表</translation>
     </message>
@@ -7664,1162 +7674,1162 @@ Debug Message: </source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="14"/>
-        <source>yuzu</source>
-        <translation>yuzu</translation>
+        <location filename="../../src/lichii/main.ui" line="14"/>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="53"/>
+        <location filename="../../src/lichii/main.ui" line="53"/>
         <source>&amp;File</source>
         <translation>文件 (&amp;F)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="57"/>
+        <location filename="../../src/lichii/main.ui" line="57"/>
         <source>&amp;Recent Files</source>
         <translation>最近文件 (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="62"/>
+        <location filename="../../src/lichii/main.ui" line="62"/>
         <source>Open &amp;Eden Folders</source>
         <translation>打开 &amp;Eden 文件夹</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="85"/>
+        <location filename="../../src/lichii/main.ui" line="85"/>
         <source>&amp;Emulation</source>
         <translation>模拟 (&amp;E)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="96"/>
+        <location filename="../../src/lichii/main.ui" line="96"/>
         <source>&amp;View</source>
         <translation>视图 (&amp;V)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="100"/>
+        <location filename="../../src/lichii/main.ui" line="100"/>
         <source>&amp;Reset Window Size</source>
         <translation>重置窗口大小 (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="105"/>
+        <location filename="../../src/lichii/main.ui" line="105"/>
         <source>&amp;Debugging</source>
         <translation>调试 (&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="110"/>
+        <location filename="../../src/lichii/main.ui" line="110"/>
         <source>&amp;Game List Mode</source>
         <translation>游戏列表模式 (&amp;G)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="118"/>
+        <location filename="../../src/lichii/main.ui" line="118"/>
         <source>Game &amp;Icon Size</source>
         <translation>游戏图标大小 (&amp;I)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="123"/>
+        <location filename="../../src/lichii/main.ui" line="123"/>
         <source>Reset Window Size to &amp;720p</source>
         <translation>重置窗口大小为720p (&amp;7)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="126"/>
+        <location filename="../../src/lichii/main.ui" line="126"/>
         <source>Reset Window Size to 720p</source>
         <translation>重置窗口大小为720p</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="131"/>
+        <location filename="../../src/lichii/main.ui" line="131"/>
         <source>Reset Window Size to &amp;900p</source>
         <translation>重置窗口大小为900p (&amp;9)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="134"/>
+        <location filename="../../src/lichii/main.ui" line="134"/>
         <source>Reset Window Size to 900p</source>
         <translation>重置窗口大小为900p</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="139"/>
+        <location filename="../../src/lichii/main.ui" line="139"/>
         <source>Reset Window Size to &amp;1080p</source>
         <translation>重置窗口大小为1080p (&amp;1)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="142"/>
+        <location filename="../../src/lichii/main.ui" line="142"/>
         <source>Reset Window Size to 1080p</source>
         <translation>重置窗口大小为1080p</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="164"/>
+        <location filename="../../src/lichii/main.ui" line="164"/>
         <source>&amp;Multiplayer</source>
         <translation>多人游戏 (&amp;M)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="175"/>
+        <location filename="../../src/lichii/main.ui" line="175"/>
         <source>&amp;Tools</source>
         <translation>工具 (&amp;T)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="179"/>
+        <location filename="../../src/lichii/main.ui" line="179"/>
         <source>Am&amp;iibo</source>
         <translation>Am&amp;iibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="188"/>
+        <location filename="../../src/lichii/main.ui" line="188"/>
         <source>Launch &amp;Applet</source>
         <translation>启动小程序 (&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="197"/>
+        <location filename="../../src/lichii/main.ui" line="197"/>
         <source>&amp;TAS</source>
         <translation>TAS (&amp;T)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="207"/>
+        <location filename="../../src/lichii/main.ui" line="207"/>
         <source>&amp;Create Home Menu Shortcut</source>
         <translation>创建主页菜单快捷方式(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="214"/>
+        <location filename="../../src/lichii/main.ui" line="214"/>
         <source>Install &amp;Firmware</source>
         <translation>安装固件(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="233"/>
+        <location filename="../../src/lichii/main.ui" line="233"/>
         <source>&amp;Help</source>
         <translation>帮助 (&amp;H)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="254"/>
+        <location filename="../../src/lichii/main.ui" line="254"/>
         <source>&amp;Install Files to NAND...</source>
         <translation>安装文件到 NAND... (&amp;I)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="259"/>
+        <location filename="../../src/lichii/main.ui" line="259"/>
         <source>L&amp;oad File...</source>
         <translation>加载文件... (&amp;O)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="264"/>
+        <location filename="../../src/lichii/main.ui" line="264"/>
         <source>Load &amp;Folder...</source>
         <translation>加载文件夹... (&amp;F)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="269"/>
+        <location filename="../../src/lichii/main.ui" line="269"/>
         <source>E&amp;xit</source>
         <translation>退出 (&amp;X)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="277"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="1661"/>
+        <location filename="../../src/lichii/main.ui" line="277"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1661"/>
         <source>&amp;Pause</source>
         <translation>暂停 (&amp;P)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="285"/>
+        <location filename="../../src/lichii/main.ui" line="285"/>
         <source>&amp;Stop</source>
         <translation>停止 (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="290"/>
+        <location filename="../../src/lichii/main.ui" line="290"/>
         <source>&amp;Verify Installed Contents</source>
         <translation>验证已安装内容的完整性 (&amp;V)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="295"/>
+        <location filename="../../src/lichii/main.ui" line="295"/>
         <source>&amp;About Eden</source>
         <translation>关于 Eden(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="303"/>
+        <location filename="../../src/lichii/main.ui" line="303"/>
         <source>Single &amp;Window Mode</source>
         <translation>单窗口模式 (&amp;W)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="308"/>
+        <location filename="../../src/lichii/main.ui" line="308"/>
         <source>Con&amp;figure...</source>
         <translation>设置... (&amp;F)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="311"/>
+        <location filename="../../src/lichii/main.ui" line="311"/>
         <source>Ctrl+,</source>
         <translation>Ctrl+,</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="322"/>
+        <location filename="../../src/lichii/main.ui" line="322"/>
         <source>Enable Overlay Display Applet</source>
         <translation>开启覆盖层显示小程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="330"/>
+        <location filename="../../src/lichii/main.ui" line="330"/>
         <source>Show &amp;Filter Bar</source>
         <translation>显示搜索栏 (&amp;F)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="338"/>
+        <location filename="../../src/lichii/main.ui" line="338"/>
         <source>Show &amp;Status Bar</source>
         <translation>显示状态栏 (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="341"/>
+        <location filename="../../src/lichii/main.ui" line="341"/>
         <source>Show Status Bar</source>
         <translation>显示状态栏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="349"/>
+        <location filename="../../src/lichii/main.ui" line="349"/>
         <source>&amp;Browse Public Game Lobby</source>
         <translation>浏览公共游戏大厅 (&amp;B)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="357"/>
+        <location filename="../../src/lichii/main.ui" line="357"/>
         <source>&amp;Create Room</source>
         <translation>创建房间 (&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="365"/>
+        <location filename="../../src/lichii/main.ui" line="365"/>
         <source>&amp;Leave Room</source>
         <translation>离开房间 (&amp;L)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="370"/>
+        <location filename="../../src/lichii/main.ui" line="370"/>
         <source>&amp;Direct Connect to Room</source>
         <translation>直接连接到房间 (&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="378"/>
+        <location filename="../../src/lichii/main.ui" line="378"/>
         <source>&amp;Show Current Room</source>
         <translation>显示当前房间 (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="386"/>
+        <location filename="../../src/lichii/main.ui" line="386"/>
         <source>F&amp;ullscreen</source>
         <translation>全屏 (&amp;U)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="394"/>
+        <location filename="../../src/lichii/main.ui" line="394"/>
         <source>&amp;Restart</source>
         <translation>重新启动 (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="402"/>
+        <location filename="../../src/lichii/main.ui" line="402"/>
         <source>Load/Remove &amp;Amiibo...</source>
         <translation>加载/移除 Amiibo... (&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="407"/>
+        <location filename="../../src/lichii/main.ui" line="407"/>
         <source>Open &amp;Mods Page</source>
         <translation>打开 Mod 页面 (&amp;M)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="412"/>
+        <location filename="../../src/lichii/main.ui" line="412"/>
         <source>&amp;User Handbook</source>
         <translation>用户手册(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="420"/>
+        <location filename="../../src/lichii/main.ui" line="420"/>
         <source>&amp;Capture Screenshot</source>
         <translation>捕获截图 (&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="425"/>
+        <location filename="../../src/lichii/main.ui" line="425"/>
         <source>&amp;Album</source>
         <translation>相册 (&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="430"/>
+        <location filename="../../src/lichii/main.ui" line="430"/>
         <source>&amp;Set Nickname and Owner</source>
         <translation>设置昵称及所有者 (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="435"/>
+        <location filename="../../src/lichii/main.ui" line="435"/>
         <source>&amp;Delete Game Data</source>
         <translation>删除游戏数据 (&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="440"/>
+        <location filename="../../src/lichii/main.ui" line="440"/>
         <source>&amp;Restore Amiibo</source>
         <translation>重置 Amiibo (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="445"/>
+        <location filename="../../src/lichii/main.ui" line="445"/>
         <source>&amp;Format Amiibo</source>
         <translation>格式化 Amiibo (&amp;F)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="450"/>
+        <location filename="../../src/lichii/main.ui" line="450"/>
         <source>&amp;Mii Editor</source>
         <translation>Mii 编辑器 (&amp;M)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="455"/>
+        <location filename="../../src/lichii/main.ui" line="455"/>
         <source>&amp;Configure TAS...</source>
         <translation>配置 TAS... (&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="466"/>
+        <location filename="../../src/lichii/main.ui" line="466"/>
         <source>Configure C&amp;urrent Game...</source>
         <translation>配置当前游戏... (&amp;U)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="477"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="4156"/>
+        <location filename="../../src/lichii/main.ui" line="477"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4156"/>
         <source>&amp;Start</source>
         <translation>开始 (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="485"/>
+        <location filename="../../src/lichii/main.ui" line="485"/>
         <source>&amp;Reset</source>
         <translation>重置 (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="493"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="4157"/>
+        <location filename="../../src/lichii/main.ui" line="493"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4157"/>
         <source>R&amp;ecord</source>
         <translation>录制 (&amp;E)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="498"/>
+        <location filename="../../src/lichii/main.ui" line="498"/>
         <source>Open &amp;Controller Menu</source>
         <translation>打开控制器菜单 (&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="503"/>
+        <location filename="../../src/lichii/main.ui" line="503"/>
         <source>Install Decryption &amp;Keys</source>
         <translation>安装解密密钥(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="508"/>
+        <location filename="../../src/lichii/main.ui" line="508"/>
         <source>&amp;Home Menu</source>
         <translation>主页 (&amp;H)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="513"/>
+        <location filename="../../src/lichii/main.ui" line="513"/>
         <source>&amp;Desktop</source>
         <translation>桌面(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="518"/>
+        <location filename="../../src/lichii/main.ui" line="518"/>
         <source>&amp;Application Menu</source>
         <translation>应用程序菜单(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="523"/>
+        <location filename="../../src/lichii/main.ui" line="523"/>
         <source>&amp;Root Data Folder</source>
         <translation>根数据文件夹(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="528"/>
+        <location filename="../../src/lichii/main.ui" line="528"/>
         <source>&amp;NAND Folder</source>
         <translation>&amp;NAND 文件夹</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="533"/>
+        <location filename="../../src/lichii/main.ui" line="533"/>
         <source>&amp;SDMC Folder</source>
         <translation>&amp;SDMC 文件夹</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="538"/>
+        <location filename="../../src/lichii/main.ui" line="538"/>
         <source>&amp;Mod Folder</source>
         <translation>&amp;Mod 文件夹</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="543"/>
+        <location filename="../../src/lichii/main.ui" line="543"/>
         <source>&amp;Log Folder</source>
         <translation>&amp;Log 文件夹</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="548"/>
+        <location filename="../../src/lichii/main.ui" line="548"/>
         <source>From Folder</source>
         <translation>从文件夹</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="553"/>
+        <location filename="../../src/lichii/main.ui" line="553"/>
         <source>From ZIP</source>
         <translation>从 ZIP</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="558"/>
+        <location filename="../../src/lichii/main.ui" line="558"/>
         <source>&amp;Eden Dependencies</source>
         <translation>&amp;Eden 依赖项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="563"/>
+        <location filename="../../src/lichii/main.ui" line="563"/>
         <source>&amp;Data Manager</source>
         <translation>数据管理器(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="571"/>
+        <location filename="../../src/lichii/main.ui" line="571"/>
         <source>&amp;Tree View</source>
         <translation>树景视图 (&amp;T)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="579"/>
+        <location filename="../../src/lichii/main.ui" line="579"/>
         <source>&amp;Grid View</source>
         <translation>网格视图 (&amp;G)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="584"/>
+        <location filename="../../src/lichii/main.ui" line="584"/>
         <source>Game Icon Size</source>
         <translation>游戏图标大小</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="589"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="331"/>
+        <location filename="../../src/lichii/main.ui" line="589"/>
+        <location filename="../../src/lichii/main_window.cpp" line="331"/>
         <location filename="../../src/qt_common/config/shared_translation.h" line="31"/>
         <source>None</source>
         <translation>无</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="597"/>
+        <location filename="../../src/lichii/main.ui" line="597"/>
         <source>Show Game &amp;Name</source>
         <translation>显示游戏名称 (&amp;N)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="605"/>
+        <location filename="../../src/lichii/main.ui" line="605"/>
         <source>Show &amp;Performance Overlay</source>
         <translation>显示性能覆盖层</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="610"/>
+        <location filename="../../src/lichii/main.ui" line="610"/>
         <source>Post-Processing &amp;Shaders...</source>
         <translation>后处理效果着色器(&amp;S)...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="618"/>
+        <location filename="../../src/lichii/main.ui" line="618"/>
         <source>&amp;Carousel View</source>
         <translation>轮播视图(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="332"/>
+        <location filename="../../src/lichii/main_window.cpp" line="332"/>
         <source>Small (32x32)</source>
         <translation>小 (32x32)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="333"/>
+        <location filename="../../src/lichii/main_window.cpp" line="333"/>
         <source>Standard (64x64)</source>
         <translation>标准 (64x64)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="334"/>
+        <location filename="../../src/lichii/main_window.cpp" line="334"/>
         <source>Large (128x128)</source>
         <translation>大 (128x128)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="335"/>
+        <location filename="../../src/lichii/main_window.cpp" line="335"/>
         <source>Full Size (256x256)</source>
         <translation>最大 (256x256)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="481"/>
+        <location filename="../../src/lichii/main_window.cpp" line="481"/>
         <source>Broken Vulkan Installation Detected</source>
         <translation>检测到损坏的 Vulkan 安装</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="482"/>
+        <location filename="../../src/lichii/main_window.cpp" line="482"/>
         <source>Vulkan initialization failed during boot.</source>
         <translation>在启动时初始化 Vulkan 失败。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="503"/>
+        <location filename="../../src/lichii/main_window.cpp" line="503"/>
         <source>Running a game</source>
-        <extracomment>TRANSLATORS: This string is shown to the user to explain why yuzu needs to prevent the computer from sleeping</extracomment>
+        <extracomment>TRANSLATORS: This string is shown to the user to explain why Lichii needs to prevent the computer from sleeping</extracomment>
         <translation>运行游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="786"/>
+        <location filename="../../src/lichii/main_window.cpp" line="786"/>
         <source>Loading Web Applet...</source>
         <translation>正在加载 Web 小程序...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="836"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="839"/>
+        <location filename="../../src/lichii/main_window.cpp" line="836"/>
+        <location filename="../../src/lichii/main_window.cpp" line="839"/>
         <source>Disable Web Applet</source>
         <translation>禁用 Web 小程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="840"/>
+        <location filename="../../src/lichii/main_window.cpp" line="840"/>
         <source>Disabling the web applet can lead to undefined behavior and should only be used with Super Mario 3D All-Stars. Are you sure you want to disable the web applet?
 (This can be re-enabled in the Debug settings.)</source>
         <translation>禁用网页小程序可能会导致未定义的行为并且应仅在 超级马里奥 3D 全明星中使用。您确定要禁用网页小程序吗?
 (这可以在调试设置中重新启用。)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="954"/>
+        <location filename="../../src/lichii/main_window.cpp" line="954"/>
         <source>The amount of shaders currently being built</source>
         <translation>当前正在构建的着色器数量</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="956"/>
+        <location filename="../../src/lichii/main_window.cpp" line="956"/>
         <source>The current selected resolution scaling multiplier.</source>
         <translation>当前选择的分辨率缩放倍数。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="959"/>
+        <location filename="../../src/lichii/main_window.cpp" line="959"/>
         <source>Current emulation speed. Values higher or lower than 100% indicate emulation is running faster or slower than a Switch.</source>
         <translation>当前模拟速度。高于或低于 100% 的数值表示模拟运行比 Switch 快或慢。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="962"/>
+        <location filename="../../src/lichii/main_window.cpp" line="962"/>
         <source>How many frames per second the game is currently displaying. This will vary from game to game and scene to scene.</source>
         <translation>游戏当前显示的每秒帧数。这个数值会因游戏和场景的不同而有所变化。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="966"/>
+        <location filename="../../src/lichii/main_window.cpp" line="966"/>
         <source>Time taken to emulate a Switch frame, not counting framelimiting or v-sync. For full-speed emulation this should be at most 16.67 ms.</source>
         <translation>模拟 Switch 一帧所需的时间,不包括帧限制或垂直同步。为了全速模拟这个时间最多应为 16.67 毫秒。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1027"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1027"/>
         <source>Unmute</source>
         <translation>取消静音</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1027"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1027"/>
         <source>Mute</source>
         <translation>静音</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1032"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1032"/>
         <source>Reset Volume</source>
         <translation>重置音量</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1070"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1070"/>
         <source>Configure Effects...</source>
         <translation>配置效果...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1242"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1242"/>
         <source>&amp;Clear Recent Files</source>
         <translation>清除最近的文件(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1659"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1659"/>
         <source>&amp;Continue</source>
         <translation>继续(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1821"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1821"/>
         <source>Warning: Outdated Game Format</source>
         <translation>警告: 游戏格式过时</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1822"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1822"/>
         <source>You are using the deconstructed ROM directory format for this game, which is an outdated format that has been superseded by others such as NCA, NAX, XCI, or NSP. Deconstructed ROM directories lack icons, metadata, and update support.&lt;br&gt;For an explanation of the various Switch formats Eden supports, out our user handbook. This message will not be shown again.</source>
         <translation>您正在为此游戏使用解包 ROM 目录格式,这是一种已过时的格式,它已被 NCA、NAX、XCI 或 NSP 等其他格式取代。解包 ROM 目录缺少图标、元数据和更新支持。&lt;br&gt;有关 Eden 支持的各种 Switch 格式的说明请查阅我们的用户手册。此消息将不再显示。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1833"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="1863"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1833"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1863"/>
         <source>Error while loading ROM!</source>
         <translation>加载 ROM 时出错!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1834"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1834"/>
         <source>The ROM format is not supported.</source>
         <translation>不支持该 ROM 格式。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1838"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1838"/>
         <source>An error occurred initializing the video core.</source>
         <translation>初始化视频核心时发生错误。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1839"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1839"/>
         <source>This is usually caused by outdated GPU drivers. Please see the log for more details. See: &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/HowToAccessLogs.md&apos;&gt;How to access log files&lt;/a&gt;.</source>
         <translation>这通常是因为过时的 GPU 驱动所导致的。具体情况请查看日志。请查阅: &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/HowToAccessLogs.md&apos;&gt;如何访问日志文件&lt;/a&gt;。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1852"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1852"/>
         <source>Error while loading ROM! %1</source>
         <comment>%1 signifies a numeric error code.</comment>
         <translation>加载 ROM 时出错! %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1855"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1855"/>
         <source>%1&lt;br&gt;Please redump your files or ask on Discord/Stoat for help.</source>
         <comment>%1 signifies an error string.</comment>
         <translation>%1&lt;br&gt;请重新导出您的文件，或在 Discord/Stoat 上寻求帮助。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="1864"/>
+        <location filename="../../src/lichii/main_window.cpp" line="1864"/>
         <source>An unknown error occurred. Please see the log for more details.</source>
         <translation>发生未知错误。请查看日志以获取更多详情。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2038"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="4069"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2038"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4069"/>
         <source>(64-bit)</source>
         <translation>(64 位)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2038"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="4069"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2038"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4069"/>
         <source>(32-bit)</source>
         <translation>(32 位)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2039"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="4071"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2039"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4071"/>
         <source>%1 %2</source>
         <comment>%1 is the title name. %2 indicates if the title is 64-bit or 32-bit</comment>
         <translation>%1 %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2117"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2117"/>
         <source>Closing software...</source>
         <translation>正在关闭软件...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2283"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2283"/>
         <source>Save Data</source>
         <translation>存档数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2314"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2314"/>
         <source>Mod Data</source>
         <translation>Mod 数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2327"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2327"/>
         <source>Error Opening %1 Folder</source>
         <translation>打开 %1 文件夹出错</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2328"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="2661"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2328"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2661"/>
         <source>Folder does not exist!</source>
         <translation>文件夹不存在!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2406"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2406"/>
         <source>Remove Installed Game Contents?</source>
         <translation>是否移除已安装的游戏内容?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2408"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2408"/>
         <source>Remove Installed Game Update?</source>
         <translation>是否移除已安装的游戏更新？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2410"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2410"/>
         <source>Remove Installed Game DLC?</source>
         <translation>是否移除已安装的游戏 DLC?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2416"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2416"/>
         <source>Remove Entry</source>
         <translation>删除条目</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2446"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2446"/>
         <source>Delete OpenGL Transferable Shader Cache?</source>
         <translation>要删除 OpenGL 可传输着色器缓存吗?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2448"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2448"/>
         <source>Delete Vulkan Transferable Shader Cache?</source>
         <translation>要删除 Vulkan 可传输着色器缓存吗?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2450"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2450"/>
         <source>Delete All Transferable Shader Caches?</source>
         <translation>删除所有可传输的着色器缓存？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2452"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2452"/>
         <source>Remove Custom Game Configuration?</source>
         <translation>是否移除自定义游戏配置？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2454"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2454"/>
         <source>Remove Cache Storage?</source>
         <translation>要清除缓存存储吗?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2460"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2460"/>
         <source>Remove File</source>
         <translation>删除文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2497"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2497"/>
         <source>Remove Play Time Data</source>
         <translation>删除游戏时间数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2497"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2497"/>
         <source>Reset play time?</source>
         <translation>要重置播放时间吗?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2510"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="2595"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2510"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2595"/>
         <source>RomFS Extraction Failed!</source>
         <translation>RomFS 提取失败!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2511"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2511"/>
         <source>There was an error copying the RomFS files or the user cancelled the operation.</source>
         <translation>复制 RomFS 文件时出错或用户取消了操作。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2570"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2570"/>
         <source>Full</source>
         <translation>完整</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2570"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2570"/>
         <source>Skeleton</source>
         <translation>结构</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2572"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2572"/>
         <source>Select RomFS Dump Mode</source>
         <translation>选择 RomFS 转储模式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2573"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2573"/>
         <source>Please select the how you would like the RomFS dumped.&lt;br&gt;Full will copy all of the files into the new directory while &lt;br&gt;skeleton will only create the directory structure.</source>
         <translation>请选择您希望如何导出 RomFS。&lt;br&gt;&amp;quot;完整&amp;quot; 将把所有文件复制到新的目录中,而&lt;br&gt;&amp;quot;结构&amp;quot; 仅会创建目录结构。&lt;/br&gt;&lt;/br&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2596"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2596"/>
         <source>There is not enough free space at %1 to extract the RomFS. Please free up space or select a different dump directory at Emulation &gt; Configure &gt; System &gt; Filesystem &gt; Dump Root</source>
         <translation>%1 的可用空间不足，无法提取 RomFS。请释放空间或在模拟 &gt; 配置 &gt; 系统 &gt; 文件系统 &gt; 转储根目录,中选择其它目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2603"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2603"/>
         <source>Extracting RomFS...</source>
         <translation>正在提取 RomFS...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2603"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="2845"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2603"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2845"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2613"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2613"/>
         <source>RomFS Extraction Succeeded!</source>
         <translation>RomFS 提取成功!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2614"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2614"/>
         <source>The operation completed successfully.</source>
         <translation>操作已成功完成。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2660"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2660"/>
         <source>Error Opening %1</source>
         <translation>打开 %1 时出错</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2669"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2669"/>
         <source>Select Directory</source>
         <translation>选择目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2698"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2698"/>
         <source>Properties</source>
         <translation>属性</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2699"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2699"/>
         <source>The game properties could not be loaded.</source>
         <translation>无法加载游戏属性。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2761"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2761"/>
         <source>Switch Executable (%1);;All Files (*.*)</source>
         <comment>%1 is an identifier for the Switch executable file extensions.</comment>
         <translation>Switch 可执行文件 (%1);;所有文件 (*.*)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2765"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2765"/>
         <source>Load File</source>
         <translation>加载文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2778"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2778"/>
         <source>Open Extracted ROM Directory</source>
         <translation>打开已提取的 ROM 目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2789"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2789"/>
         <source>Invalid Directory Selected</source>
         <translation>选择的目录无效</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2790"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2790"/>
         <source>The directory you have selected does not contain a &apos;main&apos; file.</source>
         <translation>您选择的目录不包含 &apos;main&apos; 文件。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2800"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2800"/>
         <source>Installable Switch File (*.nca *.nsp *.xci);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp);;NX Cartridge Image (*.xci)</source>
         <translation>可安装的 Switch 文件 (*.nca *.nsp *.xci);;任天堂内容档案 (*.nca);;任天堂提交包 (*.nsp);;NX 卡带镜像 (*.xci)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2805"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2805"/>
         <source>Install Files</source>
         <translation>安装文件</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../src/yuzu/main_window.cpp" line="2852"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2852"/>
         <source>%n file(s) remaining</source>
         <translation><numerusform>剩余 %n 个文件</numerusform></translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2854"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2854"/>
         <source>Installing file &quot;%1&quot;...</source>
         <translation>正在安装文件 &quot;%1&quot;...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2908"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="2922"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2908"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2922"/>
         <source>Install Results</source>
         <translation>安装结果</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2909"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2909"/>
         <source>To avoid possible conflicts, we discourage users from installing base games to the NAND.
 Please, only use this feature to install updates and DLC.</source>
         <translation>为了避免可能的冲突，我们不鼓励用户将基础游戏安装到 NAND。
 请仅使用此功能来安装更新和 DLC。</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../src/yuzu/main_window.cpp" line="2915"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2915"/>
         <source>%n file(s) were newly installed
 </source>
         <translation><numerusform>已新安装 %n 个文件
 </numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../../src/yuzu/main_window.cpp" line="2918"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2918"/>
         <source>%n file(s) were overwritten
 </source>
         <translation><numerusform>已覆盖了 %n 个文件</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../../src/yuzu/main_window.cpp" line="2920"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2920"/>
         <source>%n file(s) failed to install
 </source>
         <translation><numerusform>%n 个文件安装失败
 </numerusform></translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2930"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2930"/>
         <source>System Application</source>
         <translation>系统应用</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2931"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2931"/>
         <source>System Archive</source>
         <translation>系统档案</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2932"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2932"/>
         <source>System Application Update</source>
         <translation>系统应用更新</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2933"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2933"/>
         <source>Firmware Package (Type A)</source>
         <translation>固件包 (类型 A)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2934"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2934"/>
         <source>Firmware Package (Type B)</source>
         <translation>固件包 (类型 B)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2935"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2935"/>
         <source>Game</source>
         <translation>游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2936"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2936"/>
         <source>Game Update</source>
         <translation>游戏更新</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2937"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2937"/>
         <source>Game DLC</source>
         <translation>游戏可下载内容</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2938"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2938"/>
         <source>Delta Title</source>
         <translation>Delta 标题</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2941"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2941"/>
         <source>Select NCA Install Type...</source>
         <translation>选择 NCA 安装类型...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2942"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2942"/>
         <source>Please select the type of title you would like to install this NCA as:
 (In most instances, the default &apos;Game&apos; is fine.)</source>
         <translation>请选择您希望将此 NCA 安装为的标题类型:
 (在大多数情况下，默认的 &apos;游戏&apos; 就可以。)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2948"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2948"/>
         <source>Failed to Install</source>
         <translation>安装失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2949"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2949"/>
         <source>The title type you selected for the NCA is invalid.</source>
         <translation>您为 NCA 选择的标题类型无效。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2984"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2984"/>
         <source>File not found</source>
         <translation>找不到文件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="2985"/>
+        <location filename="../../src/lichii/main_window.cpp" line="2985"/>
         <source>File &quot;%1&quot; not found</source>
         <translation>未找到文件 &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3123"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3123"/>
         <source>OK</source>
         <translation>确定</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3141"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3141"/>
         <source>Function Disabled</source>
         <translation>功能已被关闭</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3142"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3142"/>
         <source>Compatibility list reporting is currently disabled. Check back later!</source>
         <translation>兼容性列表报告目前已被禁用。请稍后再查看!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3184"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3184"/>
         <source>Error opening URL</source>
         <translation>打开网址出错</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3185"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3185"/>
         <source>Unable to open the URL &quot;%1&quot;.</source>
         <translation>无法打开 URL &quot;%1&quot;。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3560"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3560"/>
         <source>TAS Recording</source>
         <translation>TAS 录像</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3560"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3560"/>
         <source>Overwrite file of player 1?</source>
         <translation>要覆盖玩家 1 的文件吗?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3584"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3584"/>
         <source>Invalid config detected</source>
         <translation>检测到无效配置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3585"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3585"/>
         <source>Handheld controller can&apos;t be used on docked mode. Pro controller will be selected.</source>
         <translation>手柄在主机模式下无法使用。将选择 Pro 手柄。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3736"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="3787"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3736"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3787"/>
         <source>Amiibo</source>
         <translation>Amiibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3736"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="3787"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3736"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3787"/>
         <source>The current amiibo has been removed</source>
         <translation>当前的 amiibo 已被移除</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3741"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3741"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3741"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="3799"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3741"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3799"/>
         <source>The current game is not looking for amiibos</source>
         <translation>当前游戏不支持寻找 amiibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3747"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3747"/>
         <source>Amiibo File (%1);; All Files (*.*)</source>
         <translation>Amiibo 文件 (%1);; 所有文件 (*.*)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3748"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3748"/>
         <source>Load Amiibo</source>
         <translation>读取 Amiibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3783"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3783"/>
         <source>Error loading Amiibo data</source>
         <translation>加载 Amiibo 数据出错</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3793"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3793"/>
         <source>The selected file is not a valid amiibo</source>
         <translation>所选文件不是有效的 amiibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3796"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3796"/>
         <source>The selected file is already on use</source>
         <translation>所选文件正在使用中</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3802"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3802"/>
         <source>An unknown error occurred</source>
         <translation>发生未知错误</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3922"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3922"/>
         <source>No firmware available</source>
         <translation>没有可用的固件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3926"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3926"/>
         <source>Firmware Corrupted</source>
         <translation>固件已损坏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3992"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3992"/>
         <source>Unknown applet</source>
         <translation>未知小程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3993"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3993"/>
         <source>Applet doesn&apos;t map to a known value.</source>
         <translation>无法识别该小程序对应的值。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3996"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3996"/>
         <source>Record not found</source>
         <translation>找不到记录程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="3997"/>
+        <location filename="../../src/lichii/main_window.cpp" line="3997"/>
         <source>Applet not found. Please reinstall firmware.</source>
         <translation>找不到小程序。请重新安装固件。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4029"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4029"/>
         <source>Capture Screenshot</source>
         <translation>截取屏幕截图</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4030"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4030"/>
         <source>PNG Image (*.png)</source>
         <translation>PNG 图像 (*.png)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4132"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4132"/>
         <source>TAS state: Running %1/%2</source>
         <translation>TAS 状态: 正在运行 %1/%2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4136"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4136"/>
         <source>TAS state: Recording %1</source>
         <translation>TAS 状态: 正在录制 %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4138"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4138"/>
         <source>TAS state: Idle %1/%2</source>
         <translation>TAS 状态: 空闲 %1/%2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4142"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4142"/>
         <source>TAS State: Invalid</source>
         <translation>TAS 状态: 无效</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4156"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4156"/>
         <source>&amp;Stop Running</source>
         <translation>停止运行(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4157"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4157"/>
         <source>Stop R&amp;ecording</source>
         <translation>停止录制(&amp;A)</translation>
     </message>
     <message numerus="yes">
-        <location filename="../../src/yuzu/main_window.cpp" line="4182"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4182"/>
         <source>Building: %n shader(s)</source>
         <translation><numerusform>正在编译：%n 个着色器</numerusform></translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4191"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4191"/>
         <source>Scale: %1x</source>
         <comment>%1 is the resolution scaling factor</comment>
         <translation>缩放: %1x</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4194"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4194"/>
         <source>Speed: %1% / %2%</source>
         <translation>速度: %1% / %2%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4198"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4198"/>
         <source>Speed: %1%</source>
         <translation>速度: %1%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4201"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4201"/>
         <source>Game: %1 FPS</source>
         <translation>游戏: %1 FPS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4207"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4207"/>
         <source>Frame: %1 ms</source>
         <translation>帧: %1 ms</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4248"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4248"/>
         <source>NO AA</source>
         <translation>无 AA</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4258"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4258"/>
         <source>NO FX</source>
         <translation>无 FX</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4264"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4264"/>
         <source>FX</source>
         <translation>FX</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4277"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4277"/>
         <source>VOLUME: MUTE</source>
         <translation>音量: 静音</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4280"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4280"/>
         <source>VOLUME: %1%</source>
         <comment>Volume percentage (e.g. 50%)</comment>
         <translation>音量: %1%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4343"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4343"/>
         <source>Derivation Components Missing</source>
         <translation>缺少派生组件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4344"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4344"/>
         <source>Decryption keys are missing. Install them now?</source>
         <translation>缺少解密密钥。现在安装吗？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4374"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4374"/>
         <source>Wayland Detected!</source>
         <translation>检测到 Wayland!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4376"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4376"/>
         <source>Wayland is known to have significant performance issues and mysterious bugs.
 It's recommended to use X11 instead.
 
@@ -8830,74 +8840,74 @@ Would you like to force it for future launches?</source>
 您想要在未来的启动中强制执行吗?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4381"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4381"/>
         <source>Use X11</source>
         <translation>使用 X11</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4382"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4382"/>
         <source>Continue with Wayland</source>
         <translation>继续使用 Wayland</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4385"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4385"/>
         <source>Don&apos;t show again</source>
         <translation>不再显示</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4399"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4399"/>
         <source>Restart Required</source>
         <translation>需要重新启动</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4400"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4400"/>
         <source>Restart Eden to apply the X11 backend.</source>
         <translation>重新启动 Eden 以应用 X11 后端。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4438"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4438"/>
         <source>Slow</source>
         <translation>慢速</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4441"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4441"/>
         <source>Turbo</source>
         <translation>加速</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4445"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4445"/>
         <source>Unlocked</source>
         <translation>解锁</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4495"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4495"/>
         <source>Select RomFS Dump Target</source>
         <translation>选择 RomFS 转储目标</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4496"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4496"/>
         <source>Please select which RomFS you would like to dump.</source>
         <translation>请选择您想要转储的 RomFS。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4519"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4519"/>
         <source>Are you sure you want to close Eden?</source>
         <translation>您确实要关闭 Eden 吗?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4520"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="4608"/>
-        <location filename="../../src/yuzu/main_window.cpp" line="4620"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4520"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4608"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4620"/>
         <source>Eden</source>
         <translation>Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4609"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4609"/>
         <source>Are you sure you want to stop the emulation? Any unsaved progress will be lost.</source>
         <translation>您确定要停止模拟吗?任何未保存的进度将会丢失。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main_window.cpp" line="4617"/>
+        <location filename="../../src/lichii/main_window.cpp" line="4617"/>
         <source>The currently running application has requested Eden to not exit.
 
 Would you like to bypass this and exit anyway?</source>
@@ -9040,24 +9050,40 @@ Would you like to bypass this and exit anyway?</source>
         <translation>正在转换为 NUP</translation>
     </message>
     <message>
+        <source>Game preparation failed. See the log for details.</source>
+        <translation>游戏文件准备失败，详情请查看日志。</translation>
+    </message>
+    <message>
+        <source>Continue anyway</source>
+        <translation>仍然继续</translation>
+    </message>
+    <message>
         <source>Frame generation is off.</source>
         <translation>帧生成已关闭。</translation>
     </message>
     <message>
-        <source>Use the recommended settings for Mario Kart World?
+        <source>This PC has %1 GB of RAM. Switch 2 games need at least 16 GB, and 32 GB is recommended.
 
-Vulkan, 1x resolution, GPU Fast, asynchronous shaders, BC3, conservative VRAM, reactive flushing off, FIFO Relaxed VSync, handheld mode, ScaleForce, and FXAA.
+Games can crash, and can even freeze or crash the whole PC.
 
-They apply to Mario Kart World until Lichii is closed. Your saved settings are not changed.</source>
-        <translation>要对《马力欧卡丁车世界》使用推荐设置吗？
+This setup isn&apos;t supported, so please don&apos;t open issues or ask for help about crashes on it.</source>
+        <translation>本机内存为 %1 GB。Switch 2 游戏至少需要 16 GB，建议 32 GB。
 
-Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、关闭 reactive flushing、FIFO Relaxed 垂直同步、掌机模式、ScaleForce 以及 FXAA。
+游戏可能会崩溃，甚至导致整台电脑卡死或崩溃。
 
-这些设置会对《马力欧卡丁车世界》生效，直到 Lichii 关闭；你已保存的设置不会被修改。</translation>
+此配置不受支持，请不要就崩溃问题提交 issue 或寻求帮助。</translation>
     </message>
     <message>
         <source>Are you sure you want to close Lichii?</source>
         <translation>您确实要关闭 Lichii 吗?</translation>
+    </message>
+    <message>
+        <source>Signed out of Nextendo</source>
+        <translation>已退出 Nextendo</translation>
+    </message>
+    <message>
+        <source>Cover (160x160)</source>
+        <translation>封面（160x160）</translation>
     </message>
     <message>
         <source>Not enough memory to start the game</source>
@@ -9072,6 +9098,10 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
         <translation>转换为 NUP</translation>
     </message>
     <message>
+        <source>NVIDIA DLSS is upscaling the game, in the mode shown. The window adapting filter runs after it.</source>
+        <translation>NVIDIA DLSS 正在以所示模式对游戏进行超分。窗口适配滤镜在它之后运行。</translation>
+    </message>
+    <message>
         <source>Extraction Failed</source>
         <translation>提取失败</translation>
     </message>
@@ -9080,12 +9110,24 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
         <translation>正在编辑 NUP 元数据</translation>
     </message>
     <message>
+        <source>Extract NUP</source>
+        <translation>提取 NUP</translation>
+    </message>
+    <message>
         <source>Optical Flow</source>
         <translation>光流</translation>
     </message>
     <message>
-        <source>This game is being converted. Try again when it is done.</source>
-        <translation>该游戏正在转换中，请等转换完成后再试。</translation>
+        <source>J</source>
+        <translation>J</translation>
+    </message>
+    <message>
+        <source>&amp;What&apos;s New in Lichii</source>
+        <translation>Lichii 新功能(&amp;W)</translation>
+    </message>
+    <message>
+        <source>E</source>
+        <translation>E</translation>
     </message>
     <message>
         <source>Extraction Complete</source>
@@ -9096,8 +9138,16 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
         <translation> 当游戏本身已达 %1 FPS 时，它也会暂停。</translation>
     </message>
     <message>
+        <source>DLSS %1 %2</source>
+        <translation>DLSS %1 %2</translation>
+    </message>
+    <message>
         <source>Restore Previous Version...</source>
         <translation>恢复上一版本...</translation>
+    </message>
+    <message>
+        <source>K</source>
+        <translation>K</translation>
     </message>
     <message>
         <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1</source>
@@ -9106,6 +9156,18 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
     <message>
         <source>%1 (IDLE)</source>
         <translation>%1（空闲）</translation>
+    </message>
+    <message>
+        <source>The NUP was created. You can delete the loose folder if you no longer need it.</source>
+        <translation>NUP 已创建。如果不再需要解包文件夹，可以将其删除。</translation>
+    </message>
+    <message>
+        <source>Frame generation is on.%1 Whether it runs shows here once a game starts.</source>
+        <translation>帧生成已开启。%1 游戏启动后会在此显示它是否运行。</translation>
+    </message>
+    <message>
+        <source>DLAA</source>
+        <translation>DLAA</translation>
     </message>
     <message>
         <source>The files could not be deleted: %1</source>
@@ -9120,24 +9182,40 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
         <translation>正在预编译着色器，请等它完成后再试。</translation>
     </message>
     <message>
-        <source>Shader Precache in Progress</source>
-        <translation>正在构建着色器预编译缓存</translation>
+        <source>Frame generation is running.%1</source>
+        <translation>帧生成正在运行。%1</translation>
     </message>
     <message>
-        <source>Conversion Failed</source>
-        <translation>转换失败</translation>
+        <source>Shader Precache in Progress</source>
+        <translation>正在构建着色器预编译缓存</translation>
     </message>
     <message>
         <source>Go back to the version this one replaced? Your settings and data are not changed.</source>
         <translation>要回退到被当前版本替换的旧版本吗？你的设置和数据不会被更改。</translation>
     </message>
     <message>
-        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model, null descriptors and 16-bit floats). The Optical Flow type may still work.</source>
-        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型、空描述符和 16 位浮点）。光流类型可能仍可用。</translation>
+        <source>Your session was ended on nextendo.network, so Lichii signed you out. Sign in again in Configure &gt; Network.</source>
+        <translation>你的会话已在 nextendo.network 上结束，Lichii 已将你退出登录。请在 设置 &gt; 网络 中重新登录。</translation>
+    </message>
+    <message>
+        <source>Wait for the NX metadata edit to finish before starting a game.</source>
+        <translation>请等 NX 元数据编辑完成后再启动游戏。</translation>
     </message>
     <message>
         <source>NX Archive</source>
         <translation>NX 归档</translation>
+    </message>
+    <message>
+        <source>Open &amp;Lichii Folders</source>
+        <translation>打开 &amp;Lichii 文件夹</translation>
+    </message>
+    <message>
+        <source>Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp *.nsz);;NX Cartridge Image (*.xci *.xcz)</source>
+        <translation>可安装的 Switch 文件 (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo 内容归档 (*.nca);;Nintendo 提交包 (*.nsp *.nsz);;NX 卡带镜像 (*.xci *.xcz)</translation>
+    </message>
+    <message>
+        <source>Edit Complete</source>
+        <translation>编辑完成</translation>
     </message>
     <message>
         <source>The shaders of this game are not precached yet. Precache them now?
@@ -9152,26 +9230,16 @@ You can change this in Configure, Graphics, Advanced.</source>
 可在 设置 → 图形 → 高级 里修改。</translation>
     </message>
     <message>
-        <source>Open &amp;Lichii Folders</source>
-        <translation>打开 &amp;Lichii 文件夹</translation>
-    </message>
-    <message>
-        <source>Edit Complete</source>
-        <translation>编辑完成</translation>
-    </message>
-    <message>
-        <source>The target archive already exists:
-%1</source>
-        <translation>目标归档已存在：
-%1</translation>
-    </message>
-    <message>
         <source>Could not restore the previous version: %1</source>
         <translation>无法恢复上一版本：%1</translation>
     </message>
     <message>
-        <source>Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp *.nsz);;NX Cartridge Image (*.xci *.xcz)</source>
-        <translation>可安装的 Switch 文件 (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo 内容归档 (*.nca);;Nintendo 提交包 (*.nsp *.nsz);;NX 卡带镜像 (*.xci *.xcz)</translation>
+        <source>Conversion Failed</source>
+        <translation>转换失败</translation>
+    </message>
+    <message>
+        <source>F</source>
+        <translation>F</translation>
     </message>
     <message>
         <source>&amp;About Lichii</source>
@@ -9190,16 +9258,31 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>删除着色器预编译缓存</translation>
     </message>
     <message>
+        <source>The target directory already exists:
+%1</source>
+        <translation>目标目录已存在：
+%1</translation>
+    </message>
+    <message>
+        <source>Don&apos;t show this again</source>
+        <translation>不再显示此提示</translation>
+    </message>
+    <message>
         <source>&amp;Lichii Dependencies</source>
         <translation>&amp;Lichii 依赖项</translation>
     </message>
     <message>
-        <source>Frame generation is running.%1</source>
-        <translation>帧生成正在运行。%1</translation>
-    </message>
-    <message>
         <source>Resume Conversion</source>
         <translation>继续转换</translation>
+    </message>
+    <message>
+        <source>%1&lt;br&gt;Install your decryption keys with Tools &gt; Install Decryption Keys, then start the game again.</source>
+        <translation>%1&lt;br&gt;请先在 工具 &gt; 安装解密密钥 中安装解密密钥，然后重新启动游戏。</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="14"/>
+        <source>yuzu</source>
+        <translation type="vanished">yuzu</translation>
     </message>
     <message>
         <source>Extracting NUP</source>
@@ -9210,12 +9293,20 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>NUP 已创建，解包文件夹已删除。</translation>
     </message>
     <message>
-        <source>Frame generation is on but not running. %1</source>
-        <translation>帧生成已开启但没有运行。%1</translation>
+        <source> + %1 generated</source>
+        <translation> + 生成 %1</translation>
+    </message>
+    <message>
+        <source>Restore My &amp;Previous Settings</source>
+        <translation>恢复我之前的设置(&amp;P)</translation>
     </message>
     <message>
         <source>Edit Failed</source>
         <translation>编辑失败</translation>
+    </message>
+    <message>
+        <source>M</source>
+        <translation>M</translation>
     </message>
     <message>
         <source>FG %1 AUTO</source>
@@ -9234,24 +9325,28 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>恢复上一版本</translation>
     </message>
     <message>
+        <source>Medium (44x44)</source>
+        <translation>中（44x44）</translation>
+    </message>
+    <message>
         <source>Close the running game first.</source>
         <translation>请先关闭正在运行的游戏。</translation>
+    </message>
+    <message>
+        <source>Not enough RAM</source>
+        <translation>内存不足</translation>
     </message>
     <message>
         <source>Games cannot be started while the shader precache is being built. Wait for it to finish or cancel it.</source>
         <translation>构建着色器预编译缓存期间无法启动游戏。请等待它完成或取消。</translation>
     </message>
     <message>
-        <source>Game preparation failed. See the log for details.</source>
-        <translation>游戏文件准备失败，详情请查看日志。</translation>
+        <source>This game cannot be started while its dump is being converted.</source>
+        <translation>该游戏的转储正在转换，无法启动。</translation>
     </message>
     <message>
         <source>FG UNAVAILABLE</source>
         <translation>帧生成不可用</translation>
-    </message>
-    <message>
-        <source>This game cannot be started while its dump is being converted.</source>
-        <translation>该游戏的转储正在转换，无法启动。</translation>
     </message>
     <message>
         <source>Could not check for updates: GitHub answered with HTTP %1.</source>
@@ -9262,24 +9357,20 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>推荐的《马力欧卡丁车世界》设置</translation>
     </message>
     <message>
-        <source>The NUP was created. You can delete the loose folder if you no longer need it.</source>
-        <translation>NUP 已创建。如果不再需要解包文件夹，可以将其删除。</translation>
-    </message>
-    <message>
-        <source>Precache now</source>
-        <translation>现在预编译</translation>
+        <source> (%1 DOESN&apos;T FIT)</source>
+        <translation>（%1 不适用）</translation>
     </message>
     <message>
         <source>Conversion in Progress</source>
         <translation>正在转换</translation>
     </message>
     <message>
-        <source>Stop the game before changing its NX archive.</source>
-        <translation>修改 NX 归档前请先停止游戏。</translation>
+        <source>This game is being converted. Try again when it is done.</source>
+        <translation>该游戏正在转换中，请等转换完成后再试。</translation>
     </message>
     <message>
-        <source>Lichii</source>
-        <translation>Lichii</translation>
+        <source>Stop the game before changing its NX archive.</source>
+        <translation>修改 NX 归档前请先停止游戏。</translation>
     </message>
     <message>
         <source>The NUP was extracted. You can delete the NUP file if you no longer need it.</source>
@@ -9306,12 +9397,42 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>帧生成 %1 %2X</translation>
     </message>
     <message>
-        <source>Extract NUP</source>
-        <translation>提取 NUP</translation>
+        <source>The currently running application has requested Lichii to not exit.
+
+Would you like to bypass this and exit anyway?</source>
+        <translation>当前正在运行的应用程序已请求 Lichii 不退出。
+
+您想要绕过并退出吗?</translation>
+    </message>
+    <message>
+        <source>Use the recommended settings for Mario Kart World?
+
+Vulkan, 1x resolution, GPU Fast, asynchronous shaders, BC3, conservative VRAM, reactive flushing off, FIFO Relaxed VSync, handheld mode, ScaleForce, and FXAA.
+
+They apply to Mario Kart World until Lichii is closed. Your saved settings are not changed.</source>
+        <translation>要对《马力欧卡丁车世界》使用推荐设置吗？
+
+Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、关闭 reactive flushing、FIFO Relaxed 垂直同步、掌机模式、ScaleForce 以及 FXAA。
+
+这些设置会对《马力欧卡丁车世界》生效，直到 Lichii 关闭；你已保存的设置不会被修改。</translation>
+    </message>
+    <message>
+        <source>Apply Recommended &amp;Settings...</source>
+        <translation>应用推荐设置(&amp;S)...</translation>
+    </message>
+    <message>
+        <source>The target archive already exists:
+%1</source>
+        <translation>目标归档已存在：
+%1</translation>
     </message>
     <message>
         <source>NO FG</source>
         <translation>无帧生成</translation>
+    </message>
+    <message>
+        <source>Lichii could not allocate the game&apos;s memory. Close other applications and check that your system has enough available memory and paging-file space, then try again.</source>
+        <translation>Lichii 无法分配游戏所需的内存。请关闭其他程序，确认系统有足够的可用内存和页面文件空间后重试。</translation>
     </message>
     <message>
         <source>LSFG</source>
@@ -9326,8 +9447,8 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>帧生成需要 Vulkan 渲染器。</translation>
     </message>
     <message>
-        <source>Frame generation is on.%1 Whether it runs shows here once a game starts.</source>
-        <translation>帧生成已开启。%1 游戏启动后会在此显示它是否运行。</translation>
+        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model, null descriptors and 16-bit floats). The Optical Flow type may still work.</source>
+        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型、空描述符和 16 位浮点）。光流类型可能仍可用。</translation>
     </message>
     <message>
         <source>Conversion Complete</source>
@@ -9346,155 +9467,45 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>FSR 1 柔和</translation>
     </message>
     <message>
-        <source>Failed to restore</source>
-        <translation>恢复失败</translation>
-    </message>
-    <message>
         <source>Delete the shader precache files of this game? They are built again the next time the game is precached.</source>
         <translation>要删除该游戏的着色器预编译缓存文件吗？下次预编译时会重新构建。</translation>
     </message>
     <message>
-        <source>The currently running application has requested Lichii to not exit.
-
-Would you like to bypass this and exit anyway?</source>
-        <translation>当前正在运行的应用程序已请求 Lichii 不退出。
-
-您想要绕过并退出吗?</translation>
+        <source>Failed to restore</source>
+        <translation>恢复失败</translation>
     </message>
     <message>
         <source>FSR 1</source>
         <translation>FSR 1</translation>
     </message>
     <message>
-        <source>Lichii could not allocate the game&apos;s memory. Close other applications and check that your system has enough available memory and paging-file space, then try again.</source>
-        <translation>Lichii 无法分配游戏所需的内存。请关闭其他程序，确认系统有足够的可用内存和页面文件空间后重试。</translation>
+        <source>Stop emulation before editing NX metadata.</source>
+        <translation>编辑 NX 元数据前请先停止模拟。</translation>
     </message>
     <message>
-        <source>The target directory already exists:
-%1</source>
-        <translation>目标目录已存在：
-%1</translation>
+        <source>Frame generation is on but not running. %1</source>
+        <translation>帧生成已开启但没有运行。%1</translation>
+    </message>
+    <message>
+        <source>Precache now</source>
+        <translation>现在预编译</translation>
     </message>
     <message>
         <source> It adds up to %1 frames per game frame to reach %2 FPS.</source>
         <translation> 每个游戏帧最多补出 %1 帧，以达到 %2 FPS。</translation>
     </message>
-    <message>
-        <source>Apply Recommended &amp;Settings...</source>
-        <translation>应用推荐设置(&amp;S)...</translation>
-    </message>
-    <message>
-        <source>Restore My &amp;Previous Settings</source>
-        <translation>恢复我之前的设置(&amp;P)</translation>
-    </message>
-    <message>
-        <source>DLAA</source>
-        <translation>DLAA</translation>
-    </message>
-    <message>
-        <source>M</source>
-        <translation>M</translation>
-    </message>
-    <message>
-        <source>E</source>
-        <translation>E</translation>
-    </message>
-    <message>
-        <source>F</source>
-        <translation>F</translation>
-    </message>
-    <message>
-        <source>J</source>
-        <translation>J</translation>
-    </message>
-    <message>
-        <source>K</source>
-        <translation>K</translation>
-    </message>
-    <message>
-        <source>NVIDIA DLSS is upscaling the game, in the mode shown. The window adapting filter runs after it.</source>
-        <translation>NVIDIA DLSS 正在以所示模式对游戏进行超分。窗口适配滤镜在它之后运行。</translation>
-    </message>
-    <message>
-        <source>DLSS %1 %2</source>
-        <translation>DLSS %1 %2</translation>
-    </message>
-    <message>
-        <source> (%1 DOESN&apos;T FIT)</source>
-        <translation>（%1 不适用）</translation>
-    </message>
-    <message>
-        <source> + %1 generated</source>
-        <translation> + 生成 %1</translation>
-    </message>
-    <message>
-        <source>&amp;What&apos;s New in Lichii</source>
-        <translation>Lichii 新功能(&amp;W)</translation>
-    </message>
-    <message>
-        <source>Medium (44x44)</source>
-        <translation>中（44x44）</translation>
-    </message>
-    <message>
-        <source>Cover (160x160)</source>
-        <translation>封面（160x160）</translation>
-    </message>
-    <message>
-        <source>Wait for the NX metadata edit to finish before starting a game.</source>
-        <translation>请等 NX 元数据编辑完成后再启动游戏。</translation>
-    </message>
-    <message>
-        <source>Stop emulation before editing NX metadata.</source>
-        <translation>编辑 NX 元数据前请先停止模拟。</translation>
-    </message>
-    <message>
-        <source>Signed out of Nextendo</source>
-        <translation>已退出 Nextendo</translation>
-    </message>
-    <message>
-        <source>Your session was ended on nextendo.network, so Lichii signed you out. Sign in again in Configure &gt; Network.</source>
-        <translation>你的会话已在 nextendo.network 上结束，Lichii 已将你退出登录。请在 设置 &gt; 网络 中重新登录。</translation>
-    </message>
-    <message>
-        <source>%1&lt;br&gt;Install your decryption keys with Tools &gt; Install Decryption Keys, then start the game again.</source>
-        <translation>%1&lt;br&gt;请先在 工具 &gt; 安装解密密钥 中安装解密密钥，然后重新启动游戏。</translation>
-    </message>
-    <message>
-        <source>Not enough RAM</source>
-        <translation>内存不足</translation>
-    </message>
-    <message>
-        <source>This PC has %1 GB of RAM. Switch 2 games need at least 16 GB, and 32 GB is recommended.
-
-Games can crash, and can even freeze or crash the whole PC.
-
-This setup isn&apos;t supported, so please don&apos;t open issues or ask for help about crashes on it.</source>
-        <translation>本机内存为 %1 GB。Switch 2 游戏至少需要 16 GB，建议 32 GB。
-
-游戏可能会崩溃，甚至导致整台电脑卡死或崩溃。
-
-此配置不受支持，请不要就崩溃问题提交 issue 或寻求帮助。</translation>
-    </message>
-    <message>
-        <source>Continue anyway</source>
-        <translation>仍然继续</translation>
-    </message>
-    <message>
-        <source>Don&apos;t show this again</source>
-        <translation>不再显示此提示</translation>
-    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
     <message>
-        <location filename="../../src/yuzu/migration_worker.cpp" line="52"/>
+        <location filename="../../src/lichii/migration_worker.cpp" line="52"/>
         <source>Linking the old directory failed. You may need to re-run with administrative privileges on Windows.
 OS gave error: %1</source>
         <translation>链接旧目录失败。您可能需要在 Windows 上以管理员权限重新运行。
 OS 给出的错误: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/migration_worker.cpp" line="70"/>
+        <location filename="../../src/lichii/migration_worker.cpp" line="70"/>
         <source>
 
 Note that your configuration and data will be shared with %1.
@@ -9511,7 +9522,7 @@ If this is not desirable, delete the following files:
 %4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/migration_worker.cpp" line="110"/>
+        <location filename="../../src/lichii/migration_worker.cpp" line="110"/>
         <source>
 
 If you wish to clean up the files which were left in the old data location, you can do so by deleting the following directory:
@@ -9522,7 +9533,7 @@ If you wish to clean up the files which were left in the old data location, you 
 %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/migration_worker.h" line="73"/>
+        <location filename="../../src/lichii/migration_worker.h" line="73"/>
         <source>Data was migrated successfully.</source>
         <translation>数据已成功迁移。</translation>
     </message>
@@ -9531,12 +9542,12 @@ If you wish to clean up the files which were left in the old data location, you 
         <translation>数据导入成功。原有的 Lichii 数据（如果有）已保留在新配置旁的备份目录中。</translation>
     </message>
     <message>
-        <source>
+        <source>Import did not complete. Your source and previous destination data have been kept. Close Lichii and launch it again to retry or recover.
 
-Data and settings are shared with %1. The source shader cache was not cleared.</source>
-        <translation>
+%1</source>
+        <translation>导入未完成。源数据与之前的目标数据都已保留。请关闭 Lichii 后重新启动以重试或恢复。
 
-数据与设置已与 %1 共享。源着色器缓存未被清除。</translation>
+%1</translation>
     </message>
     <message>
         <source>
@@ -9549,29 +9560,29 @@ The old profile was retained in backup directories at its old location. Keep the
     <message>
         <source>
 
+Data and settings are shared with %1. The source shader cache was not cleared.</source>
+        <translation>
+
+数据与设置已与 %1 共享。源着色器缓存未被清除。</translation>
+    </message>
+    <message>
+        <source>
+
 The original %1 profile is unchanged. Keep it until you have checked your saves.</source>
         <translation>
 
 原始的 %1 配置未改动。确认存档无误之前请保留它。</translation>
     </message>
-    <message>
-        <source>Import did not complete. Your source and previous destination data have been kept. Close Lichii and launch it again to retry or recover.
-
-%1</source>
-        <translation>导入未完成。源数据与之前的目标数据都已保留。请关闭 Lichii 后重新启动以重试或恢复。
-
-%1</translation>
-    </message>
 </context>
 <context>
     <name>ModSelectDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/addon/mod_select_dialog.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/addon/mod_select_dialog.ui" line="14"/>
         <source>Import Mods</source>
         <translation>导入 Mod</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/addon/mod_select_dialog.ui" line="20"/>
+        <location filename="../../src/lichii/configuration/addon/mod_select_dialog.ui" line="20"/>
         <source>The specified folder or archive contains the following mods. Select which ones to install.</source>
         <translation>指定的文件夹或归档包含以下模组。选择安装哪些。</translation>
     </message>
@@ -9579,48 +9590,48 @@ The original %1 profile is unchanged. Keep it until you have checked your saves.
 <context>
     <name>ModerationDialog</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.ui" line="6"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.ui" line="6"/>
         <source>Moderation</source>
         <translation>审核</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.ui" line="20"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.ui" line="20"/>
         <source>Ban List</source>
         <translation>封禁列表</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.ui" line="41"/>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="75"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.ui" line="41"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.cpp" line="75"/>
         <source>Refreshing</source>
         <translation>刷新中</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.ui" line="51"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.ui" line="51"/>
         <source>Unban</source>
         <translation>解封</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="42"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.cpp" line="42"/>
         <source>Subject</source>
         <translation>项目</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="43"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.cpp" line="43"/>
         <source>Type</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="85"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.cpp" line="85"/>
         <source>Forum Username</source>
         <translation>论坛用户名</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="90"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.cpp" line="90"/>
         <source>IP Address</source>
         <translation>IP 地址</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="97"/>
+        <location filename="../../src/lichii/multiplayer/moderation_dialog.cpp" line="97"/>
         <source>Refresh</source>
         <translation>刷新</translation>
     </message>
@@ -9628,37 +9639,37 @@ The original %1 profile is unchanged. Keep it until you have checked your saves.
 <context>
     <name>MultiplayerState</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="92"/>
+        <location filename="../../src/lichii/multiplayer/state.cpp" line="92"/>
         <source>Current connection status</source>
         <translation>当前的连接状态</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="119"/>
+        <location filename="../../src/lichii/multiplayer/state.cpp" line="119"/>
         <source>Not Connected. Click here to find a room!</source>
         <translation>未连接。点击此处查找一个房间！</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="125"/>
+        <location filename="../../src/lichii/multiplayer/state.cpp" line="125"/>
         <source>Not Connected</source>
         <translation>未连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="131"/>
+        <location filename="../../src/lichii/multiplayer/state.cpp" line="131"/>
         <source>Connected</source>
         <translation>已连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="138"/>
+        <location filename="../../src/lichii/multiplayer/state.cpp" line="138"/>
         <source>New Messages Received</source>
         <translation>收到了新消息</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="209"/>
+        <location filename="../../src/lichii/multiplayer/state.cpp" line="209"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="210"/>
+        <location filename="../../src/lichii/multiplayer/state.cpp" line="210"/>
         <source>Failed to update the room information. Please check your Internet connection and try hosting the room again.
 Debug Message: </source>
         <translation>更新房间信息时失败。请检查网络连接并尝试重开房间。
@@ -9668,34 +9679,34 @@ Debug Message: </source>
 <context>
     <name>NetworkMessage</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="68"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="68"/>
         <source>Game already running</source>
         <translation>游戏正在运行中</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="69"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="69"/>
         <source>Joining a room when the game is already running is discouraged and can cause the room feature not to work correctly.
 Proceed anyway?</source>
         <translation>不推荐游戏正在运行时加入房间，这可能会导致房间的某些功能出现异常。
 是否继续？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="75"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="75"/>
         <source>Leave Room</source>
         <translation>离开房间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="76"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="76"/>
         <source>You are about to close the room. Any network connections will be closed.</source>
         <translation>您正要关闭房间。所有的网络连接都将关闭。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="81"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="81"/>
         <source>Disconnect</source>
         <translation>断开连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/message.cpp" line="82"/>
+        <location filename="../../src/lichii/multiplayer/message.cpp" line="82"/>
         <source>You are about to leave the room. Any network connections will be closed.</source>
         <translation>您正要离开房间。所有的网络连接都将关闭。</translation>
     </message>
@@ -9703,127 +9714,127 @@ Proceed anyway?</source>
 <context>
     <name>NewUserDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="14"/>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="61"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.ui" line="14"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="61"/>
         <source>New User</source>
         <translation>新的用户 </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="30"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.ui" line="30"/>
         <source>Change Avatar</source>
         <translation>更换头像</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="37"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.ui" line="37"/>
         <source>Set Image</source>
         <translation>设置图像</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="53"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.ui" line="53"/>
         <source>UUID</source>
         <translation>UUID</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="60"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.ui" line="60"/>
         <source>Eden</source>
         <translation>Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="70"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.ui" line="70"/>
         <source>Username</source>
         <translation>用户名</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="82"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.ui" line="82"/>
         <source>UUID must be 32 hex characters (0-9, A-F)</source>
         <translation>UUID 必须由 32 个十六进制字符（0-9，A-F）组成</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="89"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.ui" line="89"/>
         <source>Generate</source>
         <translation>生成</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="138"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="138"/>
         <source>Select User Image</source>
         <translation>选择用户图像</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="139"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="139"/>
         <source>Image Formats (*.jpg *.jpeg *.png *.bmp)</source>
         <translation>图像格式 (*.jpg *.jpeg *.png *.bmp)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="171"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="171"/>
         <source>No firmware available</source>
         <translation>没有可用的固件</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="172"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="172"/>
         <source>Please install the firmware to use firmware avatars.</source>
         <translation>请先安装固件，才能使用固件附带的头像。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="177"/>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="184"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="177"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="184"/>
         <source>Error loading archive</source>
         <translation>载入档案错误</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="178"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="178"/>
         <source>Archive is not available. Please install/reinstall firmware.</source>
         <translation>档案不可用。请安装/重新安装固件。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="185"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="185"/>
         <source>Could not locate RomFS. Your file or decryption keys may be corrupted.</source>
         <translation>无法定位 RomFS。您的文件或解密密钥可能已损坏。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="191"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="191"/>
         <source>Error extracting archive</source>
         <translation>解压档案发生错误</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="192"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="192"/>
         <source>Could not extract RomFS. Your file or decryption keys may be corrupted.</source>
         <translation>无法释放 RomFS。您的文件或解密密钥可能已损坏。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="197"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="197"/>
         <source>Error finding image directory</source>
         <translation>查找图像目录错误</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="198"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="198"/>
         <source>Failed to find image directory in the archive.</source>
         <translation>在档案中查找映像目录错误。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="218"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="218"/>
         <source>No images found</source>
         <translation>找不到图像</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="219"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="219"/>
         <source>No avatar images were found in the archive.</source>
         <translation>在档案找找不到头像图像。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="338"/>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="346"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="338"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="346"/>
         <source>All Good</source>
         <comment>Tooltip</comment>
         <translation>全部正常</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="341"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="341"/>
         <source>Must be 32 hex characters (0-9, a-f)</source>
         <comment>Tooltip</comment>
         <translation>必须由 32 个十六进制字符（0-9，A-F）组成</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="349"/>
+        <location filename="../../src/lichii/configuration/system/new_user_dialog.cpp" line="349"/>
         <source>Must be between 1 and 32 characters</source>
         <comment>Tooltip</comment>
         <translation>长度需为 1-32 个字符</translation>
@@ -9836,24 +9847,24 @@ Proceed anyway?</source>
 <context>
     <name>OverlayDialog</name>
     <message>
-        <location filename="../../src/yuzu/util/overlay_dialog.ui" line="14"/>
+        <location filename="../../src/lichii/util/overlay_dialog.ui" line="14"/>
         <source>Dialog</source>
         <translation>对话框</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/util/overlay_dialog.ui" line="134"/>
-        <location filename="../../src/yuzu/util/overlay_dialog.ui" line="353"/>
+        <location filename="../../src/lichii/util/overlay_dialog.ui" line="134"/>
+        <location filename="../../src/lichii/util/overlay_dialog.ui" line="353"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/util/overlay_dialog.ui" line="152"/>
-        <location filename="../../src/yuzu/util/overlay_dialog.ui" line="371"/>
+        <location filename="../../src/lichii/util/overlay_dialog.ui" line="152"/>
+        <location filename="../../src/lichii/util/overlay_dialog.ui" line="371"/>
         <source>OK</source>
         <translation>确定</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/util/overlay_dialog.ui" line="313"/>
+        <location filename="../../src/lichii/util/overlay_dialog.ui" line="313"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -9869,73 +9880,73 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>PerformanceOverlay</name>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="14"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="14"/>
         <source>Form</source>
         <translation>窗体</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="32"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="32"/>
         <source>Frametime</source>
         <translation>帧时间</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="45"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="45"/>
         <source>0 ms</source>
         <translation>0 ms</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="63"/>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="143"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="63"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="143"/>
         <source>Min: 0</source>
         <translation>最小:0</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="77"/>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="157"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="77"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="157"/>
         <source>Max: 0</source>
         <translation>最大: 0</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="91"/>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="171"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="91"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="171"/>
         <source>Avg: 0</source>
         <translation>平均: 0</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="112"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="112"/>
         <source>FPS</source>
         <translation>FPS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.ui" line="125"/>
+        <location filename="../../src/lichii/render/performance_overlay.ui" line="125"/>
         <source>0 fps</source>
         <translation>0 fps</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="103"/>
+        <location filename="../../src/lichii/render/performance_overlay.cpp" line="103"/>
         <source>%1 fps</source>
         <translation>%1 fps</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="124"/>
-        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="174"/>
+        <location filename="../../src/lichii/render/performance_overlay.cpp" line="124"/>
+        <location filename="../../src/lichii/render/performance_overlay.cpp" line="174"/>
         <source>Avg: %1</source>
         <translation>平均: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="133"/>
-        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="163"/>
+        <location filename="../../src/lichii/render/performance_overlay.cpp" line="133"/>
+        <location filename="../../src/lichii/render/performance_overlay.cpp" line="163"/>
         <source>Min: %1</source>
         <translation>最小: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="134"/>
-        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="164"/>
+        <location filename="../../src/lichii/render/performance_overlay.cpp" line="134"/>
+        <location filename="../../src/lichii/render/performance_overlay.cpp" line="164"/>
         <source>Max: %1</source>
         <translation>最大: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="151"/>
+        <location filename="../../src/lichii/render/performance_overlay.cpp" line="151"/>
         <source>%1 ms</source>
         <translation>%1 ms</translation>
     </message>
@@ -9951,7 +9962,7 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>PlayerControlPreview</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player_widget.cpp" line="1652"/>
+        <location filename="../../src/lichii/configuration/configure_input_player_widget.cpp" line="1652"/>
         <source>START/PAUSE</source>
         <translation>开始/暂停</translation>
     </message>
@@ -9959,22 +9970,22 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>ProfileAvatarDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/system/profile_avatar_dialog.cpp" line="18"/>
+        <location filename="../../src/lichii/configuration/system/profile_avatar_dialog.cpp" line="18"/>
         <source>Select</source>
         <translation>选择</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/profile_avatar_dialog.cpp" line="19"/>
+        <location filename="../../src/lichii/configuration/system/profile_avatar_dialog.cpp" line="19"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/profile_avatar_dialog.cpp" line="20"/>
+        <location filename="../../src/lichii/configuration/system/profile_avatar_dialog.cpp" line="20"/>
         <source>Background Color</source>
         <translation>背景颜色</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/system/profile_avatar_dialog.cpp" line="41"/>
+        <location filename="../../src/lichii/configuration/system/profile_avatar_dialog.cpp" line="41"/>
         <source>Select Firmware Avatar</source>
         <translation>选择固件自带头像</translation>
     </message>
@@ -9982,34 +9993,34 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="43"/>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="121"/>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="148"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="43"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="121"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="148"/>
         <source>Migration</source>
         <translation>迁移</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="57"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="57"/>
         <source>Clear Shader Cache</source>
         <translation>清除着色器缓存</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="66"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="66"/>
         <source>Keep Old Data</source>
         <translation>保留旧数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="67"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="67"/>
         <source>Clear Old Data</source>
         <translation>清理旧数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="68"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="68"/>
         <source>Link Old Directory</source>
         <translation>链接旧目录</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="98"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="98"/>
         <source>
 
 </source>
@@ -10018,412 +10029,412 @@ p, li { white-space: pre-wrap; }
 </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="102"/>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="108"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="102"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="108"/>
         <source>No</source>
         <translation>否</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="122"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="122"/>
         <source>You can manually re-trigger this prompt by deleting the new config directory:
 %1</source>
         <translation>您可以通过删除新建的配置目录来重新触发此提示:
 %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="133"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="133"/>
         <source>Migrating</source>
         <translation>迁移中</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="134"/>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="134"/>
         <source>Migrating, this may take a while...</source>
         <translation>迁移中，可能需要一段时间，请稍候……</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="21"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="35"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="45"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="21"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="35"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="45"/>
         <source>Shift</source>
         <translation>Shift</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="23"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="37"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="47"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="23"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="37"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="47"/>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="25"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="39"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="49"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="25"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="39"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="49"/>
         <source>Alt</source>
         <translation>Alt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="35"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="396"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="462"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="183"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="251"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="35"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="396"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="462"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="183"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="251"/>
         <source>[not set]</source>
         <translation>[未设置]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="47"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="47"/>
         <source>Hat %1 %2</source>
         <translation>方向键 %1 %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="54"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="485"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="489"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="493"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="497"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="274"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="278"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="282"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="286"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="54"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="485"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="489"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="493"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="497"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="274"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="278"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="282"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="286"/>
         <source>Axis %1%2</source>
         <translation>轴 %1%2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="60"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="60"/>
         <source>Button %1</source>
         <translation>按键 %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="66"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="456"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="470"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="500"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="245"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="259"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="289"/>
+        <location filename="../../src/lichii/configuration/configure_touch_from_button.cpp" line="66"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="456"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="470"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="500"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="245"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="259"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="289"/>
         <source>[unknown]</source>
         <translation>[未知]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="50"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="60"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="148"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="50"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="60"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="148"/>
         <source>Left</source>
         <translation>左</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="52"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="62"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="151"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="52"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="62"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="151"/>
         <source>Right</source>
         <translation>右</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="54"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="64"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="157"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="54"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="64"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="157"/>
         <source>Down</source>
         <translation>下</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="56"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="66"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="154"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="56"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="66"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="154"/>
         <source>Up</source>
         <translation>上</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="58"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="68"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="58"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="68"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="60"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="70"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="60"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="70"/>
         <source>R</source>
         <translation>R</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="62"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="72"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="62"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="72"/>
         <source>L</source>
         <translation>L</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="64"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="86"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="64"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="86"/>
         <source>A</source>
         <translation>A</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="66"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="88"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="66"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="88"/>
         <source>B</source>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="68"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="90"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="68"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="90"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="70"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="92"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="70"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="92"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="72"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="94"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="72"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="94"/>
         <source>Start</source>
         <translation>开始</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="74"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="104"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="74"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="104"/>
         <source>L1</source>
         <translation>L1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="76"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="106"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="76"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="106"/>
         <source>L2</source>
         <translation>L2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="78"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="108"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="78"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="108"/>
         <source>L3</source>
         <translation>L3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="80"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="110"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="80"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="110"/>
         <source>R1</source>
         <translation>R1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="82"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="112"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="82"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="112"/>
         <source>R2</source>
         <translation>R2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="84"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="114"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="114"/>
         <source>R3</source>
         <translation>R3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="86"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="116"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="86"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="116"/>
         <source>Circle</source>
         <translation>○</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="88"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="118"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="88"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="118"/>
         <source>Cross</source>
         <translation>╳</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="90"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="120"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="90"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="120"/>
         <source>Square</source>
         <translation>□</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="92"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="122"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="92"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="122"/>
         <source>Triangle</source>
         <translation>Δ</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="94"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="124"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="94"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="124"/>
         <source>Share</source>
         <translation>分享</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="96"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="126"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="96"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="126"/>
         <source>Options</source>
         <translation>选项</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="98"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="142"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="98"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="142"/>
         <source>[undefined]</source>
         <translation>[未指定]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="406"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="406"/>
         <source>%1%2</source>
         <translation>%1%2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="410"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="199"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="410"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="199"/>
         <source>[invalid]</source>
         <translation>[无效]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="420"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="444"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="420"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="444"/>
         <source>%1%2Hat %3</source>
         <translation>%1%2方向键 %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="424"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="447"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="450"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="239"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="424"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="447"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="450"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="239"/>
         <source>%1%2Axis %3</source>
         <translation>%1%2轴 %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="430"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="219"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="430"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="219"/>
         <source>%1%2Axis %3,%4,%5</source>
         <translation>%1%2轴 %3,%4,%5</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="434"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="223"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="434"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="223"/>
         <source>%1%2Motion %3</source>
         <translation>%1%2体感 %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="438"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="453"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="438"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="453"/>
         <source>%1%2Button %3</source>
         <translation>%1%2按键 %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="480"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="269"/>
+        <location filename="../../src/lichii/configuration/configure_ringcon.cpp" line="480"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="269"/>
         <source>[unused]</source>
         <translation>[未使用]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="74"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="74"/>
         <source>ZR</source>
         <translation>ZR</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="76"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="76"/>
         <source>ZL</source>
         <translation>ZL</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="78"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="78"/>
         <source>SR</source>
         <translation>SR</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="80"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="80"/>
         <source>SL</source>
         <translation>SL</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="82"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="82"/>
         <source>Stick L</source>
         <translation>左摇杆</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="84"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="84"/>
         <source>Stick R</source>
         <translation>右摇杆</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="96"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="96"/>
         <source>Plus</source>
         <translation>＋</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="98"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="98"/>
         <source>Minus</source>
         <translation>－</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="100"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="128"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="100"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="128"/>
         <source>Home</source>
         <translation>Home</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="102"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="102"/>
         <source>Capture</source>
         <translation>截图</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="130"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="130"/>
         <source>Touch</source>
         <translation>触摸</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="132"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="132"/>
         <source>Wheel</source>
         <comment>Indicates the mouse wheel</comment>
         <translation>鼠标滚轮</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="134"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="134"/>
         <source>Backward</source>
         <translation>后退</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="136"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="136"/>
         <source>Forward</source>
         <translation>前进</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="138"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="138"/>
         <source>Task</source>
         <translation>任务键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="140"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="140"/>
         <source>Extra</source>
         <translation>额外按键</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="195"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="195"/>
         <source>%1%2%3%4</source>
         <translation>%1%2%3%4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="209"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="233"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="209"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="233"/>
         <source>%1%2%3Hat %4</source>
         <translation>%1%2%3方向键 %4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="213"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="236"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="213"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="236"/>
         <source>%1%2%3Axis %4</source>
         <translation>%1%2%3轴 %4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="227"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="242"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="227"/>
+        <location filename="../../src/lichii/configuration/configure_input_player.cpp" line="242"/>
         <source>%1%2%3Button %4</source>
         <translation>%1%2%3 按键 %4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="143"/>
+        <location filename="../../src/lichii/multiplayer/chat_room.cpp" line="143"/>
         <source>Not playing a game</source>
         <translation>不在玩游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby_p.h" line="263"/>
+        <location filename="../../src/lichii/multiplayer/lobby_p.h" line="263"/>
         <source>%1 is not playing a game</source>
         <translation>%1 不在玩游戏</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby_p.h" line="265"/>
+        <location filename="../../src/lichii/multiplayer/lobby_p.h" line="265"/>
         <source>%1 is playing %2</source>
         <translation>%1 正在玩 %2</translation>
     </message>
@@ -10477,24 +10488,12 @@ p, li { white-space: pre-wrap; }
         <translation>Citron</translation>
     </message>
     <message>
-        <source>Yuzu</source>
-        <translation>Yuzu</translation>
+        <source>Lichii will use its own profile. Your old emulator data has not been changed.</source>
+        <translation>Lichii 将使用自己的配置。旧模拟器的数据未被改动。</translation>
     </message>
     <message>
-        <source>%1 (update)</source>
-        <translation>%1（更新）</translation>
-    </message>
-    <message>
-        <source>Sudachi</source>
-        <translation>Sudachi</translation>
-    </message>
-    <message>
-        <source>Suyu</source>
-        <translation>Suyu</translation>
-    </message>
-    <message>
-        <source>Lichii has detected user data for the following emulators:</source>
-        <translation>Lichii 检测到以下模拟器的用户数据：</translation>
+        <source>An earlier import did not finish. Recover the previous profile and retry? No source or backup data will be deleted.</source>
+        <translation>上一次导入未完成。要恢复之前的配置并重试吗？不会删除任何源数据或备份。</translation>
     </message>
     <message>
         <source>Would you like to migrate your data for use in Lichii?
@@ -10505,16 +10504,44 @@ This may take a while.</source>
 这可能需要一些时间。</translation>
     </message>
     <message>
-        <source>Clearing shader cache is recommended when migrating from another emulator.
-Earlier Lichii builds kept their own cache in Eden&apos;s directory.</source>
-        <translation>从其他模拟器迁移时建议清除着色器缓存。
-早期的 Lichii 构建把缓存放在 Eden 目录里。</translation>
+        <source>Click or drag to move the square. Zoom to keep a smaller part.</source>
+        <translation>点击或拖拽移动方框。放大可保留更小的部分。</translation>
     </message>
     <message>
-        <source>Copies and verifies the full profile before moving the source aside as a recovery backup.
-Requires enough free space for a full copy. Keep the backup until you have checked your saves.</source>
-        <translation>先完整复制并校验配置，再把源目录移到一边作为恢复备份。
-需要足够的可用空间做完整复制。确认存档无误之前请保留备份。</translation>
+        <source>Lichii startup stopped</source>
+        <translation>Lichii 启动中止</translation>
+    </message>
+    <message>
+        <source>Crop Icon</source>
+        <translation>裁剪图标</translation>
+    </message>
+    <message>
+        <source>Zoom:</source>
+        <translation>缩放：</translation>
+    </message>
+    <message>
+        <source>Start fresh</source>
+        <translation>全新开始</translation>
+    </message>
+    <message>
+        <source>Lichii has detected user data for the following emulators:</source>
+        <translation>Lichii 检测到以下模拟器的用户数据：</translation>
+    </message>
+    <message>
+        <source>Import</source>
+        <translation>导入</translation>
+    </message>
+    <message>
+        <source>Recover unfinished import</source>
+        <translation>恢复未完成的导入</translation>
+    </message>
+    <message>
+        <source>Move Old Data (retain backup)</source>
+        <translation>移动旧数据（保留备份）</translation>
+    </message>
+    <message>
+        <source>Yuzu</source>
+        <translation>Yuzu</translation>
     </message>
     <message>
         <source>Creates a filesystem link between the old directory and Lichii directory.
@@ -10523,20 +10550,18 @@ This is recommended if you want to share data between emulators.</source>
 如果希望两个模拟器共享数据，推荐这种方式。</translation>
     </message>
     <message>
-        <source>Lichii startup stopped</source>
-        <translation>Lichii 启动中止</translation>
+        <source>%1 (update)</source>
+        <translation>%1（更新）</translation>
     </message>
     <message>
-        <source>Recover unfinished import</source>
-        <translation>恢复未完成的导入</translation>
+        <source>Clearing shader cache is recommended when migrating from another emulator.
+Earlier Lichii builds kept their own cache in Eden&apos;s directory.</source>
+        <translation>从其他模拟器迁移时建议清除着色器缓存。
+早期的 Lichii 构建把缓存放在 Eden 目录里。</translation>
     </message>
     <message>
-        <source>An earlier import did not finish. Recover the previous profile and retry? No source or backup data will be deleted.</source>
-        <translation>上一次导入未完成。要恢复之前的配置并重试吗？不会删除任何源数据或备份。</translation>
-    </message>
-    <message>
-        <source>Move Old Data (retain backup)</source>
-        <translation>移动旧数据（保留备份）</translation>
+        <source>Sudachi</source>
+        <translation>Sudachi</translation>
     </message>
     <message>
         <source>Import an existing emulator profile into Lichii?
@@ -10557,139 +10582,125 @@ Close this window to decide on the next launch.</source>
 关闭此窗口可在下次启动时再决定。</translation>
     </message>
     <message>
-        <source>Import</source>
-        <translation>导入</translation>
+        <source>Copies and verifies the full profile before moving the source aside as a recovery backup.
+Requires enough free space for a full copy. Keep the backup until you have checked your saves.</source>
+        <translation>先完整复制并校验配置，再把源目录移到一边作为恢复备份。
+需要足够的可用空间做完整复制。确认存档无误之前请保留备份。</translation>
     </message>
     <message>
-        <source>Start fresh</source>
-        <translation>全新开始</translation>
-    </message>
-    <message>
-        <source>Lichii will use its own profile. Your old emulator data has not been changed.</source>
-        <translation>Lichii 将使用自己的配置。旧模拟器的数据未被改动。</translation>
-    </message>
-    <message>
-        <source>Crop Icon</source>
-        <translation>裁剪图标</translation>
-    </message>
-    <message>
-        <source>Click or drag to move the square. Zoom to keep a smaller part.</source>
-        <translation>点击或拖拽移动方框。放大可保留更小的部分。</translation>
-    </message>
-    <message>
-        <source>Zoom:</source>
-        <translation>缩放：</translation>
+        <source>Suyu</source>
+        <translation>Suyu</translation>
     </message>
 </context>
 <context>
     <name>QtAmiiboSettingsDialog</name>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="14"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="14"/>
         <source>Amiibo Settings</source>
         <translation>Amiibo 设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="169"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="169"/>
         <source>Amiibo Info</source>
         <translation>Amiibo 信息</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="177"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="177"/>
         <source>Series</source>
         <translation>系列</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="197"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="197"/>
         <source>Type</source>
         <translation>类型</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="217"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="217"/>
         <source>Name</source>
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="242"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="242"/>
         <source>Amiibo Data</source>
         <translation>Amiibo 数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="250"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="250"/>
         <source>Custom Name</source>
         <translation>自定义名称</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="270"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="270"/>
         <source>Owner</source>
         <translation>所有者</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="290"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="290"/>
         <source>Creation Date</source>
         <translation>创建日期</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="307"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="307"/>
         <source>dd/MM/yyyy</source>
         <translation>dd/MM/yyyy</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="314"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="314"/>
         <source>Modification Date</source>
         <translation>修改日期</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="331"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="331"/>
         <source>dd/MM/yyyy </source>
         <translation>dd/MM/yyyy </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="349"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="349"/>
         <source>Game Data</source>
         <translation>游戏数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="355"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="355"/>
         <source>Game Id</source>
         <translation>游戏 ID</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="384"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="384"/>
         <source>Mount Amiibo</source>
         <translation>挂载 Amiibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="390"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="390"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.ui" line="413"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.ui" line="413"/>
         <source>File Path</source>
         <translation>文件路径</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="196"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.cpp" line="196"/>
         <source>No game data present</source>
         <translation>没有游戏数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="236"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.cpp" line="236"/>
         <source>The following amiibo data will be formatted:</source>
         <translation>将格式化以下 amiibo 数据：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="239"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.cpp" line="239"/>
         <source>The following game data will removed:</source>
         <translation>将删除以下游戏数据：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="242"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.cpp" line="242"/>
         <source>Set nickname and owner:</source>
         <translation>设置昵称及所有者：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="245"/>
+        <location filename="../../src/lichii/applets/qt_amiibo_settings.cpp" line="245"/>
         <source>Do you wish to restore this amiibo?</source>
         <translation>您想要恢复这个 amiibo 吗？</translation>
     </message>
@@ -11536,254 +11547,254 @@ This is recommended if you want to share data between emulators.</source>
 <context>
     <name>QtControllerSelectorDialog</name>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="14"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="14"/>
         <source>Controller Applet</source>
         <translation>控制器小程序</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="129"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="129"/>
         <source>Supported Controller Types:</source>
         <translation>支持的控制器类型：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="282"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="282"/>
         <source>Players:</source>
         <translation>玩家：</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="300"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="300"/>
         <source>1 - 8</source>
         <translation>1 - 8</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="418"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="418"/>
         <source>P4</source>
         <translation>P4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="514"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="711"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="912"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1222"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1459"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1656"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1857"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2054"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="470"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="514"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="711"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="912"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1222"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1459"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1656"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1857"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2054"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="470"/>
         <source>Pro Controller</source>
         <translation>Pro 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="519"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="716"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="917"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1227"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1464"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1661"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1862"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2059"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="474"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="519"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="716"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="917"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1227"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1464"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1661"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1862"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2059"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="474"/>
         <source>Dual Joycons</source>
         <translation>双 Joycons 手柄</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="524"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="721"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="922"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1232"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1469"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1666"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1867"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2064"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="478"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="524"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="721"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="922"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1232"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1469"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1666"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1867"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2064"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="478"/>
         <source>Left Joycon</source>
         <translation>左 Joycon 手柄</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="529"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="726"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="927"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1237"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1474"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1671"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1872"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2069"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="482"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="529"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="726"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="927"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1237"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1474"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1671"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1872"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2069"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="482"/>
         <source>Right Joycon</source>
         <translation>右 Joycon 手柄</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="538"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="735"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="941"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1246"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1483"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1680"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1881"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2078"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="538"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="735"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="941"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1246"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1483"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1680"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1881"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2078"/>
         <source>Use Current Config</source>
         <translation>使用当前配置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="615"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="615"/>
         <source>P2</source>
         <translation>P2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="812"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="812"/>
         <source>P1</source>
         <translation>P1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="932"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2303"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="486"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="932"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2303"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="486"/>
         <source>Handheld</source>
         <translation>掌机模式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1126"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1126"/>
         <source>P3</source>
         <translation>P3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1363"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1363"/>
         <source>P7</source>
         <translation>P7</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1560"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1560"/>
         <source>P8</source>
         <translation>P8</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1757"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1757"/>
         <source>P5</source>
         <translation>P5</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="1958"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="1958"/>
         <source>P6</source>
         <translation>P6</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2272"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2272"/>
         <source>Console Mode</source>
         <translation>控制台模式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2293"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2293"/>
         <source>Docked</source>
         <translation>主机模式</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2313"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2313"/>
         <source>Vibration</source>
         <translation>震动</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2349"/>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2395"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2349"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2395"/>
         <source>Configure</source>
         <translation>设置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2359"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2359"/>
         <source>Motion</source>
         <translation>体感</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2405"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2405"/>
         <source>Profiles</source>
         <translation>用户配置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2432"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2432"/>
         <source>Create</source>
         <translation>新建</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2467"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2467"/>
         <source>Controllers</source>
         <translation>控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2481"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2481"/>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2508"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2508"/>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2518"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2518"/>
         <source>4</source>
         <translation>4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2528"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2528"/>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2538"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2538"/>
         <source>Connected</source>
         <translation>已连接</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2552"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2552"/>
         <source>5</source>
         <translation>5</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2569"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2569"/>
         <source>7</source>
         <translation>7</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2586"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2586"/>
         <source>6</source>
         <translation>6</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2596"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2596"/>
         <source>8</source>
         <translation>8</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.ui" line="2653"/>
+        <location filename="../../src/lichii/applets/qt_controller.ui" line="2653"/>
         <source>Not enough controllers</source>
         <translation>控制器数量不足</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="490"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="490"/>
         <source>GameCube Controller</source>
         <translation>GameCube 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="499"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="499"/>
         <source>Poke Ball Plus</source>
         <translation>精灵球 PLUS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="503"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="503"/>
         <source>NES Controller</source>
         <translation>NES 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="507"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="507"/>
         <source>SNES Controller</source>
         <translation>SNES 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="511"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="511"/>
         <source>N64 Controller</source>
         <translation>N64 控制器</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="515"/>
+        <location filename="../../src/lichii/applets/qt_controller.cpp" line="515"/>
         <source>Sega Genesis</source>
         <translation>世嘉创世纪</translation>
     </message>
@@ -11791,28 +11802,28 @@ This is recommended if you want to share data between emulators.</source>
 <context>
     <name>QtErrorDisplay</name>
     <message>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="30"/>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="43"/>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="58"/>
+        <location filename="../../src/lichii/applets/qt_error.cpp" line="30"/>
+        <location filename="../../src/lichii/applets/qt_error.cpp" line="43"/>
+        <location filename="../../src/lichii/applets/qt_error.cpp" line="58"/>
         <source>Error Code: %1-%2 (0x%3)</source>
         <translation>错误代码: %1-%2 (0x%3)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="34"/>
+        <location filename="../../src/lichii/applets/qt_error.cpp" line="34"/>
         <source>An error has occurred.
 Please try again or contact the developer of the software.</source>
         <translation>发生了一个错误。
 请再试一次或联系开发者。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="47"/>
+        <location filename="../../src/lichii/applets/qt_error.cpp" line="47"/>
         <source>An error occurred on %1 at %2.
 Please try again or contact the developer of the software.</source>
         <translation>%1 上的 %2 处发生了一个错误。
 请再试一次或联系开发者。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="62"/>
+        <location filename="../../src/lichii/applets/qt_error.cpp" line="62"/>
         <source>An error has occurred.
 
 %1
@@ -11828,7 +11839,7 @@ Please try again or contact the developer of the software.</source>
 <context>
     <name>QtProfileSelectionDialog</name>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="28"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="28"/>
         <source>%1
 %2</source>
         <comment>%1 is the profile username, %2 is the formatted UUID (e.g. 00112233-4455-6677-8899-AABBCCDDEEFF))</comment>
@@ -11836,78 +11847,78 @@ Please try again or contact the developer of the software.</source>
 %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="90"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="90"/>
         <source>Users</source>
         <translation>用户</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="169"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="169"/>
         <source>Profile Creator</source>
         <translation>创建用户</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="172"/>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="190"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="172"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="190"/>
         <source>Profile Selector</source>
         <translation>选择用户</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="175"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="175"/>
         <source>Profile Icon Editor</source>
         <translation>修改用户图像</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="178"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="178"/>
         <source>Profile Nickname Editor</source>
         <translation>修改用户昵称</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="200"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="200"/>
         <source>Who will receive the points?</source>
         <translation>谁将获得黄金点数？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="203"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="203"/>
         <source>Who is using Nintendo eShop?</source>
         <translation>谁正在使用任天堂 eShop？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="206"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="206"/>
         <source>Who is making this purchase?</source>
         <translation>是谁购买了这个？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="209"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="209"/>
         <source>Who is posting?</source>
         <translation>谁在发帖？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="212"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="212"/>
         <source>Select a user to link to a Nintendo Account.</source>
         <translation>选择要链接到任天堂账户的用户。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="215"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="215"/>
         <source>Change settings for which user?</source>
         <translation>要更改哪个用户的设置？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="218"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="218"/>
         <source>Format data for which user?</source>
         <translation>要为哪个用户格式化数据？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="221"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="221"/>
         <source>Which user will be transferred to another console?</source>
         <translation>哪个用户将被转移到另一个控制台？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="224"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="224"/>
         <source>Send save data for which user?</source>
         <translation>要为哪个用户发送保存数据？</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="228"/>
+        <location filename="../../src/lichii/applets/qt_profile_select.cpp" line="228"/>
         <source>Select a user:</source>
         <translation>选择一个用户:</translation>
     </message>
@@ -11915,17 +11926,17 @@ Please try again or contact the developer of the software.</source>
 <context>
     <name>QtSoftwareKeyboardDialog</name>
     <message>
-        <location filename="../../src/yuzu/applets/qt_software_keyboard.ui" line="14"/>
+        <location filename="../../src/lichii/applets/qt_software_keyboard.ui" line="14"/>
         <source>Software Keyboard</source>
         <translation>软件键盘</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_software_keyboard.ui" line="199"/>
+        <location filename="../../src/lichii/applets/qt_software_keyboard.ui" line="199"/>
         <source>Enter Text</source>
         <translation>输入文本</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_software_keyboard.ui" line="479"/>
+        <location filename="../../src/lichii/applets/qt_software_keyboard.ui" line="479"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -11938,13 +11949,13 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_software_keyboard.cpp" line="405"/>
-        <location filename="../../src/yuzu/applets/qt_software_keyboard.cpp" line="415"/>
+        <location filename="../../src/lichii/applets/qt_software_keyboard.cpp" line="405"/>
+        <location filename="../../src/lichii/applets/qt_software_keyboard.cpp" line="415"/>
         <source>OK</source>
         <translation>确定</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_software_keyboard.cpp" line="415"/>
+        <location filename="../../src/lichii/applets/qt_software_keyboard.cpp" line="415"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
@@ -11952,12 +11963,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>RyujinxDialog</name>
     <message>
-        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="14"/>
+        <location filename="../../src/lichii/ryujinx_dialog.ui" line="14"/>
         <source>Ryujinx Link</source>
         <translation>链接 Ryujinx</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="26"/>
+        <location filename="../../src/lichii/ryujinx_dialog.ui" line="26"/>
         <source>Linking save data to Ryujinx lets both Ryujinx and Eden reference the same save files for your games.
 
 By selecting &quot;From Eden&quot;, previous save data stored in Ryujinx will be deleted, and vice versa for &quot;From Ryujinx&quot;.</source>
@@ -11966,27 +11977,27 @@ By selecting &quot;From Eden&quot;, previous save data stored in Ryujinx will be
 选择 “来自 Eden” 时，Ryujinx 中存储的上一个保存数据将被删除,反之选择“从 Ryujinx 开始”时亦然。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="40"/>
+        <location filename="../../src/lichii/ryujinx_dialog.ui" line="40"/>
         <source>From Eden</source>
         <translation>来自 Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="47"/>
+        <location filename="../../src/lichii/ryujinx_dialog.ui" line="47"/>
         <source>From Ryujinx</source>
         <translation>来自 Ryujinx</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="54"/>
+        <location filename="../../src/lichii/ryujinx_dialog.ui" line="54"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/ryujinx_dialog.cpp" line="37"/>
+        <location filename="../../src/lichii/ryujinx_dialog.cpp" line="37"/>
         <source>Failed to link save data</source>
         <translation>链接存档数据失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/ryujinx_dialog.cpp" line="38"/>
+        <location filename="../../src/lichii/ryujinx_dialog.cpp" line="38"/>
         <source>OS returned error: %1</source>
         <translation>OS 返回错误: %1</translation>
     </message>
@@ -12006,7 +12017,7 @@ By selecting &quot;From Lichii&quot;, previous save data stored in Ryujinx will 
 <context>
     <name>SequenceDialog</name>
     <message>
-        <location filename="../../src/yuzu/util/sequence_dialog/sequence_dialog.cpp" line="10"/>
+        <location filename="../../src/lichii/util/sequence_dialog/sequence_dialog.cpp" line="10"/>
         <source>Enter a hotkey</source>
         <translation>输入热键</translation>
     </message>
@@ -12014,27 +12025,27 @@ By selecting &quot;From Lichii&quot;, previous save data stored in Ryujinx will 
 <context>
     <name>SetPlayTimeDialog</name>
     <message>
-        <location filename="../../src/yuzu/set_play_time_dialog.ui" line="14"/>
+        <location filename="../../src/lichii/set_play_time_dialog.ui" line="14"/>
         <source>Set Play Time Data</source>
         <translation>设置游戏时间数据</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/set_play_time_dialog.ui" line="25"/>
+        <location filename="../../src/lichii/set_play_time_dialog.ui" line="25"/>
         <source>Hours:</source>
         <translation>小时:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/set_play_time_dialog.ui" line="39"/>
+        <location filename="../../src/lichii/set_play_time_dialog.ui" line="39"/>
         <source>Minutes:</source>
         <translation>分:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/set_play_time_dialog.ui" line="53"/>
+        <location filename="../../src/lichii/set_play_time_dialog.ui" line="53"/>
         <source>Seconds:</source>
         <translation>秒:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/set_play_time_dialog.cpp" line="49"/>
+        <location filename="../../src/lichii/set_play_time_dialog.cpp" line="49"/>
         <source>Total play time reached maximum.</source>
         <translation>总计游戏时间已到达最大值。</translation>
     </message>
@@ -12042,93 +12053,93 @@ By selecting &quot;From Lichii&quot;, previous save data stored in Ryujinx will 
 <context>
     <name>UpdateDialog</name>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.ui" line="14"/>
+        <location filename="../../src/lichii/updater/update_dialog.ui" line="14"/>
         <source>Update Available</source>
         <translation>有可用更新</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.ui" line="20"/>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="31"/>
+        <location filename="../../src/lichii/updater/update_dialog.ui" line="20"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="31"/>
         <source>&lt;a href=&quot;%1&quot;&gt;View on Forgejo&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;%1&quot;&gt;在 Forgejo 上查看&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.ui" line="33"/>
+        <location filename="../../src/lichii/updater/update_dialog.ui" line="33"/>
         <source>Would you like to install this update?</source>
         <translation>您要安装此更新吗?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.ui" line="50"/>
+        <location filename="../../src/lichii/updater/update_dialog.ui" line="50"/>
         <source>Available Versions</source>
         <translation>可用版本</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.ui" line="58"/>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="29"/>
+        <location filename="../../src/lichii/updater/update_dialog.ui" line="58"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="29"/>
         <source>%1 is available for download.</source>
         <translation>%1 可用于下载。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="80"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="80"/>
         <source>New Version Location</source>
         <translation>新版本位置</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="82"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="82"/>
         <source>All Files (*.*)</source>
         <translation>所有文件 (*.*)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="90"/>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="130"/>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="145"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="90"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="130"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="145"/>
         <source>Failed to save file</source>
         <translation>保存文件失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="91"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="91"/>
         <source>Could not open file %1 for writing.</source>
         <translation>无法打开要写入的 %1 文件。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="113"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="113"/>
         <source>Downloading...</source>
         <translation>正在下载...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="113"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="113"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="131"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="131"/>
         <source>Could not write to file %1.</source>
         <translation>无法写入到文件 %1。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="146"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="146"/>
         <source>Could not commit to file %1.</source>
         <translation>无法提交到文件 %1。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="158"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="158"/>
         <source>Failed to download file</source>
         <translation>下载文件失败</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="159"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="159"/>
         <source>Could not download from %1%2
 Error code: %3</source>
         <translation>无法从 %1%2 下载
 错误代码: %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="172"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="172"/>
         <source>Download Complete</source>
         <translation>下载完成</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="173"/>
+        <location filename="../../src/lichii/updater/update_dialog.cpp" line="173"/>
         <source>Successfully downloaded %1. Would you like to open it?</source>
         <translation>已成功下载 %1。您要打开它吗?</translation>
     </message>
@@ -12137,12 +12148,20 @@ Error code: %3</source>
         <translation>稍后提醒</translation>
     </message>
     <message>
-        <source> This release has no PGO build, so the standard build will be downloaded.</source>
-        <translation> 此发布没有 PGO 构建，将下载标准构建。</translation>
+        <source>Downloading... (try %1 of %2)</source>
+        <translation>正在下载...（第 %1 次尝试，共 %2 次）</translation>
     </message>
     <message>
         <source>The downloaded file does not match the checksum GitHub published for it, so it was discarded. Try again later.</source>
         <translation>下载的文件与 GitHub 公布的校验和不符，已丢弃。请稍后重试。</translation>
+    </message>
+    <message>
+        <source>Lichii will close, install the update and start again. The previous version is kept, and your settings and data are not changed.
+
+Restart now?</source>
+        <translation>Lichii 将关闭、安装更新并重新启动。旧版本会被保留，你的设置和数据不会被更改。
+
+现在重启吗？</translation>
     </message>
     <message>
         <source>Failed to install the update</source>
@@ -12157,8 +12176,24 @@ Error code: %3</source>
         <translation>无法替换 %1。你的安装未被更改。</translation>
     </message>
     <message>
+        <source>Could not start the update installer.</source>
+        <translation>无法启动更新安装程序。</translation>
+    </message>
+    <message>
+        <source>Could not create a folder for the update.</source>
+        <translation>无法为更新创建文件夹。</translation>
+    </message>
+    <message>
         <source>Would you like to download this update?</source>
         <translation>要下载此更新吗？</translation>
+    </message>
+    <message>
+        <source>The new version is installed. The previous version is kept as %1.
+
+Restart now?</source>
+        <translation>新版本已安装，旧版本已保留为 %1。
+
+现在重启吗？</translation>
     </message>
     <message>
         <source>Failed to restart</source>
@@ -12173,28 +12208,8 @@ Error code: %3</source>
         <translation>正在解包...</translation>
     </message>
     <message>
-        <source>Could not start the update installer.</source>
-        <translation>无法启动更新安装程序。</translation>
-    </message>
-    <message>
-        <source>Lichii will close, install the update and start again. The previous version is kept, and your settings and data are not changed.
-
-Restart now?</source>
-        <translation>Lichii 将关闭、安装更新并重新启动。旧版本会被保留，你的设置和数据不会被更改。
-
-现在重启吗？</translation>
-    </message>
-    <message>
-        <source>The new version is installed. The previous version is kept as %1.
-
-Restart now?</source>
-        <translation>新版本已安装，旧版本已保留为 %1。
-
-现在重启吗？</translation>
-    </message>
-    <message>
-        <source>The downloaded update could not be unpacked.</source>
-        <translation>无法解包下载的更新。</translation>
+        <source> This release has no PGO build, so the standard build will be downloaded.</source>
+        <translation> 此发布没有 PGO 构建，将下载标准构建。</translation>
     </message>
     <message>
         <source>Update Ready</source>
@@ -12209,20 +12224,16 @@ Restart now?</source>
         <translation>&lt;a href=&quot;%1&quot;&gt;在 GitHub 上查看&lt;/a&gt;</translation>
     </message>
     <message>
-        <source>Could not create a folder for the update.</source>
-        <translation>无法为更新创建文件夹。</translation>
-    </message>
-    <message>
-        <source>Skip This Version</source>
-        <translation>跳过此版本</translation>
+        <source>The downloaded update could not be unpacked.</source>
+        <translation>无法解包下载的更新。</translation>
     </message>
     <message>
         <source>Update Installed</source>
         <translation>更新已安装</translation>
     </message>
     <message>
-        <source>Downloading... (try %1 of %2)</source>
-        <translation>正在下载...（第 %1 次尝试，共 %2 次）</translation>
+        <source>Skip This Version</source>
+        <translation>跳过此版本</translation>
     </message>
 </context>
 <context>
@@ -13016,8 +13027,12 @@ Would you like to manually select a portable folder to use?</source>
 <context>
     <name>Dialog</name>
     <message>
-        <source>Experience</source>
-        <translation>体验</translation>
+        <source>Search catalog</source>
+        <translation>搜索目录</translation>
+    </message>
+    <message>
+        <source>Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.</source>
+        <translation>正在提交… 关闭窗口只会停止等待，但无法撤回服务器已经收到的报告。不会自动重试。</translation>
     </message>
     <message>
         <source>The server returned an invalid receipt. The report may have been accepted. Only retry this unchanged draft explicitly.</source>
@@ -13026,10 +13041,6 @@ Would you like to manually select a portable folder to use?</source>
     <message>
         <source>Choose your assessment</source>
         <translation>选择你的评价</translation>
-    </message>
-    <message>
-        <source>Submit report</source>
-        <translation>提交报告</translation>
     </message>
     <message>
         <source>Compatibility</source>
@@ -13060,16 +13071,12 @@ Would you like to manually select a portable folder to use?</source>
         <translation>确认游戏</translation>
     </message>
     <message>
-        <source>Report submitted. It is public. Thank you.</source>
-        <translation>报告已提交，并且已公开。谢谢！</translation>
+        <source>Catalog search failed. Check your connection and retry explicitly.</source>
+        <translation>目录搜索失败。请检查网络后手动重试。</translation>
     </message>
     <message>
         <source>Game title to search</source>
         <translation>要搜索的游戏名称</translation>
-    </message>
-    <message>
-        <source>Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.</source>
-        <translation>正在提交… 关闭窗口只会停止等待，但无法撤回服务器已经收到的报告。不会自动重试。</translation>
     </message>
     <message>
         <source>Clear draft</source>
@@ -13084,6 +13091,10 @@ Would you like to manually select a portable folder to use?</source>
         <translation>概述</translation>
     </message>
     <message>
+        <source>My report contains no game files, keys, firmware, saves or private account details.</source>
+        <translation>我的报告不包含游戏文件、密钥、固件、存档或私人账号信息。</translation>
+    </message>
+    <message>
         <source>Rate limit reached. Wait %1 seconds, then retry explicitly. Nothing will be retried automatically.</source>
         <translation>已触发限流。请等待 %1 秒后手动重试。不会自动重试。</translation>
     </message>
@@ -13096,6 +13107,10 @@ Would you like to manually select a portable folder to use?</source>
         <translation>服务器拒绝了以下字段：%1。请检查后重新提交。</translation>
     </message>
     <message>
+        <source>System and settings</source>
+        <translation>系统与设置</translation>
+    </message>
+    <message>
         <source>Open public report</source>
         <translation>打开公开报告</translation>
     </message>
@@ -13104,8 +13119,8 @@ Would you like to manually select a portable folder to use?</source>
         <translation>上一步</translation>
     </message>
     <message>
-        <source>How far did you play?</source>
-        <translation>你玩到了哪里？</translation>
+        <source>Experience</source>
+        <translation>体验</translation>
     </message>
     <message>
         <source>Updates (optional)</source>
@@ -13136,16 +13151,12 @@ Would you like to manually select a portable folder to use?</source>
         <translation>服务器拒绝了该报告。请检查各字段和长度限制后重新提交。</translation>
     </message>
     <message>
-        <source>Graphics API</source>
-        <translation>图形 API</translation>
-    </message>
-    <message>
-        <source>Launch settings</source>
-        <translation>启动设置</translation>
-    </message>
-    <message>
         <source>No valid receipt was received. Delivery may have succeeded. An explicit retry of this unchanged draft uses the same submission identity. Closing loses that identity; do not create a duplicate.</source>
         <translation>没有收到有效的回执，但提交可能已经成功。对这份未改动草稿的手动重试会使用相同的提交标识。关闭窗口会丢失该标识；请不要重复创建。</translation>
+    </message>
+    <message>
+        <source>Submit report</source>
+        <translation>提交报告</translation>
     </message>
     <message>
         <source>X handle (optional)</source>
@@ -13154,10 +13165,6 @@ Would you like to manually select a portable folder to use?</source>
     <message>
         <source>The server rejected this submission identity. Edit the draft to start a new submission; first check whether your report was already accepted.</source>
         <translation>服务器拒绝了本次提交标识。请修改草稿以开始新的提交；先确认你的报告是否已被接受。</translation>
-    </message>
-    <message>
-        <source>Confirmed: %1 (catalog ID %2)</source>
-        <translation>已确认：%1（目录 ID %2）</translation>
     </message>
     <message>
         <source>The server rejected the request (HTTP %1). No automatic retry was made.</source>
@@ -13184,8 +13191,8 @@ Would you like to manually select a portable folder to use?</source>
         <translation>公开昵称</translation>
     </message>
     <message>
-        <source>My report contains no game files, keys, firmware, saves or private account details.</source>
-        <translation>我的报告不包含游戏文件、密钥、固件、存档或私人账号信息。</translation>
+        <source>Confirmed: %1 (catalog ID %2)</source>
+        <translation>已确认：%1（目录 ID %2）</translation>
     </message>
     <message>
         <source>The report is too large.</source>
@@ -13212,12 +13219,12 @@ Would you like to manually select a portable folder to use?</source>
         <translation>请选择你自己的兼容性评价。</translation>
     </message>
     <message>
-        <source>Catalog search failed. Check your connection and retry explicitly.</source>
-        <translation>目录搜索失败。请检查网络后手动重试。</translation>
+        <source>Report submitted. It is public. Thank you.</source>
+        <translation>报告已提交，并且已公开。谢谢！</translation>
     </message>
     <message>
-        <source>Search catalog</source>
-        <translation>搜索目录</translation>
+        <source>Graphics API</source>
+        <translation>图形 API</translation>
     </message>
     <message>
         <source>All report fields in the preview will be public. Logs, files, local title IDs and play history are not sent. The server uses your IP address for rate limiting. Review and clear anything you do not want to share.</source>
@@ -13232,6 +13239,10 @@ Would you like to manually select a portable folder to use?</source>
         <translation>目录返回了无效响应，未确认任何游戏。</translation>
     </message>
     <message>
+        <source>How far did you play?</source>
+        <translation>你玩到了哪里？</translation>
+    </message>
+    <message>
         <source>Search for and confirm the catalog game first.</source>
         <translation>请先搜索并确认目录中的游戏。</translation>
     </message>
@@ -13240,8 +13251,8 @@ Would you like to manually select a portable folder to use?</source>
         <translation>公开预览</translation>
     </message>
     <message>
-        <source>System and settings</source>
-        <translation>系统与设置</translation>
+        <source>Launch settings</source>
+        <translation>启动设置</translation>
     </message>
 </context>
 <context>
@@ -13261,10 +13272,6 @@ Would you like to manually select a portable folder to use?</source>
     <message>
         <source>%1: %L2 / %L3</source>
         <translation>%1：%L2 / %L3</translation>
-    </message>
-    <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
     </message>
     <message>
         <source>Converting shaders</source>
@@ -13295,6 +13302,10 @@ Would you like to manually select a portable folder to use?</source>
         <translation>正在读取游戏文件</translation>
     </message>
     <message>
+        <source>Shader precache stopped.</source>
+        <translation>着色器预编译已停止。</translation>
+    </message>
+    <message>
         <source>It is built on the loading screen when Precache shaders before game start is on.</source>
         <translation>开启“游戏启动前预编译着色器”后，会在加载画面中构建。</translation>
     </message>
@@ -13307,8 +13318,8 @@ Would you like to manually select a portable folder to use?</source>
         <translation>关闭</translation>
     </message>
     <message>
-        <source>Shader precache stopped.</source>
-        <translation>着色器预编译已停止。</translation>
+        <source>Cancel</source>
+        <translation>取消</translation>
     </message>
     <message>
         <source>Precache shaders: %1</source>
@@ -13346,14 +13357,10 @@ Would you like to manually select a portable folder to use?</source>
         <translation>此 NX 归档中没有可移除的更新或 DLC。</translation>
     </message>
     <message>
-        <source>The original could not be moved to the Recycle Bin:
-%1
-
-It may be in use. You can delete it yourself.</source>
-        <translation>无法把原始文件移到回收站：
-%1
-
-它可能正在被使用，你可以手动删除。</translation>
+        <source>The NX archive was created:
+%1</source>
+        <translation>NX 归档已创建：
+%1</translation>
     </message>
     <message>
         <source>Title:</source>
@@ -13368,18 +13375,12 @@ It may be in use. You can delete it yourself.</source>
         <translation>选择图片</translation>
     </message>
     <message>
-        <source>Move the original game to the Recycle Bin:
-%1</source>
-        <translation>把原始游戏移到回收站：
-%1</translation>
+        <source>Restore Original Image</source>
+        <translation>恢复原始图片</translation>
     </message>
     <message>
         <source>Choose Image...</source>
         <translation>选择图片...</translation>
-    </message>
-    <message>
-        <source>This image cannot be converted.</source>
-        <translation>无法转换此图片。</translation>
     </message>
     <message>
         <source>%1 left</source>
@@ -13389,9 +13390,11 @@ It may be in use. You can delete it yourself.</source>
         <source>Update Folder...</source>
         <translation>更新文件夹...</translation>
     </message>
-    <message>
-        <source>Select Updates or DLC</source>
-        <translation>选择更新或 DLC</translation>
+    <message numerus="yes">
+        <source>about %n minute(s)</source>
+        <translation>
+            <numerusform>约 %n 分钟</numerusform>
+        </translation>
     </message>
     <message>
         <source>Icon:</source>
@@ -13414,10 +13417,12 @@ It may be in use. You can delete it yourself.</source>
         <translation>此更新的版本号（例如 v196608 对应 196608）：</translation>
     </message>
     <message>
-        <source>Updates and DLC of this game were found in the same folder.
-The checked ones are added to the NX archive:</source>
-        <translation>在同一文件夹中找到了该游戏的更新和 DLC。
-勾选的会加入 NX 归档：</translation>
+        <source>NX converter unavailable: could not load nxformat.dll. Error %1: %2</source>
+        <translation>NX 转换器不可用：无法加载 nxformat.dll。错误 %1：%2</translation>
+    </message>
+    <message>
+        <source>Remove from NX</source>
+        <translation>从 NX 中移除</translation>
     </message>
     <message>
         <source>Update %1 (v%2)</source>
@@ -13428,8 +13433,24 @@ The checked ones are added to the NX archive:</source>
         <translation>无法读取此图片。</translation>
     </message>
     <message>
+        <source>256 x 256 (default)</source>
+        <translation>256 x 256（默认）</translation>
+    </message>
+    <message>
         <source>This NX archive cannot be read.</source>
         <translation>无法读取此 NX 归档。</translation>
+    </message>
+    <message>
+        <source>512 x 512</source>
+        <translation>512 x 512</translation>
+    </message>
+    <message>
+        <source>Cancelled.</source>
+        <translation>已取消。</translation>
+    </message>
+    <message>
+        <source>NX converter unavailable: Windows blocked nxformat.dll (Smart App Control or a code integrity policy). Error %1.</source>
+        <translation>NX 转换器不可用：Windows 阻止了 nxformat.dll（智能应用控制或代码完整性策略）。错误 %1。</translation>
     </message>
     <message>
         <source>The NX archive was updated.</source>
@@ -13444,12 +13465,28 @@ The checked ones are added to the NX archive:</source>
         <translation>Switch 包 (*.nsp *.xci)</translation>
     </message>
     <message>
+        <source>Convert to NX</source>
+        <translation>转换为 NX</translation>
+    </message>
+    <message>
+        <source>Updates and DLC of this game were found in the same folder.
+The checked ones are added to the NX archive:</source>
+        <translation>在同一文件夹中找到了该游戏的更新和 DLC。
+勾选的会加入 NX 归档：</translation>
+    </message>
+    <message>
         <source>The NX archive metadata was updated.</source>
         <translation>NX 归档元数据已更新。</translation>
     </message>
     <message>
-        <source>Convert to NX</source>
-        <translation>转换为 NX</translation>
+        <source>The original could not be moved to the Recycle Bin:
+%1
+
+It may be in use. You can delete it yourself.</source>
+        <translation>无法把原始文件移到回收站：
+%1
+
+它可能正在被使用，你可以手动删除。</translation>
     </message>
     <message>
         <source>Adding to NX</source>
@@ -13460,20 +13497,58 @@ The checked ones are added to the NX archive:</source>
         <translation>向此 NX 归档添加更新或 DLC。归档会就地修改，已有内容会保留。</translation>
     </message>
     <message>
-        <source>Finishing...</source>
-        <translation>正在完成...</translation>
+        <source>Cancelled. Nothing was changed on disk.</source>
+        <translation>已取消，磁盘上的内容没有变化。</translation>
     </message>
     <message>
         <source>Removing from NX</source>
         <translation>正在从 NX 中移除</translation>
     </message>
     <message>
+        <source>Finishing...</source>
+        <translation>正在完成...</translation>
+    </message>
+    <message>
         <source>Edit NX Metadata</source>
         <translation>编辑 NX 元数据</translation>
     </message>
     <message>
+        <source>The operation failed:
+%1</source>
+        <translation>操作失败：
+%1</translation>
+    </message>
+    <message>
+        <source>%1
+Elapsed: %2</source>
+        <translation>%1
+已用时间：%2</translation>
+    </message>
+    <message>
+        <source>NX archive (*.nx)</source>
+        <translation>NX 归档 (*.nx)</translation>
+    </message>
+    <message>
+        <source>The operation failed because the rebuild recipe could not be kept:
+%1
+
+Try again without the recipe? The game still runs from the NX archive, but the original package cannot be rebuilt exactly from it.</source>
+        <translation>操作失败，因为无法保留重建配方：
+%1
+
+是否不带配方重试？游戏仍可从 NX 归档运行，但无法再从中精确重建原始包。</translation>
+    </message>
+    <message>
+        <source>Select Updates or DLC</source>
+        <translation>选择更新或 DLC</translation>
+    </message>
+    <message>
         <source>Move the %1 original packages to the Recycle Bin</source>
         <translation>把 %1 个原始包移到回收站</translation>
+    </message>
+    <message>
+        <source>Size of the icon stored in the archive</source>
+        <translation>归档中保存的图标尺寸</translation>
     </message>
     <message>
         <source>Move the original folder to the Recycle Bin:
@@ -13482,16 +13557,8 @@ The checked ones are added to the NX archive:</source>
 %1</translation>
     </message>
     <message>
-        <source>NX archive (*.nx)</source>
-        <translation>NX 归档 (*.nx)</translation>
-    </message>
-    <message>
-        <source>DLC %1 (v%2)</source>
-        <translation>DLC %1（v%2）</translation>
-    </message>
-    <message>
-        <source>Remove from NX</source>
-        <translation>从 NX 中移除</translation>
+        <source>1024 x 1024</source>
+        <translation>1024 x 1024</translation>
     </message>
     <message>
         <source>The selected content was removed from the NX archive.</source>
@@ -13502,18 +13569,22 @@ The checked ones are added to the NX archive:</source>
         <translation>已在归档中：%1</translation>
     </message>
     <message>
-        <source>The icon cannot be saved.</source>
-        <translation>无法保存图标。</translation>
-    </message>
-    <message>
-        <source>Select the content to remove from the archive:</source>
-        <translation>选择要从归档中移除的内容：</translation>
-    </message>
-    <message>
-        <source>The NX archive was created:
+        <source>Move the original game to the Recycle Bin:
 %1</source>
-        <translation>NX 归档已创建：
+        <translation>把原始游戏移到回收站：
 %1</translation>
+    </message>
+    <message>
+        <source>This image cannot be converted.</source>
+        <translation>无法转换此图片。</translation>
+    </message>
+    <message>
+        <source>Added: %1</source>
+        <translation>已添加：%1</translation>
+    </message>
+    <message>
+        <source>Already added to the archive: %1</source>
+        <translation>已添加到归档：%1</translation>
     </message>
     <message>
         <source>The archive already exists:
@@ -13522,32 +13593,20 @@ The checked ones are added to the NX archive:</source>
 %1</translation>
     </message>
     <message>
-        <source>The operation failed:
-%1</source>
-        <translation>操作失败：
-%1</translation>
+        <source>The icon cannot be saved.</source>
+        <translation>无法保存图标。</translation>
     </message>
     <message>
-        <source>Editing NX metadata</source>
-        <translation>正在编辑 NX 元数据</translation>
-    </message>
-    <message numerus="yes">
-        <source>about %n minute(s)</source>
-        <translation>
-            <numerusform>约 %n 分钟</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Added: %1</source>
-        <translation>已添加：%1</translation>
+        <source>DLC %1 (v%2)</source>
+        <translation>DLC %1（v%2）</translation>
     </message>
     <message>
         <source>Converting to NX</source>
         <translation>正在转换为 NX</translation>
     </message>
     <message>
-        <source>Select the Update Folder</source>
-        <translation>选择更新文件夹</translation>
+        <source>Editing NX metadata</source>
+        <translation>正在编辑 NX 元数据</translation>
     </message>
     <message>
         <source>Publisher:</source>
@@ -13562,67 +13621,23 @@ The checked ones are added to the NX archive:</source>
         <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</translation>
     </message>
     <message>
-        <source>Cancelled. Nothing was changed on disk.</source>
-        <translation>已取消，磁盘上的内容没有变化。</translation>
+        <source>Select the content to remove from the archive:</source>
+        <translation>选择要从归档中移除的内容：</translation>
     </message>
     <message>
-        <source>%1
-Elapsed: %2</source>
-        <translation>%1
-已用时间：%2</translation>
-    </message>
-    <message>
-        <source>NX converter unavailable: Windows blocked nxformat.dll (Smart App Control or a code integrity policy). Error %1.</source>
-        <translation>NX 转换器不可用：Windows 阻止了 nxformat.dll（智能应用控制或代码完整性策略）。错误 %1。</translation>
-    </message>
-    <message>
-        <source>NX converter unavailable: could not load nxformat.dll. Error %1: %2</source>
-        <translation>NX 转换器不可用：无法加载 nxformat.dll。错误 %1：%2</translation>
-    </message>
-    <message>
-        <source>Already added to the archive: %1</source>
-        <translation>已添加到归档：%1</translation>
-    </message>
-    <message>
-        <source>Cancelled.</source>
-        <translation>已取消。</translation>
-    </message>
-    <message>
-        <source>The operation failed because the rebuild recipe could not be kept:
-%1
-
-Try again without the recipe? The game still runs from the NX archive, but the original package cannot be rebuilt exactly from it.</source>
-        <translation>操作失败，因为无法保留重建配方：
-%1
-
-是否不带配方重试？游戏仍可从 NX 归档运行，但无法再从中精确重建原始包。</translation>
-    </message>
-    <message>
-        <source>256 x 256 (default)</source>
-        <translation>256 x 256（默认）</translation>
-    </message>
-    <message>
-        <source>512 x 512</source>
-        <translation>512 x 512</translation>
-    </message>
-    <message>
-        <source>1024 x 1024</source>
-        <translation>1024 x 1024</translation>
-    </message>
-    <message>
-        <source>Size of the icon stored in the archive</source>
-        <translation>归档中保存的图标尺寸</translation>
-    </message>
-    <message>
-        <source>Restore Original Image</source>
-        <translation>恢复原始图片</translation>
+        <source>Select the Update Folder</source>
+        <translation>选择更新文件夹</translation>
     </message>
 </context>
 <context>
     <name>RecommendedSettingsDialog</name>
     <message>
-        <source>Recommended settings</source>
-        <translation>推荐设置</translation>
+        <source>On</source>
+        <translation>开启</translation>
+    </message>
+    <message>
+        <source>To use the recommended settings again, use Help &gt; Apply Recommended Settings.</source>
+        <translation>要再次使用推荐设置，请使用 帮助 &gt; 应用推荐设置。</translation>
     </message>
     <message>
         <source>Do you want to use the recommended settings from the Lichii developer?</source>
@@ -13633,48 +13648,44 @@ Try again without the recipe? The game still runs from the NX archive, but the o
         <translation>它们能提升大多数游戏的性能。Lichii 会保留你自己的设置，你可以随时通过 帮助 &gt; 恢复我之前的设置 回到原来的配置。每个游戏的单独设置不会改变。</translation>
     </message>
     <message>
-        <source>Use recommended settings</source>
-        <translation>使用推荐设置</translation>
+        <source>Lichii uses your previous settings again.</source>
+        <translation>Lichii 已重新使用你之前的设置。</translation>
     </message>
     <message>
         <source>Not now</source>
         <translation>暂不</translation>
     </message>
     <message>
-        <source>Your settings already match the recommended settings. Nothing changed.</source>
-        <translation>你的设置已经与推荐设置一致，未做任何更改。</translation>
+        <source>Your settings already match your previous settings. Nothing changed.</source>
+        <translation>你的设置已经与之前的设置一致，未做任何更改。</translation>
     </message>
     <message>
-        <source>Lichii now uses the recommended settings.</source>
-        <translation>Lichii 现在使用推荐设置。</translation>
-    </message>
-    <message>
-        <source>To go back, use Help &gt; Restore My Previous Settings.</source>
-        <translation>要回到原来的设置，请使用 帮助 &gt; 恢复我之前的设置。</translation>
+        <source>Use recommended settings</source>
+        <translation>使用推荐设置</translation>
     </message>
     <message>
         <source>Previous settings</source>
         <translation>之前的设置</translation>
     </message>
     <message>
-        <source>Your settings already match your previous settings. Nothing changed.</source>
-        <translation>你的设置已经与之前的设置一致，未做任何更改。</translation>
-    </message>
-    <message>
-        <source>Lichii uses your previous settings again.</source>
-        <translation>Lichii 已重新使用你之前的设置。</translation>
-    </message>
-    <message>
-        <source>To use the recommended settings again, use Help &gt; Apply Recommended Settings.</source>
-        <translation>要再次使用推荐设置，请使用 帮助 &gt; 应用推荐设置。</translation>
-    </message>
-    <message>
-        <source>On</source>
-        <translation>开启</translation>
-    </message>
-    <message>
         <source>Off</source>
         <translation>关闭</translation>
+    </message>
+    <message>
+        <source>To go back, use Help &gt; Restore My Previous Settings.</source>
+        <translation>要回到原来的设置，请使用 帮助 &gt; 恢复我之前的设置。</translation>
+    </message>
+    <message>
+        <source>Your settings already match the recommended settings. Nothing changed.</source>
+        <translation>你的设置已经与推荐设置一致，未做任何更改。</translation>
+    </message>
+    <message>
+        <source>Recommended settings</source>
+        <translation>推荐设置</translation>
+    </message>
+    <message>
+        <source>Lichii now uses the recommended settings.</source>
+        <translation>Lichii 现在使用推荐设置。</translation>
     </message>
 </context>
 <context>
@@ -13684,52 +13695,52 @@ Try again without the recipe? The game still runs from the NX archive, but the o
         <translation>Lichii 新功能</translation>
     </message>
     <message>
-        <source>Lichii has a new look</source>
-        <translation>Lichii 全新外观</translation>
-    </message>
-    <message>
-        <source>Here is what changed. Menus and shortcuts are where they were.</source>
-        <translation>以下是变化内容。菜单和快捷键的位置不变。</translation>
-    </message>
-    <message>
-        <source>Lichii Dark theme</source>
-        <translation>Lichii 深色主题</translation>
+        <source>Configure and game Properties open at a size that fits your screen, can be resized, and every tab scrolls, so nothing is cut off at 150% or 200% scaling.</source>
+        <translation>设置与游戏属性窗口会以适配屏幕的尺寸打开，可调整大小，每个标签页都能滚动，因此在 150% 或 200% 缩放时内容不会被截断。</translation>
     </message>
     <message>
         <source>A darker theme with the Lichii pink accent. The old themes are still in Configure &gt; General &gt; UI.</source>
         <translation>带 Lichii 粉色点缀的更深色主题。旧主题仍在 设置 &gt; 通用 &gt; 界面 中。</translation>
     </message>
     <message>
-        <source>Settings that fit your screen</source>
-        <translation>适配屏幕的设置窗口</translation>
-    </message>
-    <message>
-        <source>Configure and game Properties open at a size that fits your screen, can be resized, and every tab scrolls, so nothing is cut off at 150% or 200% scaling.</source>
-        <translation>设置与游戏属性窗口会以适配屏幕的尺寸打开，可调整大小，每个标签页都能滚动，因此在 150% 或 200% 缩放时内容不会被截断。</translation>
-    </message>
-    <message>
-        <source>Per-game changes are marked</source>
-        <translation>单独修改的设置会被标记</translation>
-    </message>
-    <message>
-        <source>In a game&apos;s Properties, a setting you changed for that game has a pink outline and a reset button. Settings that follow the global value say &quot;Use global&quot;.</source>
-        <translation>在游戏属性中，为你修改过的设置会显示粉色边框和重置按钮。跟随全局值的设置会显示“使用全局”。</translation>
+        <source>Got it</source>
+        <translation>知道了</translation>
     </message>
     <message>
         <source>Same places as before</source>
         <translation>位置与以前相同</translation>
     </message>
     <message>
-        <source>Configure is in Emulation &gt; Configure (Ctrl+,). Right-click a game and choose Properties for its own settings. Help &gt; What&apos;s New in Lichii shows this again.</source>
-        <translation>设置在 模拟 &gt; 设置（Ctrl+,）中。右键游戏并选择“属性”可打开该游戏的单独设置。帮助 &gt; Lichii 新功能 可再次打开本页。</translation>
+        <source>Per-game changes are marked</source>
+        <translation>单独修改的设置会被标记</translation>
+    </message>
+    <message>
+        <source>Here is what changed. Menus and shortcuts are where they were.</source>
+        <translation>以下是变化内容。菜单和快捷键的位置不变。</translation>
+    </message>
+    <message>
+        <source>Lichii has a new look</source>
+        <translation>Lichii 全新外观</translation>
+    </message>
+    <message>
+        <source>Lichii Dark theme</source>
+        <translation>Lichii 深色主题</translation>
+    </message>
+    <message>
+        <source>Settings that fit your screen</source>
+        <translation>适配屏幕的设置窗口</translation>
+    </message>
+    <message>
+        <source>In a game&apos;s Properties, a setting you changed for that game has a pink outline and a reset button. Settings that follow the global value say &quot;Use global&quot;.</source>
+        <translation>在游戏属性中，为你修改过的设置会显示粉色边框和重置按钮。跟随全局值的设置会显示“使用全局”。</translation>
     </message>
     <message>
         <source>Open Configure</source>
         <translation>打开设置</translation>
     </message>
     <message>
-        <source>Got it</source>
-        <translation>知道了</translation>
+        <source>Configure is in Emulation &gt; Configure (Ctrl+,). Right-click a game and choose Properties for its own settings. Help &gt; What&apos;s New in Lichii shows this again.</source>
+        <translation>设置在 模拟 &gt; 设置（Ctrl+,）中。右键游戏并选择“属性”可打开该游戏的单独设置。帮助 &gt; Lichii 新功能 可再次打开本页。</translation>
     </message>
 </context>
 </TS>
