@@ -2692,6 +2692,16 @@ NVIDIA DLSS 帧生成（仅 Windows）需要 GeForce RTX 40 系列或更新 GPU�
         <source>NVIDIA DLSS Frame Generation</source>
         <translation>NVIDIA DLSS 帧生成</translation>
     </message>
+    <message>
+        <source>Applies only when a game uses its own DLSS.
+Automatic selects a mode for the game&apos;s render/output sizes. Native (DLAA) applies anti-aliasing at the game&apos;s render resolution, then scales to its output; Ocarina&apos;s 1440p mode stays at 1440p instead of reconstructing to 4K.
+In The Legend of Zelda: Ocarina of Time (docked, with the Max Resolution add-on), Balanced, Performance and Ultra Performance lower the game&apos;s render resolution from 2560x1440 to 2276x1280, 1920x1080 and 1280x720 before DLSS reconstructs 4K. That resolution changes when the game starts.
+In other games, explicit modes only apply when the game&apos;s render size is within NVIDIA&apos;s supported range; otherwise Automatic is used and the fallback is logged. There they don&apos;t change the game&apos;s render resolution. Apply/OK updates the mode while playing.</source>
+        <translation>仅在游戏使用自带 DLSS 时适用。
+自动：根据游戏的渲染/输出尺寸选择模式。原生（DLAA）：在游戏的渲染分辨率上做抗锯齿，再缩放到输出；时之笛的 1440p 模式保持 1440p，而不会重建到 4K。
+在《塞尔达传说：时之笛》中（底座模式、并启用“最大分辨率”附加项），均衡、性能和超高性能会在 DLSS 重建到 4K 之前，把游戏的渲染分辨率从 2560x1440 降到 2276x1280、1920x1080 和 1280x720。该分辨率在游戏启动时生效。
+在其他游戏中，显式模式只在游戏的渲染尺寸处于 NVIDIA 支持范围时生效；否则会使用自动模式，并记录回退原因。在这些游戏中它们不改变渲染分辨率。游戏中点击“应用/确定”即可即时更新模式。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
