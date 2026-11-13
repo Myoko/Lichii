@@ -2638,6 +2638,60 @@ Takes effect when a game starts.</source>
         <source>Ask</source>
         <translation>询问</translation>
     </message>
+    <message>
+        <source>HDR output for games with an HDR mode. Requires Vulkan.
+Off (default): always SDR.
+Auto: HDR while Windows HDR (&quot;Use HDR&quot;) is on for the monitor that shows the game, SDR otherwise and on hosts that cannot tell.
+On: HDR whenever the display driver offers an HDR format.
+The game is told the display is HDR only while Lichii really presents HDR. SDR games and menus are shown at the reference white.
+While HDR is active, anti-aliasing, post-processing and FSR/SGSR upscaling are off and the window is scaled bilinearly. Frame generation keeps working.
+Screenshots are tone mapped to SDR.</source>
+        <translation>供带 HDR 模式的游戏使用。需要 Vulkan。
+关（默认）：始终输出 SDR。
+自动：当 Windows 为显示该游戏的显示器开启 HDR（“使用 HDR”）时输出 HDR，否则为 SDR；无法判断的宿主也按 SDR。
+开：只要显示驱动提供 HDR 格式就输出 HDR。
+只有在 Lichii 真正输出 HDR 时才会告知游戏显示器支持 HDR。SDR 游戏和菜单按参考白显示。
+HDR 生效期间，抗锯齿、后期处理和 FSR/SGSR 超分都会关闭，窗口使用双线性缩放。帧生成仍会继续工作。
+截图会做色调映射到 SDR。</translation>
+    </message>
+    <message>
+        <source>Use FSR 4 (fsr4-vk community Vulkan port) in place of FSR 3.1</source>
+        <translation>用 FSR 4（fsr4-vk 社区 Vulkan 移植）替代 FSR 3.1</translation>
+    </message>
+    <message>
+        <source>Uses fsr4-vk, a community Vulkan port of AMD&apos;s ML-based FSR 4.1.1 that Lichii&apos;s x86-64 Linux packages include, where FSR replaces a game&apos;s upscaler (Ocarina of Time with the setting above). It is not AMD&apos;s official FSR 4 and is not affiliated with or endorsed by AMD. Radeon RX 6000 or newer, or an RDNA 3 Ryzen GPU, on Mesa&apos;s RADV driver; RDNA 4 runs the FP8 network, older GPUs the INT8 one.
+If FSR 4 can&apos;t run, FSR 3.1 is used and the log says why. Takes effect when a game starts.</source>
+        <translation>使用 fsr4-vk——AMD 基于 ML 的 FSR 4.1.1 的社区 Vulkan 移植，包含在 Lichii 的 x86-64 Linux 软件包中——在 FSR 替代游戏自带超分器时使用（例如上面设置里的《塞尔达传说：时之笛》）。它不是 AMD 官方的 FSR 4，与 AMD 无关联也未获其认可。需要 Radeon RX 6000 或更新显卡，或 RDNA 3 的锐龙核显，并运行 Mesa 的 RADV 驱动；RDNA 4 运行 FP8 网络，较旧 GPU 运行 INT8 版本。
+如果 FSR 4 无法运行，会改用 FSR 3.1，日志会说明原因。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Optical Flow Interpolation is built in and runs on any GPU.
+NVIDIA DLSS Frame Generation (Windows only) needs a GeForce RTX 40 series or newer GPU (3x and 4x need an RTX 50 series), Hardware-accelerated GPU scheduling on in Windows&apos; graphics settings, &quot;Use NVIDIA DLSS&quot; on and NVIDIA&apos;s files from the NVIDIA DLSS panel. It takes the game&apos;s depth and motion vectors from the DLSS evaluation, so it runs in The Legend of Zelda: Ocarina of Time only, docked, with DLSS as its upscaler. Other games, and scRGB HDR output, use Optical Flow Interpolation instead.
+VSync is off while it runs. Choosing it takes effect when a game starts.</source>
+        <translation>光流插帧内置于程序中，可在任何 GPU 上运行。
+NVIDIA DLSS 帧生成（仅 Windows）需要 GeForce RTX 40 系列或更新 GPU（3x 和 4x 需要 RTX 50 系列），在 Windows 图形设置中开启硬件加速 GPU 计划，开启“使用 NVIDIA DLSS”，并准备好 NVIDIA DLSS 面板中的文件。它从 DLSS 评估中获取游戏的深度和运动矢量，因此只在《塞尔达传说：时之笛》底座模式、并以 DLSS 作为超分器时运行。其他游戏以及 scRGB HDR 输出会改用光流插帧。
+运行时 VSync 关闭。选择后在游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Hyrule Warriors: Age of Imprisonment: dynamic FPS (experimental)</source>
+        <translation>《塞尔达无双：封印战记》：动态帧率（实验性）</translation>
+    </message>
+    <message>
+        <source>Drops to 30 FPS with the game&apos;s split-screen time step while the game runs below about 50 FPS, so heavy slowdowns don&apos;t slow down the game, and tries 60 FPS again every few seconds.</source>
+        <translation>当游戏运行在约 50 FPS 以下时，改用游戏的左右分屏时间步长降到 30 FPS，避免严重掉速拖慢游戏，并且每隔几秒尝试恢复 60 FPS。</translation>
+    </message>
+    <message>
+        <source>Hyrule Warriors: Age of Imprisonment: 30 FPS mode</source>
+        <translation>《塞尔达无双：封印战记》：30 FPS 模式</translation>
+    </message>
+    <message>
+        <source>Always runs at 30 FPS with the game&apos;s split-screen time step, at normal game speed. Takes precedence over dynamic FPS.</source>
+        <translation>始终以游戏的左右分屏时间步长、正常游戏速度运行在 30 FPS。优先于动态帧率。</translation>
+    </message>
+    <message>
+        <source>NVIDIA DLSS Frame Generation</source>
+        <translation>NVIDIA DLSS 帧生成</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -5269,6 +5323,62 @@ Current values are %1% and %2% respectively.</source>
         <source>Nextendo Network is a community service that replaces Nintendo&apos;s online servers for Switch 1 games. When this is on, those games connect to Nextendo instead of Nintendo and send your Nextendo account token to it. Airplane mode is turned off.</source>
         <translation>Nextendo Network 是一个社区服务，用于替代任天堂为 Switch 1 游戏提供的在线服务器。开启后，这些游戏会连接 Nextendo 而不是任天堂，并把你的 Nextendo 账号令牌发送给它。飞行模式会被关闭。</translation>
     </message>
+    <message>
+        <source>Select the CA certificate</source>
+        <translation>选择 CA 证书</translation>
+    </message>
+    <message>
+        <source>DER certificates (*.der *.cer *.crt);;All files (*)</source>
+        <translation>DER 证书 (*.der *.cer *.crt);;所有文件 (*)</translation>
+    </message>
+    <message>
+        <source>Block all other network access</source>
+        <translation>阻止其他所有网络访问</translation>
+    </message>
+    <message>
+        <source>Browse...</source>
+        <translation>浏览…</translation>
+    </message>
+    <message>
+        <source>CA certificate</source>
+        <translation>CA 证书</translation>
+    </message>
+    <message>
+        <source>Comma-separated host names, for example a.example, b.example. Each also covers its subdomains.</source>
+        <translation>以逗号分隔的主机名，例如 a.example, b.example。每个主机名也会覆盖其子域名。</translation>
+    </message>
+    <message>
+        <source>For a server you run yourself. While this is on, the host names below and their subdomains resolve to 127.0.0.1, and connections to 127.0.0.1 on port 443 go to the server address. The CA certificate is trusted for every secure connection a game makes. Changes take effect when a game starts.</source>
+        <translation>用于你自己运行的服务器。开启后，下面的主机名及其子域名会解析到 127.0.0.1，发往 127.0.0.1 的 443 端口连接会转到服务器地址。CA 证书会被信任，用于游戏发起的每个安全连接。更改在游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Host names</source>
+        <translation>主机名</translation>
+    </message>
+    <message>
+        <source>Host redirect</source>
+        <translation>主机重定向</translation>
+    </message>
+    <message>
+        <source>IPv4 address and port of your server, for example 192.168.1.20:8443. Leave it empty if your server listens on this PC on port 443.</source>
+        <translation>你的服务器的 IPv4 地址和端口，例如 192.168.1.20:8443。如果服务器就在本机 443 端口监听，可留空。</translation>
+    </message>
+    <message>
+        <source>Other host names don&apos;t resolve, and games can reach only this PC and the server address. Multiplayer rooms are not affected.</source>
+        <translation>其他主机名将无法解析，游戏只能访问本机和服务器地址。多人房间不受影响。</translation>
+    </message>
+    <message>
+        <source>Redirect host names to a server you run</source>
+        <translation>将主机名重定向到你自己运行的服务器</translation>
+    </message>
+    <message>
+        <source>Server address</source>
+        <translation>服务器地址</translation>
+    </message>
+    <message>
+        <source>The CA certificate (DER, at most 64 KiB) that signed your server&apos;s certificate. Optional.</source>
+        <translation>为你的服务器证书签名的 CA 证书（DER 格式，最大 64 KiB）。可选。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurePerGame</name>
@@ -6437,6 +6547,22 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <location filename="../../src/lichii/configuration/configure_vibration.ui" line="509"/>
         <source>Enable Accurate Vibration</source>
         <translation>启用精确震动</translation>
+    </message>
+    <message>
+        <source>Enable DualSense HD Haptics</source>
+        <translation>启用 DualSense HD 触觉</translation>
+    </message>
+    <message>
+        <source>Frequency-aware rumble</source>
+        <translation>频率感知震动</translation>
+    </message>
+    <message>
+        <source>On controllers with two rumble motors, send each part of the HD Rumble to the motor that matches its frequency: low tones to the heavy motor, high tones to the light one. When off, each band drives its own motor as before.</source>
+        <translation>在带两个震动马达的手柄上，把 HD 震动的每个成分发送给频率匹配的马达：低频给重马达，高频给轻马达。关闭时，各频段像以前一样驱动各自马达。</translation>
+    </message>
+    <message>
+        <source>Play HD Rumble through the DualSense haptic actuators, left and right apart. Requires a USB connection and a single wired DualSense; otherwise standard rumble is used.</source>
+        <translation>通过 DualSense 的触觉执行器播放 HD 震动，左右分开。需要 USB 连接且只连接一个有线 DualSense；否则使用标准震动。</translation>
     </message>
 </context>
 <context>
@@ -9494,6 +9620,34 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
         <source> It adds up to %1 frames per game frame to reach %2 FPS.</source>
         <translation> 每个游戏帧最多补出 %1 帧，以达到 %2 FPS。</translation>
     </message>
+    <message>
+        <source>%1&lt;br&gt;Dump current keys from your own console and install them with Tools &gt; Install Decryption Keys, then start the game again. The log names the missing key.</source>
+        <translation>%1&lt;br&gt;请从你自己的主机中导出当前密钥，并通过 工具 &gt; 安装解密密钥 安装，然后重新启动游戏。日志中会写明缺少哪个密钥。</translation>
+    </message>
+    <message>
+        <source>Missing Lichii Account</source>
+        <translation>缺少 Lichii 账号</translation>
+    </message>
+    <message>
+        <source>DLSS FG paused</source>
+        <translation>DLSS 帧生成已暂停</translation>
+    </message>
+    <message>
+        <source>DLSS FG</source>
+        <translation>DLSS 帧生成</translation>
+    </message>
+    <message>
+        <source> NVIDIA DLSS Frame Generation can&apos;t run for this game or setup, so FSR3 runs instead; the log says why.</source>
+        <translation> 该游戏或此配置无法运行 NVIDIA DLSS 帧生成，因此改用 FSR3；具体原因见日志。</translation>
+    </message>
+    <message>
+        <source>Frame generation is running.%1%2</source>
+        <translation>帧生成已启用。%1%2</translation>
+    </message>
+    <message>
+        <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1%2</source>
+        <translation>帧生成已开启，但最近半秒没有生成任何帧。预热期间、单帧耗时超过 100 ms 后的 1 秒内，以及帧成批到达时会暂停。%1%2</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
@@ -12544,6 +12698,16 @@ Restart now?</source>
         <source>Folder size is not calculated during game discovery.</source>
         <translation>扫描游戏时不会计算文件夹大小。</translation>
     </message>
+    <message>
+        <source>%1
+Dump current keys from your own console and install them with Tools &gt; Install Decryption Keys.</source>
+        <translation>%1
+请从你自己的主机中导出当前密钥，并通过 工具 &gt; 安装解密密钥 安装。</translation>
+    </message>
+    <message>
+        <source>Decryption keys missing</source>
+        <translation>缺少解密密钥</translation>
+    </message>
 </context>
 <context>
     <name>IconDropZone</name>
@@ -13686,6 +13850,14 @@ Try again without the recipe? The game still runs from the NX archive, but the o
     <message>
         <source>Lichii now uses the recommended settings.</source>
         <translation>Lichii 现在使用推荐设置。</translation>
+    </message>
+    <message>
+        <source>They improve performance for most games. Games with their own value for one of these settings in their per-game settings use the recommended value too; other per-game settings do not change. Lichii keeps your own settings, global and per-game, so you can go back at any time with Help &gt; Restore My Previous Settings.</source>
+        <translation>它们能提升大多数游戏的性能。若某个游戏在单独设置里为这些选项之一设了自己的值，也会改用推荐值；其他单独设置不变。Lichii 会保留你自己的全局与单独设置，随时可通过 帮助 &gt; 恢复我之前的设置 还原。</translation>
+    </message>
+    <message>
+        <source>Lichii now uses the recommended settings, in every game.</source>
+        <translation>Lichii 现在在所有游戏中都使用推荐设置。</translation>
     </message>
 </context>
 <context>
