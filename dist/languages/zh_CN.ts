@@ -2702,6 +2702,12 @@ In other games, explicit modes only apply when the game&apos;s render size is wi
 在《塞尔达传说：时之笛》中（底座模式、并启用“最大分辨率”附加项），均衡、性能和超高性能会在 DLSS 重建到 4K 之前，把游戏的渲染分辨率从 2560x1440 降到 2276x1280、1920x1080 和 1280x720。该分辨率在游戏启动时生效。
 在其他游戏中，显式模式只在游戏的渲染尺寸处于 NVIDIA 支持范围时生效；否则会使用自动模式，并记录回退原因。在这些游戏中它们不改变渲染分辨率。游戏中点击“应用/确定”即可即时更新模式。</translation>
     </message>
+    <message>
+        <source>Builds shaders on the loading screen, on every CPU thread, so they don&apos;t stutter the first time the game uses them: the compute shaders found in the game files. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+Ask asks at launch while the game has never been precached.</source>
+        <translation>在加载画面用每个 CPU 线程构建着色器，避免游戏首次使用时卡顿：构建的是游戏文件中的计算着色器。首次启动会读取游戏文件，需要几分钟；之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面有“跳过”按钮。
+选择“询问”时，如果该游戏从未预编译过，会在启动时询问。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -5570,6 +5576,38 @@ Current values are %1% and %2% respectively.</source>
     <message>
         <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
         <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
+    </message>
+    <message>
+        <source>Name shown in the library. Clear it to use the game&apos;s own name.</source>
+        <translation>库中显示的名称。清空则使用游戏自身的名称。</translation>
+    </message>
+    <message>
+        <source>Game Artwork</source>
+        <translation>游戏封面图</translation>
+    </message>
+    <message>
+        <source>The artwork could not be removed.</source>
+        <translation>无法移除封面图。</translation>
+    </message>
+    <message>
+        <source>The artwork could not be saved.</source>
+        <translation>无法保存封面图。</translation>
+    </message>
+    <message>
+        <source>Game Name</source>
+        <translation>游戏名称</translation>
+    </message>
+    <message>
+        <source>The game name could not be saved.</source>
+        <translation>无法保存游戏名称。</translation>
+    </message>
+    <message>
+        <source>Remove Custom Icon</source>
+        <translation>移除自定义图标</translation>
+    </message>
+    <message>
+        <source>Show the game&apos;s own icon again. Apply or OK saves changes.</source>
+        <translation>重新显示游戏自带的图标。点击“应用”或“确定”保存更改。</translation>
     </message>
 </context>
 <context>
@@ -9657,6 +9695,26 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
     <message>
         <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1%2</source>
         <translation>帧生成已开启，但最近半秒没有生成任何帧。预热期间、单帧耗时超过 100 ms 后的 1 秒内，以及帧成批到达时会暂停。%1%2</translation>
+    </message>
+    <message>
+        <source>&amp;Report a Bug...</source>
+        <translation>报告问题(&amp;R)...</translation>
+    </message>
+    <message>
+        <source>The shaders of this game are not precached yet. Precache them now?
+
+The game starts when they are done. The first time, the game files are read and their compute shaders are built on every CPU thread, which takes a few minutes. Later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+
+You can change this in Configure, Graphics, Advanced.</source>
+        <translation>该游戏的着色器尚未预编译。现在预编译吗？
+
+预编译完成后游戏才会启动。首次运行会读取游戏文件，并在每个 CPU 线程上构建其中的计算着色器，这需要几分钟。之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面有“跳过”按钮。
+
+可在 设置 &gt; 图形 &gt; 高级 中更改此项。</translation>
+    </message>
+    <message>
+        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model and null descriptors). The Optical Flow type may still work.</source>
+        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型和空描述符）。光流类型可能仍可使用。</translation>
     </message>
 </context>
 <context>
@@ -13923,6 +13981,49 @@ Try again without the recipe? The game still runs from the NX archive, but the o
     <message>
         <source>Configure is in Emulation &gt; Configure (Ctrl+,). Right-click a game and choose Properties for its own settings. Help &gt; What&apos;s New in Lichii shows this again.</source>
         <translation>设置在 模拟 &gt; 设置（Ctrl+,）中。右键游戏并选择“属性”可打开该游戏的单独设置。帮助 &gt; Lichii 新功能 可再次打开本页。</translation>
+    </message>
+</context>
+<context>
+    <name>BugReportDialog</name>
+    <message>
+        <source>Report a Bug</source>
+        <translation>报告问题</translation>
+    </message>
+    <message>
+        <source>Lichii is saving this moment: the log, your settings, a screenshot and the next frame with its shaders. Describe what went wrong and what you expected.</source>
+        <translation>Lichii 正在保存当前状态：日志、你的设置、一张截图，以及下一帧及其着色器。请描述出了什么问题，以及你期望的结果。</translation>
+    </message>
+    <message>
+        <source>For example: the sky turns white after the first cutscene in world 2.</source>
+        <translation>例如：世界 2 的第一段过场动画之后，天空变白了。</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Send this report privately to the Lichii maintainers&lt;/b&gt; (the log bot&apos;s /bug command or a direct message), not to a public channel or issue. It holds the game&apos;s textures and shaders from one frame. Your user name is removed from paths and online service settings are left out.</source>
+        <translation>&lt;b&gt;请将这份报告私下发送给 Lichii 维护者&lt;/b&gt;（日志机器人的 /bug 命令或私信），不要发到公开频道或 issue。其中包含某一帧的游戏纹理和着色器。路径中的用户名已被移除，在线服务设置不会包含在内。</translation>
+    </message>
+    <message>
+        <source>Save Report</source>
+        <translation>保存报告</translation>
+    </message>
+    <message>
+        <source>Writing the report. The frame capture can take a minute in a busy scene.</source>
+        <translation>正在生成报告。在复杂场景中，帧捕获可能需要一分钟。</translation>
+    </message>
+    <message>
+        <source>The report could not be written: %1</source>
+        <translation>无法写入报告：%1</translation>
+    </message>
+    <message>
+        <source>Saved %1 (%2 MiB).</source>
+        <translation>已保存 %1（%2 MiB）。</translation>
+    </message>
+    <message>
+        <source>No frame capture: %1</source>
+        <translation>没有帧捕获：%1</translation>
+    </message>
+    <message>
+        <source>Left out to fit the size limit: %1</source>
+        <translation>为满足大小限制而略去：%1</translation>
     </message>
 </context>
 </TS>
