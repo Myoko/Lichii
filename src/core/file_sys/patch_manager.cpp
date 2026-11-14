@@ -129,9 +129,73 @@ constexpr std::array<u8, 128> FPS_UNLOCK_ROUTINE{
     0x0A, 0xD7, 0xA3, 0x3C, 0x00, 0x00, 0xC0, 0x40,
 };
 #undef DYNAMIC_FPS_ROUTINE_HEAD
+// The water ripple simulation runs iterations * (int)step passes per frame, so any step below 1.0
+// runs none: the ripples freeze and the grid shifts that follow the player are lost. With these
+// the pass count follows the step through an accumulator, with at least one pass while time moves.
+constexpr std::array<u8, 4> WATER_STEPS_ORIGINAL{0x09, 0x00, 0x38, 0x1E};
+constexpr std::array<u8, 4> WATER_STEPS_CALL{0x42, 0xFB, 0xEF, 0x94}; // bl main+0x3C46300
+constexpr std::array<u8, 4> WATER_MUL_ORIGINAL{0x08, 0x7D, 0x09, 0x1B};
+constexpr std::array<u8, 4> WATER_MUL_NOP{0x1F, 0x20, 0x03, 0xD5};
+// In: w8 iterations, s0 step, x21 the water object. Out: w8 passes. Each water object keeps its own
+// remainder: 8 slots of {u64 object, f32 remainder, pad} at state + 0x10 and the next slot to reuse
+// at state + 0x90, taken in turn when no slot has the object. Uses x9-x12 and s0-s2, which the game
+// doesn't read again before writing them.
+constexpr std::array<u8, 148> WATER_STEPS_ROUTINE{
+    0x01, 0x01, 0x22, 0x1E, 0x00, 0x08, 0x21, 0x1E, 0x08, 0x20, 0x20, 0x1E, 0x0D, 0x04, 0x00,
+    0x54, 0xC9, 0x92, 0x00, 0xB0, 0x29, 0x41, 0x38, 0x91, 0x2A, 0x01, 0x02, 0x91, 0xEB, 0x03,
+    0x09, 0xAA, 0x6C, 0x01, 0x40, 0xF9, 0x9F, 0x01, 0x15, 0xEB, 0x60, 0x01, 0x00, 0x54, 0x6B,
+    0x41, 0x00, 0x91, 0x7F, 0x01, 0x0A, 0xEB, 0x61, 0xFF, 0xFF, 0x54, 0x4C, 0x01, 0x40, 0xB9,
+    0x2B, 0x51, 0x2C, 0x8B, 0x75, 0x01, 0x00, 0xF9, 0x7F, 0x09, 0x00, 0xB9, 0x8C, 0x05, 0x00,
+    0x11, 0x8C, 0x09, 0x00, 0x12, 0x4C, 0x01, 0x00, 0xB9, 0x61, 0x09, 0x40, 0xBD, 0x00, 0x28,
+    0x21, 0x1E, 0x01, 0x10, 0x2C, 0x1E, 0x02, 0x28, 0x21, 0x1E, 0x48, 0x00, 0x38, 0x1E, 0x1F,
+    0x05, 0x00, 0x71, 0x4A, 0x00, 0x00, 0x54, 0x28, 0x00, 0x80, 0x52, 0x01, 0x01, 0x22, 0x1E,
+    0x00, 0x38, 0x21, 0x1E, 0x01, 0x10, 0x3C, 0x1E, 0x00, 0x48, 0x21, 0x1E, 0x60, 0x09, 0x00,
+    0xBD, 0xC0, 0x03, 0x5F, 0xD6, 0xE8, 0x03, 0x1F, 0x2A, 0xC0, 0x03, 0x5F, 0xD6,
+};
+// The game's sound engine assumes at least one whole 60 fps step per update: its fade and delay
+// timers and parameter ramps count updates from the step it is given each frame. Below a whole
+// step (FPS Unlock above 60 fps) some sounds are never released when an area unloads; they pile
+// up until the game's voice budget is full, and then most new sounds and the music stop until a
+// restart (#716, #1092). So above 60 fps FPS Unlock runs the sound manager job (main+0x415300,
+// phase in w2; phase 0 reads the step and updates the engine, phase 1 follows) at 60 Hz: its entry
+// goes to SOUND_GATE, which in phase 0 adds the step to an accumulator (timer state + 0xA0) and
+// runs the job only once a whole step has built up, else returns; the other phases follow that
+// frame's decision (flag at state + 0xA4). At 60 fps and below it runs every frame as before. The
+// job's step load (main+0x415334) goes to SOUND_FEED, max(step, 1.0), so the engine always gets
+// whole steps and sound still follows real time.
+constexpr std::array<u8, 4> SOUND_ENTRY_ORIGINAL{0x7F, 0x23, 0x03, 0xD5}; // pacibsp
+constexpr std::array<u8, 4> SOUND_ENTRY_BRANCH{0x40, 0xC5, 0xE0, 0x14};   // b main+0x3C46800
+constexpr std::array<u8, 4> SOUND_STEP_ORIGINAL{0x00, 0x11, 0x40, 0xBD};  // ldr s0, [x8, #0x10]
+constexpr std::array<u8, 4> SOUND_STEP_CALL{0xD3, 0xC3, 0xE0, 0x94};      // bl main+0x3C46280
+// adrp x16, state ; add x16, x16, #0xea0 ; cbnz w2, other ; adrp x9, time ; ldr x9, [x9, #0x890] ;
+// ldr x9, [x9] ; ldr s16, [x9, #0x10] ; fmov s17, #1.0 ; fcmp s16, s17 ; b.ge every_frame ;
+// ldr s18, [x16] ; fadd s18, s18, s16 ; fcmp s18, s17 ; b.lt wait ; fsub s18, s18, s17 ;
+// str s18, [x16] ; mov w9, #1 ; str w9, [x16, #4] ; b run ;
+// wait: str s18, [x16] ; str wzr, [x16, #4] ; ret ;
+// every_frame: nop (a remainder built up below a whole step carries over) ; mov w9, #1 ;
+// str w9, [x16, #4] ; b run ;
+// other: ldr w9, [x16, #4] ; cbz w9, skip ; run: pacibsp ; b main+0x415304 ; skip: ret
+// x9, x16 and s16-s18 are free at the job's entry.
+constexpr std::array<u8, 124> SOUND_GATE{
+    0xD0, 0x92, 0x00, 0xB0, 0x10, 0x82, 0x3A, 0x91, 0x02, 0x03, 0x00, 0x35, 0xC9, 0x81, 0x00, 0x90,
+    0x29, 0x49, 0x44, 0xF9, 0x29, 0x01, 0x40, 0xF9, 0x30, 0x11, 0x40, 0xBD, 0x11, 0x10, 0x2E, 0x1E,
+    0x00, 0x22, 0x31, 0x1E, 0xAA, 0x01, 0x00, 0x54, 0x12, 0x02, 0x40, 0xBD, 0x52, 0x2A, 0x30, 0x1E,
+    0x40, 0x22, 0x31, 0x1E, 0xCB, 0x00, 0x00, 0x54, 0x52, 0x3A, 0x31, 0x1E, 0x12, 0x02, 0x00, 0xBD,
+    0x29, 0x00, 0x80, 0x52, 0x09, 0x06, 0x00, 0xB9, 0x0A, 0x00, 0x00, 0x14, 0x12, 0x02, 0x00, 0xBD,
+    0x1F, 0x06, 0x00, 0xB9, 0xC0, 0x03, 0x5F, 0xD6, 0x1F, 0x20, 0x03, 0xD5, 0x29, 0x00, 0x80, 0x52,
+    0x09, 0x06, 0x00, 0xB9, 0x03, 0x00, 0x00, 0x14, 0x09, 0x06, 0x40, 0xB9, 0x69, 0x00, 0x00, 0x34,
+    0x7F, 0x23, 0x03, 0xD5, 0xA4, 0x3A, 0x1F, 0x17, 0xC0, 0x03, 0x5F, 0xD6,
+};
+// ldr s0, [x8, #0x10] ; fmov s16, #1.0 ; fmaxnm s0, s0, s16 ; ret
+constexpr std::array<u8, 16> SOUND_FEED{
+    0x00, 0x11, 0x40, 0xBD, 0x10, 0x10, 0x2E, 0x1E, 0x00, 0x68, 0x30, 0x1E, 0xC0, 0x03, 0x5F, 0xD6,
+};
 constexpr std::array DYNAMIC_FPS_RECORDS{
     BuiltinPatchRecord{0x6E6CC4, DYNAMIC_FPS_CALL, DYNAMIC_FPS_ORIGINAL},
     BuiltinPatchRecord{0x3C46200, DYNAMIC_FPS_ROUTINE, {}, true},
+    BuiltinPatchRecord{0x475F8, WATER_STEPS_CALL, WATER_STEPS_ORIGINAL},
+    BuiltinPatchRecord{0x4760C, WATER_MUL_NOP, WATER_MUL_ORIGINAL},
+    BuiltinPatchRecord{0x3C46300, WATER_STEPS_ROUTINE, {}, true},
 };
 
 // Truncated steps stall the pickup window count-up and ocarina playback tick above 60 fps.
@@ -210,9 +274,45 @@ constexpr std::array<u8, 60> STEP_AMBIENT_ROUTINE{
     0xB8, 0xE3, 0x23, 0x17,
 };
 
+// The character controller takes a tenth of its ground's velocity once the frame rate is over
+// 100 (b.gt after fcmp with 100.0, in three places), so a moving platform leaves the player behind.
+constexpr std::array<u8, 4> GROUND_VELOCITY_ORIGINAL_A{
+    0x6C, 0x19, 0x00, 0x54,
+};
+constexpr std::array<u8, 4> GROUND_VELOCITY_ORIGINAL_B{
+    0x2C, 0x1E, 0x00, 0x54,
+};
+constexpr std::array<u8, 4> GROUND_VELOCITY_ORIGINAL_C{
+    0xCC, 0x17, 0x00, 0x54,
+};
+constexpr std::array<u8, 4> GROUND_VELOCITY_NOP{
+    0x1F, 0x20, 0x03, 0xD5,
+};
+// A turn action (main+0x261E8E0, ExecuteASApproachStickX; Gohma steers with it) ends by clamping
+// its turn speed, kept per 60 Hz frame, to the change it applied times the frame step. The change
+// already carries the step, so below a step of 1 the speed decays by step^2 every frame. The routine
+// divides by the step there instead and runs the game's two instructions at a step of 1 and above.
+// The routine replaces both fmul (0x261EB18 and 0x261EB1C) and returns to 0x261EB20, so the hook
+// guards both; the second instruction stays in place, unreached.
+constexpr std::array<u8, 8> TURN_SPEED_ORIGINAL{0x01, 0x08, 0x21, 0x1E, 0x00, 0x08, 0x28, 0x1E};
+constexpr std::array<u8, 8> TURN_SPEED_HOOK{0xCA, 0x9F, 0x58, 0x14, 0x00, 0x08, 0x28, 0x1E};
+// fmov s1, #1.0 ; fcmp s8, s1 ; b.ge +0x10 ; fdiv s0, s0, s8 ; fneg s1, s0 ; b 0x261EB20 ;
+// ldr s1, [sp, #0xc] ; fmul s1, s0, s1 ; fmul s0, s0, s8 ; b 0x261EB20
+constexpr std::array<u8, 40> TURN_SPEED_ROUTINE{
+    0x01, 0x10, 0x2E, 0x1E, 0x00, 0x21, 0x21, 0x1E, 0x8A, 0x00, 0x00, 0x54, 0x00, 0x18,
+    0x28, 0x1E, 0x01, 0x40, 0x21, 0x1E, 0x33, 0x60, 0xA7, 0x17, 0xE1, 0x0F, 0x40, 0xBD,
+    0x01, 0x08, 0x21, 0x1E, 0x00, 0x08, 0x28, 0x1E, 0x2F, 0x60, 0xA7, 0x17,
+};
 constexpr std::array FPS_UNLOCK_RECORDS{
     BuiltinPatchRecord{0x6E6CC4, DYNAMIC_FPS_CALL, DYNAMIC_FPS_ORIGINAL},
     BuiltinPatchRecord{0x3C46200, FPS_UNLOCK_ROUTINE, {}, true},
+    BuiltinPatchRecord{0x475F8, WATER_STEPS_CALL, WATER_STEPS_ORIGINAL},
+    BuiltinPatchRecord{0x4760C, WATER_MUL_NOP, WATER_MUL_ORIGINAL},
+    BuiltinPatchRecord{0x3C46300, WATER_STEPS_ROUTINE, {}, true},
+    BuiltinPatchRecord{0x415300, SOUND_ENTRY_BRANCH, SOUND_ENTRY_ORIGINAL},
+    BuiltinPatchRecord{0x415334, SOUND_STEP_CALL, SOUND_STEP_ORIGINAL},
+    BuiltinPatchRecord{0x3C46800, SOUND_GATE, {}, true},
+    BuiltinPatchRecord{0x3C46280, SOUND_FEED, {}, true},
     BuiltinPatchRecord{0xA68300, STEP_HUD_HOOK, STEP_HUD_ORIGINAL},
     BuiltinPatchRecord{0x3C46900, STEP_HUD_ROUTINE, {}, true},
     BuiltinPatchRecord{0x3293410, STEP_REPLAY_HOOK, STEP_REPLAY_ORIGINAL},
@@ -222,6 +322,11 @@ constexpr std::array FPS_UNLOCK_RECORDS{
     BuiltinPatchRecord{0x53F914, STEP_AMBIENT_HOOK, STEP_AMBIENT_ORIGINAL},
     BuiltinPatchRecord{0x3C46A00, STEP_AMBIENT_ROUTINE, {}, true},
     BuiltinPatchRecord{0x3C46980, STEP_SHARED_ROUTINE, {}, true},
+    BuiltinPatchRecord{0x13A070, GROUND_VELOCITY_NOP, GROUND_VELOCITY_ORIGINAL_A},
+    BuiltinPatchRecord{0x13D710, GROUND_VELOCITY_NOP, GROUND_VELOCITY_ORIGINAL_B},
+    BuiltinPatchRecord{0x389AC2C, GROUND_VELOCITY_NOP, GROUND_VELOCITY_ORIGINAL_C},
+    BuiltinPatchRecord{0x261EB18, TURN_SPEED_HOOK, TURN_SPEED_ORIGINAL},
+    BuiltinPatchRecord{0x3C46A40, TURN_SPEED_ROUTINE, {}, true},
 };
 
 constexpr std::array BUILTIN_PATCHES{
@@ -252,7 +357,8 @@ constexpr std::array BUILTIN_PATCHES{
         .build_id = "E0F3CCFAF50065AE4EA01EB5AEB13B1A45DA3348",
         .records = FPS_UNLOCK_RECORDS,
         .state_offset = 0x4E9FE00,
-        // Leave 0x4E9FE10..0x4E9FEB0 free for water (#1180, +0x98) and sound (#1289, +0xA8).
+        // Timer state at 0, the water slots to 0x98, the sound gate at 0xA0, the step counters
+        // from 0xB0.
         .state_size = 0x1C0,
         .replaces = "Dynamic FPS by Dark (built-in)",
     },
@@ -263,7 +369,7 @@ constexpr std::array BUILTIN_PATCHES{
         .build_id = "E0F3CCFAF50065AE4EA01EB5AEB13B1A45DA3348",
         .records = DYNAMIC_FPS_RECORDS,
         .state_offset = 0x4E9FE00,
-        .state_size = 16,
+        .state_size = 0x98,
     },
     // The NVIDIA DLSS quality lowers Ocarina's render resolution under Max Resolution, since DLSS
     // replaces the game's own 1440p -> 4K upscale and takes whatever the game renders.
