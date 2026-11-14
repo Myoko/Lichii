@@ -2708,6 +2708,22 @@ Ask asks at launch while the game has never been precached.</source>
         <translation>在加载画面用每个 CPU 线程构建着色器，避免游戏首次使用时卡顿：构建的是游戏文件中的计算着色器。首次启动会读取游戏文件，需要几分钟；之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面有“跳过”按钮。
 选择“询问”时，如果该游戏从未预编译过，会在启动时询问。</translation>
     </message>
+    <message>
+        <source>Mario Kart World: 60 FPS mode</source>
+        <translation>《马力欧卡丁车 世界》：60 FPS 模式</translation>
+    </message>
+    <message>
+        <source>Forces the game&apos;s 60 FPS mode everywhere, not only in cutscenes. The game advances one 60 FPS step per frame, so it never runs fast. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
+        <translation>在全部场景强制使用游戏的 60 FPS 模式，而不只是在过场动画中。游戏每帧前进一个 60 FPS 步长，因此绝不会变快。重启游戏后生效，并优先于 30 FPS 模式。</translation>
+    </message>
+    <message>
+        <source>Mario Kart World: drop to 30 FPS when slow</source>
+        <translation>《马力欧卡丁车 世界》：变慢时降到 30 FPS</translation>
+    </message>
+    <message>
+        <source>Only applies with the 60 FPS mode. When your PC can&apos;t hold 60 FPS, the game switches to its 30 FPS mode and keeps normal speed, then tries 60 again every few seconds. Turn it off to stay at 60 FPS, where slow frames play in slow motion. Takes effect after restarting the game.</source>
+        <translation>仅在 60 FPS 模式下生效。当你的电脑无法维持 60 FPS 时，游戏会切换到自己的 30 FPS 模式并保持正常速度，然后每隔几秒再尝试 60 FPS。关闭它则保持 60 FPS，此时慢帧会以慢动作播放。重启游戏后生效。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -6516,6 +6532,22 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <source>%1 - not in this build</source>
         <translation>%1 - 此版本中没有</translation>
     </message>
+    <message>
+        <source>SteamGridDB API key:</source>
+        <translation>SteamGridDB API 密钥：</translation>
+    </message>
+    <message>
+        <source>Empty: no online lookup</source>
+        <translation>留空：不进行在线查找</translation>
+    </message>
+    <message>
+        <source>Artwork is looked up on steamgriddb.com only when a key is set, for games that have no icon and no custom artwork. The picture is saved as the game&apos;s custom artwork, so you can still replace it in Configure Game.</source>
+        <translation>只有在设置了密钥时，才会为没有图标、也没有自定义封面图的游戏到 steamgriddb.com 查找封面。图片会保存为该游戏的自定义封面图，因此你仍可在“游戏设置”里替换它。</translation>
+    </message>
+    <message>
+        <source>&lt;a href=&quot;%1&quot;&gt;Get a key&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%1&quot;&gt;获取密钥&lt;/a&gt;</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureVibration</name>
@@ -7271,6 +7303,10 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
     <message>
         <source>Delete Shader Precache</source>
         <translation>删除着色器预编译缓存</translation>
+    </message>
+    <message>
+        <source>Look up artwork on SteamGridDB</source>
+        <translation>在 SteamGridDB 上查找封面图</translation>
     </message>
 </context>
 <context>
