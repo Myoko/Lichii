@@ -6612,6 +6612,14 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <source>Play HD Rumble through the DualSense haptic actuators, left and right apart. Requires a USB connection and a single wired DualSense; otherwise standard rumble is used.</source>
         <translation>通过 DualSense 的触觉执行器播放 HD 震动，左右分开。需要 USB 连接且只连接一个有线 DualSense；否则使用标准震动。</translation>
     </message>
+    <message>
+        <source>On controllers with motors in their triggers, also play the light part of the HD Rumble on them: the left side on the left trigger, the right side on the right one. 20% is a good start.</source>
+        <translation>对于扳机内带马达的手柄，也把 HD 震动的轻成分送到扳机上：左侧到左扳机，右侧到右扳机。20% 是个不错的起点。</translation>
+    </message>
+    <message>
+        <source>Trigger rumble</source>
+        <translation>扳机震动</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureWeb</name>
@@ -12775,6 +12783,10 @@ Dump current keys from your own console and install them with Tools &gt; Install
     <message>
         <source>Decryption keys missing</source>
         <translation>缺少解密密钥</translation>
+    </message>
+    <message>
+        <source>The folder size is calculated after the game list is shown.</source>
+        <translation>文件夹大小会在游戏列表显示后计算。</translation>
     </message>
 </context>
 <context>
