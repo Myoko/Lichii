@@ -2724,6 +2724,26 @@ Ask asks at launch while the game has never been precached.</source>
         <source>Only applies with the 60 FPS mode. When your PC can&apos;t hold 60 FPS, the game switches to its 30 FPS mode and keeps normal speed, then tries 60 again every few seconds. Turn it off to stay at 60 FPS, where slow frames play in slow motion. Takes effect after restarting the game.</source>
         <translation>仅在 60 FPS 模式下生效。当你的电脑无法维持 60 FPS 时，游戏会切换到自己的 30 FPS 模式并保持正常速度，然后每隔几秒再尝试 60 FPS。关闭它则保持 60 FPS，此时慢帧会以慢动作播放。重启游戏后生效。</translation>
     </message>
+    <message>
+        <source>Mesh Shaders</source>
+        <translation>网格着色器</translation>
+    </message>
+    <message>
+        <source>How Switch 2 games&apos; mesh shader geometry is drawn.
+Native uses the GPU&apos;s mesh shaders. Compute Fallback emulates them with compute shaders: it can be slower in scenes with a lot of foliage, and it can&apos;t draw every kind of mesh program.
+Automatic uses the compute fallback on AMD RDNA2 GPUs (RX 6000 series), where native mesh shaders hang the GPU, and native mesh shaders everywhere else.</source>
+        <translation>Switch 2 游戏的网格着色器几何体如何绘制。
+原生：使用 GPU 的网格着色器。计算回退：用计算着色器模拟，在植被密集的场景中可能更慢，而且无法绘制所有类型的网格程序。
+自动：在 AMD RDNA2 GPU（RX 6000 系列）上使用计算回退（这些 GPU 上原生网格着色器会导致 GPU 挂起），其他 GPU 使用原生网格着色器。</translation>
+    </message>
+    <message>
+        <source>Native</source>
+        <translation>原生</translation>
+    </message>
+    <message>
+        <source>Compute Fallback</source>
+        <translation>计算回退</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
