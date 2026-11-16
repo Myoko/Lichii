@@ -5431,6 +5431,38 @@ Current values are %1% and %2% respectively.</source>
         <source>The CA certificate (DER, at most 64 KiB) that signed your server&apos;s certificate. Optional.</source>
         <translation>为你的服务器证书签名的 CA 证书（DER 格式，最大 64 KiB）。可选。</translation>
     </message>
+    <message>
+        <source>Online play needs a verified e-mail address. Verify it on nextendo.network.</source>
+        <translation>在线游戏需要已验证的电子邮箱地址，请在 nextendo.network 上验证。</translation>
+    </message>
+    <message>
+        <source>Online play needs a Discord account. Link one on nextendo.network.</source>
+        <translation>在线游戏需要 Discord 账号，请在 nextendo.network 上关联。</translation>
+    </message>
+    <message>
+        <source>nextendo.network has suspended this account.</source>
+        <translation>nextendo.network 已暂停此账号。</translation>
+    </message>
+    <message>
+        <source>This account is already playing online on another device.</source>
+        <translation>此账号已在另一台设备上进行在线游戏。</translation>
+    </message>
+    <message>
+        <source>nextendo.network doesn&apos;t recognise this account.</source>
+        <translation>nextendo.network 无法识别此账号。</translation>
+    </message>
+    <message>
+        <source>nextendo.network refuses online play for this account (%1).</source>
+        <translation>nextendo.network 拒绝为此账号提供在线游戏（%1）。</translation>
+    </message>
+    <message>
+        <source>The sign-in didn&apos;t allow online play. Sign in again and allow it.</source>
+        <translation>本次登录未允许在线游戏，请重新登录并允许该权限。</translation>
+    </message>
+    <message>
+        <source>Nextendo Network is a community service that replaces Nintendo&apos;s online servers. When this is on, the games it supports connect to Nextendo instead of Nintendo and send your Nextendo game token to it. Airplane mode is turned off. Online play needs a Nextendo account with a verified e-mail address and a linked Discord account.</source>
+        <translation>Nextendo Network 是一个社区服务，用于替代任天堂的在线服务器。开启后，受支持的游戏会连接 Nextendo 而不是任天堂，并把你的 Nextendo 游戏令牌发送给它。飞行模式会被关闭。在线游戏需要已验证电子邮箱并已关联 Discord 账号的 Nextendo 账号。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurePerGame</name>
@@ -9807,6 +9839,30 @@ You can change this in Configure, Graphics, Advanced.</source>
     <message>
         <source>You&apos;re on the latest build (%1).</source>
         <translation>你已是最新版本（%1）。</translation>
+    </message>
+    <message>
+        <source>Your Nextendo session expired, so Lichii signed you out.</source>
+        <translation>你的 Nextendo 会话已过期，Lichii 已将你退出登录。</translation>
+    </message>
+    <message>
+        <source>Your session was ended on nextendo.network, so Lichii signed you out.</source>
+        <translation>你的会话已在 nextendo.network 上结束，Lichii 已将你退出登录。</translation>
+    </message>
+    <message>
+        <source>Your Nextendo sign-in didn&apos;t allow online play, so Lichii signed you out.</source>
+        <translation>你的 Nextendo 登录未允许在线游戏，Lichii 已将你退出登录。</translation>
+    </message>
+    <message>
+        <source>Sign in again in Configure &gt; Network.</source>
+        <translation>请在 设置 &gt; 网络 中重新登录。</translation>
+    </message>
+    <message>
+        <source>Nextendo online play is on, but you aren&apos;t signed in. Sign in in Configure &gt; Network.</source>
+        <translation>Nextendo 在线游戏已开启，但你尚未登录。请在 设置 &gt; 网络 中登录。</translation>
+    </message>
+    <message>
+        <source>Checking online patches...</source>
+        <translation>正在检查在线补丁…</translation>
     </message>
 </context>
 <context>
