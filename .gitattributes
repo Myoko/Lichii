@@ -8,3 +8,6 @@ externals/* linguist-vendored
 # message (i18n-tools/ts_merge_driver.ps1) instead of by hunks so an upstream
 # update never replaces an existing translation, and keep the bytes as-is.
 dist/languages/*.ts merge=lichii-ts -text
+# This fork builds Windows only (see the fork's release workflow); an upstream
+# edit to that file must not stop a sync, so the merge keeps our copy.
+.github/workflows/release-binaries.yml merge=lichii-ours
