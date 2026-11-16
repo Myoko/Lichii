@@ -9760,6 +9760,34 @@ You can change this in Configure, Graphics, Advanced.</source>
         <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model and null descriptors). The Optical Flow type may still work.</source>
         <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型和空描述符）。光流类型可能仍可使用。</translation>
     </message>
+    <message>
+        <source>Check for &amp;Updates...</source>
+        <translation>检查更新(&amp;U)...</translation>
+    </message>
+    <message>
+        <source>Check for Updates</source>
+        <translation>检查更新</translation>
+    </message>
+    <message>
+        <source>This is a test or development build (%1) without a published release tag, so Lichii cannot compare it with published releases. Download a release from GitHub to get updates.</source>
+        <translation>这是测试版或开发版（%1），没有已发布的 release 标签，因此 Lichii 无法与已发布版本比较。请从 GitHub 下载正式发布版以获取更新。</translation>
+    </message>
+    <message>
+        <source>GitHub is limiting requests from your network right now. Please try again later.</source>
+        <translation>GitHub 目前正在限制来自你所在网络的请求，请稍后再试。</translation>
+    </message>
+    <message>
+        <source>GitHub answered with HTTP error %1. Please try again later.</source>
+        <translation>GitHub 返回了 HTTP 错误 %1，请稍后再试。</translation>
+    </message>
+    <message>
+        <source>Could not reach GitHub. Check your internet connection and try again.</source>
+        <translation>无法连接 GitHub。请检查网络连接后重试。</translation>
+    </message>
+    <message>
+        <source>You&apos;re on the latest build (%1).</source>
+        <translation>你已是最新版本（%1）。</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
