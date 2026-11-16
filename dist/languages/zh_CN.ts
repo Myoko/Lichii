@@ -9864,6 +9864,14 @@ You can change this in Configure, Graphics, Advanced.</source>
         <source>Checking online patches...</source>
         <translation>正在检查在线补丁…</translation>
     </message>
+    <message>
+        <source>Nextendo doesn&apos;t offer online play for this game right now.</source>
+        <translation>Nextendo 目前不为该游戏提供在线游戏。</translation>
+    </message>
+    <message>
+        <source>This version of the game can&apos;t play online on Nextendo. Update it to %1.</source>
+        <translation>此版本的游戏无法在 Nextendo 上进行在线游戏，请更新到 %1。</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
