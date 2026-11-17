@@ -2744,6 +2744,20 @@ Automatic uses the compute fallback on AMD RDNA2 GPUs (RX 6000 series), where na
         <source>Compute Fallback</source>
         <translation>计算回退</translation>
     </message>
+    <message>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
+In Fire Emblem: Fortune&apos;s Weave it replaces the game&apos;s DLSS while &quot;Use the game&apos;s own DLSS&quot; is off.
+In The Legend of Zelda: Ocarina of Time it replaces the game&apos;s upscaler at 1x resolution scale.
+The window adapting filter (the FSR 1, Bilinear and similar button in the status bar) is separate and runs after DLSS. While DLSS runs, the status bar shows DLSS, its mode and its preset. If DLSS fails, it stays off until the game restarts and the log says why.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（除非 NVIDIA app 已下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
+在《Fire Emblem: Fortune&apos;s Weave》中，当“使用游戏自带的 DLSS”关闭时，它会替代游戏的 DLSS。
+在《塞尔达传说：时之笛》中，它会在 1 倍分辨率缩放下替代游戏自带的超分器。
+窗口适配滤镜（状态栏里的 FSR 1、双线性等按钮）是独立的一层，在 DLSS 之后运行。DLSS 运行时，状态栏显示 DLSS、它的模式和预设。若 DLSS 失败，它会保持关闭直到游戏重启，原因会写入日志。
+游戏启动时生效。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -5462,6 +5476,106 @@ Current values are %1% and %2% respectively.</source>
     <message>
         <source>Nextendo Network is a community service that replaces Nintendo&apos;s online servers. When this is on, the games it supports connect to Nextendo instead of Nintendo and send your Nextendo game token to it. Airplane mode is turned off. Online play needs a Nextendo account with a verified e-mail address and a linked Discord account.</source>
         <translation>Nextendo Network 是一个社区服务，用于替代任天堂的在线服务器。开启后，受支持的游戏会连接 Nextendo 而不是任天堂，并把你的 Nextendo 游戏令牌发送给它。飞行模式会被关闭。在线游戏需要已验证电子邮箱并已关联 Discord 账号的 Nextendo 账号。</translation>
+    </message>
+    <message>
+        <source>Friend request sent.</source>
+        <translation>好友请求已发送。</translation>
+    </message>
+    <message>
+        <source>Friends and presence aren&apos;t available for Lichii on Nextendo right now.</source>
+        <translation>Lichii 目前在 Nextendo 上无法使用好友与在线状态功能。</translation>
+    </message>
+    <message>
+        <source>Sign in again to add friends and show them what you play. Online play keeps working until then.</source>
+        <translation>重新登录后即可添加好友并向他们展示你在玩什么。在此之前在线游戏仍可正常使用。</translation>
+    </message>
+    <message>
+        <source>%1 is signed in to the same Nextendo account. Nextendo allows one online session per account, so only one of these profiles can play online at a time.</source>
+        <translation>%1 登录了同一个 Nextendo 账号。Nextendo 每个账号只允许一个在线会话，因此这些配置中同一时间只能有一个进行在线游戏。</translation>
+    </message>
+    <message>
+        <source>Your friend code: %1</source>
+        <translation>你的好友代码：%1</translation>
+    </message>
+    <message>
+        <source>%1 (%2): %3</source>
+        <translation>%1（%2）：%3</translation>
+    </message>
+    <message>
+        <source>wants to be your friend</source>
+        <translation>想加你为好友</translation>
+    </message>
+    <message>
+        <source>playing</source>
+        <translation>正在玩</translation>
+    </message>
+    <message>
+        <source>online</source>
+        <translation>在线</translation>
+    </message>
+    <message>
+        <source>offline</source>
+        <translation>离线</translation>
+    </message>
+    <message>
+        <source>request sent</source>
+        <translation>请求已发送</translation>
+    </message>
+    <message>
+        <source>Remove friend</source>
+        <translation>移除好友</translation>
+    </message>
+    <message>
+        <source>Remove %1 from your Nextendo friends?</source>
+        <translation>要把 %1 从你的 Nextendo 好友中移除吗？</translation>
+    </message>
+    <message>
+        <source>Sign in to Nextendo first.</source>
+        <translation>请先登录 Nextendo。</translation>
+    </message>
+    <message>
+        <source>This sign-in doesn&apos;t allow friends. Sign in again and allow them.</source>
+        <translation>本次登录未允许好友功能，请重新登录并允许该权限。</translation>
+    </message>
+    <message>
+        <source>Could not reach nextendo.network.</source>
+        <translation>无法连接 nextendo.network。</translation>
+    </message>
+    <message>
+        <source>That is your own friend code.</source>
+        <translation>这是你自己的好友代码。</translation>
+    </message>
+    <message>
+        <source>nextendo.network doesn&apos;t know that player or friend code.</source>
+        <translation>nextendo.network 不认识该玩家或好友代码。</translation>
+    </message>
+    <message>
+        <source>A friend list is full.</source>
+        <translation>某个好友列表已满。</translation>
+    </message>
+    <message>
+        <source>nextendo.network refused the request (HTTP %1).</source>
+        <translation>nextendo.network 拒绝了该请求（HTTP %1）。</translation>
+    </message>
+    <message>
+        <source>Accept</source>
+        <translation>接受</translation>
+    </message>
+    <message>
+        <source>Add friend</source>
+        <translation>添加好友</translation>
+    </message>
+    <message>
+        <source>Decline</source>
+        <translation>拒绝</translation>
+    </message>
+    <message>
+        <source>Friend code, for example SW-0000-0000-0000</source>
+        <translation>好友代码，例如 SW-0000-0000-0000</translation>
+    </message>
+    <message>
+        <source>Use my Nextendo nickname and picture for the current user (replaces its name and icon)</source>
+        <translation>为当前用户使用我的 Nextendo 昵称和头像（会替换其名称和图标）</translation>
     </message>
 </context>
 <context>
