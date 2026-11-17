@@ -38,6 +38,7 @@ add_executable(tests
     core/perf_stats.cpp
     core/service_auto_stub.cpp
     core/key_derivation.cpp
+    core/profile_manager_reset.cpp
     core/eticket_title_key.cpp
     core/keyblob_cmac.cpp
     core/aes_xts.cpp
@@ -63,6 +64,7 @@ add_executable(tests
     audio_core/hardware_audio_codec.cpp
     core/gpu_dirty_memory.cpp
     core/nso_loader.cpp
+    core/nsp_loader.cpp
     core/memory_acquire.cpp
     core/kip_sections.cpp
     core/memory_span.cpp
@@ -114,6 +116,7 @@ add_executable(tests
     video_core/framebuffer_clear_layers.cpp
     video_core/framebuffer_limits.cpp
     video_core/descriptor_limits.cpp
+    video_core/device_memory_asid.cpp
     video_core/unbacked_fallback.cpp
     video_core/eviction_age.cpp
     video_core/host_memory_limit.cpp
