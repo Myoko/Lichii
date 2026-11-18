@@ -2758,6 +2758,36 @@ Takes effect when a game starts.</source>
 窗口适配滤镜（状态栏里的 FSR 1、双线性等按钮）是独立的一层，在 DLSS 之后运行。DLSS 运行时，状态栏显示 DLSS、它的模式和预设。若 DLSS 失败，它会保持关闭直到游戏重启，原因会写入日志。
 游戏启动时生效。</translation>
     </message>
+    <message>
+        <source>Generates intermediate frames for smoother motion. Requires Vulkan.
+Optical Flow Interpolation is built in. LSFG requires Lossless.dll in the user directory&apos;s lossless folder.</source>
+        <translation>生成中间帧让运动更平滑。需要 Vulkan。
+光流插帧内置于程序中。LSFG 需要把 Lossless.dll 放在用户目录的 lossless 文件夹中。</translation>
+    </message>
+    <message>
+        <source>Don&apos;t wait for shaders that are still compiling</source>
+        <translation>不等待仍在编译的着色器</translation>
+    </message>
+    <message>
+        <source>On (default): a draw or compute pass whose shader is still compiling is skipped for a few frames, so a new shader costs a brief pop-in instead of a freeze.
+Off (accurate): the game waits for every shader, so nothing is ever missing, but each new shader can freeze the game for up to a few seconds.</source>
+        <translation>开（默认）：着色器仍在编译时的绘制或计算通道会跳过几帧，因此新着色器只会造成短暂的对象闪现，而不会卡顿。
+关（精确）：游戏会等待每个着色器，画面不会缺任何东西，但每个新着色器都可能让游戏卡住几秒。</translation>
+    </message>
+    <message>
+        <source>Switch 2 draws and compute with unbuilt shaders:</source>
+        <translation>Switch 2 遇到尚未构建完成的着色器时：</translation>
+    </message>
+    <message>
+        <source>Only applies when &quot;Don&apos;t wait for shaders that are still compiling&quot; is on. Decides what Switch 2 work does when its pipeline is still building. Only work that redraws what an earlier frame drew can be skipped: draws that are depth-tested into a target drawn before, and compute passes whose outputs the GPU wrote before. Other work always waits, so nothing drawn or computed once goes missing.
+Wait stalls the GPU until the pipeline is ready (no missing effects, but long stalls on new content). Skip drops that work, which can leave an effect missing for a few frames. Bounded (default) waits up to the time below per frame, then skips. The EDEN_NX2_ASYNC_DISCARD=1 environment variable still forces Skip.</source>
+        <translation>仅在“不等待仍在编译的着色器”开启时生效。决定 Switch 2 的工作在其管线仍在构建时如何处理。只有重绘此前帧已绘制内容的工作才能被跳过：绘制到之前已绘制目标、且使用深度测试的绘制，以及输出此前由 GPU 写过的计算通道。其他工作始终等待，因此任何已绘制或已计算过一次的内容都不会缺失。
+等待：GPU 会一直等到管线就绪（不会缺少效果，但新内容会有较长停顿）。跳过：直接丢弃该工作，可能造成某个效果缺失几帧。有界（默认）：每帧最多等待下面设定的时间，然后跳过。环境变量 EDEN_NX2_ASYNC_DISCARD=1 仍会强制为“跳过”。</translation>
+    </message>
+    <message>
+        <source>Used by the Bounded mode: the most time per frame that Switch 2 draws and compute passes may wait in total for pipelines that are still building. Once spent, the remaining unbuilt work of that frame that can be skipped is skipped.</source>
+        <translation>供“有界”模式使用：每帧中 Switch 2 的绘制与计算通道为仍在构建的管线总共最多可等待的时间。用完后，该帧剩余可跳过的未构建工作会被跳过。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -5576,6 +5606,14 @@ Current values are %1% and %2% respectively.</source>
     <message>
         <source>Use my Nextendo nickname and picture for the current user (replaces its name and icon)</source>
         <translation>为当前用户使用我的 Nextendo 昵称和头像（会替换其名称和图标）</translation>
+    </message>
+    <message>
+        <source>Host names separated by commas or spaces, for example *.a.example b.example. Each also covers its subdomains.</source>
+        <translation>主机名用逗号或空格分隔，例如 *.a.example b.example。每个主机名也会覆盖其子域名。</translation>
+    </message>
+    <message>
+        <source>Other host names don&apos;t resolve, and games can reach only this PC and the server address. Games get an id token Lichii makes for the current user instead of their Nextendo one. Multiplayer rooms are not affected.</source>
+        <translation>其他主机名将无法解析，游戏只能访问本机和服务器地址。游戏会收到 Lichii 为当前用户生成的 id token，而不是其 Nextendo 的。多人房间不受影响。</translation>
     </message>
 </context>
 <context>
@@ -9985,6 +10023,18 @@ You can change this in Configure, Graphics, Advanced.</source>
     <message>
         <source>This version of the game can&apos;t play online on Nextendo. Update it to %1.</source>
         <translation>此版本的游戏无法在 Nextendo 上进行在线游戏，请更新到 %1。</translation>
+    </message>
+    <message>
+        <source>Nextendo Sign-ins</source>
+        <translation>Nextendo 登录记录</translation>
+    </message>
+    <message numerus="yes">
+        <source>Lichii found Nextendo sign-ins for %n profile(s) this NAND doesn&apos;t have. Profiles deleted in an older build left theirs behind.
+
+Remove and sign out those sign-ins? Keep them if the profiles are in another NAND folder.</source>
+        <translation><numerusform>Lichii 发现 %n 个配置档的 Nextendo 登录记录不属于此 NAND。旧版本中删除的配置档留下了它们。
+
+要移除并注销这些登录记录吗？如果这些配置档在另一个 NAND 文件夹中，请保留它们。</numerusform></translation>
     </message>
 </context>
 <context>
