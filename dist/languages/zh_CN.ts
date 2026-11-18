@@ -7925,6 +7925,10 @@ Debug Message: </source>
         <source>Exit Lichii</source>
         <translation>退出 Lichii</translation>
     </message>
+    <message>
+        <source>HOME Button</source>
+        <translation>HOME 键</translation>
+    </message>
 </context>
 <context>
     <name>InstallDialog</name>
