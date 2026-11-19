@@ -5829,6 +5829,14 @@ Current values are %1% and %2% respectively.</source>
         <source>Show the game&apos;s own icon again. Apply or OK saves changes.</source>
         <translation>重新显示游戏自带的图标。点击“应用”或“确定”保存更改。</translation>
     </message>
+    <message>
+        <source>Browse iiDB Artwork...</source>
+        <translation>浏览 iiDB 封面图...</translation>
+    </message>
+    <message>
+        <source>Choose online artwork using your own iiDB API key. Apply or OK saves changes.</source>
+        <translation>使用你自己的 iiDB API 密钥选择在线封面图。点击“应用”或“确定”保存更改。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurePerGameAddons</name>
@@ -6751,6 +6759,14 @@ Drag points to change position, or double-click table cells to edit values.</sou
     <message>
         <source>&lt;a href=&quot;%1&quot;&gt;Get a key&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;%1&quot;&gt;获取密钥&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>Set, test or forget the personal key for browsing iiDB artwork in game Properties.</source>
+        <translation>设置、测试或清除用于在游戏属性中浏览 iiDB 封面图的个人密钥。</translation>
+    </message>
+    <message>
+        <source>iiDB Artwork API Key...</source>
+        <translation>iiDB 封面图 API 密钥...</translation>
     </message>
 </context>
 <context>
@@ -14352,6 +14368,271 @@ Try again without the recipe? The game still runs from the NX archive, but the o
     <message>
         <source>Left out to fit the size limit: %1</source>
         <translation>为满足大小限制而略去：%1</translation>
+    </message>
+</context>
+<context>
+    <name>ArtworkDialog</name>
+    <message>
+        <source>Game title:</source>
+        <translation>游戏标题：</translation>
+    </message>
+    <message>
+        <source>Only the title you search is sent to iiDB, never your game files or ID.</source>
+        <translation>只会把你搜索的标题发送给 iiDB，绝不会发送游戏文件或 ID。</translation>
+    </message>
+    <message>
+        <source>API Key…</source>
+        <translation>API 密钥…</translation>
+    </message>
+    <message>
+        <source>iiDB match:</source>
+        <translation>iiDB 匹配：</translation>
+    </message>
+    <message>
+        <source>Choose a search result</source>
+        <translation>选择一个搜索结果</translation>
+    </message>
+    <message>
+        <source>iiSU Box Art</source>
+        <translation>iiSU 封面图</translation>
+    </message>
+    <message>
+        <source>Box Art</source>
+        <translation>封面图</translation>
+    </message>
+    <message>
+        <source>Icons</source>
+        <translation>图标</translation>
+    </message>
+    <message>
+        <source>Artwork gallery</source>
+        <translation>封面图库</translation>
+    </message>
+    <message>
+        <source>Some thumbnails could not load because iiDB asked Lichii to wait.</source>
+        <translation>部分缩略图未能加载，因为 iiDB 要求 Lichii 稍等。</translation>
+    </message>
+    <message>
+        <source>Load More</source>
+        <translation>加载更多</translation>
+    </message>
+    <message>
+        <source>Preview Selected</source>
+        <translation>预览所选</translation>
+    </message>
+    <message>
+        <source>Icon in Lichii</source>
+        <translation>Lichii 中的图标</translation>
+    </message>
+    <message>
+        <source>Original artwork</source>
+        <translation>原始封面图</translation>
+    </message>
+    <message>
+        <source>The original is shown in proportion. Lichii crops and scales it to a 256 × 256 icon, just like Upload Icon.</source>
+        <translation>原图按比例显示。Lichii 会像“上传图标”一样，把它裁剪并缩放到 256 × 256 的图标。</translation>
+    </message>
+    <message>
+        <source>Cancel or a failed download or decode leaves the original artwork intact. Use Artwork stages the new icon; Apply or OK in Properties saves it.</source>
+        <translation>取消，或下载/解码失败，都会保留原始封面图。“使用封面图”只是暂存新图标；需要在属性里点击“应用”或“确定”才会保存。</translation>
+    </message>
+    <message>
+        <source>Catalog data from &lt;a href=&quot;https://iidb.iisu.network&quot;&gt;iiDB&lt;/a&gt;, adapted from the &lt;a href=&quot;https://github.com/libretro/libretro-database&quot;&gt;Libretro Database&lt;/a&gt; and its upstream sources (No-Intro and Redump), &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0&lt;/a&gt;. &lt;a href=&quot;https://iisu.network/license&quot;&gt;Artwork and catalog licensing&lt;/a&gt;.</source>
+        <translation>目录数据来自 &lt;a href=&quot;https://iidb.iisu.network&quot;&gt;iiDB&lt;/a&gt;，改编自 &lt;a href=&quot;https://github.com/libretro/libretro-database&quot;&gt;Libretro Database&lt;/a&gt; 及其上游来源（No-Intro 与 Redump），&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0&lt;/a&gt;。&lt;a href=&quot;https://iisu.network/license&quot;&gt;封面图与目录许可&lt;/a&gt;。</translation>
+    </message>
+    <message>
+        <source>Use Artwork</source>
+        <translation>使用封面图</translation>
+    </message>
+    <message>
+        <source>Search for the game by title.</source>
+        <translation>按标题搜索游戏。</translation>
+    </message>
+    <message>
+        <source>Searching iiDB…</source>
+        <translation>正在搜索 iiDB…</translation>
+    </message>
+    <message>
+        <source>No matching games with artwork. Try another title.</source>
+        <translation>没有找到带封面图的匹配游戏，请换个标题试试。</translation>
+    </message>
+    <message>
+        <source>Choose the matching iiDB game to see its artwork.</source>
+        <translation>选择匹配的 iiDB 游戏以查看其封面图。</translation>
+    </message>
+    <message>
+        <source>Loading %1…</source>
+        <translation>正在加载 %1…</translation>
+    </message>
+    <message>
+        <source>Retry Gallery</source>
+        <translation>重试图库</translation>
+    </message>
+    <message>
+        <source>Artwork %1</source>
+        <translation>封面图 %1</translation>
+    </message>
+    <message>
+        <source>iiDB repeated a gallery page. No more pages were loaded.</source>
+        <translation>iiDB 返回了重复的图库页面，已停止加载更多页面。</translation>
+    </message>
+    <message>
+        <source>Showing up to %1 pages in this category.</source>
+        <translation>此分类最多显示 %1 页。</translation>
+    </message>
+    <message>
+        <source>No usable images in this category.</source>
+        <translation>此分类中没有可用的图片。</translation>
+    </message>
+    <message>
+        <source>No artwork in this category.</source>
+        <translation>此分类中没有封面图。</translation>
+    </message>
+    <message>
+        <source>Select an image to preview the original.</source>
+        <translation>选择一张图片以预览原图。</translation>
+    </message>
+    <message>
+        <source>No preview</source>
+        <translation>无预览</translation>
+    </message>
+    <message>
+        <source>Downloading original…</source>
+        <translation>正在下载原图…</translation>
+    </message>
+    <message>
+        <source>Original: %1 × %2</source>
+        <translation>原图：%1 × %2</translation>
+    </message>
+    <message>
+        <source>Browse iiDB Artwork</source>
+        <translation>浏览 iiDB 封面图</translation>
+    </message>
+</context>
+<context>
+    <name>KeyDialog</name>
+    <message>
+        <source>Enter a personal iiDB API key to search for artwork from game Properties. &lt;a href=&quot;https://iisu.network/wiki/iidb-developers/getting-started&quot;&gt;Get a key&lt;/a&gt;.</source>
+        <translation>输入个人 iiDB API 密钥，即可从游戏属性中搜索封面图。&lt;a href=&quot;https://iisu.network/wiki/iidb-developers/getting-started&quot;&gt;获取密钥&lt;/a&gt;。</translation>
+    </message>
+    <message>
+        <source>Personal API key:</source>
+        <translation>个人 API 密钥：</translation>
+    </message>
+    <message>
+        <source>Remember in Windows Credential Manager</source>
+        <translation>在 Windows 凭据管理器中记住</translation>
+    </message>
+    <message>
+        <source>Use Key</source>
+        <translation>使用密钥</translation>
+    </message>
+    <message>
+        <source>Test Connection</source>
+        <translation>测试连接</translation>
+    </message>
+    <message>
+        <source>Forget Key</source>
+        <translation>清除密钥</translation>
+    </message>
+    <message>
+        <source>Test the entered key, or the current key if the field is blank. Testing does not save it.</source>
+        <translation>测试输入的密钥；如果输入框为空，则测试当前密钥。测试不会保存密钥。</translation>
+    </message>
+    <message>
+        <source>Testing iiDB access…</source>
+        <translation>正在测试 iiDB 访问…</translation>
+    </message>
+    <message>
+        <source>iiDB accepted the key.</source>
+        <translation>iiDB 已接受该密钥。</translation>
+    </message>
+    <message>
+        <source>Paste your key</source>
+        <translation>粘贴你的密钥</translation>
+    </message>
+    <message>
+        <source>Enter a replacement key</source>
+        <translation>输入替换用的密钥</translation>
+    </message>
+    <message>
+        <source>No key set. You can use a key for this session only.</source>
+        <translation>尚未设置密钥。你可以使用仅在本次会话有效的密钥。</translation>
+    </message>
+    <message>
+        <source>The key is available only until Lichii closes.</source>
+        <translation>该密钥仅在 Lichii 关闭前有效。</translation>
+    </message>
+    <message>
+        <source>The key is saved in Windows Credential Manager.</source>
+        <translation>密钥已保存在 Windows 凭据管理器中。</translation>
+    </message>
+    <message>
+        <source>Windows Credential Manager is unavailable. Keys are available for this session only.</source>
+        <translation>Windows 凭据管理器不可用，密钥仅在本次会话有效。</translation>
+    </message>
+    <message>
+        <source>Lichii couldn&apos;t save this key in Windows Credential Manager. It is available for this session only. Any saved key is unchanged.</source>
+        <translation>Lichii 无法把该密钥保存到 Windows 凭据管理器，它仅在本次会话有效。已保存的密钥保持不变。</translation>
+    </message>
+    <message>
+        <source>Lichii couldn&apos;t remove a saved key. Remove “Lichii/iiDB API Key” in Windows Credential Manager. Any key entered here is session-only.</source>
+        <translation>Lichii 无法删除已保存的密钥。请在 Windows 凭据管理器中删除“Lichii/iiDB API Key”。在此输入的密钥仅本次会话有效。</translation>
+    </message>
+    <message>
+        <source>iiDB API Key</source>
+        <translation>iiDB API 密钥</translation>
+    </message>
+</context>
+<context>
+    <name>IiDB</name>
+    <message>
+        <source>Check or replace your iiDB API key.</source>
+        <translation>检查或替换你的 iiDB API 密钥。</translation>
+    </message>
+    <message>
+        <source>iiDB did not allow this request.</source>
+        <translation>iiDB 不允许此请求。</translation>
+    </message>
+    <message>
+        <source>iiDB could not find that game or image.</source>
+        <translation>iiDB 找不到该游戏或图片。</translation>
+    </message>
+    <message>
+        <source>iiDB asked Lichii to wait before trying again.</source>
+        <translation>iiDB 要求 Lichii 稍后再试。</translation>
+    </message>
+    <message>
+        <source>The iiDB request timed out. Try again when ready.</source>
+        <translation>iiDB 请求超时，请稍后重试。</translation>
+    </message>
+    <message>
+        <source>Could not connect to iiDB or complete the request.</source>
+        <translation>无法连接 iiDB 或完成请求。</translation>
+    </message>
+    <message>
+        <source>iiDB returned an untrusted image URL or redirect.</source>
+        <translation>iiDB 返回了不受信任的图片 URL 或重定向。</translation>
+    </message>
+    <message>
+        <source>The iiDB response is too large.</source>
+        <translation>iiDB 响应过大。</translation>
+    </message>
+    <message>
+        <source>iiDB returned an unexpected response.</source>
+        <translation>iiDB 返回了意外的响应。</translation>
+    </message>
+    <message>
+        <source>The image is unreadable, unsupported or too large to decode.</source>
+        <translation>图片无法读取、不受支持或过大而无法解码。</translation>
+    </message>
+    <message>
+        <source>Wait for the current iiDB request to finish.</source>
+        <translation>请等待当前 iiDB 请求完成。</translation>
+    </message>
+    <message>
+        <source>Add your iiDB API key to use online artwork.</source>
+        <translation>添加 iiDB API 密钥以使用在线封面图。</translation>
     </message>
 </context>
 </TS>
