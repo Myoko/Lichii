@@ -2788,6 +2788,18 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
         <source>Used by the Bounded mode: the most time per frame that Switch 2 draws and compute passes may wait in total for pipelines that are still building. Once spent, the remaining unbuilt work of that frame that can be skipped is skipped.</source>
         <translation>供“有界”模式使用：每帧中 Switch 2 的绘制与计算通道为仍在构建的管线总共最多可等待的时间。用完后，该帧剩余可跳过的未构建工作会被跳过。</translation>
     </message>
+    <message>
+        <source>Dynarmic (JIT)</source>
+        <translation>Dynarmic（JIT）</translation>
+    </message>
+    <message>
+        <source>Native (NCE)</source>
+        <translation>原生 (NCE)</translation>
+    </message>
+    <message>
+        <source>Hypervisor (requires multicore)</source>
+        <translation>Hypervisor（需要多核）</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -10056,6 +10068,14 @@ Remove and sign out those sign-ins? Keep them if the profiles are in another NAN
 
 要移除并注销这些登录记录吗？如果这些配置档在另一个 NAND 文件夹中，请保留它们。</numerusform></translation>
     </message>
+    <message>
+        <source>Stop emulation before linking saves</source>
+        <translation>链接存档前请先停止模拟</translation>
+    </message>
+    <message>
+        <source>Close the running game before changing Ryujinx save links.</source>
+        <translation>请在更改 Ryujinx 存档链接前关闭正在运行的游戏。</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
@@ -11653,6 +11673,68 @@ Would you like to manually select a portable folder to use?</source>
         <source>Could not find Ryujinx save data</source>
         <translation>找不到 Ryujinx 的存档数据</translation>
     </message>
+    <message>
+        <source>
+
+Previous save data was kept at:%1</source>
+        <translation>
+
+此前的存档数据保留在：%1</translation>
+    </message>
+    <message>
+        <source>Failed to unlink Ryujinx save data</source>
+        <translation>取消 Ryujinx 存档链接失败</translation>
+    </message>
+    <message>
+        <source>Could not update the save link:
+%1</source>
+        <translation>无法更新存档链接：
+%1</translation>
+    </message>
+    <message>
+        <source>The saves are now separate copies.</source>
+        <translation>两个存档现在是各自独立的副本。</translation>
+    </message>
+    <message>
+        <source>Save is already linked</source>
+        <translation>存档已链接</translation>
+    </message>
+    <message>
+        <source>One of these saves links to a different location. No saves were changed.</source>
+        <translation>其中一个存档链接到了其它位置，未更改任何存档。</translation>
+    </message>
+    <message>
+        <source>Could not find Ryujinx save data in the default or previously used location. Would you like to choose a Ryujinx data folder?</source>
+        <translation>在默认位置或上次使用的位置找不到 Ryujinx 存档数据。要选择 Ryujinx 数据文件夹吗？</translation>
+    </message>
+    <message>
+        <source>Ryujinx Data Folder</source>
+        <translation>Ryujinx 数据文件夹</translation>
+    </message>
+    <message>
+        <source>No committed account or device save for title %1 is available in Ryujinx.</source>
+        <translation>Ryujinx 中没有该游戏（%1）已提交的账号存档或设备存档。</translation>
+    </message>
+    <message>
+        <source>Save %1 (device save)</source>
+        <translation>存档 %1（设备存档）</translation>
+    </message>
+    <message>
+        <source>Save %1 (last used Ryujinx profile: %2)</source>
+        <translation>存档 %1（上次使用的 Ryujinx 配置档：%2）</translation>
+    </message>
+    <message>
+        <source>Save %1 (Ryujinx profile: %2)</source>
+        <translation>存档 %1（Ryujinx 配置档：%2）</translation>
+    </message>
+    <message>
+        <source>Choose a Ryujinx save</source>
+        <translation>选择 Ryujinx 存档</translation>
+    </message>
+    <message>
+        <source>Select the Ryujinx save you want to link.</source>
+        <translation>选择你想要链接的 Ryujinx 存档。</translation>
+    </message>
 </context>
 <context>
     <name>QtCommon::Game</name>
@@ -12574,6 +12656,14 @@ By selecting &quot;From Lichii&quot;, previous save data stored in Ryujinx will 
         <translation>将存档数据链接到 Ryujinx 可以使 Ryujinx 和 Lichii 都能引用相同的游戏存档文件。
 
 选择 “来自 Lichii” 时，Ryujinx 中存储的上一个保存数据将被删除,反之选择“从 Ryujinx 开始”时亦然。</translation>
+    </message>
+    <message>
+        <source>Ryujinx save ID: %1
+
+Choose which save both emulators should use. Replaced saves are kept as backups. Close any running game in Lichii and Ryujinx before linking.</source>
+        <translation>Ryujinx 存档 ID：%1
+
+选择两个模拟器共同使用的存档。被替换的存档会保留为备份。链接前请关闭 Lichii 和 Ryujinx 中正在运行的游戏。</translation>
     </message>
 </context>
 <context>
