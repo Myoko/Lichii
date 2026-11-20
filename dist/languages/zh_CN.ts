@@ -5627,6 +5627,10 @@ Current values are %1% and %2% respectively.</source>
         <source>Other host names don&apos;t resolve, and games can reach only this PC and the server address. Games get an id token Lichii makes for the current user instead of their Nextendo one. Multiplayer rooms are not affected.</source>
         <translation>其他主机名将无法解析，游戏只能访问本机和服务器地址。游戏会收到 Lichii 为当前用户生成的 id token，而不是其 Nextendo 的。多人房间不受影响。</translation>
     </message>
+    <message>
+        <source>Profile</source>
+        <translation>配置档</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurePerGame</name>
@@ -7957,6 +7961,10 @@ Debug Message: </source>
         <source>HOME Button</source>
         <translation>HOME 键</translation>
     </message>
+    <message>
+        <source>Report a Bug</source>
+        <translation>报告问题</translation>
+    </message>
 </context>
 <context>
     <name>InstallDialog</name>
@@ -10075,6 +10083,38 @@ Remove and sign out those sign-ins? Keep them if the profiles are in another NAN
     <message>
         <source>Close the running game before changing Ryujinx save links.</source>
         <translation>请在更改 Ryujinx 存档链接前关闭正在运行的游戏。</translation>
+    </message>
+    <message>
+        <source>Auto</source>
+        <translation>自动</translation>
+    </message>
+    <message>
+        <source>Quality</source>
+        <translation>质量</translation>
+    </message>
+    <message>
+        <source>Balanced</source>
+        <translation>均衡</translation>
+    </message>
+    <message>
+        <source>Performance</source>
+        <translation>性能</translation>
+    </message>
+    <message>
+        <source>Ultra Performance</source>
+        <translation>超高性能</translation>
+    </message>
+    <message>
+        <source>NVIDIA default</source>
+        <translation>NVIDIA 默认</translation>
+    </message>
+    <message>
+        <source>L</source>
+        <translation>L</translation>
+    </message>
+    <message>
+        <source>NVIDIA DLSS Frame Generation</source>
+        <translation>NVIDIA DLSS 帧生成</translation>
     </message>
 </context>
 <context>
@@ -14294,6 +14334,14 @@ Try again without the recipe? The game still runs from the NX archive, but the o
         <source>Select the Update Folder</source>
         <translation>选择更新文件夹</translation>
     </message>
+    <message>
+        <source>%1 cannot be decrypted: %2
+
+Check that your keys are installed.</source>
+        <translation>%1 无法解密：%2
+
+请确认已安装密钥。</translation>
+    </message>
 </context>
 <context>
     <name>RecommendedSettingsDialog</name>
@@ -14360,6 +14408,10 @@ Try again without the recipe? The game still runs from the NX archive, but the o
     <message>
         <source>Lichii now uses the recommended settings, in every game.</source>
         <translation>Lichii 现在在所有游戏中都使用推荐设置。</translation>
+    </message>
+    <message>
+        <source>%1 (game %2)</source>
+        <translation>%1（游戏 %2）</translation>
     </message>
 </context>
 <context>
