@@ -46,12 +46,28 @@ li.checked::marker { content: &quot;\2612&quot;; }
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; 是任天堂的注册商标。Eden 与任天堂没有任何关系。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="../../src/lichii/aboutdialog.ui" line="+14"/>
+        <source>About Lichii</source>
+        <translation>关于 Lichii</translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Lichii is an experimental open-source emulator for the Nintendo Switch 2, based on Eglantine and Eden.
 
 This software should not be used to play games you have not legally obtained.</source>
         <translation>Lichii 是一款实验性的开源 Nintendo Switch 2 模拟器，基于 Eglantine 与 Eden 开发。
 
 请不要用本软件运行你未通过合法途径获得的游戏。</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=":/lichii/icons/menu_code.png" width="14" height="14" align="middle"/&gt;&amp;nbsp;&lt;a style="text-decoration:none" href="https://github.com/zortos293/Eglantine"&gt;Source Code&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=":/lichii/icons/menu_bug.png" width="14" height="14" align="middle"/&gt;&amp;nbsp;&lt;a style="text-decoration:none" href="https://github.com/zortos293/Eglantine/issues"&gt;Report an Issue&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=":/lichii/icons/menu_info.png" width="14" height="14" align="middle"/&gt;&amp;nbsp;&lt;a style="text-decoration:none" href="https://github.com/zortos293/Eglantine#credits-and-license"&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=":/lichii/icons/menu_code.png" width="14" height="14" align="middle"/&gt;&amp;nbsp;&lt;a style="text-decoration:none" href="https://github.com/zortos293/Eglantine"&gt;源代码&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=":/lichii/icons/menu_bug.png" width="14" height="14" align="middle"/&gt;&amp;nbsp;&lt;a style="text-decoration:none" href="https://github.com/zortos293/Eglantine/issues"&gt;报告问题&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=":/lichii/icons/menu_info.png" width="14" height="14" align="middle"/&gt;&amp;nbsp;&lt;a style="text-decoration:none" href="https://github.com/zortos293/Eglantine#credits-and-license"&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:7pt;"&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Lichii is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:7pt;"&gt;「Nintendo Switch」是任天堂的商标。Lichii 与任天堂没有任何关联。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/lichii/icons/menu_code.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_bug.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_info.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -74,10 +90,6 @@ li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Lichii 是一款实验性的开源 Nintendo Switch 2 模拟器，基于 Eglantine 与 Eden 开发。&lt;br /&gt;&lt;br /&gt;请不要用本软件运行你未通过合法途径获得的游戏。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About Lichii</source>
-        <translation>关于 Lichii</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
@@ -2209,18 +2221,288 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <translation>网格视图</translation>
     </message>
     <message>
-        <source>Replaces Ocarina of Time&apos;s native upscaler using scene depth and camera motion. Works on any supported Vulkan GPU. NVIDIA DLSS takes precedence when enabled and available. RCAS Sharpness controls sharpening. Takes effect when a game starts.</source>
-        <translation>使用场景深度和相机运动替代《时之笛》原生的超分器，适用于任何受支持的 Vulkan GPU。启用且可用时 NVIDIA DLSS 优先。RCAS 锐化度控制锐化强度。游戏启动时生效。</translation>
+        <location filename="../../src/lichii/configuration/shared_widget.cpp" line="+72"/>
+        <source>Use global (%1)</source>
+        <translation>使用全局（%1）</translation>
     </message>
     <message>
-        <source>Use AMD FSR 4 in place of FSR 3.1</source>
-        <translation>用 AMD FSR 4 替代 FSR 3.1</translation>
+        <location line="+14"/>
+        <source>Use the global value</source>
+        <translation>使用全局值</translation>
     </message>
     <message>
-        <source>Wait</source>
-        <translation>等待</translation>
+        <location line="+5"/>
+        <source>HDR output:</source>
+        <translation>HDR 输出：</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>HDR output for games with an HDR mode. Requires Vulkan.
+Off (default): always SDR.
+Auto: HDR while Windows HDR ("Use HDR") is on for the monitor that shows the game, SDR otherwise and on hosts that cannot tell.
+On: HDR whenever the display driver offers an HDR format.
+The game is told the display is HDR only while Lichii really presents HDR. SDR games and menus are shown at the reference white.
+While HDR is active, anti-aliasing, post-processing and FSR/SGSR upscaling are off and the window is scaled bilinearly. Frame generation keeps working.
+Screenshots are tone mapped to SDR.</source>
+        <translation>为支持 HDR 模式的游戏输出 HDR。需要 Vulkan。
+关（默认）：始终 SDR。
+自动：显示游戏的显示器在 Windows 中开启 HDR（“使用 HDR”）时输出 HDR，否则输出 SDR；无法判断的主机也输出 SDR。
+开：只要显示驱动提供 HDR 格式就输出 HDR。
+只有在 Lichii 真正输出 HDR 时才告诉游戏显示器是 HDR。SDR 游戏与菜单按参考白显示。
+HDR 启用期间，抗锯齿、后处理与 FSR/SGSR 上采样都会关闭，窗口使用双线性缩放。插帧仍然有效。
+截图会色调映射到 SDR。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>HDR format:</source>
+        <translation>HDR 格式：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>HDR10: 10-bit PQ, what HDR displays take.
+scRGB: 16-bit float. Try it if HDR shows banding, which some NVIDIA drivers do with 10-bit in fullscreen.</source>
+        <translation>HDR10：10 位 PQ，HDR 显示器常用的格式。
+scRGB：16 位浮点。如果 HDR 出现色带（某些 NVIDIA 驱动在全屏 10 位下会这样），可以试试它。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>HDR Reference White</source>
+        <translation>HDR 参考白</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reference white in nits reported to the game, the brightness of its HUD and menus. 0 (default): Windows' SDR content brightness for the monitor, so the game matches the desktop; elsewhere the Switch 2 calibration, HDR Peak Luminance divided by 1.5, rounded up and clamped to 50-300 nits.
+SDR games and menus are shown at this brightness while HDR is active, and HDR screenshots map it to SDR white.</source>
+        <translation>向游戏报告的参考白（单位：尼特），也就是它 HUD 与菜单的亮度。0（默认）：使用 Windows 中该显示器的 SDR 内容亮度，让游戏与桌面一致；无法获取时用 Switch 2 校准值，即 HDR 峰值亮度除以 1.5、向上取整并限制在 50–300 尼特。
+HDR 启用期间，SDR 游戏与菜单按此亮度显示，HDR 截图也把它映射为 SDR 白。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>HDR Peak Luminance</source>
+        <translation>HDR 峰值亮度</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Peak luminance in nits reported to the game, which tone maps to it. 0 (default): the monitor's peak from its EDID as Windows reports it; elsewhere 300 nits, the Switch 2 HDR calibration's starting value.
+Also the HDR10 metadata peak, and what an HDR image rolls off to on an SDR screen.</source>
+        <translation>向游戏报告的峰值亮度（单位：尼特），游戏据此做色调映射。0（默认）：使用 Windows 报告的显示器 EDID 峰值；无法获取时用 300 尼特，即 Switch 2 HDR 校准的起始值。
+它同时也是 HDR10 元数据里的峰值，以及在 SDR 屏幕上 HDR 画面的滚降目标。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Generates intermediate frames for smoother motion. Requires Vulkan.
+Optical Flow Interpolation is built in. LSFG requires Lossless.dll in the user directory's lossless folder.</source>
+        <translation>生成中间帧以获得更流畅的画面。需要 Vulkan。
+光流插帧是内置的。LSFG 需要在用户目录的 lossless 文件夹里放 Lossless.dll。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Lichii Optical Flow Frame Generation is built in and runs on any GPU.
+NVIDIA DLSS Frame Generation (Windows only) needs a GeForce RTX 40 series or newer GPU (3x and 4x need an RTX 50 series), Hardware-accelerated GPU scheduling on in Windows' graphics settings, "Use NVIDIA DLSS" on and NVIDIA's files from the NVIDIA DLSS panel. It takes the game's depth and motion vectors from the DLSS evaluation, so it runs in The Legend of Zelda: Ocarina of Time only, docked, with DLSS as its upscaler. Other games, and scRGB HDR output, use Lichii Optical Flow Frame Generation instead.
+VSync is off while it runs. Choosing it takes effect when a game starts.</source>
+        <translation>Lichii 光流插帧是内置的，任何 GPU 都能运行。
+NVIDIA DLSS 插帧（仅 Windows）需要 GeForce RTX 40 系列或更新的 GPU（3 倍与 4 倍需要 RTX 50 系列）、在 Windows 显卡设置里开启硬件加速 GPU 计划、开启“使用 NVIDIA DLSS”，以及来自 NVIDIA DLSS 面板的 NVIDIA 文件。它从 DLSS 求值中取得游戏的深度与运动矢量，因此只在《塞尔达传说 时之笛》的主机模式、且以 DLSS 作为上采样器时可用。其他游戏以及 scRGB HDR 输出会改用 Lichii 光流插帧。
+它运行时 VSync 会关闭。选择后在该游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Pins the emulator's GPU threads to dedicated physical CPU cores and keeps the emulated CPU cores off them.
+Can hurt performance on CPUs with few cores. Skipped on CPUs with fewer than 6 physical performance cores.
+Windows and Linux only. Takes effect when a game starts.</source>
+        <translation>把模拟器的 GPU 线程固定到专用的物理 CPU 核心，并让模拟的 CPU 核心避开这些核心。
+在核心较少的 CPU 上可能反而降低性能。物理性能核少于 6 个的 CPU 会跳过。
+仅限 Windows 与 Linux。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Builds shaders on the loading screen, on every CPU thread, so they don't stutter the first time the game uses them: the compute shaders found in the game files. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+Ask asks at launch while the game has never been precached.
+Precompile All Shaders in a game's context menu does this for that game whatever this says, and builds every shader its earlier sessions saved too.</source>
+        <translation>在加载界面用全部 CPU 线程构建着色器，让游戏第一次用到它们时不卡顿：也就是游戏文件里能找到的 compute 着色器。首次启动会读取游戏文件，需要几分钟；之后每次启动只构建新增的部分，直到 GPU 驱动发生变化。加载界面有「跳过」按钮。
+「询问」会在游戏从未预缓存过时于启动时询问。
+游戏右键菜单里的「预编译所有着色器」不管这里怎么设置都会对该游戏执行，并且还会构建它此前会话保存的所有着色器。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Build all cached shaders before game start</source>
+        <translation>游戏启动前构建全部已缓存着色器</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Builds every shader saved by earlier play sessions on the loading screen and keeps them built, so places you visited long ago don't stutter. Without it, only the shaders of recent sessions are built there and the rest in the background or when the game first needs them.
+Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quarter of the RAM. Takes effect when a game starts.</source>
+        <translation>在加载界面构建此前所有游戏会话保存的着色器并一直保持已构建，这样很久以前去过的地方也不会卡顿。关闭时，那里只会构建最近会话的着色器，其余的放到后台或游戏首次需要时再构建。
+加载会更久、占用更多内存，大约每个着色器 0.3 MB，最多可用到内存的四分之一。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Switch 2 draws and compute with unbuilt shaders:</source>
+        <translation>Switch 2 遇到尚未构建完成的着色器时：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only applies when "Don't wait for shaders that are still compiling" is on. Decides what Switch 2 work does when its pipeline is still building. Only work that redraws what an earlier frame drew can be skipped: draws that are depth-tested into a target drawn before, and compute passes whose outputs the GPU wrote before. Other work waits unless the separate mesh skip option applies.
+Wait stalls the GPU until the pipeline is ready (no missing effects, but long stalls on new content). Skip drops that work, which can leave an effect missing for a few frames. Bounded (default) waits up to the time below per frame, then skips. The EDEN_NX2_ASYNC_DISCARD=1 environment variable still forces Skip.</source>
+        <translation>只在开启「不等待仍在编译的着色器」时有效。决定 Switch 2 的工作在管线仍在构建时怎么做。只有重绘此前帧已绘制内容的工作才能跳过：深度测试到此前绘制过的目标的绘制，以及输出此前已由 GPU 写入过的 compute 通道。其他工作会等待，除非单独开启 mesh 跳过选项。
+「等待」会让 GPU 停住直到管线就绪（不会缺效果，但新内容会有长时间停顿）。「跳过」会丢弃这些工作，可能导致某个效果缺失几帧。「有上限」（默认）每帧最多等待下面设置的时间，之后跳过。环境变量 EDEN_NX2_ASYNC_DISCARD=1 仍会强制跳过。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Used by the Bounded mode: the most time per frame that Switch 2 draws and compute passes may wait in total for pipelines that are still building. Once spent, the remaining unbuilt work of that frame that can be skipped is skipped.</source>
+        <translation>供“有界”模式使用：每帧中 Switch 2 的绘制与计算通道为仍在构建的管线总共最多可等待的时间。用完后，该帧剩余可跳过的未构建工作会被跳过。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Skip Switch 2 mesh draws with unbuilt shaders</source>
+        <translation>跳过使用未构建着色器的 Switch 2 mesh 绘制</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only applies when "Don't wait for shaders that are still compiling" is on. Skips Switch 2 mesh draws while their pipelines build, even in Wait mode. This can reduce stalls, but some objects may not appear until their shaders finish building.</source>
+        <translation>只在开启「不等待仍在编译的着色器」时有效。管线构建期间跳过 Switch 2 的 mesh 绘制，即使在「等待」模式下也如此。这能减少停顿，但有些物体可能要到着色器构建完成才出现。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Mario Kart World: 60 FPS mode</source>
+        <translation>《马力欧卡丁车 世界》：60 FPS 模式</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forces the game's 60 FPS mode everywhere, not only in cutscenes. The game advances one 60 FPS step per frame, so it never runs fast. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
+        <translation>强制游戏在所有场景使用 60 FPS 模式，而不只在过场动画里。游戏每帧推进一个 60 FPS 步长，因此不会加速。重启游戏后生效，并优先于 30 FPS 模式。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Mario Kart World: drop to 30 FPS when slow</source>
+        <translation>《马力欧卡丁车 世界》：变慢时降到 30 FPS</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only applies with the 60 FPS mode. When your PC can't hold 60 FPS, the game switches to its 30 FPS mode and keeps normal speed, then tries 60 again every few seconds. Turn it off to stay at 60 FPS, where slow frames play in slow motion. Takes effect after restarting the game.</source>
+        <translation>仅在 60 FPS 模式下有效。当你的 PC 无法维持 60 FPS 时，游戏切到它自己的 30 FPS 模式并保持正常速度，然后每隔几秒再尝试 60 FPS。关闭它会一直保持在 60 FPS，此时慢帧会以慢动作播放。重启游戏后生效。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Hyrule Warriors: Age of Imprisonment: dynamic FPS (experimental)</source>
+        <translation>《塞尔达无双：封印战记》：动态帧率（实验性）</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Drops to 30 FPS with the game's split-screen time step while the game runs below about 50 FPS, so heavy slowdowns don't slow down the game, and tries 60 FPS again every few seconds.</source>
+        <translation>当游戏运行低于约 50 FPS 时，改用游戏的分屏时间步降到 30 FPS，避免严重掉速拖慢游戏，并且每隔几秒再尝试 60 FPS。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Hyrule Warriors: Age of Imprisonment: 30 FPS mode</source>
+        <translation>《塞尔达无双：封印战记》：30 FPS 模式</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Always runs at 30 FPS with the game's split-screen time step, at normal game speed. Takes precedence over dynamic FPS.</source>
+        <translation>始终以游戏的分屏时间步运行在 30 FPS，保持正常游戏速度。优先于动态帧率。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Mesh Shaders</source>
+        <translation>网格着色器</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>How Switch 2 games' mesh shader geometry is drawn.
+Native uses the GPU's mesh shaders. Compute Fallback emulates them with compute shaders: it can be slower in scenes with a lot of foliage, and it can't draw every kind of mesh program.
+Automatic uses the compute fallback on AMD RDNA2 GPUs (RX 6000 series), where native mesh shaders hang the GPU, and native mesh shaders everywhere else.</source>
+        <translation>Switch 2 游戏的 mesh 着色器几何体如何绘制。
+「原生」使用 GPU 的 mesh 着色器。「Compute 回退」用 compute 着色器模拟：在植被很多的场景里会更慢，而且并非所有 mesh 程序都能绘制。
+「自动」在会让 GPU 挂死的 AMD RDNA2 GPU（RX 6000 系列）上使用 compute 回退，其余情况使用原生 mesh 着色器。</translation>
+    </message>
+    <message>
+        <location line="-484"/>
+        <source>Bilinear while HDR output is active.</source>
+        <translation>HDR 输出生效期间使用双线性。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Runs a Switch 2 game's own DLSS (its upscaling network, translated for this GPU) instead of AMD FSR 3.1 in its place.
+AMD FSR 3.1 still draws while the network is checked, when it can't run on this GPU, with resolution scaling, and for the rest of the session if its output fails Lichii's checks.
+Takes effect when a game starts.</source>
+        <translation>以 Switch 2 游戏自带的 DLSS（把它的一次性上采样网络为本 GPU 转换）代替 AMD FSR 3.1。
+在网络校验期间、它无法在本 GPU 上运行、开启分辨率缩放、以及它的输出未通过 Lichii 检查后直到本次会话结束，仍会由 AMD FSR 3.1 绘制。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Rate of the Switch 2 VSync event that games start their frames on (default 60 Hz).
+Above 60 Hz most games run too fast; use it with a game patch that follows real time, such as "FPS Unlock (built-in)" for Ocarina of Time.
+Takes effect when a game starts.</source>
+        <translation>游戏开始每一帧所依据的 Switch 2 VSync 事件频率（默认 60 Hz）。
+高于 60 Hz 时大多数游戏会跑得过快；请配合跟随真实时间的游戏补丁使用，例如《时之笛》的“FPS Unlock（内置）”。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Strength of RCAS (AMD's contrast-adaptive sharpening) on the upscaler used in place of a game's DLSS (AMD FSR 3.1); 0% turns it off.
+Also sets the sharpening of the AMD FSR 1 and SGSR window adapting filters.</source>
+        <translation>替代游戏 DLSS 的上采样器（AMD FSR 3.1）上 RCAS（AMD 的对比度自适应锐化）的强度；0% 表示关闭。
+它同时设置 AMD FSR 1 与 SGSR 窗口适配滤镜的锐化。</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Use FSR 4 (fsr4-vk community Vulkan port) in place of FSR 3.1</source>
+        <translation>用 FSR 4（fsr4-vk 社区 Vulkan 移植）替代 FSR 3.1</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Uses fsr4-vk, a community Vulkan port of AMD's ML-based FSR 4.1.1 that Lichii's x86-64 Linux packages include, where FSR replaces a game's upscaler (Ocarina of Time with the setting above). It is not AMD's official FSR 4 and is not affiliated with or endorsed by AMD. Radeon RX 6000 or newer, or an RDNA 3 Ryzen GPU, on Mesa's RADV driver; RDNA 4 runs the FP8 network, older GPUs the INT8 one.
+If FSR 4 can't run, FSR 3.1 is used and the log says why. Takes effect when a game starts.</source>
+        <translation>在 FSR 替代游戏上采样器时（配合上面的设置，即《时之笛》），使用 fsr4-vk —— 一个把 AMD 基于机器学习的 FSR 4.1.1 移植到 Vulkan 的社区版本，Lichii 的 x86-64 Linux 包已自带。它不是 AMD 官方的 FSR 4，与 AMD 无关，也未获其认可。需要 Radeon RX 6000 或更新，或 RDNA 3 的 Ryzen GPU，并使用 Mesa 的 RADV 驱动；RDNA 4 运行 FP8 网络，较老的 GPU 运行 INT8 版本。
+如果 FSR 4 无法运行，会改用 FSR 3.1，并在日志里说明原因。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Uses AMD's ML-based FSR 4 where FSR replaces a game's upscaler (Ocarina of Time with the setting above). Radeon RX 6000 or newer, or a Ryzen AI processor, with a current AMD driver.
+Needs AMD's FidelityFX runtime, which Lichii downloads from AMD when you ask. The files are AMD's, under AMD's licence. Without them, or if FSR 4 can't run, FSR 3.1 is used. Takes effect when a game starts.</source>
+        <translation>在 FSR 替代游戏上采样器时（配合上面的设置，即《时之笛》），使用 AMD 基于机器学习的 FSR 4。需要 Radeon RX 6000 或更新，或 Ryzen AI 处理器，并安装较新的 AMD 驱动。
+需要 AMD 的 FidelityFX 运行库，由 Lichii 在你请求时从 AMD 下载。这些文件属于 AMD，受 AMD 许可约束。没有它们，或 FSR 4 无法运行时，会改用 FSR 3.1。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game's own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA's Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA's files. Use the download button below.
+In Fire Emblem: Fortune's Weave it replaces the game's DLSS while "Use the game's own DLSS" is off.
+In The Legend of Zelda: Ocarina of Time it replaces the game's upscaler at 1x resolution scale.
+The window adapting filter (the FSR 1, Bilinear and similar button in the status bar) is separate and runs after DLSS. While DLSS runs, the status bar shows DLSS, its mode and its preset. If DLSS fails, it stays off until the game restarts and the log says why.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（除非 NVIDIA app 已下载过）；Lichii 不分发 NVIDIA 的文件，请用下面的下载按钮。
+在《火焰纹章 万缕千丝》里，它会在关闭“使用游戏自带的 DLSS”时替代游戏的 DLSS。
+在《塞尔达传说 时之笛》里，它会在 1 倍分辨率缩放时替代游戏的上采样器。
+窗口适配滤镜（状态栏里的 FSR 1、双线性等按钮）是另一套，在 DLSS 之后运行。DLSS 运行时，状态栏会显示 DLSS、它的模式与预设。如果 DLSS 失败，它会一直关闭到游戏重启，并在日志里说明原因。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Applies only when a game uses its own DLSS.
+Automatic selects a mode for the game's render/output sizes. Native (DLAA) applies anti-aliasing at the game's render resolution, then scales to its output; Ocarina's 1440p mode stays at 1440p instead of reconstructing to 4K.
+In The Legend of Zelda: Ocarina of Time (docked, with the Max Resolution add-on), Balanced, Performance and Ultra Performance lower the game's render resolution from 2560x1440 to 2276x1280, 1920x1080 and 1280x720 before DLSS reconstructs 4K. That resolution changes when the game starts.
+In other games, explicit modes only apply when the game's render size is within NVIDIA's supported range; otherwise Automatic is used and the fallback is logged. There they don't change the game's render resolution. Apply/OK updates the mode while playing.</source>
+        <translation>仅在游戏使用自带 DLSS 时有效。
+「自动」会根据游戏的渲染/输出尺寸选择模式。「原生（DLAA）」在游戏的渲染分辨率上做抗锯齿，然后缩放到输出尺寸；时之笛的 1440p 模式会保持在 1440p，而不是重建到 4K。
+在《塞尔达传说 时之笛》中（主机模式，启用 Max Resolution 插件），「平衡」「性能」「超高性能」会把游戏的渲染分辨率从 2560x1440 依次降到 2276x1280、1920x1080、1280x720，再由 DLSS 重建 4K。该分辨率在游戏启动时变更。
+在其他游戏中，只有游戏的渲染尺寸落在 NVIDIA 支持的范围内，显式模式才会生效；否则会使用「自动」，并在日志中记录回退。在那里它们不会改变游戏的渲染分辨率。游玩中点「应用」/「确定」会立即更新模式。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Applies only when a game uses its own DLSS.
+M (DLSS 4.5) is Lichii's default for every quality mode. NVIDIA recommends K for DLAA/Quality/Balanced, M for Performance, and L for Ultra Performance.
+L/M cost more on RTX 20/30 GPUs; consider K. J may reduce ghosting but flicker more. E/F are deprecated CNN models. NVIDIA default lets the runtime choose.
+L/M require DLSS 310.5 or newer; the download button provides 310.9.16. If Fire Emblem shows horizontal lines with L/M at 2x, try K. NVIDIA app overrides may supersede this choice. Apply/OK updates it while playing.</source>
+        <translation>仅在游戏使用自带 DLSS 时有效。
+M（DLSS 4.5）是 Lichii 对每个质量模式的默认值。NVIDIA 建议 DLAA/质量/平衡用 K，性能用 M，超高性能用 L。
+L/M 在 RTX 20/30 显卡上开销更高，可以考虑 K。J 可能减少拖影但闪烁更多。E/F 是已弃用的 CNN 模型。「NVIDIA 默认」让运行时自行选择。
+L/M 需要 DLSS 310.5 或更新；下载按钮提供 310.9.16。如果《火焰纹章》在 2 倍时用 L/M 出现横线，可以试试 K。NVIDIA app 的覆盖设置可能会取代这里的选项。游玩中点「应用」/「确定」会立即更新。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>The anti-aliasing method to use.
 SMAA offers the best quality.
 FXAA can produce a more stable picture in lower resolutions.
@@ -2229,6 +2511,108 @@ Off while HDR output is active.</source>
 SMAA 画质最好。
 FXAA 在较低分辨率下画面更稳定。
 HDR 输出生效期间关闭。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The Legend of Zelda: Ocarina of Time only.
+Game: the game's own anti-aliasing network, which sharpens heavily.
+No sharpening: the image as the game renders it, without the network (faster; pairs well with a higher resolution). Has no effect while NVIDIA DLSS is on.
+Takes effect when the game starts.</source>
+        <translation>仅适用于《塞尔达传说 时之笛》。
+「游戏」：使用游戏自带的抗锯齿网络，锐化很重。
+「不锐化」：保持游戏渲染出的画面，不使用该网络（更快；与更高分辨率搭配更好）。NVIDIA DLSS 开启时无效。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+106"/>
+        <source>How much of a Switch 2 compute shader's storage buffer is treated as written by the GPU after each dispatch.
+Auto marks what the shader's stores can reach and falls back to Full when that cannot be proven.
+Full marks the whole binding (up to 8 MiB), the original behaviour: it can delay the game's own writes to nearby memory (flickering effects) and copy far more data back from the GPU.</source>
+        <translation>每次 dispatch 之后，Switch 2 的 compute 着色器存储缓冲有多大范围被视为已由 GPU 写入。
+「自动」标记着色器写入可能到达的范围，无法证明时回退到「完整」。
+「完整」标记整个绑定（最多 8 MiB），即原来的行为：它可能推迟游戏对邻近内存的写入（效果闪烁），并从 GPU 拷贝回多得多的数据。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Don't wait for shaders that are still compiling</source>
+        <translation>不等待仍在编译的着色器</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>On (default): a draw or compute pass whose shader is still compiling is skipped for a few frames, so a new shader costs a brief pop-in instead of a freeze.
+Off (accurate): the game waits for every shader, so nothing is ever missing, but each new shader can freeze the game for up to a few seconds.</source>
+        <translation>开（默认）：着色器仍在编译时的绘制或计算通道会跳过几帧，因此新着色器只会造成短暂的对象闪现，而不会卡顿。
+关（精确）：游戏会等待每个着色器，画面不会缺任何东西，但每个新着色器都可能让游戏卡住几秒。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Lichii Optical Flow Frame Generation</source>
+        <translation>Lichii 光流插帧</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>NVIDIA DLSS Frame Generation</source>
+        <translation>NVIDIA DLSS 帧生成</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>On</source>
+        <translation>开</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>HDR10 (10-bit)</source>
+        <translation>HDR10（10 位）</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>scRGB (16-bit float)</source>
+        <translation>scRGB（16 位浮点）</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Native</source>
+        <translation>原生</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Compute Fallback</source>
+        <translation>计算回退</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Dynarmic (JIT)</source>
+        <translation>Dynarmic（JIT）</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Native (NCE)</source>
+        <translation>原生 (NCE)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Hypervisor (requires multicore)</source>
+        <translation>Hypervisor（需要多核）</translation>
+    </message>
+    <message>
+        <source>Replaces Ocarina of Time&apos;s native upscaler using scene depth and camera motion. Works on any supported Vulkan GPU. NVIDIA DLSS takes precedence when enabled and available. RCAS Sharpness controls sharpening. Takes effect when a game starts.</source>
+        <translation>使用场景深度和相机运动替代《时之笛》原生的超分器，适用于任何受支持的 Vulkan GPU。启用且可用时 NVIDIA DLSS 优先。RCAS 锐化度控制锐化强度。游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Use AMD FSR 4 in place of FSR 3.1</source>
+        <translation>用 AMD FSR 4 替代 FSR 3.1</translation>
+    </message>
+    <message>
+        <source>Dump Optical Flow</source>
+        <translation>导出光流</translation>
+    </message>
+    <message>
+        <source>Wait</source>
+        <translation>等待</translation>
+    </message>
+    <message>
+        <source>Only applies with the 60 FPS mode. When your PC can&apos;t hold 60 FPS, the game switches to its 30 FPS mode and keeps normal speed, then tries 60 again every few seconds. Turn it off to stay at 60 FPS, where slow frames play in slow motion. Takes effect after restarting the game.</source>
+        <translation>仅在 60 FPS 模式下生效。当你的电脑无法维持 60 FPS 时，游戏会切换到自己的 30 FPS 模式并保持正常速度，然后每隔几秒再尝试 60 FPS。关闭它则保持 60 FPS，此时慢帧会以慢动作播放。重启游戏后生效。</translation>
     </message>
     <message>
         <source>HDR output for games with an HDR mode. Requires Vulkan.
@@ -2267,10 +2651,6 @@ HDR 生效期间，抗锯齿、后期处理、FSR/SGSR 超分和帧生成都会�
         <translation>队列目标</translation>
     </message>
     <message>
-        <source>HDR output:</source>
-        <translation>HDR 输出：</translation>
-    </message>
-    <message>
         <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
 Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
 Fire Emblem: Fortune&apos;s Weave also needs EDEN_NX2_DLSS_REPLACEMENT=dlss. Without that override, its spatial workaround remains active.
@@ -2285,10 +2665,8 @@ Takes effect when a game starts.</source>
 游戏启动时生效。</translation>
     </message>
     <message>
-        <source>Reference white in nits reported to the game, the brightness of its HUD and menus. 0 (default): Windows&apos; SDR content brightness for the monitor, so the game matches the desktop; elsewhere the Switch 2 calibration, HDR Peak Luminance divided by 1.5, rounded up and clamped to 50-300 nits.
-SDR games and menus are shown at this brightness while HDR is active, and HDR screenshots map it to SDR white.</source>
-        <translation>向游戏报告的参考白（单位 nits），即其 HUD 和菜单的亮度。0（默认）：使用 Windows 为该显示器设置的 SDR 内容亮度，使游戏与桌面一致；其他平台使用 Switch 2 校准值：HDR 峰值亮度除以 1.5，向上取整并限制在 50–300 nits。
-HDR 生效期间，SDR 游戏和菜单按此亮度显示；HDR 截图也会把它映射为 SDR 白色。</translation>
+        <source>Always runs at 30 FPS with the game&apos;s split-screen time step, at normal game speed. Takes precedence over dynamic FPS.</source>
+        <translation>始终以游戏的左右分屏时间步长、正常游戏速度运行在 30 FPS。优先于动态帧率。</translation>
     </message>
     <message>
         <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
@@ -2303,30 +2681,34 @@ Takes effect when a game starts.</source>
 游戏启动时生效。</translation>
     </message>
     <message>
-        <source>Auto Flow Scale</source>
-        <translation>自动光流缩放</translation>
+        <source>Reference white in nits reported to the game, the brightness of its HUD and menus. 0 (default): Windows&apos; SDR content brightness for the monitor, so the game matches the desktop; elsewhere the Switch 2 calibration, HDR Peak Luminance divided by 1.5, rounded up and clamped to 50-300 nits.
+SDR games and menus are shown at this brightness while HDR is active, and HDR screenshots map it to SDR white.</source>
+        <translation>向游戏报告的参考白（单位 nits），即其 HUD 和菜单的亮度。0（默认）：使用 Windows 为该显示器设置的 SDR 内容亮度，使游戏与桌面一致；其他平台使用 Switch 2 校准值：HDR 峰值亮度除以 1.5，向上取整并限制在 50–300 nits。
+HDR 生效期间，SDR 游戏和菜单按此亮度显示；HDR 截图也会把它映射为 SDR 白色。</translation>
+    </message>
+    <message>
+        <source>How Switch 2 games&apos; mesh shader geometry is drawn.
+Native uses the GPU&apos;s mesh shaders. Compute Fallback emulates them with compute shaders: it can be slower in scenes with a lot of foliage, and it can&apos;t draw every kind of mesh program.
+Automatic uses the compute fallback on AMD RDNA2 GPUs (RX 6000 series), where native mesh shaders hang the GPU, and native mesh shaders everywhere else.</source>
+        <translation>Switch 2 游戏的网格着色器几何体如何绘制。
+原生：使用 GPU 的网格着色器。计算回退：用计算着色器模拟，在植被密集的场景中可能更慢，而且无法绘制所有类型的网格程序。
+自动：在 AMD RDNA2 GPU（RX 6000 系列）上使用计算回退（这些 GPU 上原生网格着色器会导致 GPU 挂起），其他 GPU 使用原生网格着色器。</translation>
+    </message>
+    <message>
+        <source>Drops to 30 FPS with the game&apos;s split-screen time step while the game runs below about 50 FPS, so heavy slowdowns don&apos;t slow down the game, and tries 60 FPS again every few seconds.</source>
+        <translation>当游戏运行在约 50 FPS 以下时，改用游戏的左右分屏时间步长降到 30 FPS，避免严重掉速拖慢游戏，并且每隔几秒尝试恢复 60 FPS。</translation>
+    </message>
+    <message>
+        <source>Don&apos;t wait for shaders that are still compiling</source>
+        <translation>不等待仍在编译的着色器</translation>
     </message>
     <message>
         <source>Frame rate limit (Switch 2):</source>
         <translation>帧率上限（Switch 2）：</translation>
     </message>
     <message>
-        <source>HDR Reference White</source>
-        <translation>HDR 参考白</translation>
-    </message>
-    <message>
         <source>Pin GPU threads to their own cores</source>
         <translation>把 GPU 线程绑定到独立核心</translation>
-    </message>
-    <message>
-        <source>scRGB (16-bit float)</source>
-        <translation>scRGB（16 位浮点）</translation>
-    </message>
-    <message>
-        <source>HDR10: 10-bit PQ, what HDR displays take.
-scRGB: 16-bit float. Try it if HDR shows banding, which some NVIDIA drivers do with 10-bit in fullscreen.</source>
-        <translation>HDR10：10 位 PQ，HDR 显示器常用的格式。
-scRGB：16 位浮点。如果 HDR 出现色带（某些 NVIDIA 驱动在全屏 10 位下会这样），可以试试它。</translation>
     </message>
     <message>
         <source>Lets the game adjust between 30 and 60 FPS using whole-frame timing to maintain normal game speed. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
@@ -2335,6 +2717,28 @@ scRGB：16 位浮点。如果 HDR 出现色带（某些 NVIDIA 驱动在全屏 1
     <message>
         <source>Mario Kart World: dynamic FPS (experimental)</source>
         <translation>马力欧卡丁车世界：动态帧率（实验性）</translation>
+    </message>
+    <message>
+        <source>HDR output for games with an HDR mode. Requires Vulkan.
+Off (default): always SDR.
+Auto: HDR while Windows HDR (&quot;Use HDR&quot;) is on for the monitor that shows the game, SDR otherwise and on hosts that cannot tell.
+On: HDR whenever the display driver offers an HDR format.
+The game is told the display is HDR only while Lichii really presents HDR. SDR games and menus are shown at the reference white.
+While HDR is active, anti-aliasing, post-processing and FSR/SGSR upscaling are off and the window is scaled bilinearly. Frame generation keeps working.
+Screenshots are tone mapped to SDR.</source>
+        <translation>供带 HDR 模式的游戏使用。需要 Vulkan。
+关（默认）：始终输出 SDR。
+自动：当 Windows 为显示该游戏的显示器开启 HDR（“使用 HDR”）时输出 HDR，否则为 SDR；无法判断的宿主也按 SDR。
+开：只要显示驱动提供 HDR 格式就输出 HDR。
+只有在 Lichii 真正输出 HDR 时才会告知游戏显示器支持 HDR。SDR 游戏和菜单按参考白显示。
+HDR 生效期间，抗锯齿、后期处理和 FSR/SGSR 超分都会关闭，窗口使用双线性缩放。帧生成仍会继续工作。
+截图会做色调映射到 SDR。</translation>
+    </message>
+    <message>
+        <source>Uses fsr4-vk, a community Vulkan port of AMD&apos;s ML-based FSR 4.1.1 that Lichii&apos;s x86-64 Linux packages include, where FSR replaces a game&apos;s upscaler (Ocarina of Time with the setting above). It is not AMD&apos;s official FSR 4 and is not affiliated with or endorsed by AMD. Radeon RX 6000 or newer, or an RDNA 3 Ryzen GPU, on Mesa&apos;s RADV driver; RDNA 4 runs the FP8 network, older GPUs the INT8 one.
+If FSR 4 can&apos;t run, FSR 3.1 is used and the log says why. Takes effect when a game starts.</source>
+        <translation>使用 fsr4-vk——AMD 基于 ML 的 FSR 4.1.1 的社区 Vulkan 移植，包含在 Lichii 的 x86-64 Linux 软件包中——在 FSR 替代游戏自带超分器时使用（例如上面设置里的《塞尔达传说：时之笛》）。它不是 AMD 官方的 FSR 4，与 AMD 无关联也未获其认可。需要 Radeon RX 6000 或更新显卡，或 RDNA 3 的锐龙核显，并运行 Mesa 的 RADV 驱动；RDNA 4 运行 FP8 网络，较旧 GPU 运行 INT8 版本。
+如果 FSR 4 无法运行，会改用 FSR 3.1，日志会说明原因。游戏启动时生效。</translation>
     </message>
     <message>
         <source>M (DLSS 4.5, default)</source>
@@ -2363,22 +2767,28 @@ L/M 需要 DLSS 310.5 或更新版本；下载按钮提供 310.9.16。若《火�
         <translation>NVIDIA DLSS 质量：</translation>
     </message>
     <message>
-        <source>E (legacy CNN)</source>
-        <translation>E（旧版 CNN）</translation>
-    </message>
-    <message>
         <source>Flow Scale</source>
         <translation>光流缩放</translation>
     </message>
     <message>
-        <source>Uses AMD&apos;s ML-based FSR 4 where FSR replaces a game&apos;s upscaler (Ocarina of Time with the setting above). Radeon RX 6000 or newer, or a Ryzen AI processor, with a current AMD driver.
-Needs AMD&apos;s FidelityFX runtime, which Lichii downloads from AMD when you ask. The files are AMD&apos;s, under AMD&apos;s licence. Without them, or if FSR 4 can&apos;t run, FSR 3.1 is used. Takes effect when a game starts.</source>
-        <translation>在 FSR 替代游戏超分器的地方（配合上面的设置用于《时之笛》）使用 AMD 基于机器学习的 FSR 4。需要 Radeon RX 6000 或更新型号，或 Ryzen AI 处理器，以及较新的 AMD 驱动。
-需要 AMD 的 FidelityFX 运行时，Lichii 会在你确认后从 AMD 下载。文件属于 AMD，遵循 AMD 的许可。如果没有这些文件，或 FSR 4 无法运行，则使用 FSR 3.1。游戏启动时生效。</translation>
-    </message>
-    <message>
         <source>J (DLSS 4)</source>
         <translation>J（DLSS 4）</translation>
+    </message>
+    <message>
+        <source>Only applies when &quot;Don&apos;t wait for shaders that are still compiling&quot; is on. Decides what Switch 2 work does when its pipeline is still building. Only work that redraws what an earlier frame drew can be skipped: draws that are depth-tested into a target drawn before, and compute passes whose outputs the GPU wrote before. Other work always waits, so nothing drawn or computed once goes missing.
+Wait stalls the GPU until the pipeline is ready (no missing effects, but long stalls on new content). Skip drops that work, which can leave an effect missing for a few frames. Bounded (default) waits up to the time below per frame, then skips. The EDEN_NX2_ASYNC_DISCARD=1 environment variable still forces Skip.</source>
+        <translation>仅在“不等待仍在编译的着色器”开启时生效。决定 Switch 2 的工作在其管线仍在构建时如何处理。只有重绘此前帧已绘制内容的工作才能被跳过：绘制到之前已绘制目标、且使用深度测试的绘制，以及输出此前由 GPU 写过的计算通道。其他工作始终等待，因此任何已绘制或已计算过一次的内容都不会缺失。
+等待：GPU 会一直等到管线就绪（不会缺少效果，但新内容会有较长停顿）。跳过：直接丢弃该工作，可能造成某个效果缺失几帧。有界（默认）：每帧最多等待下面设定的时间，然后跳过。环境变量 EDEN_NX2_ASYNC_DISCARD=1 仍会强制为“跳过”。</translation>
+    </message>
+    <message>
+        <source>Applies only when a game uses its own DLSS.
+Automatic selects a mode for the game&apos;s render/output sizes. Native (DLAA) applies anti-aliasing at the game&apos;s render resolution, then scales to its output; Ocarina&apos;s 1440p mode stays at 1440p instead of reconstructing to 4K.
+In The Legend of Zelda: Ocarina of Time (docked, with the Max Resolution add-on), Balanced, Performance and Ultra Performance lower the game&apos;s render resolution from 2560x1440 to 2276x1280, 1920x1080 and 1280x720 before DLSS reconstructs 4K. That resolution changes when the game starts.
+In other games, explicit modes only apply when the game&apos;s render size is within NVIDIA&apos;s supported range; otherwise Automatic is used and the fallback is logged. There they don&apos;t change the game&apos;s render resolution. Apply/OK updates the mode while playing.</source>
+        <translation>仅在游戏使用自带 DLSS 时适用。
+自动：根据游戏的渲染/输出尺寸选择模式。原生（DLAA）：在游戏的渲染分辨率上做抗锯齿，再缩放到输出；时之笛的 1440p 模式保持 1440p，而不会重建到 4K。
+在《塞尔达传说：时之笛》中（底座模式、并启用“最大分辨率”附加项），均衡、性能和超高性能会在 DLSS 重建到 4K 之前，把游戏的渲染分辨率从 2560x1440 降到 2276x1280、1920x1080 和 1280x720。该分辨率在游戏启动时生效。
+在其他游戏中，显式模式只在游戏的渲染尺寸处于 NVIDIA 支持范围时生效；否则会使用自动模式，并记录回退原因。在这些游戏中它们不改变渲染分辨率。游戏中点击“应用/确定”即可即时更新模式。</translation>
     </message>
     <message>
         <source>Forces the game to use its native 30 FPS mode at normal game speed. Takes effect after restarting the game.</source>
@@ -2431,8 +2841,16 @@ Full marks the whole binding (up to 8 MiB), the original behaviour: it can delay
         <translation>在《时之笛》中使用 AMD FSR 3.1 超分</translation>
     </message>
     <message>
-        <source>Dump Optical Flow</source>
-        <translation>导出光流</translation>
+        <source>Generates intermediate frames for smoother motion. Requires Vulkan.
+Optical Flow Interpolation is built in. LSFG requires Lossless.dll in the user directory&apos;s lossless folder.</source>
+        <translation>生成中间帧让运动更平滑。需要 Vulkan。
+光流插帧内置于程序中。LSFG 需要把 Lossless.dll 放在用户目录的 lossless 文件夹中。</translation>
+    </message>
+    <message>
+        <source>Uses AMD&apos;s ML-based FSR 4 where FSR replaces a game&apos;s upscaler (Ocarina of Time with the setting above). Radeon RX 6000 or newer, or a Ryzen AI processor, with a current AMD driver.
+Needs AMD&apos;s FidelityFX runtime, which Lichii downloads from AMD when you ask. The files are AMD&apos;s, under AMD&apos;s licence. Without them, or if FSR 4 can&apos;t run, FSR 3.1 is used. Takes effect when a game starts.</source>
+        <translation>在 FSR 替代游戏超分器的地方（配合上面的设置用于《时之笛》）使用 AMD 基于机器学习的 FSR 4。需要 Radeon RX 6000 或更新型号，或 Ryzen AI 处理器，以及较新的 AMD 驱动。
+需要 AMD 的 FidelityFX 运行时，Lichii 会在你确认后从 AMD 下载。文件属于 AMD，遵循 AMD 的许可。如果没有这些文件，或 FSR 4 无法运行，则使用 FSR 3.1。游戏启动时生效。</translation>
     </message>
     <message>
         <source>Builds shaders on the loading screen, on every CPU thread, so they don&apos;t stutter the first time the game uses them: the compute shaders found in the game files, and the shaders saved by earlier play sessions that the normal shader loading leaves for later. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
@@ -2447,6 +2865,28 @@ Ask asks at launch while the game has never been precached.</source>
     <message>
         <source>Optical Flow Interpolation (built-in)</source>
         <translation>光流插帧（内置）</translation>
+    </message>
+    <message>
+        <source>Forces the game&apos;s 60 FPS mode everywhere, not only in cutscenes. The game advances one 60 FPS step per frame, so it never runs fast. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
+        <translation>在全部场景强制使用游戏的 60 FPS 模式，而不只是在过场动画中。游戏每帧前进一个 60 FPS 步长，因此绝不会变快。重启游戏后生效，并优先于 30 FPS 模式。</translation>
+    </message>
+    <message>
+        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
+Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
+In Fire Emblem: Fortune&apos;s Weave it replaces the game&apos;s DLSS while &quot;Use the game&apos;s own DLSS&quot; is off.
+In The Legend of Zelda: Ocarina of Time it replaces the game&apos;s upscaler at 1x resolution scale.
+The window adapting filter (the FSR 1, Bilinear and similar button in the status bar) is separate and runs after DLSS. While DLSS runs, the status bar shows DLSS, its mode and its preset. If DLSS fails, it stays off until the game restarts and the log says why.
+Takes effect when a game starts.</source>
+        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
+需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（除非 NVIDIA app 已下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
+在《Fire Emblem: Fortune&apos;s Weave》中，当“使用游戏自带的 DLSS”关闭时，它会替代游戏的 DLSS。
+在《塞尔达传说：时之笛》中，它会在 1 倍分辨率缩放下替代游戏自带的超分器。
+窗口适配滤镜（状态栏里的 FSR 1、双线性等按钮）是独立的一层，在 DLSS 之后运行。DLSS 运行时，状态栏显示 DLSS、它的模式和预设。若 DLSS 失败，它会保持关闭直到游戏重启，原因会写入日志。
+游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Auto Flow Scale</source>
+        <translation>自动光流缩放</translation>
     </message>
     <message>
         <source>NVIDIA DLSS model preset:</source>
@@ -2473,6 +2913,14 @@ Ask asks at launch while the game has never been precached.</source>
         <translation>F（旧版 CNN）</translation>
     </message>
     <message>
+        <source>Optical Flow Interpolation is built in and runs on any GPU.
+NVIDIA DLSS Frame Generation (Windows only) needs a GeForce RTX 40 series or newer GPU (3x and 4x need an RTX 50 series), Hardware-accelerated GPU scheduling on in Windows&apos; graphics settings, &quot;Use NVIDIA DLSS&quot; on and NVIDIA&apos;s files from the NVIDIA DLSS panel. It takes the game&apos;s depth and motion vectors from the DLSS evaluation, so it runs in The Legend of Zelda: Ocarina of Time only, docked, with DLSS as its upscaler. Other games, and scRGB HDR output, use Optical Flow Interpolation instead.
+VSync is off while it runs. Choosing it takes effect when a game starts.</source>
+        <translation>光流插帧内置于程序中，可在任何 GPU 上运行。
+NVIDIA DLSS 帧生成（仅 Windows）需要 GeForce RTX 40 系列或更新 GPU（3x 和 4x 需要 RTX 50 系列），在 Windows 图形设置中开启硬件加速 GPU 计划，开启“使用 NVIDIA DLSS”，并准备好 NVIDIA DLSS 面板中的文件。它从 DLSS 评估中获取游戏的深度和运动矢量，因此只在《塞尔达传说：时之笛》底座模式、并以 DLSS 作为超分器时运行。其他游戏以及 scRGB HDR 输出会改用光流插帧。
+运行时 VSync 关闭。选择后在游戏启动时生效。</translation>
+    </message>
+    <message>
         <source>Builds every shader saved by earlier play sessions on the loading screen and keeps them built, so places you visited long ago don&apos;t stutter. Without it, only the shaders of recent sessions are built there and the rest in the background or when the game first needs them.
 Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quarter of the RAM. Takes effect when a game starts.</source>
         <translation>在加载画面构建以往游戏会话保存的每个着色器并保持已构建状态，这样很久以前去过的地方不会卡顿。不开启时，只会在加载画面构建最近会话的着色器，其余的在后台或游戏首次需要时才构建。
@@ -2495,8 +2943,10 @@ Also the HDR10 metadata peak, and what an HDR image rolls off to on an SDR scree
 它同时也是 HDR10 元数据中的峰值，以及在 SDR 屏幕上 HDR 图像的滚降点。</translation>
     </message>
     <message>
-        <source>Build all cached shaders before game start</source>
-        <translation>游戏启动前构建全部已缓存着色器</translation>
+        <source>Builds shaders on the loading screen, on every CPU thread, so they don&apos;t stutter the first time the game uses them: the compute shaders found in the game files. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+Ask asks at launch while the game has never been precached.</source>
+        <translation>在加载画面用每个 CPU 线程构建着色器，避免游戏首次使用时卡顿：构建的是游戏文件中的计算着色器。首次启动会读取游戏文件，需要几分钟；之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面有“跳过”按钮。
+选择“询问”时，如果该游戏从未预编译过，会在启动时询问。</translation>
     </message>
     <message>
         <source>RCAS Sharpness:</source>
@@ -2509,14 +2959,6 @@ Takes effect when a game starts.</source>
         <translation>运行 Switch 2 游戏自带的 DLSS（它自己的超分网络，已针对本 GPU 转译），而不是用 AMD FSR 3.1 替代。
 在检查网络期间、网络无法在本 GPU 上运行时、使用分辨率缩放时，以及网络输出未通过 Lichii 校验的剩余会话时间内，仍由 AMD FSR 3.1 负责绘制。
 游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>HDR Peak Luminance</source>
-        <translation>HDR 峰值亮度</translation>
-    </message>
-    <message>
-        <source>Use global (%1)</source>
-        <translation>使用全局（%1）</translation>
     </message>
     <message>
         <source>Applies only when a game uses its own DLSS.
@@ -2543,20 +2985,12 @@ Takes effect when a game starts.</source>
         <translation>马力欧卡丁车世界：30 FPS 模式</translation>
     </message>
     <message>
-        <source>HDR10 (10-bit)</source>
-        <translation>HDR10（10 位）</translation>
-    </message>
-    <message>
-        <source>Frame Generation Multiplier</source>
-        <translation>帧生成倍率</translation>
+        <source>E (legacy CNN)</source>
+        <translation>E（旧版 CNN）</translation>
     </message>
     <message>
         <source>Use NVIDIA DLSS in place of a game&apos;s DLSS (experimental)</source>
         <translation>用 NVIDIA DLSS 替代游戏自带的 DLSS（实验性）</translation>
-    </message>
-    <message>
-        <source>HDR format:</source>
-        <translation>HDR 格式：</translation>
     </message>
     <message>
         <source>Strength of RCAS (AMD&apos;s contrast-adaptive sharpening) on the upscaler used in place of a game&apos;s DLSS (AMD FSR 3.1); 0% turns it off.
@@ -2623,182 +3057,16 @@ Takes effect when a game starts.</source>
         <translation>有界等待</translation>
     </message>
     <message>
-        <source>Use the global value</source>
-        <translation>使用全局值</translation>
-    </message>
-    <message>
         <source>FPS Limit</source>
         <translation>帧率上限</translation>
-    </message>
-    <message>
-        <source>Bilinear while HDR output is active.</source>
-        <translation>HDR 输出生效期间使用双线性。</translation>
     </message>
     <message>
         <source>Ask</source>
         <translation>询问</translation>
     </message>
     <message>
-        <source>HDR output for games with an HDR mode. Requires Vulkan.
-Off (default): always SDR.
-Auto: HDR while Windows HDR (&quot;Use HDR&quot;) is on for the monitor that shows the game, SDR otherwise and on hosts that cannot tell.
-On: HDR whenever the display driver offers an HDR format.
-The game is told the display is HDR only while Lichii really presents HDR. SDR games and menus are shown at the reference white.
-While HDR is active, anti-aliasing, post-processing and FSR/SGSR upscaling are off and the window is scaled bilinearly. Frame generation keeps working.
-Screenshots are tone mapped to SDR.</source>
-        <translation>供带 HDR 模式的游戏使用。需要 Vulkan。
-关（默认）：始终输出 SDR。
-自动：当 Windows 为显示该游戏的显示器开启 HDR（“使用 HDR”）时输出 HDR，否则为 SDR；无法判断的宿主也按 SDR。
-开：只要显示驱动提供 HDR 格式就输出 HDR。
-只有在 Lichii 真正输出 HDR 时才会告知游戏显示器支持 HDR。SDR 游戏和菜单按参考白显示。
-HDR 生效期间，抗锯齿、后期处理和 FSR/SGSR 超分都会关闭，窗口使用双线性缩放。帧生成仍会继续工作。
-截图会做色调映射到 SDR。</translation>
-    </message>
-    <message>
-        <source>Use FSR 4 (fsr4-vk community Vulkan port) in place of FSR 3.1</source>
-        <translation>用 FSR 4（fsr4-vk 社区 Vulkan 移植）替代 FSR 3.1</translation>
-    </message>
-    <message>
-        <source>Uses fsr4-vk, a community Vulkan port of AMD&apos;s ML-based FSR 4.1.1 that Lichii&apos;s x86-64 Linux packages include, where FSR replaces a game&apos;s upscaler (Ocarina of Time with the setting above). It is not AMD&apos;s official FSR 4 and is not affiliated with or endorsed by AMD. Radeon RX 6000 or newer, or an RDNA 3 Ryzen GPU, on Mesa&apos;s RADV driver; RDNA 4 runs the FP8 network, older GPUs the INT8 one.
-If FSR 4 can&apos;t run, FSR 3.1 is used and the log says why. Takes effect when a game starts.</source>
-        <translation>使用 fsr4-vk——AMD 基于 ML 的 FSR 4.1.1 的社区 Vulkan 移植，包含在 Lichii 的 x86-64 Linux 软件包中——在 FSR 替代游戏自带超分器时使用（例如上面设置里的《塞尔达传说：时之笛》）。它不是 AMD 官方的 FSR 4，与 AMD 无关联也未获其认可。需要 Radeon RX 6000 或更新显卡，或 RDNA 3 的锐龙核显，并运行 Mesa 的 RADV 驱动；RDNA 4 运行 FP8 网络，较旧 GPU 运行 INT8 版本。
-如果 FSR 4 无法运行，会改用 FSR 3.1，日志会说明原因。游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Optical Flow Interpolation is built in and runs on any GPU.
-NVIDIA DLSS Frame Generation (Windows only) needs a GeForce RTX 40 series or newer GPU (3x and 4x need an RTX 50 series), Hardware-accelerated GPU scheduling on in Windows&apos; graphics settings, &quot;Use NVIDIA DLSS&quot; on and NVIDIA&apos;s files from the NVIDIA DLSS panel. It takes the game&apos;s depth and motion vectors from the DLSS evaluation, so it runs in The Legend of Zelda: Ocarina of Time only, docked, with DLSS as its upscaler. Other games, and scRGB HDR output, use Optical Flow Interpolation instead.
-VSync is off while it runs. Choosing it takes effect when a game starts.</source>
-        <translation>光流插帧内置于程序中，可在任何 GPU 上运行。
-NVIDIA DLSS 帧生成（仅 Windows）需要 GeForce RTX 40 系列或更新 GPU（3x 和 4x 需要 RTX 50 系列），在 Windows 图形设置中开启硬件加速 GPU 计划，开启“使用 NVIDIA DLSS”，并准备好 NVIDIA DLSS 面板中的文件。它从 DLSS 评估中获取游戏的深度和运动矢量，因此只在《塞尔达传说：时之笛》底座模式、并以 DLSS 作为超分器时运行。其他游戏以及 scRGB HDR 输出会改用光流插帧。
-运行时 VSync 关闭。选择后在游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Hyrule Warriors: Age of Imprisonment: dynamic FPS (experimental)</source>
-        <translation>《塞尔达无双：封印战记》：动态帧率（实验性）</translation>
-    </message>
-    <message>
-        <source>Drops to 30 FPS with the game&apos;s split-screen time step while the game runs below about 50 FPS, so heavy slowdowns don&apos;t slow down the game, and tries 60 FPS again every few seconds.</source>
-        <translation>当游戏运行在约 50 FPS 以下时，改用游戏的左右分屏时间步长降到 30 FPS，避免严重掉速拖慢游戏，并且每隔几秒尝试恢复 60 FPS。</translation>
-    </message>
-    <message>
-        <source>Hyrule Warriors: Age of Imprisonment: 30 FPS mode</source>
-        <translation>《塞尔达无双：封印战记》：30 FPS 模式</translation>
-    </message>
-    <message>
-        <source>Always runs at 30 FPS with the game&apos;s split-screen time step, at normal game speed. Takes precedence over dynamic FPS.</source>
-        <translation>始终以游戏的左右分屏时间步长、正常游戏速度运行在 30 FPS。优先于动态帧率。</translation>
-    </message>
-    <message>
-        <source>NVIDIA DLSS Frame Generation</source>
-        <translation>NVIDIA DLSS 帧生成</translation>
-    </message>
-    <message>
-        <source>Applies only when a game uses its own DLSS.
-Automatic selects a mode for the game&apos;s render/output sizes. Native (DLAA) applies anti-aliasing at the game&apos;s render resolution, then scales to its output; Ocarina&apos;s 1440p mode stays at 1440p instead of reconstructing to 4K.
-In The Legend of Zelda: Ocarina of Time (docked, with the Max Resolution add-on), Balanced, Performance and Ultra Performance lower the game&apos;s render resolution from 2560x1440 to 2276x1280, 1920x1080 and 1280x720 before DLSS reconstructs 4K. That resolution changes when the game starts.
-In other games, explicit modes only apply when the game&apos;s render size is within NVIDIA&apos;s supported range; otherwise Automatic is used and the fallback is logged. There they don&apos;t change the game&apos;s render resolution. Apply/OK updates the mode while playing.</source>
-        <translation>仅在游戏使用自带 DLSS 时适用。
-自动：根据游戏的渲染/输出尺寸选择模式。原生（DLAA）：在游戏的渲染分辨率上做抗锯齿，再缩放到输出；时之笛的 1440p 模式保持 1440p，而不会重建到 4K。
-在《塞尔达传说：时之笛》中（底座模式、并启用“最大分辨率”附加项），均衡、性能和超高性能会在 DLSS 重建到 4K 之前，把游戏的渲染分辨率从 2560x1440 降到 2276x1280、1920x1080 和 1280x720。该分辨率在游戏启动时生效。
-在其他游戏中，显式模式只在游戏的渲染尺寸处于 NVIDIA 支持范围时生效；否则会使用自动模式，并记录回退原因。在这些游戏中它们不改变渲染分辨率。游戏中点击“应用/确定”即可即时更新模式。</translation>
-    </message>
-    <message>
-        <source>Builds shaders on the loading screen, on every CPU thread, so they don&apos;t stutter the first time the game uses them: the compute shaders found in the game files. The first launch reads the game files and takes a few minutes; later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
-Ask asks at launch while the game has never been precached.</source>
-        <translation>在加载画面用每个 CPU 线程构建着色器，避免游戏首次使用时卡顿：构建的是游戏文件中的计算着色器。首次启动会读取游戏文件，需要几分钟；之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面有“跳过”按钮。
-选择“询问”时，如果该游戏从未预编译过，会在启动时询问。</translation>
-    </message>
-    <message>
-        <source>Mario Kart World: 60 FPS mode</source>
-        <translation>《马力欧卡丁车 世界》：60 FPS 模式</translation>
-    </message>
-    <message>
-        <source>Forces the game&apos;s 60 FPS mode everywhere, not only in cutscenes. The game advances one 60 FPS step per frame, so it never runs fast. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
-        <translation>在全部场景强制使用游戏的 60 FPS 模式，而不只是在过场动画中。游戏每帧前进一个 60 FPS 步长，因此绝不会变快。重启游戏后生效，并优先于 30 FPS 模式。</translation>
-    </message>
-    <message>
-        <source>Mario Kart World: drop to 30 FPS when slow</source>
-        <translation>《马力欧卡丁车 世界》：变慢时降到 30 FPS</translation>
-    </message>
-    <message>
-        <source>Only applies with the 60 FPS mode. When your PC can&apos;t hold 60 FPS, the game switches to its 30 FPS mode and keeps normal speed, then tries 60 again every few seconds. Turn it off to stay at 60 FPS, where slow frames play in slow motion. Takes effect after restarting the game.</source>
-        <translation>仅在 60 FPS 模式下生效。当你的电脑无法维持 60 FPS 时，游戏会切换到自己的 30 FPS 模式并保持正常速度，然后每隔几秒再尝试 60 FPS。关闭它则保持 60 FPS，此时慢帧会以慢动作播放。重启游戏后生效。</translation>
-    </message>
-    <message>
-        <source>Mesh Shaders</source>
-        <translation>网格着色器</translation>
-    </message>
-    <message>
-        <source>How Switch 2 games&apos; mesh shader geometry is drawn.
-Native uses the GPU&apos;s mesh shaders. Compute Fallback emulates them with compute shaders: it can be slower in scenes with a lot of foliage, and it can&apos;t draw every kind of mesh program.
-Automatic uses the compute fallback on AMD RDNA2 GPUs (RX 6000 series), where native mesh shaders hang the GPU, and native mesh shaders everywhere else.</source>
-        <translation>Switch 2 游戏的网格着色器几何体如何绘制。
-原生：使用 GPU 的网格着色器。计算回退：用计算着色器模拟，在植被密集的场景中可能更慢，而且无法绘制所有类型的网格程序。
-自动：在 AMD RDNA2 GPU（RX 6000 系列）上使用计算回退（这些 GPU 上原生网格着色器会导致 GPU 挂起），其他 GPU 使用原生网格着色器。</translation>
-    </message>
-    <message>
-        <source>Native</source>
-        <translation>原生</translation>
-    </message>
-    <message>
-        <source>Compute Fallback</source>
-        <translation>计算回退</translation>
-    </message>
-    <message>
-        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game&apos;s own DLSS, instead of AMD FSR 3.1.
-Needs NVIDIA&apos;s Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA&apos;s files. Use the download button below.
-In Fire Emblem: Fortune&apos;s Weave it replaces the game&apos;s DLSS while &quot;Use the game&apos;s own DLSS&quot; is off.
-In The Legend of Zelda: Ocarina of Time it replaces the game&apos;s upscaler at 1x resolution scale.
-The window adapting filter (the FSR 1, Bilinear and similar button in the status bar) is separate and runs after DLSS. While DLSS runs, the status bar shows DLSS, its mode and its preset. If DLSS fails, it stays off until the game restarts and the log says why.
-Takes effect when a game starts.</source>
-        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不是用 AMD FSR 3.1。
-需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（除非 NVIDIA app 已下载它）；Lichii 不附带 NVIDIA 的文件，请使用下面的下载按钮。
-在《Fire Emblem: Fortune&apos;s Weave》中，当“使用游戏自带的 DLSS”关闭时，它会替代游戏的 DLSS。
-在《塞尔达传说：时之笛》中，它会在 1 倍分辨率缩放下替代游戏自带的超分器。
-窗口适配滤镜（状态栏里的 FSR 1、双线性等按钮）是独立的一层，在 DLSS 之后运行。DLSS 运行时，状态栏显示 DLSS、它的模式和预设。若 DLSS 失败，它会保持关闭直到游戏重启，原因会写入日志。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Generates intermediate frames for smoother motion. Requires Vulkan.
-Optical Flow Interpolation is built in. LSFG requires Lossless.dll in the user directory&apos;s lossless folder.</source>
-        <translation>生成中间帧让运动更平滑。需要 Vulkan。
-光流插帧内置于程序中。LSFG 需要把 Lossless.dll 放在用户目录的 lossless 文件夹中。</translation>
-    </message>
-    <message>
-        <source>Don&apos;t wait for shaders that are still compiling</source>
-        <translation>不等待仍在编译的着色器</translation>
-    </message>
-    <message>
-        <source>On (default): a draw or compute pass whose shader is still compiling is skipped for a few frames, so a new shader costs a brief pop-in instead of a freeze.
-Off (accurate): the game waits for every shader, so nothing is ever missing, but each new shader can freeze the game for up to a few seconds.</source>
-        <translation>开（默认）：着色器仍在编译时的绘制或计算通道会跳过几帧，因此新着色器只会造成短暂的对象闪现，而不会卡顿。
-关（精确）：游戏会等待每个着色器，画面不会缺任何东西，但每个新着色器都可能让游戏卡住几秒。</translation>
-    </message>
-    <message>
-        <source>Switch 2 draws and compute with unbuilt shaders:</source>
-        <translation>Switch 2 遇到尚未构建完成的着色器时：</translation>
-    </message>
-    <message>
-        <source>Only applies when &quot;Don&apos;t wait for shaders that are still compiling&quot; is on. Decides what Switch 2 work does when its pipeline is still building. Only work that redraws what an earlier frame drew can be skipped: draws that are depth-tested into a target drawn before, and compute passes whose outputs the GPU wrote before. Other work always waits, so nothing drawn or computed once goes missing.
-Wait stalls the GPU until the pipeline is ready (no missing effects, but long stalls on new content). Skip drops that work, which can leave an effect missing for a few frames. Bounded (default) waits up to the time below per frame, then skips. The EDEN_NX2_ASYNC_DISCARD=1 environment variable still forces Skip.</source>
-        <translation>仅在“不等待仍在编译的着色器”开启时生效。决定 Switch 2 的工作在其管线仍在构建时如何处理。只有重绘此前帧已绘制内容的工作才能被跳过：绘制到之前已绘制目标、且使用深度测试的绘制，以及输出此前由 GPU 写过的计算通道。其他工作始终等待，因此任何已绘制或已计算过一次的内容都不会缺失。
-等待：GPU 会一直等到管线就绪（不会缺少效果，但新内容会有较长停顿）。跳过：直接丢弃该工作，可能造成某个效果缺失几帧。有界（默认）：每帧最多等待下面设定的时间，然后跳过。环境变量 EDEN_NX2_ASYNC_DISCARD=1 仍会强制为“跳过”。</translation>
-    </message>
-    <message>
-        <source>Used by the Bounded mode: the most time per frame that Switch 2 draws and compute passes may wait in total for pipelines that are still building. Once spent, the remaining unbuilt work of that frame that can be skipped is skipped.</source>
-        <translation>供“有界”模式使用：每帧中 Switch 2 的绘制与计算通道为仍在构建的管线总共最多可等待的时间。用完后，该帧剩余可跳过的未构建工作会被跳过。</translation>
-    </message>
-    <message>
-        <source>Dynarmic (JIT)</source>
-        <translation>Dynarmic（JIT）</translation>
-    </message>
-    <message>
-        <source>Native (NCE)</source>
-        <translation>原生 (NCE)</translation>
-    </message>
-    <message>
-        <source>Hypervisor (requires multicore)</source>
-        <translation>Hypervisor（需要多核）</translation>
+        <source>Frame Generation Multiplier</source>
+        <translation>帧生成倍率</translation>
     </message>
 </context>
 <context>
@@ -3451,16 +3719,7 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
         <translation>**这会在 Eden 关闭时自动重置。</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="488"/>
-        <source>Enables yuzu to check for a working Vulkan environment when the program starts up. Disable this if this is causing issues with external programs seeing yuzu.</source>
-        <translation type="vanished">允许 yuzu 在启动时检查 Vulkan 环境是否正常工作。如果是其他程序导致 yuzu 出现相关问题，请禁用此选项。</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="449"/>
-        <source>When checked, yuzu will log statistics about the compiled pipeline cache</source>
-        <translation type="vanished">选中时，yuzu 将记录有关已编译着色器缓存的统计信息。</translation>
-    </message>
-    <message>
+        <location line="+36"/>
         <source>**This will be reset automatically when Lichii closes.</source>
         <translation>**这会在 Lichii 关闭时自动重置。</translation>
     </message>
@@ -3601,6 +3860,7 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
         <translation>网络</translation>
     </message>
     <message>
+        <location filename="../../src/lichii/configuration/configure.ui" line="+14"/>
         <source>Lichii Configuration</source>
         <translation>Lichii 设置</translation>
     </message>
@@ -3886,6 +4146,7 @@ Would you like to delete the old save data?</source>
         <translation>这个目录已经在列表中了。</translation>
     </message>
     <message>
+        <location filename="../../src/lichii/configuration/configure_general.cpp" line="+101"/>
         <source>Lichii</source>
         <translation>Lichii</translation>
     </message>
@@ -3954,10 +4215,12 @@ Would you like to delete the old save data?</source>
         <translation>垂直同步开</translation>
     </message>
     <message>
+        <location filename="../../src/lichii/configuration/configure_graphics.cpp" line="+257"/>
         <source>nits</source>
         <translation>nits</translation>
     </message>
     <message>
+        <location line="+4"/>
         <source> Hz</source>
         <translation> Hz</translation>
     </message>
@@ -4273,6 +4536,7 @@ Would you like to delete the old save data?</source>
         <translation>清除</translation>
     </message>
     <message>
+        <location filename="../../src/lichii/configuration/configure_input.cpp" line="+149"/>
         <source>Microphone</source>
         <translation>麦克风</translation>
     </message>
@@ -4493,6 +4757,7 @@ Would you like to delete the old save data?</source>
         <translation>禁用 SDL WGI/XInput (需要重启)</translation>
     </message>
     <message>
+        <location line="+16"/>
         <source>Requires restarting Lichii</source>
         <translation>需要重启 Lichii</translation>
     </message>
@@ -5225,6 +5490,7 @@ To invert the axes, first move your joystick vertically, and then horizontally.<
         <translation>UDP 测试或触摸校准正在进行中。&lt;br&gt;请耐心等待。</translation>
     </message>
     <message>
+        <location line="+94"/>
         <source>Lichii</source>
         <translation>Lichii</translation>
     </message>
@@ -5356,280 +5622,381 @@ Current values are %1% and %2% respectively.</source>
         <translation>启用飞行模式</translation>
     </message>
     <message>
-        <source>Client ID</source>
-        <translation>客户端 ID</translation>
-    </message>
-    <message>
-        <source>Sign out</source>
-        <translation>退出登录</translation>
-    </message>
-    <message>
-        <source>Open this address in your browser to sign in: %1</source>
-        <translation>在浏览器中打开此地址以登录：%1</translation>
-    </message>
-    <message>
-        <source>Play online through Nextendo Network</source>
-        <translation>通过 Nextendo Network 在线游戏</translation>
-    </message>
-    <message>
-        <source>Signed in as %1.</source>
-        <translation>已登录为 %1。</translation>
-    </message>
-    <message>
-        <source>Not signed in.</source>
-        <translation>未登录。</translation>
-    </message>
-    <message>
-        <source>Nextendo did not issue an online play token, so games can&apos;t log in to Nextendo yet.</source>
-        <translation>Nextendo 没有发放在线游戏令牌，因此游戏暂时无法登录 Nextendo。</translation>
-    </message>
-    <message>
-        <source>Sign-in failed: %1</source>
-        <translation>登录失败：%1</translation>
-    </message>
-    <message>
-        <source>Cancel sign-in</source>
-        <translation>取消登录</translation>
-    </message>
-    <message>
-        <source>Finish signing in to Nextendo in your browser.</source>
-        <translation>请在浏览器中完成 Nextendo 登录。</translation>
-    </message>
-    <message>
-        <source>Sign in to Nextendo</source>
-        <translation>登录 Nextendo</translation>
-    </message>
-    <message>
-        <source>Signed in.</source>
-        <translation>已登录。</translation>
-    </message>
-    <message>
-        <source>Your Nextendo session expired. Sign in again.</source>
-        <translation>你的 Nextendo 会话已过期，请重新登录。</translation>
-    </message>
-    <message>
-        <source>Nextendo Network</source>
-        <translation>Nextendo Network</translation>
-    </message>
-    <message>
-        <source>Sign in with your Nextendo Network account. Online play through Nextendo isn&apos;t available in this build yet.</source>
-        <translation>使用你的 Nextendo Network 账号登录。此版本还不支持通过 Nextendo 进行在线游戏。</translation>
-    </message>
-    <message>
-        <source>LAN play</source>
-        <translation>局域网联机</translation>
-    </message>
-    <message>
+        <location line="+7"/>
         <source>Plays local wireless games with other Lichii instances or ldn_mitm consoles on the same network, without a room. If you are in a room when a game starts local play, the room is used instead.</source>
         <translation>与其他 Lichii 实例或同一网络上的 ldn_mitm 主机进行本地无线联机，无需房间。如果游戏开始本地联机时你已在房间中，则改用房间。</translation>
     </message>
     <message>
-        <source>Your session was ended on nextendo.network. Sign in again.</source>
-        <translation>你的会话已在 nextendo.network 上结束，请重新登录。</translation>
+        <location line="+3"/>
+        <source>LAN play</source>
+        <translation>局域网联机</translation>
     </message>
     <message>
-        <source>Nextendo Network is a community service that replaces Nintendo&apos;s online servers for Switch 1 games. When this is on, those games connect to Nextendo instead of Nintendo and send your Nextendo account token to it. Airplane mode is turned off.</source>
-        <translation>Nextendo Network 是一个社区服务，用于替代任天堂为 Switch 1 游戏提供的在线服务器。开启后，这些游戏会连接 Nextendo 而不是任天堂，并把你的 Nextendo 账号令牌发送给它。飞行模式会被关闭。</translation>
-    </message>
-    <message>
-        <source>Select the CA certificate</source>
-        <translation>选择 CA 证书</translation>
-    </message>
-    <message>
-        <source>DER certificates (*.der *.cer *.crt);;All files (*)</source>
-        <translation>DER 证书 (*.der *.cer *.crt);;所有文件 (*)</translation>
-    </message>
-    <message>
-        <source>Block all other network access</source>
-        <translation>阻止其他所有网络访问</translation>
-    </message>
-    <message>
-        <source>Browse...</source>
-        <translation>浏览…</translation>
-    </message>
-    <message>
-        <source>CA certificate</source>
-        <translation>CA 证书</translation>
-    </message>
-    <message>
-        <source>Comma-separated host names, for example a.example, b.example. Each also covers its subdomains.</source>
-        <translation>以逗号分隔的主机名，例如 a.example, b.example。每个主机名也会覆盖其子域名。</translation>
-    </message>
-    <message>
-        <source>For a server you run yourself. While this is on, the host names below and their subdomains resolve to 127.0.0.1, and connections to 127.0.0.1 on port 443 go to the server address. The CA certificate is trusted for every secure connection a game makes. Changes take effect when a game starts.</source>
-        <translation>用于你自己运行的服务器。开启后，下面的主机名及其子域名会解析到 127.0.0.1，发往 127.0.0.1 的 443 端口连接会转到服务器地址。CA 证书会被信任，用于游戏发起的每个安全连接。更改在游戏启动时生效。</translation>
-    </message>
-    <message>
-        <source>Host names</source>
-        <translation>主机名</translation>
-    </message>
-    <message>
+        <location line="+10"/>
         <source>Host redirect</source>
         <translation>主机重定向</translation>
     </message>
     <message>
+        <location line="+6"/>
+        <source>Redirect host names to a server you run</source>
+        <translation>将主机名重定向到你自己运行的服务器</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>For a server you run yourself. While this is on, the host names below and their subdomains resolve to 127.0.0.1, and connections to 127.0.0.1 on port 443 go to the server address. The CA certificate is trusted for every secure connection a game makes. Changes take effect when a game starts.</source>
+        <translation>用于你自己运行的服务器。开启后，下面的主机名及其子域名会解析到 127.0.0.1，发往 127.0.0.1 的 443 端口连接会转到服务器地址。CA 证书会被信任，用于游戏发起的每个安全连接。更改在游戏启动时生效。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Host names</source>
+        <translation>主机名</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Host names separated by commas or spaces, for example *.a.example b.example. Each also covers its subdomains.</source>
+        <translation>主机名用逗号或空格分隔，例如 *.a.example b.example。每个主机名也会覆盖其子域名。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Server address</source>
+        <translation>服务器地址</translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>IPv4 address and port of your server, for example 192.168.1.20:8443. Leave it empty if your server listens on this PC on port 443.</source>
         <translation>你的服务器的 IPv4 地址和端口，例如 192.168.1.20:8443。如果服务器就在本机 443 端口监听，可留空。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>CA certificate</source>
+        <translation>CA 证书</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>The CA certificate (DER, at most 64 KiB) that signed your server's certificate. Optional.</source>
+        <translation>为你的服务器证书签名的 CA 证书（DER 格式，最大 64 KiB）。可选。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Browse...</source>
+        <translation>浏览…</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Other host names don't resolve, and games can reach only this PC and the server address. Games get an id token Lichii makes for the current user instead of their Nextendo one. Multiplayer rooms are not affected.</source>
+        <translation>其他主机名不会解析，游戏只能访问本机和服务器地址。游戏会拿到 Lichii 为当前用户生成的 id token，而不是 Nextendo 的。多人房间不受影响。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Block all other network access</source>
+        <translation>阻止其他所有网络访问</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Nextendo Network</source>
+        <translation>Nextendo Network</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Play online through Nextendo Network</source>
+        <translation>通过 Nextendo Network 在线游戏</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Nextendo Network is a community service that replaces Nintendo's online servers. When this is on, the games it supports connect to Nextendo instead of Nintendo and send your Nextendo game token to it. Airplane mode is turned off. Online play needs a Nextendo account with a verified e-mail address and a linked Discord account.</source>
+        <translation>Nextendo 网络是一个替代任天堂在线服务器的社区服务。开启后，受支持的游戏会连接到 Nextendo 而不是任天堂，并把你的 Nextendo 游戏令牌发过去。飞行模式会被关闭。在线游玩需要已验证邮箱并已关联 Discord 账号的 Nextendo 账户。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Client ID</source>
+        <translation>客户端 ID</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Profile</source>
+        <translation>配置档</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/configuration/configure_network.cpp" line="+275"/>
+        <source>Sign in to Nextendo</source>
+        <translation>登录 Nextendo</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Sign out</source>
+        <translation>退出登录</translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>Accept</source>
+        <translation>接受</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Decline</source>
+        <translation>拒绝</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/configuration/configure_network.cpp" line="+175"/>
+        <source>Remove friend</source>
+        <translation>移除好友</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Friend code, for example SW-0000-0000-0000</source>
+        <translation>好友代码，例如 SW-0000-0000-0000</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Add friend</source>
+        <translation>添加好友</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Use my Nextendo nickname and picture for the current user (replaces its name and icon)</source>
+        <translation>为当前用户使用我的 Nextendo 昵称和头像（会替换其名称和图标）</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/configuration/configure_network.cpp" line="-401"/>
+        <source>Online play needs a verified e-mail address. Verify it on nextendo.network.</source>
+        <translation>在线游戏需要已验证的电子邮箱地址，请在 nextendo.network 上验证。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Online play needs a Discord account. Link one on nextendo.network.</source>
+        <translation>在线游戏需要 Discord 账号，请在 nextendo.network 上关联。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>nextendo.network has suspended this account.</source>
+        <translation>nextendo.network 已暂停此账号。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This account is already playing online on another device.</source>
+        <translation>此账号已在另一台设备上进行在线游戏。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>nextendo.network doesn't recognise this account.</source>
+        <translation>nextendo.network 不认识此账户。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>nextendo.network refuses online play for this account (%1).</source>
+        <translation>nextendo.network 拒绝为此账号提供在线游戏（%1）。</translation>
+    </message>
+    <message>
+        <location line="+42"/>
+        <source>Select the CA certificate</source>
+        <translation>选择 CA 证书</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>DER certificates (*.der *.cer *.crt);;All files (*)</source>
+        <translation>DER 证书 (*.der *.cer *.crt);;所有文件 (*)</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Friend request sent.</source>
+        <translation>好友请求已发送。</translation>
+    </message>
+    <message>
+        <location line="+77"/>
+        <source>Cancel sign-in</source>
+        <translation>取消登录</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Finish signing in to Nextendo in your browser.</source>
+        <translation>请在浏览器中完成 Nextendo 登录。</translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>Open this address in your browser to sign in: %1</source>
+        <translation>在浏览器中打开此地址以登录：%1</translation>
+    </message>
+    <message>
+        <location line="+36"/>
+        <source>Sign-in failed: %1</source>
+        <translation>登录失败：%1</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Your Nextendo session expired. Sign in again.</source>
+        <translation>你的 Nextendo 会话已过期，请重新登录。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Your session was ended on nextendo.network. Sign in again.</source>
+        <translation>你的会话已在 nextendo.network 上结束，请重新登录。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The sign-in didn't allow online play. Sign in again and allow it.</source>
+        <translation>本次登录未允许在线游玩。请重新登录并允许。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Not signed in.</source>
+        <translation>未登录。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Signed in.</source>
+        <translation>已登录。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Signed in as %1.</source>
+        <translation>已登录为 %1。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Nextendo did not issue an online play token, so games can't log in to Nextendo yet.</source>
+        <translation>Nextendo 没有签发在线游玩令牌，因此游戏暂时无法登录 Nextendo。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Friends and presence aren't available for Lichii on Nextendo right now.</source>
+        <translation>Lichii 目前在 Nextendo 上无法使用好友与在线状态功能。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Sign in again to add friends and show them what you play. Online play keeps working until then.</source>
+        <translation>重新登录后即可添加好友并向他们展示你在玩什么。在此之前在线游戏仍可正常使用。</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>%1 is signed in to the same Nextendo account. Nextendo allows one online session per account, so only one of these profiles can play online at a time.</source>
+        <translation>%1 登录了同一个 Nextendo 账号。Nextendo 每个账号只允许一个在线会话，因此这些配置中同一时间只能有一个进行在线游戏。</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Your friend code: %1</source>
+        <translation>你的好友代码：%1</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%1 (%2): %3</source>
+        <translation>%1（%2）：%3</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>wants to be your friend</source>
+        <translation>想加你为好友</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>playing</source>
+        <translation>正在玩</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>online</source>
+        <translation>在线</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>offline</source>
+        <translation>离线</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>request sent</source>
+        <translation>请求已发送</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Remove %1 from your Nextendo friends?</source>
+        <translation>要把 %1 从你的 Nextendo 好友中移除吗？</translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>Sign in to Nextendo first.</source>
+        <translation>请先登录 Nextendo。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This sign-in doesn't allow friends. Sign in again and allow them.</source>
+        <translation>本次登录未允许好友功能。请重新登录并允许。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Could not reach nextendo.network.</source>
+        <translation>无法连接 nextendo.network。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>That is your own friend code.</source>
+        <translation>这是你自己的好友代码。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>nextendo.network doesn't know that player or friend code.</source>
+        <translation>nextendo.network 不认识该玩家或好友码。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>A friend list is full.</source>
+        <translation>某个好友列表已满。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>nextendo.network refused the request (HTTP %1).</source>
+        <translation>nextendo.network 拒绝了该请求（HTTP %1）。</translation>
     </message>
     <message>
         <source>Other host names don&apos;t resolve, and games can reach only this PC and the server address. Multiplayer rooms are not affected.</source>
         <translation>其他主机名将无法解析，游戏只能访问本机和服务器地址。多人房间不受影响。</translation>
     </message>
     <message>
-        <source>Redirect host names to a server you run</source>
-        <translation>将主机名重定向到你自己运行的服务器</translation>
-    </message>
-    <message>
-        <source>Server address</source>
-        <translation>服务器地址</translation>
-    </message>
-    <message>
-        <source>The CA certificate (DER, at most 64 KiB) that signed your server&apos;s certificate. Optional.</source>
-        <translation>为你的服务器证书签名的 CA 证书（DER 格式，最大 64 KiB）。可选。</translation>
-    </message>
-    <message>
-        <source>Online play needs a verified e-mail address. Verify it on nextendo.network.</source>
-        <translation>在线游戏需要已验证的电子邮箱地址，请在 nextendo.network 上验证。</translation>
-    </message>
-    <message>
-        <source>Online play needs a Discord account. Link one on nextendo.network.</source>
-        <translation>在线游戏需要 Discord 账号，请在 nextendo.network 上关联。</translation>
-    </message>
-    <message>
-        <source>nextendo.network has suspended this account.</source>
-        <translation>nextendo.network 已暂停此账号。</translation>
-    </message>
-    <message>
-        <source>This account is already playing online on another device.</source>
-        <translation>此账号已在另一台设备上进行在线游戏。</translation>
-    </message>
-    <message>
-        <source>nextendo.network doesn&apos;t recognise this account.</source>
-        <translation>nextendo.network 无法识别此账号。</translation>
-    </message>
-    <message>
-        <source>nextendo.network refuses online play for this account (%1).</source>
-        <translation>nextendo.network 拒绝为此账号提供在线游戏（%1）。</translation>
+        <source>nextendo.network doesn&apos;t know that player or friend code.</source>
+        <translation>nextendo.network 不认识该玩家或好友代码。</translation>
     </message>
     <message>
         <source>The sign-in didn&apos;t allow online play. Sign in again and allow it.</source>
         <translation>本次登录未允许在线游戏，请重新登录并允许该权限。</translation>
     </message>
     <message>
-        <source>Nextendo Network is a community service that replaces Nintendo&apos;s online servers. When this is on, the games it supports connect to Nextendo instead of Nintendo and send your Nextendo game token to it. Airplane mode is turned off. Online play needs a Nextendo account with a verified e-mail address and a linked Discord account.</source>
-        <translation>Nextendo Network 是一个社区服务，用于替代任天堂的在线服务器。开启后，受支持的游戏会连接 Nextendo 而不是任天堂，并把你的 Nextendo 游戏令牌发送给它。飞行模式会被关闭。在线游戏需要已验证电子邮箱并已关联 Discord 账号的 Nextendo 账号。</translation>
-    </message>
-    <message>
-        <source>Friend request sent.</source>
-        <translation>好友请求已发送。</translation>
+        <source>Nextendo did not issue an online play token, so games can&apos;t log in to Nextendo yet.</source>
+        <translation>Nextendo 没有发放在线游戏令牌，因此游戏暂时无法登录 Nextendo。</translation>
     </message>
     <message>
         <source>Friends and presence aren&apos;t available for Lichii on Nextendo right now.</source>
         <translation>Lichii 目前在 Nextendo 上无法使用好友与在线状态功能。</translation>
     </message>
     <message>
-        <source>Sign in again to add friends and show them what you play. Online play keeps working until then.</source>
-        <translation>重新登录后即可添加好友并向他们展示你在玩什么。在此之前在线游戏仍可正常使用。</translation>
-    </message>
-    <message>
-        <source>%1 is signed in to the same Nextendo account. Nextendo allows one online session per account, so only one of these profiles can play online at a time.</source>
-        <translation>%1 登录了同一个 Nextendo 账号。Nextendo 每个账号只允许一个在线会话，因此这些配置中同一时间只能有一个进行在线游戏。</translation>
-    </message>
-    <message>
-        <source>Your friend code: %1</source>
-        <translation>你的好友代码：%1</translation>
-    </message>
-    <message>
-        <source>%1 (%2): %3</source>
-        <translation>%1（%2）：%3</translation>
-    </message>
-    <message>
-        <source>wants to be your friend</source>
-        <translation>想加你为好友</translation>
-    </message>
-    <message>
-        <source>playing</source>
-        <translation>正在玩</translation>
-    </message>
-    <message>
-        <source>online</source>
-        <translation>在线</translation>
-    </message>
-    <message>
-        <source>offline</source>
-        <translation>离线</translation>
-    </message>
-    <message>
-        <source>request sent</source>
-        <translation>请求已发送</translation>
-    </message>
-    <message>
-        <source>Remove friend</source>
-        <translation>移除好友</translation>
-    </message>
-    <message>
-        <source>Remove %1 from your Nextendo friends?</source>
-        <translation>要把 %1 从你的 Nextendo 好友中移除吗？</translation>
-    </message>
-    <message>
-        <source>Sign in to Nextendo first.</source>
-        <translation>请先登录 Nextendo。</translation>
-    </message>
-    <message>
         <source>This sign-in doesn&apos;t allow friends. Sign in again and allow them.</source>
         <translation>本次登录未允许好友功能，请重新登录并允许该权限。</translation>
     </message>
     <message>
-        <source>Could not reach nextendo.network.</source>
-        <translation>无法连接 nextendo.network。</translation>
+        <source>Nextendo Network is a community service that replaces Nintendo&apos;s online servers for Switch 1 games. When this is on, those games connect to Nextendo instead of Nintendo and send your Nextendo account token to it. Airplane mode is turned off.</source>
+        <translation>Nextendo Network 是一个社区服务，用于替代任天堂为 Switch 1 游戏提供的在线服务器。开启后，这些游戏会连接 Nextendo 而不是任天堂，并把你的 Nextendo 账号令牌发送给它。飞行模式会被关闭。</translation>
     </message>
     <message>
-        <source>That is your own friend code.</source>
-        <translation>这是你自己的好友代码。</translation>
+        <source>Nextendo Network is a community service that replaces Nintendo&apos;s online servers. When this is on, the games it supports connect to Nextendo instead of Nintendo and send your Nextendo game token to it. Airplane mode is turned off. Online play needs a Nextendo account with a verified e-mail address and a linked Discord account.</source>
+        <translation>Nextendo Network 是一个社区服务，用于替代任天堂的在线服务器。开启后，受支持的游戏会连接 Nextendo 而不是任天堂，并把你的 Nextendo 游戏令牌发送给它。飞行模式会被关闭。在线游戏需要已验证电子邮箱并已关联 Discord 账号的 Nextendo 账号。</translation>
     </message>
     <message>
-        <source>nextendo.network doesn&apos;t know that player or friend code.</source>
-        <translation>nextendo.network 不认识该玩家或好友代码。</translation>
-    </message>
-    <message>
-        <source>A friend list is full.</source>
-        <translation>某个好友列表已满。</translation>
-    </message>
-    <message>
-        <source>nextendo.network refused the request (HTTP %1).</source>
-        <translation>nextendo.network 拒绝了该请求（HTTP %1）。</translation>
-    </message>
-    <message>
-        <source>Accept</source>
-        <translation>接受</translation>
-    </message>
-    <message>
-        <source>Add friend</source>
-        <translation>添加好友</translation>
-    </message>
-    <message>
-        <source>Decline</source>
-        <translation>拒绝</translation>
-    </message>
-    <message>
-        <source>Friend code, for example SW-0000-0000-0000</source>
-        <translation>好友代码，例如 SW-0000-0000-0000</translation>
-    </message>
-    <message>
-        <source>Use my Nextendo nickname and picture for the current user (replaces its name and icon)</source>
-        <translation>为当前用户使用我的 Nextendo 昵称和头像（会替换其名称和图标）</translation>
-    </message>
-    <message>
-        <source>Host names separated by commas or spaces, for example *.a.example b.example. Each also covers its subdomains.</source>
-        <translation>主机名用逗号或空格分隔，例如 *.a.example b.example。每个主机名也会覆盖其子域名。</translation>
+        <source>Comma-separated host names, for example a.example, b.example. Each also covers its subdomains.</source>
+        <translation>以逗号分隔的主机名，例如 a.example, b.example。每个主机名也会覆盖其子域名。</translation>
     </message>
     <message>
         <source>Other host names don&apos;t resolve, and games can reach only this PC and the server address. Games get an id token Lichii makes for the current user instead of their Nextendo one. Multiplayer rooms are not affected.</source>
         <translation>其他主机名将无法解析，游戏只能访问本机和服务器地址。游戏会收到 Lichii 为当前用户生成的 id token，而不是其 Nextendo 的。多人房间不受影响。</translation>
     </message>
     <message>
-        <source>Profile</source>
-        <translation>配置档</translation>
+        <source>Sign in with your Nextendo Network account. Online play through Nextendo isn&apos;t available in this build yet.</source>
+        <translation>使用你的 Nextendo Network 账号登录。此版本还不支持通过 Nextendo 进行在线游戏。</translation>
+    </message>
+    <message>
+        <source>nextendo.network doesn&apos;t recognise this account.</source>
+        <translation>nextendo.network 无法识别此账号。</translation>
+    </message>
+    <message>
+        <source>The CA certificate (DER, at most 64 KiB) that signed your server&apos;s certificate. Optional.</source>
+        <translation>为你的服务器证书签名的 CA 证书（DER 格式，最大 64 KiB）。可选。</translation>
     </message>
 </context>
 <context>
@@ -5740,48 +6107,127 @@ Current values are %1% and %2% respectively.</source>
         <translation>属性</translation>
     </message>
     <message>
-        <source>Invalid Image</source>
-        <translation>图片无效</translation>
+        <location line="+73"/>
+        <source>Preview a local icon next to the archive. Online lookup is optional. Apply or OK saves changes.</source>
+        <translation>在归档旁预览本地图标。在线查询是可选项。点击“应用”或“确定”保存更改。</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>Detect Icon</source>
         <translation>检测图标</translation>
     </message>
     <message>
-        <source>Please enter a game name first so the icon can be detected.</source>
-        <translation>请先输入游戏名称，才能检测图标。</translation>
+        <location line="+13"/>
+        <source>Preview a local image as the game icon. Apply or OK saves changes.</source>
+        <translation>将本地图片预览为游戏图标。点击“应用”或“确定”保存更改。</translation>
     </message>
     <message>
-        <source>Select a PNG, JPEG, BMP or WebP image up to 8 MiB, 8192 pixels per side and 16 megapixels.</source>
-        <translation>请选择 PNG、JPEG、BMP 或 WebP 图片，大小不超过 8 MiB，边长不超过 8192 像素，总像素不超过 1600 万。</translation>
-    </message>
-    <message>
-        <source>Select Game Icon</source>
-        <translation>选择游戏图标</translation>
-    </message>
-    <message>
-        <source>The game name is too long to search.</source>
-        <translation>游戏名称太长，无法搜索。</translation>
-    </message>
-    <message>
-        <source>Detecting...</source>
-        <translation>正在检测...</translation>
-    </message>
-    <message>
-        <source>If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.</source>
-        <translation>若找不到本地图标，将游戏名称发送给 GitHub、Wikipedia 和 Bing 以查找图标。默认关闭。</translation>
-    </message>
-    <message>
-        <source>Allow online lookup</source>
-        <translation>允许在线查询</translation>
-    </message>
-    <message>
+        <location line="+3"/>
         <source>Upload Icon...</source>
         <translation>上传图标...</translation>
     </message>
     <message>
-        <source>Preview a local icon next to the archive. Online lookup is optional. Apply or OK saves changes.</source>
-        <translation>在归档旁预览本地图标。在线查询是可选项。点击“应用”或“确定”保存更改。</translation>
+        <location line="+7"/>
+        <source>Browse iiDB Artwork...</source>
+        <translation>浏览 iiDB 封面图...</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Choose online artwork using your own iiDB API key. Apply or OK saves changes.</source>
+        <translation>使用你自己的 iiDB API 密钥选择在线封面图。点击“应用”或“确定”保存更改。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Show the game's own icon again. Apply or OK saves changes.</source>
+        <translation>恢复游戏自带的图标。点「应用」或「确定」保存更改。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Remove Custom Icon</source>
+        <translation>移除自定义图标</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Allow online lookup</source>
+        <translation>允许在线查询</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.</source>
+        <translation>若找不到本地图标，将游戏名称发送给 GitHub、Wikipedia 和 Bing 以查找图标。默认关闭。</translation>
+    </message>
+    <message>
+        <location line="+149"/>
+        <source>Name shown in the library. Clear it to use the game's own name.</source>
+        <translation>在库中显示的名称。留空则使用游戏自带的名称。</translation>
+    </message>
+    <message>
+        <location line="+109"/>
+        <source>Select Game Icon</source>
+        <translation>选择游戏图标</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Invalid Image</source>
+        <translation>图片无效</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Select a PNG, JPEG, BMP or WebP image up to 8 MiB, 8192 pixels per side and 16 megapixels.</source>
+        <translation>请选择 PNG、JPEG、BMP 或 WebP 图片，大小不超过 8 MiB，边长不超过 8192 像素，总像素不超过 1600 万。</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Please enter a game name first so the icon can be detected.</source>
+        <translation>请先输入游戏名称，才能检测图标。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>The game name is too long to search.</source>
+        <translation>游戏名称太长，无法搜索。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Detecting...</source>
+        <translation>正在检测...</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Game Artwork</source>
+        <translation>游戏封面图</translation>
+    </message>
+    <message>
+        <location line="-16"/>
+        <source>The artwork could not be removed.</source>
+        <translation>无法移除封面图。</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>The artwork could not be saved.</source>
+        <translation>无法保存封面图。</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Game Name</source>
+        <translation>游戏名称</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>The game name could not be saved.</source>
+        <translation>无法保存游戏名称。</translation>
+    </message>
+    <message>
+        <source>Name shown in the library. Clear it to use the game&apos;s own name.</source>
+        <translation>库中显示的名称。清空则使用游戏自身的名称。</translation>
+    </message>
+    <message>
+        <source>Show the game&apos;s own icon again. Apply or OK saves changes.</source>
+        <translation>重新显示游戏自带的图标。点击“应用”或“确定”保存更改。</translation>
     </message>
     <message>
         <source>Stop emulation before changing NUP metadata.</source>
@@ -5790,10 +6236,6 @@ Current values are %1% and %2% respectively.</source>
     <message>
         <source>Enter game name...</source>
         <translation>输入游戏名称...</translation>
-    </message>
-    <message>
-        <source>Preview a local image as the game icon. Apply or OK saves changes.</source>
-        <translation>将本地图片预览为游戏图标。点击“应用”或“确定”保存更改。</translation>
     </message>
     <message>
         <source>Failed to update NUP metadata:
@@ -5808,50 +6250,6 @@ Current values are %1% and %2% respectively.</source>
     <message>
         <source>Update NUP Metadata</source>
         <translation>更新 NUP 元数据</translation>
-    </message>
-    <message>
-        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp);;All Files (*)</source>
-        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp);;所有文件 (*)</translation>
-    </message>
-    <message>
-        <source>Name shown in the library. Clear it to use the game&apos;s own name.</source>
-        <translation>库中显示的名称。清空则使用游戏自身的名称。</translation>
-    </message>
-    <message>
-        <source>Game Artwork</source>
-        <translation>游戏封面图</translation>
-    </message>
-    <message>
-        <source>The artwork could not be removed.</source>
-        <translation>无法移除封面图。</translation>
-    </message>
-    <message>
-        <source>The artwork could not be saved.</source>
-        <translation>无法保存封面图。</translation>
-    </message>
-    <message>
-        <source>Game Name</source>
-        <translation>游戏名称</translation>
-    </message>
-    <message>
-        <source>The game name could not be saved.</source>
-        <translation>无法保存游戏名称。</translation>
-    </message>
-    <message>
-        <source>Remove Custom Icon</source>
-        <translation>移除自定义图标</translation>
-    </message>
-    <message>
-        <source>Show the game&apos;s own icon again. Apply or OK saves changes.</source>
-        <translation>重新显示游戏自带的图标。点击“应用”或“确定”保存更改。</translation>
-    </message>
-    <message>
-        <source>Browse iiDB Artwork...</source>
-        <translation>浏览 iiDB 封面图...</translation>
-    </message>
-    <message>
-        <source>Choose online artwork using your own iiDB API key. Apply or OK saves changes.</source>
-        <translation>使用你自己的 iiDB API 密钥选择在线封面图。点击“应用”或“确定”保存更改。</translation>
     </message>
 </context>
 <context>
@@ -5974,6 +6372,16 @@ Once deleted, these can NOT be recovered. Are you 100% sure you want to delete t
         <location filename="../../src/lichii/configuration/configure_per_game_addons.cpp" line="274"/>
         <source>&amp;Open in File Manager</source>
         <translation>在文件管理器中打开(&amp;O)</translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>Update (NUP)</source>
+        <translation>更新（NUP）</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This update is part of the NUP and cannot be disabled here.</source>
+        <translation>此更新包含在 NUP 之中，无法在这里禁用。</translation>
     </message>
 </context>
 <context>
@@ -6585,6 +6993,11 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <translation>恢复默认</translation>
     </message>
     <message>
+        <location line="+12"/>
+        <source>Warning: The settings in this page affect the inner workings of Lichii's emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
+        <translation>警告：本页设置会影响 Lichii 模拟触摸屏的内部机制。修改它们可能导致不良后果，例如触摸屏部分失灵或完全无法使用。只有在你清楚自己在做什么时，才应使用本页。</translation>
+    </message>
+    <message>
         <source>Warning: The settings in this page affect the inner workings of Lichii&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
         <translation>警告: 此页面中的设置会影响 Lichii 模拟触摸屏的内部运行。更改这些设置可能导致不良后果,例如触摸屏部分或完全无法使用。只有在明确知道自己在做什么的情况下才使用此页面。</translation>
     </message>
@@ -6757,32 +7170,47 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <translation>自动 (%1 x %2, %3 x %4)</translation>
     </message>
     <message>
-        <source>%1 - not in this build</source>
-        <translation>%1 - 此版本中没有</translation>
+        <location line="+12"/>
+        <source>iiDB Artwork API Key...</source>
+        <translation>iiDB 封面图 API 密钥...</translation>
     </message>
     <message>
+        <location line="+3"/>
+        <source>Set, test or forget the personal key for browsing iiDB artwork in game Properties.</source>
+        <translation>设置、测试或清除用于在游戏属性中浏览 iiDB 封面图的个人密钥。</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/configuration/configure_ui.cpp" line="+61"/>
         <source>SteamGridDB API key:</source>
         <translation>SteamGridDB API 密钥：</translation>
     </message>
     <message>
+        <location line="+3"/>
         <source>Empty: no online lookup</source>
         <translation>留空：不进行在线查找</translation>
     </message>
     <message>
-        <source>Artwork is looked up on steamgriddb.com only when a key is set, for games that have no icon and no custom artwork. The picture is saved as the game&apos;s custom artwork, so you can still replace it in Configure Game.</source>
-        <translation>只有在设置了密钥时，才会为没有图标、也没有自定义封面图的游戏到 steamgriddb.com 查找封面。图片会保存为该游戏的自定义封面图，因此你仍可在“游戏设置”里替换它。</translation>
+        <location line="+3"/>
+        <source>Artwork is looked up on steamgriddb.com only when a key is set, for games that have no icon and no custom artwork. The picture is saved as the game's custom artwork, so you can still replace it in Configure Game.</source>
+        <translation>只有在设置了密钥时，才会到 steamgriddb.com 查找封面，并且仅针对既没有图标也没有自定义封面的游戏。图片会保存为该游戏的自定义封面，你仍然可以在「配置游戏」里替换它。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>&lt;a href="%1"&gt;Get a key&lt;/a&gt;</source>
+        <translation>&lt;a href="%1"&gt;获取密钥&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location line="+60"/>
+        <source>%1 - not in this build</source>
+        <translation>%1 - 此版本中没有</translation>
     </message>
     <message>
         <source>&lt;a href=&quot;%1&quot;&gt;Get a key&lt;/a&gt;</source>
         <translation>&lt;a href=&quot;%1&quot;&gt;获取密钥&lt;/a&gt;</translation>
     </message>
     <message>
-        <source>Set, test or forget the personal key for browsing iiDB artwork in game Properties.</source>
-        <translation>设置、测试或清除用于在游戏属性中浏览 iiDB 封面图的个人密钥。</translation>
-    </message>
-    <message>
-        <source>iiDB Artwork API Key...</source>
-        <translation>iiDB 封面图 API 密钥...</translation>
+        <source>Artwork is looked up on steamgriddb.com only when a key is set, for games that have no icon and no custom artwork. The picture is saved as the game&apos;s custom artwork, so you can still replace it in Configure Game.</source>
+        <translation>只有在设置了密钥时，才会为没有图标、也没有自定义封面图的游戏到 steamgriddb.com 查找封面。图片会保存为该游戏的自定义封面图，因此你仍可在“游戏设置”里替换它。</translation>
     </message>
 </context>
 <context>
@@ -6865,26 +7293,32 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <translation>启用精确震动</translation>
     </message>
     <message>
-        <source>Enable DualSense HD Haptics</source>
-        <translation>启用 DualSense HD 触觉</translation>
-    </message>
-    <message>
-        <source>Frequency-aware rumble</source>
-        <translation>频率感知震动</translation>
-    </message>
-    <message>
-        <source>On controllers with two rumble motors, send each part of the HD Rumble to the motor that matches its frequency: low tones to the heavy motor, high tones to the light one. When off, each band drives its own motor as before.</source>
-        <translation>在带两个震动马达的手柄上，把 HD 震动的每个成分发送给频率匹配的马达：低频给重马达，高频给轻马达。关闭时，各频段像以前一样驱动各自马达。</translation>
-    </message>
-    <message>
+        <location line="+7"/>
         <source>Play HD Rumble through the DualSense haptic actuators, left and right apart. Requires a USB connection and a single wired DualSense; otherwise standard rumble is used.</source>
         <translation>通过 DualSense 的触觉执行器播放 HD 震动，左右分开。需要 USB 连接且只连接一个有线 DualSense；否则使用标准震动。</translation>
     </message>
     <message>
+        <location line="+3"/>
+        <source>Enable DualSense HD Haptics</source>
+        <translation>启用 DualSense HD 触觉</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>On controllers with two rumble motors, send each part of the HD Rumble to the motor that matches its frequency: low tones to the heavy motor, high tones to the light one. When off, each band drives its own motor as before.</source>
+        <translation>在带两个震动马达的手柄上，把 HD 震动的每个成分发送给频率匹配的马达：低频给重马达，高频给轻马达。关闭时，各频段像以前一样驱动各自马达。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Frequency-aware rumble</source>
+        <translation>频率感知震动</translation>
+    </message>
+    <message>
+        <location line="+22"/>
         <source>On controllers with motors in their triggers, also play the light part of the HD Rumble on them: the left side on the left trigger, the right side on the right one. 20% is a good start.</source>
         <translation>对于扳机内带马达的手柄，也把 HD 震动的轻成分送到扳机上：左侧到左扳机，右侧到右扳机。20% 是个不错的起点。</translation>
     </message>
     <message>
+        <location line="-19"/>
         <source>Trigger rumble</source>
         <translation>扳机震动</translation>
     </message>
@@ -6956,6 +7390,7 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <translation>必须为48个字符，且a-z为小写</translation>
     </message>
     <message>
+        <location line="+8"/>
         <source>Lichii Web Service</source>
         <translation>Lichii 网络服务</translation>
     </message>
@@ -7077,16 +7512,23 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <translation>版本</translation>
     </message>
     <message>
+        <location filename="../../src/lichii/deps_dialog.ui" line="+14"/>
+        <source>Lichii Dependencies</source>
+        <translation>Lichii 依赖项</translation>
+    </message>
+    <message>
+        <location line="+58"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:28pt;"&gt;Lichii Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:28pt;"&gt;Lichii 依赖&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Lichii possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;让 Lichii 成为可能的项目&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Lichii 依赖项&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>Lichii Dependencies</source>
-        <translation>Lichii 依赖项</translation>
     </message>
 </context>
 <context>
@@ -7485,64 +7927,84 @@ Please go to Configure -&gt; System -&gt; Network and make a selection.</source>
         <translation>清除</translation>
     </message>
     <message>
-        <source>Add Update or DLC...</source>
-        <translation>添加更新或 DLC...</translation>
-    </message>
-    <message>
-        <source>Remove Update or DLC...</source>
-        <translation>移除更新或 DLC...</translation>
-    </message>
-    <message>
-        <source>%1 games</source>
-        <translation>%1 个游戏</translation>
-    </message>
-    <message>
-        <source>1 game</source>
-        <translation>1 个游戏</translation>
-    </message>
-    <message>
+        <location line="+3"/>
         <source>Rebuild Shader Precache</source>
         <translation>重新构建着色器预编译缓存</translation>
     </message>
     <message>
-        <source>Edit Title and Icon...</source>
-        <translation>编辑标题和图标...</translation>
-    </message>
-    <message>
-        <source>Edit NUP Metadata...</source>
-        <translation>编辑 NUP 元数据...</translation>
-    </message>
-    <message>
-        <source>Submit compatibility report…</source>
-        <translation>提交兼容性报告…</translation>
-    </message>
-    <message>
-        <source>Convert to NX...</source>
-        <translation>转换为 NX...</translation>
-    </message>
-    <message>
-        <source>Dump NUP...</source>
-        <translation>导出 NUP...</translation>
-    </message>
-    <message>
-        <source>Manage NX Archive</source>
-        <translation>管理 NX 归档</translation>
-    </message>
-    <message>
+        <location line="+0"/>
         <source>Build Shader Precache</source>
         <translation>构建着色器预编译缓存</translation>
     </message>
     <message>
-        <source>Convert to NUP...</source>
-        <translation>转换为 NUP...</translation>
+        <location line="+1"/>
+        <source>Precompile All Shaders</source>
+        <translation>预编译所有着色器</translation>
     </message>
     <message>
+        <location line="+5"/>
         <source>Delete Shader Precache</source>
         <translation>删除着色器预编译缓存</translation>
     </message>
     <message>
+        <location line="+9"/>
+        <source>Dump NUP...</source>
+        <translation>导出 NUP...</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Convert to NUP...</source>
+        <translation>转换为 NUP...</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Convert to NX...</source>
+        <translation>转换为 NX...</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Manage NX Archive</source>
+        <translation>管理 NX 归档</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Add Update or DLC...</source>
+        <translation>添加更新或 DLC...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Remove Update or DLC...</source>
+        <translation>移除更新或 DLC...</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Edit Title and Icon...</source>
+        <translation>编辑标题和图标...</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Edit NUP Metadata...</source>
+        <translation>编辑 NUP 元数据...</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Look up artwork on SteamGridDB</source>
         <translation>在 SteamGridDB 上查找封面图</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Submit compatibility report…</source>
+        <translation>提交兼容性报告…</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/game/game_tree.cpp" line="+76"/>
+        <source>1 game</source>
+        <translation>1 个游戏</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>%1 games</source>
+        <translation>%1 个游戏</translation>
     </message>
 </context>
 <context>
@@ -7950,20 +8412,24 @@ Debug Message: </source>
         <translation>切换性能覆盖层</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Exit Eglantine</source>
         <translation>退出 Lichii</translation>
     </message>
     <message>
-        <source>Exit Lichii</source>
-        <translation>退出 Lichii</translation>
-    </message>
-    <message>
+        <location line="+1"/>
         <source>HOME Button</source>
         <translation>HOME 键</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Report a Bug</source>
         <translation>报告问题</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/configuration/configure_hotkeys.cpp" line="-400"/>
+        <source>Exit Lichii</source>
+        <translation>退出 Lichii</translation>
     </message>
 </context>
 <context>
@@ -8037,16 +8503,19 @@ Debug Message: </source>
         <translation>所需时间: %1</translation>
     </message>
     <message>
+        <location filename="../../src/lichii/loading_screen.cpp" line="+100"/>
+        <source>Skip</source>
+        <translation>跳过</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Start the game now. The shaders not precached yet are precached on a later launch.</source>
         <translation>立即开始游戏。尚未预编译的着色器会在下次启动时再编译。</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Precaching shaders %1 / %2</source>
         <translation>正在预编译着色器 %1 / %2</translation>
-    </message>
-    <message>
-        <source>Skip</source>
-        <translation>跳过</translation>
     </message>
 </context>
 <context>
@@ -9508,20 +9977,671 @@ Would you like to bypass this and exit anyway?</source>
         <translation>空</translation>
     </message>
     <message>
-        <source>Converting to NUP</source>
-        <translation>正在转换为 NUP</translation>
+        <location line="+8"/>
+        <source>&amp;Report a Bug...</source>
+        <translation>报告问题(&amp;R)...</translation>
     </message>
     <message>
-        <source>Game preparation failed. See the log for details.</source>
-        <translation>游戏文件准备失败，详情请查看日志。</translation>
+        <location line="+1"/>
+        <source>Medium (44x44)</source>
+        <translation>中（44x44）</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Cover (160x160)</source>
+        <translation>封面（160x160）</translation>
+    </message>
+    <message>
+        <location line="+141"/>
+        <source>Your Nextendo session expired, so Lichii signed you out.</source>
+        <translation>你的 Nextendo 会话已过期，Lichii 已将你退出登录。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Your session was ended on nextendo.network, so Lichii signed you out.</source>
+        <translation>你的会话已在 nextendo.network 上结束，Lichii 已将你退出登录。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Your Nextendo sign-in didn't allow online play, so Lichii signed you out.</source>
+        <translation>你的 Nextendo 登录未允许在线游玩，Lichii 已让你退出登录。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Signed out of Nextendo</source>
+        <translation>已退出 Nextendo</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Sign in again in Configure &gt; Network.</source>
+        <translation>请在 设置 &gt; 网络 中重新登录。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Nextendo online play is on, but you aren't signed in. Sign in in Configure &gt; Network.</source>
+        <translation>Nextendo 在线游玩已开启，但你尚未登录。请在「设置 &gt; 网络」中登录。</translation>
+    </message>
+    <message>
+        <location line="+25"/>
+        <source>Nextendo doesn't offer online play for this game right now.</source>
+        <translation>Nextendo 目前不为此游戏提供在线游玩。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This version of the game can't play online on Nextendo. Update it to %1.</source>
+        <translation>此版本的游戏无法在 Nextendo 上在线游玩。请更新到 %1。</translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>Nextendo Sign-ins</source>
+        <translation>Nextendo 登录记录</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>NVIDIA DLSS is upscaling the game, in the mode shown. The window adapting filter runs after it.</source>
+        <translation>NVIDIA DLSS 正在以所示模式对游戏进行超分。窗口适配滤镜在它之后运行。</translation>
+    </message>
+    <message>
+        <location line="+452"/>
+        <source>Restore Previous Version...</source>
+        <translation>恢复上一版本...</translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Restore Previous Version</source>
+        <translation>恢复上一版本</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go back to the version this one replaced? Your settings and data are not changed.</source>
+        <translation>要回退到被当前版本替换的旧版本吗？你的设置和数据不会被更改。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Failed to restore</source>
+        <translation>恢复失败</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Could not restore the previous version: %1</source>
+        <translation>无法恢复上一版本：%1</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>%1&lt;br&gt;Dump current keys from your own console and install them with Tools &gt; Install Decryption Keys, then start the game again. The log names the missing key.</source>
+        <translation>%1&lt;br&gt;请从你自己的主机中导出当前密钥，并通过 工具 &gt; 安装解密密钥 安装，然后重新启动游戏。日志中会写明缺少哪个密钥。</translation>
+    </message>
+    <message>
+        <location line="+37"/>
+        <source>Not enough RAM</source>
+        <translation>内存不足</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This PC has %1 GB of RAM. Switch 2 games need at least 16 GB, and 32 GB is recommended.
+
+Games can crash, and can even freeze or crash the whole PC.
+
+This setup isn't supported, so please don't open issues or ask for help about crashes on it.</source>
+        <translation>这台 PC 只有 %1 GB 内存。Switch 2 游戏至少需要 16 GB，建议 32 GB。
+
+游戏可能崩溃，甚至可能让整台 PC 卡死或崩溃。
+
+这种配置不受支持，请不要为此类崩溃提交 issue 或寻求帮助。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Continue anyway</source>
         <translation>仍然继续</translation>
     </message>
     <message>
+        <location line="+4"/>
+        <source>Don't show this again</source>
+        <translation>不再显示</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>NX Archive</source>
+        <translation>NX 归档</translation>
+    </message>
+    <message>
+        <location line="-2673"/>
+        <source>Wait for the NX metadata edit to finish before starting a game.</source>
+        <translation>请等 NX 元数据编辑完成后再启动游戏。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Conversion in Progress</source>
+        <translation>正在转换</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>This game cannot be started while its dump is being converted.</source>
+        <translation>该游戏的转储正在转换，无法启动。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Shader Precache in Progress</source>
+        <translation>正在构建着色器预编译缓存</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Games cannot be started while the shader precache is being built. Wait for it to finish or cancel it.</source>
+        <translation>构建着色器预编译缓存期间无法启动游戏。请等待它完成或取消。</translation>
+    </message>
+    <message>
+        <location line="+102"/>
+        <source>Preparing game files...</source>
+        <translation>正在准备游戏文件...</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Unable to prepare game files</source>
+        <translation>无法准备游戏文件</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Game preparation failed. See the log for details.</source>
+        <translation>游戏文件准备失败，详情请查看日志。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Checking online patches...</source>
+        <translation>正在检查在线补丁…</translation>
+    </message>
+    <message>
+        <location line="-1480"/>
+        <source>Not enough memory to start the game</source>
+        <translation>内存不足，无法启动游戏</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lichii could not allocate the game's memory. Close other applications and check that your system has enough available memory and paging-file space, then try again.</source>
+        <translation>Lichii 无法为游戏分配内存。请关闭其他程序，确认系统有足够的可用内存和页面文件空间，然后重试。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Stop emulation before linking saves</source>
+        <translation>链接存档前请先停止模拟</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Close the running game before changing Ryujinx save links.</source>
+        <translation>请在更改 Ryujinx 存档链接前关闭正在运行的游戏。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp *.nsz);;NX Cartridge Image (*.xci *.xcz)</source>
+        <translation>可安装的 Switch 文件 (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo 内容归档 (*.nca);;Nintendo 提交包 (*.nsp *.nsz);;NX 卡带镜像 (*.xci *.xcz)</translation>
+    </message>
+    <message>
+        <location line="+197"/>
+        <source>Stop emulation before editing NX metadata.</source>
+        <translation>编辑 NX 元数据前请先停止模拟。</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Stop the game before changing its NX archive.</source>
+        <translation>修改 NX 归档前请先停止游戏。</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Convert to NUP</source>
+        <translation>转换为 NUP</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The target archive already exists:
+%1</source>
+        <translation>目标归档已存在：
+%1</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Resume Conversion</source>
+        <translation>继续转换</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Resume the interrupted conversion?</source>
+        <translation>要继续上次中断的转换吗？</translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Converting to NUP</source>
+        <translation>正在转换为 NUP</translation>
+    </message>
+    <message>
+        <location line="+47"/>
+        <source>Conversion Complete</source>
+        <translation>转换完成</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The NUP was created and the loose folder was removed.</source>
+        <translation>NUP 已创建，解包文件夹已删除。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>The NUP was created. You can delete the loose folder if you no longer need it.</source>
+        <translation>NUP 已创建。如果不再需要解包文件夹，可以将其删除。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Conversion Cancelled</source>
+        <translation>转换已取消</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The conversion can be resumed by choosing Convert to NUP again.</source>
+        <translation>再次选择“转换为 NUP”即可继续这次转换。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Conversion Failed</source>
+        <translation>转换失败</translation>
+    </message>
+    <message>
+        <location line="+57"/>
+        <source>Precache Shaders</source>
+        <translation>预编译着色器</translation>
+    </message>
+    <message>
+        <location line="-61"/>
+        <source>Close the running game first.</source>
+        <translation>请先关闭正在运行的游戏。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>This game is being converted. Try again when it is done.</source>
+        <translation>该游戏正在转换中，请等转换完成后再试。</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Precompile All Shaders</source>
+        <translation>预编译所有着色器</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The setting could not be saved in the shader folder.</source>
+        <translation>无法把该设置保存到着色器文件夹。</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>The shaders of this game are not precached yet. Precache them now?
+
+The game starts when they are done. The first time, the game files are read and their compute shaders are built on every CPU thread, which takes a few minutes. Later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
+
+You can change this in Configure, Graphics, Advanced.</source>
+        <translation>该游戏的着色器尚未预编译。现在预编译吗？
+
+预编译完成后游戏才会启动。首次运行会读取游戏文件，并在每个 CPU 线程上构建其中的计算着色器，这需要几分钟。之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面有“跳过”按钮。
+
+可在 设置 &gt; 图形 &gt; 高级 中更改此项。</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Precache now</source>
+        <translation>现在预编译</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start without</source>
+        <translation>不预编译直接启动</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Delete Shader Precache</source>
+        <translation>删除着色器预编译缓存</translation>
+    </message>
+    <message>
+        <location line="-13"/>
+        <source>Shaders are being precached. Try again when it is done.</source>
+        <translation>正在预编译着色器，请等它完成后再试。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Delete the shader precache files of this game? They are built again the next time the game is precached.</source>
+        <translation>要删除该游戏的着色器预编译缓存文件吗？下次预编译时会重新构建。</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>The files could not be deleted: %1</source>
+        <translation>无法删除这些文件：%1</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Extract NUP</source>
+        <translation>提取 NUP</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The target directory already exists:
+%1</source>
+        <translation>目标目录已存在：
+%1</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Extracting NUP</source>
+        <translation>正在提取 NUP</translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Extraction Complete</source>
+        <translation>提取完成</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The NUP was extracted. You can delete the NUP file if you no longer need it.</source>
+        <translation>NUP 已提取。如果不再需要 NUP 文件，可以将其删除。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Extraction Failed</source>
+        <translation>提取失败</translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>Editing NUP Metadata</source>
+        <translation>正在编辑 NUP 元数据</translation>
+    </message>
+    <message>
+        <location line="+48"/>
+        <source>Edit Complete</source>
+        <translation>编辑完成</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The NUP metadata was updated.</source>
+        <translation>NUP 元数据已更新。</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Edit Failed</source>
+        <translation>编辑失败</translation>
+    </message>
+    <message>
+        <location line="+43"/>
+        <source>Check for Updates</source>
+        <translation>检查更新</translation>
+    </message>
+    <message>
+        <location line="-38"/>
+        <source>This is a test or development build (%1) without a published release tag, so Lichii cannot compare it with published releases. Download a release from GitHub to get updates.</source>
+        <translation>这是测试版或开发版（%1），没有已发布的 release 标签，因此 Lichii 无法与已发布版本比较。请从 GitHub 下载正式发布版以获取更新。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>GitHub is limiting requests from your network right now. Please try again later.</source>
+        <translation>GitHub 目前正在限制来自你所在网络的请求，请稍后再试。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>GitHub answered with HTTP error %1. Please try again later.</source>
+        <translation>GitHub 返回了 HTTP 错误 %1，请稍后再试。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Could not reach GitHub. Check your internet connection and try again.</source>
+        <translation>无法连接 GitHub。请检查网络连接后重试。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Could not check for updates: GitHub rate limit reached. Lichii will try again at the next start.</source>
+        <translation>无法检查更新：已达到 GitHub 速率限制。Lichii 会在下次启动时再试。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Could not check for updates: GitHub answered with HTTP %1.</source>
+        <translation>无法检查更新：GitHub 返回 HTTP %1。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>You're on the latest build (%1).</source>
+        <translation>你已是最新版本（%1）。</translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>DLSS %1 %2</source>
+        <translation>DLSS %1 %2</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source> (%1 DOESN'T FIT)</source>
+        <translation>（%1 不适用）</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>DLSS FG</source>
+        <translation>DLSS 帧生成</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>DLSS FG paused</source>
+        <translation>DLSS 帧生成已暂停</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source> + %1 generated</source>
+        <translation> + 生成 %1</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>NO FG</source>
+        <translation>无帧生成</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Frame generation is off.</source>
         <translation>帧生成已关闭。</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>FG %1 %2X</source>
+        <translation>帧生成 %1 %2X</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>FG %1 AUTO</source>
+        <translation>帧生成 %1 自动</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source> It adds up to %1 frames per game frame to reach %2 FPS.</source>
+        <translation> 每个游戏帧最多补出 %1 帧，以达到 %2 FPS。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Frame generation is on.%1 Whether it runs shows here once a game starts.</source>
+        <translation>帧生成已开启。%1 游戏启动后会在此显示它是否运行。</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Frame generation needs the Vulkan renderer.</source>
+        <translation>帧生成需要 Vulkan 渲染器。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This build was compiled without frame generation.</source>
+        <translation>此版本在编译时未包含帧生成。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model and null descriptors). Lichii Optical Flow Frame Generation may still work.</source>
+        <translation>此 GPU 缺少 LSFG 需要的 Vulkan 特性（Vulkan 内存模型与 null 描述符）。Lichii 光流插帧或许仍可使用。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>This GPU can't write to the window's swapchain format from a shader, so generated frames can't be presented.</source>
+        <translation>此 GPU 无法从着色器写入窗口交换链格式，因此无法呈现生成的帧。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>LSFG needs Lossless.dll from Lossless Scaling in the "lossless" folder of the user directory. It is missing or could not be loaded.</source>
+        <translation>LSFG 需要 Lossless Scaling 的 Lossless.dll，放在用户目录的「lossless」文件夹里。它缺失或无法加载。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>FG UNAVAILABLE</source>
+        <translation>帧生成不可用</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Frame generation is on but not running. %1</source>
+        <translation>帧生成已开启但没有运行。%1</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source> NVIDIA DLSS Frame Generation can't run for this game or setup, so Lichii Optical Flow Frame Generation runs instead; the log says why.</source>
+        <translation> 此游戏或此配置无法运行 NVIDIA DLSS 插帧，因此改用 Lichii 光流插帧；具体原因见日志。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Frame generation is running.%1%2</source>
+        <translation>帧生成已启用。%1%2</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source> It also pauses while the game already reaches %1 FPS.</source>
+        <translation> 当游戏本身已达 %1 FPS 时，它也会暂停。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>%1 (IDLE)</source>
+        <translation>%1（空闲）</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1%2</source>
+        <translation>帧生成已开启，但最近半秒没有生成任何帧。预热期间、单帧耗时超过 100 ms 后的 1 秒内，以及帧成批到达时会暂停。%1%2</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Restart Lichii to apply the X11 backend.</source>
+        <translation>重新启动 Lichii 以应用 X11 后端。</translation>
+    </message>
+    <message>
+        <location line="+127"/>
+        <source>Are you sure you want to close Lichii?</source>
+        <translation>您确实要关闭 Lichii 吗?</translation>
+    </message>
+    <message>
+        <location line="+116"/>
+        <source>The currently running application has requested Lichii to not exit.
+
+Would you like to bypass this and exit anyway?</source>
+        <translation>当前正在运行的应用程序已请求 Lichii 不退出。
+
+您想要绕过并退出吗?</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Auto</source>
+        <translation>自动</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>DLAA</source>
+        <translation>DLAA</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Quality</source>
+        <translation>质量</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Balanced</source>
+        <translation>均衡</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Performance</source>
+        <translation>性能</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Ultra Performance</source>
+        <translation>超高性能</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>M</source>
+        <translation>M</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>NVIDIA default</source>
+        <translation>NVIDIA 默认</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>E</source>
+        <translation>E</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>F</source>
+        <translation>F</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>J</source>
+        <translation>J</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>K</source>
+        <translation>K</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>L</source>
+        <translation>L</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>LSFG</source>
+        <translation>LSFG</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Optical Flow</source>
+        <translation>光流</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>NVIDIA DLSS Frame Generation</source>
+        <translation>NVIDIA DLSS 帧生成</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>FSR 1</source>
+        <translation>FSR 1</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>FSR 1 Soft</source>
+        <translation>FSR 1 柔和</translation>
+    </message>
+    <message>
+        <location line="+239"/>
+        <source>Check for &amp;Updates...</source>
+        <translation>检查更新(&amp;U)...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lichii found Nextendo sign-ins for %n profile(s) this NAND doesn't have. Profiles deleted in an older build left theirs behind.
+
+Remove and sign out those sign-ins? Keep them if the profiles are in another NAND folder.</source>
+        <translation>Lichii 在这个 NAND 里找不到 %n 个账户档案对应的 Nextendo 登录。旧版本删除账户档案时把这些登录留了下来。
+
+要移除并登出这些登录吗？如果这些账户档案在另一个 NAND 文件夹里，请保留它们。</translation>
+    </message>
+    <message>
+        <source>You&apos;re on the latest build (%1).</source>
+        <translation>你已是最新版本（%1）。</translation>
     </message>
     <message>
         <source>This PC has %1 GB of RAM. Switch 2 games need at least 16 GB, and 32 GB is recommended.
@@ -9536,148 +10656,28 @@ This setup isn&apos;t supported, so please don&apos;t open issues or ask for hel
 此配置不受支持，请不要就崩溃问题提交 issue 或寻求帮助。</translation>
     </message>
     <message>
-        <source>Are you sure you want to close Lichii?</source>
-        <translation>您确实要关闭 Lichii 吗?</translation>
-    </message>
-    <message>
-        <source>Signed out of Nextendo</source>
-        <translation>已退出 Nextendo</translation>
-    </message>
-    <message>
-        <source>Cover (160x160)</source>
-        <translation>封面（160x160）</translation>
-    </message>
-    <message>
-        <source>Not enough memory to start the game</source>
-        <translation>内存不足，无法启动游戏</translation>
-    </message>
-    <message>
-        <source>Restart Lichii to apply the X11 backend.</source>
-        <translation>重新启动 Lichii 以应用 X11 后端。</translation>
-    </message>
-    <message>
-        <source>Convert to NUP</source>
-        <translation>转换为 NUP</translation>
-    </message>
-    <message>
-        <source>NVIDIA DLSS is upscaling the game, in the mode shown. The window adapting filter runs after it.</source>
-        <translation>NVIDIA DLSS 正在以所示模式对游戏进行超分。窗口适配滤镜在它之后运行。</translation>
-    </message>
-    <message>
-        <source>Extraction Failed</source>
-        <translation>提取失败</translation>
-    </message>
-    <message>
-        <source>Editing NUP Metadata</source>
-        <translation>正在编辑 NUP 元数据</translation>
-    </message>
-    <message>
-        <source>Extract NUP</source>
-        <translation>提取 NUP</translation>
-    </message>
-    <message>
-        <source>Optical Flow</source>
-        <translation>光流</translation>
-    </message>
-    <message>
-        <source>J</source>
-        <translation>J</translation>
-    </message>
-    <message>
         <source>&amp;What&apos;s New in Lichii</source>
         <translation>Lichii 新功能(&amp;W)</translation>
-    </message>
-    <message>
-        <source>E</source>
-        <translation>E</translation>
-    </message>
-    <message>
-        <source>Extraction Complete</source>
-        <translation>提取完成</translation>
-    </message>
-    <message>
-        <source> It also pauses while the game already reaches %1 FPS.</source>
-        <translation> 当游戏本身已达 %1 FPS 时，它也会暂停。</translation>
-    </message>
-    <message>
-        <source>DLSS %1 %2</source>
-        <translation>DLSS %1 %2</translation>
-    </message>
-    <message>
-        <source>Restore Previous Version...</source>
-        <translation>恢复上一版本...</translation>
-    </message>
-    <message>
-        <source>K</source>
-        <translation>K</translation>
     </message>
     <message>
         <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1</source>
         <translation>帧生成已开启，但最近半秒没有生成任何帧。它会在预热期间、某帧耗时超过 100 毫秒后的一秒内，以及帧突发到达时暂停。%1</translation>
     </message>
     <message>
-        <source>%1 (IDLE)</source>
-        <translation>%1（空闲）</translation>
-    </message>
-    <message>
-        <source>The NUP was created. You can delete the loose folder if you no longer need it.</source>
-        <translation>NUP 已创建。如果不再需要解包文件夹，可以将其删除。</translation>
-    </message>
-    <message>
-        <source>Frame generation is on.%1 Whether it runs shows here once a game starts.</source>
-        <translation>帧生成已开启。%1 游戏启动后会在此显示它是否运行。</translation>
-    </message>
-    <message>
-        <source>DLAA</source>
-        <translation>DLAA</translation>
-    </message>
-    <message>
-        <source>The files could not be deleted: %1</source>
-        <translation>无法删除这些文件：%1</translation>
-    </message>
-    <message>
-        <source>The NUP metadata was updated.</source>
-        <translation>NUP 元数据已更新。</translation>
-    </message>
-    <message>
-        <source>Shaders are being precached. Try again when it is done.</source>
-        <translation>正在预编译着色器，请等它完成后再试。</translation>
-    </message>
-    <message>
-        <source>Frame generation is running.%1</source>
-        <translation>帧生成正在运行。%1</translation>
-    </message>
-    <message>
-        <source>Shader Precache in Progress</source>
-        <translation>正在构建着色器预编译缓存</translation>
-    </message>
-    <message>
-        <source>Go back to the version this one replaced? Your settings and data are not changed.</source>
-        <translation>要回退到被当前版本替换的旧版本吗？你的设置和数据不会被更改。</translation>
+        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model, null descriptors and 16-bit floats). The Optical Flow type may still work.</source>
+        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型、空描述符和 16 位浮点）。光流类型可能仍可用。</translation>
     </message>
     <message>
         <source>Your session was ended on nextendo.network, so Lichii signed you out. Sign in again in Configure &gt; Network.</source>
         <translation>你的会话已在 nextendo.network 上结束，Lichii 已将你退出登录。请在 设置 &gt; 网络 中重新登录。</translation>
     </message>
     <message>
-        <source>Wait for the NX metadata edit to finish before starting a game.</source>
-        <translation>请等 NX 元数据编辑完成后再启动游戏。</translation>
-    </message>
-    <message>
-        <source>NX Archive</source>
-        <translation>NX 归档</translation>
+        <source>Nextendo doesn&apos;t offer online play for this game right now.</source>
+        <translation>Nextendo 目前不为该游戏提供在线游戏。</translation>
     </message>
     <message>
         <source>Open &amp;Lichii Folders</source>
         <translation>打开 &amp;Lichii 文件夹</translation>
-    </message>
-    <message>
-        <source>Installable Switch File (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp *.nsz);;NX Cartridge Image (*.xci *.xcz)</source>
-        <translation>可安装的 Switch 文件 (*.nca *.nsp *.nsz *.xci *.xcz);;Nintendo 内容归档 (*.nca);;Nintendo 提交包 (*.nsp *.nsz);;NX 卡带镜像 (*.xci *.xcz)</translation>
-    </message>
-    <message>
-        <source>Edit Complete</source>
-        <translation>编辑完成</translation>
     </message>
     <message>
         <source>The shaders of this game are not precached yet. Precache them now?
@@ -9692,38 +10692,8 @@ You can change this in Configure, Graphics, Advanced.</source>
 可在 设置 → 图形 → 高级 里修改。</translation>
     </message>
     <message>
-        <source>Could not restore the previous version: %1</source>
-        <translation>无法恢复上一版本：%1</translation>
-    </message>
-    <message>
-        <source>Conversion Failed</source>
-        <translation>转换失败</translation>
-    </message>
-    <message>
-        <source>F</source>
-        <translation>F</translation>
-    </message>
-    <message>
         <source>&amp;About Lichii</source>
         <translation>关于 Lichii(&amp;A)</translation>
-    </message>
-    <message>
-        <source>Unable to prepare game files</source>
-        <translation>无法准备游戏文件</translation>
-    </message>
-    <message>
-        <source>The conversion can be resumed by choosing Convert to NUP again.</source>
-        <translation>再次选择“转换为 NUP”即可继续这次转换。</translation>
-    </message>
-    <message>
-        <source>Delete Shader Precache</source>
-        <translation>删除着色器预编译缓存</translation>
-    </message>
-    <message>
-        <source>The target directory already exists:
-%1</source>
-        <translation>目标目录已存在：
-%1</translation>
     </message>
     <message>
         <source>Don&apos;t show this again</source>
@@ -9734,85 +10704,20 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>&amp;Lichii 依赖项</translation>
     </message>
     <message>
-        <source>Resume Conversion</source>
-        <translation>继续转换</translation>
-    </message>
-    <message>
-        <source>%1&lt;br&gt;Install your decryption keys with Tools &gt; Install Decryption Keys, then start the game again.</source>
-        <translation>%1&lt;br&gt;请先在 工具 &gt; 安装解密密钥 中安装解密密钥，然后重新启动游戏。</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.ui" line="14"/>
-        <source>yuzu</source>
-        <translation type="vanished">yuzu</translation>
-    </message>
-    <message>
-        <source>Extracting NUP</source>
-        <translation>正在提取 NUP</translation>
-    </message>
-    <message>
-        <source>The NUP was created and the loose folder was removed.</source>
-        <translation>NUP 已创建，解包文件夹已删除。</translation>
-    </message>
-    <message>
-        <source> + %1 generated</source>
-        <translation> + 生成 %1</translation>
+        <source>Frame generation is running.%1</source>
+        <translation>帧生成正在运行。%1</translation>
     </message>
     <message>
         <source>Restore My &amp;Previous Settings</source>
         <translation>恢复我之前的设置(&amp;P)</translation>
     </message>
     <message>
-        <source>Edit Failed</source>
-        <translation>编辑失败</translation>
+        <source>Missing Lichii Account</source>
+        <translation>缺少 Lichii 账号</translation>
     </message>
     <message>
-        <source>M</source>
-        <translation>M</translation>
-    </message>
-    <message>
-        <source>FG %1 AUTO</source>
-        <translation>帧生成 %1 自动</translation>
-    </message>
-    <message>
-        <source>Precache Shaders</source>
-        <translation>预编译着色器</translation>
-    </message>
-    <message>
-        <source>Preparing game files...</source>
-        <translation>正在准备游戏文件...</translation>
-    </message>
-    <message>
-        <source>Restore Previous Version</source>
-        <translation>恢复上一版本</translation>
-    </message>
-    <message>
-        <source>Medium (44x44)</source>
-        <translation>中（44x44）</translation>
-    </message>
-    <message>
-        <source>Close the running game first.</source>
-        <translation>请先关闭正在运行的游戏。</translation>
-    </message>
-    <message>
-        <source>Not enough RAM</source>
-        <translation>内存不足</translation>
-    </message>
-    <message>
-        <source>Games cannot be started while the shader precache is being built. Wait for it to finish or cancel it.</source>
-        <translation>构建着色器预编译缓存期间无法启动游戏。请等待它完成或取消。</translation>
-    </message>
-    <message>
-        <source>This game cannot be started while its dump is being converted.</source>
-        <translation>该游戏的转储正在转换，无法启动。</translation>
-    </message>
-    <message>
-        <source>FG UNAVAILABLE</source>
-        <translation>帧生成不可用</translation>
-    </message>
-    <message>
-        <source>Could not check for updates: GitHub answered with HTTP %1.</source>
-        <translation>无法检查更新：GitHub 返回 HTTP %1。</translation>
+        <source>This version of the game can&apos;t play online on Nextendo. Update it to %1.</source>
+        <translation>此版本的游戏无法在 Nextendo 上进行在线游戏，请更新到 %1。</translation>
     </message>
     <message>
         <source>Recommended Mario Kart World settings</source>
@@ -9823,48 +10728,16 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>（%1 不适用）</translation>
     </message>
     <message>
-        <source>Conversion in Progress</source>
-        <translation>正在转换</translation>
+        <source> NVIDIA DLSS Frame Generation can&apos;t run for this game or setup, so FSR3 runs instead; the log says why.</source>
+        <translation> 该游戏或此配置无法运行 NVIDIA DLSS 帧生成，因此改用 FSR3；具体原因见日志。</translation>
     </message>
     <message>
-        <source>This game is being converted. Try again when it is done.</source>
-        <translation>该游戏正在转换中，请等转换完成后再试。</translation>
+        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model and null descriptors). The Optical Flow type may still work.</source>
+        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型和空描述符）。光流类型可能仍可使用。</translation>
     </message>
     <message>
-        <source>Stop the game before changing its NX archive.</source>
-        <translation>修改 NX 归档前请先停止游戏。</translation>
-    </message>
-    <message>
-        <source>The NUP was extracted. You can delete the NUP file if you no longer need it.</source>
-        <translation>NUP 已提取。如果不再需要 NUP 文件，可以将其删除。</translation>
-    </message>
-    <message>
-        <source>Start without</source>
-        <translation>不预编译直接启动</translation>
-    </message>
-    <message>
-        <source>This build was compiled without frame generation.</source>
-        <translation>此版本在编译时未包含帧生成。</translation>
-    </message>
-    <message>
-        <source>Conversion Cancelled</source>
-        <translation>转换已取消</translation>
-    </message>
-    <message>
-        <source>Could not check for updates: GitHub rate limit reached. Lichii will try again at the next start.</source>
-        <translation>无法检查更新：已达到 GitHub 速率限制。Lichii 会在下次启动时再试。</translation>
-    </message>
-    <message>
-        <source>FG %1 %2X</source>
-        <translation>帧生成 %1 %2X</translation>
-    </message>
-    <message>
-        <source>The currently running application has requested Lichii to not exit.
-
-Would you like to bypass this and exit anyway?</source>
-        <translation>当前正在运行的应用程序已请求 Lichii 不退出。
-
-您想要绕过并退出吗?</translation>
+        <source>Nextendo online play is on, but you aren&apos;t signed in. Sign in in Configure &gt; Network.</source>
+        <translation>Nextendo 在线游戏已开启，但你尚未登录。请在 设置 &gt; 网络 中登录。</translation>
     </message>
     <message>
         <source>Use the recommended settings for Mario Kart World?
@@ -9878,196 +10751,6 @@ Vulkan、1 倍分辨率、GPU 快速、异步着色器、BC3、保守显存、�
 
 这些设置会对《马力欧卡丁车世界》生效，直到 Lichii 关闭；你已保存的设置不会被修改。</translation>
     </message>
-    <message>
-        <source>Apply Recommended &amp;Settings...</source>
-        <translation>应用推荐设置(&amp;S)...</translation>
-    </message>
-    <message>
-        <source>The target archive already exists:
-%1</source>
-        <translation>目标归档已存在：
-%1</translation>
-    </message>
-    <message>
-        <source>NO FG</source>
-        <translation>无帧生成</translation>
-    </message>
-    <message>
-        <source>Lichii could not allocate the game&apos;s memory. Close other applications and check that your system has enough available memory and paging-file space, then try again.</source>
-        <translation>Lichii 无法分配游戏所需的内存。请关闭其他程序，确认系统有足够的可用内存和页面文件空间后重试。</translation>
-    </message>
-    <message>
-        <source>LSFG</source>
-        <translation>LSFG</translation>
-    </message>
-    <message>
-        <source>LSFG needs Lossless.dll from Lossless Scaling in the &quot;lossless&quot; folder of the user directory. It is missing or could not be loaded.</source>
-        <translation>LSFG 需要 Lossless Scaling 的 Lossless.dll，放在用户目录的“lossless”文件夹中。该文件缺失或无法加载。</translation>
-    </message>
-    <message>
-        <source>Frame generation needs the Vulkan renderer.</source>
-        <translation>帧生成需要 Vulkan 渲染器。</translation>
-    </message>
-    <message>
-        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model, null descriptors and 16-bit floats). The Optical Flow type may still work.</source>
-        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型、空描述符和 16 位浮点）。光流类型可能仍可用。</translation>
-    </message>
-    <message>
-        <source>Conversion Complete</source>
-        <translation>转换完成</translation>
-    </message>
-    <message>
-        <source>This GPU can&apos;t write to the window&apos;s swapchain format from a shader, so generated frames can&apos;t be presented.</source>
-        <translation>此 GPU 无法从着色器写入窗口的交换链格式，因此生成的帧无法呈现。</translation>
-    </message>
-    <message>
-        <source>Resume the interrupted conversion?</source>
-        <translation>要继续上次中断的转换吗？</translation>
-    </message>
-    <message>
-        <source>FSR 1 Soft</source>
-        <translation>FSR 1 柔和</translation>
-    </message>
-    <message>
-        <source>Delete the shader precache files of this game? They are built again the next time the game is precached.</source>
-        <translation>要删除该游戏的着色器预编译缓存文件吗？下次预编译时会重新构建。</translation>
-    </message>
-    <message>
-        <source>Failed to restore</source>
-        <translation>恢复失败</translation>
-    </message>
-    <message>
-        <source>FSR 1</source>
-        <translation>FSR 1</translation>
-    </message>
-    <message>
-        <source>Stop emulation before editing NX metadata.</source>
-        <translation>编辑 NX 元数据前请先停止模拟。</translation>
-    </message>
-    <message>
-        <source>Frame generation is on but not running. %1</source>
-        <translation>帧生成已开启但没有运行。%1</translation>
-    </message>
-    <message>
-        <source>Precache now</source>
-        <translation>现在预编译</translation>
-    </message>
-    <message>
-        <source> It adds up to %1 frames per game frame to reach %2 FPS.</source>
-        <translation> 每个游戏帧最多补出 %1 帧，以达到 %2 FPS。</translation>
-    </message>
-    <message>
-        <source>%1&lt;br&gt;Dump current keys from your own console and install them with Tools &gt; Install Decryption Keys, then start the game again. The log names the missing key.</source>
-        <translation>%1&lt;br&gt;请从你自己的主机中导出当前密钥，并通过 工具 &gt; 安装解密密钥 安装，然后重新启动游戏。日志中会写明缺少哪个密钥。</translation>
-    </message>
-    <message>
-        <source>Missing Lichii Account</source>
-        <translation>缺少 Lichii 账号</translation>
-    </message>
-    <message>
-        <source>DLSS FG paused</source>
-        <translation>DLSS 帧生成已暂停</translation>
-    </message>
-    <message>
-        <source>DLSS FG</source>
-        <translation>DLSS 帧生成</translation>
-    </message>
-    <message>
-        <source> NVIDIA DLSS Frame Generation can&apos;t run for this game or setup, so FSR3 runs instead; the log says why.</source>
-        <translation> 该游戏或此配置无法运行 NVIDIA DLSS 帧生成，因此改用 FSR3；具体原因见日志。</translation>
-    </message>
-    <message>
-        <source>Frame generation is running.%1%2</source>
-        <translation>帧生成已启用。%1%2</translation>
-    </message>
-    <message>
-        <source>Frame generation is on but generated no frames in the last half second. It pauses while it warms up, for a second after a frame takes longer than 100 ms, and while frames arrive in bursts.%1%2</source>
-        <translation>帧生成已开启，但最近半秒没有生成任何帧。预热期间、单帧耗时超过 100 ms 后的 1 秒内，以及帧成批到达时会暂停。%1%2</translation>
-    </message>
-    <message>
-        <source>&amp;Report a Bug...</source>
-        <translation>报告问题(&amp;R)...</translation>
-    </message>
-    <message>
-        <source>The shaders of this game are not precached yet. Precache them now?
-
-The game starts when they are done. The first time, the game files are read and their compute shaders are built on every CPU thread, which takes a few minutes. Later launches only build what is new, until the GPU driver changes. The loading screen has a Skip button.
-
-You can change this in Configure, Graphics, Advanced.</source>
-        <translation>该游戏的着色器尚未预编译。现在预编译吗？
-
-预编译完成后游戏才会启动。首次运行会读取游戏文件，并在每个 CPU 线程上构建其中的计算着色器，这需要几分钟。之后的启动只构建新增部分，直到 GPU 驱动发生变化。加载画面有“跳过”按钮。
-
-可在 设置 &gt; 图形 &gt; 高级 中更改此项。</translation>
-    </message>
-    <message>
-        <source>This GPU lacks Vulkan features LSFG needs (Vulkan memory model and null descriptors). The Optical Flow type may still work.</source>
-        <translation>此 GPU 缺少 LSFG 所需的 Vulkan 特性（Vulkan 内存模型和空描述符）。光流类型可能仍可使用。</translation>
-    </message>
-    <message>
-        <source>Check for &amp;Updates...</source>
-        <translation>检查更新(&amp;U)...</translation>
-    </message>
-    <message>
-        <source>Check for Updates</source>
-        <translation>检查更新</translation>
-    </message>
-    <message>
-        <source>This is a test or development build (%1) without a published release tag, so Lichii cannot compare it with published releases. Download a release from GitHub to get updates.</source>
-        <translation>这是测试版或开发版（%1），没有已发布的 release 标签，因此 Lichii 无法与已发布版本比较。请从 GitHub 下载正式发布版以获取更新。</translation>
-    </message>
-    <message>
-        <source>GitHub is limiting requests from your network right now. Please try again later.</source>
-        <translation>GitHub 目前正在限制来自你所在网络的请求，请稍后再试。</translation>
-    </message>
-    <message>
-        <source>GitHub answered with HTTP error %1. Please try again later.</source>
-        <translation>GitHub 返回了 HTTP 错误 %1，请稍后再试。</translation>
-    </message>
-    <message>
-        <source>Could not reach GitHub. Check your internet connection and try again.</source>
-        <translation>无法连接 GitHub。请检查网络连接后重试。</translation>
-    </message>
-    <message>
-        <source>You&apos;re on the latest build (%1).</source>
-        <translation>你已是最新版本（%1）。</translation>
-    </message>
-    <message>
-        <source>Your Nextendo session expired, so Lichii signed you out.</source>
-        <translation>你的 Nextendo 会话已过期，Lichii 已将你退出登录。</translation>
-    </message>
-    <message>
-        <source>Your session was ended on nextendo.network, so Lichii signed you out.</source>
-        <translation>你的会话已在 nextendo.network 上结束，Lichii 已将你退出登录。</translation>
-    </message>
-    <message>
-        <source>Your Nextendo sign-in didn&apos;t allow online play, so Lichii signed you out.</source>
-        <translation>你的 Nextendo 登录未允许在线游戏，Lichii 已将你退出登录。</translation>
-    </message>
-    <message>
-        <source>Sign in again in Configure &gt; Network.</source>
-        <translation>请在 设置 &gt; 网络 中重新登录。</translation>
-    </message>
-    <message>
-        <source>Nextendo online play is on, but you aren&apos;t signed in. Sign in in Configure &gt; Network.</source>
-        <translation>Nextendo 在线游戏已开启，但你尚未登录。请在 设置 &gt; 网络 中登录。</translation>
-    </message>
-    <message>
-        <source>Checking online patches...</source>
-        <translation>正在检查在线补丁…</translation>
-    </message>
-    <message>
-        <source>Nextendo doesn&apos;t offer online play for this game right now.</source>
-        <translation>Nextendo 目前不为该游戏提供在线游戏。</translation>
-    </message>
-    <message>
-        <source>This version of the game can&apos;t play online on Nextendo. Update it to %1.</source>
-        <translation>此版本的游戏无法在 Nextendo 上进行在线游戏，请更新到 %1。</translation>
-    </message>
-    <message>
-        <source>Nextendo Sign-ins</source>
-        <translation>Nextendo 登录记录</translation>
-    </message>
     <message numerus="yes">
         <source>Lichii found Nextendo sign-ins for %n profile(s) this NAND doesn&apos;t have. Profiles deleted in an older build left theirs behind.
 
@@ -10077,44 +10760,28 @@ Remove and sign out those sign-ins? Keep them if the profiles are in another NAN
 要移除并注销这些登录记录吗？如果这些配置档在另一个 NAND 文件夹中，请保留它们。</numerusform></translation>
     </message>
     <message>
-        <source>Stop emulation before linking saves</source>
-        <translation>链接存档前请先停止模拟</translation>
+        <source>Apply Recommended &amp;Settings...</source>
+        <translation>应用推荐设置(&amp;S)...</translation>
     </message>
     <message>
-        <source>Close the running game before changing Ryujinx save links.</source>
-        <translation>请在更改 Ryujinx 存档链接前关闭正在运行的游戏。</translation>
+        <source>%1&lt;br&gt;Install your decryption keys with Tools &gt; Install Decryption Keys, then start the game again.</source>
+        <translation>%1&lt;br&gt;请先在 工具 &gt; 安装解密密钥 中安装解密密钥，然后重新启动游戏。</translation>
     </message>
     <message>
-        <source>Auto</source>
-        <translation>自动</translation>
+        <source>LSFG needs Lossless.dll from Lossless Scaling in the &quot;lossless&quot; folder of the user directory. It is missing or could not be loaded.</source>
+        <translation>LSFG 需要 Lossless Scaling 的 Lossless.dll，放在用户目录的“lossless”文件夹中。该文件缺失或无法加载。</translation>
     </message>
     <message>
-        <source>Quality</source>
-        <translation>质量</translation>
+        <source>This GPU can&apos;t write to the window&apos;s swapchain format from a shader, so generated frames can&apos;t be presented.</source>
+        <translation>此 GPU 无法从着色器写入窗口的交换链格式，因此生成的帧无法呈现。</translation>
     </message>
     <message>
-        <source>Balanced</source>
-        <translation>均衡</translation>
+        <source>Lichii could not allocate the game&apos;s memory. Close other applications and check that your system has enough available memory and paging-file space, then try again.</source>
+        <translation>Lichii 无法分配游戏所需的内存。请关闭其他程序，确认系统有足够的可用内存和页面文件空间后重试。</translation>
     </message>
     <message>
-        <source>Performance</source>
-        <translation>性能</translation>
-    </message>
-    <message>
-        <source>Ultra Performance</source>
-        <translation>超高性能</translation>
-    </message>
-    <message>
-        <source>NVIDIA default</source>
-        <translation>NVIDIA 默认</translation>
-    </message>
-    <message>
-        <source>L</source>
-        <translation>L</translation>
-    </message>
-    <message>
-        <source>NVIDIA DLSS Frame Generation</source>
-        <translation>NVIDIA DLSS 帧生成</translation>
+        <source>Your Nextendo sign-in didn&apos;t allow online play, so Lichii signed you out.</source>
+        <translation>你的 Nextendo 登录未允许在线游戏，Lichii 已将你退出登录。</translation>
     </message>
 </context>
 <context>
@@ -10182,18 +10849,18 @@ The old profile was retained in backup directories at its old location. Keep the
     <message>
         <source>
 
-Data and settings are shared with %1. The source shader cache was not cleared.</source>
-        <translation>
-
-数据与设置已与 %1 共享。源着色器缓存未被清除。</translation>
-    </message>
-    <message>
-        <source>
-
 The original %1 profile is unchanged. Keep it until you have checked your saves.</source>
         <translation>
 
 原始的 %1 配置未改动。确认存档无误之前请保留它。</translation>
+    </message>
+    <message>
+        <source>
+
+Data and settings are shared with %1. The source shader cache was not cleared.</source>
+        <translation>
+
+数据与设置已与 %1 共享。源着色器缓存未被清除。</translation>
     </message>
 </context>
 <context>
@@ -10462,6 +11129,7 @@ Proceed anyway?</source>
         <translation>长度需为 1-32 个字符</translation>
     </message>
     <message>
+        <location line="+7"/>
         <source>Lichii</source>
         <translation>Lichii</translation>
     </message>
@@ -10573,12 +11241,13 @@ p, li { white-space: pre-wrap; }
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source> (+%1)</source>
-        <translation>（+%1）</translation>
-    </message>
-    <message>
+        <location filename="../../src/lichii/render/performance_overlay.cpp" line="+215"/>
         <source>FG +%1</source>
         <translation>帧生成 +%1</translation>
+    </message>
+    <message>
+        <source> (+%1)</source>
+        <translation>（+%1）</translation>
     </message>
 </context>
 <context>
@@ -11106,86 +11775,22 @@ p, li { white-space: pre-wrap; }
         <translation>收藏</translation>
     </message>
     <message>
-        <source>Citron</source>
-        <translation>Citron</translation>
-    </message>
-    <message>
-        <source>Lichii will use its own profile. Your old emulator data has not been changed.</source>
-        <translation>Lichii 将使用自己的配置。旧模拟器的数据未被改动。</translation>
-    </message>
-    <message>
-        <source>An earlier import did not finish. Recover the previous profile and retry? No source or backup data will be deleted.</source>
-        <translation>上一次导入未完成。要恢复之前的配置并重试吗？不会删除任何源数据或备份。</translation>
-    </message>
-    <message>
-        <source>Would you like to migrate your data for use in Lichii?
-Select the corresponding button to migrate data from that emulator.
-This may take a while.</source>
-        <translation>要把数据迁移到 Lichii 使用吗？
-点击对应按钮即可从该模拟器迁移数据。
-这可能需要一些时间。</translation>
-    </message>
-    <message>
-        <source>Click or drag to move the square. Zoom to keep a smaller part.</source>
-        <translation>点击或拖拽移动方框。放大可保留更小的部分。</translation>
-    </message>
-    <message>
-        <source>Lichii startup stopped</source>
-        <translation>Lichii 启动中止</translation>
-    </message>
-    <message>
-        <source>Crop Icon</source>
-        <translation>裁剪图标</translation>
-    </message>
-    <message>
-        <source>Zoom:</source>
-        <translation>缩放：</translation>
-    </message>
-    <message>
-        <source>Start fresh</source>
-        <translation>全新开始</translation>
-    </message>
-    <message>
-        <source>Lichii has detected user data for the following emulators:</source>
-        <translation>Lichii 检测到以下模拟器的用户数据：</translation>
-    </message>
-    <message>
-        <source>Import</source>
-        <translation>导入</translation>
-    </message>
-    <message>
+        <location filename="../../src/lichii/user_data_migration.cpp" line="+41"/>
         <source>Recover unfinished import</source>
         <translation>恢复未完成的导入</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>An earlier import did not finish. Recover the previous profile and retry? No source or backup data will be deleted.</source>
+        <translation>上一次导入未完成。要恢复之前的配置并重试吗？不会删除任何源数据或备份。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Move Old Data (retain backup)</source>
         <translation>移动旧数据（保留备份）</translation>
     </message>
     <message>
-        <source>Yuzu</source>
-        <translation>Yuzu</translation>
-    </message>
-    <message>
-        <source>Creates a filesystem link between the old directory and Lichii directory.
-This is recommended if you want to share data between emulators.</source>
-        <translation>在旧目录与 Lichii 目录之间创建文件系统链接。
-如果希望两个模拟器共享数据，推荐这种方式。</translation>
-    </message>
-    <message>
-        <source>%1 (update)</source>
-        <translation>%1（更新）</translation>
-    </message>
-    <message>
-        <source>Clearing shader cache is recommended when migrating from another emulator.
-Earlier Lichii builds kept their own cache in Eden&apos;s directory.</source>
-        <translation>从其他模拟器迁移时建议清除着色器缓存。
-早期的 Lichii 构建把缓存放在 Eden 目录里。</translation>
-    </message>
-    <message>
-        <source>Sudachi</source>
-        <translation>Sudachi</translation>
-    </message>
-    <message>
+        <location line="+43"/>
         <source>Import an existing emulator profile into Lichii?
 Copy keeps the original profile unchanged and is recommended.
 Move retains a recovery backup and requires space for a full copy.
@@ -11204,19 +11809,395 @@ Close this window to decide on the next launch.</source>
 关闭此窗口可在下次启动时再决定。</translation>
     </message>
     <message>
+        <location line="+7"/>
+        <source>Import</source>
+        <translation>导入</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start fresh</source>
+        <translation>全新开始</translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Lichii will use its own profile. Your old emulator data has not been changed.</source>
+        <translation>Lichii 将使用自己的配置。旧模拟器的数据未被改动。</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/main.cpp" line="+261"/>
+        <source>Lichii startup stopped</source>
+        <translation>Lichii 启动中止</translation>
+    </message>
+    <message>
+        <location filename="../../src/lichii/nx_tools.cpp" line="-875"/>
+        <source>Crop Icon</source>
+        <translation>裁剪图标</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Click or drag to move the square. Zoom to keep a smaller part.</source>
+        <translation>点击或拖拽移动方框。放大可保留更小的部分。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Zoom:</source>
+        <translation>缩放：</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/worker.cpp" line="-320"/>
+        <source>%1 (update)</source>
+        <translation>%1（更新）</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="258"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="266"/>
+        <source>Error Removing Transferable Shader Cache</source>
+        <translation>删除可传输着色器缓存错误</translation>
+    </message>
+    <message>
+        <source>One of these saves links to a different location. No saves were changed.</source>
+        <translation>其中一个存档链接到了其它位置，未更改任何存档。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="408"/>
+        <source>Export Failed</source>
+        <translation>导出失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
+        <source>Exporting data. This may take a while...</source>
+        <translation>正在导出数据。这可能需要一些时间...</translation>
+    </message>
+    <message>
+        <source>Sudachi</source>
+        <translation>Sudachi</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
+        <source>Export Cancelled</source>
+        <translation>导出已被取消</translation>
+    </message>
+    <message>
+        <source>Choose a Ryujinx save</source>
+        <translation>选择 Ryujinx 存档</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="119"/>
+        <source>Keeps the old data directory. This is recommended if you aren't
+space-constrained and want to keep separate data for the old emulator.</source>
+        <translation>保留旧的数据目录。如果你的存储空间充足，并且想为旧
+模拟器保留独立的数据，这是推荐做法。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="207"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="220"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="236"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="263"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="297"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="322"/>
+        <source>Successfully Removed</source>
+        <translation>删除成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="123"/>
+        <source>The specified directory does not contain valid Ryujinx data.</source>
+        <translation>指定的目录不包含有效的 Ryujinx 数据。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="124"/>
+        <source>Creates a filesystem link between the old directory and Eden directory.
+This is recommended if you want to share data between emulators.</source>
+        <translation>在旧目录和 Eden 目录之间创建文件系统链接。
+如果您想在模拟器之间共享数据,建议这样做。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
+        <source>Shortcut Created</source>
+        <translation>已创建快捷方式</translation>
+    </message>
+    <message>
+        <source>Save %1 (last used Ryujinx profile: %2)</source>
+        <translation>存档 %1（上次使用的 Ryujinx 配置档：%2）</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="232"/>
+        <source>There are no DLCs installed for this title.</source>
+        <translation>这个游戏没有任何已安装的 DLC。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="519"/>
+        <source>Please install firmware to use the home menu.</source>
+        <translation>请先安装固件才能使用主页菜单。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="70"/>
+        <source>Contains game save data. DO NOT REMOVE UNLESS YOU KNOW WHAT YOU&apos;RE DOING!</source>
+        <translation>包含游戏存档数据。除非你知道自己在做什么,否则不要删除！</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="93"/>
+        <source>Failed to delete one or more firmware files.</source>
+        <translation>删除一个或多个固件文件失败。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="398"/>
+        <source>Failed to create a shortcut to %1</source>
+        <translation>%1 的快捷方式创建失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="85"/>
+        <source>Decryption Keys failed to initialize. Check that your dumping tools are up to date and re-dump keys.</source>
+        <translation>密钥初始化失败。请检查您的转储工具是否为最新版本并重新转储密钥。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="224"/>
+        <source>There is no update installed for this title.</source>
+        <translation>这个游戏没有任何已安装的更新。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="208"/>
+        <source>Successfully removed the installed base game.</source>
+        <translation>已成功删除安装的基础游戏。</translation>
+    </message>
+    <message>
+        <source>Would you like to migrate your data for use in Lichii?
+Select the corresponding button to migrate data from that emulator.
+This may take a while.</source>
+        <translation>要把数据迁移到 Lichii 使用吗？
+点击对应按钮即可从该模拟器迁移数据。
+这可能需要一些时间。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="360"/>
+        <source>Clearing...</source>
+        <translation>正在清除...</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="292"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="302"/>
+        <source>Error Removing Transferable Shader Caches</source>
+        <translation>删除可传输着色器缓存错误</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="75"/>
+        <source>Contains game mods, patches, and cheats.</source>
+        <translation>包含游戏 mod、补丁以及作弊。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="98"/>
+        <source>Could not find a valid Ryujinx installation. This may typically occur if you are using Ryujinx in portable mode.
+
+Would you like to manually select a portable folder to use?</source>
+        <translation>未找到有效的 Ryujinx 安装。这通常可能发生在您以便携模式使用 Ryujinx 时。您想手动选择一个便携模式文件夹来使用吗?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="464"/>
+        <source>Create Icon</source>
+        <translation>创建图标</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="526"/>
+        <source>Home Menu is not available. Please reinstall firmware.</source>
+        <translation>主页菜单不可用。请重新安装固件。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="525"/>
+        <source>Home Menu Applet</source>
+        <translation>主页菜单小程序</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="232"/>
+        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. File contents could not be checked for validity.</source>
+        <translation>固件安装失败。固件可能处于异常状态或已损坏，无法验证文件内容的有效性。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="194"/>
+        <source>Error Removing Update</source>
+        <translation>删除更新时出错</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="41"/>
+        <source>This title is already linked to Ryujinx. Would you like to unlink it?</source>
+        <translation>此游戏已经被链接到 Ryujinx。您要取消链接它吗?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="541"/>
+        <source>Firmware cleanup failed</source>
+        <translation>清理固件失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="129"/>
+        <source>Ryujinx title database does not exist.</source>
+        <translation>Ryujinx 标题数据库不存在。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="40"/>
+        <source>Already Linked</source>
+        <translation>已链接</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="92"/>
+        <source>Unable to locate potential firmware NCA files</source>
+        <translation>无法定位潜在的固件 NCA 文件</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="226"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="287"/>
+        <source>Integrity verification failed!</source>
+        <translation>完整性验证失败！</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="59"/>
+        <source>ExeFS/Patch</source>
+        <translation>ExeFS/Patch</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="134"/>
+        <source>Title %1 not found in Ryujinx title database.</source>
+        <translation>在 Ryujinx 的标题数据库中找不到标题 %1。</translation>
+    </message>
+    <message>
+        <source>Save %1 (device save)</source>
+        <translation>存档 %1（设备存档）</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="518"/>
+        <source>No firmware available</source>
+        <translation>无可用固件</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="84"/>
+        <source>Successfully unlinked Ryujinx save data. Save data has been kept intact.</source>
+        <translation>已成功取消链接 Ryujinx 存档数据。存档数据已保持完整。</translation>
+    </message>
+    <message>
+        <source>Lichii has detected user data for the following emulators:</source>
+        <translation>Lichii 检测到以下模拟器的用户数据：</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="391"/>
+        <source>This will create a shortcut to the current AppImage. This may not work well if you update. Continue?</source>
+        <translation>这回创建到当前 AppImage 的快捷方式。它可能会在您更新后失效。要继续吗?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="445"/>
+        <source>Importing</source>
+        <translation>正在导入</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="64"/>
+        <source>Mod Type</source>
+        <translation>模组类型</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
+        <source>Do you want to launch the game in fullscreen?</source>
+        <translation>您想以全屏模式启动游戏吗？</translation>
+    </message>
+    <message>
+        <source>Could not update the save link:
+%1</source>
+        <translation>无法更新存档链接：
+%1</translation>
+    </message>
+    <message>
         <source>Copies and verifies the full profile before moving the source aside as a recovery backup.
 Requires enough free space for a full copy. Keep the backup until you have checked your saves.</source>
         <translation>先完整复制并校验配置，再把源目录移到一边作为恢复备份。
 需要足够的可用空间做完整复制。确认存档无误之前请保留备份。</translation>
     </message>
     <message>
-        <source>Suyu</source>
-        <translation>Suyu</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="352"/>
+        <source>Are you REALLY sure?</source>
+        <translation>您真的确定吗?</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="30"/>
-        <source>Game Requires Firmware</source>
-        <translation>游戏需要固件</translation>
+        <location filename="../../src/qt_common/util/fs.cpp" line="69"/>
+        <location filename="../../src/qt_common/util/fs.cpp" line="79"/>
+        <source>OS returned error: %1</source>
+        <translation>OS 返回错误: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="196"/>
+        <source>Error Removing DLC</source>
+        <translation>删除 DLC 时出错</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="237"/>
+        <source>Successfully removed %1 installed DLC.</source>
+        <translation>成功删除 %1 个已安装的 DLC。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="133"/>
+        <source>No items found in Ryujinx title database.</source>
+        <translation>在 Ryujinx 的标题数据库中找不到项目。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="267"/>
+        <source>Failed to remove the transferable shader cache.</source>
+        <translation>删除可传输着色器缓存失败。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="60"/>
+        <source>Cheat</source>
+        <translation>作弊</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
+        <source>Save data has been linked.</source>
+        <translation>已链接存档数据。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="213"/>
+        <source>The base game is not installed in the NAND and cannot be removed.</source>
+        <translation>基础游戏未被安装到 NAND 中并且无法被删除。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="364"/>
+        <source>The metadata cache couldn&apos;t be deleted. It might be in use or non-existent.</source>
+        <translation>缓存数据删除失败。它可能不存在或正在被使用。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
+        <source>Select Export Location</source>
+        <translation>选择导出位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="127"/>
+        <location filename="../../src/qt_common/util/mod.cpp" line="140"/>
+        <source>Mod Extract Failed</source>
+        <translation>模组提取失败</translation>
+    </message>
+    <message>
+        <source>Clearing shader cache is recommended when migrating from another emulator.
+Earlier Lichii builds kept their own cache in Eden&apos;s directory.</source>
+        <translation>从其他模拟器迁移时建议清除着色器缓存。
+早期的 Lichii 构建把缓存放在 Eden 目录里。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="110"/>
+        <source>Eden has detected user data for the following emulators:</source>
+        <translation>Eden 已检测到下列模拟器的用户数据:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="81"/>
+        <source>One or more keys failed to copy.</source>
+        <translation>一个或多个密钥复制失败。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
+        <source>Successfully created a shortcut to %1</source>
+        <translation>%1 的快捷方式创建成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="231"/>
+        <source>Integrity verification couldn&apos;t be performed</source>
+        <translation>无法执行完整性验证</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="501"/>
+        <source>Install decryption keys and restart Eden before attempting to install firmware.</source>
+        <translation>在尝试安装固件之前先安装解密密钥并重启 Eden。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/content.cpp" line="31"/>
@@ -11224,18 +12205,61 @@ Requires enough free space for a full copy. Keep the backup until you have check
         <translation>这个游戏可能需要固件才能正常运行,但您还没有安装任何固件。请在启动前安装固件,或者按 “确定” 继续启动。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
-        <source>Installing Firmware...</source>
-        <translation>正在安装固件……</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="328"/>
+        <source>UNEXPECTED BAD THINGS MAY HAPPEN IF YOU DON&apos;T READ THIS!&lt;br&gt;Eden has detected the following save directories with no attached profile:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;The following profiles are valid:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;Click &quot;OK&quot; to open your save folder and fix up your profiles.&lt;br&gt;Hint: copy the contents of the largest or last-modified folder elsewhere, delete all orphaned profiles, and move your copied contents to the good profile.&lt;br&gt;&lt;br&gt;Still confused? See the &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;help page&lt;/a&gt;.&lt;br&gt;</source>
+        <translation>如果您不阅读此内容,可能会发生意想不到的糟糕情况!&lt;br&gt;Eden 检测到以下存档目录没有附加的配置文件:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;下列配置是有效的:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;点击“确定”以打开您的存档文件夹并修复配置文件。&lt;br&gt;提示: 将最大或最近修改的文件夹内容复制到其他地方,删除所有孤立的配置文件,然后将复制的内容移到正确的配置文件中。&lt;br&gt;&lt;br&gt;还是感到疑惑? 请查看 &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;帮助页&lt;/a&gt;。&lt;br&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
-        <source>Cancel</source>
-        <translation>取消</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="83"/>
+        <source>Verify your keys file has a .keys extension and try again.</source>
+        <translation>请确保密钥文件具有 .keys 的扩展名后重试。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="382"/>
+        <source>Exporting</source>
+        <translation>正在导出</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="542"/>
+        <source>Failed to clean up extracted firmware cache.
+Check write permissions in the system temp directory and try again.
+OS reported error: %1</source>
+        <translation>清理提取的固件缓存失败。
+请检查系统临时目录的写入权限然后重试。
+OS 报告的错误: %1</translation>
+    </message>
+    <message>
+        <source>Could not find Ryujinx save data in the default or previously used location. Would you like to choose a Ryujinx data folder?</source>
+        <translation>在默认位置或上次使用的位置找不到 Ryujinx 存档数据。要选择 Ryujinx 数据文件夹吗？</translation>
+    </message>
+    <message>
+        <source>Save %1 (Ryujinx profile: %2)</source>
+        <translation>存档 %1（Ryujinx 配置档：%2）</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="221"/>
+        <source>Successfully removed the installed update.</source>
+        <translation>已成功删除安装的更新。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/path.cpp" line="20"/>
+        <source>Failed to create or open shader cache for this title, ensure your app data directory has write permissions.</source>
+        <translation>无法为此游戏创建或打开着色器缓存,请确保您的 app data 目录具有写入权限。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
+        <source>Import was cancelled by the user.</source>
+        <translation>导入已被用户取消。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="141"/>
+        <location filename="../../src/qt_common/util/fs.cpp" line="145"/>
+        <source>Could not find Ryujinx save data</source>
+        <translation>找不到 Ryujinx 的存档数据</translation>
+    </message>
+    <message>
+        <source>Failed to unlink Ryujinx save data</source>
+        <translation>取消 Ryujinx 存档链接失败</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/content.cpp" line="56"/>
@@ -11243,14 +12267,102 @@ Requires enough free space for a full copy. Keep the backup until you have check
         <translation>安装固件失败</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="57"/>
-        <source>Firmware Install Succeeded</source>
-        <translation>安装固件成功</translation>
+        <location filename="../../src/qt_common/util/fs.cpp" line="97"/>
+        <source>Could not find Ryujinx installation</source>
+        <translation>无法找到 Ryujinx 安装数据</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="165"/>
-        <source>Firmware integrity verification failed!</source>
-        <translation>固件完整性验证失败！</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="94"/>
+        <source>One or more firmware files failed to copy into NAND.</source>
+        <translation>将一个或多个固件文件复制到 NAND 失败。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
+        <source>Export was cancelled by the user.</source>
+        <translation>导出已被用户取消。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="65"/>
+        <source>Could not detect mod type automatically. Please manually specify the type of mod you downloaded.
+
+Most mods are RomFS mods, but patches (.pchtxt) are typically ExeFS mods.</source>
+        <translation>无法自动检测模组类型。请手动说明你下载的模组类型。
+
+大多数模组是 RomFS 模组，但补丁（.pchtxt）通常是 ExeFS 模组。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
+        <source>Select Import Location</source>
+        <translation>选择导入位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="478"/>
+        <source>Imported Successfully</source>
+        <translation>导入成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/path.cpp" line="19"/>
+        <source>Error Opening Shader Cache</source>
+        <translation>打开着色器缓存错误</translation>
+    </message>
+    <message>
+        <source>Creates a filesystem link between the old directory and Lichii directory.
+This is recommended if you want to share data between emulators.</source>
+        <translation>在旧目录与 Lichii 目录之间创建文件系统链接。
+如果希望两个模拟器共享数据，推荐这种方式。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="83"/>
+        <source>Unlink Successful</source>
+        <translation>取消链接成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="482"/>
+        <source>Import Failed</source>
+        <translation>导入失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
+        <source>Verifying integrity...</source>
+        <translation>正在验证完整性...</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="223"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="282"/>
+        <source>The operation completed successfully.</source>
+        <translation>操作成功完成。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="222"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="281"/>
+        <source>Integrity verification succeeded!</source>
+        <translation>完整性验证成功！</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="130"/>
+        <source>Invalid header on Ryujinx title database.</source>
+        <translation>Ryujinx 标题数据库头部无效。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="48"/>
+        <source>Mod Name</source>
+        <translation>模组名称</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="282"/>
+        <source>Error Removing Vulkan Driver Pipeline Cache</source>
+        <translation>移除 Vulkan 驱动管线缓存错误</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="283"/>
+        <source>Failed to remove the driver pipeline cache.</source>
+        <translation>删除驱动管线缓存失败。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="409"/>
+        <source>Ensure you have write permissions on the targeted directory and try again.</source>
+        <translation>请确认您是否具有目标目录的写入权限然后再次尝试。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/content.cpp" line="166"/>
@@ -11263,256 +12375,17 @@ Requires enough free space for a full copy. Keep the backup until you have check
 %1</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
-        <source>Verifying integrity...</source>
-        <translation>正在验证完整性...</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="222"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="281"/>
-        <source>Integrity verification succeeded!</source>
-        <translation>完整性验证成功！</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="223"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="282"/>
-        <source>The operation completed successfully.</source>
-        <translation>操作成功完成。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="226"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="287"/>
-        <source>Integrity verification failed!</source>
-        <translation>完整性验证失败！</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="227"/>
-        <source>File contents may be corrupt or missing.</source>
-        <translation>文件内容可能缺失或已损坏。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="231"/>
-        <source>Integrity verification couldn&apos;t be performed</source>
-        <translation>无法执行完整性验证</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="232"/>
-        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. File contents could not be checked for validity.</source>
-        <translation>固件安装失败。固件可能处于异常状态或已损坏，无法验证文件内容的有效性。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="239"/>
-        <source>Select Dumped Keys Location</source>
-        <translation>选择导出的密钥文件位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="252"/>
-        <source>Decryption Keys install succeeded</source>
-        <translation>密钥文件安装成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="255"/>
-        <source>Decryption Keys install failed</source>
-        <translation>密钥文件安装失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="327"/>
-        <source>Orphaned Profiles Detected!</source>
-        <translation>检测到孤立的配置文件!</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="328"/>
-        <source>UNEXPECTED BAD THINGS MAY HAPPEN IF YOU DON&apos;T READ THIS!&lt;br&gt;Eden has detected the following save directories with no attached profile:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;The following profiles are valid:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;Click &quot;OK&quot; to open your save folder and fix up your profiles.&lt;br&gt;Hint: copy the contents of the largest or last-modified folder elsewhere, delete all orphaned profiles, and move your copied contents to the good profile.&lt;br&gt;&lt;br&gt;Still confused? See the &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;help page&lt;/a&gt;.&lt;br&gt;</source>
-        <translation>如果您不阅读此内容,可能会发生意想不到的糟糕情况!&lt;br&gt;Eden 检测到以下存档目录没有附加的配置文件:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;下列配置是有效的:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;点击“确定”以打开您的存档文件夹并修复配置文件。&lt;br&gt;提示: 将最大或最近修改的文件夹内容复制到其他地方,删除所有孤立的配置文件,然后将复制的内容移到正确的配置文件中。&lt;br&gt;&lt;br&gt;还是感到疑惑? 请查看 &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;帮助页&lt;/a&gt;。&lt;br&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
-        <source>Really clear data?</source>
-        <translation>确实要清除数据吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
-        <source>Important data may be lost!</source>
-        <translation>可能会丢失重要的数据!</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="352"/>
-        <source>Are you REALLY sure?</source>
-        <translation>您真的确定吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="353"/>
-        <source>Once deleted, your data will NOT come back!
-Only do this if you&apos;re 100% sure you want to delete this data.</source>
-        <translation>在删除后,您将无法找回数据!
-仅在您 100% 确认要删除此数据时才这样做。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="360"/>
-        <source>Clearing...</source>
-        <translation>正在清除...</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
-        <source>Select Export Location</source>
-        <translation>选择导出位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
-        <source>%1.zip</source>
-        <translation>%1.zip</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
-        <source>Zipped Archives (*.zip)</source>
-        <translation>压缩档案 (*.zip)</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
-        <source>Exporting data. This may take a while...</source>
-        <translation>正在导出数据。这可能需要一些时间...</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="382"/>
-        <source>Exporting</source>
-        <translation>正在导出</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
-        <source>Exported Successfully</source>
-        <translation>导出成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
-        <source>Data was exported successfully.</source>
-        <translation>数据已成功导出。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
-        <source>Export Cancelled</source>
-        <translation>导出已被取消</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
-        <source>Export was cancelled by the user.</source>
-        <translation>导出已被用户取消。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="408"/>
-        <source>Export Failed</source>
-        <translation>导出失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="409"/>
-        <source>Ensure you have write permissions on the targeted directory and try again.</source>
-        <translation>请确认您是否具有目标目录的写入权限然后再次尝试。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
-        <source>Select Import Location</source>
-        <translation>选择导入位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="434"/>
-        <source>Import Warning</source>
-        <translation>导入警告</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="435"/>
-        <source>All previous data in this directory will be deleted. Are you sure you wish to proceed?</source>
-        <translation>此目录中的所有先前数据将被删除。您确定要继续吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
-        <source>Importing data. This may take a while...</source>
-        <translation>正在导入数据。这需要一些时间...</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="445"/>
-        <source>Importing</source>
-        <translation>正在导入</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="478"/>
-        <source>Imported Successfully</source>
-        <translation>导入成功</translation>
-    </message>
-    <message>
         <location filename="../../src/qt_common/util/content.cpp" line="478"/>
         <source>Data was imported successfully.</source>
         <translation>数据已导入成功。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
-        <source>Import Cancelled</source>
-        <translation>导入已被取消</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
-        <source>Import was cancelled by the user.</source>
-        <translation>导入已被用户取消。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="482"/>
-        <source>Import Failed</source>
-        <translation>导入失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="483"/>
-        <source>Ensure you have read permissions on the targeted directory and try again.</source>
-        <translation>请确认是否您具有目标目录的读取权限然后再次尝试。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="500"/>
-        <source>Keys not installed</source>
-        <translation>未安装密钥</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="501"/>
-        <source>Install decryption keys and restart Eden before attempting to install firmware.</source>
-        <translation>在尝试安装固件之前先安装解密密钥并重启 Eden。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="513"/>
-        <source>Select Dumped Firmware Source Location</source>
-        <translation>选择已转储的固件源位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
-        <source>Select Dumped Firmware ZIP</source>
-        <translation>选择已转储的固件 ZIP</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="541"/>
-        <source>Firmware cleanup failed</source>
-        <translation>清理固件失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="542"/>
-        <source>Failed to clean up extracted firmware cache.
-Check write permissions in the system temp directory and try again.
-OS reported error: %1</source>
-        <translation>清理提取的固件缓存失败。
-请检查系统临时目录的写入权限然后重试。
-OS 报告的错误: %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
-        <source>Linked Save Data</source>
-        <translation>链接存档数据</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
-        <source>Save data has been linked.</source>
-        <translation>已链接存档数据。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="26"/>
-        <source>Failed to link save data</source>
-        <translation>链接存档数据失败</translation>
+        <source>
+
+Previous save data was kept at:%1</source>
+        <translation>
+
+此前的存档数据保留在：%1</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/fs.cpp" line="27"/>
@@ -11526,428 +12399,13 @@ To:
 	%2</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="40"/>
-        <source>Already Linked</source>
-        <translation>已链接</translation>
+        <source>Citron</source>
+        <translation>Citron</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="41"/>
-        <source>This title is already linked to Ryujinx. Would you like to unlink it?</source>
-        <translation>此游戏已经被链接到 Ryujinx。您要取消链接它吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="68"/>
-        <source>Failed to unlink old directory</source>
-        <translation>取消链接旧目录失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="69"/>
-        <location filename="../../src/qt_common/util/fs.cpp" line="79"/>
-        <source>OS returned error: %1</source>
-        <translation>OS 返回错误: %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="78"/>
-        <source>Failed to copy save data</source>
-        <translation>复制存档数据失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="83"/>
-        <source>Unlink Successful</source>
-        <translation>取消链接成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="84"/>
-        <source>Successfully unlinked Ryujinx save data. Save data has been kept intact.</source>
-        <translation>已成功取消链接 Ryujinx 存档数据。存档数据已保持完整。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="97"/>
-        <source>Could not find Ryujinx installation</source>
-        <translation>无法找到 Ryujinx 安装数据</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="98"/>
-        <source>Could not find a valid Ryujinx installation. This may typically occur if you are using Ryujinx in portable mode.
-
-Would you like to manually select a portable folder to use?</source>
-        <translation>未找到有效的 Ryujinx 安装。这通常可能发生在您以便携模式使用 Ryujinx 时。您想手动选择一个便携模式文件夹来使用吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="105"/>
-        <source>Ryujinx Portable Location</source>
-        <translation>便携 Ryujinx 安装位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="122"/>
-        <source>Not a valid Ryujinx directory</source>
-        <translation>不是有效的 Ryujinx 安装目录</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="123"/>
-        <source>The specified directory does not contain valid Ryujinx data.</source>
-        <translation>指定的目录不包含有效的 Ryujinx 数据。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="141"/>
-        <location filename="../../src/qt_common/util/fs.cpp" line="145"/>
-        <source>Could not find Ryujinx save data</source>
-        <translation>找不到 Ryujinx 的存档数据</translation>
-    </message>
-    <message>
-        <source>
-
-Previous save data was kept at:%1</source>
-        <translation>
-
-此前的存档数据保留在：%1</translation>
-    </message>
-    <message>
-        <source>Failed to unlink Ryujinx save data</source>
-        <translation>取消 Ryujinx 存档链接失败</translation>
-    </message>
-    <message>
-        <source>Could not update the save link:
-%1</source>
-        <translation>无法更新存档链接：
-%1</translation>
-    </message>
-    <message>
-        <source>The saves are now separate copies.</source>
-        <translation>两个存档现在是各自独立的副本。</translation>
-    </message>
-    <message>
-        <source>Save is already linked</source>
-        <translation>存档已链接</translation>
-    </message>
-    <message>
-        <source>One of these saves links to a different location. No saves were changed.</source>
-        <translation>其中一个存档链接到了其它位置，未更改任何存档。</translation>
-    </message>
-    <message>
-        <source>Could not find Ryujinx save data in the default or previously used location. Would you like to choose a Ryujinx data folder?</source>
-        <translation>在默认位置或上次使用的位置找不到 Ryujinx 存档数据。要选择 Ryujinx 数据文件夹吗？</translation>
-    </message>
-    <message>
-        <source>Ryujinx Data Folder</source>
-        <translation>Ryujinx 数据文件夹</translation>
-    </message>
-    <message>
-        <source>No committed account or device save for title %1 is available in Ryujinx.</source>
-        <translation>Ryujinx 中没有该游戏（%1）已提交的账号存档或设备存档。</translation>
-    </message>
-    <message>
-        <source>Save %1 (device save)</source>
-        <translation>存档 %1（设备存档）</translation>
-    </message>
-    <message>
-        <source>Save %1 (last used Ryujinx profile: %2)</source>
-        <translation>存档 %1（上次使用的 Ryujinx 配置档：%2）</translation>
-    </message>
-    <message>
-        <source>Save %1 (Ryujinx profile: %2)</source>
-        <translation>存档 %1（Ryujinx 配置档：%2）</translation>
-    </message>
-    <message>
-        <source>Choose a Ryujinx save</source>
-        <translation>选择 Ryujinx 存档</translation>
-    </message>
-    <message>
-        <source>Select the Ryujinx save you want to link.</source>
-        <translation>选择你想要链接的 Ryujinx 存档。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="192"/>
-        <source>Error Removing Contents</source>
-        <translation>删除内容时出错</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="194"/>
-        <source>Error Removing Update</source>
-        <translation>删除更新时出错</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="196"/>
-        <source>Error Removing DLC</source>
-        <translation>删除 DLC 时出错</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="207"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="220"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="236"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="263"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="297"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="322"/>
-        <source>Successfully Removed</source>
-        <translation>删除成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="208"/>
-        <source>Successfully removed the installed base game.</source>
-        <translation>已成功删除安装的基础游戏。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="213"/>
-        <source>The base game is not installed in the NAND and cannot be removed.</source>
-        <translation>基础游戏未被安装到 NAND 中并且无法被删除。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="221"/>
-        <source>Successfully removed the installed update.</source>
-        <translation>已成功删除安装的更新。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="224"/>
-        <source>There is no update installed for this title.</source>
-        <translation>这个游戏没有任何已安装的更新。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="232"/>
-        <source>There are no DLCs installed for this title.</source>
-        <translation>这个游戏没有任何已安装的 DLC。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="237"/>
-        <source>Successfully removed %1 installed DLC.</source>
-        <translation>成功删除 %1 个已安装的 DLC。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="258"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="266"/>
-        <source>Error Removing Transferable Shader Cache</source>
-        <translation>删除可传输着色器缓存错误</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="259"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="293"/>
-        <source>A shader cache for this title does not exist.</source>
-        <translation>这个游戏的着色器缓存不存在。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="264"/>
-        <source>Successfully removed the transferable shader cache.</source>
-        <translation>成功删除可传输着色器缓存。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="267"/>
-        <source>Failed to remove the transferable shader cache.</source>
-        <translation>删除可传输着色器缓存失败。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="282"/>
-        <source>Error Removing Vulkan Driver Pipeline Cache</source>
-        <translation>移除 Vulkan 驱动管线缓存错误</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="283"/>
-        <source>Failed to remove the driver pipeline cache.</source>
-        <translation>删除驱动管线缓存失败。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="292"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="302"/>
-        <source>Error Removing Transferable Shader Caches</source>
-        <translation>删除可传输着色器缓存错误</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="298"/>
-        <source>Successfully removed the transferable shader caches.</source>
-        <translation>成功删除可传输着色器缓存。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="303"/>
-        <source>Failed to remove the transferable shader cache directory.</source>
-        <translation>删除可传输着色器缓存失败。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="316"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="325"/>
-        <source>Error Removing Custom Configuration</source>
-        <translation>删除自定义配置错误</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="317"/>
-        <source>A custom configuration for this title does not exist.</source>
-        <translation>这个游戏的自定义设置不存在。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="323"/>
-        <source>Successfully removed the custom game configuration.</source>
-        <translation>成功移除自定义游戏设置。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="326"/>
-        <source>Failed to remove the custom game configuration.</source>
-        <translation>移除自定义游戏设置失败。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="347"/>
-        <source>Reset Metadata Cache</source>
-        <translation>重置元数据缓存</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="353"/>
-        <source>The metadata cache is already empty.</source>
-        <translation>元数据缓存已为空。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="364"/>
-        <source>The metadata cache couldn&apos;t be deleted. It might be in use or non-existent.</source>
-        <translation>缓存数据删除失败。它可能不存在或正在被使用。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
-        <source>Create Shortcut</source>
-        <translation>创建快捷方式</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
-        <source>Do you want to launch the game in fullscreen?</source>
-        <translation>您想以全屏模式启动游戏吗？</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
-        <source>Shortcut Created</source>
-        <translation>已创建快捷方式</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
-        <source>Successfully created a shortcut to %1</source>
-        <translation>%1 的快捷方式创建成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="390"/>
-        <source>Shortcut may be Volatile!</source>
-        <translation>快捷方式可能不稳定!</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="391"/>
-        <source>This will create a shortcut to the current AppImage. This may not work well if you update. Continue?</source>
-        <translation>这回创建到当前 AppImage 的快捷方式。它可能会在您更新后失效。要继续吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="397"/>
-        <source>Failed to Create Shortcut</source>
-        <translation>创建快捷方式失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="398"/>
-        <source>Failed to create a shortcut to %1</source>
-        <translation>%1 的快捷方式创建失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="464"/>
-        <source>Create Icon</source>
-        <translation>创建图标</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="465"/>
-        <source>Cannot create icon file. Path &quot;%1&quot; does not exist and cannot be created.</source>
-        <translation>无法创建图标文件。路径“ %1 ”不存在且无法被创建。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="518"/>
-        <source>No firmware available</source>
-        <translation>无可用固件</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="519"/>
-        <source>Please install firmware to use the home menu.</source>
-        <translation>请先安装固件才能使用主页菜单。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="525"/>
-        <source>Home Menu Applet</source>
-        <translation>主页菜单小程序</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="526"/>
-        <source>Home Menu is not available. Please reinstall firmware.</source>
-        <translation>主页菜单不可用。请重新安装固件。</translation>
-    </message>
-    <message>
-        <source>Failed to remove the saved compiled shaders.</source>
-        <translation>无法删除已保存的编译着色器。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="48"/>
-        <source>Mod Name</source>
-        <translation>模组名称</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="48"/>
-        <source>What should this mod be called?</source>
-        <translation>这个模组应该叫什么名字？</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="58"/>
-        <source>RomFS</source>
-        <translation>RomFS</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="59"/>
-        <source>ExeFS/Patch</source>
-        <translation>ExeFS/Patch</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="60"/>
-        <source>Cheat</source>
-        <translation>作弊</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="64"/>
-        <source>Mod Type</source>
-        <translation>模组类型</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="65"/>
-        <source>Could not detect mod type automatically. Please manually specify the type of mod you downloaded.
-
-Most mods are RomFS mods, but patches (.pchtxt) are typically ExeFS mods.</source>
-        <translation>无法自动检测模组类型。请手动说明你下载的模组类型。
-
-大多数模组是 RomFS 模组，但补丁（.pchtxt）通常是 ExeFS 模组。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="127"/>
-        <location filename="../../src/qt_common/util/mod.cpp" line="140"/>
-        <source>Mod Extract Failed</source>
-        <translation>模组提取失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="128"/>
-        <source>Failed to create temporary directory %1</source>
-        <translation>未能创建临时 %1 目录</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="141"/>
-        <source>Zip file %1 is empty</source>
-        <translation>压缩文件 %1 是空的。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/path.cpp" line="19"/>
-        <source>Error Opening Shader Cache</source>
-        <translation>打开着色器缓存错误</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/path.cpp" line="20"/>
-        <source>Failed to create or open shader cache for this title, ensure your app data directory has write permissions.</source>
-        <translation>无法为此游戏创建或打开着色器缓存,请确保您的 app data 目录具有写入权限。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="70"/>
-        <source>Contains game save data. DO NOT REMOVE UNLESS YOU KNOW WHAT YOU&apos;RE DOING!</source>
-        <translation>包含游戏存档数据。除非你知道自己在做什么,否则不要删除！</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="72"/>
-        <source>Contains Vulkan and OpenGL pipeline caches. Generally safe to remove.</source>
-        <translation>包含 Vulkan 和 OpenGL 管线缓存。通常可以安全删除。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="73"/>
-        <source>Contains updates and DLC for games.</source>
-        <translation>包含游戏的更新和 DLC。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
+        <source>Select Dumped Firmware ZIP</source>
+        <translation>选择已转储的固件 ZIP</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/qt_string_lookup.h" line="74"/>
@@ -11955,14 +12413,14 @@ Most mods are RomFS mods, but patches (.pchtxt) are typically ExeFS mods.</sourc
         <translation>包含固件和小程序数据。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="75"/>
-        <source>Contains game mods, patches, and cheats.</source>
-        <translation>包含游戏 mod、补丁以及作弊。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="252"/>
+        <source>Decryption Keys install succeeded</source>
+        <translation>密钥文件安装成功</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="79"/>
-        <source>Decryption Keys were successfully installed</source>
-        <translation>已成功安装解密密钥</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="483"/>
+        <source>Ensure you have read permissions on the targeted directory and try again.</source>
+        <translation>请确认是否您具有目标目录的读取权限然后再次尝试。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/qt_string_lookup.h" line="80"/>
@@ -11970,59 +12428,37 @@ Most mods are RomFS mods, but patches (.pchtxt) are typically ExeFS mods.</sourc
         <translation>无法读取密钥目录,正在放弃</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="81"/>
-        <source>One or more keys failed to copy.</source>
-        <translation>一个或多个密钥复制失败。</translation>
+        <location filename="../../src/qt_common/util/mod.cpp" line="128"/>
+        <source>Failed to create temporary directory %1</source>
+        <translation>未能创建临时 %1 目录</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="83"/>
-        <source>Verify your keys file has a .keys extension and try again.</source>
-        <translation>请确保密钥文件具有 .keys 的扩展名后重试。</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="303"/>
+        <source>Failed to remove the transferable shader cache directory.</source>
+        <translation>删除可传输着色器缓存失败。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="85"/>
-        <source>Decryption Keys failed to initialize. Check that your dumping tools are up to date and re-dump keys.</source>
-        <translation>密钥初始化失败。请检查您的转储工具是否为最新版本并重新转储密钥。</translation>
+        <source>Save is already linked</source>
+        <translation>存档已链接</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="91"/>
-        <source>Successfully installed firmware version %1</source>
-        <translation>成功安装固件版本 %1</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
+        <source>Zipped Archives (*.zip)</source>
+        <translation>压缩档案 (*.zip)</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="92"/>
-        <source>Unable to locate potential firmware NCA files</source>
-        <translation>无法定位潜在的固件 NCA 文件</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="115"/>
+        <source>Clearing shader cache is recommended for all users.
+Do not uncheck unless you know what you&apos;re doing.</source>
+        <translation>建议所有用户清除着色器缓存。
+除非您知道自己在做什么，否则不要取消勾选。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="93"/>
-        <source>Failed to delete one or more firmware files.</source>
-        <translation>删除一个或多个固件文件失败。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="94"/>
-        <source>One or more firmware files failed to copy into NAND.</source>
-        <translation>将一个或多个固件文件复制到 NAND 失败。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="96"/>
-        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. Restart Eden or re-install firmware.</source>
-        <translation>固件安装失败。固件可能处于异常状态或已损坏。请重新启动 Eden 或重新安装固件。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="101"/>
-        <source>Firmware missing. Firmware is required to run certain games and use the Home Menu.</source>
-        <translation>固件缺失。需要固件才能运行某些游戏和主页。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="104"/>
-        <source>Firmware reported as present, but was unable to be read. Check for decryption keys and redump firmware if necessary.</source>
-        <translation>固件已报告存在,但无法读取。如有必要请检查解密密钥并重新转储固件。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="110"/>
-        <source>Eden has detected user data for the following emulators:</source>
-        <translation>Eden 已检测到下列模拟器的用户数据:</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="227"/>
+        <source>File contents may be corrupt or missing.</source>
+        <translation>文件内容可能缺失或已损坏。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/qt_string_lookup.h" line="112"/>
@@ -12034,18 +12470,177 @@ This may take a while.</source>
 这可能需要一些时间。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="115"/>
-        <source>Clearing shader cache is recommended for all users.
-Do not uncheck unless you know what you&apos;re doing.</source>
-        <translation>建议所有用户清除着色器缓存。
-除非您知道自己在做什么，否则不要取消勾选。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="165"/>
+        <source>Firmware integrity verification failed!</source>
+        <translation>固件完整性验证失败！</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="119"/>
-        <source>Keeps the old data directory. This is recommended if you aren't
-space-constrained and want to keep separate data for the old emulator.</source>
-        <translation>保留旧的数据目录。如果你的存储空间充足，并且想为旧
-模拟器保留独立的数据，这是推荐做法。</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="390"/>
+        <source>Shortcut may be Volatile!</source>
+        <translation>快捷方式可能不稳定!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="239"/>
+        <source>Select Dumped Keys Location</source>
+        <translation>选择导出的密钥文件位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="397"/>
+        <source>Failed to Create Shortcut</source>
+        <translation>创建快捷方式失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
+        <source>Import Cancelled</source>
+        <translation>导入已被取消</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="323"/>
+        <source>Successfully removed the custom game configuration.</source>
+        <translation>成功移除自定义游戏设置。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="78"/>
+        <source>Failed to copy save data</source>
+        <translation>复制存档数据失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="48"/>
+        <source>What should this mod be called?</source>
+        <translation>这个模组应该叫什么名字？</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="353"/>
+        <source>The metadata cache is already empty.</source>
+        <translation>元数据缓存已为空。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
+        <source>Exported Successfully</source>
+        <translation>导出成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
+        <source>Linked Save Data</source>
+        <translation>链接存档数据</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="255"/>
+        <source>Decryption Keys install failed</source>
+        <translation>密钥文件安装失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="192"/>
+        <source>Error Removing Contents</source>
+        <translation>删除内容时出错</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="434"/>
+        <source>Import Warning</source>
+        <translation>导入警告</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="122"/>
+        <source>Not a valid Ryujinx directory</source>
+        <translation>不是有效的 Ryujinx 安装目录</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="435"/>
+        <source>All previous data in this directory will be deleted. Are you sure you wish to proceed?</source>
+        <translation>此目录中的所有先前数据将被删除。您确定要继续吗?</translation>
+    </message>
+    <message>
+        <source>No committed account or device save for title %1 is available in Ryujinx.</source>
+        <translation>Ryujinx 中没有该游戏（%1）已提交的账号存档或设备存档。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
+        <source>Important data may be lost!</source>
+        <translation>可能会丢失重要的数据!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="264"/>
+        <source>Successfully removed the transferable shader cache.</source>
+        <translation>成功删除可传输着色器缓存。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="73"/>
+        <source>Contains updates and DLC for games.</source>
+        <translation>包含游戏的更新和 DLC。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="68"/>
+        <source>Failed to unlink old directory</source>
+        <translation>取消链接旧目录失败</translation>
+    </message>
+    <message>
+        <source>Yuzu</source>
+        <translation>Yuzu</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="72"/>
+        <source>Contains Vulkan and OpenGL pipeline caches. Generally safe to remove.</source>
+        <translation>包含 Vulkan 和 OpenGL 管线缓存。通常可以安全删除。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
+        <source>Create Shortcut</source>
+        <translation>创建快捷方式</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
+        <source>Data was exported successfully.</source>
+        <translation>数据已成功导出。</translation>
+    </message>
+    <message>
+        <source>Ryujinx Data Folder</source>
+        <translation>Ryujinx 数据文件夹</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="30"/>
+        <source>Game Requires Firmware</source>
+        <translation>游戏需要固件</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
+        <source>Installing Firmware...</source>
+        <translation>正在安装固件……</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="316"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="325"/>
+        <source>Error Removing Custom Configuration</source>
+        <translation>删除自定义配置错误</translation>
+    </message>
+    <message>
+        <source>Select the Ryujinx save you want to link.</source>
+        <translation>选择你想要链接的 Ryujinx 存档。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="105"/>
+        <source>Ryujinx Portable Location</source>
+        <translation>便携 Ryujinx 安装位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="132"/>
+        <source>Invalid byte alignment on Ryujinx title database.</source>
+        <translation>Ryujinx 标题数据字节对齐无效。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="353"/>
+        <source>Once deleted, your data will NOT come back!
+Only do this if you&apos;re 100% sure you want to delete this data.</source>
+        <translation>在删除后,您将无法找回数据!
+仅在您 100% 确认要删除此数据时才这样做。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/qt_string_lookup.h" line="121"/>
@@ -12055,21 +12650,117 @@ This is recommended on devices with space constraints.</source>
 建议在存储空间有限的设备上执行此操作。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="124"/>
-        <source>Creates a filesystem link between the old directory and Eden directory.
-This is recommended if you want to share data between emulators.</source>
-        <translation>在旧目录和 Eden 目录之间创建文件系统链接。
-如果您想在模拟器之间共享数据,建议这样做。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
+        <source>%1.zip</source>
+        <translation>%1.zip</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="129"/>
-        <source>Ryujinx title database does not exist.</source>
-        <translation>Ryujinx 标题数据库不存在。</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="96"/>
+        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. Restart Eden or re-install firmware.</source>
+        <translation>固件安装失败。固件可能处于异常状态或已损坏。请重新启动 Eden 或重新安装固件。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="130"/>
-        <source>Invalid header on Ryujinx title database.</source>
-        <translation>Ryujinx 标题数据库头部无效。</translation>
+        <location filename="../../src/qt_common/util/mod.cpp" line="141"/>
+        <source>Zip file %1 is empty</source>
+        <translation>压缩文件 %1 是空的。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="104"/>
+        <source>Firmware reported as present, but was unable to be read. Check for decryption keys and redump firmware if necessary.</source>
+        <translation>固件已报告存在,但无法读取。如有必要请检查解密密钥并重新转储固件。</translation>
+    </message>
+    <message>
+        <source>Failed to remove the saved compiled shaders.</source>
+        <translation>无法删除已保存的编译着色器。</translation>
+    </message>
+    <message>
+        <source>Suyu</source>
+        <translation>Suyu</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="58"/>
+        <source>RomFS</source>
+        <translation>RomFS</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="26"/>
+        <source>Failed to link save data</source>
+        <translation>链接存档数据失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="500"/>
+        <source>Keys not installed</source>
+        <translation>未安装密钥</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="347"/>
+        <source>Reset Metadata Cache</source>
+        <translation>重置元数据缓存</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="327"/>
+        <source>Orphaned Profiles Detected!</source>
+        <translation>检测到孤立的配置文件!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="91"/>
+        <source>Successfully installed firmware version %1</source>
+        <translation>成功安装固件版本 %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
+        <source>Importing data. This may take a while...</source>
+        <translation>正在导入数据。这需要一些时间...</translation>
+    </message>
+    <message>
+        <source>The saves are now separate copies.</source>
+        <translation>两个存档现在是各自独立的副本。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
+        <source>Really clear data?</source>
+        <translation>确实要清除数据吗?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="101"/>
+        <source>Firmware missing. Firmware is required to run certain games and use the Home Menu.</source>
+        <translation>固件缺失。需要固件才能运行某些游戏和主页。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="513"/>
+        <source>Select Dumped Firmware Source Location</source>
+        <translation>选择已转储的固件源位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="79"/>
+        <source>Decryption Keys were successfully installed</source>
+        <translation>已成功安装解密密钥</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="259"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="293"/>
+        <source>A shader cache for this title does not exist.</source>
+        <translation>这个游戏的着色器缓存不存在。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="317"/>
+        <source>A custom configuration for this title does not exist.</source>
+        <translation>这个游戏的自定义设置不存在。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="298"/>
+        <source>Successfully removed the transferable shader caches.</source>
+        <translation>成功删除可传输着色器缓存。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="57"/>
+        <source>Firmware Install Succeeded</source>
+        <translation>安装固件成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="326"/>
+        <source>Failed to remove the custom game configuration.</source>
+        <translation>移除自定义游戏设置失败。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/qt_string_lookup.h" line="131"/>
@@ -12077,19 +12768,9 @@ This is recommended if you want to share data between emulators.</source>
         <translation>Ryujinx 标题数据库 magic 头部无效。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="132"/>
-        <source>Invalid byte alignment on Ryujinx title database.</source>
-        <translation>Ryujinx 标题数据字节对齐无效。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="133"/>
-        <source>No items found in Ryujinx title database.</source>
-        <translation>在 Ryujinx 的标题数据库中找不到项目。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="134"/>
-        <source>Title %1 not found in Ryujinx title database.</source>
-        <translation>在 Ryujinx 的标题数据库中找不到标题 %1。</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="465"/>
+        <source>Cannot create icon file. Path &quot;%1&quot; does not exist and cannot be created.</source>
+        <translation>无法创建图标文件。路径“ %1 ”不存在且无法被创建。</translation>
     </message>
 </context>
 <context>
@@ -12592,6 +13273,10 @@ Would you like to manually select a portable folder to use?</source>
         <translation>找不到 Ryujinx 的存档数据</translation>
     </message>
     <message>
+        <source>Could not find Ryujinx save data in the default or previously used location. Would you like to choose a Ryujinx data folder?</source>
+        <translation>在默认位置或上次使用的位置找不到 Ryujinx 存档数据。要选择 Ryujinx 数据文件夹吗？</translation>
+    </message>
+    <message>
         <source>
 
 Previous save data was kept at:%1</source>
@@ -12600,14 +13285,22 @@ Previous save data was kept at:%1</source>
 此前的存档数据保留在：%1</translation>
     </message>
     <message>
-        <source>Failed to unlink Ryujinx save data</source>
-        <translation>取消 Ryujinx 存档链接失败</translation>
+        <source>Select the Ryujinx save you want to link.</source>
+        <translation>选择你想要链接的 Ryujinx 存档。</translation>
     </message>
     <message>
         <source>Could not update the save link:
 %1</source>
         <translation>无法更新存档链接：
 %1</translation>
+    </message>
+    <message>
+        <source>One of these saves links to a different location. No saves were changed.</source>
+        <translation>其中一个存档链接到了其它位置，未更改任何存档。</translation>
+    </message>
+    <message>
+        <source>No committed account or device save for title %1 is available in Ryujinx.</source>
+        <translation>Ryujinx 中没有该游戏（%1）已提交的账号存档或设备存档。</translation>
     </message>
     <message>
         <source>The saves are now separate copies.</source>
@@ -12618,40 +13311,28 @@ Previous save data was kept at:%1</source>
         <translation>存档已链接</translation>
     </message>
     <message>
-        <source>One of these saves links to a different location. No saves were changed.</source>
-        <translation>其中一个存档链接到了其它位置，未更改任何存档。</translation>
-    </message>
-    <message>
-        <source>Could not find Ryujinx save data in the default or previously used location. Would you like to choose a Ryujinx data folder?</source>
-        <translation>在默认位置或上次使用的位置找不到 Ryujinx 存档数据。要选择 Ryujinx 数据文件夹吗？</translation>
+        <source>Save %1 (last used Ryujinx profile: %2)</source>
+        <translation>存档 %1（上次使用的 Ryujinx 配置档：%2）</translation>
     </message>
     <message>
         <source>Ryujinx Data Folder</source>
         <translation>Ryujinx 数据文件夹</translation>
     </message>
     <message>
-        <source>No committed account or device save for title %1 is available in Ryujinx.</source>
-        <translation>Ryujinx 中没有该游戏（%1）已提交的账号存档或设备存档。</translation>
-    </message>
-    <message>
         <source>Save %1 (device save)</source>
         <translation>存档 %1（设备存档）</translation>
     </message>
     <message>
-        <source>Save %1 (last used Ryujinx profile: %2)</source>
-        <translation>存档 %1（上次使用的 Ryujinx 配置档：%2）</translation>
-    </message>
-    <message>
-        <source>Save %1 (Ryujinx profile: %2)</source>
-        <translation>存档 %1（Ryujinx 配置档：%2）</translation>
+        <source>Failed to unlink Ryujinx save data</source>
+        <translation>取消 Ryujinx 存档链接失败</translation>
     </message>
     <message>
         <source>Choose a Ryujinx save</source>
         <translation>选择 Ryujinx 存档</translation>
     </message>
     <message>
-        <source>Select the Ryujinx save you want to link.</source>
-        <translation>选择你想要链接的 Ryujinx 存档。</translation>
+        <source>Save %1 (Ryujinx profile: %2)</source>
+        <translation>存档 %1（Ryujinx 配置档：%2）</translation>
     </message>
 </context>
 <context>
@@ -13564,6 +14245,16 @@ By selecting &quot;From Eden&quot;, previous save data stored in Ryujinx will be
         <translation>OS 返回错误: %1</translation>
     </message>
     <message>
+        <location line="+12"/>
+        <source>Ryujinx save ID: %1
+
+Choose which save both emulators should use. Replaced saves are kept as backups. Close any running game in Lichii and Ryujinx before linking.</source>
+        <translation>Ryujinx 存档 ID：%1
+
+选择两个模拟器共同使用的存档。被替换的存档会保留为备份。链接前请关闭 Lichii 和 Ryujinx 中正在运行的游戏。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <source>From Lichii</source>
         <translation>来自 Lichii</translation>
     </message>
@@ -13574,14 +14265,6 @@ By selecting &quot;From Lichii&quot;, previous save data stored in Ryujinx will 
         <translation>将存档数据链接到 Ryujinx 可以使 Ryujinx 和 Lichii 都能引用相同的游戏存档文件。
 
 选择 “来自 Lichii” 时，Ryujinx 中存储的上一个保存数据将被删除,反之选择“从 Ryujinx 开始”时亦然。</translation>
-    </message>
-    <message>
-        <source>Ryujinx save ID: %1
-
-Choose which save both emulators should use. Replaced saves are kept as backups. Close any running game in Lichii and Ryujinx before linking.</source>
-        <translation>Ryujinx 存档 ID：%1
-
-选择两个模拟器共同使用的存档。被替换的存档会保留为备份。链接前请关闭 Lichii 和 Ryujinx 中正在运行的游戏。</translation>
     </message>
 </context>
 <context>
@@ -13714,50 +14397,67 @@ Error code: %3</source>
         <translation>已成功下载 %1。您要打开它吗?</translation>
     </message>
     <message>
-        <source>Remind Me Later</source>
-        <translation>稍后提醒</translation>
-    </message>
-    <message>
-        <source>Downloading... (try %1 of %2)</source>
-        <translation>正在下载...（第 %1 次尝试，共 %2 次）</translation>
-    </message>
-    <message>
-        <source>The downloaded file does not match the checksum GitHub published for it, so it was discarded. Try again later.</source>
-        <translation>下载的文件与 GitHub 公布的校验和不符，已丢弃。请稍后重试。</translation>
-    </message>
-    <message>
-        <source>Lichii will close, install the update and start again. The previous version is kept, and your settings and data are not changed.
-
-Restart now?</source>
-        <translation>Lichii 将关闭、安装更新并重新启动。旧版本会被保留，你的设置和数据不会被更改。
-
-现在重启吗？</translation>
-    </message>
-    <message>
-        <source>Failed to install the update</source>
-        <translation>安装更新失败</translation>
-    </message>
-    <message>
-        <source>Download failed verification</source>
-        <translation>下载校验失败</translation>
-    </message>
-    <message>
-        <source>Could not replace %1. Your installation was not changed.</source>
-        <translation>无法替换 %1。你的安装未被更改。</translation>
-    </message>
-    <message>
-        <source>Could not start the update installer.</source>
-        <translation>无法启动更新安装程序。</translation>
-    </message>
-    <message>
-        <source>Could not create a folder for the update.</source>
-        <translation>无法为更新创建文件夹。</translation>
-    </message>
-    <message>
+        <location line="+13"/>
         <source>Would you like to download this update?</source>
         <translation>要下载此更新吗？</translation>
     </message>
     <message>
+        <location line="-301"/>
+        <source>&lt;a href="%1"&gt;View on GitHub&lt;/a&gt;</source>
+        <translation>&lt;a href="%1"&gt;在 GitHub 上查看&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Remind Me Later</source>
+        <translation>稍后提醒</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Skip This Version</source>
+        <translation>跳过此版本</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source> This release has no PGO build, so the standard build will be downloaded.</source>
+        <translation> 此发布没有 PGO 构建，将下载标准构建。</translation>
+    </message>
+    <message>
+        <location line="+62"/>
+        <source>Failed to restart</source>
+        <translation>重启失败</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Please start %1 again yourself.</source>
+        <translation>请手动重新启动 %1。</translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>Failed to install the update</source>
+        <translation>安装更新失败</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Could not start the update installer.</source>
+        <translation>无法启动更新安装程序。</translation>
+    </message>
+    <message>
+        <location line="+63"/>
+        <source>Another Lichii window is already updating this installation.</source>
+        <translation>另一个 Lichii 窗口正在更新此安装。</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Could not replace %1. Your installation was not changed.</source>
+        <translation>无法替换 %1。你的安装未被更改。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Update Installed</source>
+        <translation>更新已安装</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>The new version is installed. The previous version is kept as %1.
 
 Restart now?</source>
@@ -13766,44 +14466,52 @@ Restart now?</source>
 现在重启吗？</translation>
     </message>
     <message>
-        <source>Failed to restart</source>
-        <translation>重启失败</translation>
+        <location line="+27"/>
+        <source>Could not create a folder for the update.</source>
+        <translation>无法为更新创建文件夹。</translation>
     </message>
     <message>
-        <source>Another Lichii window is already updating this installation.</source>
-        <translation>另一个 Lichii 窗口正在更新此安装。</translation>
-    </message>
-    <message>
+        <location line="+8"/>
         <source>Unpacking...</source>
         <translation>正在解包...</translation>
     </message>
     <message>
-        <source> This release has no PGO build, so the standard build will be downloaded.</source>
-        <translation> 此发布没有 PGO 构建，将下载标准构建。</translation>
-    </message>
-    <message>
-        <source>Update Ready</source>
-        <translation>更新已就绪</translation>
-    </message>
-    <message>
-        <source>Please start %1 again yourself.</source>
-        <translation>请手动重新启动 %1。</translation>
-    </message>
-    <message>
-        <source>&lt;a href=&quot;%1&quot;&gt;View on GitHub&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;%1&quot;&gt;在 GitHub 上查看&lt;/a&gt;</translation>
-    </message>
-    <message>
+        <location line="+13"/>
         <source>The downloaded update could not be unpacked.</source>
         <translation>无法解包下载的更新。</translation>
     </message>
     <message>
-        <source>Update Installed</source>
-        <translation>更新已安装</translation>
+        <location line="+6"/>
+        <source>Update Ready</source>
+        <translation>更新已就绪</translation>
     </message>
     <message>
-        <source>Skip This Version</source>
-        <translation>跳过此版本</translation>
+        <location line="+1"/>
+        <source>Lichii will close, install the update and start again. The previous version is kept, and your settings and data are not changed.
+
+Restart now?</source>
+        <translation>Lichii 将关闭、安装更新并重新启动。旧版本会被保留，你的设置和数据不会被更改。
+
+现在重启吗？</translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Downloading... (try %1 of %2)</source>
+        <translation>正在下载...（第 %1 次尝试，共 %2 次）</translation>
+    </message>
+    <message>
+        <location line="+50"/>
+        <source>Download failed verification</source>
+        <translation>下载校验失败</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>The downloaded file does not match the checksum GitHub published for it, so it was discarded. Try again later.</source>
+        <translation>下载的文件与 GitHub 公布的校验和不符，已丢弃。请稍后重试。</translation>
+    </message>
+    <message>
+        <source>&lt;a href=&quot;%1&quot;&gt;View on GitHub&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%1&quot;&gt;在 GitHub 上查看&lt;/a&gt;</translation>
     </message>
 </context>
 <context>
@@ -14036,6 +14744,16 @@ Restart now?</source>
         <source>The catalog returned an invalid response. No game was confirmed.</source>
         <translation>目录返回了无效响应。未确认任何游戏。</translation>
     </message>
+    <message>
+        <location line="+1"/>
+        <source>CPU</source>
+        <translation>CPU</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>GPU</source>
+        <translation>GPU</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureMicrophone</name>
@@ -14100,6 +14818,7 @@ Restart now?</source>
         <translation>正在监听。请对着麦克风说话。</translation>
     </message>
     <message>
+        <location line="+36"/>
         <source>%1%</source>
         <translation>%1%</translation>
     </message>
@@ -14115,6 +14834,10 @@ Restart now?</source>
         <translation>扫描游戏时不会计算文件夹大小。</translation>
     </message>
     <message>
+        <source>The folder size is calculated after the game list is shown.</source>
+        <translation>文件夹大小会在游戏列表显示后计算。</translation>
+    </message>
+    <message>
         <source>%1
 Dump current keys from your own console and install them with Tools &gt; Install Decryption Keys.</source>
         <translation>%1
@@ -14123,10 +14846,6 @@ Dump current keys from your own console and install them with Tools &gt; Install
     <message>
         <source>Decryption keys missing</source>
         <translation>缺少解密密钥</translation>
-    </message>
-    <message>
-        <source>The folder size is calculated after the game list is shown.</source>
-        <translation>文件夹大小会在游戏列表显示后计算。</translation>
     </message>
 </context>
 <context>
@@ -14492,6 +15211,7 @@ or click to browse</source>
         <translation>正在取消...</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>%1%</source>
         <translation>%1%</translation>
     </message>
@@ -14609,620 +15329,89 @@ Would you like to manually select a portable folder to use?</source>
     </message>
 </context>
 <context>
-    <name>Dialog</name>
+    <name>BugReportDialog</name>
     <message>
-        <source>Search catalog</source>
-        <translation>搜索目录</translation>
+        <location filename="../../src/lichii/bug_report_dialog.cpp" line="+19"/>
+        <source>Report a Bug</source>
+        <translation>报告问题</translation>
     </message>
     <message>
-        <source>Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.</source>
-        <translation>正在提交… 关闭窗口只会停止等待，但无法撤回服务器已经收到的报告。不会自动重试。</translation>
+        <location line="+14"/>
+        <source>Lichii is saving this moment: the log, your settings, a screenshot and the next frame with its shaders. Describe what went wrong and what you expected.</source>
+        <translation>Lichii 正在保存当前状态：日志、你的设置、一张截图，以及下一帧及其着色器。请描述出了什么问题，以及你期望的结果。</translation>
     </message>
     <message>
-        <source>The server returned an invalid receipt. The report may have been accepted. Only retry this unchanged draft explicitly.</source>
-        <translation>服务器返回了无效回执。报告可能已被接受。仅请对这份未改动的草稿手动重试。</translation>
+        <location line="+7"/>
+        <source>For example: the sky turns white after the first cutscene in world 2.</source>
+        <translation>例如：世界 2 的第一段过场动画之后，天空变白了。</translation>
     </message>
     <message>
-        <source>Choose your assessment</source>
-        <translation>选择你的评价</translation>
+        <location line="+4"/>
+        <source>&lt;b&gt;Send this report privately to the Lichii maintainers&lt;/b&gt; (the log bot's /bug command or a direct message), not to a public channel or issue. It holds the game's textures and shaders from one frame. Your user name is removed from paths and online service settings are left out.</source>
+        <translation>&lt;b&gt;请把这份报告私下发给 Lichii 维护者&lt;/b&gt;（日志机器人的 /bug 命令或私信），不要发到公开频道或 issue。它包含游戏某一帧的纹理与着色器。路径中已移除你的用户名，在线服务设置也不会包含在内。</translation>
     </message>
     <message>
-        <source>Compatibility</source>
-        <translation>兼容性</translation>
+        <location line="+14"/>
+        <source>Save Report</source>
+        <translation>保存报告</translation>
     </message>
     <message>
-        <source>No catalog game confirmed.</source>
-        <translation>尚未确认任何目录中的游戏。</translation>
+        <location line="+1"/>
+        <source>Open Folder</source>
+        <translation>打开文件夹</translation>
     </message>
     <message>
-        <source>Search sends only the text above to lichii.zortos.me. The service sees your IP address.</source>
-        <translation>搜索只会把上面的文字发送到 lichii.zortos.me。该服务会看到你的 IP 地址。</translation>
+        <location line="+30"/>
+        <source>Writing the report. The frame capture can take a minute in a busy scene.</source>
+        <translation>正在生成报告。在复杂场景中，帧捕获可能需要一分钟。</translation>
     </message>
     <message>
-        <source>Prefilled values describe launch settings, not measured performance. Review changes made during play. Unknown means not collected. Do not paste logs, paths, keys or private details.</source>
-        <translation>预填的值描述的是启动时的设置，而非实测性能。请核对游戏过程中做过的更改。“未知”表示未收集。请勿粘贴日志、路径、密钥或隐私信息。</translation>
-    </message>
-    <message>
-        <source>What worked or failed?</source>
-        <translation>哪些正常、哪些异常？</translation>
-    </message>
-    <message>
-        <source>Next</source>
-        <translation>下一步</translation>
-    </message>
-    <message>
-        <source>Confirm game</source>
-        <translation>确认游戏</translation>
-    </message>
-    <message>
-        <source>Catalog search failed. Check your connection and retry explicitly.</source>
-        <translation>目录搜索失败。请检查网络后手动重试。</translation>
-    </message>
-    <message>
-        <source>Game title to search</source>
-        <translation>要搜索的游戏名称</translation>
-    </message>
-    <message>
-        <source>Clear draft</source>
-        <translation>清空草稿</translation>
-    </message>
-    <message>
-        <source>An X handle must contain 1–15 letters, digits or underscores, with an optional @.</source>
-        <translation>X 账号必须由 1–15 个字母、数字或下划线组成，可带一个 @。</translation>
-    </message>
-    <message>
-        <source>Summary</source>
-        <translation>概述</translation>
-    </message>
-    <message>
-        <source>My report contains no game files, keys, firmware, saves or private account details.</source>
-        <translation>我的报告不包含游戏文件、密钥、固件、存档或私人账号信息。</translation>
-    </message>
-    <message>
-        <source>Rate limit reached. Wait %1 seconds, then retry explicitly. Nothing will be retried automatically.</source>
-        <translation>已触发限流。请等待 %1 秒后手动重试。不会自动重试。</translation>
-    </message>
-    <message>
-        <source>Share your experience with the latest completed session. Nothing is sent until you choose Search or Submit. Logs are not uploaded. No account is required.</source>
-        <translation>分享你在最近一次已完成会话中的体验。在你选择“搜索”或“提交”之前不会发送任何内容。不会上传日志。无需账号。</translation>
-    </message>
-    <message>
-        <source>The server rejected these fields: %1. Review them before submitting again.</source>
-        <translation>服务器拒绝了以下字段：%1。请检查后重新提交。</translation>
-    </message>
-    <message>
-        <source>System and settings</source>
-        <translation>系统与设置</translation>
-    </message>
-    <message>
-        <source>Open public report</source>
-        <translation>打开公开报告</translation>
-    </message>
-    <message>
-        <source>Previous</source>
-        <translation>上一步</translation>
-    </message>
-    <message>
-        <source>Experience</source>
-        <translation>体验</translation>
-    </message>
-    <message>
-        <source>Updates (optional)</source>
-        <translation>更新（可选）</translation>
-    </message>
-    <message>
-        <source>Searching catalog… Cancel closes the dialog and stops this request.</source>
-        <translation>正在搜索目录… 点击“取消”会关闭对话框并停止本次请求。</translation>
-    </message>
-    <message>
-        <source>Check %1: required fields must be filled, within their length limit, and contain no control characters.</source>
-        <translation>请检查 %1：必填字段必须填写、不超过长度限制，且不含控制字符。</translation>
-    </message>
-    <message>
-        <source>Game version</source>
-        <translation>游戏版本</translation>
-    </message>
-    <message>
-        <source>RAM (optional)</source>
-        <translation>内存（可选）</translation>
-    </message>
-    <message>
-        <source>Mods (optional)</source>
-        <translation>Mod（可选）</translation>
-    </message>
-    <message>
-        <source>The server rejected the report. Review the fields and length limits before submitting again.</source>
-        <translation>服务器拒绝了该报告。请检查各字段和长度限制后重新提交。</translation>
-    </message>
-    <message>
-        <source>No valid receipt was received. Delivery may have succeeded. An explicit retry of this unchanged draft uses the same submission identity. Closing loses that identity; do not create a duplicate.</source>
-        <translation>没有收到有效的回执，但提交可能已经成功。对这份未改动草稿的手动重试会使用相同的提交标识。关闭窗口会丢失该标识；请不要重复创建。</translation>
-    </message>
-    <message>
-        <source>Submit report</source>
-        <translation>提交报告</translation>
-    </message>
-    <message>
-        <source>X handle (optional)</source>
-        <translation>X 账号（可选）</translation>
-    </message>
-    <message>
-        <source>The server rejected this submission identity. Edit the draft to start a new submission; first check whether your report was already accepted.</source>
-        <translation>服务器拒绝了本次提交标识。请修改草稿以开始新的提交；先确认你的报告是否已被接受。</translation>
-    </message>
-    <message>
-        <source>The server rejected the request (HTTP %1). No automatic retry was made.</source>
-        <translation>服务器拒绝了该请求（HTTP %1）。未进行自动重试。</translation>
-    </message>
-    <message>
-        <source>Submit compatibility report</source>
-        <translation>提交兼容性报告</translation>
-    </message>
-    <message>
-        <source>Check the search text.</source>
-        <translation>请检查搜索文字。</translation>
-    </message>
-    <message>
-        <source>Page %1 of %2. Select the exact game and press Confirm game.</source>
-        <translation>第 %1 页，共 %2 页。请选择对应的游戏并点击“确认游戏”。</translation>
-    </message>
-    <message>
-        <source>Lichii build</source>
-        <translation>Lichii 版本</translation>
-    </message>
-    <message>
-        <source>Public nickname</source>
-        <translation>公开昵称</translation>
-    </message>
-    <message>
-        <source>Confirmed: %1 (catalog ID %2)</source>
-        <translation>已确认：%1（目录 ID %2）</translation>
-    </message>
-    <message>
-        <source>The report is too large.</source>
-        <translation>报告内容过大。</translation>
-    </message>
-    <message>
-        <source>Steps to reproduce (optional)</source>
-        <translation>复现步骤（可选）</translation>
-    </message>
-    <message>
-        <source>I understand my name, optional X handle, report text, hardware and settings will be public.</source>
-        <translation>我明白我的昵称、可选的 X 账号、报告内容、硬件与设置将会公开。</translation>
-    </message>
-    <message>
-        <source>Draft cleared. Nothing was sent by clearing it.</source>
-        <translation>草稿已清空。清空操作没有发送任何内容。</translation>
-    </message>
-    <message>
-        <source>GPU driver / OpenGL version</source>
-        <translation>GPU 驱动 / OpenGL 版本</translation>
-    </message>
-    <message>
-        <source>Choose your own compatibility assessment.</source>
-        <translation>请选择你自己的兼容性评价。</translation>
-    </message>
-    <message>
-        <source>Report submitted. It is public. Thank you.</source>
-        <translation>报告已提交，并且已公开。谢谢！</translation>
-    </message>
-    <message>
-        <source>Graphics API</source>
-        <translation>图形 API</translation>
-    </message>
-    <message>
-        <source>All report fields in the preview will be public. Logs, files, local title IDs and play history are not sent. The server uses your IP address for rate limiting. Review and clear anything you do not want to share.</source>
-        <translation>预览中的所有报告字段都会公开。日志、文件、本地标题 ID 和游玩记录不会发送。服务器会用你的 IP 地址进行限流。请检查并清空你不想公开的内容。</translation>
-    </message>
-    <message>
-        <source>Operating system</source>
-        <translation>操作系统</translation>
-    </message>
-    <message>
-        <source>The catalog returned an invalid response. No game was confirmed.</source>
-        <translation>目录返回了无效响应，未确认任何游戏。</translation>
-    </message>
-    <message>
-        <source>How far did you play?</source>
-        <translation>你玩到了哪里？</translation>
-    </message>
-    <message>
-        <source>Search for and confirm the catalog game first.</source>
-        <translation>请先搜索并确认目录中的游戏。</translation>
-    </message>
-    <message>
-        <source>Public preview</source>
-        <translation>公开预览</translation>
-    </message>
-    <message>
-        <source>Launch settings</source>
-        <translation>启动设置</translation>
-    </message>
-</context>
-<context>
-    <name>ShaderWarmDialog</name>
-    <message>
-        <source>Stopping</source>
-        <translation>正在停止</translation>
-    </message>
-    <message>
-        <source>The shaders your earlier play sessions saved are still precached.</source>
-        <translation>以往游戏会话保存的着色器仍会被预编译。</translation>
-    </message>
-    <message>
-        <source>This game keeps its shaders in a format Lichii can&apos;t read, so none are prepared from the game files.</source>
-        <translation>该游戏的着色器使用了 Lichii 无法读取的格式，因此没有从游戏文件中准备任何内容。</translation>
-    </message>
-    <message>
-        <source>%1: %L2 / %L3</source>
-        <translation>%1：%L2 / %L3</translation>
-    </message>
-    <message>
-        <source>Converting shaders</source>
-        <translation>正在转换着色器</translation>
-    </message>
-    <message>
-        <source>Extracting shaders</source>
-        <translation>正在提取着色器</translation>
-    </message>
-    <message>
-        <source>The game files have no compute shaders to prepare.</source>
-        <translation>游戏文件中没有可准备的计算着色器。</translation>
-    </message>
-    <message>
-        <source>Starting</source>
-        <translation>正在开始</translation>
-    </message>
-    <message>
-        <source>Shader precache could not be built.</source>
-        <translation>无法构建着色器预编译缓存。</translation>
-    </message>
-    <message>
-        <source>Writing the precache file</source>
-        <translation>正在写入预编译缓存文件</translation>
-    </message>
-    <message>
-        <source>Reading game files</source>
-        <translation>正在读取游戏文件</translation>
-    </message>
-    <message>
-        <source>Shader precache stopped.</source>
-        <translation>着色器预编译已停止。</translation>
-    </message>
-    <message>
-        <source>It is built on the loading screen when Precache shaders before game start is on.</source>
-        <translation>开启“游戏启动前预编译着色器”后，会在加载画面中构建。</translation>
-    </message>
-    <message>
-        <source>Skipped (could not be read or converted): %L1</source>
-        <translation>已跳过（无法读取或转换）：%L1</translation>
-    </message>
-    <message>
+        <location line="+23"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
     <message>
-        <source>Cancel</source>
-        <translation>取消</translation>
+        <location line="+3"/>
+        <source>The report could not be written: %1</source>
+        <translation>无法写入报告：%1</translation>
     </message>
     <message>
-        <source>Precache shaders: %1</source>
-        <translation>预编译着色器：%1</translation>
+        <location line="+3"/>
+        <source>Saved %1 (%2 MiB).</source>
+        <translation>已保存 %1（%2 MiB）。</translation>
     </message>
     <message>
-        <source>Shader precache is ready.</source>
-        <translation>着色器预编译缓存已就绪。</translation>
+        <location line="+4"/>
+        <source>No frame capture: %1</source>
+        <translation>没有帧捕获：%1</translation>
     </message>
     <message>
-        <source>No details were given.</source>
-        <translation>没有提供详细信息。</translation>
+        <location line="+4"/>
+        <source>Left out to fit the size limit: %1</source>
+        <translation>为满足大小限制而略去：%1</translation>
     </message>
     <message>
-        <source>%1: %L2</source>
-        <translation>%1：%L2</translation>
-    </message>
-    <message>
-        <source>Compute programs: %L1</source>
-        <translation>计算程序：%L1</translation>
-    </message>
-</context>
-<context>
-    <name>NxTools</name>
-    <message>
-        <source>Add to NX</source>
-        <translation>添加到 NX</translation>
-    </message>
-    <message>
-        <source>This NX archive cannot be read: %1</source>
-        <translation>无法读取此 NX 归档：%1</translation>
-    </message>
-    <message>
-        <source>This NX archive holds no update or DLC to remove.</source>
-        <translation>此 NX 归档中没有可移除的更新或 DLC。</translation>
-    </message>
-    <message>
-        <source>The NX archive was created:
-%1</source>
-        <translation>NX 归档已创建：
-%1</translation>
-    </message>
-    <message>
-        <source>Title:</source>
-        <translation>标题：</translation>
-    </message>
-    <message>
-        <source>No icon</source>
-        <translation>无图标</translation>
-    </message>
-    <message>
-        <source>Choose Image</source>
-        <translation>选择图片</translation>
-    </message>
-    <message>
-        <source>Restore Original Image</source>
-        <translation>恢复原始图片</translation>
-    </message>
-    <message>
-        <source>Choose Image...</source>
-        <translation>选择图片...</translation>
-    </message>
-    <message>
-        <source>%1 left</source>
-        <translation>剩余 %1</translation>
-    </message>
-    <message>
-        <source>Update Folder...</source>
-        <translation>更新文件夹...</translation>
-    </message>
-    <message numerus="yes">
-        <source>about %n minute(s)</source>
-        <translation>
-            <numerusform>约 %n 分钟</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Icon:</source>
-        <translation>图标：</translation>
-    </message>
-    <message>
-        <source>less than a minute</source>
-        <translation>不到一分钟</translation>
-    </message>
-    <message>
-        <source>NSP or XCI Files...</source>
-        <translation>NSP 或 XCI 文件...</translation>
-    </message>
-    <message>
-        <source>%1 of the %2 original packages could not be moved to the Recycle Bin. They may be in use.</source>
-        <translation>%2 个原始包中有 %1 个无法移到回收站，可能正在被占用。</translation>
-    </message>
-    <message>
-        <source>Version number of this update (for example 196608 for v196608):</source>
-        <translation>此更新的版本号（例如 v196608 对应 196608）：</translation>
-    </message>
-    <message>
-        <source>NX converter unavailable: could not load nxformat.dll. Error %1: %2</source>
-        <translation>NX 转换器不可用：无法加载 nxformat.dll。错误 %1：%2</translation>
-    </message>
-    <message>
-        <source>Remove from NX</source>
-        <translation>从 NX 中移除</translation>
-    </message>
-    <message>
-        <source>Update %1 (v%2)</source>
-        <translation>更新 %1（v%2）</translation>
-    </message>
-    <message>
-        <source>This image cannot be read.</source>
-        <translation>无法读取此图片。</translation>
-    </message>
-    <message>
-        <source>256 x 256 (default)</source>
-        <translation>256 x 256（默认）</translation>
-    </message>
-    <message>
-        <source>This NX archive cannot be read.</source>
-        <translation>无法读取此 NX 归档。</translation>
-    </message>
-    <message>
-        <source>512 x 512</source>
-        <translation>512 x 512</translation>
-    </message>
-    <message>
-        <source>Cancelled.</source>
-        <translation>已取消。</translation>
-    </message>
-    <message>
-        <source>NX converter unavailable: Windows blocked nxformat.dll (Smart App Control or a code integrity policy). Error %1.</source>
-        <translation>NX 转换器不可用：Windows 阻止了 nxformat.dll（智能应用控制或代码完整性策略）。错误 %1。</translation>
-    </message>
-    <message>
-        <source>The NX archive was updated.</source>
-        <translation>NX 归档已更新。</translation>
-    </message>
-    <message>
-        <source>The new title and icon are shown in every language. The game itself is not changed.</source>
-        <translation>新标题和图标会以所有语言显示。游戏本身不会被修改。</translation>
-    </message>
-    <message>
-        <source>Switch packages (*.nsp *.xci)</source>
-        <translation>Switch 包 (*.nsp *.xci)</translation>
-    </message>
-    <message>
-        <source>Convert to NX</source>
-        <translation>转换为 NX</translation>
-    </message>
-    <message>
-        <source>Updates and DLC of this game were found in the same folder.
-The checked ones are added to the NX archive:</source>
-        <translation>在同一文件夹中找到了该游戏的更新和 DLC。
-勾选的会加入 NX 归档：</translation>
-    </message>
-    <message>
-        <source>The NX archive metadata was updated.</source>
-        <translation>NX 归档元数据已更新。</translation>
-    </message>
-    <message>
-        <source>The original could not be moved to the Recycle Bin:
-%1
-
-It may be in use. You can delete it yourself.</source>
-        <translation>无法把原始文件移到回收站：
-%1
-
-它可能正在被使用，你可以手动删除。</translation>
-    </message>
-    <message>
-        <source>Adding to NX</source>
-        <translation>正在添加到 NX</translation>
-    </message>
-    <message>
-        <source>Add an update or DLC to this NX archive. The archive is changed in place; the content it already holds is kept.</source>
-        <translation>向此 NX 归档添加更新或 DLC。归档会就地修改，已有内容会保留。</translation>
-    </message>
-    <message>
-        <source>Cancelled. Nothing was changed on disk.</source>
-        <translation>已取消，磁盘上的内容没有变化。</translation>
-    </message>
-    <message>
-        <source>Removing from NX</source>
-        <translation>正在从 NX 中移除</translation>
-    </message>
-    <message>
-        <source>Finishing...</source>
-        <translation>正在完成...</translation>
-    </message>
-    <message>
-        <source>Edit NX Metadata</source>
-        <translation>编辑 NX 元数据</translation>
-    </message>
-    <message>
-        <source>The operation failed:
-%1</source>
-        <translation>操作失败：
-%1</translation>
-    </message>
-    <message>
-        <source>%1
-Elapsed: %2</source>
-        <translation>%1
-已用时间：%2</translation>
-    </message>
-    <message>
-        <source>NX archive (*.nx)</source>
-        <translation>NX 归档 (*.nx)</translation>
-    </message>
-    <message>
-        <source>The operation failed because the rebuild recipe could not be kept:
-%1
-
-Try again without the recipe? The game still runs from the NX archive, but the original package cannot be rebuilt exactly from it.</source>
-        <translation>操作失败，因为无法保留重建配方：
-%1
-
-是否不带配方重试？游戏仍可从 NX 归档运行，但无法再从中精确重建原始包。</translation>
-    </message>
-    <message>
-        <source>Select Updates or DLC</source>
-        <translation>选择更新或 DLC</translation>
-    </message>
-    <message>
-        <source>Move the %1 original packages to the Recycle Bin</source>
-        <translation>把 %1 个原始包移到回收站</translation>
-    </message>
-    <message>
-        <source>Size of the icon stored in the archive</source>
-        <translation>归档中保存的图标尺寸</translation>
-    </message>
-    <message>
-        <source>Move the original folder to the Recycle Bin:
-%1</source>
-        <translation>把原始文件夹移到回收站：
-%1</translation>
-    </message>
-    <message>
-        <source>1024 x 1024</source>
-        <translation>1024 x 1024</translation>
-    </message>
-    <message>
-        <source>The selected content was removed from the NX archive.</source>
-        <translation>所选内容已从 NX 归档中移除。</translation>
-    </message>
-    <message>
-        <source>Already in the archive: %1</source>
-        <translation>已在归档中：%1</translation>
-    </message>
-    <message>
-        <source>Move the original game to the Recycle Bin:
-%1</source>
-        <translation>把原始游戏移到回收站：
-%1</translation>
-    </message>
-    <message>
-        <source>This image cannot be converted.</source>
-        <translation>无法转换此图片。</translation>
-    </message>
-    <message>
-        <source>Added: %1</source>
-        <translation>已添加：%1</translation>
-    </message>
-    <message>
-        <source>Already added to the archive: %1</source>
-        <translation>已添加到归档：%1</translation>
-    </message>
-    <message>
-        <source>The archive already exists:
-%1</source>
-        <translation>归档已存在：
-%1</translation>
-    </message>
-    <message>
-        <source>The icon cannot be saved.</source>
-        <translation>无法保存图标。</translation>
-    </message>
-    <message>
-        <source>DLC %1 (v%2)</source>
-        <translation>DLC %1（v%2）</translation>
-    </message>
-    <message>
-        <source>Converting to NX</source>
-        <translation>正在转换为 NX</translation>
-    </message>
-    <message>
-        <source>Editing NX metadata</source>
-        <translation>正在编辑 NX 元数据</translation>
-    </message>
-    <message>
-        <source>Publisher:</source>
-        <translation>发行商：</translation>
-    </message>
-    <message>
-        <source>about %1 h %2 min</source>
-        <translation>约 %1 小时 %2 分钟</translation>
-    </message>
-    <message>
-        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</source>
-        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</translation>
-    </message>
-    <message>
-        <source>Select the content to remove from the archive:</source>
-        <translation>选择要从归档中移除的内容：</translation>
-    </message>
-    <message>
-        <source>Select the Update Folder</source>
-        <translation>选择更新文件夹</translation>
-    </message>
-    <message>
-        <source>%1 cannot be decrypted: %2
-
-Check that your keys are installed.</source>
-        <translation>%1 无法解密：%2
-
-请确认已安装密钥。</translation>
+        <source>&lt;b&gt;Send this report privately to the Lichii maintainers&lt;/b&gt; (the log bot&apos;s /bug command or a direct message), not to a public channel or issue. It holds the game&apos;s textures and shaders from one frame. Your user name is removed from paths and online service settings are left out.</source>
+        <translation>&lt;b&gt;请将这份报告私下发送给 Lichii 维护者&lt;/b&gt;（日志机器人的 /bug 命令或私信），不要发到公开频道或 issue。其中包含某一帧的游戏纹理和着色器。路径中的用户名已被移除，在线服务设置不会包含在内。</translation>
     </message>
 </context>
 <context>
     <name>RecommendedSettingsDialog</name>
+    <message>
+        <location line="-52"/>
+        <source>%1 (game %2)</source>
+        <translation>%1（游戏 %2）</translation>
+    </message>
+    <message>
+        <location line="+36"/>
+        <source>They improve performance for most games. Games with their own value for one of these settings in their per-game settings use the recommended value too; other per-game settings do not change. Lichii keeps your own settings, global and per-game, so you can go back at any time with Help &gt; Restore My Previous Settings.</source>
+        <translation>它们能提升大多数游戏的性能。若某个游戏在单独设置里为这些选项之一设了自己的值，也会改用推荐值；其他单独设置不变。Lichii 会保留你自己的全局与单独设置，随时可通过 帮助 &gt; 恢复我之前的设置 还原。</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Lichii now uses the recommended settings, in every game.</source>
+        <translation>Lichii 现在在所有游戏中都使用推荐设置。</translation>
+    </message>
     <message>
         <source>On</source>
         <translation>开启</translation>
@@ -15234,6 +15423,10 @@ Check that your keys are installed.</source>
     <message>
         <source>Do you want to use the recommended settings from the Lichii developer?</source>
         <translation>要使用 Lichii 开发者提供的推荐设置吗？</translation>
+    </message>
+    <message>
+        <source>Lichii now uses the recommended settings.</source>
+        <translation>Lichii 现在使用推荐设置。</translation>
     </message>
     <message>
         <source>They improve performance for most games. Lichii keeps your own settings, so you can go back at any time with Help &gt; Restore My Previous Settings. Per-game settings do not change.</source>
@@ -15260,10 +15453,6 @@ Check that your keys are installed.</source>
         <translation>之前的设置</translation>
     </message>
     <message>
-        <source>Off</source>
-        <translation>关闭</translation>
-    </message>
-    <message>
         <source>To go back, use Help &gt; Restore My Previous Settings.</source>
         <translation>要回到原来的设置，请使用 帮助 &gt; 恢复我之前的设置。</translation>
     </message>
@@ -15276,24 +15465,77 @@ Check that your keys are installed.</source>
         <translation>推荐设置</translation>
     </message>
     <message>
-        <source>Lichii now uses the recommended settings.</source>
-        <translation>Lichii 现在使用推荐设置。</translation>
-    </message>
-    <message>
-        <source>They improve performance for most games. Games with their own value for one of these settings in their per-game settings use the recommended value too; other per-game settings do not change. Lichii keeps your own settings, global and per-game, so you can go back at any time with Help &gt; Restore My Previous Settings.</source>
-        <translation>它们能提升大多数游戏的性能。若某个游戏在单独设置里为这些选项之一设了自己的值，也会改用推荐值；其他单独设置不变。Lichii 会保留你自己的全局与单独设置，随时可通过 帮助 &gt; 恢复我之前的设置 还原。</translation>
-    </message>
-    <message>
-        <source>Lichii now uses the recommended settings, in every game.</source>
-        <translation>Lichii 现在在所有游戏中都使用推荐设置。</translation>
-    </message>
-    <message>
-        <source>%1 (game %2)</source>
-        <translation>%1（游戏 %2）</translation>
+        <source>Off</source>
+        <translation>关闭</translation>
     </message>
 </context>
 <context>
     <name>WhatsNewDialog</name>
+    <message>
+        <location filename="../../src/lichii/whats_new_dialog.cpp" line="+178"/>
+        <source>What's new in Lichii</source>
+        <translation>Lichii 新功能</translation>
+    </message>
+    <message>
+        <location line="+38"/>
+        <source>What's new</source>
+        <translation>新功能</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Previous release</source>
+        <translation>上一个版本</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>All releases on GitHub</source>
+        <translation>GitHub 上的所有版本</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>All releases</source>
+        <translation>所有版本</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Next release</source>
+        <translation>下一个版本</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Next</source>
+        <translation>下一个</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Lichii build %1</source>
+        <translation>Lichii 版本 %1</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Lichii</source>
+        <translation>Lichii</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>%1 · %2</source>
+        <translation>%1 · %2</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>No highlights were bundled for this build.</source>
+        <translation>此版本没有附带更新要点。</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Build %1</source>
+        <translation>版本 %1</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Previous</source>
+        <translation>上一个</translation>
+    </message>
     <message>
         <source>What&apos;s New in Lichii</source>
         <translation>Lichii 新功能</translation>
@@ -15348,165 +15590,1060 @@ Check that your keys are installed.</source>
     </message>
 </context>
 <context>
-    <name>BugReportDialog</name>
+    <name>IiDB::ArtworkDialog</name>
     <message>
-        <source>Report a Bug</source>
-        <translation>报告问题</translation>
+        <location filename="../../src/lichii/configuration/iidb_artwork_dialog.cpp" line="+40"/>
+        <source>Browse iiDB Artwork</source>
+        <translation>浏览 iiDB 封面</translation>
     </message>
     <message>
-        <source>Lichii is saving this moment: the log, your settings, a screenshot and the next frame with its shaders. Describe what went wrong and what you expected.</source>
-        <translation>Lichii 正在保存当前状态：日志、你的设置、一张截图，以及下一帧及其着色器。请描述出了什么问题，以及你期望的结果。</translation>
+        <location line="+3"/>
+        <source>Game title:</source>
+        <translation>游戏标题：</translation>
     </message>
     <message>
-        <source>For example: the sky turns white after the first cutscene in world 2.</source>
-        <translation>例如：世界 2 的第一段过场动画之后，天空变白了。</translation>
+        <location line="+7"/>
+        <source>Only the title you search is sent to iiDB, never your game files or ID.</source>
+        <translation>只有你搜索的标题会发送给 iiDB，绝不会发送你的游戏文件或 ID。</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Send this report privately to the Lichii maintainers&lt;/b&gt; (the log bot&apos;s /bug command or a direct message), not to a public channel or issue. It holds the game&apos;s textures and shaders from one frame. Your user name is removed from paths and online service settings are left out.</source>
-        <translation>&lt;b&gt;请将这份报告私下发送给 Lichii 维护者&lt;/b&gt;（日志机器人的 /bug 命令或私信），不要发到公开频道或 issue。其中包含某一帧的游戏纹理和着色器。路径中的用户名已被移除，在线服务设置不会包含在内。</translation>
+        <location line="+2"/>
+        <source>Search</source>
+        <translation>搜索</translation>
     </message>
     <message>
-        <source>Save Report</source>
-        <translation>保存报告</translation>
+        <location line="+2"/>
+        <source>API Key…</source>
+        <translation>API 密钥…</translation>
     </message>
     <message>
-        <source>Writing the report. The frame capture can take a minute in a busy scene.</source>
-        <translation>正在生成报告。在复杂场景中，帧捕获可能需要一分钟。</translation>
+        <location line="+8"/>
+        <source>iiDB match:</source>
+        <translation>iiDB 匹配：</translation>
     </message>
     <message>
-        <source>The report could not be written: %1</source>
-        <translation>无法写入报告：%1</translation>
+        <location line="+3"/>
+        <source>Choose a search result</source>
+        <translation>选择一个搜索结果</translation>
     </message>
     <message>
-        <source>Saved %1 (%2 MiB).</source>
-        <translation>已保存 %1（%2 MiB）。</translation>
+        <location line="+11"/>
+        <source>iiSU Box Art</source>
+        <translation>iiSU 封面</translation>
     </message>
     <message>
-        <source>No frame capture: %1</source>
-        <translation>没有帧捕获：%1</translation>
+        <location line="+1"/>
+        <source>Box Art</source>
+        <translation>封面</translation>
     </message>
     <message>
-        <source>Left out to fit the size limit: %1</source>
-        <translation>为满足大小限制而略去：%1</translation>
+        <location line="+1"/>
+        <source>Icons</source>
+        <translation>图标</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Artwork gallery</source>
+        <translation>封面图库</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Some thumbnails could not load because iiDB asked Lichii to wait.</source>
+        <translation>部分缩略图无法加载，因为 iiDB 要求 Lichii 稍后再试。</translation>
+    </message>
+    <message>
+        <location line="+56"/>
+        <source>Load More</source>
+        <translation>加载更多</translation>
+    </message>
+    <message>
+        <location line="-267"/>
+        <source>Preview Selected</source>
+        <translation>预览所选</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Original artwork</source>
+        <translation>原始封面</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Icon in Lichii</source>
+        <translation>在 Lichii 中的图标</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>The original is shown in proportion. Lichii crops and scales it to a 256 × 256 icon, just like Upload Icon.</source>
+        <translation>原图按比例显示。Lichii 会像「上传图标」那样，把它裁切并缩放到 256 × 256 的图标。</translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Cancel or a failed download or decode leaves the original artwork intact. Use Artwork stages the new icon; Apply or OK in Properties saves it.</source>
+        <translation>取消、下载失败或解码失败都会保留原有的封面。「使用封面」会先把新图标暂存，「属性」里的「应用」或「确定」才会真正保存。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Catalog data from &lt;a href="https://iidb.iisu.network"&gt;iiDB&lt;/a&gt;, adapted from the &lt;a href="https://github.com/libretro/libretro-database"&gt;Libretro Database&lt;/a&gt; and its upstream sources (No-Intro and Redump), &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;. &lt;a href="https://iisu.network/license"&gt;Artwork and catalog licensing&lt;/a&gt;.</source>
+        <translation>目录数据来自 &lt;a href="https://iidb.iisu.network"&gt;iiDB&lt;/a&gt;，改编自 &lt;a href="https://github.com/libretro/libretro-database"&gt;Libretro 数据库&lt;/a&gt; 及其上游来源（No-Intro 与 Redump），采用 &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt; 许可。&lt;a href="https://iisu.network/license"&gt;封面与目录的许可说明&lt;/a&gt;。</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Use Artwork</source>
+        <translation>使用封面</translation>
+    </message>
+    <message>
+        <location line="+90"/>
+        <source>Search for the game by title.</source>
+        <translation>按标题搜索这款游戏。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Searching iiDB…</source>
+        <translation>正在搜索 iiDB…</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>No matching games with artwork. Try another title.</source>
+        <translation>没有找到带封面的匹配游戏，换个标题试试。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Choose the matching iiDB game to see its artwork.</source>
+        <translation>选择匹配的 iiDB 游戏以查看其封面。</translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>Loading %1…</source>
+        <translation>正在加载 %1…</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Retry Gallery</source>
+        <translation>重试图库</translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Artwork %1</source>
+        <translation>封面 %1</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>iiDB repeated a gallery page. No more pages were loaded.</source>
+        <translation>iiDB 重复返回了同一页图库，没有加载更多页面。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Showing up to %1 pages in this category.</source>
+        <translation>此分类最多显示 %1 页。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>No usable images in this category.</source>
+        <translation>此分类没有可用的图片。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>No artwork in this category.</source>
+        <translation>此分类没有封面。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Select an image to preview the original.</source>
+        <translation>选择一张图片以预览原图。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>No preview</source>
+        <translation>无预览</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Downloading original…</source>
+        <translation>正在下载原图…</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Original: %1 × %2</source>
+        <translation>原始尺寸：%1 × %2</translation>
+    </message>
+</context>
+<context>
+    <name>IiDB::KeyDialog</name>
+    <message>
+        <location filename="../../src/lichii/configuration/iidb_key_dialog.cpp" line="+109"/>
+        <source>iiDB API Key</source>
+        <translation>iiDB API 密钥</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Enter a personal iiDB API key to search for artwork from game Properties. &lt;a href="https://iisu.network/wiki/iidb-developers/getting-started"&gt;Get a key&lt;/a&gt;.</source>
+        <translation>输入个人 iiDB API 密钥，即可在游戏「属性」里搜索封面。&lt;a href="https://iisu.network/wiki/iidb-developers/getting-started"&gt;获取密钥&lt;/a&gt;。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Personal API key:</source>
+        <translation>个人 API 密钥：</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Remember in Windows Credential Manager</source>
+        <translation>记住到 Windows 凭据管理器</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Use Key</source>
+        <translation>使用密钥</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Test Connection</source>
+        <translation>测试连接</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forget Key</source>
+        <translation>忘记密钥</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Test the entered key, or the current key if the field is blank. Testing does not save it.</source>
+        <translation>测试已输入的密钥；若输入框为空，则测试当前密钥。测试不会保存密钥。</translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>Testing iiDB access…</source>
+        <translation>正在测试 iiDB 访问…</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>iiDB accepted the key.</source>
+        <translation>iiDB 接受了这个密钥。</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Paste your key</source>
+        <translation>粘贴你的密钥</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enter a replacement key</source>
+        <translation>输入替换用的密钥</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>No key set. You can use a key for this session only.</source>
+        <translation>尚未设置密钥。你可以只在本次会话中使用密钥。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The key is available only until Lichii closes.</source>
+        <translation>该密钥仅在 Lichii 关闭前有效。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The key is saved in Windows Credential Manager.</source>
+        <translation>密钥已保存到 Windows 凭据管理器。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Windows Credential Manager is unavailable. Keys are available for this session only.</source>
+        <translation>Windows 凭据管理器不可用，密钥仅在本次会话中有效。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Lichii couldn't save this key in Windows Credential Manager. It is available for this session only. Any saved key is unchanged.</source>
+        <translation>Lichii 无法把该密钥保存到 Windows 凭据管理器，它仅在本次会话中有效。已保存的密钥不受影响。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Lichii couldn't remove a saved key. Remove “Lichii/iiDB API Key” in Windows Credential Manager. Any key entered here is session-only.</source>
+        <translation>Lichii 无法删除已保存的密钥。请在 Windows 凭据管理器中删除「Lichii/iiDB API Key」。此处输入的密钥仅在本次会话有效。</translation>
+    </message>
+</context>
+<context>
+    <name>ShaderWarmDialog</name>
+    <message>
+        <location filename="../../src/lichii/shader_warm_dialog.cpp" line="+51"/>
+        <source>Reading game files</source>
+        <translation>正在读取游戏文件</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Extracting shaders</source>
+        <translation>正在提取着色器</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Converting shaders</source>
+        <translation>正在转换着色器</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Reading asset packs (MiB)</source>
+        <translation>正在读取资源包（MiB）</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Writing the precache file</source>
+        <translation>正在写入预编译缓存文件</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Precache shaders: %1</source>
+        <translation>预编译着色器：%1</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Starting</source>
+        <translation>正在开始</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location line="+81"/>
+        <source>Stopping</source>
+        <translation>正在停止</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>%1: %L2 / %L3</source>
+        <translation>%1：%L2 / %L3</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%1: %L2</source>
+        <translation>%1：%L2</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Shader precache is ready.</source>
+        <translation>着色器预编译缓存已就绪。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>This game keeps its shaders in a format Lichii can't read, so none are prepared from the game files.</source>
+        <translation>此游戏的着色器采用了 Lichii 无法读取的格式，因此没有从游戏文件中准备任何着色器。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>The game files have no compute shaders to prepare.</source>
+        <translation>游戏文件中没有可准备的计算着色器。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Compute programs: %L1</source>
+        <translation>计算程序：%L1</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Skipped (could not be read or converted): %L1</source>
+        <translation>已跳过（无法读取或转换）：%L1</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>They are compiled on the loading screen the next time you start the game, on every CPU thread, with every pipeline your earlier sessions saved. Skip stops it; the next start goes on from there.</source>
+        <translation>下次启动游戏时，它们会在加载界面用全部 CPU 线程编译，并使用你此前会话保存的所有管线。点「跳过」可以中止，下次启动会从中断处继续。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>It is built on the loading screen when Precache shaders before game start is on.</source>
+        <translation>开启“游戏启动前预编译着色器”后，会在加载画面中构建。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Shader precache stopped.</source>
+        <translation>着色器预编译已停止。</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Shader precache could not be built.</source>
+        <translation>无法构建着色器预编译缓存。</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>No details were given.</source>
+        <translation>没有提供详细信息。</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <source>The shaders your earlier play sessions saved are still precached.</source>
+        <translation>以往游戏会话保存的着色器仍会被预编译。</translation>
+    </message>
+    <message>
+        <source>This game keeps its shaders in a format Lichii can&apos;t read, so none are prepared from the game files.</source>
+        <translation>该游戏的着色器使用了 Lichii 无法读取的格式，因此没有从游戏文件中准备任何内容。</translation>
+    </message>
+</context>
+<context>
+    <name>NxTools</name>
+    <message>
+        <location filename="../../src/lichii/nx_tools.cpp" line="+499"/>
+        <source>%1 cannot be decrypted: %2
+
+Check that your keys are installed.</source>
+        <translation>%1 无法解密：%2
+
+请确认已安装密钥。</translation>
+    </message>
+    <message>
+        <location line="+52"/>
+        <source>Convert to NX</source>
+        <translation>转换为 NX</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Converting to NX</source>
+        <translation>正在转换为 NX</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>NX archive (*.nx)</source>
+        <translation>NX 归档 (*.nx)</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>The archive already exists:
+%1</source>
+        <translation>归档已存在：
+%1</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Updates and DLC of this game were found in the same folder.
+The checked ones are added to the NX archive:</source>
+        <translation>在同一文件夹中找到了该游戏的更新和 DLC。
+勾选的会加入 NX 归档：</translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>The NX archive was created:
+%1</source>
+        <translation>NX 归档已创建：
+%1</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Add to NX</source>
+        <translation>添加到 NX</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>This NX archive cannot be read.</source>
+        <translation>无法读取此 NX 归档。</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Add an update or DLC to this NX archive. The archive is changed in place; the content it already holds is kept.</source>
+        <translation>向此 NX 归档添加更新或 DLC。归档会就地修改，已有内容会保留。</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Update Folder...</source>
+        <translation>更新文件夹...</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>NSP or XCI Files...</source>
+        <translation>NSP 或 XCI 文件...</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Adding to NX</source>
+        <translation>正在添加到 NX</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Select the Update Folder</source>
+        <translation>选择更新文件夹</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Version number of this update (for example 196608 for v196608):</source>
+        <translation>此更新的版本号（例如 v196608 对应 196608）：</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Select Updates or DLC</source>
+        <translation>选择更新或 DLC</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Switch packages (*.nsp *.xci)</source>
+        <translation>Switch 包 (*.nsp *.xci)</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>The NX archive was updated.</source>
+        <translation>NX 归档已更新。</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Remove from NX</source>
+        <translation>从 NX 中移除</translation>
+    </message>
+    <message>
+        <location line="+73"/>
+        <source>This NX archive cannot be read: %1</source>
+        <translation>无法读取此 NX 归档：%1</translation>
+    </message>
+    <message>
+        <location line="-67"/>
+        <source>This NX archive holds no update or DLC to remove.</source>
+        <translation>此 NX 归档中没有可移除的更新或 DLC。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Select the content to remove from the archive:</source>
+        <translation>选择要从归档中移除的内容：</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>DLC %1 (v%2)</source>
+        <translation>DLC %1（v%2）</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Update %1 (v%2)</source>
+        <translation>更新 %1（v%2）</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Remove</source>
+        <translation>移除</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Removing from NX</source>
+        <translation>正在从 NX 中移除</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>The selected content was removed from the NX archive.</source>
+        <translation>所选内容已从 NX 归档中移除。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Edit NX Metadata</source>
+        <translation>编辑 NX 元数据</translation>
+    </message>
+    <message>
+        <location line="+44"/>
+        <source>Title:</source>
+        <translation>标题：</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Publisher:</source>
+        <translation>发行商：</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Choose Image...</source>
+        <translation>选择图片...</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>256 x 256 (default)</source>
+        <translation>256 x 256（默认）</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>512 x 512</source>
+        <translation>512 x 512</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1024 x 1024</source>
+        <translation>1024 x 1024</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Size of the icon stored in the archive</source>
+        <translation>归档中保存的图标尺寸</translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>This image cannot be converted.</source>
+        <translation>无法转换此图片。</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>This image cannot be read.</source>
+        <translation>无法读取此图片。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Choose Image</source>
+        <translation>选择图片</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Images (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</source>
+        <translation>图片 (*.png *.jpg *.jpeg *.bmp *.webp *.gif)</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Restore Original Image</source>
+        <translation>恢复原始图片</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Icon:</source>
+        <translation>图标：</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>The new title and icon are shown in every language. The game itself is not changed.</source>
+        <translation>新标题和图标会以所有语言显示。游戏本身不会被修改。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Editing NX metadata</source>
+        <translation>正在编辑 NX 元数据</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>The icon cannot be saved.</source>
+        <translation>无法保存图标。</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>The NX archive metadata was updated.</source>
+        <translation>NX 归档元数据已更新。</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Cancelling...</source>
+        <translation>正在取消…</translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Preparing...</source>
+        <translation>正在准备…</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Finishing...</source>
+        <translation>正在完成...</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>%1 left</source>
+        <translation>剩余 %1</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>%1
+Elapsed: %2</source>
+        <translation>%1
+已用时间：%2</translation>
+    </message>
+    <message>
+        <location line="+67"/>
+        <source>Move the %1 original packages to the Recycle Bin</source>
+        <translation>把 %1 个原始包移到回收站</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Move the original folder to the Recycle Bin:
+%1</source>
+        <translation>把原始文件夹移到回收站：
+%1</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Move the original game to the Recycle Bin:
+%1</source>
+        <translation>把原始游戏移到回收站：
+%1</translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>%1 of the %2 original packages could not be moved to the Recycle Bin. They may be in use.</source>
+        <translation>%2 个原始包中有 %1 个无法移到回收站，可能正在被占用。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The original could not be moved to the Recycle Bin:
+%1
+
+It may be in use. You can delete it yourself.</source>
+        <translation>无法把原始文件移到回收站：
+%1
+
+它可能正在被使用，你可以手动删除。</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>less than a minute</source>
+        <translation>不到一分钟</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>about %1 h %2 min</source>
+        <translation>约 %1 小时 %2 分钟</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Already added to the archive: %1</source>
+        <translation>已添加到归档：%1</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Added: %1</source>
+        <translation>已添加：%1</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Already in the archive: %1</source>
+        <translation>已在归档中：%1</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Cancelled.</source>
+        <translation>已取消。</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Cancelled. Nothing was changed on disk.</source>
+        <translation>已取消，磁盘上的内容没有变化。</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>The operation failed because the rebuild recipe could not be kept:
+%1
+
+Try again without the recipe? The game still runs from the NX archive, but the original package cannot be rebuilt exactly from it.</source>
+        <translation>操作失败，因为无法保留重建配方：
+%1
+
+是否不带配方重试？游戏仍可从 NX 归档运行，但无法再从中精确重建原始包。</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>The operation failed:
+%1</source>
+        <translation>操作失败：
+%1</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>about %n minute(s)</source>
+        <translation>约 %n 分钟</translation>
+    </message>
+    <message>
+        <source>NX converter unavailable: Windows blocked nxformat.dll (Smart App Control or a code integrity policy). Error %1.</source>
+        <translation>NX 转换器不可用：Windows 阻止了 nxformat.dll（智能应用控制或代码完整性策略）。错误 %1。</translation>
+    </message>
+    <message>
+        <source>No icon</source>
+        <translation>无图标</translation>
+    </message>
+    <message>
+        <source>NX converter unavailable: could not load nxformat.dll. Error %1: %2</source>
+        <translation>NX 转换器不可用：无法加载 nxformat.dll。错误 %1：%2</translation>
+    </message>
+</context>
+<context>
+    <name>Dialog</name>
+    <message>
+        <source>Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.</source>
+        <translation>正在提交… 关闭窗口只会停止等待，但无法撤回服务器已经收到的报告。不会自动重试。</translation>
+    </message>
+    <message>
+        <source>The server returned an invalid receipt. The report may have been accepted. Only retry this unchanged draft explicitly.</source>
+        <translation>服务器返回了无效回执。报告可能已被接受。仅请对这份未改动的草稿手动重试。</translation>
+    </message>
+    <message>
+        <source>Choose your assessment</source>
+        <translation>选择你的评价</translation>
+    </message>
+    <message>
+        <source>Compatibility</source>
+        <translation>兼容性</translation>
+    </message>
+    <message>
+        <source>No catalog game confirmed.</source>
+        <translation>尚未确认任何目录中的游戏。</translation>
+    </message>
+    <message>
+        <source>Search sends only the text above to lichii.zortos.me. The service sees your IP address.</source>
+        <translation>搜索只会把上面的文字发送到 lichii.zortos.me。该服务会看到你的 IP 地址。</translation>
+    </message>
+    <message>
+        <source>Prefilled values describe launch settings, not measured performance. Review changes made during play. Unknown means not collected. Do not paste logs, paths, keys or private details.</source>
+        <translation>预填的值描述的是启动时的设置，而非实测性能。请核对游戏过程中做过的更改。“未知”表示未收集。请勿粘贴日志、路径、密钥或隐私信息。</translation>
+    </message>
+    <message>
+        <source>What worked or failed?</source>
+        <translation>哪些正常、哪些异常？</translation>
+    </message>
+    <message>
+        <source>Game version</source>
+        <translation>游戏版本</translation>
+    </message>
+    <message>
+        <source>Next</source>
+        <translation>下一步</translation>
+    </message>
+    <message>
+        <source>Confirm game</source>
+        <translation>确认游戏</translation>
+    </message>
+    <message>
+        <source>Game title to search</source>
+        <translation>要搜索的游戏名称</translation>
+    </message>
+    <message>
+        <source>Clear draft</source>
+        <translation>清空草稿</translation>
+    </message>
+    <message>
+        <source>An X handle must contain 1–15 letters, digits or underscores, with an optional @.</source>
+        <translation>X 账号必须由 1–15 个字母、数字或下划线组成，可带一个 @。</translation>
+    </message>
+    <message>
+        <source>Summary</source>
+        <translation>概述</translation>
+    </message>
+    <message>
+        <source>Rate limit reached. Wait %1 seconds, then retry explicitly. Nothing will be retried automatically.</source>
+        <translation>已触发限流。请等待 %1 秒后手动重试。不会自动重试。</translation>
+    </message>
+    <message>
+        <source>Share your experience with the latest completed session. Nothing is sent until you choose Search or Submit. Logs are not uploaded. No account is required.</source>
+        <translation>分享你在最近一次已完成会话中的体验。在你选择“搜索”或“提交”之前不会发送任何内容。不会上传日志。无需账号。</translation>
+    </message>
+    <message>
+        <source>The server rejected these fields: %1. Review them before submitting again.</source>
+        <translation>服务器拒绝了以下字段：%1。请检查后重新提交。</translation>
+    </message>
+    <message>
+        <source>Open public report</source>
+        <translation>打开公开报告</translation>
+    </message>
+    <message>
+        <source>Previous</source>
+        <translation>上一步</translation>
+    </message>
+    <message>
+        <source>Experience</source>
+        <translation>体验</translation>
+    </message>
+    <message>
+        <source>Updates (optional)</source>
+        <translation>更新（可选）</translation>
+    </message>
+    <message>
+        <source>Searching catalog… Cancel closes the dialog and stops this request.</source>
+        <translation>正在搜索目录… 点击“取消”会关闭对话框并停止本次请求。</translation>
+    </message>
+    <message>
+        <source>Check %1: required fields must be filled, within their length limit, and contain no control characters.</source>
+        <translation>请检查 %1：必填字段必须填写、不超过长度限制，且不含控制字符。</translation>
+    </message>
+    <message>
+        <source>Catalog search failed. Check your connection and retry explicitly.</source>
+        <translation>目录搜索失败。请检查网络后手动重试。</translation>
+    </message>
+    <message>
+        <source>Launch settings</source>
+        <translation>启动设置</translation>
+    </message>
+    <message>
+        <source>RAM (optional)</source>
+        <translation>内存（可选）</translation>
+    </message>
+    <message>
+        <source>Mods (optional)</source>
+        <translation>Mod（可选）</translation>
+    </message>
+    <message>
+        <source>The server rejected the report. Review the fields and length limits before submitting again.</source>
+        <translation>服务器拒绝了该报告。请检查各字段和长度限制后重新提交。</translation>
+    </message>
+    <message>
+        <source>No valid receipt was received. Delivery may have succeeded. An explicit retry of this unchanged draft uses the same submission identity. Closing loses that identity; do not create a duplicate.</source>
+        <translation>没有收到有效的回执，但提交可能已经成功。对这份未改动草稿的手动重试会使用相同的提交标识。关闭窗口会丢失该标识；请不要重复创建。</translation>
+    </message>
+    <message>
+        <source>Submit report</source>
+        <translation>提交报告</translation>
+    </message>
+    <message>
+        <source>X handle (optional)</source>
+        <translation>X 账号（可选）</translation>
+    </message>
+    <message>
+        <source>The server rejected this submission identity. Edit the draft to start a new submission; first check whether your report was already accepted.</source>
+        <translation>服务器拒绝了本次提交标识。请修改草稿以开始新的提交；先确认你的报告是否已被接受。</translation>
+    </message>
+    <message>
+        <source>Confirmed: %1 (catalog ID %2)</source>
+        <translation>已确认：%1（目录 ID %2）</translation>
+    </message>
+    <message>
+        <source>The server rejected the request (HTTP %1). No automatic retry was made.</source>
+        <translation>服务器拒绝了该请求（HTTP %1）。未进行自动重试。</translation>
+    </message>
+    <message>
+        <source>Submit compatibility report</source>
+        <translation>提交兼容性报告</translation>
+    </message>
+    <message>
+        <source>Check the search text.</source>
+        <translation>请检查搜索文字。</translation>
+    </message>
+    <message>
+        <source>Page %1 of %2. Select the exact game and press Confirm game.</source>
+        <translation>第 %1 页，共 %2 页。请选择对应的游戏并点击“确认游戏”。</translation>
+    </message>
+    <message>
+        <source>Lichii build</source>
+        <translation>Lichii 版本</translation>
+    </message>
+    <message>
+        <source>Public nickname</source>
+        <translation>公开昵称</translation>
+    </message>
+    <message>
+        <source>My report contains no game files, keys, firmware, saves or private account details.</source>
+        <translation>我的报告不包含游戏文件、密钥、固件、存档或私人账号信息。</translation>
+    </message>
+    <message>
+        <source>The report is too large.</source>
+        <translation>报告内容过大。</translation>
+    </message>
+    <message>
+        <source>Steps to reproduce (optional)</source>
+        <translation>复现步骤（可选）</translation>
+    </message>
+    <message>
+        <source>I understand my name, optional X handle, report text, hardware and settings will be public.</source>
+        <translation>我明白我的昵称、可选的 X 账号、报告内容、硬件与设置将会公开。</translation>
+    </message>
+    <message>
+        <source>Draft cleared. Nothing was sent by clearing it.</source>
+        <translation>草稿已清空。清空操作没有发送任何内容。</translation>
+    </message>
+    <message>
+        <source>GPU driver / OpenGL version</source>
+        <translation>GPU 驱动 / OpenGL 版本</translation>
+    </message>
+    <message>
+        <source>Choose your own compatibility assessment.</source>
+        <translation>请选择你自己的兼容性评价。</translation>
+    </message>
+    <message>
+        <source>Report submitted. It is public. Thank you.</source>
+        <translation>报告已提交，并且已公开。谢谢！</translation>
+    </message>
+    <message>
+        <source>Graphics API</source>
+        <translation>图形 API</translation>
+    </message>
+    <message>
+        <source>Search catalog</source>
+        <translation>搜索目录</translation>
+    </message>
+    <message>
+        <source>All report fields in the preview will be public. Logs, files, local title IDs and play history are not sent. The server uses your IP address for rate limiting. Review and clear anything you do not want to share.</source>
+        <translation>预览中的所有报告字段都会公开。日志、文件、本地标题 ID 和游玩记录不会发送。服务器会用你的 IP 地址进行限流。请检查并清空你不想公开的内容。</translation>
+    </message>
+    <message>
+        <source>Operating system</source>
+        <translation>操作系统</translation>
+    </message>
+    <message>
+        <source>The catalog returned an invalid response. No game was confirmed.</source>
+        <translation>目录返回了无效响应，未确认任何游戏。</translation>
+    </message>
+    <message>
+        <source>How far did you play?</source>
+        <translation>你玩到了哪里？</translation>
+    </message>
+    <message>
+        <source>Search for and confirm the catalog game first.</source>
+        <translation>请先搜索并确认目录中的游戏。</translation>
+    </message>
+    <message>
+        <source>Public preview</source>
+        <translation>公开预览</translation>
+    </message>
+    <message>
+        <source>System and settings</source>
+        <translation>系统与设置</translation>
     </message>
 </context>
 <context>
     <name>ArtworkDialog</name>
     <message>
-        <source>Game title:</source>
-        <translation>游戏标题：</translation>
-    </message>
-    <message>
-        <source>Only the title you search is sent to iiDB, never your game files or ID.</source>
-        <translation>只会把你搜索的标题发送给 iiDB，绝不会发送游戏文件或 ID。</translation>
-    </message>
-    <message>
-        <source>API Key…</source>
-        <translation>API 密钥…</translation>
-    </message>
-    <message>
-        <source>iiDB match:</source>
-        <translation>iiDB 匹配：</translation>
-    </message>
-    <message>
-        <source>Choose a search result</source>
-        <translation>选择一个搜索结果</translation>
-    </message>
-    <message>
-        <source>iiSU Box Art</source>
-        <translation>iiSU 封面图</translation>
-    </message>
-    <message>
-        <source>Box Art</source>
-        <translation>封面图</translation>
-    </message>
-    <message>
-        <source>Icons</source>
-        <translation>图标</translation>
-    </message>
-    <message>
-        <source>Artwork gallery</source>
-        <translation>封面图库</translation>
+        <source>Downloading original…</source>
+        <translation>正在下载原图…</translation>
     </message>
     <message>
         <source>Some thumbnails could not load because iiDB asked Lichii to wait.</source>
         <translation>部分缩略图未能加载，因为 iiDB 要求 Lichii 稍等。</translation>
     </message>
     <message>
-        <source>Load More</source>
-        <translation>加载更多</translation>
+        <source>iiDB match:</source>
+        <translation>iiDB 匹配：</translation>
     </message>
     <message>
         <source>Preview Selected</source>
         <translation>预览所选</translation>
     </message>
     <message>
-        <source>Icon in Lichii</source>
-        <translation>Lichii 中的图标</translation>
-    </message>
-    <message>
-        <source>Original artwork</source>
-        <translation>原始封面图</translation>
-    </message>
-    <message>
-        <source>The original is shown in proportion. Lichii crops and scales it to a 256 × 256 icon, just like Upload Icon.</source>
-        <translation>原图按比例显示。Lichii 会像“上传图标”一样，把它裁剪并缩放到 256 × 256 的图标。</translation>
-    </message>
-    <message>
-        <source>Cancel or a failed download or decode leaves the original artwork intact. Use Artwork stages the new icon; Apply or OK in Properties saves it.</source>
-        <translation>取消，或下载/解码失败，都会保留原始封面图。“使用封面图”只是暂存新图标；需要在属性里点击“应用”或“确定”才会保存。</translation>
-    </message>
-    <message>
-        <source>Catalog data from &lt;a href=&quot;https://iidb.iisu.network&quot;&gt;iiDB&lt;/a&gt;, adapted from the &lt;a href=&quot;https://github.com/libretro/libretro-database&quot;&gt;Libretro Database&lt;/a&gt; and its upstream sources (No-Intro and Redump), &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0&lt;/a&gt;. &lt;a href=&quot;https://iisu.network/license&quot;&gt;Artwork and catalog licensing&lt;/a&gt;.</source>
-        <translation>目录数据来自 &lt;a href=&quot;https://iidb.iisu.network&quot;&gt;iiDB&lt;/a&gt;，改编自 &lt;a href=&quot;https://github.com/libretro/libretro-database&quot;&gt;Libretro Database&lt;/a&gt; 及其上游来源（No-Intro 与 Redump），&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0&lt;/a&gt;。&lt;a href=&quot;https://iisu.network/license&quot;&gt;封面图与目录许可&lt;/a&gt;。</translation>
-    </message>
-    <message>
-        <source>Use Artwork</source>
-        <translation>使用封面图</translation>
-    </message>
-    <message>
-        <source>Search for the game by title.</source>
-        <translation>按标题搜索游戏。</translation>
-    </message>
-    <message>
-        <source>Searching iiDB…</source>
-        <translation>正在搜索 iiDB…</translation>
-    </message>
-    <message>
-        <source>No matching games with artwork. Try another title.</source>
-        <translation>没有找到带封面图的匹配游戏，请换个标题试试。</translation>
-    </message>
-    <message>
-        <source>Choose the matching iiDB game to see its artwork.</source>
-        <translation>选择匹配的 iiDB 游戏以查看其封面图。</translation>
-    </message>
-    <message>
-        <source>Loading %1…</source>
-        <translation>正在加载 %1…</translation>
+        <source>No usable images in this category.</source>
+        <translation>此分类中没有可用的图片。</translation>
     </message>
     <message>
         <source>Retry Gallery</source>
         <translation>重试图库</translation>
     </message>
     <message>
-        <source>Artwork %1</source>
-        <translation>封面图 %1</translation>
+        <source>Original: %1 × %2</source>
+        <translation>原图：%1 × %2</translation>
     </message>
     <message>
-        <source>iiDB repeated a gallery page. No more pages were loaded.</source>
-        <translation>iiDB 返回了重复的图库页面，已停止加载更多页面。</translation>
+        <source>Icons</source>
+        <translation>图标</translation>
     </message>
     <message>
-        <source>Showing up to %1 pages in this category.</source>
-        <translation>此分类最多显示 %1 页。</translation>
+        <source>Search for the game by title.</source>
+        <translation>按标题搜索游戏。</translation>
     </message>
     <message>
-        <source>No usable images in this category.</source>
-        <translation>此分类中没有可用的图片。</translation>
+        <source>Catalog data from &lt;a href=&quot;https://iidb.iisu.network&quot;&gt;iiDB&lt;/a&gt;, adapted from the &lt;a href=&quot;https://github.com/libretro/libretro-database&quot;&gt;Libretro Database&lt;/a&gt; and its upstream sources (No-Intro and Redump), &lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0&lt;/a&gt;. &lt;a href=&quot;https://iisu.network/license&quot;&gt;Artwork and catalog licensing&lt;/a&gt;.</source>
+        <translation>目录数据来自 &lt;a href=&quot;https://iidb.iisu.network&quot;&gt;iiDB&lt;/a&gt;，改编自 &lt;a href=&quot;https://github.com/libretro/libretro-database&quot;&gt;Libretro Database&lt;/a&gt; 及其上游来源（No-Intro 与 Redump），&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/4.0/&quot;&gt;CC BY-SA 4.0&lt;/a&gt;。&lt;a href=&quot;https://iisu.network/license&quot;&gt;封面图与目录许可&lt;/a&gt;。</translation>
     </message>
     <message>
-        <source>No artwork in this category.</source>
-        <translation>此分类中没有封面图。</translation>
+        <source>Choose the matching iiDB game to see its artwork.</source>
+        <translation>选择匹配的 iiDB 游戏以查看其封面图。</translation>
+    </message>
+    <message>
+        <source>Load More</source>
+        <translation>加载更多</translation>
+    </message>
+    <message>
+        <source>Use Artwork</source>
+        <translation>使用封面图</translation>
+    </message>
+    <message>
+        <source>Choose a search result</source>
+        <translation>选择一个搜索结果</translation>
     </message>
     <message>
         <source>Select an image to preview the original.</source>
@@ -15517,114 +16654,182 @@ Check that your keys are installed.</source>
         <translation>无预览</translation>
     </message>
     <message>
-        <source>Downloading original…</source>
-        <translation>正在下载原图…</translation>
+        <source>Only the title you search is sent to iiDB, never your game files or ID.</source>
+        <translation>只会把你搜索的标题发送给 iiDB，绝不会发送游戏文件或 ID。</translation>
     </message>
     <message>
-        <source>Original: %1 × %2</source>
-        <translation>原图：%1 × %2</translation>
+        <source>iiSU Box Art</source>
+        <translation>iiSU 封面图</translation>
+    </message>
+    <message>
+        <source>Icon in Lichii</source>
+        <translation>Lichii 中的图标</translation>
+    </message>
+    <message>
+        <source>Box Art</source>
+        <translation>封面图</translation>
+    </message>
+    <message>
+        <source>Searching iiDB…</source>
+        <translation>正在搜索 iiDB…</translation>
+    </message>
+    <message>
+        <source>Original artwork</source>
+        <translation>原始封面图</translation>
+    </message>
+    <message>
+        <source>No matching games with artwork. Try another title.</source>
+        <translation>没有找到带封面图的匹配游戏，请换个标题试试。</translation>
+    </message>
+    <message>
+        <source>No artwork in this category.</source>
+        <translation>此分类中没有封面图。</translation>
+    </message>
+    <message>
+        <source>API Key…</source>
+        <translation>API 密钥…</translation>
+    </message>
+    <message>
+        <source>Artwork %1</source>
+        <translation>封面图 %1</translation>
+    </message>
+    <message>
+        <source>Artwork gallery</source>
+        <translation>封面图库</translation>
+    </message>
+    <message>
+        <source>Game title:</source>
+        <translation>游戏标题：</translation>
+    </message>
+    <message>
+        <source>iiDB repeated a gallery page. No more pages were loaded.</source>
+        <translation>iiDB 返回了重复的图库页面，已停止加载更多页面。</translation>
+    </message>
+    <message>
+        <source>Cancel or a failed download or decode leaves the original artwork intact. Use Artwork stages the new icon; Apply or OK in Properties saves it.</source>
+        <translation>取消，或下载/解码失败，都会保留原始封面图。“使用封面图”只是暂存新图标；需要在属性里点击“应用”或“确定”才会保存。</translation>
+    </message>
+    <message>
+        <source>Loading %1…</source>
+        <translation>正在加载 %1…</translation>
     </message>
     <message>
         <source>Browse iiDB Artwork</source>
         <translation>浏览 iiDB 封面图</translation>
     </message>
+    <message>
+        <source>The original is shown in proportion. Lichii crops and scales it to a 256 × 256 icon, just like Upload Icon.</source>
+        <translation>原图按比例显示。Lichii 会像“上传图标”一样，把它裁剪并缩放到 256 × 256 的图标。</translation>
+    </message>
+    <message>
+        <source>Showing up to %1 pages in this category.</source>
+        <translation>此分类最多显示 %1 页。</translation>
+    </message>
 </context>
 <context>
     <name>KeyDialog</name>
     <message>
-        <source>Enter a personal iiDB API key to search for artwork from game Properties. &lt;a href=&quot;https://iisu.network/wiki/iidb-developers/getting-started&quot;&gt;Get a key&lt;/a&gt;.</source>
-        <translation>输入个人 iiDB API 密钥，即可从游戏属性中搜索封面图。&lt;a href=&quot;https://iisu.network/wiki/iidb-developers/getting-started&quot;&gt;获取密钥&lt;/a&gt;。</translation>
-    </message>
-    <message>
-        <source>Personal API key:</source>
-        <translation>个人 API 密钥：</translation>
-    </message>
-    <message>
-        <source>Remember in Windows Credential Manager</source>
-        <translation>在 Windows 凭据管理器中记住</translation>
-    </message>
-    <message>
-        <source>Use Key</source>
-        <translation>使用密钥</translation>
-    </message>
-    <message>
-        <source>Test Connection</source>
-        <translation>测试连接</translation>
+        <source>iiDB API Key</source>
+        <translation>iiDB API 密钥</translation>
     </message>
     <message>
         <source>Forget Key</source>
         <translation>清除密钥</translation>
     </message>
     <message>
-        <source>Test the entered key, or the current key if the field is blank. Testing does not save it.</source>
-        <translation>测试输入的密钥；如果输入框为空，则测试当前密钥。测试不会保存密钥。</translation>
+        <source>The key is saved in Windows Credential Manager.</source>
+        <translation>密钥已保存在 Windows 凭据管理器中。</translation>
     </message>
     <message>
         <source>Testing iiDB access…</source>
         <translation>正在测试 iiDB 访问…</translation>
     </message>
     <message>
-        <source>iiDB accepted the key.</source>
-        <translation>iiDB 已接受该密钥。</translation>
-    </message>
-    <message>
-        <source>Paste your key</source>
-        <translation>粘贴你的密钥</translation>
-    </message>
-    <message>
-        <source>Enter a replacement key</source>
-        <translation>输入替换用的密钥</translation>
-    </message>
-    <message>
-        <source>No key set. You can use a key for this session only.</source>
-        <translation>尚未设置密钥。你可以使用仅在本次会话有效的密钥。</translation>
+        <source>Windows Credential Manager is unavailable. Keys are available for this session only.</source>
+        <translation>Windows 凭据管理器不可用，密钥仅在本次会话有效。</translation>
     </message>
     <message>
         <source>The key is available only until Lichii closes.</source>
         <translation>该密钥仅在 Lichii 关闭前有效。</translation>
     </message>
     <message>
-        <source>The key is saved in Windows Credential Manager.</source>
-        <translation>密钥已保存在 Windows 凭据管理器中。</translation>
+        <source>Personal API key:</source>
+        <translation>个人 API 密钥：</translation>
     </message>
     <message>
-        <source>Windows Credential Manager is unavailable. Keys are available for this session only.</source>
-        <translation>Windows 凭据管理器不可用，密钥仅在本次会话有效。</translation>
+        <source>Enter a personal iiDB API key to search for artwork from game Properties. &lt;a href=&quot;https://iisu.network/wiki/iidb-developers/getting-started&quot;&gt;Get a key&lt;/a&gt;.</source>
+        <translation>输入个人 iiDB API 密钥，即可从游戏属性中搜索封面图。&lt;a href=&quot;https://iisu.network/wiki/iidb-developers/getting-started&quot;&gt;获取密钥&lt;/a&gt;。</translation>
+    </message>
+    <message>
+        <source>Test Connection</source>
+        <translation>测试连接</translation>
     </message>
     <message>
         <source>Lichii couldn&apos;t save this key in Windows Credential Manager. It is available for this session only. Any saved key is unchanged.</source>
         <translation>Lichii 无法把该密钥保存到 Windows 凭据管理器，它仅在本次会话有效。已保存的密钥保持不变。</translation>
     </message>
     <message>
+        <source>Remember in Windows Credential Manager</source>
+        <translation>在 Windows 凭据管理器中记住</translation>
+    </message>
+    <message>
+        <source>No key set. You can use a key for this session only.</source>
+        <translation>尚未设置密钥。你可以使用仅在本次会话有效的密钥。</translation>
+    </message>
+    <message>
+        <source>Paste your key</source>
+        <translation>粘贴你的密钥</translation>
+    </message>
+    <message>
+        <source>Test the entered key, or the current key if the field is blank. Testing does not save it.</source>
+        <translation>测试输入的密钥；如果输入框为空，则测试当前密钥。测试不会保存密钥。</translation>
+    </message>
+    <message>
+        <source>Enter a replacement key</source>
+        <translation>输入替换用的密钥</translation>
+    </message>
+    <message>
         <source>Lichii couldn&apos;t remove a saved key. Remove “Lichii/iiDB API Key” in Windows Credential Manager. Any key entered here is session-only.</source>
         <translation>Lichii 无法删除已保存的密钥。请在 Windows 凭据管理器中删除“Lichii/iiDB API Key”。在此输入的密钥仅本次会话有效。</translation>
     </message>
     <message>
-        <source>iiDB API Key</source>
-        <translation>iiDB API 密钥</translation>
+        <source>iiDB accepted the key.</source>
+        <translation>iiDB 已接受该密钥。</translation>
+    </message>
+    <message>
+        <source>Use Key</source>
+        <translation>使用密钥</translation>
     </message>
 </context>
 <context>
     <name>IiDB</name>
     <message>
-        <source>Check or replace your iiDB API key.</source>
-        <translation>检查或替换你的 iiDB API 密钥。</translation>
+        <source>The iiDB request timed out. Try again when ready.</source>
+        <translation>iiDB 请求超时，请稍后重试。</translation>
     </message>
     <message>
-        <source>iiDB did not allow this request.</source>
-        <translation>iiDB 不允许此请求。</translation>
+        <source>The iiDB response is too large.</source>
+        <translation>iiDB 响应过大。</translation>
     </message>
     <message>
-        <source>iiDB could not find that game or image.</source>
-        <translation>iiDB 找不到该游戏或图片。</translation>
+        <source>The image is unreadable, unsupported or too large to decode.</source>
+        <translation>图片无法读取、不受支持或过大而无法解码。</translation>
     </message>
     <message>
         <source>iiDB asked Lichii to wait before trying again.</source>
         <translation>iiDB 要求 Lichii 稍后再试。</translation>
     </message>
     <message>
-        <source>The iiDB request timed out. Try again when ready.</source>
-        <translation>iiDB 请求超时，请稍后重试。</translation>
+        <source>iiDB returned an unexpected response.</source>
+        <translation>iiDB 返回了意外的响应。</translation>
+    </message>
+    <message>
+        <source>Add your iiDB API key to use online artwork.</source>
+        <translation>添加 iiDB API 密钥以使用在线封面图。</translation>
+    </message>
+    <message>
+        <source>Wait for the current iiDB request to finish.</source>
+        <translation>请等待当前 iiDB 请求完成。</translation>
     </message>
     <message>
         <source>Could not connect to iiDB or complete the request.</source>
@@ -15635,32 +16840,326 @@ Check that your keys are installed.</source>
         <translation>iiDB 返回了不受信任的图片 URL 或重定向。</translation>
     </message>
     <message>
-        <source>The iiDB response is too large.</source>
-        <translation>iiDB 响应过大。</translation>
+        <source>iiDB did not allow this request.</source>
+        <translation>iiDB 不允许此请求。</translation>
     </message>
     <message>
-        <source>iiDB returned an unexpected response.</source>
-        <translation>iiDB 返回了意外的响应。</translation>
+        <source>Check or replace your iiDB API key.</source>
+        <translation>检查或替换你的 iiDB API 密钥。</translation>
     </message>
     <message>
-        <source>The image is unreadable, unsupported or too large to decode.</source>
-        <translation>图片无法读取、不受支持或过大而无法解码。</translation>
-    </message>
-    <message>
-        <source>Wait for the current iiDB request to finish.</source>
-        <translation>请等待当前 iiDB 请求完成。</translation>
-    </message>
-    <message>
-        <source>Add your iiDB API key to use online artwork.</source>
-        <translation>添加 iiDB API 密钥以使用在线封面图。</translation>
+        <source>iiDB could not find that game or image.</source>
+        <translation>iiDB 找不到该游戏或图片。</translation>
     </message>
 </context>
 <context>
     <name>QWidget</name>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="30"/>
-        <source>Game Requires Firmware</source>
-        <translation>游戏需要固件</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="258"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="266"/>
+        <source>Error Removing Transferable Shader Cache</source>
+        <translation>删除可传输着色器缓存错误</translation>
+    </message>
+    <message>
+        <source>One of these saves links to a different location. No saves were changed.</source>
+        <translation>其中一个存档链接到了其它位置，未更改任何存档。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="408"/>
+        <source>Export Failed</source>
+        <translation>导出失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="127"/>
+        <location filename="../../src/qt_common/util/mod.cpp" line="140"/>
+        <source>Mod Extract Failed</source>
+        <translation>模组提取失败</translation>
+    </message>
+    <message>
+        <source>The saves are now separate copies.</source>
+        <translation>两个存档现在是各自独立的副本。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
+        <source>Export Cancelled</source>
+        <translation>导出已被取消</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="94"/>
+        <source>One or more firmware files failed to copy into NAND.</source>
+        <translation>将一个或多个固件文件复制到 NAND 失败。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="207"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="220"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="236"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="263"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="297"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="322"/>
+        <source>Successfully Removed</source>
+        <translation>删除成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="123"/>
+        <source>The specified directory does not contain valid Ryujinx data.</source>
+        <translation>指定的目录不包含有效的 Ryujinx 数据。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
+        <source>Shortcut Created</source>
+        <translation>已创建快捷方式</translation>
+    </message>
+    <message>
+        <source>Save %1 (last used Ryujinx profile: %2)</source>
+        <translation>存档 %1（上次使用的 Ryujinx 配置档：%2）</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="232"/>
+        <source>There are no DLCs installed for this title.</source>
+        <translation>这个游戏没有任何已安装的 DLC。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="96"/>
+        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. Restart Eden or re-install firmware.</source>
+        <translation>固件安装失败。固件可能处于异常状态或已损坏。请重新启动 Eden 或重新安装固件。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="93"/>
+        <source>Failed to delete one or more firmware files.</source>
+        <translation>删除一个或多个固件文件失败。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="398"/>
+        <source>Failed to create a shortcut to %1</source>
+        <translation>%1 的快捷方式创建失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="85"/>
+        <source>Decryption Keys failed to initialize. Check that your dumping tools are up to date and re-dump keys.</source>
+        <translation>密钥初始化失败。请检查您的转储工具是否为最新版本并重新转储密钥。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="224"/>
+        <source>There is no update installed for this title.</source>
+        <translation>这个游戏没有任何已安装的更新。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="464"/>
+        <source>Create Icon</source>
+        <translation>创建图标</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="208"/>
+        <source>Successfully removed the installed base game.</source>
+        <translation>已成功删除安装的基础游戏。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="194"/>
+        <source>Error Removing Update</source>
+        <translation>删除更新时出错</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="542"/>
+        <source>Failed to clean up extracted firmware cache.
+Check write permissions in the system temp directory and try again.
+OS reported error: %1</source>
+        <translation>清理提取的固件缓存失败。
+请检查系统临时目录的写入权限然后重试。
+OS 报告的错误: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="326"/>
+        <source>Failed to remove the custom game configuration.</source>
+        <translation>移除自定义游戏设置失败。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="292"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="302"/>
+        <source>Error Removing Transferable Shader Caches</source>
+        <translation>删除可传输着色器缓存错误</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="75"/>
+        <source>Contains game mods, patches, and cheats.</source>
+        <translation>包含游戏 mod、补丁以及作弊。</translation>
+    </message>
+    <message>
+        <source>Could not update the save link:
+%1</source>
+        <translation>无法更新存档链接：
+%1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="132"/>
+        <source>Invalid byte alignment on Ryujinx title database.</source>
+        <translation>Ryujinx 标题数据字节对齐无效。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="112"/>
+        <source>Would you like to migrate your data for use in Eden?
+Select the corresponding button to migrate data from that emulator.
+This may take a while.</source>
+        <translation>您想将数据迁移到 Eden 中使用吗？
+请选择相应的按钮从该模拟器迁移数据。
+这可能需要一些时间。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="526"/>
+        <source>Home Menu is not available. Please reinstall firmware.</source>
+        <translation>主页菜单不可用。请重新安装固件。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
+        <source>Select Export Location</source>
+        <translation>选择导出位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="525"/>
+        <source>Home Menu Applet</source>
+        <translation>主页菜单小程序</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="232"/>
+        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. File contents could not be checked for validity.</source>
+        <translation>固件安装失败。固件可能处于异常状态或已损坏，无法验证文件内容的有效性。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="41"/>
+        <source>This title is already linked to Ryujinx. Would you like to unlink it?</source>
+        <translation>此游戏已经被链接到 Ryujinx。您要取消链接它吗?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="541"/>
+        <source>Firmware cleanup failed</source>
+        <translation>清理固件失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="131"/>
+        <source>Invalid magic header on Ryujinx title database.</source>
+        <translation>Ryujinx 标题数据库 magic 头部无效。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="40"/>
+        <source>Already Linked</source>
+        <translation>已链接</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="92"/>
+        <source>Unable to locate potential firmware NCA files</source>
+        <translation>无法定位潜在的固件 NCA 文件</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="226"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="287"/>
+        <source>Integrity verification failed!</source>
+        <translation>完整性验证失败！</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="59"/>
+        <source>ExeFS/Patch</source>
+        <translation>ExeFS/Patch</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="134"/>
+        <source>Title %1 not found in Ryujinx title database.</source>
+        <translation>在 Ryujinx 的标题数据库中找不到标题 %1。</translation>
+    </message>
+    <message>
+        <source>Save %1 (device save)</source>
+        <translation>存档 %1（设备存档）</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="84"/>
+        <source>Successfully unlinked Ryujinx save data. Save data has been kept intact.</source>
+        <translation>已成功取消链接 Ryujinx 存档数据。存档数据已保持完整。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="391"/>
+        <source>This will create a shortcut to the current AppImage. This may not work well if you update. Continue?</source>
+        <translation>这回创建到当前 AppImage 的快捷方式。它可能会在您更新后失效。要继续吗?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="445"/>
+        <source>Importing</source>
+        <translation>正在导入</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
+        <source>Exported Successfully</source>
+        <translation>导出成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="70"/>
+        <source>Contains game save data. DO NOT REMOVE UNLESS YOU KNOW WHAT YOU&apos;RE DOING!</source>
+        <translation>包含游戏存档数据。除非你知道自己在做什么,否则不要删除！</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="119"/>
+        <source>Keeps the old data directory. This is recommended if you aren't
+space-constrained and want to keep separate data for the old emulator.</source>
+        <translation>保留旧的数据目录。如果你的存储空间充足，并且想为旧
+模拟器保留独立的数据，这是推荐做法。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="105"/>
+        <source>Ryujinx Portable Location</source>
+        <translation>便携 Ryujinx 安装位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
+        <source>Really clear data?</source>
+        <translation>确实要清除数据吗?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="352"/>
+        <source>Are you REALLY sure?</source>
+        <translation>您真的确定吗?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="69"/>
+        <location filename="../../src/qt_common/util/fs.cpp" line="79"/>
+        <source>OS returned error: %1</source>
+        <translation>OS 返回错误: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="196"/>
+        <source>Error Removing DLC</source>
+        <translation>删除 DLC 时出错</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="237"/>
+        <source>Successfully removed %1 installed DLC.</source>
+        <translation>成功删除 %1 个已安装的 DLC。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="133"/>
+        <source>No items found in Ryujinx title database.</source>
+        <translation>在 Ryujinx 的标题数据库中找不到项目。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="267"/>
+        <source>Failed to remove the transferable shader cache.</source>
+        <translation>删除可传输着色器缓存失败。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="60"/>
+        <source>Cheat</source>
+        <translation>作弊</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
+        <source>Save data has been linked.</source>
+        <translation>已链接存档数据。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="213"/>
+        <source>The base game is not installed in the NAND and cannot be removed.</source>
+        <translation>基础游戏未被安装到 NAND 中并且无法被删除。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="364"/>
+        <source>The metadata cache couldn&apos;t be deleted. It might be in use or non-existent.</source>
+        <translation>缓存数据删除失败。它可能不存在或正在被使用。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/content.cpp" line="31"/>
@@ -15668,18 +17167,91 @@ Check that your keys are installed.</source>
         <translation>这个游戏可能需要固件才能正常运行,但您还没有安装任何固件。请在启动前安装固件,或者按 “确定” 继续启动。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
-        <source>Installing Firmware...</source>
-        <translation>正在安装固件……</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="129"/>
+        <source>Ryujinx title database does not exist.</source>
+        <translation>Ryujinx 标题数据库不存在。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
-        <source>Cancel</source>
-        <translation>取消</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="124"/>
+        <source>Creates a filesystem link between the old directory and Eden directory.
+This is recommended if you want to share data between emulators.</source>
+        <translation>在旧目录和 Eden 目录之间创建文件系统链接。
+如果您想在模拟器之间共享数据,建议这样做。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="231"/>
+        <source>Integrity verification couldn&apos;t be performed</source>
+        <translation>无法执行完整性验证</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="501"/>
+        <source>Install decryption keys and restart Eden before attempting to install firmware.</source>
+        <translation>在尝试安装固件之前先安装解密密钥并重启 Eden。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="81"/>
+        <source>One or more keys failed to copy.</source>
+        <translation>一个或多个密钥复制失败。</translation>
+    </message>
+    <message>
+        <source>Select the Ryujinx save you want to link.</source>
+        <translation>选择你想要链接的 Ryujinx 存档。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="328"/>
+        <source>UNEXPECTED BAD THINGS MAY HAPPEN IF YOU DON&apos;T READ THIS!&lt;br&gt;Eden has detected the following save directories with no attached profile:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;The following profiles are valid:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;Click &quot;OK&quot; to open your save folder and fix up your profiles.&lt;br&gt;Hint: copy the contents of the largest or last-modified folder elsewhere, delete all orphaned profiles, and move your copied contents to the good profile.&lt;br&gt;&lt;br&gt;Still confused? See the &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;help page&lt;/a&gt;.&lt;br&gt;</source>
+        <translation>如果您不阅读此内容,可能会发生意想不到的糟糕情况!&lt;br&gt;Eden 检测到以下存档目录没有附加的配置文件:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;下列配置是有效的:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;点击“确定”以打开您的存档文件夹并修复配置文件。&lt;br&gt;提示: 将最大或最近修改的文件夹内容复制到其他地方,删除所有孤立的配置文件,然后将复制的内容移到正确的配置文件中。&lt;br&gt;&lt;br&gt;还是感到疑惑? 请查看 &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;帮助页&lt;/a&gt;。&lt;br&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
+        <source>Do you want to launch the game in fullscreen?</source>
+        <translation>您想以全屏模式启动游戏吗？</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="83"/>
+        <source>Verify your keys file has a .keys extension and try again.</source>
+        <translation>请确保密钥文件具有 .keys 的扩展名后重试。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="382"/>
+        <source>Exporting</source>
+        <translation>正在导出</translation>
+    </message>
+    <message>
+        <source>Could not find Ryujinx save data in the default or previously used location. Would you like to choose a Ryujinx data folder?</source>
+        <translation>在默认位置或上次使用的位置找不到 Ryujinx 存档数据。要选择 Ryujinx 数据文件夹吗？</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="101"/>
+        <source>Firmware missing. Firmware is required to run certain games and use the Home Menu.</source>
+        <translation>固件缺失。需要固件才能运行某些游戏和主页。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/path.cpp" line="20"/>
+        <source>Failed to create or open shader cache for this title, ensure your app data directory has write permissions.</source>
+        <translation>无法为此游戏创建或打开着色器缓存,请确保您的 app data 目录具有写入权限。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
+        <source>Import was cancelled by the user.</source>
+        <translation>导入已被用户取消。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
+        <source>Zipped Archives (*.zip)</source>
+        <translation>压缩档案 (*.zip)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="141"/>
+        <location filename="../../src/qt_common/util/fs.cpp" line="145"/>
+        <source>Could not find Ryujinx save data</source>
+        <translation>找不到 Ryujinx 的存档数据</translation>
+    </message>
+    <message>
+        <source>Failed to unlink Ryujinx save data</source>
+        <translation>取消 Ryujinx 存档链接失败</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/content.cpp" line="56"/>
@@ -15687,14 +17259,95 @@ Check that your keys are installed.</source>
         <translation>安装固件失败</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="57"/>
-        <source>Firmware Install Succeeded</source>
-        <translation>安装固件成功</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
+        <source>Create Shortcut</source>
+        <translation>创建快捷方式</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="165"/>
-        <source>Firmware integrity verification failed!</source>
-        <translation>固件完整性验证失败！</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="110"/>
+        <source>Eden has detected user data for the following emulators:</source>
+        <translation>Eden 已检测到下列模拟器的用户数据:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
+        <source>Export was cancelled by the user.</source>
+        <translation>导出已被用户取消。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="65"/>
+        <source>Could not detect mod type automatically. Please manually specify the type of mod you downloaded.
+
+Most mods are RomFS mods, but patches (.pchtxt) are typically ExeFS mods.</source>
+        <translation>无法自动检测模组类型。请手动说明你下载的模组类型。
+
+大多数模组是 RomFS 模组，但补丁（.pchtxt）通常是 ExeFS 模组。</translation>
+    </message>
+    <message>
+        <source>Failed to remove the saved compiled shaders.</source>
+        <translation>无法删除已保存的编译着色器。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="478"/>
+        <source>Imported Successfully</source>
+        <translation>导入成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/path.cpp" line="19"/>
+        <source>Error Opening Shader Cache</source>
+        <translation>打开着色器缓存错误</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="83"/>
+        <source>Unlink Successful</source>
+        <translation>取消链接成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="482"/>
+        <source>Import Failed</source>
+        <translation>导入失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
+        <source>Verifying integrity...</source>
+        <translation>正在验证完整性...</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="223"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="282"/>
+        <source>The operation completed successfully.</source>
+        <translation>操作成功完成。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="222"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="281"/>
+        <source>Integrity verification succeeded!</source>
+        <translation>完整性验证成功！</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="130"/>
+        <source>Invalid header on Ryujinx title database.</source>
+        <translation>Ryujinx 标题数据库头部无效。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="519"/>
+        <source>Please install firmware to use the home menu.</source>
+        <translation>请先安装固件才能使用主页菜单。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="48"/>
+        <source>Mod Name</source>
+        <translation>模组名称</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
+        <source>Successfully created a shortcut to %1</source>
+        <translation>%1 的快捷方式创建成功</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="409"/>
+        <source>Ensure you have write permissions on the targeted directory and try again.</source>
+        <translation>请确认您是否具有目标目录的写入权限然后再次尝试。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/content.cpp" line="166"/>
@@ -15707,256 +17360,17 @@ Check that your keys are installed.</source>
 %1</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
-        <source>Verifying integrity...</source>
-        <translation>正在验证完整性...</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="222"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="281"/>
-        <source>Integrity verification succeeded!</source>
-        <translation>完整性验证成功！</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="223"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="282"/>
-        <source>The operation completed successfully.</source>
-        <translation>操作成功完成。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="226"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="287"/>
-        <source>Integrity verification failed!</source>
-        <translation>完整性验证失败！</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="227"/>
-        <source>File contents may be corrupt or missing.</source>
-        <translation>文件内容可能缺失或已损坏。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="231"/>
-        <source>Integrity verification couldn&apos;t be performed</source>
-        <translation>无法执行完整性验证</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="232"/>
-        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. File contents could not be checked for validity.</source>
-        <translation>固件安装失败。固件可能处于异常状态或已损坏，无法验证文件内容的有效性。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="239"/>
-        <source>Select Dumped Keys Location</source>
-        <translation>选择导出的密钥文件位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="252"/>
-        <source>Decryption Keys install succeeded</source>
-        <translation>密钥文件安装成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="255"/>
-        <source>Decryption Keys install failed</source>
-        <translation>密钥文件安装失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="327"/>
-        <source>Orphaned Profiles Detected!</source>
-        <translation>检测到孤立的配置文件!</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="328"/>
-        <source>UNEXPECTED BAD THINGS MAY HAPPEN IF YOU DON&apos;T READ THIS!&lt;br&gt;Eden has detected the following save directories with no attached profile:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;The following profiles are valid:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;Click &quot;OK&quot; to open your save folder and fix up your profiles.&lt;br&gt;Hint: copy the contents of the largest or last-modified folder elsewhere, delete all orphaned profiles, and move your copied contents to the good profile.&lt;br&gt;&lt;br&gt;Still confused? See the &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;help page&lt;/a&gt;.&lt;br&gt;</source>
-        <translation>如果您不阅读此内容,可能会发生意想不到的糟糕情况!&lt;br&gt;Eden 检测到以下存档目录没有附加的配置文件:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;下列配置是有效的:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;点击“确定”以打开您的存档文件夹并修复配置文件。&lt;br&gt;提示: 将最大或最近修改的文件夹内容复制到其他地方,删除所有孤立的配置文件,然后将复制的内容移到正确的配置文件中。&lt;br&gt;&lt;br&gt;还是感到疑惑? 请查看 &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;帮助页&lt;/a&gt;。&lt;br&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
-        <source>Really clear data?</source>
-        <translation>确实要清除数据吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
-        <source>Important data may be lost!</source>
-        <translation>可能会丢失重要的数据!</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="352"/>
-        <source>Are you REALLY sure?</source>
-        <translation>您真的确定吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="353"/>
-        <source>Once deleted, your data will NOT come back!
-Only do this if you&apos;re 100% sure you want to delete this data.</source>
-        <translation>在删除后,您将无法找回数据!
-仅在您 100% 确认要删除此数据时才这样做。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="360"/>
-        <source>Clearing...</source>
-        <translation>正在清除...</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
-        <source>Select Export Location</source>
-        <translation>选择导出位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
-        <source>%1.zip</source>
-        <translation>%1.zip</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
-        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
-        <source>Zipped Archives (*.zip)</source>
-        <translation>压缩档案 (*.zip)</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
-        <source>Exporting data. This may take a while...</source>
-        <translation>正在导出数据。这可能需要一些时间...</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="382"/>
-        <source>Exporting</source>
-        <translation>正在导出</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
-        <source>Exported Successfully</source>
-        <translation>导出成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
-        <source>Data was exported successfully.</source>
-        <translation>数据已成功导出。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
-        <source>Export Cancelled</source>
-        <translation>导出已被取消</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
-        <source>Export was cancelled by the user.</source>
-        <translation>导出已被用户取消。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="408"/>
-        <source>Export Failed</source>
-        <translation>导出失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="409"/>
-        <source>Ensure you have write permissions on the targeted directory and try again.</source>
-        <translation>请确认您是否具有目标目录的写入权限然后再次尝试。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
-        <source>Select Import Location</source>
-        <translation>选择导入位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="434"/>
-        <source>Import Warning</source>
-        <translation>导入警告</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="435"/>
-        <source>All previous data in this directory will be deleted. Are you sure you wish to proceed?</source>
-        <translation>此目录中的所有先前数据将被删除。您确定要继续吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
-        <source>Importing data. This may take a while...</source>
-        <translation>正在导入数据。这需要一些时间...</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="445"/>
-        <source>Importing</source>
-        <translation>正在导入</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="478"/>
-        <source>Imported Successfully</source>
-        <translation>导入成功</translation>
-    </message>
-    <message>
         <location filename="../../src/qt_common/util/content.cpp" line="478"/>
         <source>Data was imported successfully.</source>
         <translation>数据已导入成功。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
-        <source>Import Cancelled</source>
-        <translation>导入已被取消</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
-        <source>Import was cancelled by the user.</source>
-        <translation>导入已被用户取消。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="482"/>
-        <source>Import Failed</source>
-        <translation>导入失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="483"/>
-        <source>Ensure you have read permissions on the targeted directory and try again.</source>
-        <translation>请确认是否您具有目标目录的读取权限然后再次尝试。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="500"/>
-        <source>Keys not installed</source>
-        <translation>未安装密钥</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="501"/>
-        <source>Install decryption keys and restart Eden before attempting to install firmware.</source>
-        <translation>在尝试安装固件之前先安装解密密钥并重启 Eden。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="513"/>
-        <source>Select Dumped Firmware Source Location</source>
-        <translation>选择已转储的固件源位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
-        <source>Select Dumped Firmware ZIP</source>
-        <translation>选择已转储的固件 ZIP</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="541"/>
-        <source>Firmware cleanup failed</source>
-        <translation>清理固件失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/content.cpp" line="542"/>
-        <source>Failed to clean up extracted firmware cache.
-Check write permissions in the system temp directory and try again.
-OS reported error: %1</source>
-        <translation>清理提取的固件缓存失败。
-请检查系统临时目录的写入权限然后重试。
-OS 报告的错误: %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
-        <source>Linked Save Data</source>
-        <translation>链接存档数据</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
-        <source>Save data has been linked.</source>
-        <translation>已链接存档数据。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="26"/>
-        <source>Failed to link save data</source>
-        <translation>链接存档数据失败</translation>
+        <source>
+
+Previous save data was kept at:%1</source>
+        <translation>
+
+此前的存档数据保留在：%1</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/fs.cpp" line="27"/>
@@ -15970,170 +17384,9 @@ To:
 	%2</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="40"/>
-        <source>Already Linked</source>
-        <translation>已链接</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="41"/>
-        <source>This title is already linked to Ryujinx. Would you like to unlink it?</source>
-        <translation>此游戏已经被链接到 Ryujinx。您要取消链接它吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="68"/>
-        <source>Failed to unlink old directory</source>
-        <translation>取消链接旧目录失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="69"/>
-        <location filename="../../src/qt_common/util/fs.cpp" line="79"/>
-        <source>OS returned error: %1</source>
-        <translation>OS 返回错误: %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="78"/>
-        <source>Failed to copy save data</source>
-        <translation>复制存档数据失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="83"/>
-        <source>Unlink Successful</source>
-        <translation>取消链接成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="84"/>
-        <source>Successfully unlinked Ryujinx save data. Save data has been kept intact.</source>
-        <translation>已成功取消链接 Ryujinx 存档数据。存档数据已保持完整。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="97"/>
-        <source>Could not find Ryujinx installation</source>
-        <translation>无法找到 Ryujinx 安装数据</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="98"/>
-        <source>Could not find a valid Ryujinx installation. This may typically occur if you are using Ryujinx in portable mode.
-
-Would you like to manually select a portable folder to use?</source>
-        <translation>未找到有效的 Ryujinx 安装。这通常可能发生在您以便携模式使用 Ryujinx 时。您想手动选择一个便携模式文件夹来使用吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="105"/>
-        <source>Ryujinx Portable Location</source>
-        <translation>便携 Ryujinx 安装位置</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="122"/>
-        <source>Not a valid Ryujinx directory</source>
-        <translation>不是有效的 Ryujinx 安装目录</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="123"/>
-        <source>The specified directory does not contain valid Ryujinx data.</source>
-        <translation>指定的目录不包含有效的 Ryujinx 数据。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/fs.cpp" line="141"/>
-        <location filename="../../src/qt_common/util/fs.cpp" line="145"/>
-        <source>Could not find Ryujinx save data</source>
-        <translation>找不到 Ryujinx 的存档数据</translation>
-    </message>
-    <message>
-        <source>
-
-Previous save data was kept at:%1</source>
-        <translation>
-
-此前的存档数据保留在：%1</translation>
-    </message>
-    <message>
-        <source>Failed to unlink Ryujinx save data</source>
-        <translation>取消 Ryujinx 存档链接失败</translation>
-    </message>
-    <message>
-        <source>Could not update the save link:
-%1</source>
-        <translation>无法更新存档链接：
-%1</translation>
-    </message>
-    <message>
-        <source>The saves are now separate copies.</source>
-        <translation>两个存档现在是各自独立的副本。</translation>
-    </message>
-    <message>
-        <source>Save is already linked</source>
-        <translation>存档已链接</translation>
-    </message>
-    <message>
-        <source>One of these saves links to a different location. No saves were changed.</source>
-        <translation>其中一个存档链接到了其它位置，未更改任何存档。</translation>
-    </message>
-    <message>
-        <source>Could not find Ryujinx save data in the default or previously used location. Would you like to choose a Ryujinx data folder?</source>
-        <translation>在默认位置或上次使用的位置找不到 Ryujinx 存档数据。要选择 Ryujinx 数据文件夹吗？</translation>
-    </message>
-    <message>
-        <source>Ryujinx Data Folder</source>
-        <translation>Ryujinx 数据文件夹</translation>
-    </message>
-    <message>
-        <source>No committed account or device save for title %1 is available in Ryujinx.</source>
-        <translation>Ryujinx 中没有该游戏（%1）已提交的账号存档或设备存档。</translation>
-    </message>
-    <message>
-        <source>Save %1 (device save)</source>
-        <translation>存档 %1（设备存档）</translation>
-    </message>
-    <message>
-        <source>Save %1 (last used Ryujinx profile: %2)</source>
-        <translation>存档 %1（上次使用的 Ryujinx 配置档：%2）</translation>
-    </message>
-    <message>
-        <source>Save %1 (Ryujinx profile: %2)</source>
-        <translation>存档 %1（Ryujinx 配置档：%2）</translation>
-    </message>
-    <message>
-        <source>Choose a Ryujinx save</source>
-        <translation>选择 Ryujinx 存档</translation>
-    </message>
-    <message>
-        <source>Select the Ryujinx save you want to link.</source>
-        <translation>选择你想要链接的 Ryujinx 存档。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="192"/>
-        <source>Error Removing Contents</source>
-        <translation>删除内容时出错</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="194"/>
-        <source>Error Removing Update</source>
-        <translation>删除更新时出错</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="196"/>
-        <source>Error Removing DLC</source>
-        <translation>删除 DLC 时出错</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="207"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="220"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="236"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="263"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="297"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="322"/>
-        <source>Successfully Removed</source>
-        <translation>删除成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="208"/>
-        <source>Successfully removed the installed base game.</source>
-        <translation>已成功删除安装的基础游戏。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="213"/>
-        <source>The base game is not installed in the NAND and cannot be removed.</source>
-        <translation>基础游戏未被安装到 NAND 中并且无法被删除。</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="264"/>
+        <source>Successfully removed the transferable shader cache.</source>
+        <translation>成功删除可传输着色器缓存。</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/game.cpp" line="221"/>
@@ -16141,67 +17394,196 @@ Previous save data was kept at:%1</source>
         <translation>已成功删除安装的更新。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="224"/>
-        <source>There is no update installed for this title.</source>
-        <translation>这个游戏没有任何已安装的更新。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="252"/>
+        <source>Decryption Keys install succeeded</source>
+        <translation>密钥文件安装成功</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="232"/>
-        <source>There are no DLCs installed for this title.</source>
-        <translation>这个游戏没有任何已安装的 DLC。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="483"/>
+        <source>Ensure you have read permissions on the targeted directory and try again.</source>
+        <translation>请确认是否您具有目标目录的读取权限然后再次尝试。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="237"/>
-        <source>Successfully removed %1 installed DLC.</source>
-        <translation>成功删除 %1 个已安装的 DLC。</translation>
+        <location filename="../../src/qt_common/util/mod.cpp" line="64"/>
+        <source>Mod Type</source>
+        <translation>模组类型</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="258"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="266"/>
-        <source>Error Removing Transferable Shader Cache</source>
-        <translation>删除可传输着色器缓存错误</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="259"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="293"/>
-        <source>A shader cache for this title does not exist.</source>
-        <translation>这个游戏的着色器缓存不存在。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="264"/>
-        <source>Successfully removed the transferable shader cache.</source>
-        <translation>成功删除可传输着色器缓存。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="267"/>
-        <source>Failed to remove the transferable shader cache.</source>
-        <translation>删除可传输着色器缓存失败。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="282"/>
-        <source>Error Removing Vulkan Driver Pipeline Cache</source>
-        <translation>移除 Vulkan 驱动管线缓存错误</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="283"/>
-        <source>Failed to remove the driver pipeline cache.</source>
-        <translation>删除驱动管线缓存失败。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="292"/>
-        <location filename="../../src/qt_common/util/game.cpp" line="302"/>
-        <source>Error Removing Transferable Shader Caches</source>
-        <translation>删除可传输着色器缓存错误</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="298"/>
-        <source>Successfully removed the transferable shader caches.</source>
-        <translation>成功删除可传输着色器缓存。</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="80"/>
+        <source>Unable to read key directory, aborting</source>
+        <translation>无法读取密钥目录,正在放弃</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/game.cpp" line="303"/>
         <source>Failed to remove the transferable shader cache directory.</source>
         <translation>删除可传输着色器缓存失败。</translation>
+    </message>
+    <message>
+        <source>Save is already linked</source>
+        <translation>存档已链接</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="360"/>
+        <source>Clearing...</source>
+        <translation>正在清除...</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
+        <source>Select Import Location</source>
+        <translation>选择导入位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="115"/>
+        <source>Clearing shader cache is recommended for all users.
+Do not uncheck unless you know what you&apos;re doing.</source>
+        <translation>建议所有用户清除着色器缓存。
+除非您知道自己在做什么，否则不要取消勾选。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="227"/>
+        <source>File contents may be corrupt or missing.</source>
+        <translation>文件内容可能缺失或已损坏。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="165"/>
+        <source>Firmware integrity verification failed!</source>
+        <translation>固件完整性验证失败！</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
+        <source>Select Dumped Firmware ZIP</source>
+        <translation>选择已转储的固件 ZIP</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="390"/>
+        <source>Shortcut may be Volatile!</source>
+        <translation>快捷方式可能不稳定!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="239"/>
+        <source>Select Dumped Keys Location</source>
+        <translation>选择导出的密钥文件位置</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="465"/>
+        <source>Cannot create icon file. Path &quot;%1&quot; does not exist and cannot be created.</source>
+        <translation>无法创建图标文件。路径“ %1 ”不存在且无法被创建。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="397"/>
+        <source>Failed to Create Shortcut</source>
+        <translation>创建快捷方式失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
+        <source>Import Cancelled</source>
+        <translation>导入已被取消</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="323"/>
+        <source>Successfully removed the custom game configuration.</source>
+        <translation>成功移除自定义游戏设置。</translation>
+    </message>
+    <message>
+        <source>Choose a Ryujinx save</source>
+        <translation>选择 Ryujinx 存档</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="128"/>
+        <source>Failed to create temporary directory %1</source>
+        <translation>未能创建临时 %1 目录</translation>
+    </message>
+    <message>
+        <source>Save %1 (Ryujinx profile: %2)</source>
+        <translation>存档 %1（Ryujinx 配置档：%2）</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="97"/>
+        <source>Could not find Ryujinx installation</source>
+        <translation>无法找到 Ryujinx 安装数据</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
+        <source>Linked Save Data</source>
+        <translation>链接存档数据</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="255"/>
+        <source>Decryption Keys install failed</source>
+        <translation>密钥文件安装失败</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="434"/>
+        <source>Import Warning</source>
+        <translation>导入警告</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="518"/>
+        <source>No firmware available</source>
+        <translation>无可用固件</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="122"/>
+        <source>Not a valid Ryujinx directory</source>
+        <translation>不是有效的 Ryujinx 安装目录</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="435"/>
+        <source>All previous data in this directory will be deleted. Are you sure you wish to proceed?</source>
+        <translation>此目录中的所有先前数据将被删除。您确定要继续吗?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
+        <source>Important data may be lost!</source>
+        <translation>可能会丢失重要的数据!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="73"/>
+        <source>Contains updates and DLC for games.</source>
+        <translation>包含游戏的更新和 DLC。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="353"/>
+        <source>The metadata cache is already empty.</source>
+        <translation>元数据缓存已为空。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="72"/>
+        <source>Contains Vulkan and OpenGL pipeline caches. Generally safe to remove.</source>
+        <translation>包含 Vulkan 和 OpenGL 管线缓存。通常可以安全删除。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
+        <source>Data was exported successfully.</source>
+        <translation>数据已成功导出。</translation>
+    </message>
+    <message>
+        <source>Ryujinx Data Folder</source>
+        <translation>Ryujinx 数据文件夹</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="30"/>
+        <source>Game Requires Firmware</source>
+        <translation>游戏需要固件</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="74"/>
+        <source>Contains firmware and applet data.</source>
+        <translation>包含固件和小程序数据。</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
+        <source>Installing Firmware...</source>
+        <translation>正在安装固件……</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/game.cpp" line="316"/>
@@ -16210,113 +17592,59 @@ Previous save data was kept at:%1</source>
         <translation>删除自定义配置错误</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="317"/>
-        <source>A custom configuration for this title does not exist.</source>
-        <translation>这个游戏的自定义设置不存在。</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="192"/>
+        <source>Error Removing Contents</source>
+        <translation>删除内容时出错</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="323"/>
-        <source>Successfully removed the custom game configuration.</source>
-        <translation>成功移除自定义游戏设置。</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="282"/>
+        <source>Error Removing Vulkan Driver Pipeline Cache</source>
+        <translation>移除 Vulkan 驱动管线缓存错误</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="326"/>
-        <source>Failed to remove the custom game configuration.</source>
-        <translation>移除自定义游戏设置失败。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="353"/>
+        <source>Once deleted, your data will NOT come back!
+Only do this if you&apos;re 100% sure you want to delete this data.</source>
+        <translation>在删除后,您将无法找回数据!
+仅在您 100% 确认要删除此数据时才这样做。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="347"/>
-        <source>Reset Metadata Cache</source>
-        <translation>重置元数据缓存</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="121"/>
+        <source>Deletes the old data directory.
+This is recommended on devices with space constraints.</source>
+        <translation>删除旧的数据目录。
+建议在存储空间有限的设备上执行此操作。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="353"/>
-        <source>The metadata cache is already empty.</source>
-        <translation>元数据缓存已为空。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
+        <source>%1.zip</source>
+        <translation>%1.zip</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="364"/>
-        <source>The metadata cache couldn&apos;t be deleted. It might be in use or non-existent.</source>
-        <translation>缓存数据删除失败。它可能不存在或正在被使用。</translation>
+        <location filename="../../src/qt_common/util/fs.cpp" line="78"/>
+        <source>Failed to copy save data</source>
+        <translation>复制存档数据失败</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
-        <source>Create Shortcut</source>
-        <translation>创建快捷方式</translation>
+        <source>No committed account or device save for title %1 is available in Ryujinx.</source>
+        <translation>Ryujinx 中没有该游戏（%1）已提交的账号存档或设备存档。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
-        <source>Do you want to launch the game in fullscreen?</source>
-        <translation>您想以全屏模式启动游戏吗？</translation>
+        <location filename="../../src/qt_common/util/mod.cpp" line="141"/>
+        <source>Zip file %1 is empty</source>
+        <translation>压缩文件 %1 是空的。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
-        <source>Shortcut Created</source>
-        <translation>已创建快捷方式</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="104"/>
+        <source>Firmware reported as present, but was unable to be read. Check for decryption keys and redump firmware if necessary.</source>
+        <translation>固件已报告存在,但无法读取。如有必要请检查解密密钥并重新转储固件。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
-        <source>Successfully created a shortcut to %1</source>
-        <translation>%1 的快捷方式创建成功</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="390"/>
-        <source>Shortcut may be Volatile!</source>
-        <translation>快捷方式可能不稳定!</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="391"/>
-        <source>This will create a shortcut to the current AppImage. This may not work well if you update. Continue?</source>
-        <translation>这回创建到当前 AppImage 的快捷方式。它可能会在您更新后失效。要继续吗?</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="397"/>
-        <source>Failed to Create Shortcut</source>
-        <translation>创建快捷方式失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="398"/>
-        <source>Failed to create a shortcut to %1</source>
-        <translation>%1 的快捷方式创建失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="464"/>
-        <source>Create Icon</source>
-        <translation>创建图标</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="465"/>
-        <source>Cannot create icon file. Path &quot;%1&quot; does not exist and cannot be created.</source>
-        <translation>无法创建图标文件。路径“ %1 ”不存在且无法被创建。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="518"/>
-        <source>No firmware available</source>
-        <translation>无可用固件</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="519"/>
-        <source>Please install firmware to use the home menu.</source>
-        <translation>请先安装固件才能使用主页菜单。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="525"/>
-        <source>Home Menu Applet</source>
-        <translation>主页菜单小程序</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/game.cpp" line="526"/>
-        <source>Home Menu is not available. Please reinstall firmware.</source>
-        <translation>主页菜单不可用。请重新安装固件。</translation>
-    </message>
-    <message>
-        <source>Failed to remove the saved compiled shaders.</source>
-        <translation>无法删除已保存的编译着色器。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="48"/>
-        <source>Mod Name</source>
-        <translation>模组名称</translation>
+        <location filename="../../src/qt_common/util/fs.cpp" line="98"/>
+        <source>Could not find a valid Ryujinx installation. This may typically occur if you are using Ryujinx in portable mode.
+
+Would you like to manually select a portable folder to use?</source>
+        <translation>未找到有效的 Ryujinx 安装。这通常可能发生在您以便携模式使用 Ryujinx 时。您想手动选择一个便携模式文件夹来使用吗?</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/util/mod.cpp" line="48"/>
@@ -16329,104 +17657,24 @@ Previous save data was kept at:%1</source>
         <translation>RomFS</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="59"/>
-        <source>ExeFS/Patch</source>
-        <translation>ExeFS/Patch</translation>
+        <location filename="../../src/qt_common/util/fs.cpp" line="26"/>
+        <source>Failed to link save data</source>
+        <translation>链接存档数据失败</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="60"/>
-        <source>Cheat</source>
-        <translation>作弊</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="500"/>
+        <source>Keys not installed</source>
+        <translation>未安装密钥</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="64"/>
-        <source>Mod Type</source>
-        <translation>模组类型</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="347"/>
+        <source>Reset Metadata Cache</source>
+        <translation>重置元数据缓存</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="65"/>
-        <source>Could not detect mod type automatically. Please manually specify the type of mod you downloaded.
-
-Most mods are RomFS mods, but patches (.pchtxt) are typically ExeFS mods.</source>
-        <translation>无法自动检测模组类型。请手动说明你下载的模组类型。
-
-大多数模组是 RomFS 模组，但补丁（.pchtxt）通常是 ExeFS 模组。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="127"/>
-        <location filename="../../src/qt_common/util/mod.cpp" line="140"/>
-        <source>Mod Extract Failed</source>
-        <translation>模组提取失败</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="128"/>
-        <source>Failed to create temporary directory %1</source>
-        <translation>未能创建临时 %1 目录</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/mod.cpp" line="141"/>
-        <source>Zip file %1 is empty</source>
-        <translation>压缩文件 %1 是空的。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/path.cpp" line="19"/>
-        <source>Error Opening Shader Cache</source>
-        <translation>打开着色器缓存错误</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/util/path.cpp" line="20"/>
-        <source>Failed to create or open shader cache for this title, ensure your app data directory has write permissions.</source>
-        <translation>无法为此游戏创建或打开着色器缓存,请确保您的 app data 目录具有写入权限。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="70"/>
-        <source>Contains game save data. DO NOT REMOVE UNLESS YOU KNOW WHAT YOU&apos;RE DOING!</source>
-        <translation>包含游戏存档数据。除非你知道自己在做什么,否则不要删除！</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="72"/>
-        <source>Contains Vulkan and OpenGL pipeline caches. Generally safe to remove.</source>
-        <translation>包含 Vulkan 和 OpenGL 管线缓存。通常可以安全删除。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="73"/>
-        <source>Contains updates and DLC for games.</source>
-        <translation>包含游戏的更新和 DLC。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="74"/>
-        <source>Contains firmware and applet data.</source>
-        <translation>包含固件和小程序数据。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="75"/>
-        <source>Contains game mods, patches, and cheats.</source>
-        <translation>包含游戏 mod、补丁以及作弊。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="79"/>
-        <source>Decryption Keys were successfully installed</source>
-        <translation>已成功安装解密密钥</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="80"/>
-        <source>Unable to read key directory, aborting</source>
-        <translation>无法读取密钥目录,正在放弃</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="81"/>
-        <source>One or more keys failed to copy.</source>
-        <translation>一个或多个密钥复制失败。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="83"/>
-        <source>Verify your keys file has a .keys extension and try again.</source>
-        <translation>请确保密钥文件具有 .keys 的扩展名后重试。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="85"/>
-        <source>Decryption Keys failed to initialize. Check that your dumping tools are up to date and re-dump keys.</source>
-        <translation>密钥初始化失败。请检查您的转储工具是否为最新版本并重新转储密钥。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="327"/>
+        <source>Orphaned Profiles Detected!</source>
+        <translation>检测到孤立的配置文件!</translation>
     </message>
     <message>
         <location filename="../../src/qt_common/qt_string_lookup.h" line="91"/>
@@ -16434,106 +17682,55 @@ Most mods are RomFS mods, but patches (.pchtxt) are typically ExeFS mods.</sourc
         <translation>成功安装固件版本 %1</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="92"/>
-        <source>Unable to locate potential firmware NCA files</source>
-        <translation>无法定位潜在的固件 NCA 文件</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
+        <source>Importing data. This may take a while...</source>
+        <translation>正在导入数据。这需要一些时间...</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="93"/>
-        <source>Failed to delete one or more firmware files.</source>
-        <translation>删除一个或多个固件文件失败。</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="283"/>
+        <source>Failed to remove the driver pipeline cache.</source>
+        <translation>删除驱动管线缓存失败。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="94"/>
-        <source>One or more firmware files failed to copy into NAND.</source>
-        <translation>将一个或多个固件文件复制到 NAND 失败。</translation>
+        <location filename="../../src/qt_common/util/fs.cpp" line="68"/>
+        <source>Failed to unlink old directory</source>
+        <translation>取消链接旧目录失败</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="96"/>
-        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. Restart Eden or re-install firmware.</source>
-        <translation>固件安装失败。固件可能处于异常状态或已损坏。请重新启动 Eden 或重新安装固件。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="513"/>
+        <source>Select Dumped Firmware Source Location</source>
+        <translation>选择已转储的固件源位置</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="101"/>
-        <source>Firmware missing. Firmware is required to run certain games and use the Home Menu.</source>
-        <translation>固件缺失。需要固件才能运行某些游戏和主页。</translation>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="79"/>
+        <source>Decryption Keys were successfully installed</source>
+        <translation>已成功安装解密密钥</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="104"/>
-        <source>Firmware reported as present, but was unable to be read. Check for decryption keys and redump firmware if necessary.</source>
-        <translation>固件已报告存在,但无法读取。如有必要请检查解密密钥并重新转储固件。</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="259"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="293"/>
+        <source>A shader cache for this title does not exist.</source>
+        <translation>这个游戏的着色器缓存不存在。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="110"/>
-        <source>Eden has detected user data for the following emulators:</source>
-        <translation>Eden 已检测到下列模拟器的用户数据:</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="317"/>
+        <source>A custom configuration for this title does not exist.</source>
+        <translation>这个游戏的自定义设置不存在。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="112"/>
-        <source>Would you like to migrate your data for use in Eden?
-Select the corresponding button to migrate data from that emulator.
-This may take a while.</source>
-        <translation>您想将数据迁移到 Eden 中使用吗？
-请选择相应的按钮从该模拟器迁移数据。
-这可能需要一些时间。</translation>
+        <location filename="../../src/qt_common/util/game.cpp" line="298"/>
+        <source>Successfully removed the transferable shader caches.</source>
+        <translation>成功删除可传输着色器缓存。</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="115"/>
-        <source>Clearing shader cache is recommended for all users.
-Do not uncheck unless you know what you&apos;re doing.</source>
-        <translation>建议所有用户清除着色器缓存。
-除非您知道自己在做什么，否则不要取消勾选。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="57"/>
+        <source>Firmware Install Succeeded</source>
+        <translation>安装固件成功</translation>
     </message>
     <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="119"/>
-        <source>Keeps the old data directory. This is recommended if you aren't
-space-constrained and want to keep separate data for the old emulator.</source>
-        <translation>保留旧的数据目录。如果你的存储空间充足，并且想为旧
-模拟器保留独立的数据，这是推荐做法。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="121"/>
-        <source>Deletes the old data directory.
-This is recommended on devices with space constraints.</source>
-        <translation>删除旧的数据目录。
-建议在存储空间有限的设备上执行此操作。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="124"/>
-        <source>Creates a filesystem link between the old directory and Eden directory.
-This is recommended if you want to share data between emulators.</source>
-        <translation>在旧目录和 Eden 目录之间创建文件系统链接。
-如果您想在模拟器之间共享数据,建议这样做。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="129"/>
-        <source>Ryujinx title database does not exist.</source>
-        <translation>Ryujinx 标题数据库不存在。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="130"/>
-        <source>Invalid header on Ryujinx title database.</source>
-        <translation>Ryujinx 标题数据库头部无效。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="131"/>
-        <source>Invalid magic header on Ryujinx title database.</source>
-        <translation>Ryujinx 标题数据库 magic 头部无效。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="132"/>
-        <source>Invalid byte alignment on Ryujinx title database.</source>
-        <translation>Ryujinx 标题数据字节对齐无效。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="133"/>
-        <source>No items found in Ryujinx title database.</source>
-        <translation>在 Ryujinx 的标题数据库中找不到项目。</translation>
-    </message>
-    <message>
-        <location filename="../../src/qt_common/qt_string_lookup.h" line="134"/>
-        <source>Title %1 not found in Ryujinx title database.</source>
-        <translation>在 Ryujinx 的标题数据库中找不到标题 %1。</translation>
+        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
+        <source>Exporting data. This may take a while...</source>
+        <translation>正在导出数据。这可能需要一些时间...</translation>
     </message>
 </context>
 </TS>
