@@ -65,15 +65,6 @@ This software should not be used to play games you have not legally obtained.</s
         <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=":/lichii/icons/menu_code.png" width="14" height="14" align="middle"/&gt;&amp;nbsp;&lt;a style="text-decoration:none" href="https://github.com/zortos293/Eglantine"&gt;源代码&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=":/lichii/icons/menu_bug.png" width="14" height="14" align="middle"/&gt;&amp;nbsp;&lt;a style="text-decoration:none" href="https://github.com/zortos293/Eglantine/issues"&gt;报告问题&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=":/lichii/icons/menu_info.png" width="14" height="14" align="middle"/&gt;&amp;nbsp;&lt;a style="text-decoration:none" href="https://github.com/zortos293/Eglantine#credits-and-license"&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:7pt;"&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Lichii is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:7pt;"&gt;「Nintendo Switch」是任天堂的商标。Lichii 与任天堂没有任何关联。&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/lichii/icons/menu_code.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;Source Code&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_bug.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;Report an Issue&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_info.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;Credits and License&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/lichii/icons/menu_code.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine&quot;&gt;源代码&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_bug.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine/issues&quot;&gt;报告问题&lt;/a&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img src=&quot;:/lichii/icons/menu_info.png&quot; width=&quot;14&quot; height=&quot;14&quot; align=&quot;middle&quot;/&gt;&amp;nbsp;&lt;a style=&quot;text-decoration:none&quot; href=&quot;https://github.com/zortos293/Eglantine#credits-and-license&quot;&gt;致谢与许可&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -2236,23 +2227,6 @@ Enabling it bypasses such prompts and directly exits the emulation.</source>
         <translation>HDR 输出：</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>HDR output for games with an HDR mode. Requires Vulkan.
-Off (default): always SDR.
-Auto: HDR while Windows HDR ("Use HDR") is on for the monitor that shows the game, SDR otherwise and on hosts that cannot tell.
-On: HDR whenever the display driver offers an HDR format.
-The game is told the display is HDR only while Lichii really presents HDR. SDR games and menus are shown at the reference white.
-While HDR is active, anti-aliasing, post-processing and FSR/SGSR upscaling are off and the window is scaled bilinearly. Frame generation keeps working.
-Screenshots are tone mapped to SDR.</source>
-        <translation>为支持 HDR 模式的游戏输出 HDR。需要 Vulkan。
-关（默认）：始终 SDR。
-自动：显示游戏的显示器在 Windows 中开启 HDR（“使用 HDR”）时输出 HDR，否则输出 SDR；无法判断的主机也输出 SDR。
-开：只要显示驱动提供 HDR 格式就输出 HDR。
-只有在 Lichii 真正输出 HDR 时才告诉游戏显示器是 HDR。SDR 游戏与菜单按参考白显示。
-HDR 启用期间，抗锯齿、后处理与 FSR/SGSR 上采样都会关闭，窗口使用双线性缩放。插帧仍然有效。
-截图会色调映射到 SDR。</translation>
-    </message>
-    <message>
         <location line="+10"/>
         <source>HDR format:</source>
         <translation>HDR 格式：</translation>
@@ -2270,30 +2244,9 @@ scRGB：16 位浮点。如果 HDR 出现色带（某些 NVIDIA 驱动在全屏 1
         <translation>HDR 参考白</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Reference white in nits reported to the game, the brightness of its HUD and menus. 0 (default): Windows' SDR content brightness for the monitor, so the game matches the desktop; elsewhere the Switch 2 calibration, HDR Peak Luminance divided by 1.5, rounded up and clamped to 50-300 nits.
-SDR games and menus are shown at this brightness while HDR is active, and HDR screenshots map it to SDR white.</source>
-        <translation>向游戏报告的参考白（单位：尼特），也就是它 HUD 与菜单的亮度。0（默认）：使用 Windows 中该显示器的 SDR 内容亮度，让游戏与桌面一致；无法获取时用 Switch 2 校准值，即 HDR 峰值亮度除以 1.5、向上取整并限制在 50–300 尼特。
-HDR 启用期间，SDR 游戏与菜单按此亮度显示，HDR 截图也把它映射为 SDR 白。</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>HDR Peak Luminance</source>
         <translation>HDR 峰值亮度</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Peak luminance in nits reported to the game, which tone maps to it. 0 (default): the monitor's peak from its EDID as Windows reports it; elsewhere 300 nits, the Switch 2 HDR calibration's starting value.
-Also the HDR10 metadata peak, and what an HDR image rolls off to on an SDR screen.</source>
-        <translation>向游戏报告的峰值亮度（单位：尼特），游戏据此做色调映射。0（默认）：使用 Windows 报告的显示器 EDID 峰值；无法获取时用 300 尼特，即 Switch 2 HDR 校准的起始值。
-它同时也是 HDR10 元数据里的峰值，以及在 SDR 屏幕上 HDR 画面的滚降目标。</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Generates intermediate frames for smoother motion. Requires Vulkan.
-Optical Flow Interpolation is built in. LSFG requires Lossless.dll in the user directory's lossless folder.</source>
-        <translation>生成中间帧以获得更流畅的画面。需要 Vulkan。
-光流插帧是内置的。LSFG 需要在用户目录的 lossless 文件夹里放 Lossless.dll。</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2303,15 +2256,6 @@ VSync is off while it runs. Choosing it takes effect when a game starts.</source
         <translation>Lichii 光流插帧是内置的，任何 GPU 都能运行。
 NVIDIA DLSS 插帧（仅 Windows）需要 GeForce RTX 40 系列或更新的 GPU（3 倍与 4 倍需要 RTX 50 系列）、在 Windows 显卡设置里开启硬件加速 GPU 计划、开启“使用 NVIDIA DLSS”，以及来自 NVIDIA DLSS 面板的 NVIDIA 文件。它从 DLSS 求值中取得游戏的深度与运动矢量，因此只在《塞尔达传说 时之笛》的主机模式、且以 DLSS 作为上采样器时可用。其他游戏以及 scRGB HDR 输出会改用 Lichii 光流插帧。
 它运行时 VSync 会关闭。选择后在该游戏启动时生效。</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Pins the emulator's GPU threads to dedicated physical CPU cores and keeps the emulated CPU cores off them.
-Can hurt performance on CPUs with few cores. Skipped on CPUs with fewer than 6 physical performance cores.
-Windows and Linux only. Takes effect when a game starts.</source>
-        <translation>把模拟器的 GPU 线程固定到专用的物理 CPU 核心，并让模拟的 CPU 核心避开这些核心。
-在核心较少的 CPU 上可能反而降低性能。物理性能核少于 6 个的 CPU 会跳过。
-仅限 Windows 与 Linux。游戏启动时生效。</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2326,13 +2270,6 @@ Precompile All Shaders in a game's context menu does this for that game whatever
         <location line="+7"/>
         <source>Build all cached shaders before game start</source>
         <translation>游戏启动前构建全部已缓存着色器</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Builds every shader saved by earlier play sessions on the loading screen and keeps them built, so places you visited long ago don't stutter. Without it, only the shaders of recent sessions are built there and the rest in the background or when the game first needs them.
-Loading takes longer and uses more memory, about 0.3 MB per shader, up to a quarter of the RAM. Takes effect when a game starts.</source>
-        <translation>在加载界面构建此前所有游戏会话保存的着色器并一直保持已构建，这样很久以前去过的地方也不会卡顿。关闭时，那里只会构建最近会话的着色器，其余的放到后台或游戏首次需要时再构建。
-加载会更久、占用更多内存，大约每个着色器 0.3 MB，最多可用到内存的四分之一。游戏启动时生效。</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2367,19 +2304,9 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
         <translation>《马力欧卡丁车 世界》：60 FPS 模式</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Forces the game's 60 FPS mode everywhere, not only in cutscenes. The game advances one 60 FPS step per frame, so it never runs fast. Takes effect after restarting the game and takes precedence over the 30 FPS mode.</source>
-        <translation>强制游戏在所有场景使用 60 FPS 模式，而不只在过场动画里。游戏每帧推进一个 60 FPS 步长，因此不会加速。重启游戏后生效，并优先于 30 FPS 模式。</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>Mario Kart World: drop to 30 FPS when slow</source>
         <translation>《马力欧卡丁车 世界》：变慢时降到 30 FPS</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Only applies with the 60 FPS mode. When your PC can't hold 60 FPS, the game switches to its 30 FPS mode and keeps normal speed, then tries 60 again every few seconds. Turn it off to stay at 60 FPS, where slow frames play in slow motion. Takes effect after restarting the game.</source>
-        <translation>仅在 60 FPS 模式下有效。当你的 PC 无法维持 60 FPS 时，游戏切到它自己的 30 FPS 模式并保持正常速度，然后每隔几秒再尝试 60 FPS。关闭它会一直保持在 60 FPS，此时慢帧会以慢动作播放。重启游戏后生效。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2387,19 +2314,9 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
         <translation>《塞尔达无双：封印战记》：动态帧率（实验性）</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Drops to 30 FPS with the game's split-screen time step while the game runs below about 50 FPS, so heavy slowdowns don't slow down the game, and tries 60 FPS again every few seconds.</source>
-        <translation>当游戏运行低于约 50 FPS 时，改用游戏的分屏时间步降到 30 FPS，避免严重掉速拖慢游戏，并且每隔几秒再尝试 60 FPS。</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>Hyrule Warriors: Age of Imprisonment: 30 FPS mode</source>
         <translation>《塞尔达无双：封印战记》：30 FPS 模式</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Always runs at 30 FPS with the game's split-screen time step, at normal game speed. Takes precedence over dynamic FPS.</source>
-        <translation>始终以游戏的分屏时间步运行在 30 FPS，保持正常游戏速度。优先于动态帧率。</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2407,99 +2324,14 @@ Wait stalls the GPU until the pipeline is ready (no missing effects, but long st
         <translation>网格着色器</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>How Switch 2 games' mesh shader geometry is drawn.
-Native uses the GPU's mesh shaders. Compute Fallback emulates them with compute shaders: it can be slower in scenes with a lot of foliage, and it can't draw every kind of mesh program.
-Automatic uses the compute fallback on AMD RDNA2 GPUs (RX 6000 series), where native mesh shaders hang the GPU, and native mesh shaders everywhere else.</source>
-        <translation>Switch 2 游戏的 mesh 着色器几何体如何绘制。
-「原生」使用 GPU 的 mesh 着色器。「Compute 回退」用 compute 着色器模拟：在植被很多的场景里会更慢，而且并非所有 mesh 程序都能绘制。
-「自动」在会让 GPU 挂死的 AMD RDNA2 GPU（RX 6000 系列）上使用 compute 回退，其余情况使用原生 mesh 着色器。</translation>
-    </message>
-    <message>
         <location line="-484"/>
         <source>Bilinear while HDR output is active.</source>
         <translation>HDR 输出生效期间使用双线性。</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Runs a Switch 2 game's own DLSS (its upscaling network, translated for this GPU) instead of AMD FSR 3.1 in its place.
-AMD FSR 3.1 still draws while the network is checked, when it can't run on this GPU, with resolution scaling, and for the rest of the session if its output fails Lichii's checks.
-Takes effect when a game starts.</source>
-        <translation>以 Switch 2 游戏自带的 DLSS（把它的一次性上采样网络为本 GPU 转换）代替 AMD FSR 3.1。
-在网络校验期间、它无法在本 GPU 上运行、开启分辨率缩放、以及它的输出未通过 Lichii 检查后直到本次会话结束，仍会由 AMD FSR 3.1 绘制。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Rate of the Switch 2 VSync event that games start their frames on (default 60 Hz).
-Above 60 Hz most games run too fast; use it with a game patch that follows real time, such as "FPS Unlock (built-in)" for Ocarina of Time.
-Takes effect when a game starts.</source>
-        <translation>游戏开始每一帧所依据的 Switch 2 VSync 事件频率（默认 60 Hz）。
-高于 60 Hz 时大多数游戏会跑得过快；请配合跟随真实时间的游戏补丁使用，例如《时之笛》的“FPS Unlock（内置）”。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Strength of RCAS (AMD's contrast-adaptive sharpening) on the upscaler used in place of a game's DLSS (AMD FSR 3.1); 0% turns it off.
-Also sets the sharpening of the AMD FSR 1 and SGSR window adapting filters.</source>
-        <translation>替代游戏 DLSS 的上采样器（AMD FSR 3.1）上 RCAS（AMD 的对比度自适应锐化）的强度；0% 表示关闭。
-它同时设置 AMD FSR 1 与 SGSR 窗口适配滤镜的锐化。</translation>
-    </message>
-    <message>
         <location line="+8"/>
         <source>Use FSR 4 (fsr4-vk community Vulkan port) in place of FSR 3.1</source>
         <translation>用 FSR 4（fsr4-vk 社区 Vulkan 移植）替代 FSR 3.1</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Uses fsr4-vk, a community Vulkan port of AMD's ML-based FSR 4.1.1 that Lichii's x86-64 Linux packages include, where FSR replaces a game's upscaler (Ocarina of Time with the setting above). It is not AMD's official FSR 4 and is not affiliated with or endorsed by AMD. Radeon RX 6000 or newer, or an RDNA 3 Ryzen GPU, on Mesa's RADV driver; RDNA 4 runs the FP8 network, older GPUs the INT8 one.
-If FSR 4 can't run, FSR 3.1 is used and the log says why. Takes effect when a game starts.</source>
-        <translation>在 FSR 替代游戏上采样器时（配合上面的设置，即《时之笛》），使用 fsr4-vk —— 一个把 AMD 基于机器学习的 FSR 4.1.1 移植到 Vulkan 的社区版本，Lichii 的 x86-64 Linux 包已自带。它不是 AMD 官方的 FSR 4，与 AMD 无关，也未获其认可。需要 Radeon RX 6000 或更新，或 RDNA 3 的 Ryzen GPU，并使用 Mesa 的 RADV 驱动；RDNA 4 运行 FP8 网络，较老的 GPU 运行 INT8 版本。
-如果 FSR 4 无法运行，会改用 FSR 3.1，并在日志里说明原因。游戏启动时生效。</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Uses AMD's ML-based FSR 4 where FSR replaces a game's upscaler (Ocarina of Time with the setting above). Radeon RX 6000 or newer, or a Ryzen AI processor, with a current AMD driver.
-Needs AMD's FidelityFX runtime, which Lichii downloads from AMD when you ask. The files are AMD's, under AMD's licence. Without them, or if FSR 4 can't run, FSR 3.1 is used. Takes effect when a game starts.</source>
-        <translation>在 FSR 替代游戏上采样器时（配合上面的设置，即《时之笛》），使用 AMD 基于机器学习的 FSR 4。需要 Radeon RX 6000 或更新，或 Ryzen AI 处理器，并安装较新的 AMD 驱动。
-需要 AMD 的 FidelityFX 运行库，由 Lichii 在你请求时从 AMD 下载。这些文件属于 AMD，受 AMD 许可约束。没有它们，或 FSR 4 无法运行时，会改用 FSR 3.1。游戏启动时生效。</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Uses NVIDIA DLSS on GeForce RTX cards in place of a Switch 2 game's own DLSS, instead of AMD FSR 3.1.
-Needs NVIDIA's Streamline loader, and NVIDIA DLSS unless the NVIDIA app has downloaded it; Lichii does not ship NVIDIA's files. Use the download button below.
-In Fire Emblem: Fortune's Weave it replaces the game's DLSS while "Use the game's own DLSS" is off.
-In The Legend of Zelda: Ocarina of Time it replaces the game's upscaler at 1x resolution scale.
-The window adapting filter (the FSR 1, Bilinear and similar button in the status bar) is separate and runs after DLSS. While DLSS runs, the status bar shows DLSS, its mode and its preset. If DLSS fails, it stays off until the game restarts and the log says why.
-Takes effect when a game starts.</source>
-        <translation>在 GeForce RTX 显卡上用 NVIDIA DLSS 替代 Switch 2 游戏自带的 DLSS，而不用 AMD FSR 3.1。
-需要 NVIDIA 的 Streamline 加载器，以及 NVIDIA DLSS（除非 NVIDIA app 已下载过）；Lichii 不分发 NVIDIA 的文件，请用下面的下载按钮。
-在《火焰纹章 万缕千丝》里，它会在关闭“使用游戏自带的 DLSS”时替代游戏的 DLSS。
-在《塞尔达传说 时之笛》里，它会在 1 倍分辨率缩放时替代游戏的上采样器。
-窗口适配滤镜（状态栏里的 FSR 1、双线性等按钮）是另一套，在 DLSS 之后运行。DLSS 运行时，状态栏会显示 DLSS、它的模式与预设。如果 DLSS 失败，它会一直关闭到游戏重启，并在日志里说明原因。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Applies only when a game uses its own DLSS.
-Automatic selects a mode for the game's render/output sizes. Native (DLAA) applies anti-aliasing at the game's render resolution, then scales to its output; Ocarina's 1440p mode stays at 1440p instead of reconstructing to 4K.
-In The Legend of Zelda: Ocarina of Time (docked, with the Max Resolution add-on), Balanced, Performance and Ultra Performance lower the game's render resolution from 2560x1440 to 2276x1280, 1920x1080 and 1280x720 before DLSS reconstructs 4K. That resolution changes when the game starts.
-In other games, explicit modes only apply when the game's render size is within NVIDIA's supported range; otherwise Automatic is used and the fallback is logged. There they don't change the game's render resolution. Apply/OK updates the mode while playing.</source>
-        <translation>仅在游戏使用自带 DLSS 时有效。
-「自动」会根据游戏的渲染/输出尺寸选择模式。「原生（DLAA）」在游戏的渲染分辨率上做抗锯齿，然后缩放到输出尺寸；时之笛的 1440p 模式会保持在 1440p，而不是重建到 4K。
-在《塞尔达传说 时之笛》中（主机模式，启用 Max Resolution 插件），「平衡」「性能」「超高性能」会把游戏的渲染分辨率从 2560x1440 依次降到 2276x1280、1920x1080、1280x720，再由 DLSS 重建 4K。该分辨率在游戏启动时变更。
-在其他游戏中，只有游戏的渲染尺寸落在 NVIDIA 支持的范围内，显式模式才会生效；否则会使用「自动」，并在日志中记录回退。在那里它们不会改变游戏的渲染分辨率。游玩中点「应用」/「确定」会立即更新模式。</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Applies only when a game uses its own DLSS.
-M (DLSS 4.5) is Lichii's default for every quality mode. NVIDIA recommends K for DLAA/Quality/Balanced, M for Performance, and L for Ultra Performance.
-L/M cost more on RTX 20/30 GPUs; consider K. J may reduce ghosting but flicker more. E/F are deprecated CNN models. NVIDIA default lets the runtime choose.
-L/M require DLSS 310.5 or newer; the download button provides 310.9.16. If Fire Emblem shows horizontal lines with L/M at 2x, try K. NVIDIA app overrides may supersede this choice. Apply/OK updates it while playing.</source>
-        <translation>仅在游戏使用自带 DLSS 时有效。
-M（DLSS 4.5）是 Lichii 对每个质量模式的默认值。NVIDIA 建议 DLAA/质量/平衡用 K，性能用 M，超高性能用 L。
-L/M 在 RTX 20/30 显卡上开销更高，可以考虑 K。J 可能减少拖影但闪烁更多。E/F 是已弃用的 CNN 模型。「NVIDIA 默认」让运行时自行选择。
-L/M 需要 DLSS 310.5 或更新；下载按钮提供 310.9.16。如果《火焰纹章》在 2 倍时用 L/M 出现横线，可以试试 K。NVIDIA app 的覆盖设置可能会取代这里的选项。游玩中点「应用」/「确定」会立即更新。</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2511,26 +2343,6 @@ Off while HDR output is active.</source>
 SMAA 画质最好。
 FXAA 在较低分辨率下画面更稳定。
 HDR 输出生效期间关闭。</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>The Legend of Zelda: Ocarina of Time only.
-Game: the game's own anti-aliasing network, which sharpens heavily.
-No sharpening: the image as the game renders it, without the network (faster; pairs well with a higher resolution). Has no effect while NVIDIA DLSS is on.
-Takes effect when the game starts.</source>
-        <translation>仅适用于《塞尔达传说 时之笛》。
-「游戏」：使用游戏自带的抗锯齿网络，锐化很重。
-「不锐化」：保持游戏渲染出的画面，不使用该网络（更快；与更高分辨率搭配更好）。NVIDIA DLSS 开启时无效。
-游戏启动时生效。</translation>
-    </message>
-    <message>
-        <location line="+106"/>
-        <source>How much of a Switch 2 compute shader's storage buffer is treated as written by the GPU after each dispatch.
-Auto marks what the shader's stores can reach and falls back to Full when that cannot be proven.
-Full marks the whole binding (up to 8 MiB), the original behaviour: it can delay the game's own writes to nearby memory (flickering effects) and copy far more data back from the GPU.</source>
-        <translation>每次 dispatch 之后，Switch 2 的 compute 着色器存储缓冲有多大范围被视为已由 GPU 写入。
-「自动」标记着色器写入可能到达的范围，无法证明时回退到「完整」。
-「完整」标记整个绑定（最多 8 MiB），即原来的行为：它可能推迟游戏对邻近内存的写入（效果闪烁），并从 GPU 拷贝回多得多的数据。</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2697,10 +2509,6 @@ Automatic uses the compute fallback on AMD RDNA2 GPUs (RX 6000 series), where na
     <message>
         <source>Drops to 30 FPS with the game&apos;s split-screen time step while the game runs below about 50 FPS, so heavy slowdowns don&apos;t slow down the game, and tries 60 FPS again every few seconds.</source>
         <translation>当游戏运行在约 50 FPS 以下时，改用游戏的左右分屏时间步长降到 30 FPS，避免严重掉速拖慢游戏，并且每隔几秒尝试恢复 60 FPS。</translation>
-    </message>
-    <message>
-        <source>Don&apos;t wait for shaders that are still compiling</source>
-        <translation>不等待仍在编译的着色器</translation>
     </message>
     <message>
         <source>Frame rate limit (Switch 2):</source>
@@ -5682,11 +5490,6 @@ Current values are %1% and %2% respectively.</source>
         <translation>浏览…</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Other host names don't resolve, and games can reach only this PC and the server address. Games get an id token Lichii makes for the current user instead of their Nextendo one. Multiplayer rooms are not affected.</source>
-        <translation>其他主机名不会解析，游戏只能访问本机和服务器地址。游戏会拿到 Lichii 为当前用户生成的 id token，而不是 Nextendo 的。多人房间不受影响。</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>Block all other network access</source>
         <translation>阻止其他所有网络访问</translation>
@@ -5700,11 +5503,6 @@ Current values are %1% and %2% respectively.</source>
         <location line="+6"/>
         <source>Play online through Nextendo Network</source>
         <translation>通过 Nextendo Network 在线游戏</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Nextendo Network is a community service that replaces Nintendo's online servers. When this is on, the games it supports connect to Nextendo instead of Nintendo and send your Nextendo game token to it. Airplane mode is turned off. Online play needs a Nextendo account with a verified e-mail address and a linked Discord account.</source>
-        <translation>Nextendo 网络是一个替代任天堂在线服务器的社区服务。开启后，受支持的游戏会连接到 Nextendo 而不是任天堂，并把你的 Nextendo 游戏令牌发过去。飞行模式会被关闭。在线游玩需要已验证邮箱并已关联 Discord 账号的 Nextendo 账户。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -5777,11 +5575,6 @@ Current values are %1% and %2% respectively.</source>
         <translation>此账号已在另一台设备上进行在线游戏。</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>nextendo.network doesn't recognise this account.</source>
-        <translation>nextendo.network 不认识此账户。</translation>
-    </message>
-    <message>
         <location line="+2"/>
         <source>nextendo.network refuses online play for this account (%1).</source>
         <translation>nextendo.network 拒绝为此账号提供在线游戏（%1）。</translation>
@@ -5833,11 +5626,6 @@ Current values are %1% and %2% respectively.</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>The sign-in didn't allow online play. Sign in again and allow it.</source>
-        <translation>本次登录未允许在线游玩。请重新登录并允许。</translation>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>Not signed in.</source>
         <translation>未登录。</translation>
     </message>
@@ -5850,11 +5638,6 @@ Current values are %1% and %2% respectively.</source>
         <location line="+1"/>
         <source>Signed in as %1.</source>
         <translation>已登录为 %1。</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Nextendo did not issue an online play token, so games can't log in to Nextendo yet.</source>
-        <translation>Nextendo 没有签发在线游玩令牌，因此游戏暂时无法登录 Nextendo。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -5917,11 +5700,6 @@ Current values are %1% and %2% respectively.</source>
         <translation>请先登录 Nextendo。</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>This sign-in doesn't allow friends. Sign in again and allow them.</source>
-        <translation>本次登录未允许好友功能。请重新登录并允许。</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>Could not reach nextendo.network.</source>
         <translation>无法连接 nextendo.network。</translation>
@@ -5930,11 +5708,6 @@ Current values are %1% and %2% respectively.</source>
         <location line="+3"/>
         <source>That is your own friend code.</source>
         <translation>这是你自己的好友代码。</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>nextendo.network doesn't know that player or friend code.</source>
-        <translation>nextendo.network 不认识该玩家或好友码。</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5963,10 +5736,6 @@ Current values are %1% and %2% respectively.</source>
         <translation>Nextendo 没有发放在线游戏令牌，因此游戏暂时无法登录 Nextendo。</translation>
     </message>
     <message>
-        <source>Friends and presence aren&apos;t available for Lichii on Nextendo right now.</source>
-        <translation>Lichii 目前在 Nextendo 上无法使用好友与在线状态功能。</translation>
-    </message>
-    <message>
         <source>This sign-in doesn&apos;t allow friends. Sign in again and allow them.</source>
         <translation>本次登录未允许好友功能，请重新登录并允许该权限。</translation>
     </message>
@@ -5993,10 +5762,6 @@ Current values are %1% and %2% respectively.</source>
     <message>
         <source>nextendo.network doesn&apos;t recognise this account.</source>
         <translation>nextendo.network 无法识别此账号。</translation>
-    </message>
-    <message>
-        <source>The CA certificate (DER, at most 64 KiB) that signed your server&apos;s certificate. Optional.</source>
-        <translation>为你的服务器证书签名的 CA 证书（DER 格式，最大 64 KiB）。可选。</translation>
     </message>
 </context>
 <context>
@@ -6137,11 +5902,6 @@ Current values are %1% and %2% respectively.</source>
         <translation>使用你自己的 iiDB API 密钥选择在线封面图。点击“应用”或“确定”保存更改。</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Show the game's own icon again. Apply or OK saves changes.</source>
-        <translation>恢复游戏自带的图标。点「应用」或「确定」保存更改。</translation>
-    </message>
-    <message>
         <location line="+3"/>
         <source>Remove Custom Icon</source>
         <translation>移除自定义图标</translation>
@@ -6155,11 +5915,6 @@ Current values are %1% and %2% respectively.</source>
         <location line="+3"/>
         <source>If no local icon is found, send the game name to GitHub, Wikipedia and Bing to look for an icon. Disabled by default.</source>
         <translation>若找不到本地图标，将游戏名称发送给 GitHub、Wikipedia 和 Bing 以查找图标。默认关闭。</translation>
-    </message>
-    <message>
-        <location line="+149"/>
-        <source>Name shown in the library. Clear it to use the game's own name.</source>
-        <translation>在库中显示的名称。留空则使用游戏自带的名称。</translation>
     </message>
     <message>
         <location line="+109"/>
@@ -6993,11 +6748,6 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <translation>恢复默认</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Warning: The settings in this page affect the inner workings of Lichii's emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
-        <translation>警告：本页设置会影响 Lichii 模拟触摸屏的内部机制。修改它们可能导致不良后果，例如触摸屏部分失灵或完全无法使用。只有在你清楚自己在做什么时，才应使用本页。</translation>
-    </message>
-    <message>
         <source>Warning: The settings in this page affect the inner workings of Lichii&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
         <translation>警告: 此页面中的设置会影响 Lichii 模拟触摸屏的内部运行。更改这些设置可能导致不良后果,例如触摸屏部分或完全无法使用。只有在明确知道自己在做什么的情况下才使用此页面。</translation>
     </message>
@@ -7190,11 +6940,6 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <translation>留空：不进行在线查找</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Artwork is looked up on steamgriddb.com only when a key is set, for games that have no icon and no custom artwork. The picture is saved as the game's custom artwork, so you can still replace it in Configure Game.</source>
-        <translation>只有在设置了密钥时，才会到 steamgriddb.com 查找封面，并且仅针对既没有图标也没有自定义封面的游戏。图片会保存为该游戏的自定义封面，你仍然可以在「配置游戏」里替换它。</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>&lt;a href="%1"&gt;Get a key&lt;/a&gt;</source>
         <translation>&lt;a href="%1"&gt;获取密钥&lt;/a&gt;</translation>
@@ -7203,10 +6948,6 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <location line="+60"/>
         <source>%1 - not in this build</source>
         <translation>%1 - 此版本中没有</translation>
-    </message>
-    <message>
-        <source>&lt;a href=&quot;%1&quot;&gt;Get a key&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;%1&quot;&gt;获取密钥&lt;/a&gt;</translation>
     </message>
     <message>
         <source>Artwork is looked up on steamgriddb.com only when a key is set, for games that have no icon and no custom artwork. The picture is saved as the game&apos;s custom artwork, so you can still replace it in Configure Game.</source>
@@ -7515,11 +7256,6 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <location filename="../../src/lichii/deps_dialog.ui" line="+14"/>
         <source>Lichii Dependencies</source>
         <translation>Lichii 依赖项</translation>
-    </message>
-    <message>
-        <location line="+58"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:28pt;"&gt;Lichii Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=" font-size:28pt;"&gt;Lichii 依赖&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -10003,11 +9739,6 @@ Would you like to bypass this and exit anyway?</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Your Nextendo sign-in didn't allow online play, so Lichii signed you out.</source>
-        <translation>你的 Nextendo 登录未允许在线游玩，Lichii 已让你退出登录。</translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>Signed out of Nextendo</source>
         <translation>已退出 Nextendo</translation>
     </message>
@@ -10015,21 +9746,6 @@ Would you like to bypass this and exit anyway?</source>
         <location line="+2"/>
         <source>Sign in again in Configure &gt; Network.</source>
         <translation>请在 设置 &gt; 网络 中重新登录。</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Nextendo online play is on, but you aren't signed in. Sign in in Configure &gt; Network.</source>
-        <translation>Nextendo 在线游玩已开启，但你尚未登录。请在「设置 &gt; 网络」中登录。</translation>
-    </message>
-    <message>
-        <location line="+25"/>
-        <source>Nextendo doesn't offer online play for this game right now.</source>
-        <translation>Nextendo 目前不为此游戏提供在线游玩。</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>This version of the game can't play online on Nextendo. Update it to %1.</source>
-        <translation>此版本的游戏无法在 Nextendo 上在线游玩。请更新到 %1。</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -10077,27 +9793,9 @@ Would you like to bypass this and exit anyway?</source>
         <translation>内存不足</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>This PC has %1 GB of RAM. Switch 2 games need at least 16 GB, and 32 GB is recommended.
-
-Games can crash, and can even freeze or crash the whole PC.
-
-This setup isn't supported, so please don't open issues or ask for help about crashes on it.</source>
-        <translation>这台 PC 只有 %1 GB 内存。Switch 2 游戏至少需要 16 GB，建议 32 GB。
-
-游戏可能崩溃，甚至可能让整台 PC 卡死或崩溃。
-
-这种配置不受支持，请不要为此类崩溃提交 issue 或寻求帮助。</translation>
-    </message>
-    <message>
         <location line="+7"/>
         <source>Continue anyway</source>
         <translation>仍然继续</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Don't show this again</source>
-        <translation>不再显示</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -10153,11 +9851,6 @@ This setup isn't supported, so please don't open issues or ask for help about cr
         <location line="-1480"/>
         <source>Not enough memory to start the game</source>
         <translation>内存不足，无法启动游戏</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Lichii could not allocate the game's memory. Close other applications and check that your system has enough available memory and paging-file space, then try again.</source>
-        <translation>Lichii 无法为游戏分配内存。请关闭其他程序，确认系统有足够的可用内存和页面文件空间，然后重试。</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -10472,16 +10165,6 @@ You can change this in Configure, Graphics, Advanced.</source>
         <translation>此 GPU 缺少 LSFG 需要的 Vulkan 特性（Vulkan 内存模型与 null 描述符）。Lichii 光流插帧或许仍可使用。</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>This GPU can't write to the window's swapchain format from a shader, so generated frames can't be presented.</source>
-        <translation>此 GPU 无法从着色器写入窗口交换链格式，因此无法呈现生成的帧。</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>LSFG needs Lossless.dll from Lossless Scaling in the "lossless" folder of the user directory. It is missing or could not be loaded.</source>
-        <translation>LSFG 需要 Lossless Scaling 的 Lossless.dll，放在用户目录的「lossless」文件夹里。它缺失或无法加载。</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>FG UNAVAILABLE</source>
         <translation>帧生成不可用</translation>
@@ -10631,19 +10314,6 @@ Would you like to bypass this and exit anyway?</source>
         <translation>检查更新(&amp;U)...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Lichii found Nextendo sign-ins for %n profile(s) this NAND doesn't have. Profiles deleted in an older build left theirs behind.
-
-Remove and sign out those sign-ins? Keep them if the profiles are in another NAND folder.</source>
-        <translation>Lichii 在这个 NAND 里找不到 %n 个账户档案对应的 Nextendo 登录。旧版本删除账户档案时把这些登录留了下来。
-
-要移除并登出这些登录吗？如果这些账户档案在另一个 NAND 文件夹里，请保留它们。</translation>
-    </message>
-    <message>
-        <source>You&apos;re on the latest build (%1).</source>
-        <translation>你已是最新版本（%1）。</translation>
-    </message>
-    <message>
         <source>This PC has %1 GB of RAM. Switch 2 games need at least 16 GB, and 32 GB is recommended.
 
 Games can crash, and can even freeze or crash the whole PC.
@@ -10722,10 +10392,6 @@ You can change this in Configure, Graphics, Advanced.</source>
     <message>
         <source>Recommended Mario Kart World settings</source>
         <translation>推荐的《马力欧卡丁车世界》设置</translation>
-    </message>
-    <message>
-        <source> (%1 DOESN&apos;T FIT)</source>
-        <translation>（%1 不适用）</translation>
     </message>
     <message>
         <source> NVIDIA DLSS Frame Generation can&apos;t run for this game or setup, so FSR3 runs instead; the log says why.</source>
@@ -11309,15 +10975,6 @@ p, li { white-space: pre-wrap; }
         <location filename="../../src/lichii/user_data_migration.cpp" line="68"/>
         <source>Link Old Directory</source>
         <translation>链接旧目录</translation>
-    </message>
-    <message>
-        <location filename="../../src/lichii/user_data_migration.cpp" line="98"/>
-        <source>
-
-</source>
-        <translation>
-
-</translation>
     </message>
     <message>
         <location filename="../../src/lichii/user_data_migration.cpp" line="102"/>
@@ -14509,10 +14166,6 @@ Restart now?</source>
         <source>The downloaded file does not match the checksum GitHub published for it, so it was discarded. Try again later.</source>
         <translation>下载的文件与 GitHub 公布的校验和不符，已丢弃。请稍后重试。</translation>
     </message>
-    <message>
-        <source>&lt;a href=&quot;%1&quot;&gt;View on GitHub&lt;/a&gt;</source>
-        <translation>&lt;a href=&quot;%1&quot;&gt;在 GitHub 上查看&lt;/a&gt;</translation>
-    </message>
 </context>
 <context>
     <name>CompatibilityReporting::Dialog</name>
@@ -15346,11 +14999,6 @@ Would you like to manually select a portable folder to use?</source>
         <translation>例如：世界 2 的第一段过场动画之后，天空变白了。</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>&lt;b&gt;Send this report privately to the Lichii maintainers&lt;/b&gt; (the log bot's /bug command or a direct message), not to a public channel or issue. It holds the game's textures and shaders from one frame. Your user name is removed from paths and online service settings are left out.</source>
-        <translation>&lt;b&gt;请把这份报告私下发给 Lichii 维护者&lt;/b&gt;（日志机器人的 /bug 命令或私信），不要发到公开频道或 issue。它包含游戏某一帧的纹理与着色器。路径中已移除你的用户名，在线服务设置也不会包含在内。</translation>
-    </message>
-    <message>
         <location line="+14"/>
         <source>Save Report</source>
         <translation>保存报告</translation>
@@ -15587,6 +15235,14 @@ Would you like to manually select a portable folder to use?</source>
     <message>
         <source>Configure is in Emulation &gt; Configure (Ctrl+,). Right-click a game and choose Properties for its own settings. Help &gt; What&apos;s New in Lichii shows this again.</source>
         <translation>设置在 模拟 &gt; 设置（Ctrl+,）中。右键游戏并选择“属性”可打开该游戏的单独设置。帮助 &gt; Lichii 新功能 可再次打开本页。</translation>
+    </message>
+    <message>
+        <source>Coming in the next release (preview)</source>
+        <translation>下个版本即将推出（预览）</translation>
+    </message>
+    <message>
+        <source>No release highlights were bundled.</source>
+        <translation>此版本未附带更新亮点。</translation>
     </message>
 </context>
 <context>
@@ -15921,11 +15577,6 @@ Would you like to manually select a portable folder to use?</source>
         <location line="+16"/>
         <source>Shader precache is ready.</source>
         <translation>着色器预编译缓存已就绪。</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>This game keeps its shaders in a format Lichii can't read, so none are prepared from the game files.</source>
-        <translation>此游戏的着色器采用了 Lichii 无法读取的格式，因此没有从游戏文件中准备任何着色器。</translation>
     </message>
     <message>
         <location line="+2"/>
