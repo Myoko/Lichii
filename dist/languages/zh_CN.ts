@@ -16685,6 +16685,40 @@ Try again without the recipe? The game still runs from the NX archive, but the o
         <source>Enable</source>
         <translation>启用</translation>
     </message>
+    <message>
+        <source>GitHub</source>
+        <translation>GitHub</translation>
+    </message>
+    <message>
+        <source>View on GitHub</source>
+        <translation>在 GitHub 上查看</translation>
+    </message>
+    <message>
+        <source>Main build ID prefix</source>
+        <translation>主程序 build ID 前缀</translation>
+    </message>
+    <message>
+        <source>Main build ID</source>
+        <translation>主程序 build ID</translation>
+    </message>
+    <message>
+        <source>Patch build ID</source>
+        <translation>补丁 build ID</translation>
+    </message>
+    <message>
+        <source>Source: %1 @ %2
+License: Not declared</source>
+        <translation>来源：%1 @ %2
+许可：未声明</translation>
+    </message>
+    <message>
+        <source>No verified download is available for this patch. Open GitHub for the files and instructions.</source>
+        <translation>此补丁没有可验证的下载。请到 GitHub 获取文件和安装说明。</translation>
+    </message>
+    <message>
+        <source>Checking and installing the patch…</source>
+        <translation>正在检查并安装补丁…</translation>
+    </message>
 </context>
 <context>
     <name>ArtworkDialog</name>
