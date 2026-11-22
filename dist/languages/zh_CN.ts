@@ -16062,7 +16062,7 @@ Try again without the recipe? The game still runs from the NX archive, but the o
     </message>
 </context>
 <context>
-    <name>Dialog</name>
+    <name>ModStore::Dialog</name>
     <message>
         <source>Submitting… Closing stops waiting, but cannot retract a report the server already received. There are no automatic retries.</source>
         <translation>正在提交… 关闭窗口只会停止等待，但无法撤回服务器已经收到的报告。不会自动重试。</translation>
@@ -16622,6 +16622,58 @@ Try again without the recipe? The game still runs from the NX archive, but the o
     <message>
         <source>Mod uninstalled, but Lichii could not clear its saved disabled state.</source>
         <translation>Mod 已卸载，但 Lichii 无法清除其已保存的禁用状态。</translation>
+    </message>
+    <message>
+        <source>Mod Store</source>
+        <translation>Mod 商店</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation>刷新</translation>
+    </message>
+    <message>
+        <source>Filter:</source>
+        <translation>筛选：</translation>
+    </message>
+    <message>
+        <source>Mods</source>
+        <translation>Mod</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>类型</translation>
+    </message>
+    <message>
+        <source>Install</source>
+        <translation>安装</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+    <message>
+        <source>Graphics</source>
+        <translation>图形</translation>
+    </message>
+    <message>
+        <source>FPS</source>
+        <translation>FPS</translation>
+    </message>
+    <message>
+        <source>Game</source>
+        <translation>游戏</translation>
+    </message>
+    <message>
+        <source>Title ID</source>
+        <translation>Title ID</translation>
+    </message>
+    <message>
+        <source>Enable</source>
+        <translation>启用</translation>
     </message>
 </context>
 <context>
@@ -17818,13 +17870,6 @@ Would you like to manually select a portable folder to use?</source>
     </message>
 </context>
 <context>
-    <name>FlyHighTypeMenu</name>
-    <message>
-        <source>FlyHigh settings</source>
-        <translation>FlyHigh 设置</translation>
-    </message>
-</context>
-<context>
     <name>ModStoreClient</name>
     <message>
         <source>The store URL is not allowed.</source>
@@ -17881,6 +17926,13 @@ Would you like to manually select a portable folder to use?</source>
     <message>
         <source>Too many store requests are already running.</source>
         <translation>正在运行的商店请求过多。</translation>
+    </message>
+</context>
+<context>
+    <name>QMenu</name>
+    <message>
+        <source>FlyHigh settings</source>
+        <translation>FlyHigh 设置</translation>
     </message>
 </context>
 </TS>
