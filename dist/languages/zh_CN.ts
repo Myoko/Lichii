@@ -2894,6 +2894,16 @@ NVIDIA DLSS 帧生成（仅 Windows）需要 GeForce RTX 40 系或更新的 GPU�
         <source>FlyHigh</source>
         <translation>FlyHigh</translation>
     </message>
+    <message>
+        <source>Render thread (experimental)</source>
+        <translation>渲染线程（实验性）</translation>
+    </message>
+    <message>
+        <source>The GPU render thread records Vulkan commands off the GPU back thread, so the two run side by side on Switch 2 games. Experimental and off by default.
+Takes effect after restarting the game.</source>
+        <translation>GPU 渲染线程在 GPU 后端线程之外录制 Vulkan 命令，因此在 Switch 2 游戏上两者可以并行运行。实验性功能，默认关闭。
+重启游戏后生效。</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
