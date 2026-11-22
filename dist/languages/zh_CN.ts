@@ -2876,6 +2876,24 @@ Takes effect when a game starts.</source>
         <source>Frame Generation Multiplier</source>
         <translation>帧生成倍率</translation>
     </message>
+    <message>
+        <source>Lichii Optical Flow Frame Generation is built in and runs on any GPU.
+FlyHigh needs a compatible Vulkan driver and a one-time model download. It falls back to Lichii Optical Flow when unavailable.
+NVIDIA DLSS Frame Generation (Windows only) needs a GeForce RTX 40 series or newer GPU (3x and 4x need an RTX 50 series), Hardware-accelerated GPU scheduling on in Windows&apos; graphics settings, &quot;Use NVIDIA DLSS&quot; on and NVIDIA&apos;s files from the NVIDIA DLSS panel. It takes the game&apos;s depth and motion vectors from the DLSS evaluation, so it runs in The Legend of Zelda: Ocarina of Time only, docked, with DLSS as its upscaler. Other games, and scRGB HDR output, use Lichii Optical Flow Frame Generation instead.
+VSync is off while it runs. Choosing it takes effect when a game starts.</source>
+        <translation>Lichii 光流帧生成内置于程序中，可在任何 GPU 上运行。
+FlyHigh 需要兼容的 Vulkan 驱动，并需一次性下载模型；不可用时回退到 Lichii 光流。
+NVIDIA DLSS 帧生成（仅 Windows）需要 GeForce RTX 40 系或更新的 GPU（3x 和 4x 需要 RTX 50 系）、在 Windows 图形设置中开启硬件加速 GPU 计划、开启“使用 NVIDIA DLSS”，并在 NVIDIA DLSS 面板中放置 NVIDIA 的文件。它从 DLSS 评估中获取游戏的深度和运动矢量，因此仅在《塞尔达传说：时之笛》中、底座模式且以 DLSS 作为上采样器时可用。其他游戏以及 scRGB HDR 输出请改用 Lichii 光流帧生成。
+运行期间 VSync 关闭。选择后会在游戏启动时生效。</translation>
+    </message>
+    <message>
+        <source>Keep HUD Still (FlyHigh)</source>
+        <translation>保持 HUD 静止（FlyHigh）</translation>
+    </message>
+    <message>
+        <source>FlyHigh</source>
+        <translation>FlyHigh</translation>
+    </message>
 </context>
 <context>
     <name>ConfigureApplets</name>
@@ -6138,6 +6156,10 @@ Once deleted, these can NOT be recovered. Are you 100% sure you want to delete t
         <source>This update is part of the NUP and cannot be disabled here.</source>
         <translation>此更新包含在 NUP 之中，无法在这里禁用。</translation>
     </message>
+    <message>
+        <source>Browse Mods</source>
+        <translation>浏览 Mod</translation>
+    </message>
 </context>
 <context>
     <name>ConfigurePostProcessing</name>
@@ -7134,6 +7156,14 @@ Drag points to change position, or double-click table cells to edit values.</sou
         <location line="+8"/>
         <source>Lichii Web Service</source>
         <translation>Lichii 网络服务</translation>
+    </message>
+    <message>
+        <source>&amp;API base URL:</source>
+        <translation>&amp;API 基础 URL：</translation>
+    </message>
+    <message>
+        <source>Leave blank to restore the default Mod Store address.</source>
+        <translation>留空可恢复默认的 Mod 商店地址。</translation>
     </message>
 </context>
 <context>
@@ -10448,6 +10478,30 @@ Remove and sign out those sign-ins? Keep them if the profiles are in another NAN
     <message>
         <source>Your Nextendo sign-in didn&apos;t allow online play, so Lichii signed you out.</source>
         <translation>你的 Nextendo 登录未允许在线游戏，Lichii 已将你退出登录。</translation>
+    </message>
+    <message>
+        <source>&amp;Mod Store</source>
+        <translation>&amp;Mod 商店</translation>
+    </message>
+    <message>
+        <source>Mod Store</source>
+        <translation>Mod 商店</translation>
+    </message>
+    <message>
+        <source>Wait for the NX metadata edit to finish before browsing mods.</source>
+        <translation>请等待 NX 元数据编辑完成后再浏览 mod。</translation>
+    </message>
+    <message>
+        <source>Wait for the game library to finish loading before browsing mods.</source>
+        <translation>请等待游戏库加载完成后再浏览 mod。</translation>
+    </message>
+    <message numerus="yes">
+        <source>Building: %n shader(s), %1 left</source>
+        <translation><numerusform>正在构建：%n 个着色器，剩余 %1</numerusform></translation>
+    </message>
+    <message>
+        <source> FlyHigh can&apos;t run yet (its model is not downloaded, or the log says why), so Lichii Optical Flow runs instead. Right-click FlyHigh to open its settings.</source>
+        <translation> FlyHigh 暂时无法运行（模型尚未下载，或日志中已说明原因），因此改用 Lichii 光流。右键点击 FlyHigh 可打开其设置。</translation>
     </message>
 </context>
 <context>
@@ -16237,6 +16291,338 @@ Try again without the recipe? The game still runs from the NX archive, but the o
         <source>System and settings</source>
         <translation>系统与设置</translation>
     </message>
+    <message>
+        <source>All games</source>
+        <translation>所有游戏</translation>
+    </message>
+    <message>
+        <source>Installed</source>
+        <translation>已安装</translation>
+    </message>
+    <message>
+        <source>Game:</source>
+        <translation>游戏：</translation>
+    </message>
+    <message>
+        <source>Enter a name, author, or description</source>
+        <translation>输入名称、作者或描述</translation>
+    </message>
+    <message>
+        <source>All types</source>
+        <translation>所有类型</translation>
+    </message>
+    <message>
+        <source>Recently updated</source>
+        <translation>最近更新</translation>
+    </message>
+    <message>
+        <source>Name A–Z</source>
+        <translation>名称 A–Z</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>类型：</translation>
+    </message>
+    <message>
+        <source>Sort by:</source>
+        <translation>排序：</translation>
+    </message>
+    <message>
+        <source>Games</source>
+        <translation>游戏</translation>
+    </message>
+    <message>
+        <source>Mod name</source>
+        <translation>Mod 名称</translation>
+    </message>
+    <message>
+        <source>Load more</source>
+        <translation>加载更多</translation>
+    </message>
+    <message>
+        <source>Mod preview</source>
+        <translation>Mod 预览</translation>
+    </message>
+    <message>
+        <source>Not verified by the catalog</source>
+        <translation>目录未验证</translation>
+    </message>
+    <message>
+        <source>View on GameBanana</source>
+        <translation>在 GameBanana 上查看</translation>
+    </message>
+    <message>
+        <source>Uninstall</source>
+        <translation>卸载</translation>
+    </message>
+    <message>
+        <source>Installing mod</source>
+        <translation>正在安装 mod</translation>
+    </message>
+    <message>
+        <source>Show less</source>
+        <translation>收起</translation>
+    </message>
+    <message>
+        <source>Show full description</source>
+        <translation>显示完整描述</translation>
+    </message>
+    <message>
+        <source>Cheats</source>
+        <translation>作弊</translation>
+    </message>
+    <message>
+        <source>Translation</source>
+        <translation>汉化</translation>
+    </message>
+    <message>
+        <source>Gameplay</source>
+        <translation>玩法</translation>
+    </message>
+    <message>
+        <source>Match</source>
+        <translation>匹配</translation>
+    </message>
+    <message>
+        <source>Unverified</source>
+        <translation>未验证</translation>
+    </message>
+    <message>
+        <source>Mismatch</source>
+        <translation>不匹配</translation>
+    </message>
+    <message>
+        <source>Loading mods…</source>
+        <translation>正在加载 mod…</translation>
+    </message>
+    <message>
+        <source>Could not load the catalog: %1. Retry with Refresh; installed mods are still available.</source>
+        <translation>无法加载目录：%1。用“刷新”重试；已安装的 mod 仍然可用。</translation>
+    </message>
+    <message>
+        <source>No matching mods. Change the game, type, or search filter.</source>
+        <translation>没有匹配的 mod。请更改游戏、类型或搜索条件。</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n result(s)</source>
+        <translation><numerusform>%n 个结果</numerusform></translation>
+    </message>
+    <message>
+        <source>No installed store mods match this filter.</source>
+        <translation>没有已安装的商店 mod 符合此筛选条件。</translation>
+    </message>
+    <message>
+        <source>Installed mods are available offline.</source>
+        <translation>已安装的 mod 可离线使用。</translation>
+    </message>
+    <message>
+        <source>Select a mod to see its details</source>
+        <translation>选择一个 mod 以查看详情</translation>
+    </message>
+    <message>
+        <source>Installed release: %1</source>
+        <translation>已安装版本：%1</translation>
+    </message>
+    <message>
+        <source>Could not load details: %1</source>
+        <translation>无法加载详情：%1</translation>
+    </message>
+    <message>
+        <source>GameBanana</source>
+        <translation>GameBanana</translation>
+    </message>
+    <message>
+        <source>Sample</source>
+        <translation>示例</translation>
+    </message>
+    <message>
+        <source>Lichii catalog</source>
+        <translation>Lichii 目录</translation>
+    </message>
+    <message>
+        <source>Preview %1</source>
+        <translation>预览 %1</translation>
+    </message>
+    <message>
+        <source>Preview unavailable</source>
+        <translation>预览不可用</translation>
+    </message>
+    <message>
+        <source>%1 · %2 · %3</source>
+        <translation>%1 · %2 · %3</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>未知</translation>
+    </message>
+    <message>
+        <source>Catalog game</source>
+        <translation>目录游戏</translation>
+    </message>
+    <message>
+        <source>Target game version</source>
+        <translation>目标游戏版本</translation>
+    </message>
+    <message>
+        <source>Target build ID</source>
+        <translation>目标 build ID</translation>
+    </message>
+    <message>
+        <source>Minimum Lichii</source>
+        <translation>最低 Lichii 版本</translation>
+    </message>
+    <message>
+        <source>Installed version</source>
+        <translation>已安装版本</translation>
+    </message>
+    <message>
+        <source>Not in your library</source>
+        <translation>不在你的游戏库中</translation>
+    </message>
+    <message>
+        <source>Installed build ID</source>
+        <translation>已安装 build ID</translation>
+    </message>
+    <message>
+        <source>Running Lichii</source>
+        <translation>正在运行的 Lichii</translation>
+    </message>
+    <message>
+        <source>Release number unavailable</source>
+        <translation>版本号不可用</translation>
+    </message>
+    <message numerus="yes">
+        <source>%1 and %n more</source>
+        <translation><numerusform>%1 以及另外 %n 个</numerusform></translation>
+    </message>
+    <message>
+        <source>Patch build IDs</source>
+        <translation>补丁 build ID</translation>
+    </message>
+    <message>
+        <source>Reinstall</source>
+        <translation>重新安装</translation>
+    </message>
+    <message>
+        <source>Update</source>
+        <translation>更新</translation>
+    </message>
+    <message>
+        <source>Disable</source>
+        <translation>禁用</translation>
+    </message>
+    <message>
+        <source>This sample is not available for installation.</source>
+        <translation>此示例不可安装。</translation>
+    </message>
+    <message>
+        <source>This ZIP requires choosing components. Open GameBanana to install it manually.</source>
+        <translation>此 ZIP 需要选择组件。请打开 GameBanana 手动安装。</translation>
+    </message>
+    <message>
+        <source>This listing does not target the selected game.</source>
+        <translation>此条目并非针对所选游戏。</translation>
+    </message>
+    <message>
+        <source>This release does not match the installed game or Lichii build.</source>
+        <translation>此版本与已安装的游戏或 Lichii 版本不匹配。</translation>
+    </message>
+    <message>
+        <source>Only ZIP files up to 64 MiB can be installed. Open GameBanana for this file.</source>
+        <translation>只能安装不超过 64 MiB 的 ZIP 文件。请到 GameBanana 打开此文件。</translation>
+    </message>
+    <message>
+        <source>Add this game to your library to install its mods.</source>
+        <translation>请将此游戏添加到游戏库，以安装其 mod。</translation>
+    </message>
+    <message>
+        <source>The installed game or Lichii build could not be verified.</source>
+        <translation>无法验证已安装的游戏或 Lichii 版本。</translation>
+    </message>
+    <message>
+        <source>Installed and disabled</source>
+        <translation>已安装并禁用</translation>
+    </message>
+    <message>
+        <source>Installed and enabled</source>
+        <translation>已安装并启用</translation>
+    </message>
+    <message>
+        <source>A different release is available.</source>
+        <translation>有另一个版本可用。</translation>
+    </message>
+    <message>
+        <source>Could not install the mod</source>
+        <translation>无法安装 mod</translation>
+    </message>
+    <message>
+        <source>Compatibility unverified</source>
+        <translation>兼容性未验证</translation>
+    </message>
+    <message>
+        <source>Lichii could not confirm that this file works with your game version. It will check the download&apos;s SHA-256 before installing. Continue?</source>
+        <translation>Lichii 无法确认此文件与你的游戏版本兼容。安装前会校验下载文件的 SHA-256。是否继续？</translation>
+    </message>
+    <message>
+        <source>Downloading %1…</source>
+        <translation>正在下载 %1…</translation>
+    </message>
+    <message>
+        <source>Could not download the mod: %1</source>
+        <translation>无法下载 mod：%1</translation>
+    </message>
+    <message>
+        <source>Checking the download…</source>
+        <translation>正在检查下载…</translation>
+    </message>
+    <message>
+        <source>Verifying SHA-256…</source>
+        <translation>正在校验 SHA-256…</translation>
+    </message>
+    <message>
+        <source>Downloading %1 of %2 KiB…</source>
+        <translation>正在下载 %1 / %2 KiB…</translation>
+    </message>
+    <message>
+        <source>Checking the ZIP and installing the mod…</source>
+        <translation>正在检查 ZIP 并安装 mod…</translation>
+    </message>
+    <message>
+        <source>Installation complete. The mod is available in Add-Ons.</source>
+        <translation>安装完成。该 mod 已在“附加内容”中可用。</translation>
+    </message>
+    <message>
+        <source>Download canceled. No add-ons were changed.</source>
+        <translation>下载已取消，未更改任何附加内容。</translation>
+    </message>
+    <message>
+        <source>Could not save the change to this mod.</source>
+        <translation>无法保存对此 mod 的更改。</translation>
+    </message>
+    <message>
+        <source>Mod disabled.</source>
+        <translation>Mod 已禁用。</translation>
+    </message>
+    <message>
+        <source>Mod enabled.</source>
+        <translation>Mod 已启用。</translation>
+    </message>
+    <message>
+        <source>Uninstall %1?</source>
+        <translation>卸载 %1？</translation>
+    </message>
+    <message>
+        <source>Uninstall mod</source>
+        <translation>卸载 mod</translation>
+    </message>
+    <message>
+        <source>Mod uninstalled.</source>
+        <translation>Mod 已卸载。</translation>
+    </message>
+    <message>
+        <source>Mod uninstalled, but Lichii could not clear its saved disabled state.</source>
+        <translation>Mod 已卸载，但 Lichii 无法清除其已保存的禁用状态。</translation>
+    </message>
 </context>
 <context>
     <name>ArtworkDialog</name>
@@ -17382,6 +17768,119 @@ Would you like to manually select a portable folder to use?</source>
         <location filename="../../src/qt_common/util/content.cpp" line="380"/>
         <source>Exporting data. This may take a while...</source>
         <translation>正在导出数据。这可能需要一些时间...</translation>
+    </message>
+</context>
+<context>
+    <name>FlyHighDialog</name>
+    <message>
+        <source>FlyHigh Frame Generation</source>
+        <translation>FlyHigh 帧生成</translation>
+    </message>
+    <message>
+        <source>A neural network that makes the frames between the game&apos;s own, on the same GPU.</source>
+        <translation>一种在同一块 GPU 上为游戏自身的帧之间生成中间帧的神经网络。</translation>
+    </message>
+    <message>
+        <source>%1x (%2 generated per game frame)</source>
+        <translation>%1x（每个游戏帧生成 %2 帧）</translation>
+    </message>
+    <message>
+        <source>Multiplier</source>
+        <translation>倍率</translation>
+    </message>
+    <message>
+        <source> FPS</source>
+        <translation> FPS</translation>
+    </message>
+    <message>
+        <source>Off (use the multiplier)</source>
+        <translation>关闭（使用倍率）</translation>
+    </message>
+    <message>
+        <source>Generates up to %1 frames per game frame, as many as reach this frame rate.</source>
+        <translation>每个游戏帧最多生成 %1 帧，数量以刚好达到该帧率为准。</translation>
+    </message>
+    <message>
+        <source>Target frame rate</source>
+        <translation>目标帧率</translation>
+    </message>
+    <message>
+        <source>Keep HUD still</source>
+        <translation>保持 HUD 静止</translation>
+    </message>
+    <message>
+        <source>Pixels that have not changed for several frames, such as a HUD, are shown as they are instead of being interpolated.</source>
+        <translation>连续多帧没有变化的像素（例如 HUD）会原样显示，而不是被插值。</translation>
+    </message>
+    <message>
+        <source>Use FlyHigh</source>
+        <translation>使用 FlyHigh</translation>
+    </message>
+</context>
+<context>
+    <name>FlyHighTypeMenu</name>
+    <message>
+        <source>FlyHigh settings</source>
+        <translation>FlyHigh 设置</translation>
+    </message>
+</context>
+<context>
+    <name>ModStoreClient</name>
+    <message>
+        <source>The store URL is not allowed.</source>
+        <translation>不允许使用该商店 URL。</translation>
+    </message>
+    <message>
+        <source>The store request is invalid.</source>
+        <translation>商店请求无效。</translation>
+    </message>
+    <message>
+        <source>The store sent an invalid response.</source>
+        <translation>商店返回了无效响应。</translation>
+    </message>
+    <message>
+        <source>The preview image is unsupported or damaged.</source>
+        <translation>预览图不受支持或已损坏。</translation>
+    </message>
+    <message>
+        <source>The catalog has no checksum for this file.</source>
+        <translation>目录中没有该文件的校验和。</translation>
+    </message>
+    <message>
+        <source>The file does not match the catalog size.</source>
+        <translation>文件大小与目录记录不一致。</translation>
+    </message>
+    <message>
+        <source>The file does not match the catalog checksum.</source>
+        <translation>文件与目录校验和不一致。</translation>
+    </message>
+    <message>
+        <source>The response exceeds the size limit.</source>
+        <translation>响应超出大小限制。</translation>
+    </message>
+    <message>
+        <source>The request failed (HTTP %1).</source>
+        <translation>请求失败（HTTP %1）。</translation>
+    </message>
+    <message>
+        <source>Could not connect to the server or complete the request.</source>
+        <translation>无法连接服务器或完成请求。</translation>
+    </message>
+    <message>
+        <source>Could not save the temporary download.</source>
+        <translation>无法保存临时下载文件。</translation>
+    </message>
+    <message>
+        <source>The store request timed out.</source>
+        <translation>商店请求超时。</translation>
+    </message>
+    <message>
+        <source>The store request was cancelled.</source>
+        <translation>商店请求已取消。</translation>
+    </message>
+    <message>
+        <source>Too many store requests are already running.</source>
+        <translation>正在运行的商店请求过多。</translation>
     </message>
 </context>
 </TS>
