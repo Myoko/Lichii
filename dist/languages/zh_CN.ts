@@ -10513,6 +10513,14 @@ Remove and sign out those sign-ins? Keep them if the profiles are in another NAN
         <source> FlyHigh can&apos;t run yet (its model is not downloaded, or the log says why), so Lichii Optical Flow runs instead. Right-click FlyHigh to open its settings.</source>
         <translation> FlyHigh 暂时无法运行（模型尚未下载，或日志中已说明原因），因此改用 Lichii 光流。右键点击 FlyHigh 可打开其设置。</translation>
     </message>
+    <message>
+        <source>Keep the saved window size instead of resizing automatically when a game starts.</source>
+        <translation>游戏启动时保持已保存的窗口大小，而不是自动调整。</translation>
+    </message>
+    <message>
+        <source>Preserve Window Size Across Sessions</source>
+        <translation>跨会话保持窗口大小</translation>
+    </message>
 </context>
 <context>
     <name>MigrationWorker</name>
